@@ -1,0 +1,6 @@
+{
+    "script": "On cherche à déterminer les nombres complexes $z$ tels que $z^2=15-8i$. Pour cela, on pose $z=x+iy$.Montrer que $z^2=15-8i$ si et et seulement si $(x,y)$ est solution du système :\r\n$$\\left\\{\\begin{array}{rcl}\r\nx^2-y^2&=&15\\\\\r\n2xy&=&-8.\r\n\\end{array}\\right.$$Démontrer que si $z^2=15-8i$, on a aussi $x^2+y^2=17$.En déduire tous les nombres complexes $z$ tels que $z^2=15-8i$.",
+    "hint": "Développer.Penser au module.Calculer d'abord $x^2$.",
+    "solution": "On a\r\n$$z^2=(x+iy)^2=x^2-y^2+i2xy.$$\r\nPar unicité des parties réelles et imaginaires, $z^2=15-8i$ si et seulement si $(x,y)$ est solution du système proposé.Si $z^2=15-8i$, on doit avoir $|z^2|=|15-8i|$. Or, \r\n$$|z^2|=x^2+y^2$$\r\net \r\n$$|15-8i|=17.$$En utilisant le système et la question précédente, on trouve que si $z^2=15-8i$, alors\r\n$2x^2=17+15$. Ceci donne $x^2=16$ et donc $x=\\pm 4$. De plus, si $x=4$, alors l'équation $2xy=-8$ donne $y=-1$ tandis que si $x=-4$, alors $y=1$. On vérifie alors facilement que $4-i$ et $-4+i$ sont bien solution de $z^2=15-8i$. Ce sont les deux seules solutions de cette équation.",
+    "lang": "french"
+}

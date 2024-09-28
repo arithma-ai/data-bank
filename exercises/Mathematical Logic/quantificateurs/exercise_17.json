@@ -1,0 +1,6 @@
+{
+    "script": "Soit  $f:\\mathbb R\\to\\mathbb R$ une fonction. \r\nExprimer à l'aide de quantificateurs les assertions suivantes :$f$ est constante;$f$ n'est pas constante;$f$ s'annule;$f$ est périodique.",
+    "hint": "",
+    "solution": "On peut l'écrire sous la forme : \r\n$\\exists C\\in\\mathbb R$, $\\forall x\\in\\mathbb R$, $f(x)=C$; une autre écriture possible est $\\forall x,y\\in\\mathbb R,\\ f(x)=f(y)$.Si on nie l'assertion précédente, on trouve $\\forall C\\in\\mathbb R,$ $ \\exists x\\in\\mathbb R$, $f(x)\\neq C$. Si on nie la seconde, on trouve $\\exists x,y\\in\\mathbb R,\\ f(x)\\neq f(y)$.$\\exists x\\in\\mathbb R,\\ f(x)=0$;$\\exists T\\in\\mathbb R^*$, $\\forall x\\in\\mathbb R$, $f(x+T)=f(x)$.",
+    "lang": "french"
+}

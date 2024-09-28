@@ -1,0 +1,6 @@
+{
+    "script": "Une société de location de voitures a calculé que la probabilité qu'une de ses voitures louée ait un accident est égale à $0,2\\%$. On suppose que les accidents sont indépendants les uns des autres. Chaque jour, 1000 voitures de la société sont en circulation.  On note $N$ le nombre de voitures accidentées.Quelle est la loi de $N$?Donner une valeur approchée de la probabilité pour qu'il y ait au moins 5 voitures accidentées dans la journée.",
+    "hint": "Loi binomiale.Approcher par une loi de Poisson.",
+    "solution": "On reconnait le schéma d'une loi binomiale (somme de $1000$ variables aléatoires indépendant de Bernoulli de paramètre 0,002). Ainsi, $N$ suit une loi binomiale de paramètres $1000$ et $0,002$.On a $1000\\geq 30$, $p=0,002\\leq 0,1$ et $1000\\times 0,002=2<15$. On est donc dans les conditions où on peut approcher la loi binomiale par une loi de Poisson de paramètre $2$. On a donc\r\n$$P(N\\leq 4)\\simeq e^{-2}\\left(2^0+2^1+\\frac{2^2}{2!}+\\frac{2^3}{3!}+\\frac{2^4}{4!}\\right)=7e^{-2}\\simeq 0,95.$$\r\nAinsi, $P(N\\geq 5)=1-P(N\\leq 4)=0,05$. Il y a une probabilité d'environ 0,05 pour qu'il y ait au moins 5 voitures accidentées dans la journée (ce qui est beaucoup! les données initiales sont sans doute fausses!)",
+    "lang": "french"
+}

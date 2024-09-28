@@ -1,0 +1,6 @@
+{
+    "script": "On appelle tournoi un graphe orienté sans boucle tel que, entre deux sommets, il y a toujours exactement un arc.\r\nOn dit qu'un sommet $x$ d'un tournoi $G$ \\emph{domine} un sommet $y$ de $G$\r\nsi l'arc $(x,y)$ existe. On dit qu'un sommet $x$ est un roi si, pour tout autre sommet $y$, alorsou bien $x$ domine $y$;ou bien il existe un sommet $z$ tel que $x$ domine $z$ et $z$ domine $y$.Démontrer que, dans un tournoi, il existe toujours un roi.",
+    "hint": "Considérer le sommet de degré sortant le plus grand possible.",
+    "solution": "Soit $x$ le sommet du graphe de degré sortant le plus grand possible.\r\nOn va prouver que $x$ est un roi. Si ce n'est pas le cas, il existe un autre sommet $y$ tel que$y$ domine $x$; autrement dit, l'arc $(y,x)$ existe.Pour tout sommet $z$ tel que $x$ domine $z$, alors $y$ domine $z$; autrement dit, dès que l'arc $(x,z)$ existe,\r\nalors l'arc $(y,z)$ existe.Il est alors clair que le degré sortant de $y$ est strictement supérieur à celui de $x$, ce qui contredit la définition de\r\n$x$. Donc $x$ est un roi.",
+    "lang": "french"
+}

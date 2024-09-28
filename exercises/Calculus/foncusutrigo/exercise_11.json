@@ -1,0 +1,6 @@
+{
+    "script": "Simplifier les expressions suivantes :\r\n$$\\tan(\\arcsin x),\\quad \\sin(\\arccos x),\\quad \\cos(\\arctan x).$$",
+    "hint": "Utiliser $\\sin^2+\\cos^2=1$ pour la première et la deuxième expression,\r\net pour la troisième, $1+\\tan^2=\\frac{1}{\\cos^2 }$.",
+    "solution": "On a \r\n$$\\sin(\\arcsin x)=x.$$\r\nDe plus, $\\arcsin x\\in[-\\pi/2,\\pi/2]$ et pour tout $t\\in[-\\pi/2,\\pi/2]$, \r\n$\\cos(t)\\geq 0$ et donc $\\cos(t)=\\sqrt{1-\\sin^2 t}$. On en déduit\r\n$$\\cos(\\arcsin x)=\\sqrt{1-x^2}$$\r\nce qui donne\r\n$$\\tan(\\arcsin x)=\\frac{x}{\\sqrt{1-x^2}}.$$On a $\\arccos x\\in[0,\\pi]$ et pour tout $t\\in[0,\\pi]$,\r\n$\\sin(t)\\geq 0$ et donc $\\sin(t)=\\sqrt{1-\\cos^2 t}$. On en conclut que\r\n$$\\sin(\\arccos x)=\\sqrt{1-\\cos^2\\arccos x}=\\sqrt{1-x^2}.$$Puisque $\\arctan x\\in]-\\pi/2,\\pi/2[$, on sait que\r\n$\\cos(\\arctan x)>0$. De plus, on sait que \r\n$$1+\\tan^2=\\frac{1}{\\cos^2}.$$\r\nOn en déduit\r\n$$\\cos(\\arctan x)=\\frac{1}{\\sqrt{1+\\tan^2\\arctan x}}=\\frac{1}{\\sqrt{1+x^2}}.$$",
+    "lang": "french"
+}

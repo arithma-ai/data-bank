@@ -1,0 +1,6 @@
+{
+    "script": "Soient $M,N\\in\\mathcal M_n(\\mathbb C)$. Démontrer que $MN$ est inversible si et seulement si $M$ et $N$ sont inversibles.Soient $A,B\\in\\mathcal M_n(\\mathbb C)$. Démontrer que\r\n$$\\chi_A(B)\\in GL_n(\\mathbb C)\\iff \\textrm{Sp}(A)\\cap \\textrm{Sp}(B)=\\varnothing.$$",
+    "hint": "Utiliser le déterminant.Factoriser $\\chi_A(X)$ en fonction des valeurs propres de $A$, puis évaluer en $B$.",
+    "solution": "On a \r\n\\begin{eqnarray*}\r\nMN\\in GL_n(\\mathbb C)&\\iff& \\det(MN)\\neq 0\\\\\r\n&\\iff& \\det(M)\\times \\det(N)\\neq 0\\\\\r\n&\\iff& \\det(M)\\neq 0\\textrm{ et }\\det(N)\\neq 0\\\\\r\n&\\iff& M\\in GL_n(\\mathbb C)\\textrm{ et }N\\in GL_n(\\mathbb C).\r\n\\end{eqnarray*}Soient $\\lambda_1,\\dots,\\lambda_n$ les valeurs propres de $A$, répétées autant de fois que leur multiplicité, de sorte que $\\chi_A(X)=\\prod_{i=1}^n (X-\\lambda_i)$. On a donc \r\n$$\\chi_A(B)=\\prod_{i=1}^n (B-\\lambda_i I_n).$$\r\nD'après la première question (et une récurrence immédiate), $\\chi_A(B)$ est inversible si et seulement, pour tout $i=1,\\dots, n$, $B-\\lambda_i I_n$ est inversible, c'est-à-dire si et seulement si, pour tout $i=1,\\dots, n$, $\\lambda_i\\notin \\textrm{Sp}(B)$. Ceci revient à dire que $\\textrm{Sp}(A)\\cap \\textrm{Sp}(B)=\\varnothing$.",
+    "lang": "french"
+}

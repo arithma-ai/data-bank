@@ -1,0 +1,6 @@
+{
+    "script": "Parmi les matrices élémentaires $E_{i,j}$, lesquelles sont diagonalisables???",
+    "hint": "",
+    "solution": "Les matrices $E_{i,i}$ sont diagonales, donc diagonalisables! Si $i\\neq j$, alors le polynôme caractéristique de $E_{i,j}$ est $ X^n$. Autrement dit, $0$ est la seule valeur propre de $E_{i,j}$. Cette matrice est donc diagonalisable si et seulement si c'est la matrice nulle. Et ce n'est pas le cas! Donc $E_{i,j}$ est diagonalisable si et seulement si $i=j$.",
+    "lang": "french"
+}

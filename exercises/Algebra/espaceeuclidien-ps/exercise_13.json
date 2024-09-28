@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f\\in\\mathcal C^1([a,b],\\mathbb R)$ telle que $f(a)=0$.Démontrer que, pour tout $t\\in [a,b],$ on a\r\n$$f^2(t)\\leq (t-a)\\int_a^t f'^2(u)du.$$En déduire que \r\n$$\\int_a^b f^2(t)dt\\leq \\frac{(b-a)^2}2\\int_a^b f'^2(u)du.$$",
+    "hint": "Écrire $f(t)=\\int_a^t f'(u)du$ puis appliquer l'inégalité de Cauchy-Schwarz.Intégrer l'inégalité précédente.",
+    "solution": "Puisque $f$ est de classe $\\mathcal C^1$ et s'annule en $a$, on a par le théorème fondamental du calcul intégral \r\n$$f(t)=\\int_a^t f'(u)du=\\int_a^t 1\\times f'(u)du.$$\r\nOn applique alors l'inégalité de Cauchy-Schwarz : \r\n\\begin{align*}\r\nf^2(t)&\\leq\\left(\\int_a ^t 1du\\right)\\left(\\int_a^t f'^2(u)du\\right)\\\\\r\n&\\leq(t-a)\\int_a^t f'^2(u)du\\\\\r\n&\\leq (t-a)\\int_a^b f'^2(u)du\r\n\\end{align*}\r\npuisque $f'^2\\geq 0$ et que $t\\in [a,b].$ On intègre ensuite cette inégalité pour $t\\in [a,b],$ et on trouve\r\n\\begin{align*}\r\n\\int_a^b f^2(t)dt&\\leq \\left(\\int_a^b (t-a)dt\\right)\\left(\\int_a^b f'^2(u)du\\right)\\\\\r\n&\\leq\\frac{(b-a)^2}2 \\int_a^b f'^2(u)du.\r\n\\end{align*}",
+    "lang": "french"
+}

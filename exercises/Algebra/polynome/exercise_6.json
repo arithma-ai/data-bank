@@ -1,0 +1,6 @@
+{
+    "script": "Calculer le quotient et le reste de la division euclidienne de$X^4+5X^3+12X^2+19X-7$ par $X^2+3X-1$;$X^4-4X^3-9X^2+27X+38$ par $X^2-X-7$;$X^5-X^2+2$ par $X^2+1$.",
+    "hint": "",
+    "solution": "On trouve les résultats suivants :Le quotient est $X^2+2X+7$, le reste est nul;Le quotient est $X^2-3X-5$, le reste est $X+3$;Le quotient est $X^3-X-1$, le reste est $X+3$.",
+    "lang": "french"
+}

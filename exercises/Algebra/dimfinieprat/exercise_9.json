@@ -1,0 +1,6 @@
+{
+    "script": "Donner une famille génératrice finie, puis une base, de chacun des sous-espaces vectoriels de $\\mathbb R^3$ suivants :\r\n\\[ F=\\{(x,y,z)\\in\\mathbb R^3:\\ x-2y+z=0\\}\\quad G=\\{(a,a+b,b):\\ a,b\\in\\mathbb R\\}. \\]",
+    "hint": "",
+    "solution": "On a \r\n\\begin{align*}\r\n(x,y,z)\\in F&\\iff  x=2y-z\\\\\r\n&\\iff \\left\\{\r\n\\begin{array}{rcll}\r\nx&=&2y&-z\\\\\r\ny&=&y\\\\\r\nz&=&&z\r\n\\end{array}\\right.\r\n\\end{align*}\r\nEn posant $u_1=(2,1,0)$ et $u_2=(-1,0,1)$, on a donc \r\n\\[ (x,y,z)\\in F\\iff (x,y,z)=y u_1+z u_2. \\]\r\n$F=\\mathrm{vect}(u_1,u_2)$ et donc $(u_1,u_2)$ est une famille génératrice\r\nde $F$. Puisque $u_1$ et $u_2$ ne sont pas colinéaires, $(u_1,u_2)$ est aussi une famille libre et donc $(u_1,u_2)$ est une base de $F$.\r\nD'autre part, nous pouvons réécrire $G$ comme \r\n\\begin{align*}\r\nG&=\\{a(1,1,0)+b(0,1,1):\\ a,b\\in\\mathbb R\\}\\\\\r\n&=\\textrm{vect}( (1,1,0), (0,1,1) ).\r\n\\end{align*}\r\nEn posant $v_1=(1,1,0)$ et $v_2=(0,1,1)$, on a prouvé que $(v_1,v_2)$ est une famille génératrice de $G$. Puisque de plus, $v_1$ et $v_2$ ne sont pas colinéaires, $(v_1,v_2)$ est une base de $G$.",
+    "lang": "french"
+}

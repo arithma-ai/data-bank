@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a<b$ et $f:[a,b]\\to\\mathbb R$ une fonction deux fois dérivable. On suppose que $f(a)=0$, que $f(b)=0$ et que $f''\\leq 0$. Démontrer que pour tout $x\\in[a,b]$, $f(x)\\geq 0$.",
+    "hint": "Procéder par l'absurde et trouver $x_0<y_0$ tel que $f'(x_0)<0$ et $f'(y_0)>0$.",
+    "solution": "Raisonnons par l'absurde. Il existe donc $c\\in ]a,b[$ tel que $f(c)<0$. Le théorème des accroissements finis appliquée à $f$ entre $a$ et $c$ nous dit qu'il existe $x_0\\in ]a,c[$ tel que \r\n$$f(c)-f(a)=f'(x_0)(c-a)\\implies f'(x_0)<0.$$\r\nDe même, le théorème des accroissements finis appliqué à $f$ entre $c$ et $b$ nous dit qu'il existe $y_0\\in ]c,b[$ tel que \r\n$$f(b)-f(c)=f'(y_0)(b-c)\\implies f'(y_0)>0.$$\r\nOn conclut en appliquant le théorème des accroissements finis à $f'$ entre $x_0$ et $y_0$ : il existe $d\\in ]x_0,y_0[$ tel que \r\n$$f''(d)=\\frac{f'(y_0)-f'(x_0)}{y_0-x_0}>0.$$\r\nCeci est une contradiction. Si l'on connait la théorie des fonctions convexes, le résultat est une conséquence immédiate que la fonction est concave puisque sa dérivée seconde est négative, et que la courbe représentative d'une fonction concave est au dessus de ses cordes.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les nombres complexes non nuls $z$ tels que $z$, $\\frac 1z$ et $1-z$ aient le même module.",
+    "hint": "Écrire d'abord que $|z|^2=1$. Comment peut-on alors écrire $z$? Puis calculer le module de $1-z$.",
+    "solution": "De $|z|=\\left|\\frac 1z\\right|$, on tire que $|z|^2=1$, donc que $|z|=1$, c'est-à-dire que $z=e^{i\\theta}$, où $\\theta\\in[0,2\\pi[$.\r\nCalculons maintenant le module de $1-z$. \r\nOn écrit \r\n$$1-z=1-e^{i\\theta}=e^{i\\theta/2}\\left(e^{-i\\theta/2}-e^{i\\theta/2}\\right)=-2i\\sin(\\theta/2)e^{i\\theta/2}.$$\r\nLe module de $1-z$ vaut donc $1$ si et seulement si $|\\sin(\\theta/2)|=1/2$. L'équation $\\sin(\\theta/2)=1/2$, avec \r\n$\\theta\\in[0,2\\pi[$ donne $\\theta=\\pi/3$ ou $\\theta=5\\pi/3$. L'équation $\\sin(\\theta/2)=-1/2$ avec $\\theta\\in[0,2\\pi[$ n'a pas de solutions puisque, si $\\theta\\in[0,2\\pi[$, $\\theta/2\\in [0,\\pi[$ et alors $\\sin(\\theta/2)\\in[0,1].$\r\nL'ensemble des solutions est donc $\\{e^{i\\pi/3},e^{i5\\pi/3}\\}$.",
+    "lang": "french"
+}

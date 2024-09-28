@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les réels $x$ tels que \r\n$$\\left\\{\\begin{array}{rcl}\r\n\\cos(x)&=&-\\frac 12\\\\\r\n\\sin(x)&=&\\frac{\\sqrt 3}2\r\n\\end{array}\\right.$$",
+    "hint": "Chercher une solution particulière $\\theta_0$. Toutes les solutions s'écrivent $\\theta_0+2k\\pi$, $k\\in\\mathbb Z$.",
+    "solution": "En s'aidant du cercle trigonométrique, on remarque qu'une solution particulière est donnée par $\\theta_0=\\frac{2\\pi}3$. L'ensemble des solutions est alors \r\n$$\\left\\{\\frac{2\\pi}3+2k\\pi:\\ k\\in\\mathbb Z\\right\\}.$$",
+    "lang": "french"
+}

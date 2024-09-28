@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(P_1,\\dots,P_n)$ une famille de polynômes de $\\mathbb C[X]$ non nuls, à degrés échelonnés, c'est-à-dire\r\n$\\deg(P_1)<\\deg(P_2)<\\dots<\\deg(P_n)$. Montrer que $(P_1,\\dots,P_n)$ est une famille libre.",
+    "hint": "Si $\\lambda_n\\neq 0$, quel est le degré de $\\lambda_1 P_1+\\dots+\\lambda_n P_n$?",
+    "solution": "Considérons une relation $\\lambda_1 P_1+\\dots+\\lambda_n P_n=0$. Si $\\lambda_n\\neq 0$,\r\nle membre de gauche de l'égalité est un polynôme de degré $\\deg(P_n)\\neq -\\infty$ puisque tous les polynômes sont supposés non nuls. Ce ne peut donc pas être\r\nle polynôme nul et on trouve que $\\lambda_n=0$. En itérant le raisonnement (en faisant une récurrence), on trouve\r\nsuccessivement $\\lambda_{n-1}=\\dots=\\lambda_1=0$, c'est-à-dire que la famille $(P_1,\\dots,P_n)$ est une famille libre.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Les groupes $\\mathbb Z/8\\mathbb Z$, $(\\mathbb Z/2\\mathbb Z)\\times(\\mathbb Z/4\\mathbb Z)$ et $(\\mathbb Z/2\\mathbb Z)^3$ sont-ils isomorphes?",
+    "hint": "Penser en terme d'ordre des éléments.",
+    "solution": "Non, ces groupes ne sont pas isomorphes. En effet, si $f$ est un isomorphisme de $G$ sur $H$, et si $g$ est un élément de $G$ d'ordre $n$, alors $f(g)$ est aussi d'ordre $n$. Or, ici, $\\mathbb Z/8\\mathbb Z$ est le seul des 3 groupes à avoir un élément d'ordre 8, tandis que $(\\mathbb Z/2\\mathbb Z)^3$ est le seul à ne pas avoir d'éléments d'ordre 4. Ces 3 groupes ne sont pas deux à deux isomorphes.",
+    "lang": "french"
+}

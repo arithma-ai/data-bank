@@ -1,0 +1,6 @@
+{
+    "script": "Calculer de deux manières différentes $\\int_\\gamma \\frac{dz}{z}$ où $\\gamma(t)=a\\cos t+ib\\sin t$\r\navec $t\\in[0,2\\pi]$, $a,b>0$. En déduire la valeur de l'intégrale\r\n$$\\int_0^{2\\pi}\\frac{dt}{a^2\\cos^2 t+b^2\\sin^2 t}.$$",
+    "hint": "Faire le premier calcul en utilisant le paramétrage. Faire le second en utilisant la formule intégrale de Cauchy.",
+    "solution": "On commence par calculer l'intégrale en utilisant le paramétrage. On a \r\n\\begin{eqnarray*}\r\n\\int_\\gamma\\frac{dz}z&=&\\int_0^{2\\pi}\\frac{-a\\sin t+ib\\cos t}{a\\cos t+ib\\sin t}\\,dt\\\\\r\n&=&\\int_0^{2\\pi}\\frac{(-a\\sin t+ib\\cos t)(a\\cos t-ib\\sin t)}{a^2\\cos^2 t+b^2\\sin^2 t}\\,dt\\\\\r\n&=&\\int_0^{2\\pi}\\frac{-a^2\\sin t\\cos t+aib\\sin^2 t+aib\\cos^2 t+b^2\\cos t\\sin t}{a^2\\cos^2 t+b^2\\sin^2 t}\\,dt\\\\\r\n&=&\\int_0^{2\\pi}\\frac{(b^2-a^2)\\cos t\\sin t+iab}{a^2\\cos^2 t+b^2\\sin^2 t}\\,dt.\r\n\\end{eqnarray*}\r\nD'autre part, $\\gamma$ est le paramétrage d'une ellipse. Son indice par rapport à 0 est $1$ et donc on a\r\n$$\\int_\\gamma\\frac{dz}{z}=2i\\pi.$$\r\nPar identification des parties réelles et imaginaires, on trouve que l'intégrale\r\nrecherchée vaut $2\\pi/ab$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\phi$ une forme linéaire sur $M_n(\\mathbb R)$\r\nvérifiant $\\phi(AB)=\\phi(BA)$ pour toutes matrices $A,B\\in M_n(\\mathbb R)$.\r\nMontrer qu'il existe $\\lambda\\in\\mathbb R$ tel que $\\phi(M)=\\lambda\\textrm{Tr}(M)$.",
+    "hint": "Appliquer à $A=E_{i,j}$ et $B=E_{k,l}$.",
+    "solution": "Soit $i,j,k,l$ dans $\\{1,\\dots,n\\}$. On pose $A=E_{i,j}$ \r\net $B=E_{k,l}$, de sorte que \r\n$$AB=\\delta_{j,k}E_{i,l}\\textrm{ et }BA=\\delta_{l,i}E_{k,j}.$$\r\nOn a donc\r\n$$\\delta_{j,k}\\phi(E_{i,l})=\\delta_{l,i}\\phi(E_{k,j}).$$pour $j=k$ et $i\\neq l$, on a $\\phi(E_{i,l})=0$;pour $j=k$ et $i=l$, on a $\\phi(E_{i,i})=\\phi(E_{k,k})$.Si on pose $\\lambda=\\phi(E_{1,1})$, on a donc $\\phi(M)=\\lambda\\textrm{Tr}(M)$.",
+    "lang": "french"
+}

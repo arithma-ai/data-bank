@@ -1,0 +1,6 @@
+{
+    "script": "Le but de cet exercice est de démontrer par contraposition la propriété suivante, pour $n\\in\\mtn^*$ :Si l'entier $(n^2-1)$ n'est pas divisible par 8, alors l'entier $n$ est pair.Ecrire la contraposée de la proposition précédente.En remarquant qu'un entier impair $n$ s'écrit sous la forme $n=4k+r$ avec $k\\in\\mtn$ et $r\\in\\{1,3\\}$\r\n(à justifier), prouver la contraposée.A-t-on démontré la propriété de l'énoncé?",
+    "hint": "",
+    "solution": "Si $n$ est impair, alors $n^2-1$ est divisible par 8.Prenons $n$ un entier impair. $n$ s'écrit donc $2l+1$\r\noù $l$ est un entier. Si $l$ est pair, $l=2k$ et donc $n=4k+1$.\r\nSi $l$ est impair, $l=2k+1$ et donc $n=4k+3$. Dans tous les cas,\r\non a donc $n=4k+r$ avec $k\\in\\mtn$ et $r\\in\\{1,3\\}$. On passe au carré :\r\n$$n^2-1=(4k+r)^2-1=16k^2+8kr+r^2-1=8(2k^2+kr)+r^2-1.$$\r\nOr, si $r=1$, $r^2-1=0$ et $n^2-1$ est divisible par 8.\r\nSi $r=3$, $r^2-1=8$ et $n^2-1$ est aussi divisible par 8.Par le principe de contraposition, oui!",
+    "lang": "french"
+}

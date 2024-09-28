@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout $(n,k)\\in(\\mathbb N^*)^2,$ on a \r\n$\\varphi(n^k)=n^{k-1}\\varphi(n).$",
+    "hint": "Utiliser la décomposition en facteur premiers de $n$",
+    "solution": "Décomposons $n$ en produit de facteurs premiers : \r\n$n=p_1^{\\alpha_1}\\cdots p_r^{\\alpha_r}$ de sorte que \r\n$n^k=p_1^{k\\alpha_1}\\cdots p_r^{k\\alpha_r}.$ Alors on a\r\n\\begin{align*}\r\n\\varphi(n^k)&=\\prod_{i=1}^r \\left (p_i^{k\\alpha_i}-p_i^{k\\alpha_{i-1}}\\right)\\\\\r\n&=\\prod_{i=1}^r p_i^{k\\alpha_i}\\left(1-\\frac 1{p_i}\\right)\\\\\r\n&=\\prod_{i=1}^r p_i^{(k-1)\\alpha_i}\\times \\prod_{i=1}^r p_i^{\\alpha_i}\\left(1-\\frac 1{p_i}\\right)\\\\\r\n&=n^{k-1}\\varphi(n).\r\n\\end{align*}",
+    "lang": "french"
+}

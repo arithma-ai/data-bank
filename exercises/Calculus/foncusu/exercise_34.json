@@ -1,0 +1,6 @@
+{
+    "script": "Étudier la fonction $f:x\\mapsto x^{-\\ln x}$.",
+    "hint": "Écrire la fonction en utilisant l'exponentielle, déterminer le domaine de définition de $f$, calculer sa dérivée, tracer la fonction.",
+    "solution": "On commence par écrire que $f(x)=e^{-(\\ln x)^2}$. Ainsi, on en déduit que la fonction $f$ est définie et dérivable sur\r\nl'intervalle $]0,+\\infty[$. Sa dérivée est $$f'(x)=-\\frac 2x(\\ln x) e^{-(\\ln x)^2}.$$\r\n$f'$ est donc positive sur $]0,1[$ et négative sur $]1,+\\infty[$. De plus, quand $x\\to 0$, on a successivement $\\ln x\\to -\\infty$, $-(\\ln x)^2\\to -\\infty$ et par composition $f(x)\\to 0$. De la même façon, on a $\\lim_{x\\to+\\infty}f(x)=0$. Ainsi, on obtient le tableau de variations suivant :La courbe obtenue est :",
+    "lang": "french"
+}

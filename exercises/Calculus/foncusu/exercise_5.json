@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout $n\\geq 2$, on a \r\n$$\\left(1+\\frac 1n\\right)^n \\leq e\\leq \\left(1-\\frac 1n\\right)^{-n}.$$",
+    "hint": "Écrire la puissance comme l'exponentielle du logarithme, et utiliser l'inégalité $\\ln(1+x)\\leq x$.",
+    "solution": "D'une part, on a \r\n$$\\left(1+\\frac 1n\\right)^{n}=\\exp\\left(n\\ln\\left(1+\\frac 1n\\right)\\right).$$\r\nDe l'inégalité $\\ln(1+x)\\leq x$, valable pour tout $x>-1$, on déduit \r\n$$\\ln\\left(1+\\frac 1n\\right)\\leq \\frac 1n$$\r\nsoit \r\n$$n\\ln\\left(1+\\frac 1n\\right)\\leq 1.$$\r\nPar croissance de la fonction exponentielle, on en déduit que \r\n$$\\left(1+\\frac 1n\\right)^{n}=\\exp\\left(n\\ln\\left(1+\\frac 1n\\right)\\right)\\leq \\exp(1)=e.$$\r\nD'autre part, on a \r\n$$\\left(1-\\frac 1n\\right)^{-n}=\\exp\\left(-n\\ln\\left(1-\\frac 1n\\right)\\right).$$\r\nEn utilisant la même inégalité, on a\r\n$$\\ln\\left(1-\\frac 1n\\right)\\leq -\\frac 1n$$\r\nsoit en multipliant par $-n<0$\r\n$$-n\\ln\\left(1-\\frac 1n\\right)\\geq 1.$$\r\nOn conclut à nouveau par croissance de la fonction exponentielle.",
+    "lang": "french"
+}

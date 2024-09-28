@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ une fonction telle que $f\\circ f$ est mesurable. Est-ce que $f$ est mesurable?",
+    "hint": "Trouver un contre-exemple avec une fonction prenant deux valeurs.",
+    "solution": "Considérons $B$ une partie non mesurable et $a,b\\notin B$. Définissons $f$ par $f(x)=a$ si $x\\in B$ et $f(x)=b$ sinon. Alors $f^{-1}(\\{a\\})=B$ et donc $f$ n'est pas mesurable. En revanche, $f\\circ f$ est la fonction constante égale à $b$, donc est mesurable.",
+    "lang": "french"
+}

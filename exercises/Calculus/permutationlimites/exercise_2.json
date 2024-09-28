@@ -1,0 +1,6 @@
+{
+    "script": "Pour $x\\geq 0$ et $n\\geq 1$, on pose $f_n(x)=\\left(1+\\frac xn\\right)^n$.Démontrer que, pour tout $x\\geq 0$, $f_n(x)\\to e^x$ et que $|f_n(x)|\\leq e^x$.En déduire, pour $b>1$, la limite de $\\int_0^{+\\infty}\\left(1+\\frac xn\\right)^n e^{-bx}dx$.",
+    "hint": "Écrire ceci sous forme exponentielle/logarithme, et utiliser $\\ln(1+u)\\leq u$ pour $u\\geq 0$.Appliquer le théorème de convergence dominée.",
+    "solution": "On a \r\n$$f_n(x)=\\exp\\left(n\\ln\\left(1+\\frac xn\\right)\\right).$$\r\nOr, $\\ln\\left(1+\\frac xn\\right)\\sim_{n\\to+\\infty}\\frac xn$ et donc, par composition des limites, $f_n(x)\\to e^x$. De plus, pour $u>0$, on a $\\ln(1+u)\\leq u$. On en déduit que, pour tout $x\\geq 0$, on a\r\n$$0\\leq f_n(x)\\leq \\exp\\left(n\\times \\frac xn\\right)\\leq \\exp(x).$$Appliquons le théorème de convergence dominée à la suite de fonctions $g_n(x)=f_n(x)e^{-bx}$. En effet, cette suite de fonctions converge simplement vers $e^{(1-b)x}$ et, pour tout $x\\geq 0$ et tout $n\\geq 1$, on a la majoration $|g_n(x)|\\leq e^{(1-b)x}$ et cette dernière fonction est intégrable sur $]0,+\\infty[$ (car $b>1$). On en déduit que\r\n$$\\lim_{n\\to+\\infty}\\int_0^{+\\infty}\\left(1+\\frac xn\\right)^n e^{-bx}dx=\\int_0^{+\\infty} e^{(1-b)x}dx=\\frac1{b-1}.$$",
+    "lang": "french"
+}

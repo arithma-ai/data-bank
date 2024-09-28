@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,1]\\to[0,1]$ une fonction continue. Démontrer que $f$ admet toujours au moins un point fixe.",
+    "hint": "Appliquer le théorème des valeurs intermédiaires à $g(x)=f(x)-x$.",
+    "solution": "Posons $g(x)=f(x)-x$. $g$ est une fonction continue. Puisque $f(0)\\geq 0$\r\net $f(1)\\leq 1$, on a $g(0)\\geq 0$ et $g(1)\\leq 0$. Par le théorème des valeurs intermédiaires,\r\nil existe $c\\in[0,1]$ tel que $g(c)=0$. En particulier, $f(c)=c$.",
+    "lang": "french"
+}

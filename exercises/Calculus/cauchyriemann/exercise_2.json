@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f=u+iv$ une fonction holomorphe dans un ouvert $\\Omega$.\r\nMontrer que $u$ et $v$ sont harmoniques, c'est-à-dire\r\nque $$\\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}=0.$$",
+    "hint": "Utiliser les équations de Cauchy-Riemann et le théorème de Schwarz.",
+    "solution": "Puisque $f$ est holomorphe, les équations de Cauchy-Riemann nous disent que :\r\n$$\r\n\\left\\{\r\n\\begin{array}{rcl}\r\n\\frac{\\partial u}{\\partial x}&=&\\frac{\\partial v}{\\partial y}\\\\\r\n\\frac{\\partial u}{\\partial y}&=&-\\frac{\\partial v}{\\partial x}.\r\n\\end{array}\\right.\r\n$$\r\nRemarquons aussi que les fonctions $u$ et $v$ sont $C^2$, puisque être holomorphe\r\nentraîne être de classe $C^\\infty$.\r\nOn a donc \r\n$$\\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}=\\frac{\\partial^2 v}{\\partial x\\partial y}-\\frac{\\partial^2 v}{\\partial y\\partial x}=0$$\r\noù la dernière égalité provient du théorème de Schwarz (on rappelle que $v$ est $C^2$).\r\nLa preuve pour $v$ est tout à fait similaire.",
+    "lang": "french"
+}

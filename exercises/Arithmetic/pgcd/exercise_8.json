@@ -1,0 +1,6 @@
+{
+    "script": "Calculer le pgcd de $2^{445}+7$ et $15$.",
+    "hint": "Calculer la congruence modulo 15 de $2^{445}+7$, puis appliquer l'algorithme d'Euclide.",
+    "solution": "On va appliquer l'algorithme d'Euclide. Pour cela, on cherche la congruence modulo 15\r\nde $2^{445}+7$. Or, $2^4\\equiv 1\\ [15]$. On remarque ensuite que $445=4*111+1$.\r\nAinsi, $2^{445}=2\\times (2^{4})^{111}\\equiv 2\\times1\\ [15]$. D'où on déduit finalement\r\n$$2^{445}+7\\equiv 9\\ [15].$$\r\nAinsi, appliquant l'algorithme d'Euclide, le pgcd cherché est aussi le pgcd de 9 et 15, c'est-à-dire 3.",
+    "lang": "french"
+}

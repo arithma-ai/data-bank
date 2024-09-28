@@ -1,0 +1,6 @@
+{
+    "script": "On considère l'arc $\\Gamma$, arc d'hélice paramétré et orienté par :\r\n$$x=R\\cos t,\\ y=R\\sin t,\\ z=ht,$$\r\npour $t$ variant de $0$ à $2\\pi$. Calculer :\r\n$$I=\\int_\\Gamma (y-z)dx+(z-x)dy+(x-y)dz.$$",
+    "hint": "",
+    "solution": "On applique simplement la définition :\r\n\\begin{eqnarray*}\r\nI&=&\\int_0^{2\\pi} (y(t)-z(t))x'(t)+(z(t)-x(t))y'(t)+(x(t)-y(t))z'(t)dt\\\\\r\n&=&\\int_0^{2\\pi}\\left(-R^2+hRt(\\cos t+\\sin t)+hR(\\cos t-\\sin t)\\right)dt\\\\\r\n&=&-2\\pi R(h+R).\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

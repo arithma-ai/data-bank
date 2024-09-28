@@ -1,0 +1,6 @@
+{
+    "script": "Soit $D=\\left\\{(x,y)\\in \\mtr^2;\\ x\\geq0,\\ y\\geq 0;\\ \\frac{x^2}{a^2}+\\frac{y^2}{b^2}\\leq 1\\right\\}$. Calculer l'intégrale :\r\n$$J=\\int\\!\\int_D (2x^3-y)dxdy.$$",
+    "hint": "Utiliser Green-Riemann, et identifier\r\n$$\\frac{\\partial Q}{\\partial x}=2x^3\\textrm{ et }\\frac{\\partial P}{\\partial y}=y.$$",
+    "solution": "On va utiliser la formule de Green-Riemann. Pour cela, on commence par chercher $P$ et $Q$ tels que :\r\n$$\\frac{\\partial Q}{\\partial x}=2x^3\\textrm{ et }\\frac{\\partial P}{\\partial y}=y.$$\r\nOn prend par exemple $Q(x,y)=x^4/2$ et $P(x,y)=y^2/2$. Le domaine considéré est l'intérieur du quart d'une ellipse, que l'on peut paramétrer en posant :\r\n$$x=a\\cos\\theta\\textrm{ et }y=b\\sin\\theta,\\ \\theta\\in[0,\\pi/2].$$\r\nOn a donc :\r\n\\begin{eqnarray*}\r\nI&=&\\int_{\\partial D} Pdx+Qdy\\\\\r\n&=&\\int_0^{\\pi/2} \\frac{b^2\\sin^2\\theta}{2}\\times(-a\\sin\\theta)+\\frac{a^4\\cos^4\\theta}{2}\\times(b\\cos\\theta)d\\theta.\r\n\\end{eqnarray*}\r\nOn finit de calculer cette intégrale en linéarisant :\r\n$$I=\\frac{4}{15}a^4b-\\frac{ab^2}{3}.$$",
+    "lang": "french"
+}

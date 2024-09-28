@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les inversibles de $\\mathbb Z/8\\mathbb Z.$ Le groupe des inversibles $(\\mathbb Z/8\\mathbb Z)^*$ est-il cyclique?",
+    "hint": "",
+    "solution": "D'après le cours, les éléments inversibles de $\\mathbb Z/8\\mathbb Z$ sont les classes d'entiers $k$ tels que $k\\wedge 8=1.$ On a donc \r\n$$(\\mathbb Z/8\\mathbb Z)^*=\\{\\bar 1,\\bar 3,\\bar 5,\\bar 7\\}.$$\r\nOn remarque que tous ces éléments sont d'ordre $1$ ou $2$ (par exemple, $\\bar 3^2=\\bar 9=1$, $\\bar 7^2=\\overline{49}=\\bar 1$). Ainsi, aucun n'engendre $(\\mathbb Z/8\\mathbb Z)^*$ et ce groupe n'est pas cyclique.",
+    "lang": "french"
+}

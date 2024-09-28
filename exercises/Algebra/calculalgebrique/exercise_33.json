@@ -1,0 +1,6 @@
+{
+    "script": "Développer $(x+1)^6$, $(x-1)^6$.Démontrer que, pour tout entier $n$, on a \r\n$\\sum_{p=0}^n \\binom np=2^n.$Démontrer que, pour tout entier $n$, on a $\\sum_{p=0}^n \\binom np 2^p=3^n$.Démontrer que, pour tout entier $n$, on a $\\sum_{k=1}^{2n}\\binom{2n}k (-1)^k 2^{k-1}=0.$",
+    "hint": "Utiliser la formule du binôme.$2^n=(1+1)^n$.$2^p=1^{n-p}2^p$.Utiliser que $(-1)^k=(-1)^{2n-k}$ et que $2^{k-1}=\\frac 12 2^k$.",
+    "solution": "On va utiliser la formule du binôme. On calcule les coefficients binômiaux par exemple en utilisant le triangle de Pascal. On en déduit \r\n$$(x+1)^6=x^6+6x^5+15x^4+20x^3+15x^2+6x+1.$$\r\n$$(x-1)^6=x^6-6x^5+15x^4-20x^3+15x^2-6x+1.$$Il suffit de remarquer que $2^n=(1+1)^n$, et de développer ceci en utilisant la formule du binôme.C'est presque le même raisonnement. Cette fois, on écrit que\r\n$$\\sum_{p=0}^n \\binom np 2^p=\\sum_{p=0}^n \\binom np 1^{n-p}2^p=(1+2)^n=3^n.$$C'est un peu plus difficile. En remarquant que $k$ et $2n-k$ ont la même parité, on a \r\n$$\\sum_{k=0}^{2n}\\binom{2n}k (-1)^k 2^{k-1}=\\frac 12\\sum_{k=0}^{2n} \\binom{2n}k (-1)^{2n-k}2^k=\\frac 12(-1+2)^{2n}=\\frac 12.$$\r\nOn en déduit que \r\n$$\\sum_{k=1}^{2n}\\binom{2n}k (-1)^k 2^{k-1}=\\sum_{k=0}^{2n}\\binom{2n}k (-1)^k 2^{k-1}-\\frac 12=0.$$",
+    "lang": "french"
+}

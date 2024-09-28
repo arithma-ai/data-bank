@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que la fonction définie sur $\\mathbb R^*$ par $f(t)=e^{-1/t^2}$ et prolongée par $f(0)=0$\r\nest de classe $C^\\infty$, mais n'est solution d'aucune équation différentielle linéaire homogène.",
+    "hint": "Calculer les dérivées successives de $f$ en 0.",
+    "solution": "Il est clair que $f$ est de classe $C^\\infty$ sur $\\mathbb R^*$. On montre aisément par récurrence sur $n$\r\nque ses dérivées sont de la forme \r\n$$t\\mapsto P_n(t)e^{-1/t^2},$$\r\noù les $P_n$ sont des fractions rationnelles. Ainsi, pour chaque entier $n$, $f^{(n)}$ admet une limite en 0 égale à 0.\r\nPar le théorème de prolongement d'une dérivée, $f$ est de classe $C^\\infty$, avec $f^{(n)}(0)=0$. \r\nSi $f$ était solution d'une équation différentielle linéaire homogène d'ordre $n$, \r\n$$y^{(n)}(t)+a_{n-1}(t)y^{(n-1)}(t)+\\dots+a_0 y(t)=0,$$\r\nelle vérifierait aussi la condition initiale $y(0)=\\dots=y^{(n-1)}(0)=0$. Or, d'après le théorème de Cauchy linéaire,\r\ncette équation n'admet qu'une seule solution pour ce problème de Cauchy. Comme 0 est solution et que $f$ n'est pas identiquement nulle,\r\non obtient une contradiction.",
+    "lang": "french"
+}

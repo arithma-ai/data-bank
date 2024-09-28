@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n$ un entier naturel non nul et soit $E$ un ensemble à $n$ éléments. Soit $p$ un entier naturel tel que $1\\leq p\\leq n$ et soit \r\n$A$ une partie de $E$ à $p$ éléments. Quel est le nombre de parties de $E$ qui contiennent exactement un et un seul élément de $A$?",
+    "hint": "Choisir d'abord l'élément de $A$, puis une partie du complémentaire.",
+    "solution": "On choisit d'abord l'élément de $A$ qui convient. Il y a $p$ choix. On choisit ensuite une partie du complémentaire de $A$,\r\nqui contient $n-p$ éléments : il y a $2^{n-p}$ choix. Par le principe multiplicatif, il y a donc $p\\times 2^{n-p}$ \r\nparties de $E$ qui contiennent exactement un et un seul élément de $A$.",
+    "lang": "french"
+}

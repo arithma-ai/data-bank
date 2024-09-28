@@ -1,0 +1,6 @@
+{
+    "script": "Pour tout couple $(a,b)$ de $\\mathbb R^2$, on pose $A(a,b)=\\begin{pmatrix}a&0&-b\\\\0&1&0\\\\b&0&a\\end{pmatrix}\\in M_{3,3}(\\mathbb R)$.Soit $c \\in \\mathbb{R}$. Calculer $A(ac,-bc)A(a,b)$.Pour quels couples $(a,b)$ la matrice $A$ est-elle inversible? Si elle l'est, donner son inverse.",
+    "hint": "On pourra discuter suivant que $a^2+b^2=0$ ou non (ce qui revient à $a=0$ et $b=0$).",
+    "solution": "Un rapide calcul donne \r\n\\[ A(ac,-bc)A(a,b)=\\begin{pmatrix}\r\n(a^2+b^2)c&0&0\\\\\r\n0&1&0\\\\\r\n0&0&(a^2+b^2)c\r\n\\end{pmatrix}. \\]\r\nAinsi, si $a^2+b^2\\neq 0$, la matrice $A(a,b)$ est inversible, et son inverse est la matrice $A(ac,-bc)$ avec $c=1/(a^2+b^2)$. Réciproquement, si $a^2+b^2=0$, c'est-à-dire si $a=0$ et $b=0$ (la somme de deux carrés est nulle si et seulement si chaque terme de la somme est nul), alors la matrice $A(0,0)$ n'est pas inversible : elle est échelonnée, avec deux coefficients nuls sur la diagonale.",
+    "lang": "french"
+}

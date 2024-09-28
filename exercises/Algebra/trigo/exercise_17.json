@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer l'ensemble des réels $x$ vérifiant :\r\n$$\\left\\{\\begin{array}{rcl}\r\n2\\cos(x)-\\sin(x)&=&\\sqrt 3+\\frac 12\\\\\r\n\\cos(x)+2\\sin(x)&=&\\frac{\\sqrt 3}2-1.\r\n\\end{array}\\right.$$",
+    "hint": "Poser $X=\\cos x$ et $Y=\\sin x$.",
+    "solution": "Posons $X=\\cos x$ et $Y=\\sin x$. Alors $X$ et $Y$ sont solutions du système\r\n$$\\left\\{\\begin{array}{rcl}\r\n2X-Y&=&\\sqrt 3+\\frac 12\\\\\r\nX+2Y&=&\\frac{\\sqrt 3}2-1\r\n\\end{array}\\right.$$\r\nOn résout ce système en remarquant par exemple que \r\n$$2\\times 2X+X=2\\times\\left(\\sqrt 3+\\frac 12\\right)+\\frac{\\sqrt 3}2-1=\\frac{5\\sqrt 3}2.$$\r\nOn en déduit que $X=\\sqrt 3/2$ puis que $Y=-1/2$. Ainsi, on cherche $x\\in\\mathbb R$ tel que $\\cos(x)=\\sqrt 3/2$ et $\\sin(x)=-1/2$. La valeur $x=-\\pi/6$ est une solution particulière, et c'est la seule dans $[-\\pi;\\pi]$. On en déduit que l'ensemble des solutions est \r\n$$\\mathcal S=\\left\\{-\\frac\\pi 6+2k\\pi:\\ k\\in\\mathbb Z\\right\\}.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ et $g$ deux fonctions continues sur $\\mathbb R,$ dont l'une au moins est à support compact. Soit $n\\geq 1.$  Démontrer que \r\n$$x^n (f\\star g)=\\sum_{k=0}^n \\binom nk (x^k f)\\star (x^{n-k}g).$$",
+    "hint": "Écrire $x=(x-t)+t.$",
+    "solution": "Soit $x\\in\\mathbb R$ et soit $[a,b]$ un segment contenant le support de $g.$\r\nOn écrit \r\n\\begin{align*}\r\nx^n(f\\star g)(x)&=\\int_{-\\infty}^{+\\infty} x^n f(x-t)g(t)dt\\\\\r\n&=\\int_a^b (x-t+t)^n f(x-t)g(t)dt\\\\\r\n&=\\int_a^b \\sum_{k=0}^n \\binom nk (x-t)^k f(x-t) t^{n-k}g(t)dt\\\\\r\n&=\\sum_{k=0}^n \\binom nk \\int_a^b (x-t)^k f(x-t) t^{n-k}g(t)dt\\\\\r\n&=\\sum_{k=0}^n \\binom nk (x^k f)\\star (x^{n-k} g)(x).\r\n\\end{align*}\r\nRemarquons que la permutation de l'intégrale est de la somme est possible\r\ncar on intègre des fonctions continues sur un segment.",
+    "lang": "french"
+}

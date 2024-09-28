@@ -1,0 +1,6 @@
+{
+    "script": "On dit qu'un anneau $A$ est un anneau de Boole si, pour tout $x\\in A$, $x^2=x$. On fixe $A$ un tel anneau.Démontrer que, pour tout $x\\in A$, $x=-x$.Montrer que $A$ est commutatif.",
+    "hint": "Appliquer la propriété à $x+x$Fixer $x,y\\in A$ et appliquer la propriété à $x+y$.",
+    "solution": "On applique la propriété à l'élément $x+x$. Il vient \r\n$$x+x=(x+x)^2=x^2+x^2+x^2+x^2=x+x+x+x.$$\r\nAprès simplification, on trouve $x+x=0$, soit $x=-x$.Soient $x,y\\in A$. On doit prouver $xy=yx$. Appliquons la propriété à l'élément $x+y$. On a\r\n$$(x+y)=(x+y)^2=x^2+y^2+xy+yx=x+y+xy+yx.$$\r\nAprès simplification, on trouve $xy+yx=0$ soit $xy=-yx$, soit $xy=yx$ en appliquant le résultat\r\nde la question précédente.",
+    "lang": "french"
+}

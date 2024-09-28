@@ -1,0 +1,6 @@
+{
+    "script": "Soit $h$ la fonction définie sur $\\mathbb R$ par $h(x)=x\\exp(1-x)$.Dresser le tableau de variations de $h$.Démontrer qu'il existe un unique $\\rho\\in\\mathbb R$ tel que $h(\\rho)=-1$.",
+    "hint": "",
+    "solution": "La fonction $h$ est dérivable sur $\\mathbb R$ et sa dérivée vérifie, pour tout $x\\in \\mathbb R$, $h'(x)=(1-x)e^{1-x}$. Elle est donc du signe de $1-x$, et $h$ est croissante sur $]-\\infty,1[$, décroissante sur $]1,+\\infty[$. De plus, par croissance comparée de la fonction exponentielle et des fonctions polynômes, on a $\\lim_{x\\to+\\infty}xe^{1-x}=e\\lim_{x\\to+\\infty}xe^{-x}=0$. Enfin, on a $\\lim_{x\\to-\\infty}e^{-x}=+\\infty$ et $\\lim_{x\\to-\\infty}x=-\\infty$ d'où l'on tire (ce n'est pas une forme indéterminée!) que $\\lim_{x\\to-\\infty}h(x)=-\\infty$. On a alors le tableau de variations suivant :La fonction $h$ est continue et strictement croissante sur l'intervalle $]-\\infty,1[$, avec $h(1)=1$ et $\\lim_{x\\to-\\infty}h(x)=-\\infty$. Autrement dit, $h$ réalise une bijection de $]-\\infty,1[$ sur $]-\\infty,1[$. En particulier, il existe un unique $\\rho\\in ]-\\infty,1[$ tel que $h(\\rho)=-1$. Comme $h(x)\\geq 0$ pour tout $x\\geq 1$, on obtient le résultat.",
+    "lang": "french"
+}

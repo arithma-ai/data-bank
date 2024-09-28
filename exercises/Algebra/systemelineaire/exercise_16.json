@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre le système suivant, où $x$, $y$ et $z$ sont des réels positifs :\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx^3y^2z^6&=&1\\\\\r\nx^4y^5z^{12}&=&2\\\\\r\nx^2y^2z^5&=&3.\r\n\\end{array}\\right.$$",
+    "hint": "Passer par le logarithme!",
+    "solution": "On pose $a=\\ln x$, $b=\\ln y$ et $c=\\ln z$ et notons $(S)$ le système.\r\nLa fonction logarithme étant injective, on a :\r\n\\begin{eqnarray*}\r\n(S)&\\iff&\\left\\{\r\n\\begin{array}{rcl}\r\n3a+2b+6c&=&0\\\\\r\n4a+5b+12c&=&\\ln 2\\\\\r\n2a+2b+5c&=&\\ln 3\r\n\\end{array}\\right.\\\\\r\n&\\iff&\\left\\{\r\n\\begin{array}{rcl}\r\n3a+2b+6c&=&0\\\\\r\n7b+12c&=&3\\ln 2\\\\\r\n2b+3c&=&3\\ln 3\r\n\\end{array}\\right.\\\\\r\n&\\iff&\\left\\{\r\n\\begin{array}{rcl}\r\n3a+2b+6c&=&0\\\\\r\n7b+12c&=&3\\ln 2\\\\\r\n-3c&=&21\\ln 3-6\\ln 2\r\n\\end{array}\\right.\\\\\r\n&\\iff&\\left\\{\r\n\\begin{array}{rcl}\r\na&=&-2\\ln 2+6\\ln 3\\\\\r\nb&=&-3\\ln 2+12\\ln 3\\\\\r\nc&=&2\\ln 2-7\\ln 3.\r\n\\end{array}\\right.\r\n\\end{eqnarray*}\r\nCeci donne finalement comme unique solution \r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx&=&2^{-2}3^6\\\\\r\ny&=&2^{-3}3^{12}\\\\\r\nz&=&2^23^{-7}.\r\n\\end{array}\\right.\r\n$$",
+    "lang": "french"
+}

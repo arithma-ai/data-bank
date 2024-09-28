@@ -1,0 +1,6 @@
+{
+    "script": "Soit $y:\\mathbb R\\to\\mathbb R$ une solution de l'équation différentielle\r\n$$3x^2y+(x^3-\\sin(y))y'=0.$$\r\nMontrer qu'il existe une constante $C>0$ telle que $x^3y(x)+\\cos(y(x))=C$ pour tout $x\\in\\mathbb R$.\r\nEn déduire que $\\lim_{x\\to \\pm \\infty}y(x)=0$.",
+    "hint": "Comment démontre-t-on qu'une fonction est constante?\r\nPour la deuxième partie, majorer $|y(x)|$ en utilisant que le cosinus est borné par 1.",
+    "solution": "Posons $f(x)=x^3y(x)+\\cos(y(x))$, $f$ est définie et dérivable sur $\\mathbb R$. De plus\r\n$$f'(x)=3x^2y(x)+(x^3-\\sin(y(x)))y'(x)=0.$$\r\n$f$ est donc constante, ce qui prouve le résultat.\r\nOn en déduit que\r\n$$|y(x)|\\leq \\frac{|C-\\cos(y(x))|}{|x|^3}\\leq \\frac{C+1}{|x|^3},$$\r\nce qui prouve que $y(x)$ tend vers 0 lorsque $x$ tend vers $\\pm\\infty$.",
+    "lang": "french"
+}

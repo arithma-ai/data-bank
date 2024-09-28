@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que si vous rangez $(n+1)$ paires de chaussettes dans $n$ tiroirs distincts, alors il\r\ny a au moins un tiroir contenant au moins $2$ paires de chaussettes.",
+    "hint": "Raisonnement par l'absurde.",
+    "solution": "On va faire un raisonnement par l'absurde. Supposons que tous les tiroirs contiennent au plus une paire de chaussettes. Alors il y aura au plus \r\n$1+1+\\dots+1=n$ paires de chaussettes, ce qui contredit qu'il y en a $(n+1)$. Donc un tiroir contient au moins deux paires de chaussettes.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A$ l'ensemble des suites réelles et $B$ l'ensemble des suites réelles bornées. On admet que $A$ et $B$ sont deux anneaux pour l'addition et le produit des suites. Soit $I$ l'ensemble des suites réelles qui convergent vers $0$. Est-ce que $I$ est un idéal de $A?$ de $B?$",
+    "hint": "Pour démontrer que $I$ n'est pas un idéal de $A,$ on pourra considérer dans $A$ une suite $(x_n)$ qui tend vers $+\\infty,$ puis la suite $(1/x_n)$ qui est dans $I.$",
+    "solution": "On commence par remarquer que $(I,+)$ est un sous-groupe de $(A,+).$ En effet, la suite nulle est dans $I$, et si $(u_n)$ et $(v_n)$ sont dans $I,$ alors $(u_n+v_n)$ est dans $I$ puisque la somme de deux suites qui convergent vers $0$ converge elle-même vers $0.$On va ensuite prouver que $I$ n'est pas un idéal de $A$. Considérons en effet la suite $(x_n)$ telle que $x_n=2^n$ et la suite $(u_n)$ telle que $u_n=2^{-n}$.\r\nAlors $(x_n)\\in A,$ $(u_n)\\in I$ et le produit $(x_nu_n)$ n'est pas dans $I$ puisque c'est la suite identiquement égale à $1.$En revanche, $I$ est un idéal de $B.$ En effet, le produit d'une suite bornée avec une suite qui tend vers $0$ est une suite qui tend vers $0.$ Donc si $(x_n)\\in B$ et $(u_n)\\in I,$ alors $(x_nu_n)\\in I.$",
+    "lang": "french"
+}

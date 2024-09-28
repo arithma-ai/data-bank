@@ -1,0 +1,6 @@
+{
+    "script": "Le nombre de pièces sortant d’une usine en une journée est une variable aléatoire d’espérance 50.\r\nOn veut estimer la probabilité que la production d'un jour donné dépasse 75 pièces.En utilisant l’inégalité de Markov, quelle estimation obtient-on sur cette probabilité?Que peut-on dire de plus sur cette probabilité si on sait que la variance de la production quotidienne est $25$?",
+    "hint": "Remarquer que $(X\\geq 75)\\subset (|X-50|\\geq 25)$ et utiliser l'inégalité de Tchebychev.",
+    "solution": "D'après l'inégalité de Markov, on a \r\n $$P(X\\geq 75)\\leq\\frac{50}{75}=\\frac 23.$$\r\n Ce n'est pas une très bonne estimation....Remarquons que $(X\\geq 75)\\subset (|X-50|\\geq 25)$. Alors d'après l'inégalité de Tchebychev,\r\n \\begin{align*}\r\n  P(X\\geq 75)&\\leq P(|X-50|\\geq 25)\\leq \\frac{V(X)}{25^2}=\\frac{1}{25}=0,\\!04.\r\n \\end{align*}\r\n L'estimation obtenue est bien meilleure! Ce n'est pas très surprenant, car l'inégalité de Tchebychev utilise une information supplémentaire sur $X$, sa variance.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(I_\\alpha)_{\\alpha\\in A}$ une famille d'intervalles ouverts non-vides deux à deux disjoints. Démontrer que $A$ est nécessairement au plus dénombrable.",
+    "hint": "Prendre un rationnel dans chaque $I_a$.",
+    "solution": "Pour chaque $a\\in A$, $\\mathbb Q$ étant dense dans $\\mathbb R$, il existe un rationnel $q_a$ qui est élément de $I_a$. De plus, les intervalles étant deux à deux disjoints, si $a\\neq b$, alors $q_a\\neq q_b$. On a donc construit une injection de $A$ dans $\\mathbb Q$, ce qui prouve que $A$ est au plus dénombrable.",
+    "lang": "french"
+}

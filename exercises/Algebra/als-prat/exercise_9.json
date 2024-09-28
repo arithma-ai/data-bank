@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E=\\mathbb R^4$ et $F=\\mathbb R^2$. On considère\r\n$H=\\{(x,y,z,t)\\in\\mathbb R^4;\\ x=y=z=t\\}$. Existe-t-il des applications linéaires de $E$ dans $F$\r\ndont le noyau est $H$?",
+    "hint": "Quelle est la dimension de $H$? Est-ce compatible avec le théorème du rang?",
+    "solution": "On a $H=\\textrm{vect}\\big((1,1,1,1)\\big)$. $H$ est donc un espace vectoriel de dimension 1.\r\nSi $H$ était le noyau d'une application linéaire $f$ de $E$ dans $F$, alors par le théorème du rang \r\non aurait\r\n$$4=\\dim(E)=\\dim(H)+\\dim(\\textrm{Im}(f))=1+\\dim(\\textrm{Im}(f)).$$\r\nAinsi, on aurait $\\dim(\\textrm{Im}(f))=3$. Mais $\\textrm{Im}(f)$ est un sous-espace vectoriel de\r\n$\\mathbb R^2$, sa dimension est au plus 2. On a une contradiction. Donc $H$ n'est pas le noyau d'un élément de $\\mathcal L(E,F)$.",
+    "lang": "french"
+}

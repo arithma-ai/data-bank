@@ -1,0 +1,6 @@
+{
+    "script": "Soit $F:\\mathbb R^2\\to\\mathbb R^2$ une fonction de classe $C^1$, et $f,g:\\mathbb R\\to\\mathbb R$ deux solutions maximales de l'équation\r\ndifférentielle $y'=F(t,y)$. On suppose qu'il existe $t_0\\in\\mathbb R$ tel que $f(t_0)<g(t_0)$. Montrer que pour tout\r\n$t\\in\\mathbb R$, on a $f(t)<g(t)$.",
+    "hint": "Procéder par l'absurde, alors il existe $t_1$ avec $f(t_1)\\geq g(t_1)$. Appliquer le théorème des\r\nvaleurs intermédiaires entre $t_0$ et $t_1$, puis le théorème de Cauchy-Lipschitz.",
+    "solution": "Supposons qu'il existe $t_1\\in\\mathbb R$ tel que $f(t_1)>g(t_1)$. Alors, puisque $f$ et $g$ sont continues,\r\npar le théorème des valeurs intermédiaires appliqué entre $t_0$ et $t_1$, il existe un élément $s\\in \\mathbb R$\r\ntel que $f(s)=g(s)$. Alors, posant $a=f(s)=g(s)$, $f$ et $g$ sont tous deux solutions du problème de Cauchy suivant :\r\n$$y'=F(t,y)\\textrm{ et }y(s)=a.$$\r\nPar le théorème de Cauchy-Lipschitz, ce problème admet une unique solution maximale. Donc $f=g$,\r\nce qui n'est pas le cas puisque $f(t_0)<g(t_0)$.",
+    "lang": "french"
+}

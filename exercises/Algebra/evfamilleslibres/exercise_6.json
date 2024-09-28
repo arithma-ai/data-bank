@@ -1,0 +1,6 @@
+{
+    "script": "On considère dans $\\mathbb R^3$ les vecteurs \r\n$v_1=(1,1,0)$, $v_2=(4,1,4)$ et $v_3=(2,-1,4)$.Montrer que la famille $(v_1,v_2)$ est libre. Faire de même pour $(v_1,v_3)$, puis pour $(v_2,v_3)$.La famille $(v_1,v_2,v_3)$ est-elle libre?",
+    "hint": "Pour la première question, les vecteurs sont non-nuls et non colinéaires. Pour la seconde, trouver une relation de liaison\r\nentre les trois vecteurs, au besoin en résolvant un système.",
+    "solution": "Les vecteurs $v_1$ et $v_2$ ne sont pas nuls et ne sont pas colinéaires.\r\nAinsi, la famille de \\emph{deux} vecteurs $(v_1,v_2)$ est libre. Il en est de même\r\npour la famille $(v_1,v_3)$, ainsi que pour la famille $(v_2,v_3)$, par une preuve\r\nidentique.On remarque que $v_3=v_2-2v_1$ : il y a une combinaison linéaire des trois vecteurs\r\navec des coefficients non tous nuls qui donne le vecteur nul. La famille n'est pas libre.\r\nSi on n'a pas la \"chance\" de remarquer que $v_3=v_2-2v_1$, on peut écrire\r\nune relation de liaison $av_1+bv_2+cv_3=0$, on obtient un système de trois équations\r\ndont les inconnues sont $a$, $b$ et $c$. La résolution de ce système montre qu'il admet\r\nune solution non-nulle.",
+    "lang": "french"
+}

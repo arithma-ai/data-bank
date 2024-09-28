@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer qu'une droite est orthogonale à toute droite d'un plan si et seulement si elle est orthogonale à deux droites sécantes de ce plan.",
+    "hint": "",
+    "solution": "Le sens direct est évident. Réciproquement, supposons que $D$ est orthogonale à deux droites sécantes $D_1$ et $D_2$ d'un plan $P$. Notons $u$, $v_1$ et $v_2$ des vecteurs directeurs respectifs de $D$, $D_1$ et $D_2$. Alors $u\\perp v_1$ et $u\\perp v_2$. De plus, si $D_3$ est droite de $P$, et si $w$ est un de ses vecteurs directeurs, alors il existe des réels $\\alpha,\\beta$ tels que $w=\\alpha v_1+\\beta v_2$. On en déduit que $u\\perp w$ (on peut par exemple calculer le produit scalaire) et donc que $D$ est orthogonale à $D_3$.",
+    "lang": "french"
+}

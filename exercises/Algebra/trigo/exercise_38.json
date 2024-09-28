@@ -1,0 +1,6 @@
+{
+    "script": "A partir de la somme des racines $5-$ièmes de l'unité, calculer $\\cos(2\\pi/5)$.",
+    "hint": "Cette somme vaut 0. Y reconnaitre $\\cos(2\\pi/5)$ et $\\cos(4\\pi/5)$, et exprimer le deuxième cosinus\r\nen fonction du premier.",
+    "solution": "La somme des racines $5-$ièmes de l'unité est nulle. On a donc\r\n$$1+e^{2i\\pi/5}+e^{i4\\pi/5}+e^{i6\\pi/5}+e^{i8\\pi/5}=0.$$\r\nOr, \r\n$$e^{i8\\pi/5}=e^{-2i\\pi/5}\\textrm{ et }e^{6i\\pi/5}=e^{-4i\\pi/5}.$$\r\nUtilisant les formules d'Euler, on en déduit que \r\n$$1+2\\cos(2\\pi/5)+2\\cos(4\\pi/5)=0.$$\r\nOr, \r\n$$\\cos(4\\pi/5)=2\\cos^2(2\\pi/5)-1,$$\r\nce qui donne\r\n$$4\\cos^2(2\\pi/5)+2\\cos(2\\pi/5)-1=0.$$\r\n$\\cos(2\\pi/5)$ est donc une racine de l'équation $4X^2+2X-1=0$. Le discriminant de ce polynôme du second degré\r\nest $\\Delta=20$, et ses racines sont \r\n$$x_1=\\frac{-1-\\sqrt 5}4\\textrm{ et }x_2=\\frac{-1+\\sqrt 5}4.$$\r\nPuisque $\\cos(2\\pi/5)>0$, on en déduit que \r\n$$\\cos(2\\pi/5)=\\frac{-1+\\sqrt 5}4.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "On note $C$ le cercle unité et soit $f$ une fonction holomorphe dans un ouvert $U$\r\ncontenant le disque $\\overline{D(0,1)}$. Exprimer en fonction des valeurs de $f$\r\n$$I=\\int_{C}\\left(2+z+\\frac{1}{z}\\right)\\frac{f(z)}{z}dz.$$\r\nEn déduire la valeur de \r\n$$\\int_0^{2\\pi}f(e^{it})\\cos^2(t/2)dt.$$",
+    "hint": "La première partie est une application des formules de Cauchy. Pour la seconde partie,\r\nparamétrer l'intégrale.",
+    "solution": "On a, d'après les formules de Cauchy,\r\n$$I=2\\int_C\\frac{f(z)}{z}+\\int_Cf(z)dz+\\int_C\\frac{f(z)}{z^2}dz=2i\\pi(2f(0)+0+f'(0)).$$\r\nD'autre part, on paramètre le cercle unité par l'application $t\\mapsto e^{it}$. On trouve\r\n$$I=\\int_0^{2\\pi}(2+e^{it}+e^{-it})f(e^{it})idt=4i\\int_0^{2\\pi}f(e^{it})\\cos^2(t/2)dt.$$\r\nOn en déduit\r\n$$\\int_{0}^{2\\pi}f(e^{it})\\cos^2(t/2)dt=\\frac\\pi2\\big(2f(0)+f'(0)\\big).$$",
+    "lang": "french"
+}

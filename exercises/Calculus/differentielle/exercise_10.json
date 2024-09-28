@@ -1,0 +1,6 @@
+{
+    "script": "On munit $E=\\mathbb R_n[X]$ de la norme $\\|P\\|=\\sup_{t\\in [0,1]}|P(t)|$.\r\nSoit $\\phi:E\\to \\mathbb R$, $P\\mapsto \\int_0^1 (P(t))^3dt$. Démontrer que $\\phi$ est\r\ndifférentiable sur $E$ et calculer sa différentielle.",
+    "hint": "Développer $\\phi(P+H)$.",
+    "solution": "Soient $P,H\\in E$. On a \r\n$$\\phi(P+H)=\\int_0^1 \\big (P(t)+H(t)\\big)^3 dt=\\int_0^1 \\big(P(t)\\big)^3+3\\int_0^1 \\big(P(t)\\big)^2 H(t)dt+\\psi(H),$$\r\noù $$\\psi(H)=3\\int_0^1 P(t)\\big(H(t)\\big)^2dt+\\int_0^1 \\big(H(t)\\big)^3 dt.$$\r\nOr, \r\n$$|\\psi(H)|\\leq 3 \\int_0^1 |P(t)|dt \\times \\|H\\|^2+\\|H\\|^3.$$\r\nAinsi, $\\psi(H)=o(\\|H\\|)$. Puisque $H\\mapsto 3\\int_0^1 \\big(P(t)\\big)^2 H(t)dt$ est linéaire, on a prouvé\r\nque $\\phi$ est différentiable en $P$ et que $d\\phi_P(H)=3\\int_0^1 \\big(P(t)\\big)^2 H(t)dt$.",
+    "lang": "french"
+}

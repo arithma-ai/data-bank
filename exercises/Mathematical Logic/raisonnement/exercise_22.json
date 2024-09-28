@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(u_n)_{n\\in\\mathbb N^*}$ la suite définie par $u_1=3$ et pour tout $n\\geq 1$, $u_{n+1}=\\frac 2n\\sum_{k=1}^n u_k$. Démontrer que, pour tout $n\\in\\mathbb N^*$, on a $u_n=3n$.",
+    "hint": "Procéder par récurrence forte. On rappelle que \r\n$$\\sum_{k=1}^n k=\\frac{n(n+1)}2.$$",
+    "solution": "On va procéder par récurrence forte sur $n\\in\\mathbb N^*$. Pour $n\\in\\mathbb N^*$, on note $\\mathcal P(n)$ la propriété $\" u_n=3n\"$.Initialisation : On a $u_1=3$ et donc $\\mathcal P(1)$ est vraie.Hérédité : Soit $n\\in\\mathbb N^*$ et supposons que $\\mathcal P(1),\\dots,\\mathcal P(n)$ sont vraies. Alors \r\n\\begin{align*}\r\nu_{n+1}&=\\frac 2n\\sum_{k=1}^n u_k\\\\\r\n&=\\frac 2n \\sum_{k=1}^n 3k\\\\\r\n&=\\frac 6n\\times \\frac{n(n+1)}2\r\n\\end{align*}\r\noù on a utilisé que $\\sum_{k=1}^n k=\\frac{n(n+1)}2$. On en déduit que\r\n$$u_{n+1}=3(n+1)$$\r\net donc que $\\mathcal P(n+1)$ est vraie.Conclusion : par le principe de récurrence forte, $\\mathcal P(n)$ est vraie pour tout entier $n\\geq 1$.",
+    "lang": "french"
+}

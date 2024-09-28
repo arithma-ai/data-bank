@@ -1,0 +1,6 @@
+{
+    "script": "La taille d'un homme âgé de 25 ans suit une loi normale de moyenne 175cm et d'écart-type 6cm.Quel est le pourcentage d'hommes ayant une taille supérieure à 1m85?Parmi les hommes mesurant plus de 1m80, quelle proportion mesure plus de 1m92?",
+    "hint": "C'est juste un problème de renormalisation de la loi normale.",
+    "solution": "Comme usuellement, on note $\\phi$ la fonction de répartition de la loi normale $\\mathcal N(0,1)$.\r\nOn note aussi $Y=\\frac{X-175}6$, qui suit une loi $\\mathcal N(0,1)$.On cherche $P(X>185)$ qu'on va calculer en renormalisant la loi normale : \r\n$$P(X>185)=P\\left(\\frac{X-175}6>\\frac{185-175}6\\right)=P(Y>5/3)=1-\\phi(5/3)\\simeq 0,05.$$C'est le même raisonnement, si ce n'est qu'il fait de plus intervenir une probabilité conditionnelle :\r\n$$P(X>192|X>180)=\\frac{P(X>192\\cap X>180)}{P(X>180)}=\\frac{P(X>192)}{P(X>180)}.$$\r\nOn mène les calculs comme précédemment, et on trouve\r\n$$P(X>192|X>180)=\\frac{1-\\phi(17/6)}{1-\\phi(5/6)}\\simeq 0,01.$$",
+    "lang": "french"
+}

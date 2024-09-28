@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel de dimension 3, et soit $f\\in O^-(E)$. Démontrer que $f$ est la composée d'une rotation d'axe une droite $D$ et de la réflexion par rapport à $D^\\perp$.",
+    "hint": "Utiliser la matrice sous forme réduite.",
+    "solution": "Il existe une base orthonormale $(u,v,w)$ de $E$ telle que la matrice de $f$ dans cette base orthonormale soit de la forme \r\n$$\\left(\r\n\\begin{array}{ccc}\r\n-1&0&0\\\\\r\n0&\\cos\\theta&-\\sin\\theta\\\\\r\n0&\\sin\\theta&\\cos\\theta\r\n\\end{array}\r\n\\right).$$\r\nNotons $D=\\textrm{vect}(u)$ de sorte que $D^\\perp=\\textrm{vect}(v,w)$. Soit $s$ la réflexion par rapport à $D^\\perp$. Sa matrice dans la base $(u,v,w)$ est \r\n$$\\left(\r\n\\begin{array}{ccc}\r\n-1&0&0\\\\\r\n0&1&0\\\\\r\n0&0&1\r\n\\end{array}\r\n\\right).$$\r\nAinsi, la matrice de $s\\circ f$ est \r\n$$\\left(\r\n\\begin{array}{ccc}\r\n1&0&0\\\\\r\n0&\\cos\\theta&-\\sin\\theta\\\\\r\n0&\\sin\\theta&\\cos\\theta\r\n\\end{array}\r\n\\right).$$\r\nC'est bien la matrice d'une rotation $r$ d'axe $D$. Puisque $s^{-1}=s$, on a bien \r\n$$f=r\\circ s=s\\circ r$$\r\nqui est donc la composée d'une rotation et d'une réflexion.",
+    "lang": "french"
+}

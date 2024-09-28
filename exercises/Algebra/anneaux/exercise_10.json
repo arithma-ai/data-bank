@@ -1,0 +1,6 @@
+{
+    "script": "L'anneau des fonctions de $\\mathbb R$ dans $\\mathbb R$ est-il intègre?",
+    "hint": "Trouver deux fonctions non identiquement nulles dont le produit est nulle.",
+    "solution": "Non, cet anneau n'est pas intègre. Il suffit de trouver deux fonctions non identiquement nulles dont le produit est nulle. Par exemple, si $f=1$ sur $]-\\infty,0]$ et $0$ sur $]0,+\\infty[$, et si $g=0$ sur $]-\\infty,0]$ et $1$ sur $]0,+\\infty[$, alors ni $f$ ni $g$ n'est nulle et pourtant $fg=0.$",
+    "lang": "french"
+}

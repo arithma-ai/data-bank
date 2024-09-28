@@ -1,0 +1,6 @@
+{
+    "script": "Soit $u\\in\\mathcal L(\\mathbb R_n[X])$. Calculer $\\det(u)$ dans chacun des cas suivants :$u(P)=P+P'$;$u(P)=P(X+1)-P(X)$;$u(P)=XP'+P(1)$.",
+    "hint": "Chercher la matrice de $u$ dans une base bien choisie de $\\mathbb R_n[X]$ (la plus facile, le plus souvent!).",
+    "solution": "Cherchons la matrice de $u$ dans la base canonique $(1,X,\\dots,X^n)$. On a $u(1)=1$ et pour $j\\geq 1$, $u(X^j)=X^j+jX^{j-1}$. Autrement dit, la matrice de $u$ dans la base canonique est \r\n$$\\left(\r\n\\begin{array}{ccccc}\r\n1&1&0&\\dots&\\\\\r\n0&1&2&0&\\dots\\\\\r\n\\vdots&0&1&\\ddots&\\\\\r\n\\vdots&\\vdots&&\\ddots&n\\\\\r\n&&&&1\\\\\r\n\\end{array}\\right).$$\r\nLa matrice est triangulaire supérieure et on en déduit aisément que $\\det(u)=1$.On peut appliquer la même méthode ou remarquer plus simplement que $u$ n'est pas injective, car les polynômes constants sont dans $\\ker(u)$. Ainsi, $u$ n'étant pas inversible, $\\det(u)=0$.On calcule toujours la matrice de $u$ dans la base $(1,X,\\dots,X^n)$. Puisque $u(1)=1$ et\r\n$u(X^j)=jX^j+1$, la matrice est triangulaire supérieure, de coefficients diagonaux $1,1,2,\\dots,n$.\r\nAinsi, $\\det(u)=n!$.",
+    "lang": "french"
+}

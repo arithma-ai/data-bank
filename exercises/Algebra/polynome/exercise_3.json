@@ -1,0 +1,6 @@
+{
+    "script": "Soient $a,b$ des réels, et $P(X)=X^4+2aX^3+bX^2+2X+1$. Pour quelles valeurs de $a$ et $b$\r\nle polynôme $P$ est-il le carré d'un polynôme de $\\mathbb R[X]$?",
+    "hint": "Procéder par identification.",
+    "solution": "Si $P=Q^2$ est le carré d'un polynôme, alors $Q$ est nécessairement de degré 2, et son coefficient\r\ndominant est égal à $1$ ou est égal à $-1$. Dans le premier cas, on peut donc écrire $Q(X)=X^2+cX+d$. On a alors \r\n$$Q^2(X)=X^4+2cX^3+(2d+c^2)X^2+2cdX+d^2.$$\r\nPar identification, on doit avoir $2c=2a$, $2d+c^2=b$, $2cd=2$ et $d^2=1$. On trouve donc $c=a$ et $d=\\pm 1$.  \r\nSi $d=1$, alors $c=1$, et donc $a=1$ et $b=3$. Si $d=-1$, alors $c=-1$, $a=-1$ et $b=-1$. Les deux solutions sont donc\r\n\\begin{eqnarray*}\r\nP_1(X)&=&X^4+2X^3+3X^2+2X+1=(X^2+X+1)^2\\\\\r\nP_2(X)&=&X^4-2X^3-X^2+2X+1=(X^2-X-1)^2.\r\n\\end{eqnarray*}\r\nDans le deuxième cas, on écrit $Q(X)=-R(X)$ avec $R(X)=X^2+cX+d$, de sorte que $Q^2(X)=R^2(X)$ et on retrouve en réalité le cas précédent.",
+    "lang": "french"
+}

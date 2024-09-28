@@ -1,0 +1,6 @@
+{
+    "script": "On suppose qu'on a un espace probabilisé tel que l'univers $\\Omega$ est un ensemble fini de cardinal un nombre premier $p$, et que le modèle choisi soit celui de l'équiprobabilité. Prouver que deux événements $A$ et $B$ non triviaux (différent de $\\varnothing$ et $\\Omega$) ne peuvent pas être indépendants.",
+    "hint": "Raisonner par l'absurde, calculer le cardinal de $A\\cap B$ et utiliser le théorème de Gauss pour obtenir une contradiction.",
+    "solution": "Supposons qu'il existe $A$ et $B$ deux événements non triviaux indépendants. On note $m$ le cardinal de $A$ et $n$ le cardinal de $B$. On a donc $P(A)=m/p$ et $P(B)=n/p$. Puisque $A$ et $B$ sont supposés indépendants, et toujours parce que le modèle adopté est celui de l'équiprobabilité, on a :\r\n$$\\card(A\\cap B)=p\\times P(A\\cap B)=p\\times P(A)\\times P(B)=\\frac{mn}{p}.$$\r\nPuisque le cardinal est un entier, $p$ divise le produit $mn$, et par le théorème de Gauss, il divise l'un des deux, disons $n$. D'autre part, puisque $n\\leq p$, ceci n'est possible que si $n=0$ ou $n=p$. Autrement dit, seulement si $B$ est ou l'événement certain, ou l'événement impossible, c'est-à-dire un événement trivial.",
+    "lang": "french"
+}

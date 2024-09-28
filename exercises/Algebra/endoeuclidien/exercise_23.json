@@ -1,0 +1,6 @@
+{
+    "script": "Dire si les matrices suivantes sont positives, définies positives.\r\n$$A=\\begin{pmatrix}\r\n2&-1\\\\\r\n-1&1\r\n\\end{pmatrix}\\quad\\quad B=\\begin{pmatrix}\r\n1&2\\\\\r\n2&1\r\n\\end{pmatrix}.$$",
+    "hint": "Calculer $\\langle AX,X\\rangle$ pour tout $X\\in\\mathbb R^2.$",
+    "solution": "Soit $X=\\begin{pmatrix}x\\\\y\\end{pmatrix}.$\r\nAlors $AX=\\begin{pmatrix}2x-y\\\\-x+y\\end{pmatrix}$ de sorte que \r\n$$\\langle AX,X\\rangle=2x^2-xy-xy+y^2=(x-y)^2+x^2.$$\r\nCette dernière quantité est toujours positive ou nulle, donc $A\\in\\mathcal S_2^+(\\mathbb R),$ et de plus elle est nulle si et seulement $x=y=0.$ Donc $A\\in\\mathcal S_2^{++}(\\mathbb R).$Concernant $B,$ un calcul similaire donne\r\n$$\\langle BX,X\\rangle=x^2+4xy+y^2=(x+y)^2+2xy.$$\r\nEn particulier, si $X=\\begin{pmatrix}1\\\\-1\\end{pmatrix},$ alors $\\langle BX,X\\rangle=-2<0.$ Donc $B$ n'est pas une matrice symétrique positive.Les deux résultats de l'exercice peuvent sembler étonnants. Ils illustrent le fait qu'être positif ne peut se décider uniquement en fonction du signe des coefficients de la matrice.",
+    "lang": "french"
+}

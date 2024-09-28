@@ -1,0 +1,6 @@
+{
+    "script": "Soit $P(X)=\\prod_{k=1}^{n}(X-x_k)\\in\\mathbb R_n[X]$ un polynôme scindé à racines simples de degré $n\\geq 2$.Décomposer en éléments simples $1/P$.En déduire la valeur de $\\sum_{k=1}^n \\frac1{P'(x_k)}$.",
+    "hint": "Multiplier par $x$ et faire tendre vers $+\\infty$.",
+    "solution": "Les racines de $P$ étant simples, on a \r\n$$P(X)=\\sum_{k=1}^n \\frac{\\lambda_k}{X-x_k}.$$\r\nDe plus, pour tout $k=1,\\dots,n$,\r\n$$\\lambda_k=\\lim_{x\\to x_k}\\frac{x-x_k}{P(x)}=\\frac 1{P'(x_k)}.$$Multipliant par $X$, on a pour tout $x\\in\\mathbb R$,\r\n$$\\frac x{P(x)}=\\sum_{k=1}^n \\frac 1{P'(x_k)}\\times \\frac x{x-x_k}.$$\r\nFaisons tendre $x$ vers $+\\infty$. Puisque $\\deg(P)\\geq 2$, on obtient\r\n$$\\sum_{k=1}^n \\frac1{P'(x_k)}=0.$$",
+    "lang": "french"
+}

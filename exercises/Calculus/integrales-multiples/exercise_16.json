@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer le volume intérieur à l'ellipsoide d'équation :\r\n$$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}+\\frac{z^2}{c^2}=1,$$\r\noù $a$, $b$ et $c$ désignent trois réels strictement positifs.",
+    "hint": "Effectuer le changement de variables $x=au$, $y=bv$, $z=cw$.",
+    "solution": "On effectue le changement de variables $x=au$, $y=bv$, $z=cw$. On note $E$ (l'intérieur de) l'ellipsoide. Il est clair que :\r\n$$(x,y,z)\\in E\\iff u^2+v^2+w^2\\leq 1\\iff (u,v,w)\\in B,$$\r\noù $B$ désigne la boule unité. En outre, la matrice jacobienne du changement de variables est diagonale et constante, les termes sur la diagonale valant $a$, $b$ et $c$. La formule du changement de variables donne :\r\n$$\\int\\!\\int\\!\\int_Edxdydz=\\int\\!\\int\\!\\int_Babcdudvdw=abc\\int_Bdudvdw.$$\r\nLa dernière intégrale vaut le volume de la boule unité, c'est-à-dire $\\frac{4\\pi}{3}$. Le volume de l'ellipsoïde est dont :\r\n$$\\frac{4abc\\pi}{3}.$$",
+    "lang": "french"
+}

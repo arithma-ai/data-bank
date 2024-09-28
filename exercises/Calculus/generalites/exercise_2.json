@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f,g:\\mathbb R\\to\\mathbb R$ des fonctions impaires. Que dire de la parité de $f+g$, $f\\times g$ et $f\\circ g$?",
+    "hint": "Revenir à la définition en calculant par exemple $(f\\times g)(-x)$.",
+    "solution": "Dans ce genre d'exercices, le plus naturel est de revenir à la définition. Soit $x\\in \\mathbb R$. Alors\r\n\\begin{eqnarray*}\r\n(f\\times g)(-x)&=&f(-x)\\times g(-x)\\\\\r\n&=&(-f(x))\\times (-g(x))\\\\\r\n&=&f(x)\\times g(x)\\\\\r\n&=&(f\\times g)(x).\r\n\\end{eqnarray*}\r\nAinsi, $f\\times g$ est paire. De même, \r\n\\begin{eqnarray*}\r\n(f+g)(-x)&=&f(-x)+ g(-x)\\\\\r\n&=&(-f(x))+(-g(x))\\\\\r\n&=&-(f(x)+g(x))\\\\\r\n&=&-(f+ g)(x).\r\n\\end{eqnarray*}\r\nDonc $f+g$ est impaire. Enfin, \r\n\\begin{eqnarray*}\r\n(f\\circ g)(-x)&=&f(g(-x))\\\\\r\n&=&f(-g(x))\\\\\r\n&=&-f(g(x))\\\\\r\n&=&-(f\\circ g)(x).\r\n\\end{eqnarray*}\r\nDonc $f\\circ g$ est impaire.",
+    "lang": "french"
+}

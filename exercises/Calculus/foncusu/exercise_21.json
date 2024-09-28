@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer le nombre de solutions dans $]0,+\\infty[$ de l'équation $x\\ln(x)=1$.",
+    "hint": "Étudier la fonction $f(x)=x\\ln(x)$.",
+    "solution": "Pour $x>0$, posons $f(x)=x\\ln(x)$. La fonction $f$ est dérivable sur $]0,+\\infty[$ et de plus sa dérivée vérifie \r\n$$f'(x)=\\ln(x)+1.$$\r\nOr, $\\ln(x)+1\\geq 0\\iff \\ln(x)\\geq -1\\iff x\\geq \\exp(-1).$\r\nAinsi, $f'(x)> 0$ si $x> \\exp(-1)$ et $f'(x)<0$ si $x<\\exp(-1)$. On en déduit que la fonction $f$ est strictement décroissante sur $]0,e^{-1}]$ et strictement croissante sur $[e^{-1},+\\infty[$. Or, $\\lim_{x\\to 0}f(x)=0<1$ et donc l'équation $f(x)=1$ n'admet pas de solutions dans l'intervalle $]0,e^{-1}]$. On a aussi $f(e^{-1})=-e^{-1}<0$ et $\\lim_{x\\to+\\infty}f(x)=+\\infty$. Ainsi $f$, qui est continue et strictement croissante, réalise une bijection de $[e^{-1},+\\infty[$ sur $[-e^{-1},+\\infty[$. Comme $1\\in [-e^{-1},+\\infty[$, \r\nl'équation $x\\ln(x)=1$ admet une unique solution dans cet intervalle.Finalement, on a prouvé que l'équation $x\\ln(x)=1$ admet une unique solution dans $]0,+\\infty[$.",
+    "lang": "french"
+}

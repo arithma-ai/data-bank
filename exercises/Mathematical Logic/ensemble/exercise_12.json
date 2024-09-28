@@ -1,0 +1,6 @@
+{
+    "script": "Écrire l'ensemble des parties de $E=\\left\\{a,b,c,d\\right\\}$.",
+    "hint": "Écrire toutes les parties à 0 éléments, toutes les parties à 1 éléments, etc... On doit trouver $2^4=16$ éléments dans $\\mcp(E)$.",
+    "solution": "On classe les parties suivant leur nombre d'éléments :0 éléments : Il n'y a que l'ensemble vide : $\\varnothing$.1 élément : Il y a les 4 singletons : $\\{a\\},\\ \\{b\\},\\ \\{c\\},\\ \\{d\\}$.2 éléments : Il y a 6 parties à 2 éléments :\r\n$$\\{a,b\\},\\ \\{a,c\\},\\ \\{a,d\\},\\ \\{b,c\\},\\ \\{b,d\\},\\ \\{c,d\\}.$$3 éléments : Il y a 4 parties à 3 éléments :\r\n$$\\{a,b,c\\},\\ \\{a,b,d\\},\\ \\{a,c,d\\},\\ \\{b,c,d\\}.$$4 éléments : Il n'y a qu'une partie à 4 éléments : l'ensemble $E$ lui-même.L'ensemble des parties de $E$ comporte donc $16=2^4$ éléments.",
+    "lang": "french"
+}

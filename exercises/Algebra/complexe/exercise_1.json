@@ -1,0 +1,6 @@
+{
+    "script": "Donner la partie réelle, la partie imaginaire et le conjugué des nombres complexes suivants :\r\n$$\r\n\\begin{array}{lllll}\r\nz_1=-2i+5&\\quad&z_2=15&\\quad&z_3=3i\\\\\r\nz_4=i(2+3i)\r\n\\end{array}$$",
+    "hint": "Pour $z_4$, il faut faire l'opération avant....",
+    "solution": "$\\Re e(z_1)=5$, $\\Im m(z_1)=-2$, $\\overline{z_1}=5+2i$.$\\Re e(z_2)=15$, $\\Im m(z_2)=0$, $\\overline{z_2}=15$.$\\Re e(z_3)=0$, $\\Im m(z_3)=3$, $\\overline{z_3}=-3i$.En effectuant le produit, on trouve $z_4=2i-3$, et donc $\\Re e(z_4)=-3$, $\\Im m(z_4)=2$, $\\overline{z_4}=-3-2i$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "On dispose de 4 hélicoptères de tourisme, de 4 pilotes et de 8 hôtesses de l'air. Combien de façons différentes y a-t-il d'attribuer les pilotes et hôtesses de l'air aux hélicoptères de manière que chaque hélicoptère ait un pilote et deux hôtesses de l'air ?",
+    "hint": "Choisir d'abord les hôtesses et le pilote du premier hélicoptère, puis les hôtesses et le pilote du deuxième hélicoptère, etc...",
+    "solution": "On fait les choix successifs suivants :on choisit 2 hôtesses parmi 8 et un pilote parmi 4 pour le premier hélicoptère. Il y a donc $\\binom 82\\times 4=28\\times 4=112$ tels choix.pour le deuxième hélicoptère, on choisit 2 hôtesses parmi les 6 restantes, puis un pilote parmi les 3 restants. Il y a donc $\\binom 62\\times 3=15\\times 3=45$ tels choix.pour le troisième hélicoptère, on choisit 2 hôtesses parmi les 4 restantes, puis un pilote parmi les 2 restants. Il y a donc $\\binom 42\\times 2=6\\times 2=12$ tels choix.pour le dernier hélicoptère, on n'a plus de choix à faire : on lui affecte les deux dernières hôtesses et le dernier pilote.Le nombre total de choix est donc $112\\times 45\\times 12=60480$.",
+    "lang": "french"
+}

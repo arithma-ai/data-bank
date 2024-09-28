@@ -1,0 +1,6 @@
+{
+    "script": "On définit sur $\\mathbb R$ la relation $x\\mathcal R y$ si et seulement si\r\n$x^2-y^2=x-y$.Montrer que $\\mathcal R$ est une relation d'équivalence.Calculer la classe d'équivalence d'un élément $x$ de $\\mathbb R$.\r\nCombien y-a-t-il d'éléments dans cette classe?",
+    "hint": "Regrouper les $x$.Pour $x$ fixé, il faut trouver les solutions de $x^2-y^2=x-y$. Factoriser $x^2-y^2$.",
+    "solution": "Il suffit de remarquer que $x\\mathcal R y\\iff x^2-x=y^2-y\\iff f(x)=f(y)$\r\navec $f:x\\mapsto x^2-x$. Il est alors aisé de vérifier en appliquant la définition\r\nque $\\mathcal R$ est une relation d'équivalence, c'est-à-dire qu'elle est réflexive, symétrique et transitive.Soit $x\\in\\mathbb R$. On cherche les éléments $y$ de $\\mathbb R$ tels que\r\n$x\\mathcal R y$. On doit donc résoudre l'équation (en $y$) $x^2-y^2=x-y$. Elle se factorise\r\nen\r\n$$(x-y)(x+y)-(x-y)=0\\iff (x-y)\\times (x+y-1)=0.$$\r\nSes solutions sont $y=x$ et $y=1-x$.\r\nLa classe de $x$ est donc égale à $\\{x,1-x\\}$. Elle est constituée de deux éléments,\r\nsauf si $x=1-x\\iff x=1/2$. Dans ce cas, elle est égale à $\\{1/2\\}$.",
+    "lang": "french"
+}

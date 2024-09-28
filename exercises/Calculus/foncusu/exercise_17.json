@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout $x\\geq 0$, on a \r\n$$x-\\frac{x^2}2\\leq \\ln(1+x)\\leq x.$$",
+    "hint": "Introduire deux fonctions à étudier!",
+    "solution": "On pose, pour $x\\geq 0$, \r\n$$f(x)=x-\\ln(1+x).$$\r\nAlors $f$ est dérivable sur $\\mathbb R_+$ et, pour tout $x\\geq 0$, on a\r\n$$f'(x)=1-\\frac1{1+x}=\\frac{x}{x+1}\\geq 0.$$\r\nAinsi, la fonction $f$ est croissante sur l'intervalle $[0,+\\infty[$. De plus, $f(0)=0$, donc, pour tout $x\\geq 0$, on a $f(x)\\geq 0$ ce qui entraîne $\\ln(1+x)\\leq x$.Pour démontrer l'autre inégalité, on introduit cette fois la fonction $g$ définie sur $[0,+\\infty[$ par\r\n$$g(x)=\\ln(1+x)-x+\\frac{x^2}2.$$\r\n$g$ est dérivable sur $\\mathbb R_+$ et pour tout $x\\geq 0$, on a\r\n$$g'(x)=\\frac 1{1+x}-1+x=\\frac{x^2}{1+x}\\geq 0.$$\r\n$g$ est donc croissante sur $\\mathbb R_+$ et $g(0)\\geq 0$, donc pour tout $x\\geq 0$, \r\n$$g(x)\\geq 0\\iff x-\\frac{x^2}2\\leq \\ln(1+x).$$",
+    "lang": "french"
+}

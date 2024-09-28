@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ de classe $C^2$. Déterminer\r\n$$\\lim_{x\\to 0}\\frac{f'(x)-\\frac{f(x)-f(0)}x}x.$$",
+    "hint": "Appliquer la formule de Taylor-Young à $f$ en $0$ à l'ordre 2, à $f'$ en $0$ à l'ordre 1.",
+    "solution": "Puisque $f$ est de classe $C^2$, elle admet un développement limité à l'ordre 2 en 0 donné par \r\n$$f(x)=f(0)+f'(0)x+\\frac{f''(0)}{2}x^2+o(x^2).$$\r\nOn en déduit que \r\n$$\\frac{f(x)-f(0)}x=f'(0)+\\frac{f''(0)}{2}x+o(x).$$\r\nD'autre part, $f'$ est de classe $C^1$ en $0$. Elle admet donc un développement limité à l'ordre 1 en $0$ donné par \r\n$$f'(x)=f'(0)+f''(0)x+o(x).$$\r\nFaisant la différence des deux DL, on trouve \r\n$$f'(x)-\\frac{f(x)-f(0)}x=\\frac{f''(0)}{2}x+o(x).$$\r\nDivisant par $x$, il vient \r\n$$\\frac{f'(x)-\\frac{f(x)-f(0)}x}x=\\frac{f''(0)}{2}+o(1).$$\r\nLa limite recherchée est donc $f''(0)/2$.",
+    "lang": "french"
+}

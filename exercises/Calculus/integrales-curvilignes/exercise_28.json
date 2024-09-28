@@ -1,0 +1,6 @@
+{
+    "script": "Calculer la longueur d'une spire d'hélice circulaire :\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx(t)&=&a\\cos t\\\\\r\ny(t)&=&a\\sin t\\\\\r\nz(t)&=&ht\r\n\\end{array}\\right.$$\r\navec $0\\leq t\\leq 2\\pi$.",
+    "hint": "Utiliser la formule du cours.",
+    "solution": "Un calcul rapide montre que :\r\n$$\\sqrt{x'(t)^2+y'(t)^2+z'(t)^2}=\\sqrt{a^2+h^2}.$$\r\nLa longueur de la courbe vaut donc :\r\n$$\\int_0^{2\\pi}\\sqrt{a^2+h^2}dt=2\\pi\\sqrt{a^2+h^2}.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[a,b]\\to\\mathbb R$ continue. Démontrer que sa valeur moyenne est atteinte : il existe $c\\in [a,b]$ tel que \r\n$$f(c)=\\frac{1}{b-a}\\int_a^b f(t)dt.$$",
+    "hint": "Encadrer l'intégrale, puis utiliser le théorème des valeurs intermédiaires....",
+    "solution": "$f$ étant continue sur le segment $[a,b]$, elle y est bornée et elle y atteint son minimum et son maximum. Soient $x_1,x_2\\in [a,b]$ tels que \r\n$$f(x_1)=\\min_{[a,b]}f\\textrm{ et }f(x_2)=\\max_{[a,b]}f.$$\r\nAlors, puisque, pour tout $x\\in [a,b]$, on a \r\n$$f(x_1)\\leq f(x)\\leq f(x_2),$$\r\non a en intégrant\r\n$$(b-a)f(x_1)\\leq \\int_a^b f(x)dx\\leq (b-a)f(x_2)$$\r\nsoit encore\r\n$$f(x_1)\\leq\\frac 1{b-a}\\int_a^b f(x)dx\\leq f(x_2).$$\r\nMais par le théorème des valeurs intermédiaires, puisque $f$ est continue sur $[a,b]$, toute valeur comprise entre $f(x_1)$ et $f(x_2)$ est prise par $f$. On en déduit qu'il existe $c\\in [a,b]$ tel que \r\n$$f(c)=\\frac 1{b-a}\\int_a^b f(x)dx.$$",
+    "lang": "french"
+}

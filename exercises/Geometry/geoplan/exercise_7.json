@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A(0,0)$, $B(2,1)$ et $C(2,3)$.Déterminer une équation du cercle de diamètre $[AB]$.Déterminer une équation du cercle circonscrit au triangle $ABC$.",
+    "hint": "Un point $M$ est sur ce cercle si et seulement si $AMB$ est un triangle rectangle en $M$.Écrire l'équation \\emph{a priori} d'un tel cercle (avec trois paramètres), puis utiliser que\r\n$A$, $B$ et $C$ sont sur le cercle pour identifier les paramètres.",
+    "solution": "Le point $M(x,y)$ est sur le cercle de diamètre $[AB]$ si et seulement si\r\n$\\overrightarrow{AM}\\cdot\\overrightarrow{BM}=0$. Or, \r\n$$\\overrightarrow{AM}\\cdot\\overrightarrow{BM}=0\\iff (x-0)(x-2)+y(y-1)=0\\iff x^2-2x+y^2-y=0.$$\r\nLe cercle recherché a pour équation $x^2+y^2-2x-y=0.$L'équation générale d'un cercle est $x^2+y^2-2ax-2by+c=0$. Utilisons que les points $A$, $B$ et\r\n$C$ doivent appartenir à ce cercle. On trouve successivement $c=0$, $-4a-2b+5+c=0$, $-4a-6b+13+c=0$,\r\nsoit, après résolution du système, $a=1/4$, $b=2$ et $c=0$. Une équation du cercle est\r\ndonc $x^2+y^2-\\frac12x-4y=0$.",
+    "lang": "french"
+}

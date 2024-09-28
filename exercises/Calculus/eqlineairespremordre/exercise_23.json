@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les fonctions $f:\\mathbb R\\to\\mathbb R$ dérivables et vérifiant, pour tous $s,t\\in\\mathbb R$, \r\n$$f(s+t)=f(s)f(t).$$",
+    "hint": "Dériver la relation précédente par rapport à $t$.",
+    "solution": "Faisant $s=t=0$, on remarque que $f(0)^2=f(0)$, et donc $f(0)=0$ ou $f(0)=1$. \r\nSi $f(0)=0$, faisant $s=0$, on trouve que pour tout $t\\in\\mathbb R$, on a \r\n$$f(t)=f(0)f(t)=0.$$\r\nOn peut donc supposer $f(0)=1$. On repart alors de la relation initiale, on fixe la variable $s$ à une valeur quelconque de $\\mathbb R$,\r\net on dérive par rapport à $t$. On obtient\r\n$$f'(s+t)=f(s)f'(t).$$\r\nOn évalue en $t=0$, et on trouve\r\n$$f'(s)=f(s)f'(0).$$\r\nAinsi, $f$ est solution d'une équation différentielle $y'=\\alpha y$. On en déduit que $f$ est de la forme $f(x)=Ce^{\\alpha x}.$\r\nPour que $f(0)=1$, il est nécessaire que $C=1$. Réciproquement, on vérifie aisément que la fonction nulle et les fonctions $x\\mapsto e^{\\alpha x}$, $\\alpha\\in\\mathbb R$,\r\nsont bien solutions de l'équation fonctionnelle.",
+    "lang": "french"
+}

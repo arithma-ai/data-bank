@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire réelle finie à valeurs dans $\\mathbb R_+$, $f:\\mathbb R_+\\to\\mathbb R_+^*$ une fonction croissante. Démontrer que\r\n$$P(X\\geq a)\\leq \\frac{E(f(X))}{f(a)}.$$",
+    "hint": "Appliquer l'inégalité de Markov à $Y=f(X)$.",
+    "solution": "Soit $\\Omega$ l'univers où est défini $X$. Par croissance de la fonction $f$, pour tout $\\omega\\in\\Omega$, on a\r\n$$X(\\omega)\\geq a\\implies f(X(\\omega))\\geq f(a).$$\r\nPosons $Y=f(X)$ et appliquons l'inégalité de Markov à $Y$. On a donc\r\n\\begin{align*}\r\nP(X\\geq a)&=P(f(X)\\geq f(a))\\\\\r\n&\\leq \\frac{E(f(X))}{f(a)}.\r\n\\end{align*}",
+    "lang": "french"
+}

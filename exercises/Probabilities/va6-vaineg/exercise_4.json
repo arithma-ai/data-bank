@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$ un entier et $X$ une variable aléatoire suivant la loi géométrique $\\mathcal G(1/n)$.Montrer que $P(X\\geq n^2)\\leq \\frac 1n$.Montrer que $P(|X-n|\\geq n)\\leq 1-\\frac 1n$. En déduire que $P(X\\geq 2n)\\leq 1-\\frac 1n$.",
+    "hint": "La première inégalité est une conséquence de l'inégalité de Markov, la seconde de l'inégalité de Bienaymé-Tchebychev.",
+    "solution": "Rappelons que l'espérance d'une variable aléatoire suivant une loi géométrique de paramètre $p$ vaut $\\frac 1p$ et que sa variance vaut $\\frac q{p^2}$, avec $q=1-p$.$X$ étant à valeurs positives de moyenne $n$, l'inégalité de Markov donne, pour tout $a>0$,\r\n$$P(X\\geq a)\\leq \\frac{n}a.$$\r\nOn obtient le résultat voulu avec $a=n^2$.On a $V(X)=\\left(1-\\frac 1n\\right)n^2=n(n-1)$. On obtient en appliquant l'inégalité de Bienaymé-Tchebychev  avec $\\veps>0$,\r\n$$P(|X-n|\\geq\\veps)\\leq \\frac{n(n-1)}{\\veps^2}.$$\r\nPour $\\veps=n$, on obtient le résultat voulu. De plus, $X$ étant à valeurs dans $\\mathbb N^*$, les événements $|X-n|\\geq n$ et $X\\geq 2n$ sont égaux, ce qui donne la deuxième inégalité.",
+    "lang": "french"
+}

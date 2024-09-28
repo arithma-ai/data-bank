@@ -1,0 +1,6 @@
+{
+    "script": "Décomposer en éléments simples sur $\\mathbb R$ la fraction rationnelle suivante : \r\n$$\\frac{X^4+1}{(X+1)^2(X^2+1)}$$",
+    "hint": "Méthode pour décomposer une fraction rationnelle en éléments simples",
+    "solution": "On commence par réaliser la décomposition en éléments simples sur $\\mathbb C$.\r\nLes pôles sont $-1$ (double), $i$ et $-i$. La fraction rationnelle étant à coefficients réels, \r\nles parties polaires sont conjuguées. On a donc\r\n$$\\frac{X^4+1}{(X+1)^2(X^2+1)}=1+\\frac{a}{(X+1)^2}+\\frac{b}{X+1}+\\frac{c}{X-i}+\\frac{\\bar c}{X+i}.$$\r\nMultipliant par $X-i$ et faisant $X=i$, on trouve\r\n$$c=\\frac{i^4+1}{(i+i)(i+1)^2}=-\\frac12.$$\r\nDe même, on a\r\n$$a=\\frac{1+1}{1+1}=1.$$\r\nEn retranchant $\\frac1{(X+1)^2}$, on trouve \r\n$$\\frac{X^4-X^2}{(X+1)^2(X^2+1)}=\\frac{X^2(X-1)}{(X+1)(X^2+1)}=1+\\frac{b}{X+1}+\\frac c{X-i}+\\frac{\\bar c}{X+i}.$$\r\nMultipliant par $X+1$ et faisant $X=-1$, on trouve\r\n$$b=-1.$$\r\nFinalement,\r\n$$\\frac{X^4+1}{(X+1)^2(X^2+1)}=1+\\frac{1}{(X+1)^2}-\\frac{1}{X+1}-\\frac{1/2}{X-i}-\\frac{1/2}{X+i}.$$\r\nFinalement, en regroupant les deux derniers termes, on trouve la décomposition sur $\\mathbb R$ :\r\n$$\\frac{X^4+1}{(X+1)^2(X^2+1)}=1+\\frac{1}{(X+1)^2}-\\frac{1}{X+1}-\\frac{X}{X^2+1}.$$",
+    "lang": "french"
+}

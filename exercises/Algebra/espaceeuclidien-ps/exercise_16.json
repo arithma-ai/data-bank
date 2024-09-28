@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace préhilbertien et $x_1,\\dots,x_p\\in E$. Montrer que la fonction $f$ définie sur $E$ par $f(x)=\\sum_{i=1}^p \\|x-x_i\\|^2$ atteint son minimum en $m=\\frac 1p\\sum_{i=1}^p x_i.$",
+    "hint": "Écrire $x-x_i=x-m+m-x_i.$",
+    "solution": "On va passer par $m$ : pour cela, on écrit $x-x_i=x-m+m-x_i$ de sorte que \r\n$$\\|x-x_i\\|^2=\\|x-m\\|^2+2\\langle x-m,m-x_i\\rangle+\\|m-x_i\\|^2.$$\r\nIl vient, en faisant la somme\r\n\\begin{align*}\r\nf(x)&=p\\|x-m\\|^2+2\\sum_{i=1}^p \\langle x-m,m-x_i\\rangle+f(m)\\\\\r\n&=p\\||x-m\\|^2+2 \\left\\langle x-m,\\sum_{i=1}^p (m-x_i)\\right\\rangle+f(m)\\\\\r\n&=p\\|x-m\\|^2+2\\langle x-m,pm-pm\\rangle+f(m)\\\\\r\n&=p\\|x-m\\|^2+f(m)\\geq f(m).\r\n\\end{align*}\r\nAinsi, $f$ atteint son minimum en $m.$",
+    "lang": "french"
+}

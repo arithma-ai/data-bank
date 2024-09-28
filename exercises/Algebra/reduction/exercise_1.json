@@ -1,0 +1,6 @@
+{
+    "script": "En dimension finie, un endomorphisme admet un nombre fini de vecteurs propres.Si $A$ est diagonalisable, alors $A^2$ est diagonalisable.Si $A^2$ est diagonalisable, alors $A$ est diagonalisable.Tout endomorphisme d'un espace vectoriel réel de dimension impaire admet au moins une valeur propre (réelle).La somme de deux matrices diagonalisables est diagonalisable.",
+    "hint": "",
+    "solution": "C'est faux! Ou un endomorphisme n'admet pas de vecteurs propres, ou il en admet une infinité. En effet, si $x$ est vecteur propre, tous ses multiples non nuls sont vecteurs propres.C'est vrai! Si $A=PDP^{-1}$ avec $D$ diagonale, alors $A^2=PD^2P^{-1}$ et $D^2$ est diagonale.Non! Considérer par exemple $A=\\left(\\begin{array}{cc}\r\n0&1\\\\\r\n0&0\r\n\\end{array}\\right)$ qui n'est pas diagonalisable alors que son carré est la matrice nulle qui est diagonale.C'est vrai! Le polynôme caractéristique de $A$ est de degré impair, et tout polynôme réel de degré impair admet une racine réelle (appliquer le théorème des valeurs intermédiaires avec le calcul des limites en $\\pm\\infty$).Sûrement pas! Prendre par exemple\r\n$$A=\\left(\\begin{array}{cc}\r\n1&1\\\\\r\n0&3\r\n\\end{array}\r\n\\right)\\textrm{ et }\r\nB=\\left(\\begin{array}{cc}\r\n-1&0\\\\\r\n0&-3\r\n\\end{array}\r\n\\right).$$",
+    "lang": "french"
+}

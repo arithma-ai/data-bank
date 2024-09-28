@@ -1,0 +1,6 @@
+{
+    "script": "Décomposer en éléments simples les fractions rationnelles suivantes :\r\n$$\\begin{array}{lll}\r\n\\displaystyle\\mathbf{1.}\\quad \\frac{1}{X^n-1}&\r\n\\displaystyle\\quad\\quad\\mathbf{2.}\\quad\\frac{X^{n-1}}{X^n-1}&\r\n\\end{array}$$",
+    "hint": "Les pôles de ces fractions rationnelles sont les racines $n$-èmes de l'unité.",
+    "solution": "Les pôles de $1/(X^n-1)$ sont les racines $n$-ièmes de l'unité, c'est-à-dire les complexes $x_k=e^{2ik\\pi/n}$, $k=0,\\dots,n-1$.\r\nChaque pôle est simple, la partie polaire correspondante est donc de la forme $\\frac{c_k}{X-x_k}$ avec $c_k=\\frac{1}{P'(x_k)}=\\frac{1}{nx_k^{n-1}}$.\r\nOr, $x_k^{n-1}=\\frac{x_k^n}{x_k}=\\frac1{x_k}=e^{-2ik\\pi/n}$. La décomposition en éléments simples recherché vaut donc\r\n$$\\frac1{X^n-1}=\\frac1n\\sum_{k=0}^{n-1}\\frac{e^{2ik\\pi/n}}{X-e^{2ik\\pi/n}}.$$Les racines de $X^n-1$ sont les complexes $\\omega_k=e^{2ik\\pi/n}$, $0\\leq k\\leq n-1$. \r\nLa fraction rationnelle admet donc $n$ pôles, qui sont tous simples. Sa décomposition en éléments simples a pour forme\r\n$$\\frac{X^{n-1}}{X^n-1}=\\sum_{k=0}^{n-1}\\frac{\\alpha_k}{X-\\omega_k}$$\r\navec $\\alpha_k=\\frac{\\omega_k^{n-1}}{n\\omega_k^{n-1}}=\\frac{1}{n}$. La décomposition en éléments simples est\r\n$$\\frac{X^{n-1}}{X^n-1}=\\frac1n\\sum_{k=0}^{n-1}\\frac{1}{X-e^{2ik\\pi/n}}.$$",
+    "lang": "french"
+}

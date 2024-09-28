@@ -1,0 +1,6 @@
+{
+    "script": "Soient $f,g\\in L^3(\\mathbb R)$. Démontrer que $f^2g$ est intégrable.",
+    "hint": "Appliquer l'inégalité de Hölder avec de bons exposants.",
+    "solution": "On va appliquer l'inégalité de Hölder avec les exposants $p=3$ et $q=3/2$, qui sont bien des exposants conjugués. On a alors\r\n$$\\int_{\\mathbb R} |f^2(x)|\\times |g(x)|dx\\leq \\left(\\int_{\\mathbb R}|f|^{2\\times \\frac 32}\\right)^{2/3}\\times \\left(\\int_{\\mathbb R}|g|^{3}\\right)^{1/3}<+\\infty.$$\r\nCeci prouve bien que $f^2g$ est intégrable.",
+    "lang": "french"
+}

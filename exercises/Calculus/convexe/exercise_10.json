@@ -1,0 +1,6 @@
+{
+    "script": "Soient $a_1,\\dots,a_n$ des réels strictement positifs. Prouver l'inégalité suivante :\r\n$$\\sqrt[n]{a_1\\dots a_n}\\leq\\frac{a_1+\\dots+a_n}{n}.$$",
+    "hint": "Utiliser la concavité du logarithme.",
+    "solution": "Par concavité du logarithme :\r\n$$\\ln\\left(\\frac{a_1+\\dots+a_n}{n}\\right)\\geq \\frac{\\ln (a_1)+\\dots+\\ln(a_n)}{n}.$$\r\nOr, \r\n$$\\frac{\\ln (a_1)+\\dots+\\ln(a_n)}{n}=\\ln\\left(\\sqrt[n]{a_1\\dots a_n}\\right).$$\r\nOn conclut en utilisant le fait que la fonction exponentielle est croissante.",
+    "lang": "french"
+}

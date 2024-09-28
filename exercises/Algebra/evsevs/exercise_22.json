@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E=\\mathbb R^4$. On considère $(u_1,u_2,u_3,u_4)$ une famille libre de $E$ et on pose\r\n$$F=\\textrm{vect}(u_1+u_2,u_3),\\ G=\\textrm{vect}(u_1+u_3,u_4),\\ H=\\textrm{vect}(u_1+u_4,u_2).$$\r\nDémontrer que $F\\cap G=\\{0\\}$, que $F\\cap H=\\{0\\}$ et que $G\\cap H=\\{0\\}$. La somme $F+G+H$ est-elle directe?",
+    "hint": "Trouver un vecteur qui admet deux décompositions différentes dans $F+G+H$.",
+    "solution": "On va simplement démontrer que $F\\cap G=\\{0\\}$, les deux autres égalités se prouvant de façon tout à fait similaire. Soit $u\\in F\\cap G$. Alors il existe des scalaires $a,b,c,d$ tels que \r\n$$u=a(u_1+u_2)+bu_3=c(u_1+u_3)+du_4\\implies (a-c)u_1+au_2+(b-c)u_3-du_4=0.$$\r\nLa famille $(u_1,u_2,u_3,u_4)$ étant libre, on en déduit que \r\n$$a-c=a=b-c=-d=0,$$\r\nd'où l'on déduit successivement $a=d=0$, puis $c=0$, $b=0$. Ainsi, $u=0$.On va prouver que la somme $F+G+H$ n'est pas directe en trouvant un vecteur qui admet deux décompositions différentes dans $F+G+H$. Par exemple,\r\n\\begin{eqnarray*}\r\nu_1&=&-u_3+(u_1+u_3)+0\\in F+G+H\\\\\r\n&=&(u_1+u_2)+0+(-u_2)\\in F+G+H.\r\n\\end{eqnarray*}\r\nLa somme n'est pas directe!",
+    "lang": "french"
+}

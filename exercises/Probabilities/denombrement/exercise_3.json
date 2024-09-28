@@ -1,0 +1,6 @@
+{
+    "script": "On trace dans un plan $n\\geq 3$ droites en position générale (c'est-à-dire que deux droites ne sont jamais parallèles, et 3 droites ne sont jamais concourantes). Combien de triangles a-t-on ainsi tracé?",
+    "hint": "Comment définir un triangle?",
+    "solution": "Un triangle est déterminé par 3 droites (ses côtés). Il y a autant de triangles que de possibilités de choisir 3 droites parmi $n$, c'est-à-dire $\\binom n3$.",
+    "lang": "french"
+}

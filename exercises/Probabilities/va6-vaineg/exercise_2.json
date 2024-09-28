@@ -1,0 +1,6 @@
+{
+    "script": "On jette $3600$ fois un dé équilibré à $6$ faces. Minorer la probabilité que le nombre d'apparitions du numéro $1$ soit compris entre $480$ et $720.$",
+    "hint": "Appliquer l'inégalité de Bienaymé-Tchebychev à une variable aléatoire suivant une loi binomiale.",
+    "solution": "Soit $S$ la variable aléatoire comptant le nombre d'apparitions du chiffre 1 au cours de ces lancers. $S$ suit une loi binomiale de paramètres 3600 et 1/6. On sait donc que $E(S)=600$ et $V(S)=500$. Remarquons en outre que\r\n$$480<S<720\\iff -120<S-600<120\\iff |S-600|<120.$$\r\nPar l'inégalité de Bienaymé-Tchebychev,\r\n$$P(|S-600|\\geq 120)\\leq \\frac{500}{120^2}\\leq 0,035.$$\r\nOn en déduit que\r\n$$P(480<S<720)\\geq 1-0,035=0,965.$$\r\nEn particulier, la probabilité que le numéro 1 apparaisse entre 480 et 720 fois au cours de ces $3600$ lancers est supérieur à 0,96.",
+    "lang": "french"
+}

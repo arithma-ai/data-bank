@@ -1,0 +1,6 @@
+{
+    "script": "Soit $x,y,z$ trois réels tels que $2x^2+y^2+5z^2\\leq 1$. Démontrer que $(x+y+z)^2\\leq\\frac {17}{10}.$",
+    "hint": "Appliquer astucieusement l'inégalité de Cauchy-Schwarz.",
+    "solution": "Il suffit d'écrire :\r\n$$x+y+z=\\frac{1}{\\sqrt 2}\\times \\sqrt 2 x+1\\times y+\\frac{1}{\\sqrt 5}\\times \\sqrt 5 z.$$\r\nD'après l'inégalité de Cauchy-Schwarz (pour le produit scalaire canonique sur $\\mathbb R^3$), on a \r\n$$(x+y+z)^2\\leq \\left(\\left(\\frac 1{\\sqrt 2}\\right)^2+1^2+\\left(\\frac 1{\\sqrt 5}\\right)^2\\right)\\times (2x^2+y^2+5z^2)\\leq \\frac{17}{10}.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Écrire une fonction récursive factorielle qui prend en argument un entier naturel $n$ et renvoie l'entier $n!$.",
+    "hint": "Utiliser que $n!=n\\times (n-1)!$.",
+    "solution": "On utilise tout simplement que $n!=n\\times (n-1)!$, la condition d'arrêt étant donnée par $0!=1$. On en déduit l'algorithme suivant sous Python :def factorielle(n):if (n==0) return 1return n*factorielle(n-1)",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:]-1,1[\\to \\mathbb R^2$, $t\\mapsto(1/\\sqrt{1-t^2},2t)$ et $p:\\mathbb R^2\\to \\mathbb R,\\ (x,y)\\mapsto x+y$. Calculer\r\n$$p\\left(\\int_0^{1/2}f(t)dt\\right).$$",
+    "hint": "Utiliser que $p$ est une application linéaire.",
+    "solution": "Puisque $p$ est une application linéaire, on a \r\n\\begin{align*}\r\np\\left(\\int_0^{1/2}f(t)dt\\right)&=\\int_0^{1/2}p(f(t))dt\\\\\r\n&=\\int_0^{1/2}\\left(\\frac1{\\sqrt{1-t^2}}+2t\\right)dt\\\\\r\n&=\\left[\\arcsin(t)+t^2\\right]_0^{1/2}\\\\\r\n&=\\frac\\pi 6+\\frac 14.\r\n\\end{align*}",
+    "lang": "french"
+}

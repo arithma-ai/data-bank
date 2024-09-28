@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel, $f\\in\\mathcal L(E)$, et $1\\leq p\\leq q$ deux entiers. Comparer $\\ker(f^p)$ et $\\ker(f^q)$, puis $\\textrm{Im}(f^p)$ \r\net $\\textrm{Im}(f^q)$.",
+    "hint": "Les inclusions ne vont pas dans le même sens. On pourra écrire $q=p+(q-p)$.",
+    "solution": "Si $x\\in\\ker(f^p)$, alors $f^p(x)=0$. On a alors \r\n$$f^q(x)=f^{q-p}(f^p(x))=f^{q-p}(0)=0.$$\r\nAinsi, $\\ker(f^p)\\subset \\ker(f^q)$.Soit maintenant $y\\in\\textrm{Im}(f^q)$. Alors il existe $z\\in E$ tel que $y=f^q(z)$. Mais alors on a \r\n$$y=f^p(f^{q-p}(z))=f^p(z')\\textrm{ avec }z'=f^{q-p}(z).$$\r\nAinsi, $y\\in\\textrm{Im}(f^p)$ et $\\textrm{Im}(f^q)\\subset \\textrm{Im}(f^p).$",
+    "lang": "french"
+}

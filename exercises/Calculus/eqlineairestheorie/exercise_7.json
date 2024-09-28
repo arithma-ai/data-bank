@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a:\\mathbb R\\to\\mathbb R$ continue et intégrable. Démontrer que toutes les solutions\r\nde l'équation différentielle $y'(t)-a(t)y(t)=0$ sont bornées.",
+    "hint": "Écrire la forme d'une solution.",
+    "solution": "Les solutions de l'équation sont les fonctions de la forme $y(t)=C\\exp\\big(A(t))$\r\navec $A(t)=\\int_0^t a(u)du$ et $C\\in\\mathbb R$. Or, pour tout $t\\in\\mathbb R$,\r\n$$|A(t)|\\leq \\left|\\int_0^t |a(u)|du\\right|\\leq \\int_{\\mathbb R}|a(u)|du.$$\r\nAinsi, $y$ est bornée par $|C|\\exp\\left(\\int_{\\mathbb R}|a(u)|du\\right).$",
+    "lang": "french"
+}

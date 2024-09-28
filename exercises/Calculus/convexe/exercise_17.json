@@ -1,0 +1,6 @@
+{
+    "script": "Soient $f,g:\\mathbb R\\to\\mathbb R$ telles que $f$ et $g$ soient convexes, et $g$ est croissante. Démontrer que $g\\circ f$ est convexe.",
+    "hint": "Revenir à la définition.",
+    "solution": "Soit $x,y\\in\\mathbb R$ et $\\lambda\\in[0,1]$. Alors on a par convexité de $f$ :\r\n$$f(\\lambda x+(1-\\lambda)y)\\leq \\lambda f(x)+(1-\\lambda)f(y).$$\r\nPar croissance de $g$, on en déduit que \r\n$$g\\circ f(\\lambda x+(1-\\lambda)y)\\leq g\\big(\\lambda f(x)+(1-\\lambda)f(y)\\big).$$\r\nLa convexité de $g$ permet de conclure à \r\n$$g\\circ f(\\lambda x+(1-\\lambda)y)\\leq \\lambda g\\circ f(x)+(1-\\lambda)g\\circ f(y)$$\r\nce qui signifie bien que $g\\circ f$ est convexe.",
+    "lang": "french"
+}

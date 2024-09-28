@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout entier relatif $n$, $n(n-5)(n+5)$ est divisible par $3$.",
+    "hint": "Raisonner par disjonction de cas, suivant le reste de $n$ dans la division par $3$.",
+    "solution": "On va raisonner suivant le reste dans la division euclidienne de $n$ par $3$. Ce reste peut être égal à $0$, $1$ ou $2$, c'est-à-dire que $n$ peut s'écrire $3k,$ $3k+1$ ou $3k+2$, avec $k\\in\\mathbb Z.$Si $n=3k,$ alors \r\n$$n(n-5)(n+5)=3k(3k-5)(3k+5)$$\r\nest bien divisible par $3.$Si $n=3k+1,$ alors \r\n$$n(n-5)(n+5)=(3k+1)(3k-4)(3k+6)=3(3k+1)(3k-4)(k+2)$$\r\nest bien divisible par $3.$Si $n=3k+2,$ alors\r\n$$n(n-5)(n+5)=(3k+2)(3k-3)(3k+7)=3(3k+2)(k-1)(3k+7)$$\r\nest bien divisible par $3.$",
+    "lang": "french"
+}

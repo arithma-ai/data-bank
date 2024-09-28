@@ -1,0 +1,6 @@
+{
+    "script": "Soit $P(X)=X^4+aX^3+bX^2+cX+d\\in\\mathbb C[X]$. Démontrer que $P′$ et $P′′′$ ont une racine commune si et seulement si $a^3−4ab+8c=0$.",
+    "hint": "Supposer qu'il existe une racine commune $z$, obtenir deux équations vérifiées par $h$, et éliminer $h$ pour obtenir la relation demandée.",
+    "solution": "Supposons qu'il existe une racine commune $z$. Alors $z$ doit vérifier :\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\n4z^3 + 3az^2 + 2bz + c &=& 0\\\\\r\n 24z + 6a &=& 0\r\n\\end{array}\\right.$$\r\nLa deuxème équation donne $z = −a/ 4$ ce qui donne bien, en reportant dans la première équation,  $a^3−4ab+8c=0$.Réciproquement, si cette condition est vérifiée, alors on vérifie facilement que $z=-a/4$ est une racine commune de $P'$ et $P'''$.",
+    "lang": "french"
+}

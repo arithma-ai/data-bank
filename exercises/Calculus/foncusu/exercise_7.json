@@ -1,0 +1,6 @@
+{
+    "script": "La population d'un pays est donné par la fonction $p:t\\mapsto 12\\times 4^{\\lambda t}$ où $p(t)$ est le nombre d'habitants exprimé en millions pour l'année $2000+t$ et $\\lambda$ est un paramètre du modèle.Quelle est la population en l'an 2000?Sachant que la population est de 24 millions d'habitants en 2025, déterminer le coefficient $\\lambda$.Combien faut-il d'années pour qu'une population triple?",
+    "hint": "",
+    "solution": "On a $t=0$ et la population vaut donc $12$ millions d'habitants.On cherche $\\lambda$ pour que $p(25)=24.$\r\nOn résout donc l'équation \r\n\\begin{align*}\r\n12\\times 4^{\\lambda t}=24&\\iff 4^{25\\lambda}=2\\\\\r\n&\\iff 2^{50\\lambda}=2\\\\\r\n&\\iff 50\\lambda \\ln(2)=\\ln(2)\\\\\r\n&\\iff \\lambda=\\frac1{50}.\r\n\\end{align*}On cherche $t$ tel que $12\\times 4^{\\lambda t}=36$ soit $t$ tel que \r\n\\begin{align*}\r\n4^{\\lambda t}=3&\\iff \\lambda t\\ln(4)=\\ln(3)\\\\\r\n&\\iff r=\\frac{\\ln(3)}{\\ln(4)\\lambda}=\\frac{50\\ln(3)}{\\ln(4)}\\simeq 39,\\!6\r\n\\end{align*}\r\nIl faut environ $39,\\!6$ ans pour que la population triple.",
+    "lang": "french"
+}

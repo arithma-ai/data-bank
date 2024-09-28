@@ -1,0 +1,6 @@
+{
+    "script": "Soient $a,b,n$ trois entiers supérieurs ou égaux à 1. On note $q$ le quotient de la division euclidienne de $a-1$ par $b$, et $r$ le reste. Déterminer le quotient et le reste de la division euclidienne de $ab^n-1$ par $b^{n+1}$.",
+    "hint": "Écrire la division euclidienne, puis tout multiplier par $b^n$.",
+    "solution": "La division euclidienne s'écrit $a-1=bq+r$, avec $0\\leq r\\leq b-1$. On multiplie ensuite tout par $b^n$ et on trouve $ab^n-b^n=b^{n+1}q+rb^n$, puis on se ramène à \r\n$$ab^n-1=b^{n+1}q+rb^n+b^n-1=b^{n+1}q+r'$$\r\noù $r'=rb^n+b^n-1$. On remarque que $0\\leq r'\\leq (b-1)b^n+b^n-1=b^{n+1}-1$. On a donc écrit la division euclidienne de $ab^n-1$ par $b^{n+1}$, le quotient est $q$ et le reste est $rb^n+b^n-1$.",
+    "lang": "french"
+}

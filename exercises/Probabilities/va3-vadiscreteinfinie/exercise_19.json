@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ et $Y$ deux variables aléatoires indépendantes suivant des lois de Poisson de paramètre respectif $\\lambda$ et $\\mu$. Démontrer, à l'aide des fonctions génératrices, que $Z=X+Y$, suit une loi de Poisson de paramètre $\\lambda+\\mu$.",
+    "hint": "Faire le produit de Cauchy des deux séries.",
+    "solution": "Notons $\\sum_{n\\geq 0}a_n t^n$, $\\sum_{n\\geq 0}b_n t^n$ et $\\sum_{n\\geq 0}c_n t^n$ les fonctions génératrices respectives de $X$, $Y$ et $Z$. On a donc \r\n$$a_n=\\frac{e^{-\\lambda}\\lambda^n}{n!}\\textrm{ et }b_n=\\frac{e^{-\\mu}\\mu^n}{n!}.$$\r\nLa série génératrice de $Z$ est obtenue en effectuant le produit de Cauchy de ces deux séries. On a donc\r\n\\begin{eqnarray*}\r\nc_n&=&\\sum_{k=0}^n a_k b_{n-k}\\\\\r\n&=&e^{-(\\lambda+\\mu)}\\sum_{k=0}^n \\frac{\\lambda^k \\mu^{n-k}}{k! (n-k)!}\\\\\r\n&=&\\frac{e^{-(\\lambda+\\mu)}}{n!}\\sum_{k=0}^n \\binom nk \\lambda^k \\mu^{n-k}\\\\\r\n&=&\\frac{e^{-(\\lambda+\\mu)}(\\lambda+\\mu)^n}{n!}.\r\n\\end{eqnarray*}\r\nOn reconnait bien la fonction génératrice d'une loi de Poisson de paramètre $\\lambda+\\mu$. Comme la fonction génératrice caractérise la loi d'une variable aléatoire, $Z$ suit bien une loi de Poisson de paramètre $\\lambda+\\mu$.",
+    "lang": "french"
+}

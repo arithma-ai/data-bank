@@ -1,0 +1,6 @@
+{
+    "script": "Factoriser sur $\\mathbb R$ le polynôme $P(X)=X^6+X^5+X^4+X^3+X^2+X+1$.",
+    "hint": "Commencer par factoriser $X^7-1$...",
+    "solution": "L'idée, pour résoudre cet exercice, est que \r\n$$(X-1)P(X)=X^7-1$$\r\net on sait factoriser ce dernier polynôme. En effet, ses racines, sur $\\mathbb C$, sont les racines $7$-ièmes de l'unité : $1$, $e^{2i\\pi/7}$, $e^{4i\\pi/7}$, $e^{6i\\pi/7}$, $e^{8i\\pi/7}$, $e^{10i\\pi/7}$, $e^{12i\\pi/7}$.\r\nOn peut donc factoriser $P$ sur $\\mathbb C$ sous la forme suivante : \r\n$$P(X)=(X-e^{2i\\pi/7})(X-e^{4i\\pi/7})(X-e^{6i\\pi/7})(X-e^{8i\\pi/7})(X-e^{10i\\pi/7})(X-e^{12i\\pi/7}).$$\r\nReste à regrouper deux par deux les racines complexes conjuguées. Ainsi on a \r\n$$(X-e^{2i\\pi/7})(X-e^{12i\\pi/7})=X^2-2\\cos(2\\pi/7)X+1,$$\r\n$$(X-e^{4i\\pi/7})(X-e^{10i\\pi/7})=X^2-2\\cos(4\\pi/7)X+1,$$\r\n$$(X-e^{6i\\pi/7})(X-e^{8i\\pi/7})=X^2-2\\cos(6\\pi/7)X+1.$$\r\nFinalement, la factorisation de $P$ sur $\\mathbb R$ est\r\n$$P(X)=(X^2-2\\cos(2\\pi/7)X+1)(X^2-2\\cos(4\\pi/7)X+1)(X^2-2\\cos(6\\pi/7)X+1).$$",
+    "lang": "french"
+}

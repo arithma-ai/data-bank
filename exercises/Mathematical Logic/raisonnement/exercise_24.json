@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que tout entier $n\\in\\mathbb N^*$ peut s'écrire de façon unique \r\nsous la forme $n=2^p(2q+1)$ où $(p,q)\\in\\mathbb N$.",
+    "hint": "Pour l'existence, procéder par récurrence forte.",
+    "solution": "On va prouver l'existence par récurrence forte. Le résultat est en effet vrai pour $n=1$,\r\nil suffit de prendre $p=q=0$. Supposons maintenant que tout entier inférieur ou égal à $n-1$ vérifie cette propriété,\r\net prouvons qu'elle est encore vérifiée pour $n$. On distingue alors deux cas :ou bien $n$ est pair : dans ce cas, $n=2m$, et $m\\in\\{1,\\dots,n-1\\}$. On peut lui appliquer l'hypothèse de\r\nrécurrence, et donc $m$ s'écrit $m=2^a(2b+1)$, avec $a,b\\in\\mathbb N$. Mais alors $n=2^{a+1}(2b+1)$, et\r\ndonc l'existence est démontrée avec $p=a+1$ et $q=b$.ou bien $n$ est impair : alors $n=2m+1=2^0(2m+1)$, et la proposition est démontrée pour $p=0$ et $q=m$.Ainsi, l'existence de la décomposition est établie pour tout entier $n\\in\\mathbb N^*$.Prouvons désormais l'unicité. Supposons que $n=2^p(2q+1)=2^a(2b+1)$. Si $p\\geq a$, alors \r\n$2^{p-a}(2q+1)=2b+1$ et le terme de droite est impair. Celui de gauche l'est aussi, et donc $p=a$.\r\nOn en déduit donc que $q=b$ également, ce qui prouve l'unicité.",
+    "lang": "french"
+}

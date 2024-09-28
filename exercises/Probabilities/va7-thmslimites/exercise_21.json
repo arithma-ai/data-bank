@@ -1,0 +1,6 @@
+{
+    "script": "En appliquant le théorème limite central à une suite de variables aléatoires indépendantes $(X_n)$ suivant toutes\r\nune loi de Poisson $\\mathcal P(1)$, démontrer que \r\n$$e^{-n}\\sum_{k=0}^n \\frac{n^k}{k!}\\to \\frac12.$$",
+    "hint": "Quelle est la loi de $X_1+\\dots+X_n$? On a $P(X\\leq 0)=1/2$ si $X\\sim \\mathcal N(0,1)$.",
+    "solution": "Il est facile de vérifier que $X_1+\\dots+X_n$ suit une loi de Poisson $\\mathcal P(n)$. Ceci\r\npeut se constater par exemple en calculant les fonctions caractéristiques (quand on fait une somme\r\nde deux variables aléatoires indépendantes, la fonction caractéristique de la somme est le produit des fonctions caractéristiques).\r\nAinsi, $S_n=X_1+\\dots+X_n\\sim \\mathcal P(n)$. De plus, d'après le théorème limite central, \r\n$$P\\left(\\frac{S_n-n}{\\sqrt n}\\leq 0\\right)\\to P(X\\leq 0)=\\frac 12,$$\r\noù $X$ suit une loi normale $\\mathcal N(0,1)$. De plus, on a\r\n$$P\\left(\\frac{S_n-n}{\\sqrt n}\\leq 0\\right)=P(S_n\\leq n)=\\sum_{k=0}^n P(S_n=k)=e^{-n}\\sum_{k=0}^n \\frac{n^k}{k!}.$$\r\nOn a donc démontré le résultat voulu.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Écrire à l'aide du symbole $\\sum$ les sommes suivantes :$n+(n+1)+\\dots+2n$;$\\frac{x_1}{x_n}+\\frac{x_2}{x_{n-1}}+\\cdots+\\frac{x_{n-1}}{x_2}+\\frac{x_n}{x_1}$.",
+    "hint": "",
+    "solution": "Pour chaque question, plusieurs réponses sont possibles. Parmi ces réponses :$\\sum_{k=n}^{2n}k$.$\\sum_{k=1}^n \\frac{x_k}{x_{n+1-k}}$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction holomorphe non constante sur l'ouvert connexe $\\Omega$. On suppose que $|f|$ admet un minimum local sur $\\Omega$. Démontrer que $f$ s'annule dans $\\Omega$.",
+    "hint": "Appliquer le principe du maximum à $1/f$.",
+    "solution": "Raisonnons par l'absurde et supposons que $f$ ne s'annule pas dans $\\Omega$. Alors la fonction $g=1/f$ est holomorphe dans $\\Omega$ et $|g|$ admet un maximum local dans $\\Omega$ (au point où $|f|$ admet un minimum local). D'après le principe du maximum, $g$ est constante ce qui est une contradiction.",
+    "lang": "french"
+}

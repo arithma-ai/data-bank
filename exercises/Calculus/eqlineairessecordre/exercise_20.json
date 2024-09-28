@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer une équation différentielle linéaire homogène du second ordre admettant pour solutions les fonctions \r\n$\\phi_1$ et $\\phi_2$ définies respectivement par $\\phi_1(x)=e^{x^2}$ et $\\phi_2(x)=e^{-x^2}$.",
+    "hint": "Prendre $y$ une autre solution de l'équation, et écrire que le wronskien de $y$, $\\phi_1$ et $\\phi_2$ est nul.",
+    "solution": "Soit $I$ un intervalle tel qu'il existe une équation différentielle linéaire homogène du second ordre dont $\\phi_1$ et $\\phi_2$ soient solutions. Puisque la famille $(\\phi_1,\\phi_2)$, vues comme fonctions sur $I$, est clairement une famille libre, $(\\phi_1,\\phi_2)$ est une \r\nbase de solutions de cette équation différentielle. Soit maintenant $y$ une solution de cette équation différentielle. Alors\r\nle wronskien de $y,\\phi_1,\\phi_2$ s'annule. Autrement dit, pour tout $x\\in I$, \r\n$$\\left|\\begin{array}{ccc}\r\ny(x)&\\phi_1(x)&\\phi_2(x)\\\\\r\ny'(x)&\\phi_1'(x)&\\phi_2'(x)\\\\\r\ny''(x)&\\phi_1''(x)&\\phi_2''(x)\r\n\\end{array}\\right|=0.$$\r\nLe calcul de ce déterminant, par exemple en développant par rapport à la première colonne, donne \r\n$$4xy''(x)-4y'(x)-16x^3y(x)=0.$$\r\nAinsi, et il est maintenant très facile de le vérifier, $\\phi_1$ et $\\phi_2$ sont solutions de l'équation différentielle\r\n$$xy''-y'-4x^3y=0.$$",
+    "lang": "french"
+}

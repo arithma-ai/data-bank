@@ -1,0 +1,6 @@
+{
+    "script": "Les propositions suivantes sont elles vraies ou fausses :L'image par une fonction continue d'un intervalle ouvert est un intervalle ouvert.L'image par une fonction continue d'un intervalle fermé est un intervalle fermé.L'image par une fonction continue d'une partie bornée est une partie bornée.L'image réciproque par une fonction continue d'un intervalle est un intervalle.",
+    "hint": "Elles sont toutes fausses. Trouver des contre-exemples. Ne pas hésiter à faire un dessin!",
+    "solution": "Toutes ces propositions sont fausses. Voici des contre-exemples.On pose $f(x)=\\cos(x)$ et $I=]-\\pi,5\\pi[$. Alors $f(I)=[-1,1]$.On pose $f(x)=\\frac{1}{1+x^2}$ et $I=\\mathbb R$. Alors $f(I)=]0,1]$. Remarquons que $\\mathbb R$ est bien un intervalle fermé. La propriété serait vraie si on supposait que l'intervalle est également borné.On pose $f(x)=1/x$ et $I=]0,1[$. Alors $f(I)=]1,+\\infty[$.On pose $f(x)=x^2$ et $I=]0,+\\infty[$. Alors $f^{-1}(I)=\\mathbb R^*$ qui n'est pas un intervalle.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Classer les fonctions suivantes par ordre de négligeabilité en $+\\infty$ :\r\n$$f_1(x)=x,\\ f_2(x)=\\exp(x),\\ f_3(x)=\\frac 1x,\\ f_4(x)=2,\\ f_5(x)=\\ln(x),\\ f_6(x)=\\sqrt x\\ln x,\\ f_7(x)=\\frac{e^x}{\\sqrt x}.$$",
+    "hint": "Commencer par classer les fonctions en 3 groupes, suivant leur limite en $+\\infty$.",
+    "solution": "On constate d'abord que seule $f_3$ tend vers $0$ en $+\\infty$, puis que seule $f_4$ admet une limite finie non nulle en $+\\infty$. Ainsi, on a \r\n$$f_3=_{+\\infty}o(f_4)\\textrm{ et }f_4=_{+\\infty}o(f_i)$$\r\npour tout $i\\neq 3,4$. Ensuite, on remarque que $f_5/f_6=1/\\sqrt x$, et donc que $f_5=_{+\\infty}o(f_6)$, que $f_6/f_1=\\ln(x)/\\sqrt x\\to 0$ en $+\\infty$ (par croissance comparée), et donc que $f_6=_{+\\infty}o(f_1)$. Enfin, on vérifie facilement (par croissance comparée) que $f_1=_{+\\infty}o(f_7)$ et que $f_7=_{+\\infty}o(f_2)$.",
+    "lang": "french"
+}

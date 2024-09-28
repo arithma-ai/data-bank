@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que $\\mathbb Q(i)=\\{a+ib:\\ a,b\\in\\mathbb Q\\}$ est un corps.",
+    "hint": "Montrer que c'est un sous-anneau de $\\mathbb C$, et que tous les éléments non nuls de $\\mathbb Q(i)$ sont inversibles (dans $\\mathbb Q(i)$).",
+    "solution": "On va commencer par démontrer que $\\mathbb Q(i)$ est un sous-anneau de $\\mathbb C.$ Pour cela, on remarque que$1\\in\\mathbb Q(i)$si $z=a+ib$ et $z'=a+ib'\\in\\mathbb Q(i),$ alors\r\n$$z-z'=(a-a')+i(b-b')\\in\\mathbb Q(i)$$\r\net \r\n$$zz'=(a+ib)(a'+ib')=(aa'-bb')+i(ab'+a'b)\\in\\mathbb Q(i).$$Ensuite, soit $z=a+ib\\in\\mathbb Q(i),$ $z\\neq 0.$ Alors \r\n$$\\frac1z=\\frac{a-ib}{a^2+b^2}=\\frac{a}{a^2+b^2}+i\\frac{-b}{a^2+b^2}\\in\\mathbb Q(i).$$\r\nAinsi, $1/z$ est dans $\\mathbb Q(i)$ et donc tout élément non nul de $\\mathbb Q(i)$ admet un inverse dans $\\mathbb Q(i)$. Ceci achève de prouver que $\\mathbb Q(i)$ est un corps.",
+    "lang": "french"
+}

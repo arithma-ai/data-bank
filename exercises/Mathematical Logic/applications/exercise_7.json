@@ -1,0 +1,6 @@
+{
+    "script": "L'application $f:\\mathbb R^2\\to\\mathbb R^2,\\ (x,y)\\mapsto (x+y,xy)$ est-elle injective? surjective?",
+    "hint": "Ni l'un, ni l'autre!",
+    "solution": "L'application $f$ n'est pas injective. Cela se démontre facilement en utilisant la symétrie entre les variables $x$ et $y$. Ainsi, $f(1,2)=f(2,1)=(3,2)$, alors que $(1,2)\\neq (2,1)$. L'application $f$ n'est pas non plus surjective. C'est un petit peu plus difficile à démontrer. On peut prouver que l'équation $f(x,y)=(0,1)$ n'a pas de solutions. En effet, s'il y avait une solution, on aurait $xy=1$ et donc $x=1/y$. Reportant ceci dans l'équation $x+y=0$, on obtiendrait\r\n$$x+\\frac 1x=0\\iff x^2+1=0,$$ \r\nce qui est impossible. Donc $f$ n'est ni injective, ni surjective.",
+    "lang": "french"
+}

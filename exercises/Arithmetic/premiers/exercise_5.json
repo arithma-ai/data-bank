@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\in\\mathbb N$ vérifiant $10\\leq n\\leq 120$. Démontrer que $n$ est premier si et seulement s'il existe un entier $a\\in\\mathbb Z$ tel que $an\\equiv 1[210].$",
+    "hint": "L'exercice est basé sur le théorème de Bézout, la décomposition en facteur premiers de 210 et le fait que $121=11^2$.",
+    "solution": "Remarquons d'abord que $210=2\\times 3\\times 5\\times 7$. Si $10\\leq n\\leq 120$ est premier, alors $n$ n'est pas non plus un diviseur premier de $210$, et donc $n\\wedge 210=1$. L'égalité demandée est alors une conséquence du théorème de Bezout.Réciproquement, si $an\\equiv 1[210]$, alors $n$ est premier avec $210$, donc $2,3,5,7$ ne sont pas des diviseurs premiers de $n$.\r\nMais si $n$ n'est pas premier, $n$ admet un diviseur premier inférieur ou égal à $\\sqrt{n}\\leq\\sqrt{120}<11$, et donc un de ses diviseurs premiers devrait être $2,3,5$ ou $7$. Ce n'est pas le cas, donc $n$ est premier.",
+    "lang": "french"
+}

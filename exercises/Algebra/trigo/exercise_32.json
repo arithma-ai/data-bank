@@ -1,0 +1,6 @@
+{
+    "script": "Linéariser $\\cos^5 x$, $\\sin^5 x$ et $\\cos^2 x\\sin^3 x$.",
+    "hint": "Utiliser les formules d'Euler, puis la formule du binôme de Newton.",
+    "solution": "On écrit :\r\n\\begin{eqnarray*}\r\n\\cos^5 x&=&\\left(\\frac{e^{ix}+e^{-ix}}{2}\\right)^5\\\\\r\n&=&\\frac{1}{32}\\left(e^{5ix}+5e^{i3x}+10e^{ix}+10e^{-ix}+5e^{-i3x}+e^{-i5x}\\right)\\\\\r\n&=&\\frac{1}{16}\\big(\\cos(5x)+5\\cos(3x)+10\\cos x\\big).\r\n\\end{eqnarray*}\r\nLe même raisonnement donne\r\n$$\\sin^5 x=\\frac{1}{16}\\big(\\sin(5x)-5\\sin(3x)+10\\sin(x)\\big).$$\r\nPour la dernière expression, on procède ainsi :\r\n\\begin{eqnarray*}\r\n\\cos^2 x\\sin^3 x&=&\\left(\\frac{e^{ix}+e^{-ix}}{2}\\right)^2\\left(\\frac{e^{ix}-e^{-ix}}{2i}\\right)^3\\\\\r\n&=&\\frac{e^{2ix}+2+e^{-2ix}}{4}\\times\\frac{e^{3ix}-3e^{ix}+3e^{-ix}-e^{-3ix}}{-8i}\\\\\r\n&=&\\frac{e^{5ix}-e^{3ix}-2e^{ix}+2e^{-ix}+e^{-3ix}-e^{-5ix}}{-32 i}\\\\\r\n&=&\\frac{2i\\sin(5x)-2i\\sin(3x)-4i\\sin(x)}{-32i}\\\\\r\n&=&\\frac{-1}{16}\\sin(5x)+\\frac1{16}\\sin(3x)+\\frac18\\sin(x).\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

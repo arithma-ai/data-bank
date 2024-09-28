@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ une fonction. Nier les assertions suivantes :$\\forall x\\in \\mathbb R,\\ f(x)\\neq 0$.$\\forall M>0,\\ \\exists A>0,\\ \\forall x\\geq A,\\ f(x)>M$.$\\forall x\\in \\mathbb R,\\ f(x)>0\\implies x\\leq 0$.$\\forall \\veps>0,\\ \\exists \\eta>0, \\forall (x,y)\\in I^2,\\ \\big(|x-y|\\leq \\eta\\implies |f(x)-f(y)|\\leq\\veps\\big).$",
+    "hint": "",
+    "solution": "$\\exists x\\in\\mathbb R,\\ f(x)=0$.$\\exists M>0,\\ \\forall A>0,\\ \\exists x\\geq A,\\ f(x)\\leq M$.$\\exists x\\in\\mathbb R,\\ f(x)>0\\textrm{ et }x>0$.$\\exists \\veps>0,\\ \\forall \\eta>0,\\ \\exists (x,y)\\in I^2, |x-y|\\leq \\eta\\textrm{ et } |f(x)-f(y)|>\\veps$.",
+    "lang": "french"
+}

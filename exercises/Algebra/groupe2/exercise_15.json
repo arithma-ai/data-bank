@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer qu'un groupe d'ordre 200 n'est pas simple.",
+    "hint": "Étudier les 5-Sylow de $G$.",
+    "solution": "Notons $G$ un tel groupe et remarquons que $200=2^35^2.$ $G$ possède des $5$-Sylow. Notons $n$ le nombre de ces $5$-Sylow.\r\nAlors $n$ est congru à $1$ modulo $5$, et $n$ divise $2^3=8$. Donc, nécessairement, $n=1$ et $G$ possède un unique $5$-Sylow $H$. De\r\nplus, tous les conjugués de $H$ sont eux-aussi des $5-$Sylow. Ils sont nécessairement égaux à $H$, et donc $H$ est normal.",
+    "lang": "french"
+}

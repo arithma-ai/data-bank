@@ -1,0 +1,6 @@
+{
+    "script": "On tire simultanément trois cartes au hasard dans un paquet de 32 cartes. Quelle est la probabilité den'obtenir que des coeurs?que des as?deux coeurs et un pique?On donnera le résultat sous forme de fraction irréductible.",
+    "hint": "Compter le nombre de tirages possibles et le nombre de tirages total.",
+    "solution": "Le nombre de tirages possible est $\\binom 83$. Le nombre total de tirages est $\\binom{32}3$. La probabilité recherchée est donc \r\n$$\\frac{\\binom 83}{\\binom{32}3}=\\frac{8\\times 7\\times 6}{32\\times 31\\times 30}=\\frac{7}{620}.$$Le raisonnement est identique. On obtient \r\n$$\\frac{\\binom 43}{\\binom{32}3}=\\frac{4\\times 3\\times 2}{32\\times 31\\times 30}=\\frac{1}{1240}.$$Le nombre de tirages possibles est $\\binom 82\\times\\binom 81$. La probabilité recherchée est\r\ndonc\r\n$$\\frac{\\binom 82\\times\\binom 81}{\\binom{32}3}=\\frac{28\\times 8}{4960}=\\frac{7}{155}.$$",
+    "lang": "french"
+}

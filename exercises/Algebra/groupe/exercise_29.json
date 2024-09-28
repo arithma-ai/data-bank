@@ -1,0 +1,6 @@
+{
+    "script": "Dans un groupe $(G,\\cdot)$, un élément $x$ est dit de torsion s'il existe $n\\geq 1$ tel que $x^n=e$. On dit que $G$ est de torsion si tous ses éléments sont de torsion.\r\nOn dit que $G$ est sans torsion si son seul élément de torsion est l'élément neutre.\r\nSoit $G_1$ un groupe de torsion et $G_2$ un groupe sans torsion. Déterminer tous les morphismes de groupe de $G_1$ dans $G_2$.",
+    "hint": "Seul le morphisme qui à $x$ associe l'élément neutre de $G_2$ convient.",
+    "solution": "Remarquons d'abord que le morphisme qui à tout $x$ de $G_1$ associe l'élément neutre $e$ de $G_2$ convient.\r\nRéciproquement, soit $x$ un élément de $G_1$ et notons $y=f(x)$. Puisque $x$ est un élément de torsion,\r\nil existe $n\\geq 1$ tel que $x^n=e$. Mais alors, \r\n$$y^n=(f(x))^n=f(x^n)=f(e)=e.$$\r\nComme $G_2$ est sans torsion, on a $y=e$ et donc $f(x)=e$ pour tout $x\\in G_1$.",
+    "lang": "french"
+}

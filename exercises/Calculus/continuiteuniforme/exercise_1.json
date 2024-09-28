@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$. Écrire, avec des quantificateurs, que $f$ n'est pas uniformément continue.",
+    "hint": "",
+    "solution": "Il suffit de nier la définition :\r\n$$\\exists \\veps>0,\\ \\forall \\eta>0,\\ \\exists (x,y)\\in I^2, |x-y|\\leq \\eta\\wedge |f(x)-f(y)|>\\veps,$$\r\nle symbole $\\wedge$ signifiant \"et\".",
+    "lang": "french"
+}

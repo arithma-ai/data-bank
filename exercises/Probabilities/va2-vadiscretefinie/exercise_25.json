@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire suivant une loi binomiale de paramètres $n\\in\\mathbb N^*$ et $p\\in ]0,1[$. Pour quelle(s) valeur(s) de $k$ la probabilité $p_k=P(X=k)$ est maximale?",
+    "hint": "Calculer $p_k/p_{k-1}$.",
+    "solution": "Soit $k\\geq 1$. On a\r\n$$p_k=\\binom nk p^k (1-p)^{n-k}=\\frac{n!}{k! (n-k)!}p^k (1-p)^{n-k}.$$\r\nLa présence de factorielles et de puissances nous incite à étudier la monotonie de la suite $(p_k)$ par l'étude du quotient $p_k/p_{k-1}$ :\r\n$$\\frac{p_k}{p_{k-1}}=\\frac{p}{1-p}\\times \\frac{n-k+1}k.$$\r\nOn en déduit\r\n$$\\frac{p_k}{p_{k-1}}\\geq 1\\iff k(1-p)\\leq (n-k+1)p\\iff k\\leq np+p.$$\r\nNotons $k_0$ la partie entière de $(n+1)p$. La suite $(p_k)$ est donc croissante jusqu'en $k_0$ et décroissante ensuite. La valeur maximale est donc atteinte en $k_0$. Remarquons que si $(n+1)p$\r\nest un entier, alors on a également $p_{k_0-1}=p_{k_0}$ et le maximum est atteint en deux valeurs (c'est le seul cas possible).",
+    "lang": "french"
+}

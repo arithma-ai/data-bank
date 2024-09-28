@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer deux éléments $A$ et $B$ de\r\n$\\mathcal M_2({\\mathbb R})$ tels que : $AB=0$ et $BA\\not = 0$.",
+    "hint": "",
+    "solution": "Les matrices $$ A =\r\n\\begin{pmatrix}\r\n0&1\\\\\r\n0&0\\\\\r\n\\end{pmatrix}, \\qquad\r\nB =\r\n\\begin{pmatrix}\r\n1&0\\\\\r\n0&0\\\\\r\n\\end{pmatrix}\r\n$$ \r\nconviennent.",
+    "lang": "french"
+}

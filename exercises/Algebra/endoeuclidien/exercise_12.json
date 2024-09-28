@@ -1,0 +1,6 @@
+{
+    "script": "Soit $u$ un endomorphisme autoadjoint d'un espace euclidien $E$ de dimension $n$. On note $\\lambda_1\\leq \\lambda_2\\leq\\dots\\leq\\lambda_n$ les valeurs propres de $u$, comptées avec leur multiplicité. Démontrer que, pour tout $x\\in E$, on a\r\n$$\\lambda_1 \\|x\\|^2\\leq \\langle u(x),x\\rangle \\leq \\lambda_n \\|x\\|^2.$$",
+    "hint": "Calculer les normes dans une base orthonormée de vecteurs propres.",
+    "solution": "Soit $(e_1,\\dots,e_n)$ une base orthonormée de vecteurs propres associée aux valeurs propres $(\\lambda_1,\\dots,\\lambda_n)$. Écrivons $x\\in E$ sous la forme $x=x_1e_1+\\dots x_n e_n$, de sorte que \r\n$$u(x)=\\lambda_1 x_1 e_1+\\dots+\\lambda_n x_n e_n.$$\r\nAlors on a \r\n$$\\|x\\|^2=x_1^2+\\dots+x_n^2$$\r\net \r\n$$\\langle u(x),x\\rangle=\\lambda_1x_1^2+\\dots+\\lambda_n x_n^2.$$\r\nPuisque, pour tout $i=1,\\dots,n$, on a $\\lambda_1\\leq\\lambda_i\\leq\\lambda_n$, on a donc\r\n$$\\lambda_1 \\|x\\|^2\\leq \\langle u(x),x\\rangle\\leq \\lambda_n \\|x\\|^2.$$",
+    "lang": "french"
+}

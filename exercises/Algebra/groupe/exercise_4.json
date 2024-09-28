@@ -1,0 +1,6 @@
+{
+    "script": "Soit  $G$ un groupe fini dont l'élément neutre est noté $e$. On suppose que le cardinal de $G$ est pair. Démontrer qu'il existe $x\\in G$ avec $x\\neq e$ tel que $x=x^{-1}$.",
+    "hint": "Regrouper les éléments avec leur inverse $F_x=\\{x,x^{-1}\\}$ et remarquer que $F_x$ et $F_y$ sont ou bien distincts, ou bien confondus.",
+    "solution": "Notons, pour $x\\in G$, $F_x=\\{x,x^{-1}\\}$. Alors il est facile de voir que l'on a ou bien $F_x=F_y$, ou bien $F_x\\cap F_y=\\varnothing$ pour tout $x,y\\in G$. En effet, si $x=y^{-1}$, alors $x^{-1}=y$ et on a bien $F_x=F_y$. $G$ s'écrit alors comme la réunion disjointe de tous les $F_x$ différents. Au moins l'un parmi ces $F_x$ est de cardinal 1 : il s'agit de $F_e$. Si tous les autres étaient de cardinal 2, alors le groupe serait de cardinal impair, ce qui n'est pas le cas. Il existe donc $x\\neq e$ tel que le cardinal de $F_x$ soit égal à 1, c'est-à-dire tel que $x=x^{-1}$.",
+    "lang": "french"
+}

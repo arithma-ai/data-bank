@@ -1,0 +1,6 @@
+{
+    "script": "Montrer, sans le calculer, que le déterminant suivant est divisible par 13 :\r\n$$\\left|\r\n\\begin{array}{ccc}\r\n5&2&1\\\\\r\n4&7&6\\\\\r\n6&3&9\\\\\r\n\\end{array}\r\n\\right|.$$",
+    "hint": "546,273, 169 sont divisibles par 13.",
+    "solution": "On ne change pas un déterminant en ajoutant à une ligne une combinaison linéaire des autres. Ici, on ajoute  à la troisième ligne 10 fois la seconde et 100 fois la première. On obtient :\r\n$$\\left|\r\n\\begin{array}{ccc}\r\n5&2&1\\\\\r\n4&7&6\\\\\r\n546&273&169\\\\\r\n\\end{array}\r\n\\right|.$$\r\nMaintenant, tous les éléments de la dernière ligne sont divisibles par 13, et le déterminant vaut :\r\n$$13\\times \\left|\r\n\\begin{array}{ccc}\r\n5&2&1\\\\\r\n4&7&6\\\\\r\n42&21&13\\\\\r\n\\end{array}\r\n\\right|.$$\r\nC'est bien un entier divisible par 13.",
+    "lang": "french"
+}

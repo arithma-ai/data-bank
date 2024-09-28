@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que la série de fonctions méromorphes\r\n$$\\sum_{n=1}^{+\\infty}\\frac{(-1)^n}{z-n}$$\r\nconverge uniformément sur tout compact de $\\mathbb C$.",
+    "hint": "Poser $f_n(z)=\\frac{(-1)^n}{z-n}$ et introduire $g_n(z)=f_n(z)+\\frac{(-1)^n}{n}$. Etudier la convergence uniforme\r\nde $\\sum_n g_n$.",
+    "solution": "Posons $f_n(z)=\\frac{(-1)^n}{z-n}$ et introduisons $g_n(z)=f_n(z)+\\frac{(-1)^n}{n}$.\r\nAlors \r\n$$g_n(z)=\\frac{(-1)^nz}{n(z-n)}.$$\r\nSoit $K$ un compact de $\\mathbb C$ et $A=\\sup\\{|z|;\\ z\\in K\\}$. Si $n>A$, alors $f_n$ et $g_n$\r\nn'ont pas de zéros dans $K$. De plus, on a \r\n$$|g_n(z)|\\leq \\frac{A}{n(n-A)}.$$\r\nLa série $\\sum_n g_n(z)$ converge alors normalement sur $K$, donc uniformément sur $K$. Puisque $f_n(z)=g_n(z)+\\frac{(-1)^n}{n}$\r\net que $\\frac{(-1)^n}{n}$ ne dépend pas de $z$, la série $\\sum_n f_n(z)$ converge uniformément sur $K$.",
+    "lang": "french"
+}

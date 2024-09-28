@@ -1,0 +1,6 @@
+{
+    "script": "A l'aide des barycentres, démontrer que les trois médianes d'un triangle sont concourantes et retrouver la position du centre de gravité sur les médianes.",
+    "hint": "Introduire l'isobarycentre des trois sommets et utiliser l'associativité.",
+    "solution": "Notons $ABC$ le triangle, $A'$ le milieu de $[BC]$, $B'$ le milieu de $[AC]$ et $C'$ le milieu de $[AB]$. Définissons finalement $G$ l'isobarycentre de $A$, $B$ et $C$. Alors, par associativité du barycentre, $G$ est le barycentre de $(A,1)$ et $(A',2)$. Ainsi, $G$ est sur la droite $(AA')$. De même, $G$ est sur la droite $(BB')$ et $G$ est sur la droite $(CC')$. Ainsi, les trois droites sont concourantes en $G$. De plus, puisque $G$ est le barycentre de $(A,1)$ et $(A',2)$, on a $\\overrightarrow{AG}=\\frac{2}{3}\\overrightarrow{AA'}$.",
+    "lang": "french"
+}

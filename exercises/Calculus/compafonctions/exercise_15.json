@@ -1,0 +1,6 @@
+{
+    "script": "Soient $f,g$ deux fonctions définies au voisinage d'un point $a\\in\\mathbb R$ et strictement positives.\r\nOn suppose en outre que $f\\sim_a g$ et que $g$ admet une limite $l\\in\\mathbb R_+\\cup\\{+\\infty\\}$. Montrer\r\nque si $l\\neq 1$, alors $\\ln f\\sim_a \\ln g$. Que se passe-t-il si $l=1$?",
+    "hint": "Séparer les cas $l\\in]0,+\\infty[$ des cas $l=0$ ou $l=\\infty$. On pourra écrire\r\n$\\ln(f)=\\ln(f/g)+\\ln(g)$.",
+    "solution": "D'abord, si $l\\in]0,+\\infty[$, on a $f\\to l$ et par composition,\r\n$\\ln f\\to \\ln l$, $\\ln g\\to \\ln l$ avec $\\ln l\\neq 0$ puisque $l\\neq 1$. On en déduit $\\ln f\\sim_a \\ln g\\sim_a \\ln l$.\r\nSupposons maintenant que $l=+\\infty$. Alors on peut écrire\r\n$$\\frac{\\ln f}{\\ln g}=\\frac{\\ln \\left(\\frac fg\\times g\\right)}{\\ln g}=1+\\frac{\\ln (f/g)}{\\ln g}.$$\r\nOr, $\\ln(f/g)\\to 0$ et $\\ln(g)\\to+\\infty$, donc $\\ln(f/g)/\\ln g\\to 0$ et on a bien $\\ln f\\sim_a \\ln g$.\r\nLe cas $l=0$ est complètement similaire.Finalement, si $l=1$, alors le résultat n'est plus vrai. Par exemple, si on choisit\r\n$f(x)=1+x$ et $g(x)=1+x^2$, avec $a=0$, alors $f\\sim_a g\\sim_0 1$ et pourtant\r\n$$\\ln(f)\\sim_0 x\\textrm{ tandis que }\\ln(g)\\sim_0 x^2,$$\r\non conclut car $x$ et $x^2$ ne sont pas équivalents en 0.",
+    "lang": "french"
+}

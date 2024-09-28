@@ -1,0 +1,6 @@
+{
+    "script": "Calculer les intégrales curvilignes $\\int_C\\omega$ dans les exemples suivants :$\\omega=xydx+(x+y)dy$, et $C$ est l'arc de parabole $y=x^2$, $-1\\leq x\\leq 2$, parcouru dans le sens direct.$\\omega=y\\sin xdx+x\\cos ydy$, et $C$ est le segment de droite $OA$ de $O(0,0)$ vers $A(1,1)$.",
+    "hint": "Pour 2., intégrer par parties.",
+    "solution": "$$\\int_C\\omega=\\int_{-1}^2\\left(x^3+(x+x^2)\\times 2x\\right)dx=\\frac{69}{4}.$$$$\\int_C\\omega=\\int_0^1x(\\sin x+\\cos x)dx.$$\r\nOn intègre par parties :\r\n$$\\int_C\\omega=\\left[x(-\\cos x+\\sin x)\\right]_0^1-\\int_0^1(-\\cos x+\\sin x)dx=2\\sin 1-1.$$",
+    "lang": "french"
+}

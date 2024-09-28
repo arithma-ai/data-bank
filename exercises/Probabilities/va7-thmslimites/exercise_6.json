@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(X_n)$ une suite de variables aléatoires qui converge en loi vers\r\nune variable aléatoire $X$ constante égale à $a$. Démontrer que\r\nla suite $(X_n)$ converge aussi en probabilité vers $X$.",
+    "hint": "Se ramener aux fonctions de répartitions.",
+    "solution": "Soit $\\veps>0$. On doit\r\nprouver que $P(|X_n-a|>\\veps)\\to 0$. Mais, \r\n$$P(|X_n-a|>\\veps)=1-P(|X_n-a|\\leq\\veps)$$\r\net \r\n$$P(X_n\\in[a-\\veps,a+\\veps])\\geq P(X_n\\in]a-\\veps/2,a+\\veps])=F_{X_n}(a+\\veps)-F_{X_n}(a-\\veps/2).$$\r\nOn a donc\r\n$$P(|X_n-a|>\\veps)\\leq 1-F_{X_n}(a+\\veps)+F_{X_n}(a-\\veps/2).$$\r\nOr, $F_X$ est égale à $0$ sur $]-\\infty,a[$, et égale à 1 sur $[a,+\\infty[$.\r\nEn particulier, $F_X$ est continue en $a+\\veps$ et $a-\\veps/2$, et donc\r\n$$F_{X_n}(a+\\veps)\\to F_X(a+\\veps)=1\\textrm{ et }F_{X_n}(a-\\veps/2)\\to F_X(a-\\veps/2)=0.$$\r\nOn en déduit bien le résultat voulu.",
+    "lang": "french"
+}

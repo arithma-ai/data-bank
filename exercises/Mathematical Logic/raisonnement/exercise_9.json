@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a \\in \\mathbb R$. Montrer que\r\n  \\[\r\n  \\forall \\varepsilon > 0,|a| \\leq \\varepsilon \\implies a = 0.\r\n  \\]",
+    "hint": "Raisonner par contraposée!",
+    "solution": "On va procéder par contraposée en prouvant que :\r\n$$a\\neq 0\\implies \\exists \\varepsilon>0, |a|>\\veps.$$\r\nSoit donc $a\\neq 0$ et posons $\\varepsilon =|a|/2$. Alors $\\varepsilon>0$ et on a bien $|a|>\\varepsilon$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace euclidien et $u\\in\\mathcal L(E)$.Démontrer que $\\ker(u)=\\ker(u^*\\circ u).$Démontrer que $\\textrm{Im}(u^*)=\\textrm{Im}(u^*\\circ u).$",
+    "hint": "Une inclusion est évidente. Pour l'inclusion réciproque, calculer $\\|u(x)\\|^2.$Une inclusion est évidente, et l'autre peut se démontrer par un argument de dimension.",
+    "solution": "D'une part, si $u(x)=0,$ il est clair que $u^*\\circ u(x)=0$ et donc $\\ker(u)\\subset \\ker(u^*\\circ u)$. Réciproquement, si $u^*\\circ u(x)=0,$ alors on a \r\n$$\\|u(x)\\|^2=\\langle u(x),u(x)\\rangle=\\langle u^*\\circ u(x),x\\rangle=\\langle 0,x\\rangle=0.$$\r\nAinsi, $u(x)=0$ et on a $\\ker(u^*\\circ u)\\subset \\ker(u).$Il est clair que $\\textrm{Im}(u^*\\circ u)\\subset \\textrm{Im}(u^*).$ \r\nOn va prouver qu'on a égalité par un raisonnement de dimension. D'une part, \r\n$$\\textrm{Im}(u^*)=(\\ker(u))^\\perp$$ et donc \r\n$$\\dim(\\textrm{Im}(u^*))=\\dim(E)-\\dim(\\ker(u)).$$\r\nD'autre part, $(u^*\\circ u)^*=u^*\\circ u$ et donc \r\n$$\\dim(\\textrm{Im}(u^*\\circ u))=\\dim(E)-\\dim(\\ker(u^*\\circ u))=\\dim(E)-\\dim(\\ker(u))$$\r\nd'après la question précédente. Puisque $\\textrm{Im}(u^*\\circ u)\\subset \\textrm{Im}(u^*)$ et que ces sous-espaces ont la même dimension, on en déduit qu'ils sont égaux.",
+    "lang": "french"
+}

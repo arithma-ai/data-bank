@@ -1,0 +1,6 @@
+{
+    "script": "Soient $a,n\\geq 2$ des entiers.Montrer que si $a^n-1$ est premier,\r\nalors $a=2$ et $n$ est premier.On note $M_n=2^n-1$ le $n$-ième nombre de Mersenne. Vérifier que $M_{11}$ n'est pas premier.",
+    "hint": "Utiliser l'identité remarquable\r\n$$x^n-1=(x-1)(x^{n-1}+x^{n-2}+\\dots+x+1).$$",
+    "solution": "Montrons d'abord que $a=2$. Pour cela, on factorise $a^n-1$ sous la forme\r\n$$a^n-1=(a-1)(a^{n-1}+a^{n-2}+\\dots+a+1).$$\r\n$a-1$ est un diviseur de $a^n-1$, distinct de $a^n-1$. Si on suppose que $a^n-1$ est premier,\r\non a donc nécessairement $a-1=1$, c'est-à-dire $a=2$. De même, si $n=pq$, alors\r\n$$2^{pq}-1=(2^p)^q-1=(2^p-1)((2^p)^{q-1}+(2^p)^{q-2}+\\dots+2^p+1).$$\r\nDonc $2^p-1$ divise $2^n-1$ qui est premier. On a donc ou bien $p=n$ (si $2^p-1=2^n-1$)\r\nou bien $p=1$ (si $2^p-1=1$). Donc les seuls diviseurs de $n$ sont $1$ et $n$, i.e. $n$ est\r\npremier.On a $M_{11}=2047=23\\times 89$. On a donc $M_p$ premier implique $p$ premier,\r\nmais la réciproque est fausse.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Quel est le nombre de chiffres en base 10 du nombre $2^{43112609}$?",
+    "hint": "Si $n$ est le nombre de chiffres du nombre $x$ donné par l'énoncé, lier $x$ et $10^n$.",
+    "solution": "Notons $x=2^{43112609}$ et notons $n$ son nombre de chiffres en base 10. Alors on a \r\n$$10^{n-1}\\leq x<10^n.$$\r\nPrenant le logarithme, il vient \r\n$$(n-1)\\ln(10)\\leq\\ln (x)< n\\ln (10)$$\r\npuis \r\n$$n-1\\leq\\frac{\\ln(x)}{\\ln(10)}<n.$$\r\nPuisque $\\ln(x)/\\ln(10)=43112609\\ln(2)/\\ln(10)\\simeq 12978188.5$, le nombre de chiffres vaut $12978189$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\Omega=\\mathbb Z$. On considère $\\mathcal T$ la tribu engendrée\r\npar les ensembles $S_n=\\{n,n+1,n+2\\}$ avec $n\\in\\mathbb Z.$\r\nQuels sont les éléments de la tribu $\\mathcal T$?",
+    "hint": "Démontrer que tous les singletons $\\{n\\}$ sont éléments de la tribu.",
+    "solution": "Il est facile de voir que, pour tout entier $n\\in\\mathbb Z$,\r\n$$\\{n\\}=S_{n-2}\\cap S_{n}.$$\r\nPuisque toute partie de $\\mathbb Z$ est réunion dénombrable de singletons, et qu'une tribu est\r\nstable par passage à la réunion dénombrable, on en déduit finalement que $\\mathcal T=\\mathcal P(\\mathbb Z)$.",
+    "lang": "french"
+}

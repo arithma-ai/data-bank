@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(X,\\mathcal B,\\mu)$ un espace mesuré où $\\mu$ est une mesure de probabilité. On note $\\mathcal T=\\{A\\in\\mathcal B;\\ \\mu(A)=0\\textrm{ ou }\\mu(A)=1\\}$. Démontrer que $\\mathcal T$ est une tribu sur $X$.",
+    "hint": "Pour la stabilité par union dénombrable, ou bien tous les $A_i$ sont de mesure nulle, ou bien un des $A_i$ est de mesure pleine.",
+    "solution": "Vérifions les axiomes d'une tribu.On a $\\mu(\\varnothing)=0$ et $\\mu(X)=1$, donc $\\varnothing$ et $X$ sont éléments de $\\mathcal T$.Soit $A\\in \\mathcal T$. Alors $\\mu(A^c)=1-\\mu(A)\\in \\{0,1\\}$, et donc $A^c\\in\\mathcal T$.Soit $(A_n)_{n\\in\\mathbb N}$ une suite d'éléments de $\\mathcal T$. Distinguons deux cas :ou bien $\\mu(A_n)=0$ pour tout $n\\in\\mathbb N$. Alors \r\n$$0\\leq \\mu\\left(\\bigcup_n A_n\\right)\\leq \\sum_{n}\\mu(A_n)=0.$$ou bien il existe $k\\in_\\mathbb N$ tel que $\\mu(A_k)=1$. Alors \r\n$$\\mu\\left(\\bigcup_n A_n\\right)\\geq\\mu(A_k)=1$$\r\net donc $\\mu\\left(\\bigcup_n A_n\\right)=1$.Dans tous les cas, $\\bigcup_n A_n\\in\\mathcal T$.",
+    "lang": "french"
+}

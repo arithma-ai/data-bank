@@ -1,0 +1,6 @@
+{
+    "script": "Calculer les valeurs exactes des expressions suivantes : \r\n$$\\cos\\left(\\frac{538\\pi}{3}\\right),\\ \\sin\\left(\\frac{123\\pi}6\\right),\\ \\tan\\left(-\\frac{77\\pi}4\\right).$$",
+    "hint": "Utiliser la périodicité des fonctions trigonométriques. Effectuer par exemple la division euclidienne de 538 par 3, ou par 6.",
+    "solution": "On sait que $538=179\\times 3+1$ et donc \r\n$$\\cos\\left(\\frac{538\\pi}{3}\\right)=\\cos\\left(179\\pi+\\frac{\\pi}3\\right)=\\cos\\left(\\frac{4\\pi}3\\right)=-\\frac 12.$$\r\nDe même, on a $123=20\\times 6+3$ et donc\r\n$$\\sin\\left(\\frac{123\\pi}6\\right)=\\sin\\left(20\\pi+\\frac{\\pi}2\\right)=\\sin\\left(\\frac\\pi 2\\right)=1.$$\r\nDe même, on a $77=19\\times 4+1$ et donc\r\n$$\\tan\\left(-\\frac{77\\pi}4\\right)=\\tan\\left(-19\\pi-\\frac\\pi 4\\right)=\\tan\\left(-\\frac\\pi 4\\right)=-1.$$",
+    "lang": "french"
+}

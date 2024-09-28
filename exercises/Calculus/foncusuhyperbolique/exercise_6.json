@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout $x\\in\\mathbb R$ et tout $n\\geq 1$, on a \r\n$$\\left(\\frac{1+\\tanh(x)}{1-\\tanh(x)}\\right)^n=\\frac{1+\\tanh(nx)}{1-\\tanh(nx)}.$$",
+    "hint": "Passer par l'exponentielle.",
+    "solution": "On écrit :\r\n$$\\frac{1+\\tanh(x)}{1-\\tanh(x)}=\\frac{1+\\frac{e^x-e^{-x}}{e^x+e^{-x}}}{1-\\frac{e^x-e^{-x}}{e^x+e^{-x}}}=\\frac{e^x}{e^{-x}}=e^{2x}.$$\r\nOn en déduit :\r\n$$\\left(\\frac{1+\\tanh(x)}{1-\\tanh(x)}\\right)^n=e^{2nx}=\\frac{1+\\tanh(nx)}{1-\\tanh(nx)}.$$",
+    "lang": "french"
+}

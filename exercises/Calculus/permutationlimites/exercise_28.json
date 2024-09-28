@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que\r\n$$\\sum_{n=0}^{+\\infty}\\int_0^1 x^{2n}(1-x)dx=\\int_0^1\\frac{dx}{1+x}.$$En déduire que \r\n$$\\sum_{k=1}^{+\\infty}\\frac{(-1)^{k+1}}{k}=\\ln 2.$$",
+    "hint": "Appliquer le théorème de convergence monotone.",
+    "solution": "Posons $u_n(x)=x^{2n}(1-x)$. Chaque fonction $u_n$ est positive. De plus, pour tout $x\\in]0,1[$, la série $\\sum_n u_n(x)$ converge simplement vers \r\n$$\\sum_{n=0}^{+\\infty}u_n(x)=\\frac{1-x}{1-x^2}=\\frac{1}{1+x}$$\r\n(somme géométrique), fonction qui est continue sur $]0,1[$. La suite des sommes partielles étant positive et croissante, puisque chaque $u_n$ est positive, on peut appliquer le théorème de convergence monotone et on a\r\n$$\\sum_{n=0}^{+\\infty}\\int_0^1 u_n(x)dx=\\int_0^1 \\frac{dx}{1+x}=\\ln 2.$$On a également\r\n$$\\int_0^1 u_n(x)dx=\\frac{1}{2n+1}-\\frac{1}{2n+2}.$$\r\nTenant compte de la parité des termes, on a finalement \r\n$$\\sum_{k\\geq 1}\\frac{(-1)^{k+1}}{k}=\\sum_{n\\geq 0}\\left(\\frac{1}{2n+1}-\\frac{1}{2n+2}\\right)=\\ln 2.$$",
+    "lang": "french"
+}

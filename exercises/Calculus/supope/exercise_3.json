@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que si $(T_n)$ est une suite de distributions qui converge vers $T$, alors $(T_n')$ converge vers $T'$.",
+    "hint": "Appliquer la définition.",
+    "solution": "Soit $\\phi\\in\\mcd(\\mtr)$. On a :\r\n$$\\langle T_n',\\phi\\rangle=-\\langle T_n,\\phi'\\rangle\\to -\\langle T,\\phi'\\rangle=\\langle T',\\phi\\rangle.$$",
+    "lang": "french"
+}

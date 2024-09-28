@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(I_n)$ une suite croissante d'idéaux de $\\mathbb K[X]$, où $\\mathbb K$ est un corps. Démontrer que la suite $(I_n)$ est stationnaire.",
+    "hint": "Raisonner sur le degré du générateur de $(I_n)$.",
+    "solution": "Méthode 1 : Il existe un unique polynôme unitaire $P_n$ tel que $I_n=(P_n)$. De plus, la condition $I_n\\subset I_{n+1}$ entraîne que $P_{n+1}|P_n$. La suite $(\\deg(P_n))$ est donc une suite d'entiers naturels décroissante : elle est stationnaire. Soit $p\\in\\mathbb N$ tel que, pour tout $n\\geq p$, on a $\\deg(P_n)=\\deg(P_p)$. On a alors $P_n|P_p$, $P_n$ et $P_p$ sont unitaires et de même degré, donc ils sont égaux et $I_n=I_p$. La suite $(I_n)$ est bien stationnaire.Méthode 2 : Posons $I=\\bigcup_n I_n$. Puisque la suite $(I_n)$ est croissante, il est facile de vérifier que $I$ est un idéal. Il existe $P\\in \\mathbb K[X]$ tel que $I=(P)$. Mais alors, il existe $N\\in\\mathbb N$ tel que $P\\in I_N$. On prouve alors que pour tout $n\\geq N$, on a $I_n =(P)$. En effet, on a $I_n\\subset I=(P)$, et $P\\in I_N\\subset I_n\\implies (P)\\subset I_n$.",
+    "lang": "french"
+}

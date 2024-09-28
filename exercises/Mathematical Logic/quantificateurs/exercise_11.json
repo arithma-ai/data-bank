@@ -1,0 +1,6 @@
+{
+    "script": "Soit la proposition $P$ : \"Le quadrilatère $ABCD$ est un rectangle\" et les propositions$Q1$ : \"Les diagonales de $ABCD$ ont même longueur\"$Q2$ : \"$ABCD$ est un carré\"$Q3$ : \"$ABCD$ est un parallélogramme ayant un angle droit\"$Q4$ : \"Les diagonales de $ABCD$ sont médiatrices l'une de l'autre\"$Q5$ : \"Les diagonales de $ABCD$ ont même milieu\".Dire si chacune des propositions $Q_1$, $Q_2$, $Q_3$, $Q_4$, $Q_5$ est pour $P$ une condition nécessaire non suffisante, une condition suffisante non nécessaire, une condition nécessaire et suffisante, ou ni l'un ni l'autre.",
+    "hint": "",
+    "solution": "$Q_1$ est une condition nécessaire non suffisante (elle le serait si on ajoutait que les diagonales ont même milieu).$Q_2$ est une condition suffisante non nécessaire (tous les rectangles ne sont pas des carrés!).$Q_3$ est une condition nécessaire et suffisante.$Q_4$ n'est ni une condition nécessaire, ni une condition suffisante ($Q_4$ caractérise les losanges).$Q_5$ est une condition nécessaire non suffisante (elle le serait si on ajoutait que les diagonales ont même longueur).",
+    "lang": "french"
+}

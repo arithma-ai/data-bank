@@ -1,0 +1,6 @@
+{
+    "script": "$A$ et $B$ sont deux avions ayant respectivement 4 et 2 moteurs. Les moteurs sont supposés indépendants les uns des autres, et ils ont une probabilité $p$ de tomber en panne.\r\nChaque avion arrive à destination si strictement moins de la moitié de ses moteurs tombe en panne. Quel avion choisissez-vous? (on discutera en fonction de $p$).",
+    "hint": "Noter $X$ la variable aléatoire du nombre de moteurs de $A$ qui tombent en panne, et $Y$ la variable aléatoire du nombre de moteurs de $B$ qui tombent en panne.\r\nOn arrive à destination si $X=0,1$ ou si $Y=0$.",
+    "solution": "On note $X$ la variable aléatoire du nombre de moteurs de $A$ qui tombent en panne, et $Y$ la variable aléatoire du nombre de moteurs de $B$ qui tombent en panne.\r\n$X$ suit une loi binomiale $\\mathcal{B}(4,p)$. En particulier, on a :\r\n$$P(X=0)+P(X=1)=\\binom 4 0p^0(1-p)^{4-0}+\\binom 4 1p^1(1-p)^{4-1}=(1-p)^4+4p(1-p)^3.$$\r\nD'autre part, $Y$ suit une loi binomiale $\\mathcal{B}(2,p)$. En particulier, \r\n$$P(Y=0)=(1-p)^2.$$\r\nOn a intérêt à prendre l'avion $A$ si $P(X=0)+P(X=1)\\geq P(Y=0)$. Ceci donne :\r\n$$p(1-p)^2(2-3p)\\geq 0.$$\r\nDonc, si $0\\leq p<2/3$ (cas que l'on espère être celui du monde réel), il est préférable de choisir $A$. Si $p=2/3$, le choix est indifférent,\r\net si $p>2/3$, il vaut mieux choisir $B$.",
+    "lang": "french"
+}

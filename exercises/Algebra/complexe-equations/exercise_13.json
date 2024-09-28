@@ -1,0 +1,6 @@
+{
+    "script": "Calculer les racines carrées du nombre complexe $1+2\\sqrt 2 i$ sous forme algébrique.Résoudre dans $\\mathbb C$ l'équation $z^2+iz-\\frac 12-i\\frac{\\sqrt 2}2=0$.",
+    "hint": "Méthode usuelle...Méthode usuelle...",
+    "solution": "Soit $z=x+iy$ tel que $z^2=1+2\\sqrt 2 i$. Alors en identifiant les parties réelles, les parties imaginaires, et les modules, on trouve que $x$ et $y$ sont solutions du système :\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx^2-y^2&=&1\\\\\r\n2xy&=&2\\sqrt 2\\\\\r\nx^2+y^2&=&3.\r\n\\end{array}\\right .$$\r\nOn trouve facilement que ceci entraîne $2x^2=4$ et donc $x=\\sqrt 2$ ou $x=-\\sqrt 2$. Le premier cas donne $y=1$ et le second $y=-1$. Les racines carrées de $1+2\\sqrt 2 i$ sont donc $\\sqrt 2+i$ et $-\\sqrt 2-i$.On commence par calculer le discriminant de cette équation du second degré : \r\n$$\\Delta=i^2+4\\left(\\frac 12+i\\frac{\\sqrt 2}2\\right)=1+2i\\sqrt 2=(\\sqrt 2+i)^2.$$\r\nLes solutions de cette équation sont donc\r\n$$z_1=\\frac{-i+(\\sqrt 2+i)}{2}=\\frac{\\sqrt 2}2\\textrm{ et }z_2=\\frac{-i-(\\sqrt 2+i)}2=-\\frac{\\sqrt 2}2-i.$$",
+    "lang": "french"
+}

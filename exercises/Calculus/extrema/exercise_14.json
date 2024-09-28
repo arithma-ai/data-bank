@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction convexe différentiable de $\\mathbb R^n$ dans $\\mathbb R$.\r\nMontrer que tout point critique de $f$ est un minimum global.",
+    "hint": "Prendre $x$ un point critique et $y$ tel que $f(y)<f(x)$.\r\nEn étudiant le comportement de $f$ sur le segment $[x,y]$, au voisinage de $x$,\r\ntrouver une contradiction.",
+    "solution": "On va procéder par contraposée, ie on va prendre un point $x$ de $\\mathbb R^n$\r\nqui n'est pas un minimum global, et on va prouver que $df_x\\neq 0$. Soit $y\\in\\mathbb R^n$\r\ntel que $f(y)<f(x)$. Alors, pour $t\\in]0,1[$, $f(tx+(1-t)y)\\leq tf(x)+(1-t)f(y)$.\r\nOn écrit le développement limité de $f$ en $x$ :\r\n\\begin{eqnarray*}\r\nf\\big(tx+(1-t)y\\big)&=&f(x)+df_x\\big(tx+(1-t)y-x)+o((1-t))\\\\\r\n&=&f(x)+df_x\\big( (1-t)(y-x)\\big)+o(1-t)\r\n\\end{eqnarray*}\r\nDe l'inégalité de convexité, on déduit\r\n$$(1-t)df_x(y-x)+o(1-t)\\leq (1-t) \\big(f(y)-f(x)\\big)\\implies df_x(y-x)+o_{t\\to 1}(1)\\leq f(y)-f(x).$$\r\nFaisant tendre $t$ vers 1, on en déduit\r\n$$df_x(y-x)\\leq f(y)-f(x)<0.$$\r\nLa différentielle de $f$ en $x$ ne peut donc pas être nulle.",
+    "lang": "french"
+}

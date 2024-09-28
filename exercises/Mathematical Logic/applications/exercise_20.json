@@ -1,0 +1,6 @@
+{
+    "script": "Soient $E$ et $F$ deux ensembles et $f:E\\to F$. Démontrer que$\\forall A \\in {\\mathcal{P}}(E),A \\subset f^{ - 1} (f(A))$;$\\forall B \\in {\\mathcal{P}}(F),f(f^{ - 1} (B)) \\subset B$.Question subsidiaire (plus difficile) : a-t-on égalité en général?",
+    "hint": "Il faut se laisser porter par les définitions....",
+    "solution": "Soit $x\\in A$. On a $f(x)\\in f(A)$, et donc $x\\in f^{-1}(f(A))$. Ainsi, on a prouvé l'inclusion $A\\subset f^{-1}(f(A))$.Soit $y\\in f(f^{-1}(B))$. Alors il existe $x\\in f^{-1}(B)$ tel que $y=f(x)$. Mais puisque $x\\in f^{-1}(B)$, \r\nalors $f(x)\\in B$. Et donc $y=f(x)\\in B$. On a bien prouvé l'inclusion $f(f^{ - 1} (B)) \\subset B$.Les inclusions peuvent être strictes. Prenons $f:\\{1,2\\}\\to \\{1,2\\}$, $1\\mapsto 1$ et $2\\mapsto 1$\r\net $B=\\{1,2\\}$. Alors $f^{-1}(B)=\\{1,2\\}$ et $f(f^{-1}(B))=\\{1\\}$ qui est différent de $B$.Pour l'autre exemple, prenons $A=\\{1\\}$. Alors $f(A)=\\{1\\}$ et $f^{-1}(f(A))=\\{1,2\\}$ qui est \r\ndifférent de $A$.",
+    "lang": "french"
+}

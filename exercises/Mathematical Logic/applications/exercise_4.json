@@ -1,0 +1,6 @@
+{
+    "script": "Les fonctions suivantes sont-elles injectives? surjectives? bijectives?\r\n$$f_1:\\mtz\\to \\mtz,\\ n\\mapsto 2n,\\ f_2:\\mtz\\to\\mtz,\\ n\\mapsto -n$$\r\n$$f_3:\\mtr\\to \\mtr,\\ x\\mapsto x^2,\\ f_4:\\mtr\\to\\mtr_+,\\ x\\mapsto x^2$$\r\n$$f_5:\\mtc\\to \\mtc, z\\mapsto z^2.$$",
+    "hint": "",
+    "solution": "$f_1$ est injective, non surjective (et donc non bijective) : 1 n'a pas d'antécédents. $f_2$ est bijective.\r\n$f_3$ n'est ni injective ($f(-1)=f(1)=1$), ni surjective ($-1$ n'a pas d'antécédents). $f_4$ et $f_5$ sont surjectives, mais non injectives.",
+    "lang": "french"
+}

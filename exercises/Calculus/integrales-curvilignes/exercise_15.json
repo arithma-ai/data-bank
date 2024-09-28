@@ -1,0 +1,6 @@
+{
+    "script": "Calculer l'intégrale curviligne de $\\omega=ydx+2xdy$ sur le contour du domaine défini par :\r\n$$\\left\\{\\begin{array}{rcl}\r\nx^2+y^2-2x&\\leq&0\\\\\r\nx^2+y^2-2y&\\leq&0\\\\\r\n\\end{array}\\right.$$\r\nparcouru une fois en sens direct.",
+    "hint": "Représenter le contour. Il s'agit de la réunion de deux 1/4 de cercle. On les paramètre ``comme d'habitude''.",
+    "solution": "Les deux domaines sont des disques, que l'on paramètre en utilisant les coordonnées polaires par rapport au centre. Les points d'intersection des cercles étant $(0,0)$ et $(1,1)$, le contour est la réunion de :\r\n$$C_1:\\ \\left\\{\r\n\\begin{array}{rcl}\r\nx&=&\\cos t\\\\\r\ny&=&1+\\sin t\\\\\r\n\\end{array}\\right.,\r\n\\textrm{$t$ allant de $-\\frac{\\pi}{2}$ à 0},$$\r\n$$C_2:\\ \\left\\{\r\n\\begin{array}{rcl}\r\nx&=&1+\\cos u\\\\\r\ny&=&\\sin u\\\\\r\n\\end{array}\\right.,\r\n\\textrm{$u$ allant de $\\frac{\\pi}{2}$ à $\\pi$}.$$\r\nOn intègre ensuite :\r\n\\begin{eqnarray*}\r\n\\int_{C}\\omega&=&\\int_{C_1}\\omega+\\int_{C_2}\\omega\\\\\r\n&=&\\int_{-\\pi/2}^0\\left(-(1+\\sin t)\\sin t+2\\cos^2t\\right)dt+\\int_{\\pi/2}^\\pi\\left(-\\sin^2u+2(1+\\cos u)\\cos u\\right)du\\\\\r\n&=&\\frac{\\pi}{2}-1.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

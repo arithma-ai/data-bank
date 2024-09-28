@@ -1,0 +1,6 @@
+{
+    "script": "Soient $A,B,C$ trois ensembles tels que $A\\cup B=B\\cap C$.\t\r\nMontrer que $A\\subset B\\subset C$.",
+    "hint": "",
+    "solution": "Prenons $x\\in A$. Alors $x\\in A\\cup B$, et donc $x\\in B\\cap C$.\r\nEn particulier, $x\\in B$, et donc $A\\subset B$.Prenons maintenant $x\\in B$. Alors $x\\in A\\cup B$, et donc $x\\in B\\cap C$.\r\nEn particulier, $x\\in C$, et donc $B\\subset C$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R^n\\to\\mathbb R^m$ différentiable. On suppose que, pour tout $\\lambda\\in\\mathbb R$ et tout $x\\in\\mathbb R^n$, $f(\\lambda x)=\\lambda f(x)$.Démontrer que $f(0)=0$.Démontrer que $f$ est linéaire.",
+    "hint": "Fixer $x\\in\\mathbb R^n$ et calculer la différentielle en $\\lambda x$. Utiliser la relation, puis faire tendre $\\lambda$ vers 0.",
+    "solution": "On a $f(0)=f(0\\times 0)=0f(0)=0$! (question subsidiaire : où vivent ces zéros???)On fixe $x\\in\\mathbb R^n$, et on écrit que $f$ est différentiable en $0$. On a donc \r\n$$f(\\lambda x)=_{\\lambda\\to 0}f(0)+df_0(\\lambda x)+o(\\lambda).$$\r\nD'après la relation vérifiée par $f$ et puisque $f(0)=0$, on a\r\n$$\\lambda f(x)=_{\\lambda \\to 0}\\lambda df_0(x)+o(\\lambda).$$\r\nOn simplifie par $\\lambda$ et on trouve\r\n$$f(x)=_{\\lambda\\to 0}df_0(x)+o(1).$$\r\nOn fait tendre $\\lambda$ vers 0 et on a donc que pour tout $x\\in\\mathbb R^n$, on a\r\n$$f(x)=df_0(x).$$\r\nAinsi, $f$ est linéaire.",
+    "lang": "french"
+}

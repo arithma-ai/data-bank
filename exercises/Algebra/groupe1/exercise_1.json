@@ -1,0 +1,6 @@
+{
+    "script": "Quel est l'ordre de $\\bar 9$ dans $(\\mathbb Z/12\\mathbb Z,+)$?",
+    "hint": "Il suffit de calculer les multiples successifs de $\\bar 9$...",
+    "solution": "On a (tenant compte du fait que la loi est notée additivement) :\r\n$$2\\times \\bar 9=\\bar 6,\\ 3\\times \\bar 9=\\bar 3,\\ 4\\times \\bar 9=\\bar 0.$$\r\n$\\bar 9$ est donc d'ordre 4.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que la courbe paramétrée $t\\mapsto \\left(\\displaystyle 2t-\\frac 1{t^2},2t+t^2\\right)$ possède un point double dont on donnera les coordonnées.",
+    "hint": "Chercher $t_1$ et $t_2$ tels que $x(t_1)=x(t_2)$ et $y(t_1)=y(t_2)$. Chercher une équation en posant $s=t_1+t_2$ et $p=t_1t_2$.",
+    "solution": "Notons $x(t)=2t-\\frac 1{t^2}$ et $y(t)=2t+t^2$. On cherche deux réels non-nuls distincts $t_1$ et $t_2$ tels que $x(t_1)=x(t_2)$ et $y(t_1)=y(t_2)$. \r\nLe système est équivalent à \r\n$$\\left\\{\\begin{array}{rcl}\r\n2(t_1-t_2)&=&\\frac{t_2^2-t_1^2}{t_1^2t_2^2}\\\\\r\n2(t_1-t_2)&=&t_2^2-t_1^2.\r\n\\end{array}\\right.$$\r\nOn simplifie par $t_1-t_2$ (qui est non-nul), et on pose $s=t_1+t_2$ et $p=t_1t_2$. Le système devient :\r\n$$\\left\\{\\begin{array}{rcl}\r\n-2&=&\\frac s{p^2}\\\\\r\n-2&=&s.\r\n\\end{array}\\right.$$\r\nLes solutions sont $s=-2$ et $p=1$ ou $p=-1$. $t_1$ et $t_2$ sont donc solutions de l'équation$x^2+2x+1=0$ si $p=1$. Mais on trouverait alors $t_1=t_2=-1$, cas qui est à exclure puisqu'on impose $t_1\\neq t_2$.$x^2+2x-1=0$ si $p=-1$. Ses racines sont $-1+\\sqrt 2$ et $-1-\\sqrt 2$.On conclut donc que la courbe admet un point double dont les coordonnées sont \r\n$$x(-1+\\sqrt 2)=x(-1-\\sqrt 2)=-5\\textrm{ et }y(-1+\\sqrt 2)=y(-1-\\sqrt 2)=1.$$",
+    "lang": "french"
+}

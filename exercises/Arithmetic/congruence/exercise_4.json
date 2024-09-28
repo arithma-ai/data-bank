@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$ un entier. Déterminer le reste dans la division euclidienne par $n$ de la somme des $n$ premiers entiers strictement positifs.",
+    "hint": "Distinguer les cas $n$ pair et $n$ impair.",
+    "solution": "Soit $S_n$ la somme des $n$ premiers entiers. Elle vaut $\\frac{n(n+1)}2$. Si $n$ est impair, autrement dit si $n+1$ est pair,\r\nalors $(n+1)/2$ est un entier, et $n|S_n$. Le reste est donc 0. Si maintenant $n=2k$ est pair, alors\r\n$$S_n=\\frac{2k(2k+1)}2=\\frac{(2k)^2}{2}+k=k\\times 2k+k=k\\times n+n/2$$\r\nLe reste est donc $n/2$.",
+    "lang": "french"
+}

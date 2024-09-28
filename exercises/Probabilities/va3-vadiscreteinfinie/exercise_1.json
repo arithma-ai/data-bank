@@ -1,0 +1,6 @@
+{
+    "script": "On lance une pièce de monnaie dont la probabilité de tomber sur pile vaut $p$.\r\nOn note $X$ la variable aléatoire correspondant au nombre de lancers nécessaires pour obtenir\r\n$r$ fois pile. Quelle est la loi de $X$?",
+    "hint": "Si $X=k$, alors le dernier lancer est un pile, et pour les lancers précédents,\r\npenser à la loi binomiale.",
+    "solution": "Il est d'abord clair que $X$ prend ses valeurs dans $\\{r,r+1,\\dots,\\}$. \r\nSoit $k\\geq r$. Remarquons que si $X=k$, alors le dernier lancer est un pile.\r\nPour les lancers précédents, on a obtenu $r-1$ fois pile, parmi $k-1$ lancers. Le\r\nnombre de tirages correspondant à $X=k$ est donc $\\binom{k-1}{r-1}$. La probabilité\r\nde chaque lancer est $p^{r} (1-p)^{k-r}$. On en déduit que :\r\n$$P(X=k)=\\binom{k-1}{r-1}p^r (1-p)^{k-r}.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel euclidien, $u\\in\\mcl(E)$. Montrer que\r\n$$\\ker(u^*)=(\\textrm{Im}(u))^\\perp,\\ \\textrm{Im}(u^*)=(\\ker u)^\\perp.$$\r\nEn déduire que $\\textrm{rg}(u)=\\textrm{rg}(u^*)$.",
+    "hint": "Démontrer le premier point en utilsant que $z=0\\iff \\forall y\\in E, (z,y)=0$.\r\nDéduire le deuxième point en utilisant $u=(u^*)^*$. Pour le troisième, utiliser le théorème du rang.",
+    "solution": "On a :\r\n$$x\\in \\ker(u^*)\\iff u^*(x)=0\\iff \\forall y\\in E,\\ (u^*(x),y)=0.$$\r\nPuisque $(u^*(x),y)=(x,u(y))$, \r\n$$x\\in \\ker(u^*)\\iff \\forall y\\in E, (x,u(y))=0\\iff x\\in (\\textrm{Im}(u))^\\perp$$\r\nD'autre part, si on applique cette relation à $v=u^*$, en utilisant $(u^*)^*=u$, on obtient \r\n$$\\ker(u)=(\\textrm{Im}(u^*))^\\perp.$$\r\nIl suffit de prendre alors l'orthogonal pour démontrer le deuxième point, sachant qu'en dimension finie,\r\n$(F^\\perp)^\\perp=F.$ Le dernier point se déduit alors du théorème du rang, puisque \r\n$$\\textrm{rg}(u^*)=\\dim (\\textrm{Im}(u^*))=\\dim(\\ker(u)^\\perp)=n-\\dim(\\ker(u))=\\dim( \\textrm{Im}(u))=\\textrm{rg}(u).$$",
+    "lang": "french"
+}

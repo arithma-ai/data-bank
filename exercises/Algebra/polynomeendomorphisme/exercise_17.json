@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in GL_n(\\mathbb C)$. On note $P$ le polynôme caractéristique de $A$ et $Q$ celui de $A^{-1}$. \r\nQuelle relation a-t-on pour tout $\\lambda\\in\\mathbb C^*$ entre $Q(\\lambda)$ et $P(\\lambda^{-1})$?",
+    "hint": "Partir de la définition de $Q$, factoriser par $A^{-1}$ et utiliser des propriétés du déterminant.",
+    "solution": "On écrit, pour $\\lambda\\neq 0$,\r\n\\begin{align*}\r\n Q(\\lambda)&=\\det(\\lambda I_n-A^{-1})\\\\\r\n &=\\det(A^{-1}(\\lambda A-I_n))\\\\\r\n &=\\det(A^{-1})\\det(\\lambda A-I_n)\\\\\r\n &=\\det(A^{-1})\\det( -\\lambda(\\lambda^{-1} I_n-A))\\\\\r\n &=\\det(A^{-1})(-\\lambda)^n \\det(\\lambda^{-1} I_n-A)\\\\\r\n &=\\frac{(-\\lambda)^n}{\\det(A)}P(\\lambda^{-1}).\r\n\\end{align*}",
+    "lang": "french"
+}

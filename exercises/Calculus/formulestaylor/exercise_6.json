@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ une fonction de classe $C^\\infty$ vérifiant la propriété suivante : il existe un polynôme\r\n$P\\in\\mathbb R[X]$ de degré impair tel que, pour tout $n\\geq 0$, pour tout $x\\in\\mathbb R$,\r\n$$|f^{(n)}(x)|\\leq |P(x)|.$$Montrer qu'il existe $a\\in\\mathbb R$ tel que $f^{(n)}(a)=0$ pour tout $n\\geq 0$.En déduire que $f$ est identiquement nulle.Le résultat subsiste-t-il si on suppose que $P$ est de degré pair?",
+    "hint": "Il suffit de considérer une racine de $P$.Appliquer la formule de Taylor-Lagrange entre $a$ et $x$.Trouver un contre-exemple avec $P=1$.",
+    "solution": "Puisque $P$ est de degré impair, il admet une racine que l'on note $a$. Mais alors, on a bien $f^{(n)}(a)=0$ pour tout $n$.Soit $x\\in \\mathbb R$. On applique l'inégalité de Taylor-Lagrange entre $a$ et $x$ à l'ordre $n-1$. En utilisant\r\nle résultat de la question précédente, et en notant $I=[a,x]$ ou $I=[x,a]$, on obtient\r\n$$|f(x)|\\leq \\frac{|x-a|^{n}}{n!}\\sup_{t\\in I}|f^{(n)}(t)|\\leq M \\frac{|x-a|^n}{n!}$$\r\navec $M:=\\sup_{t\\in I}|P(t)|$, constante qui ne dépend pas de $n$. Il suffit maintenant de faire tendre\r\n$n$ vers $+\\infty$ pour obtenir $f=0$, puisque $(x-a)^n/n!$ tend vers 0.Ce n'est plus le cas, il suffit de prendre $f(t)=\\sin t$ et $P=1$.",
+    "lang": "french"
+}

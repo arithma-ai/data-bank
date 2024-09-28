@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[a,b]\\to\\mathbb R$ continue et $g:\\mathbb R\\to\\mathbb R$ continue et convexe. Démontrer que \r\n$$g\\left(\\frac{1}{b-a}\\int_a^b f(t)dt \\right)\\leq \\frac{1}{b-a}\\int_a^b g(f(t))dt.$$",
+    "hint": "Approcher $\\int_a^b f(t)dt$ par sa somme de Riemann, et utiliser la convexité de $g$.",
+    "solution": "On va approcher $f$ par sa somme de Riemann. Précisément, introduisons \r\n$$u_n=\\frac1n\\sum_{k=0}^{n-1}f\\left(a+k\\frac{b-a}n\\right).$$\r\nAlors, puisque $f$ est continue, par le théorème des sommes de Riemann, on sait que\r\n$(u_n)$ converge vers $\\frac1{b-a}\\int_a^b f(t)dt.$\r\nDe plus, par convexité de $g$, on a\r\n$$g(u_n)\\leq \\frac{1}{n}\\sum_{k=0}^{n-1}g\\circ f\\left(a+k\\frac{b-a}n\\right).$$\r\nPar continuité de $g\\circ f$, le terme de droite converge vers $\\frac{1}{b-a}\\int_a^b g(f(t))dt.$\r\nPassant à la limite dans l'inégalité précédente, on obtient bien l'inégalité dite de Jensen.",
+    "lang": "french"
+}

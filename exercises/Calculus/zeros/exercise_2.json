@@ -1,0 +1,6 @@
+{
+    "script": "Soient $f,g$ deux fonctions holomorphes sur l'ouvert connexe $\\Omega$. On suppose que $fg=0$. Démontrer que $f=0$ ou $g=0$.",
+    "hint": "Supposer que $f(z_0)\\neq 0$ et remarquer que $f$ ne s'annule pas dans un disque centré en $z_0$. Donc $g$ y est identiquement nulle.",
+    "solution": "Supposons que $f$ n'est pas identiquement nulle. Alors il existe $z_0\\in\\Omega$ tel que $f(z_0)\\neq 0$. Puisque les zéros de $f$ sont isolés, il existe $r>0$ tel que $f$ ne s'annule pas dans $D(z_0,r)$. Puisque $fg=0$, $g$ est identiquement nulle dans $D(z_0,r)$ qui est un ouvert non-vide. Par le principe du prolongement analytique, $g$ est identiquement nulle.",
+    "lang": "french"
+}

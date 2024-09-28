@@ -1,0 +1,6 @@
+{
+    "script": "On considère les matrices suivantes:\r\n$\r\n\tA=\\left(\\begin{array}{*9c} 1&2&3  \\end{array}\\right),$ $$\r\n\tB=\\left(\\begin{array}{*9c} 1\\\\ \\!-2  \\end{array}\\right) ,\\\r\n\tC=\\left(\\begin{array}{*9c} 2&1\\\\ \\!-3&0\\\\ 1&2   \\end{array}\\right),\\\r\n\tD=\\left(\\begin{array}{*9c} \\!-2&5\\\\ 5&0  \\end{array}\\right) ,\\\r\n\tE=\\left(\\begin{array}{*9c} \\!-1&1&3\\\\ \\!-1&-4&0\\\\ 0&2&5  \\end{array}\\right) .\r\n$$\r\nQuels sont les produits matriciels possibles? Quelles sont les matrices carrées et les matrices symétriques?",
+    "hint": "Pour multiplier deux matrices, il faut que le nombre de colonnes de la première soit égal au nombre de lignes de la seconde.",
+    "solution": "On peut effectuer les produits $AC,AE,BA,CB,CD,DB,DD,EC,EE$. Seules les matrices $D$ et $E$ sont carrées, et seule la matrice $D$ est symétrique.",
+    "lang": "french"
+}

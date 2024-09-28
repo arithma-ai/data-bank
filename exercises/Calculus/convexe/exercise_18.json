@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f,g:I\\to\\mathbb R$ deux fonctions convexes, avec $I\\subset \\mathbb R$ un intervalle.Est-ce que $\\max(f,g)$ est toujours convexe?Est-ce que $\\min(f,g)$ est toujours convexe?",
+    "hint": "Commencer par faire des dessins pour deviner la réponse!",
+    "solution": "Il faut commencer par faire des dessins pour deviner la réponse!Oui! En effet, soit $x,y\\in I$ et $t\\in [0,1]$ et posons $h=\\max(f,g)$. On a d'une part \r\n$$f\\big(tx+(1-t)y\\big)\\leq tf(x)+(1-t)f(y)\\leq th(x)+(1-t)h(y)$$\r\net d'autre part \r\n$$g\\big(tx+(1-t)y\\big)\\leq tg(x)+(1-t)g(y)\\leq th(x)+(1-t)h(y).$$\r\nOn en déduit bien que \r\n$$h\\big(tx+(1-t)y\\big)\\leq th(x)+(1-t)h(y),$$\r\nc'est-à-dire que $h$ est convexe.Non! Choisissons par exemple $I=\\mathbb R$, $f(x)=x$ et $g(x)=-x$, qui sont convexes car affines. Alors $\\min(f,g)(x)=-|x|$, et cette fonction n'est bien sûr pas convexe (par exemple, la courbe représentative est au-dessus de la corde reliant $(-1,-1)$ à $(1,-1)$).",
+    "lang": "french"
+}

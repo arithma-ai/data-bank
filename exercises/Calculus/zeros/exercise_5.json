@@ -1,0 +1,6 @@
+{
+    "script": "Soient $f,g$ deux fonctions holomorphes sur un ouvert connexe $U$ et qui ne s'annulent pas dans $U$.\r\nOn suppose qu'il existe une suite $(a_n)$ d'élements de $U$, deux à deux distincts, qui converge vers\r\n$a\\in U$, et telle que \r\n$$f(a_n)g'(a_n)=f'(a_n)g(a_n)\\textrm{pour tout entier $n$}.$$\r\nProuver qu'il existe $c\\in\\mathbb C$ tel que $f=cg$.",
+    "hint": "Appliquer le principe des zéros isolés à la dérivée de $h=f/g$.",
+    "solution": "Soit $h=f/g$ qui est holomorphe dans $U$ puisque $g$ ne s'annule pas. Alors $$h'(z)=\\frac{f'(z)g(z)-g'(z)f(z)}{\\big(g(z)\\big)^2}$$\r\net donc $h'$ s'annule en chaque $a_n$, et par passage à la limite en $a$. Par le principe des zéros isolés, $h'$ est identiquement\r\nnulle, donc $h$ est constante puisque $U$ est connexe. Ceci est exactement le résultat recherché.",
+    "lang": "french"
+}

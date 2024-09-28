@@ -1,0 +1,6 @@
+{
+    "script": "Pour $\\alpha\\in\\mathbb R$, on considère\r\n$$M_\\alpha=\\left(\\begin{array}{ccc}\r\n1&3&\\alpha\\\\\r\n2&-1&1\\\\\r\n-1&1&0\r\n\\end{array}\r\n\\right).$$\r\nDéterminer les valeurs de $\\alpha$ pour lesquelles l'application linéaire associée à $M_\\alpha$\r\nest bijective.",
+    "hint": "Il faut et il suffit que le déterminant de $M_\\alpha$ soit non nul.",
+    "solution": "L'application linéaire associée à $M_\\alpha$ est bijective\r\nsi et seulement si la matrice $M_\\alpha$ est inversible, si et seulement\r\nsi le déterminant de $M_\\alpha$ est non-nul. On calcule donc ce déterminant. En ajoutant $L_3$ à $L_1$\r\net $2L_3$ à $L_2$, on trouve :\r\n$$\\det(M_\\alpha)=\r\n\\left|\\begin{array}{ccc}\r\n0&4&\\alpha\\\\\r\n0&1&1\\\\\r\n-1&1&0\r\n\\end{array}\\right|=\r\n-1\\left|\r\n\\begin{array}{cc}\r\n4&\\alpha\\\\\r\n1&1\r\n\\end{array}\\right|=\\alpha-4.$$\r\nL'application linéaire associée à $M_\\alpha$ est donc bijective si et seulement si $\\alpha\\neq 4$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$. Démontrer que $f$ s'écrit de manière unique comme somme d'une fonction paire et somme d'une fonction impaire.",
+    "hint": "Procéder par analyse-synthèse en supposant que $f$ s'écrit $f=P+I$, avec $P$ paire et $I$ impaire. Calculer $P(x)$ et $I(x)$ en utilisant $f(x)$ et $f(-x)$.",
+    "solution": "On va procéder par analyse-synthèse.Analyse : on suppose que $f$ s'écrit $f=P+I$, avec $P$ paire et $I$ impaire. Fixons $x\\in\\mathbb R$. Alors on a\r\n\\begin{eqnarray*}\r\nf(x)&=&P(x)+I(x)\\\\\r\nf(-x)&=&P(-x)+I(-x)=P(x)-I(x).\r\n\\end{eqnarray*}\r\nOn a donc nécessairement\r\n$$P(x)=\\frac{f(x)+f(-x)}{2}\\textrm{ et }I(x)=\\frac{f(x)-f(-x)}2.$$\r\nAinsi, on a démontré que si $f$ s'écrit $f=P+I$ avec $P$ paire et $I$ impaire, $P$ et $I$ sont nécessairement donnés par les formules ci-dessus et sont donc uniques.Synthèse : posons, pour $x\\in\\mathbb R$, \r\n$$P(x)=\\frac{f(x)+f(-x)}{2}\\textrm{ et }I(x)=\\frac{f(x)-f(-x)}2.$$\r\nAlors, il est évident que $f=P+I$. On a aussi\r\n$$P(-x)=\\frac{f(-x)+f(x)}2=P(x)$$ \r\net donc $P$ est paire. Un raisonnement similaire montre que $I$ est impaire.En conclusion, on a bien démontré que toute fonction s'écrit de façon unique comme somme d'une fonction paire et somme d'une fonction impaire.",
+    "lang": "french"
+}

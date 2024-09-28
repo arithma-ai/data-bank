@@ -1,0 +1,6 @@
+{
+    "script": "Décomposer en éléments simples les fractions rationnelles suivantes : \r\n$$\\begin{array}{lll}\r\n\\displaystyle\\mathbf{1.}\\quad\\frac{1}{X^3-X}&\\quad\\quad\\mathbf{2.}\\quad  \\displaystyle \\frac{X^3}{(X-1)(X-2)(X-3)}\r\n\\end{array}$$",
+    "hint": "Méthode pour décomposer une fraction rationnelle en éléments simples",
+    "solution": "La partie entière est nulle, et le dénominateur se factorise en $X(X-1)(X+1)$.\r\nMultipliant par $X$ et faisant $X=0$, on trouve la partie polaire relativement à $X-0$, et ainsi de suite...\r\nOn trouve finalement\r\n$$\\frac{1}{X^3-X}=\\frac{-1}{X}+\\frac{1/2}{X-1}+\\frac{1/2}{X+1}.$$En appliquant exactement la même méthode, on trouve que la décomposition en éléments simples est\r\n$$1+\\frac{1}{2(X-1)}-\\frac{8}{X-2}+\\frac{27}{2(X-3)}.$$",
+    "lang": "french"
+}

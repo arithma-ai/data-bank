@@ -1,0 +1,6 @@
+{
+    "script": "Soient $p$ et $q$ deux entiers naturels premiers entre eux. Déterminer les racines\r\net les pôles de $(X^p-1)/(X^q-1)$, en précisant leur ordre de multiplicité.",
+    "hint": "Chercher les racines communes aux deux polynômes.",
+    "solution": "Les racines de $X^p-1$ (resp. $X^q-1$) sont les racines $p$-ièmes de l'unité\r\n(resp. $q$-ièmes) et elles sont toutes simples. Mais il peut y avoir des simplifications\r\nentre le numérateur et le dénominateur et on doit déterminer les racines communes.\r\nSoit donc $\\omega$ une racine de $X^p-1$ et de $X^q-1$. Alors $\\omega^p=\\omega^q=1$.\r\nMais, puisque $p$ et $q$ sont premiers entre eux, on peut d'après le théorème de Bézout\r\ntrouver deux entiers $u,v\\in\\mathbb Z$ tels que $pu+qv=1$. Alors\r\n$$\\omega=\\omega^{pu+qv}=(\\omega^p)^u(\\omega^q)^v=1.$$\r\nRéciproquement, $1$ est racine commune des deux polynômes. On a donc prouvé que les racines de la fraction rationnelle\r\nsont les racines $p$-ièmes de l'unité autre que 1. Ses pôles sont les racines $q$-ièmes de l'unité, autre que 1.\r\nLes multiplicités respectives sont à chaque fois égales à 1.",
+    "lang": "french"
+}

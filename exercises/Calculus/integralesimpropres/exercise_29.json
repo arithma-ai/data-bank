@@ -1,0 +1,6 @@
+{
+    "script": "Donner un équivalent de $\\int_1^{x}\\frac{\\arctan t}{t}dt$ lorsque $x$ tend vers $+\\infty$.",
+    "hint": "Trouver un équivalent de $\\frac{\\arctan t}{t}$ au voisinage de $+\\infty$ et appliquer le théorème de comparaison des intégrales à paramètres.",
+    "solution": "Au voisinage de $+\\infty$, $\\frac{\\arctan t}{t}\\sim_{+\\infty}\\frac{\\pi}{2t}$, qui est une fonction positive et dont l'intégrale diverge au voisinage de $+\\infty$.\r\nD'après le théorème d'intégration des relations de comparaison, on déduit\r\nque $$\\int_1^x \\frac{\\arctan t}{t}dt\\sim_{+\\infty}\\int_1^x\\frac{\\pi}{2t}dt.$$\r\nPuisque cette dernière intégrale se calcule aisément, on conclut que\r\n$$\\int_1^x \\frac{\\arctan t}{t}dt\\sim_{+\\infty}\\frac{\\pi}{2}\\ln x.$$",
+    "lang": "french"
+}

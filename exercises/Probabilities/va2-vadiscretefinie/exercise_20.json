@@ -1,0 +1,6 @@
+{
+    "script": "On lance $n$ fois une pièce parfaitement équilibrée. Quelle est la probabilité d'obtenir strictement plus de piles que de faces.",
+    "hint": "Utiliser la symétrie entre les piles et les faces! On pourra distinguer les cas où $n$ est pair et $n$ est impair.",
+    "solution": "Notons $A$ l'événément \"obtenir strictement plus de piles que de faces\" et $B$ l'événément \"obtenir strictement plus de faces que de piles\". La pièce étant parfaitement équilibrée, par symétrie, $P(A)=P(B)$. \r\nOn distingue alors deux cas :$n$ est impair. Dans ce cas, le couple $(A,B)$ est un système complet d'événements et $P(A)=\\frac 12$.$n=2r$ est pair. Notons $X$ la variable aléatoire du nombre de piles obtenues. $X$ suit une loi binomiale $\\mathcal B(n,1/2)$. On a \r\n$$A=(X>r)\\textrm{ et }B=(X<r).$$\r\nOn a donc \r\n$$P(A)+P(B)+P(X=r)=1\\implies P(A)=\\frac 12-\\frac 12P(X=r)=\\frac 12-\\binom {2r} r \\left(\\frac 12\\right)^{2r+1}.$$",
+    "lang": "french"
+}

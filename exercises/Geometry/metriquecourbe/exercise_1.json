@@ -1,0 +1,6 @@
+{
+    "script": "Calculer la longueur de l'astroïde de paramétrage $$\\left\\{ \\begin{gathered} x(t) = \\cos ^3 t  \\\\ y(t) = \\sin ^3 t  \\\\ \\end{gathered} \\right., t \\in \\left[ {0,2\\pi } \\right].$$",
+    "hint": "C'est sans difficultés. On applique la formule du cours. Attention toutefois à quoi est égale la racine carrée d'un carré...",
+    "solution": "On a $x'(t)=-3\\cos^2 t\\sin t$ et $y'(t)=3\\sin^2 t \\cos t$, de sorte que \r\n$$x'(t)^2+y'(t)^2=9\\cos^2t\\sin^2t(\\cos^2t+\\sin^2t)=9\\cos^2t\\sin^2t.$$\r\nD'après la formule du cours, la longueur de l'astroïde est donc égale à \r\n$$\\int_0^{2\\pi}\\sqrt{9\\cos^2t\\sin^2t}dt=3\\int_0^{2\\pi}|\\cos t\\sin t|dt=12\\int_0^{\\pi/2}\\cos t\\sin tdt=6\\int_0^{\\pi/2}\\sin(2t)dt=6.$$",
+    "lang": "french"
+}

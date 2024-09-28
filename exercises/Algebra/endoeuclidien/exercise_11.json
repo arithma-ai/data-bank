@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in\\mathcal M_n(\\mathbb R)$ une matrice symétrique. Est-ce que la matrice $A+iI_n$ est inversible?",
+    "hint": "Est-ce que $0$ est valeur propre de $A+iI_n$?",
+    "solution": "Il suffit de prouver que $0$ n'est pas une valeur propre de $A+iI_n$. Mais $A$ étant une matrice symétrique réelle, elle est diagonalisable sur $\\mathbb R$ et admet donc uniquement des valeurs propres réelles, $\\lambda_1,\\dots,\\lambda_n$ (éventuellement répétées plusieurs fois si la valeur propre est multiple). Donc les valeurs propres de $A+iI_n$ sont $\\lambda_1+i,\\dots,\\lambda_n+i$. Ainsi, $0$ n'est pas valeur propre de $A+iI_n$ et cette matrice est inversible.",
+    "lang": "french"
+}

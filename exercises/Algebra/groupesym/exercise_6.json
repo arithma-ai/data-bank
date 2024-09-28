@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 2$ et $2\\leq k\\leq n$. Combien le groupe $S_n$ possède-t-il de cycles de longueur $k$?",
+    "hint": "Qu'est-ce qui caractérise un $k$-cycle?",
+    "solution": "Un $k$-cycle s'écrit $(a_1\\ a_2\\ \\dots\\ a_k)$. On doit donc choisir dans $\\{1,\\dots,n\\}$ $k$ élements ordonnés parmi $n$.\r\nMais l'écriture $(a_1\\ a_2\\ \\dots\\ a_k)$ n'est pas unique. Il y a en effet $k$ façons d'écrire le même $k$-cycle, suivant le choix que l'on fait pour le premier terme - par exemple, $(a_2\\ a_3\\dots a_k\\ a_1)$ représente le même $k$-cycle que $(a_1\\ a_2\\ \\dots\\ a_k)$. On conclut finalement que le nombre de cycles de longueur $k$ est égal à \r\n$$\\frac{A_n^k}{k}=\\frac{n(n-1)\\dots (n-k+1)}{k}.$$",
+    "lang": "french"
+}

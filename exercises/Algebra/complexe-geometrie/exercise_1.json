@@ -1,0 +1,6 @@
+{
+    "script": "On considère le nombre complexe $z=3-2i$. Placer dans le plan complexe les points $A,B,C,D$ d'affixes respectives $z$, $\\bar z$, $-z$ et $-\\bar z$.Placer dans le plan complexe les points $E,F,G,H$ d'affixes respectives\r\n$$z_E=2e^{i\\pi/3},\\ z_F=-e^{i\\pi/6},\\ z_G=-z_E\\times z_F,\\ z_H=\\frac{-z_F}{z_E}.$$",
+    "hint": "",
+    "solution": "On peut placer $B$, $C$ et $D$ en calculant leurs affixes sous forme algébrique ou en utilisant les propriétés de symétrie par rapport à l'axe des abscisses (passage au conjugué) ou par rapport à l'origine (multiplication par $-1$). On trouvePuisque $|z_E|=2$ et qu'un argument de $E$ est $\\pi/3$, on a $OE=2$ et $(\\vec i,\\overrightarrow{OE})=\\pi/3\\ [2\\pi]$. Pour placer $F$, on peut d'abord placer $F'$ d'affixe $e^{i\\pi/6}$ puis procéder par symétrie par rapport à l'origine. Pour placer $G$ et $H$, on calcule\r\n$$z_G=2e^{i\\pi/3}e^{i\\pi/6}=2e^{i\\pi/2}=2i$$\r\n$$z_H=\\frac{1}2 e^{i\\pi/6}e^{-i\\pi/3}=\\frac 12 e^{-i\\pi/6}$$\r\npuis on procède comme précédemment.",
+    "lang": "french"
+}

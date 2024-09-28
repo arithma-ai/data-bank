@@ -1,0 +1,6 @@
+{
+    "script": "On pose $P(z)=z^3+iz^2-iz+1+i$.Calculer $P(-1-i)$.Déterminer les réels $a$ et $b$ tels que, pour tout nombre complexe $z$, \r\n$P(z)=(z+1+i)(z^2+az+b)$.Résoudre dans $\\mathbb C$ l'équation $P(z)=0$.",
+    "hint": "Il faut calculer $(-1-i)^2$ et $(-1-i)^3$.Procéder par identification.Un produit de deux facteurs est nul si et seulement si un de ses deux facteurs est nul.",
+    "solution": "On a $(-1-i)^2=1+2i-1=2i$ et $(-1-i)^3=2i(-1-i)=2-2i$. On en déduit que\r\n\\begin{align*}\r\nP(-1-i)&=2-2i+i(2i)-i(-1-i)+1+i\\\\\r\n&=2-2i-2+i-1+1+i\\\\\r\n&=&0.\r\n\\end{align*}On va procéder par identification. On a en effet \r\n$$(z+1+i)(z^2+az+b)=z^3+(a+1+i)z^2+(a+ia+b)z+(1+i)b$$\r\net on veut que ce soit égal à $P(z)=z^3+iz^2-iz+1$. On doit donc avoir \r\n$a+1+i=i$ soit $a=-1$, puis $a+ia+b=-i$, soit $b=1$. On vérifie alors que $(1+i)b=1+i$.On a \r\n\\begin{align*}\r\nP(z)=0&\\iff (z+1+i)(z^2-z+1)=0\\\\\r\n&\\iff z+1+i=0\\textrm{ ou }z^2-z+1=0.\r\n\\end{align*}\r\nOn résout $z^2-z+1=0$. Le discriminant $\\Delta$ vaut $-3=(i\\sqrt 3)^2$ et les racines sont donc $(1-i\\sqrt 3)/2$ et $(1+i\\sqrt 3)/2$. Finalement, l'ensemble des solutions de $P(z)=0$ est $\\{-1-i,(1-i\\sqrt 3)/2,(1+i\\sqrt 3)/2\\}$.",
+    "lang": "french"
+}

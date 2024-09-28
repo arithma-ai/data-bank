@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(E,\\mathcal A,\\mu)$ un espace mesuré et soit $(f_n)$ une suite de fonctions mesurables positives qui converge simplement vers $f$. On suppose qu'il existe $M>0$ tel que $\\int_E f_nd\\mu\\leq M$ pour tout $n\\geq 0$. Démontrer que $\\int_E fd\\mu\\leq M$.",
+    "hint": "Appliquer le seul théorème d'intégration qu'il est possible d'utiliser dans ce cadre.",
+    "solution": "Appliquons le théorème de Fatou à la suite de fonctions positives $(f_n)$. On a donc\r\n$$\\int_E fd\\mu=\\int_E \\liminf_n f_n d\\mu\\leq \\liminf_n \\int_E f_n d\\mu\\leq M.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Les applications suivantes sont-elles injectives, surjectives, bijectives?$f:\\mtn\\to\\mtn,\\ n\\mapsto n+1$.$g:\\mtz\\to\\mtz,\\ n\\mapsto n+1$.$h:\\mtr^2\\to\\mtr^2,\\ (x,y)\\mapsto (x+y,x-y)$.",
+    "hint": "$0$ a-t-il un antécédent?Résoudre un système d'équations.",
+    "solution": "$f$ est clairement injective, mais n'est pas surjective car $0$ n'a pas d'antécédent.$g$ est bijective : l'équation $n+1=k$, avec $k\\in\\mtz$ admet une unique solution $n\\in\\mtz$ qui vaut $n=k-1$.$h$ est bijective : prenons en effet un couple $(x_1,y_1)$ de $\\mtr^2$, et essayons de résoudre le système :\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx+y&=&x_1\\\\\r\nx-y&=&y_1\r\n\\end{array}\r\n\\right.$$\r\nCe système possède une unique solution, donnée par $x=(x_1+y_1)/2$ et $y=(x_1-y_1)/2$. L'application est bijective.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ la fonction définie sur $\\mathbb R$ par $f(x)=\\ln(x^2+2x+2)$.\r\nDonner l'équation de la tangente à la courbe représentative de $f$ au point d'abscisse 0 et étudier \r\nla position relative de la courbe et de la tangente au voisinage de ce point.",
+    "hint": "Effectuer un DL à l'ordre 3 de $f$.",
+    "solution": "On va effectuer un DL jusqu'à l'ordre 3 de $f$. Pour cela, on écrit\r\n$$f(x)=\\ln 2+\\ln\\left(1+x+\\frac{x^2}2\\right)$$\r\net posons $u=x+\\frac{x^2}2$. On a $\\ln(1+u)=u-\\frac{u^2}2+\\frac{u^3}3+o(u^3)$, et\r\n\\begin{eqnarray*}\r\nu&=&x+\\frac{x^2}2\\\\\r\nu^2&=&x^2+x^3+o(x^3)\\\\\r\nu^3&=&x^3+o(x^3)\r\n\\end{eqnarray*}\r\nce qui donne\r\n$$f(x)=\\ln 2+x-\\frac{x^3}6+o(x^3).$$\r\nLa courbe représentative de $f$ admet donc au point $(0,\\ln 2)$ une tangente d'équation\r\n$y=\\ln 2+x$. De plus, \r\n$$f(x)-(\\ln 2+x)=-\\frac{x^3}6+o(x^3).$$\r\nCette différence est donc positive au voisinage de $0^-$, et négative au voisinage de \r\n$0^+$. La courbe traverse donc sa tangente en $(0,\\ln 2)$.",
+    "lang": "french"
+}

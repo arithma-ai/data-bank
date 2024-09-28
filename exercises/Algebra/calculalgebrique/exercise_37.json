@@ -1,0 +1,6 @@
+{
+    "script": "Soient $m,k$ deux entiers naturels. Justifier que \r\n$$\\binom{m+k}{m}=\\binom{m+k+1}{m+1}-\\binom{m+k}{m+1}.$$En déduire, pour tous entiers naturels $m,n\\in\\mathbb N^*$, la valeur de \r\n$$S=\\sum_{k=0}^n \\binom{m+k}{m}.$$En déduire celle de \r\n$$P=\\sum_{k=0}^n \\left(\\prod_{p=1}^m(k+p)\\right).$$",
+    "hint": "Il s'agit d'une variante d'une formule du cours.Grâce à la question précédente, la somme devient télescopique.Commencer par exprimer le produit en fonction d'un coefficient binomial.",
+    "solution": "Il s'agit juste d'une application de la formule du triangle de Pascal, qui dit en effet que :\r\n$$\\binom{m+k+1}{m+1}=\\binom{m+k}{m+1}+\\binom{m+k}{m}.$$En utilisant le résultat de la question précédente, on obtient pour $S$ une somme télescopique. En effet, on a \r\n\\begin{eqnarray*}\r\nS&=&\\sum_{k=0}^n \\left( \\binom{m+k+1}{m+1}-\\binom{m+k}{m+1} \\right)\\\\\r\n&=&\\sum_{k=0}^n \\binom{m+k+1}{m+1}-\\sum_{k=0}^n \\binom{m+k}{m+1} \\\\\r\n&=&\\sum_{k=1}^{n+1} \\binom{m+k}{m+1}-\\sum_{k=0}^n \\binom{m+k}{m+1} \\\\\r\n&=&\\binom{m+n+1}{m+1}-\\binom{m}{m+1}\\\\\r\n&=&\\binom{m+n+1}{m+1}\r\n\\end{eqnarray*}On commence par remarquer que \r\n$$\\prod_{p=1}^m (k+p)=\\frac{(m+k)!}{k!}=m!\\binom{m+k}m.$$\r\nOn en déduit que \r\n$$P=m!\\sum_{k=0}^n \\binom{m+k}m=m!\\binom{m+n+1}{m+1}.$$",
+    "lang": "french"
+}

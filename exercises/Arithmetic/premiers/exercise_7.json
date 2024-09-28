@@ -1,0 +1,6 @@
+{
+    "script": "Soit $q\\geq 1$ un entier. Trouver un intervalle de longueur $q$ ne contenant pas de nombres premiers.",
+    "hint": "Considérer des intervalles du type $[n!+2,n!+n]$.",
+    "solution": "Soit $n\\geq 1$ et $I=\\{n!+2,n!+3,\\dots,n!+n\\}$. Prenons un entier $m=n!+k$ dans \r\n$I$. Alors $k$ est un diviseur strict de $m$, puisque $1<k<m$, et $k|k$, $k|n!$ puisque\r\n$k\\leq n$, donc $k|m$. Ainsi, $I$ est un intervalle de $(n-1)$ entiers ne comportant\r\npas de nombres premiers. Si on a choisi $n=q+1$, alors on a répondu au problème posé par l'énoncé.",
+    "lang": "french"
+}

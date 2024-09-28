@@ -1,0 +1,6 @@
+{
+    "script": "Dans $E=\\mathcal F(\\mathbb R,\\mathbb R)$ l'espace vectoriel des fonctions de $\\mathbb R$ dans $\\mathbb R$, est-ce que la fonction $\\arctan$ est combinaison linéaire de $e^{x^2}$, $e^{-x}$ et $\\sin$?",
+    "hint": "Procéder par l'absurde et étudier les limites en $+\\infty$ et $-\\infty$.",
+    "solution": "Supposons que $\\arctan$ soit combinaison linéaire de $e^{x^2}$, $e^{-x}$ et $\\sin$. Alors il existe $a,b,c\\in\\mathbb R$ tels que, pour tout $x\\in\\mathbb R$, \r\n$$\\arctan(x)=ae^{x^2}+be^{-x}+c\\sin(x).$$\r\nPuisque $e^{-x}$ tend vers $0$ en $+\\infty$ et $\\sin$ est bornée, si $a\\neq 0$, alors $ae^{x^2}+be^{-x}+c\\sin(x)$ tend vers $\\pm\\infty$ lorsque $x\\to+\\infty$ (suivant le signe de $a$). Ce n'est pas le cas de $\\arctan(x)$, et donc $a=0$.Prouvons maintenant que $b=0$. Faisant $x=0$ dans l'égalité, et puisqu'on sait déjà que $a=0$, on trouve $b=0$.On a donc prouvé que si  $\\arctan$ est combinaison linéaire de $e^{x^2}$, $e^{-x}$ et $\\sin(x)$, alors il existe $c\\in\\mathbb R$ tel que $\\arctan(x)=c\\sin(x)$. Ce n'est pas le cas, puisque par exemple la fonction $\\arctan$ admet une limite en $+\\infty$ et pas la fonction $\\sin$.En conclusion, $\\arctan$ n'est pas combinaison linéaire de $e^{x^2}$, $e^{-x}$ et $\\sin$.",
+    "lang": "french"
+}

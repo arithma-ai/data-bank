@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel de dimension finie $n$ et soit $H_1$, $H_2$ deux hyperplans distincts de $E$. Quelle est la dimension de $H_1\\cap H_2$?",
+    "hint": "Appliquer la formule de Grassmann.",
+    "solution": "On remarque que $H_1+H_2$ est un sous-espace vectoriel de $E$ qui contient strictement $H_1$. Ainsi, $\\dim(H_1+H_2)>n-1$. Puisque $\\dim(H_1+H_2)\\leq n$, on a $\\dim(H_1+H_2)=n$. Par la formule de Grassmann, \r\n$$\\dim(H_1\\cap H_2)=\\dim(H_1)+\\dim(H_2)-\\dim(H_1+H_2)=2(n-1)-n=n-2.$$",
+    "lang": "french"
+}

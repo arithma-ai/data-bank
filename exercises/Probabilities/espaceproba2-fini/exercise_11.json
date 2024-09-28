@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$. Déterminer une probabilité sur $\\{1,\\dots,n\\}$ telle que la probabilité de $\\{1,\\dots,k\\}$ soit proportionnelle à $k^2$.",
+    "hint": "Poser $P(\\{1,\\dots,k\\})=\\lambda k^2$. Que vaut $P(\\{k\\})$ en fonction de $\\lambda$ et $k$. Utiliser que $P(\\{1,\\dots,n\\}=1$.",
+    "solution": "L'énoncé nous dit que l'on cherche une probabilité $P$ telle que  $P(\\{1,\\dots,k\\})=\\lambda k^2$. On a alors, pour $k=1,\\dots,n$, \r\n$$P(\\{k\\})=P(\\{1,\\dots,k\\})-P(\\{1,\\dots,k-1\\})=\\lambda k^2-\\lambda (k-1)^2=2\\lambda k-\\lambda.$$\r\nOn va déterminer $\\lambda$ en remarquant que \r\n$$P(\\{1,\\dots,n\\})=1$$\r\nce qui entraîne\r\n$$\\lambda n^2=1\\iff \\lambda=\\frac1{n^2}.$$\r\nLa probabilité est donc définie par\r\n$$P(\\{k\\})=\\frac{2k-1}{n^2}.$$\r\nOn vérifie aisément que réciproquement, cette probabilité vérifie que $P(\\{1,\\dots,k\\})$ est proportionnelle  à $k^2$.",
+    "lang": "french"
+}

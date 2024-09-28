@@ -1,0 +1,6 @@
+{
+    "script": "Soit $k\\geq 2$ et $n_1,\\dots,n_k$ $k$ entiers relatifs (pas nécessairement distincts). Montrer qu'on peut toujours choisir certains de ces entiers de sorte que la somme soit divisible par $k$.",
+    "hint": "Raisonner dans $\\mathbb Z/k\\mathbb Z$ en considérant les entiers $m_j=n_1+\\cdots+n_j$.",
+    "solution": "Pour $j=1,\\dots,k$, posons $m_j=n_1+\\cdots+n_j$ et considérons les classes $\\overline{m_j}$ dans $\\mathbb Z/k\\mathbb Z$. Deux cas sont possibles :ou bien l'une des classes, disons $\\overline{m_j}$, est égale à $\\bar 0$. Dans ce cas, $m_j$ est divisible par $k$.ou bien aucune de ces classes n'est égale à $\\bar 0$. Mais alors, $\\overline{m_1},\\dots,\\overline{m_k}$ vit dans $\\{\\bar 1,\\dots,\\overline{k-1}\\}$ et donc toutes les classes ne peuvent pas être différentes. Autrement dit, il existe $j<\\ell$ tel que $\\overline{m_j}=\\overline{m_\\ell}$, c'est-à-dire que $m_\\ell-m_j$ est divisible par $k$. Ceci prouve le résultat dans ce cas puisque $m_\\ell-m_j=n_{j+1}+\\cdots+n_{\\ell}$.",
+    "lang": "french"
+}

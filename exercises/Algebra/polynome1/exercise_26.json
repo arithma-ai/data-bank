@@ -1,0 +1,6 @@
+{
+    "script": "Décomposer en produits d'irréductibles de $\\mathbb C[X]$ le polynôme\r\n$P(X)=X^9+X^6+X^3+1$.",
+    "hint": "Commencer par décomposer $Q(X)=X^3+X^2+X+1$.",
+    "solution": "On va commencer par décomposer $Q(X)=X^3+X^2+X+1$, dont $-1$ est racine évidente.\r\nOn en déduit\r\n$$Q(X)=(X+1)(X^2+1)=(X+1)(X-i)(X+i).$$\r\nOn a $P(X)=Q(X^3)$ et il s'agit maintenant de trouver les racines $3$-ièmes de $-1$, $i$ et $-i$.\r\nOn en déduit que\r\n\\begin{eqnarray*}\r\nP(X)&=&(X+1)(X-e^{i\\pi/3})(X-e^{-i\\pi/3})(X-e^{i\\pi/2})(X-e^{-i5\\pi/6})(X-e^{-i\\pi/6})\\\\\r\n&&(X-e^{-i\\pi/2})(X-e^{i5\\pi/6})(X-e^{i\\pi/6}).\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre dans $\\mathbb C$ le système suivant :\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nz+z'&=&2\\\\\r\nzz'&=&17\r\n\\end{array}\\right.\r\n$$",
+    "hint": "",
+    "solution": "On sait, par le lien entre les coefficients et les racines d'un polynôme du second degré, que $z$ et $z'$ sont racines de l'équation $z^2-2z+17=0$. Son discriminant est $\\Delta=4-4\\times 17=-64=(8i)^2$. Ses solutions sont\r\n$$z_1=\\frac{2-8i}2=1-4i\\textrm{ et }z_2=1+4i.$$\r\nLes solutions du système sont donc les deux couples $(1-4i,1+4i)$ et $(1+4i,1-4i)$.",
+    "lang": "french"
+}

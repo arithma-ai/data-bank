@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ l'espace vectoriel des suites réelles, \r\n$$F=\\{u\\in E;\\ \\forall n\\in\\mathbb N,\\ u_{2n}=0\\}$$\r\n$$G=\\{u\\in E;\\ \\forall n\\in\\mathbb N,\\ u_{2n}=u_{2n+1}\\}.$$\r\nDémontrer que $F$ et $G$ sont supplémentaires dans $E.$",
+    "hint": "",
+    "solution": "D'abord, il est clair que $F\\cap G=\\{0\\}$. En effet, si la suite $(u_n)$ est dans l'intersection de $F$ et $G$, alors tous ses termes d'indice pair sont nul, et par suite tous ceux d'indice impair sont également nuls car $(u_n)\\in G$.Prouvons maintenant que $F+G=E$. Pour cela, prenons une suite $(u_n)$ de $E$ et réfléchissons un peu. Si $u_n=v_n+w_n$ avec $(v_n)\\in F$ et $(w_n)\\in G$, alors on a forcément $u_{2n}=w_{2n}$ ce qui définit forcément $(w_n)$ puisque $w_{2n+1}=w_{2n}$. La suite $(v_n)$ ne peut être que la différence entre $(u_n)$ et $(w_n)$, en espérant qu'elle soit dans $F$.Agissons maintenant! On définit $(w_n)$ par $w_{2n}=w_{2n+1}=u_{2n}$ pour tout entier naturel $n$. Il est clair que $(w_n)$ est élément de $G$. Posons ensuite, pour tout entier naturel $n$, $v_n=u_n-w_n$. \r\nAlors par définition on a  $(u_n)=(v_n)+(w_n)$ et il reste à prouver que $(v_n)\\in F$. Mais c'est facile, car $v_{2n}=u_{2n}-w_{2n}=0$.Ainsi, on a bien prouvé par ce raisonnement dit d'analyse-synthèse que $E=F\\oplus G$.",
+    "lang": "french"
+}

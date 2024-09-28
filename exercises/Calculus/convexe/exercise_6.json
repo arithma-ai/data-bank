@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que, pour tout $x\\in[0,\\pi/2]$, on a \r\n$$\\frac{2}\\pi x\\leq \\sin x\\leq x.$$",
+    "hint": "Le sinus est concave sur $[0,\\pi/2]$.",
+    "solution": "Puis $(\\sin )''=-\\sin$, la fonction sinus est concave sur $[0,\\pi/2]$. Sa courbe représentative est donc, sur cet intervalle,\r\nen-dessous de sa tangente en 0, et au-dessus de la corde joignant $(0,\\sin 0)$ à $(\\pi/2,\\sin(\\pi/2))$.\r\nOr, l'équation de cette tangente est $y=x$, et l'équation de cette corde est $y=\\frac 2\\pi x$.\r\nOn obtient exactement le résultat demandé.",
+    "lang": "french"
+}

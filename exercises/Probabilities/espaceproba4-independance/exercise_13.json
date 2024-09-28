@@ -1,0 +1,6 @@
+{
+    "script": "On considère une urne contenant 4 boules blanches et 3 boules noires. On tire \r\nune à une et sans remise 3 boules de l'urne. Quelle est la probabilité pour que la première boule tirée\r\nsoit blanche, la seconde blanche et la troisième noire?",
+    "hint": "Lire le titre de l'exercice.",
+    "solution": "On note $B_i$ (resp. $N_i$) l'événement : ``La $i$-ème boule tirée est blanche (resp. noire)''.\r\nOn cherche à calculer $P(B_1\\cap B_2\\cap N_3)$, ce que l'on va faire en utilisant la formule des\r\nprobabilités composées :\r\n$$P(B_1\\cap B_2\\cap N_3)=P(B_1)P(B_2|B_1)P(N_3|B_1\\cap B_2).$$\r\nChacune des probabilités qui apparaît est facile à calculer, car\r\n$P(B_1)=4/7$, $P(B_2|B_1)=3/6$ (il reste 6 boules dont 3 blanches)\r\net $P(N_3|B_1\\cap B_2)=3/5$. Finalement, on obtient $P(B_1\\cap B_2\\cap N_3)=\\frac 6{35}.$",
+    "lang": "french"
+}

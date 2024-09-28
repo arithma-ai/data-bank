@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un ensemble de cardinal $n$ et $i\\in\\{0,\\dots,n\\}$.Déterminer $\\textrm{card}(\\Omega_i)$, où\r\n$$\\Omega_i=\\{(A,B)\\in \\mathcal P(E);\\ A\\cup B=E,\\ \\textrm{card}(B)=i\\}.$$Combien y-a-t-il de couples de parties $(A,B)$ de $E$ telles que $A\\cup B=E$.",
+    "hint": "Choisir $B$ une partie quelconque à $i$ éléments, puis $A$ une partie contenant le complémentaire de $B$.Faire varier $i$ de $0$ à $n$, et retrouver la formule du binôme.",
+    "solution": "Il y a $\\binom ni$ choix de parties $B$ possibles dont le cardinal est $i$. Ce choix étant fait, une partie $A$ de $E$ telle que $A\\cup B=E$\r\n s'écrit $A=B^c\\cup C$, où $C$ est une partie quelconque de $B$. Il y a donc $2^i$ telles parties. Finalement on a \r\n $$\\textrm{card}(\\Omega_i)=\\binom ni 2^i.$$Le nombre de couples $(A,B)$ recherché vaut $\\sum_{i=0}^n \\textrm{card}(\\Omega_i)$, en décomposant l'ensemble suivant le nombre d'éléments de $B$. Il vaut encore\r\n $$\\sum_{i=0}^n \\binom ni 2^i=\\sum_{i=0}^n \\binom ni 2^i 1^{n-i}=3^n.$$",
+    "lang": "french"
+}

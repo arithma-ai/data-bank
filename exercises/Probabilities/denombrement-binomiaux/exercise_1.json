@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre les deux équations suivantes, d'inconnue $n\\in\\mathbb N$ :$4\\binom n8=\\binom n9,$ avec $n\\geq 9.$$\\binom{3n}1+\\binom{3n}2+\\binom{3n}3=115n,$ avec $n\\geq 1.$",
+    "hint": "Remplacer les coefficients binomiaux par leur expression, faire les simplifications, puis résoudre les équations correspondantes.",
+    "solution": "On a \r\n\\begin{align*}\r\n4\\binom n8=\\binom n9&\\iff 4\\frac{n!}{8!(n-8)!}=\\frac{n!}{9!(n-9)!}\\\\\r\n&\\iff \\frac{4}{n-8}=\\frac 19\\\\\r\n&\\iff 36=n-8\\\\\r\n&\\iff n=44.\r\n\\end{align*}\r\nAinsi, la seule solution de cette équation est $n=44.$On a \r\n\\begin{align*}\r\n\\binom{3n}1+\\binom{3n}2+\\binom{3n}3=115n\\\\\r\n\\iff 3n+\\frac{3n(3n-1)}{2}+\\frac{3n(3n-1)(3n-2)}{6}=115n\\\\\r\n\\iff 18n+9n(3n-1)+3n(3n-1)(3n-2)=690n\\\\\r\n\\iff 27n^3-675n=0.\r\n\\end{align*}\r\nLa valeur $n=0$ ne convient pas, et on cherche donc $n\\geq 1$ tel que\r\n$$27n^2=675\\iff n^2=25\\iff n=5$$\r\n(rappelons que $n\\geq 1$). Ainsi, la seule solution de cette équation est $n=5.$",
+    "lang": "french"
+}

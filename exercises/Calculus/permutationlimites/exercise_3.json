@@ -1,0 +1,6 @@
+{
+    "script": "Pour $n\\geq 1$ et $x\\in [0,1]$, on pose $f_n(x)=nx(1-x)^n$.Démontrer que, pour tout $x\\in [0,1]$ et tout $n\\geq 1$, on a $|f_n(x)|\\leq 1$.En déduire $\\lim_{n\\to+\\infty}\\int_0^1 nx(1-x)^n dx$.",
+    "hint": "Dériver $f_n$ pour déterminer le point où le maximum est atteint. On pourra utiliser, pour majorer ce maximum, l'inégalité $\\ln(1+u)\\leq u$ valable pour $u>-1$.Application directe du théorème de convergence dominée.",
+    "solution": "Remarquons d'abord que pour tout $n\\geq 1$ et tout $x\\in [0,1]$, on a $f_n(x)\\geq 0$. Pour déterminer le maximum de $f_n$ sur $[0,1]$, on dérive cette fonction :\r\n$$f_n'(x)=n(1-x)^{n}-n^2x(1-x)^{n-1}=n(1-x)^{n-1}\\big(1-(n+1)x\\big).$$\r\nLa dérivée s'annule en $x_n=1/(n+1)$ et donc, pour tout $x\\in [0,1]$, on a \r\n$$0\\leq f_n(x)\\leq f_n(x_n)=\\frac n{n+1}\\left(1-\\frac 1{n+1}\\right)^n=\\left(\\frac n{n+1}\\right)^{n+1}\\leq 1.$$On peut maintenant appliquer le théorème de convergence dominée. Par comparaison des fonctions polynômes et puissances, pour tout $x\\in ]0,1[$, on a $f_n(x)\\to 0$. De plus, $|f_n|\\leq 1$ et les constantes sont intégrables sur l'intervalle borné $[0,1]$. Par le théorème de convergence dominée, on trouve\r\n$$\\lim_{n\\to+\\infty}\\int_0^1 nx(1-x)^n dx=0.$$",
+    "lang": "french"
+}

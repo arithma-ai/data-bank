@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[a,b]\\to \\mathbb R$ une fonction continue, et soient $p,q$ deux réels strictement positifs.\r\nDémontrer qu'il existe $c\\in[a,b]$ tel que \r\n$pf(a)+qf(b)=(p+q)f(c).$",
+    "hint": "Se ramener au théorème des valeurs intermédiaires.",
+    "solution": "Le réel $\\frac{p}{p+q}f(a)+\\frac{q}{p+q}f(b)$ est clairement un réel de l'intervalle $[f(a),f(b)]$ (ou $[f(b),f(a)]$ si $f(b)<f(a)$),\r\npuisqu'il s'écrit $\\lambda f(a)+(1-\\lambda)f(b)$, avec $\\lambda\\in[0,1]$ qui est égal à \r\n$\\frac{p}{p+q}$. Puisque la fonction $f$ est continue, par le théorème des valeurs intermédiaires, on peut\r\ntrouver $c\\in[a,b]$ tel que \r\n$$f(c)=\\frac{p}{p+q}f(a)+\\frac q{p+q}f(b).$$\r\nMultipliant par $p+q$, c'est exactement le résultat voulu.",
+    "lang": "french"
+}

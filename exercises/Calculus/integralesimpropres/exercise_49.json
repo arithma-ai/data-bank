@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,+\\infty[\\to]0,+\\infty[$ de classe $C^1$ telle qu'il existe $a<0$ satisfaisant\r\n$\\lim_{x\\to+\\infty}\\frac{f'(x)}{f(x)}= a$. Montrer que $f$ et $f'$ sont intégrables sur $[0,+\\infty[$.",
+    "hint": "Comparer $f$ à une fonction exponentielle $e^{-ax/2}$ pour prouver que $f$ est intégrable.\r\nL'intégrabilité de $f'$ suit du fait qu'elle est de signe constant et du comportement de $f$.",
+    "solution": "D'après la définition de la limite, et puisque $a<0,$ il existe $A>0$ tel que, pour tout $x\\geq A$, on a \r\n$$\\frac{f'(x)}{f(x)}\\leq \\frac a2.$$\r\nIntégrons cette inégalité. Puisque $f$ est positive, on trouve \r\n$$\\ln f(x)-\\ln f(A)\\leq \\frac{a}2(x-A).$$\r\nPassant à l'exponentielle, on en déduit, pour $x\\geq A$,\r\n$$0\\leq f(x)\\leq f(A)e^{\\frac{a}{2}(x-A)}.$$\r\nPuisque $a/2<0$, la fonction $e^{\\frac a2x}$ est intégrable sur $]0,+\\infty[$. Il en est de même de $f$.\r\nDe plus, l'inégalité précédente prouve que $f$ tend vers 0 en $+\\infty$. D'autre part, puisque $f$ est positive, on déduit de la définition de $A$ que $f'(x)\\leq 0$ pour $x\\geq A$. Ainsi, pour $x\\geq A$,\r\n$$\\int_A^X |f'(t)|dt=-\\int_A^X f'(t)dt=f(A)-f(X)$$\r\net ceci converge vers $f(A)$ quand $X$ tend vers $+\\infty$. $f'$ est donc elle aussi intégrable.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "On lance un dé équilibré jusqu'à l'obtention d'un 6. Quelle est la probabilité que tous les nombres obtenus soient pairs?",
+    "hint": "Considérer $A_n$ l'événement défini par \"les $n-1$ premiers lancers donnent 2 ou 4 et le $n$-ième lancer donne 6\".",
+    "solution": "On considère $A_n$ l'événement défini par \"les $n-1$ premiers lancers donnent 2 ou 4 et le $n$-ième lancer donne 6\". L'événement étudié est $A=\\bigcup_{n\\geq 1}A_n$. Ces événements étant disjoints, on a $P(A)=\\sum_{n\\geq 1}P(A_n)$. Par indépendance des lancers, on a\r\n$$P(A_n)=\\left(\\frac 13\\right)^{n-1}\\times\\frac 16=\\frac 12\\times\\frac 1{3^n}.$$\r\nOn en déduit que \r\n$$P(A)=\\frac 12\\sum_{n=1}^{+\\infty}\\frac 1{3^n}=\\frac 14.$$",
+    "lang": "french"
+}

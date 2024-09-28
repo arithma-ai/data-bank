@@ -1,0 +1,6 @@
+{
+    "script": "Calculer  $\\arctan 2+\\arctan 5+\\arctan8.$",
+    "hint": "Utiliser une formule de trigonométrie pour exprimer $tan(a+b)$ en fonction de $\\tan a$ et $\\tan b$ pour simplifier l'expression demandée.",
+    "solution": "Soit $y=\\arctan(2)+\\arctan(8)$. Puisque $\\arctan(8)\\geq\\arctan(2)>\\arctan(1)=\\pi/4$, $y$ est compris entre $\\pi/2$ et $\\pi$. Calculons $\\tan y$ :\r\n\\begin{eqnarray*}\r\n\\tan(y)&=&\\frac{\\tan(\\arctan 2)+\\tan(\\arctan 8)}{1-\\tan(\\arctan 2)\\tan(\\arctan 8)}\\\\\r\n&=&\\frac{2+8}{1-16}\\\\\r\n&=&\\frac{-2}{3}.\r\n\\end{eqnarray*}\r\nOn a donc $y-\\pi\\in]-\\pi/2,\\pi/2[$ et $\\tan(y-\\pi)=\\tan(y)=-2/3$. Par définition de la fonction $\\arctan$, on a donc : $y-\\pi=\\arctan(-2/3)$ (c'est ici que se trouve le piège de l'exercice! il faut faire attention au fait que arctan est une bijection à valeurs dans $]-\\pi/2,\\pi/2[$). On a donc :\r\n$$\\arctan 2+\\arctan 5+\\arctan 8=\\pi+\\arctan(-2/3)+\\arctan(5).$$\r\nOn réitère le procédé : si $z=\\arctan(-2/3)+\\arctan(5)$, alors $z\\in]-\\pi/2,\\pi/2[$, et on a :\r\n$$\\tan(z)=1.$$\r\nCeci prouve que $z=\\pi/4$, et en particulier que la somme demandée fait $5\\pi/4$.",
+    "lang": "french"
+}

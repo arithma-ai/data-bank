@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ et $Y$ deux variables aléatoires indépendantes suivant des lois exponentielles de paramètres respectifs $\\lambda$ et $\\mu$. Déterminer $P(X>Y)$.",
+    "hint": "Quelle est la densité du couple $(X,Y)$?",
+    "solution": "Les variables $(X,Y)$ étant indépendantes, le couple $(X,Y)$ admet pour densité $$f(x,y)=\\mathbb 1_{[0,+\\infty[^2}(x,y)\\lambda e^{-\\lambda x}\\mu e^{-\\mu y}.$$\r\nOn en déduit que \r\n\\begin{align*}\r\nP(X>Y)&=E(1_{x>y})\\\\\r\n&=\\int_{y=0}^{+\\infty}\\int_{x=y}^{+\\infty}\\lambda e^{-\\lambda x}dx\\mu e^{-\\mu y}dy\\\\\r\n&=\\int_{y=0}^{+\\infty}\\mu e^{-(\\lambda+\\mu)y}dy\\\\\r\n&=\\frac{\\mu}{\\lambda+\\mu}.\r\n\\end{align*}\r\nEn particulier, si $\\lambda=\\mu$, on obtient 1/2.",
+    "lang": "french"
+}

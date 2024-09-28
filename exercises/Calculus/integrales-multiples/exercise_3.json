@@ -1,0 +1,6 @@
+{
+    "script": "Soit $D$ le domaine :\r\n$$D=\\left\\{(x,y)\\in\\mtr^2;\\ -1\\leq x\\leq 1\\textrm{ et }x^2\\leq y\\leq 4-x^3\\right\\}.$$\r\nCalculer l'aire de $D$.",
+    "hint": "On intègre sur $D$  la fonction égale à 1. Procéder par intégrations successives.",
+    "solution": "Il suffit de raisonner par intégrations successives, en remarquant que, si $-1\\leq x\\leq 1,$ on a $x^2\\leq 4-x^3$. On a donc :\r\n\\begin{eqnarray*}\r\n\\textrm{aire }(D)&=&\\int_{-1}^1\\int_{x^2}^{4-x^3}dydx\\\\\r\n&=&\\int_{-1}^1\\left(4-x^3-x^2\\right)dx\\\\\r\n&=&\\left[4x-\\frac{x^4}{4}-\\frac{x^3}{3}\\right]_{-1}^1\\\\\r\n&=&\\frac{22}{3}.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

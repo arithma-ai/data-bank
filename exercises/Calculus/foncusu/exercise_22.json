@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que l'équation $$\\ln(1+|x|)=\\frac 1{x-1}$$\r\npossède exactement une solution $\\alpha$ dans $\\mathbb R\\backslash \\{1\\}$ et que $1<\\alpha<2$.",
+    "hint": "Ramener cette équation sous la forme $f(x)=0$, puis étudier la fonction! On peut se ramener à $]1,+\\infty[$.",
+    "solution": "Posons, pour $x\\neq 1$, \r\n$$f(x)=\\ln(1+|x|)-\\frac 1{x-1}=\\ln(1+|x|)+\\frac{1}{1-x}.$$\r\nL'équation initiale est équivalente à l'équation $f(x)=0$. Remarquons que si $x<1$, alors $f(x)> 0$ et donc l'équation $f(x)=0$ n'admet pas de solutions dans l'intervalle $]-\\infty,1[$. Nous allons ensuite étudier la fonction $f$ sur l'intervalle $]1,+\\infty[$. Elle y est dérivable et \r\n$$f'(x)=\\frac 1{1+x}+\\frac{1}{(1-x)^2}>0.$$\r\nLa fonction $f$ est donc strictement croissante sur $]1,+\\infty[$. De plus, on a \r\n$$\\lim_{x\\to 1^+}f(x)=-\\infty,\\ \\lim_{x\\to +\\infty} f(x)=+\\infty\\textrm{ et }f(2)=\\ln(3)-1>0.$$\r\n$f$, qui est de plus continue, réalise une bijection de l'intervalle $]1,+\\infty[$ sur $\\mathbb R$. L'équation admet donc une unique solution $\\alpha$ dans $]1,+\\infty[$; le calcul de $f(2)$ et de la limite de $f$ en $1$ permettent de conclure que $1<\\alpha<2$.",
+    "lang": "french"
+}

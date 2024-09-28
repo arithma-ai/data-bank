@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer l'ordre de multiplicité de la racine $1$ du polynôme\r\n\\[A(X) = X^5-5X^4+14X^3-22X^2+17X-5.\\]",
+    "hint": "Calculer $A(1)$, $A'(1)$,...",
+    "solution": "On a \r\n\\begin{align*}\r\nA'(X)&=5X^4-20X^3+42X^2-44X+17\\\\\r\nA''(X)&=20X^3-60X^2+84X-44\\\\\r\nA^{(3)}(X)&=60X^2-120X+84\r\n\\end{align*}\r\nde sorte que $A(1)=A'(1)=A''(1)=0$ et $A^{(3)}(1)=24\\neq 0$ donc $1$ est racine de $A$ de multiplicité $3$.",
+    "lang": "french"
+}

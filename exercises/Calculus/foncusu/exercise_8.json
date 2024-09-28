@@ -1,0 +1,6 @@
+{
+    "script": "Soit $g:\\mathbb R_+\\to\\mathbb R$ définie par \r\n$g(x)=(x-2)e^{x}+(x+2)$. Démontrer que $g\\geq 0$ sur $\\mathbb R_+$.",
+    "hint": "Calculer la dérivée seconde de $g$.",
+    "solution": "On va étudier $g$. Pour cela, il faut aller jusqu'à la dérivée seconde! En effet, $g$ est de classe $C^\\infty$ sur $\\mathbb R_+$, avec $g'(x)=(x-1)e^x+1$. Il ne semble pas facile d'étudier directement le signe de $g'$. On va donc calculer la dérivée de $g'$, qui est $g''(x)=xe^x$, $x\\in\\mathbb R_+$.$g''$ est positive sur $\\mathbb R_+$, donc $g'$ est croissante sur cet intervalle. De plus, $g'(0)=0$ donc $g'$ est positive sur\r\n$\\mathbb R_+$. Ainsi, $g$ est croissante sur $\\mathbb R_+$ et comme $g(0)=0$, $g$ est positive sur $\\mathbb R_+$.",
+    "lang": "french"
+}

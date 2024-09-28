@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les racines du polynôme $8X^3-12X^2-2X+3$ sachant qu'elles sont en progression arithmétique.",
+    "hint": "Écrire que les racines sont $a-r$, $a$ et $a+r$. Trouver $a$ et $r$ à l'aide des relations coefficients-racines.",
+    "solution": "Puisque les racines sont en progression arithmétique, elles peuvent s'écrire $a-r$, $a$ et $a+r$, où $r$\r\nest la raison de cette progression arithmétique. On obtient donc\r\n\\begin{eqnarray*}\r\n8X^3-12X^2-2X+3&=&8(X-(a-r))(X-a)(X-(a+r))\\\\\r\n&=&8X^3-24aX^2+*X-8a(a-r)(a+r).\r\n\\end{eqnarray*}\r\nPar identification, on trouve $24a=12$, soit $a=1/2$, puis\r\n$$-4\\left(\\frac14-r^2\\right)=3\\implies r=\\pm1.$$\r\nLes 3 racines sont donc $-1/2$, $1/2$ et $3/2$, et le polynôme se factorise en\r\n$$8X^3-12X^2-2X+3=(2X+1)(2X-1)(2X-3).$$",
+    "lang": "french"
+}

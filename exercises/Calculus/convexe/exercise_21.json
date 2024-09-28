@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ de classe $C^1$ sur $\\mtr$ et convexe. Démontrer que si $f$ est majorée, alors $f$ est constante.",
+    "hint": "Si $f$ est non constante, elle possède une sécante de pente non nulle.",
+    "solution": "Supposons que $f$ n'est pas constante. Il existe alors $a<b$ avec $f(a)\\neq f(b)$. Supposons par exemple $f(b)>f(a)$. Alors, on sait que la courbe représentative de $f$ est au dessus de la sécante joignant $(a,f(a))$ et $(b,f(b))$ pour $x\\geq b$. Autrement dit, pour $x\\geq b$, on a  :\r\n$$f(x)\\geq \\frac{f(b)-f(a)}{b-a}\\times (x-a)+f(a).$$\r\nCeci prouve que $f(x)$ tend vers $+\\infty$ si $x$ tend vers $+\\infty$, et que $f$ est donc non majorée. Si $f(b)<f(a)$, on utilise la même inégalité, mais pour $x<a$, et on constate que $f(x)$ tend vers $+\\infty$ si $x\\to -\\infty$. De même, $f$ n'est pas majorée. Par contraposée,\r\nsi $f$ est majorée, alors $f$ est constante.",
+    "lang": "french"
+}

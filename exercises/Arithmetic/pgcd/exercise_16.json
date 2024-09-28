@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les couples d'entiers naturels de pgcd 18 et de somme 360.Déterminer les couples d'entiers naturels de pgcd 18 et de produit 6480.",
+    "hint": "Écrire $x=18x'$ et $y=18y'$ avec $x'\\wedge y'=1$. On trouve une équation facile pour $x'+y'$ (ou pour $x'y'$) qu'on peut résoudre de façon exhaustive en tenant bien compte du fait que $x'$ et $y'$ sont premiers entre eux.",
+    "solution": "Soit $(x,y)$ un tel couple d'entiers naturels. On écrit que $x=18x'$ et $y=18y'$ avec $x'\\wedge y'=1$. Puisque $x+y=360$, on doit avoir $x'+y'=20$. Si $x'=1$, alors $y'=19$ et cette solution convient car $1$ et $19$ sont premiers entre eux. Si $x'=2$, alors $y'=18$ et cette solution ne convient pas car $2$ et $18$ ne sont pas premiers entre eux. On peut continuer ainsi à chercher de façon exhaustive toutes les solutions, et on trouve que les couples qui conviennent correspondent à $x'=1,3,7,9,11,13,17,19$. Les couples solutions sont donc :\r\n$$(18,342),\\ (54,306)\\, (126,234),\\ (162,198)$$\r\nainsi que les couples symétriques.On procède exactement de la même façon, et cette fois on a l'équation $x'y'=20$. Les solutions qui vérifient en outre que $x'\\wedge y'=1$ correspondent à $x'=1,4,5$ et $20$. Les couples solutions sont donc\r\n$$(18,360),\\ (72,90),\\ (90,72),\\ (360,18).$$",
+    "lang": "french"
+}

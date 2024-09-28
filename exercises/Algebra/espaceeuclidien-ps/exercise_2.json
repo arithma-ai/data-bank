@@ -1,0 +1,6 @@
+{
+    "script": "Pour $A,B\\in\\mathcal M_n(\\mathbb R)$, on définit\r\n$$\\langle A,B\\rangle=\\textrm{tr}(A^T B).$$Démontrer que cette formule définit un produit scalaire sur $\\mathcal M_n(\\mathbb R)$.En déduire que, pour tous $A,B\\in\\mathcal S_n(\\mathbb R)$, on a\r\n$$\\big(\\textrm{tr}(AB))^2\\leq \\textrm{tr}(A^2)\\textrm{tr}(B^2).$$",
+    "hint": "Calculer le terme général de $A^TA$.Cauchy-Schwarz.",
+    "solution": "Il est très facile de vérifie que $\\langle .,.\\rangle$ définit une forme bilinéaire symétrique. Reste à démontrer qu'elle est définie positive.\r\nSoit $A\\in\\mathcal M_n(\\mathbb R)$ et notons $(b_{i,j})=A^TA$. Alors \r\n$$b_{i,i}=\\sum_{k=1}^n a_{k,i}^2\\geq 0.$$\r\nAinsi, \r\n$$\\textrm{tr}(A^TA)=\\sum_{i=1}^n\\sum_{k=1}^n a_{k,i}^2\\geq 0.$$\r\nOn a bien affaire à une forme positive. De plus, si $\\langle A,A\\rangle=0$, alors pour tout $i=1,\\dots,n$\r\net tout $k=1,\\dots,n$, on a $a_{k,i}=0$, et donc $A=0$ : la forme est définie.On va appliquer l'inégalité de Cauchy-Schwarz. Pour $A,B$ symétriques, on a en effet\r\n$$\\langle A,B\\rangle=\\textrm{tr}(AB)$$\r\net donc \r\n$$\\big(\\textrm{tr}(AB)\\big)^2\\leq \\textrm{tr}(A^2)\\textrm{tr}(B^2).$$",
+    "lang": "french"
+}

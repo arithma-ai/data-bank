@@ -1,0 +1,6 @@
+{
+    "script": "La vitesse de dissolution d'un composé chimique dans l'eau est proportionnelle à la quantité restante. \r\nOn place 20g de ce composé, et on observe que 5min plus tard, il reste 10g. Combien de temps faut-il encore attendre pour qu'il reste seulement 1g?",
+    "hint": "Noter $x(t)$ la quantité restante en fonction du temps et former une équation différentielle vérifiée par $x$.",
+    "solution": "On note $x(t)$ la quantité restante en fonction du temps, de sorte que $x(0)=20$. Du fait que la vitesse\r\nde dissolution est proportionnelle à la quantité restante, on tire qu'il existe $\\alpha>0$ de sorte\r\nque $x$ est solution de l'équation différentielle \r\n$$-x'(t)=\\alpha x(t).$$\r\nLa résolution de cette équation différentielle donne $x(t)=Ce^{-\\alpha t}$, avec $C\\in\\mathbb R$. De $x(0)=20$ \r\non tire $C=20$. Puis, de $x(5)=10$, on tire\r\n$$20e^{-5\\alpha}=10\\iff \\alpha =\\frac15\\ln 2.$$\r\nLa quantité restante vaut donc $x(t)=20\\exp(-(\\ln 2)t/5)$. On cherche enfin $t_0$ de sorte que $x(t_0)=1$. Il vient\r\n$$20\\exp(-(\\ln 2)t_0/5)=1\\iff -(\\ln 2)t_0/5=-\\ln 20\\iff t_0=\\frac{5\\ln 20}{\\ln 2}.$$\r\nLe temps d'attente restant vaut donc $t_0-5$ minutes.\r\nUne application numérique donne environ 16 minutes et 36 secondes.",
+    "lang": "french"
+}

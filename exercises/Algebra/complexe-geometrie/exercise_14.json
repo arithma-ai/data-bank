@@ -1,0 +1,6 @@
+{
+    "script": "Trouver tous les nombres complexes $z$ tels que les points d'affixe $z$, $z^2$ et $z^4$ soient alignés.",
+    "hint": "Commencer par étudier les cas où deux des points sont confondus. Ensuite, raisonner en termes d'argument.",
+    "solution": "On commence par étudier les cas où deux de ces points sont confondus. L'équation $z=z^2$ a pour solution $z=1$ et $z=0$.\r\nL'équation $z=z^4$ a pour solutions $z=0$ et $z=1,j,j^2$. L'équation $z^2=z^4$ a pour solutions $z=0,1,-1$. On suppose désormais que \r\n$z$ est différent des nombres précédemment trouvés, et on remarque que les points sont alignés si et seulement si \r\n$$\\arg\\left(\\frac{z^4-z}{z^2-z}\\right)=0\\ [\\pi]\\iff \\frac{z^4-z}{z^2-z}\\in\\mathbb R.$$\r\nOr, en notant $z=x+iy$, on a \r\n$$\\frac{z^4-z}{z^2-z}=\\frac{z(z-1)(z^2+z+1)}{z(z-1)}=z^2+z+1=(x^2-y^2+x+1)+iy(2x+1).$$\r\nAinsi, on en déduit que, dans ce cas, les points $z$, $z^2$ et $z^4$ sont alignés si et seulement si \r\n$y=0$ ou $x=-1/2$, c'est-à-dire si et seulement si $z$ est réel ou sa partie réelle vaut $-1/2$. Remarquons que l'on retrouve les solutions précédentes, $0$, $1$, $-1$, $j$ et $j^2$.",
+    "lang": "french"
+}

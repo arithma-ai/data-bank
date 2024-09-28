@@ -1,0 +1,6 @@
+{
+    "script": "Un questionnaire à choix multiples propose $m$ réponses pour chaque question. Soit $p$ la probabilité qu'un étudiant connaisse la bonne réponse à une question donnée. S'il ignore la réponse, il choisit au hasard l'une des réponses proposées. Quelle est pour le correcteur la probabilité qu'un étudiant connaisse vraiment la bonne réponse lorsqu'il l'a donnée?",
+    "hint": "Utiliser la formule de Bayes.",
+    "solution": "On note :\r\n$$B=\\left\\{\\textrm{L'étudiant donne la bonne réponse}\\right\\}$$\r\n$$C=\\left\\{\\textrm{L'étudiant connait la bonne réponse}\\right\\}.$$\r\nOn cherche $P_B(C)=P(C|B)$, et l'énoncé donne :\r\n$$P(C)=p,\\ P(B|C)=1,\\ P(B|\\bar C)=\\frac{1}{m}.$$\r\nD'après la formule des probabilités totales, on a :\r\n$$P(B)=P(C)P(B|C)+P(\\bar C)P(B|\\bar C)=\\frac{(m-1)p+1}{m}.$$\r\nD'après la formule de Bayes :\r\n$$P(C|B)=\\frac{P(B|C)P(C)}{P(B)}=\\frac{mp}{1+(m-1)p}.$$",
+    "lang": "french"
+}

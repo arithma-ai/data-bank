@@ -1,0 +1,6 @@
+{
+    "script": "On note $H_n$ la somme $H_n=\\sum_{k=1}^n \\frac 1k$. On admet\r\nque $(H_n)$ tend vers $+\\infty$. Écrire un algorithme qui détermine le plus petit entier\r\n$n$ tel que $H_n$ dépasse un réel $a$ donné.",
+    "hint": "",
+    "solution": "Nous donnons deux algorithmes.Algorithme 1 :n=0H=0Tant que (H<a) fairen=n+1H=H+1/nFin tant queAfficher n.Algorithme 2 :n=1H=0Tant que (H<a) faireH=H+1/nn=n+1Fin tant queAfficher n-1.Il faut bien remarquer la gestion différente de l'indice $n$ entre le premier et le deuxième algorithme,\r\net notamment le fait que l'on doit retourner $n-1$ dans le deuxième algorithme.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Trouver les entiers $n\\in\\mathbb N$ tels que $(1+i\\sqrt 3)^n$ soit un réel positif.",
+    "hint": "Écrire $1+i\\sqrt 3$ sous forme exponentielle.",
+    "solution": "On commence par écrire $1+i\\sqrt 3$ sous forme exponentielle :\r\n$$1+i\\sqrt 3=2e^{i\\pi/3}.$$\r\nEn prenant la puissance $n$-ième, on trouve \r\n$$(1+i\\sqrt 3)^n=2^n e^{in\\pi/3}.$$\r\nCeci est un réel positif si et seulement si $\\sin(n\\pi/3)=0$ et $\\cos(n\\pi/3)\\geq 0$. Or, $\\sin(n\\pi/3)=0$ si et seulement si $n=3k$, $k\\in\\mathbb Z$.\r\nMais, pour ces valeurs de $n$, on a $\\cos(n\\pi/3)=\\cos(k\\pi)$, et ceci est positif si et seulement si $k$ est pair. Ainsi, les entiers qui conviennent sont les multiples de 6.",
+    "lang": "french"
+}

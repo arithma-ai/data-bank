@@ -1,0 +1,6 @@
+{
+    "script": "Décomposer en éléments simples la fraction $\\frac{P'}P$, où $P$ est un polynôme de $\\mathbb C[X]$.En déduire les polynômes $P\\in\\mathbb C[X]$ tels que $P'|P$.",
+    "hint": "Pour chercher la partie polaire relative à la racine $a$, factoriser $P(X)=(X-a)^m Q(X)$ et dériver.Utiliser l'unicité de la décomposition en éléments simples.",
+    "solution": "On va étudier séparément les parties polaires relatives à chaque racine. Soit donc $a$ une racine de $P$,\r\nde multiplicité $m$. Alors on peut factoriser $P$ en $P(X)=(X-a)^m Q(X)$, soit en dérivant \r\n$P'(X)=m(X-a)^{m-1}Q(X)+(X-a)^m Q'(X)$. On trouve alors\r\n$$\\frac{P'(X)}{P(X)}=\\frac{m}{X-a}+\\frac{Q'(X)}{Q(X)}.$$\r\nOr, $a$ n'est pas racine de $Q$, donc $Q'/Q$ n'admet pas $a$ pour pôle et $\\frac{m}{X-a}$ est la partie\r\npolaire de $P'/P$ relative à $a$. En résumé, si $P(X)=\\lambda(X-a_1)^{m_1}\\dots (X-a_p)^{m_p}$, alors on trouve\r\n$$\\frac{P'}{P}=\\sum_{i=1}^p \\frac{m_i}{X-a_i}.$$Si $P'|P$, alors $P(X)=\\lambda(X-a)P'$ (car $\\deg P'=\\deg P-1$) et $P'/P=\\frac{1/\\lambda}{X-a}$. \r\nPar unicité de la décomposition en éléments simples et le résultat de la question précédente, \r\nceci entraîne que $a$ est l'unique racine de $P$, et\r\ndonc que $P(X)=\\lambda (X-a)^m$. Réciproquement, les polynômes de cette forme sont tels que $P'|P$.",
+    "lang": "french"
+}

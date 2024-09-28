@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer la solution de $y'+2y=-4$, $y(1)=-3$.Déterminer la solution de $2y'-3y=9$, $y(-1)=1$.",
+    "hint": "Commencer par chercher toutes les solutions, puis ajuster la constante!",
+    "solution": "On résout l'équation homogène $y'+2y=0$ dont les solutions sont \r\nles fonctions $t\\mapsto Ce^{-2t}$, $C\\in\\mathbb R$. On cherche une solution particulière et on remarque que la fonction constante $y(t)=-2$ est solution. Les solutions de l'équation sont donc les fonctions $y(t)=-2+Ce^{-2t}$.\r\nOn a ensuite $y(1)=-3\\iff -2+Ce^{-2}=-3\\iff C=-e^2$. Finalement, la seule solution du problème considéré est $y(t)=-e^{2-2t}-2$.On résout l'équation homogène $2y'-3y=0$ dont les solutions sont les fonctions $t\\mapsto Ce^{\\frac 32 t}$. On cherche une solution particulière et on remarque que la fonction constante $y(t)=-3$ est solution. Les solutions de l'équation différentielle sont donc les fonctions $y(t)=-3+Ce^{\\frac 32 t}$. On a ensuite $y(-1)=1\\iff -3+Ce^{-\\frac 32}=1\\iff C=4e^{\\frac 32}$. Finalement, la seule solution du problème considéré est $y(t)=4e^{\\frac 32(1+t)}-3$.",
+    "lang": "french"
+}

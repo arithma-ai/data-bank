@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,+\\infty[\\to\\mathbb R^2$ un arc paramétré de classe $C^1$, dont le tableau de variations des fonctions coordonnées\r\nest :Que peut-on dire, à la lecture de ce tableau, des points stationnaires? des tangentes parallèles aux axes? des branches infinies?\r\nTracer une courbe paramétrée qui peut correspondre à ce tableau de variations.",
+    "hint": "",
+    "solution": "Sur le tableau, on voit que le seul point stationnaire est celui qui correspond à $t=0$, c'est-à-dire le point $(1,0)$.\r\nOn ne sait pas déterminer, à la seule lecture du tableau de variations, si la courbe admet une tangente en ce point.\r\nEn revanche, pour les autres valeurs de $t$, la seule qui conduit à une tangente parallèle aux axes est $t=\\sqrt 3$,\r\nc'est-à-dire le point $(-\\frac 12,-\\frac{3\\sqrt 3}2)$. En ce point, la tangente est parallèle à l'axe des abscisses.\r\nIl existe des branches infinies pour $t$ tendant vers 1 (par valeurs inférieures et supérieures), et pour $t$ tendant\r\nvers $+\\infty$. On ne peut pas déterminer la nature des branches infinies pour $t$ tendant vers $1$. En revanche, le comportement au voisinage\r\nde $+\\infty$ nous dit que la droite d'équation $x=0$ est asymptote à la courbe.Une courbe qui correspond est la suivante :",
+    "lang": "french"
+}

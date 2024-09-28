@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R_+\\to \\mathbb R_+$ continue. On suppose que $x\\mapsto \\frac{f(x)}x$ admet une limite\r\nfinie $l<1$ en $+\\infty$. Démontrer que $f$ admet un point fixe.",
+    "hint": "Appliquer le théorème des valeurs intermédiaires à $x\\mapsto \\frac{f(x)}x$.",
+    "solution": "On distingue deux cas. D'une part, si $f(0)=0$, alors $0$ est un point fixe de $f$.\r\nDans le cas où $f(0)\\neq 0$, posons $g(x)=\\frac{f(x)}x$. $g$ est définie, continue sur $]0,+\\infty[$ et $\\lim_{0^+}g=+\\infty$. \r\nD'autre part, $\\lim_{+\\infty}g=l<1$. Par le théorème des valeurs intermédiaires, il existe $a\\in ]0,+\\infty[$ tel que $g(a)=1$.\r\nMais alors, on a $f(a)=a$ et $a$ est un point fixe de $f$.",
+    "lang": "french"
+}

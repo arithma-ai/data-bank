@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre dans $\\mathbb C$ l'équation suivante : \r\n$$z^2+2\\bar z+1=0.$$",
+    "hint": "Poser $z=x+iy$ avec $x,y$ des réels et tout remplacer!",
+    "solution": "Ce n'est pas une équation du second degré classique. On va la résoudre en posant $z=x+iy$ avec $x$ et $y$ des réels. On a alors \r\n\\begin{align*}\r\nz^2+2\\bar z+1&=(x+iy)^2+2(x-iy)+1\\\\\r\n&=x^2+2ixy-y^2+2x-2iy+1\\\\\r\n&=(x^2-y^2+2x+1)+i(2xy-2y)\r\n\\end{align*}\r\nAinsi, l'équation $z^2+2\\bar z+1=0$ est équivalente au système \r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx^2-y^2+2x+1&=&0\\\\\r\n2xy-2y&=&0.\r\n\\end{array}\r\n\\right.$$\r\nLa deuxième équation s'écrit $2y(x-1)=0$ et est donc équivalente à $y=0$ ou $x=1.$ Si $y=0$, la première équation donne \r\n$$x^2+2x+1=0\\iff (x+1)^2=0\\iff x=-1.$$\r\nSi $x=1,$ la première équation donne \r\n$$1-y^2+2+1=0\\iff y^2=4\\iff y=\\pm 2.$$\r\nL'ensemble des solutions est donc \r\n$$\\mathcal S=\\{-1;\\ 1+2i;\\ 1-2i\\}.$$",
+    "lang": "french"
+}

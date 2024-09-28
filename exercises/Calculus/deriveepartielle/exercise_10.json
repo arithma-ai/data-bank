@@ -1,0 +1,6 @@
+{
+    "script": "Calculer les dérivées partielles à l'ordre 2 des fonctions suivantes :$f(x,y)=x^2(x+y)$.$f(x,y)=e^{xy}.$",
+    "hint": "",
+    "solution": "Il suffit de dériver successivement par rapport aux bonnes variables. Remarquons que les fonctions sont clairement de classe $C^2$ sur $\\mathbb R^2$\r\net donc que les dérivées croisées d'ordre 2 sont égales.On trouve \r\n$$\\frac{\\partial f}{\\partial x}(x,y)=3x^2+2xy,\\quad\\frac{\\partial f}{\\partial y}(x,y)=x^2$$\r\n$$\\frac{\\partial^2 f}{\\partial x^2}(x,y)=6x+2y,\\quad\\frac{\\partial^2 f}{\\partial y^2}(x,y)=0,\\quad \\frac{\\partial^2 f}{\\partial x\\partial y}(x,y)=2x.$$On trouve\r\n$$\\frac{\\partial f}{\\partial x}(x,y)=ye^{xy},\\quad\\frac{\\partial f}{\\partial y}(x,y)=xe^{xy}$$\r\n$$\\frac{\\partial^2 f}{\\partial x^2}(x,y)=y^2e^{xy},\\quad\\frac{\\partial^2 f}{\\partial y^2}(x,y)=x^2 e^{xy},\\quad\\frac{\\partial^2 f}{\\partial x\\partial y}(x,y)=e^{xy}+xye^{xy}.$$",
+    "lang": "french"
+}

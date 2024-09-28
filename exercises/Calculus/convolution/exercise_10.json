@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que l'algèbre $(L^1(\\mathbb R),\\star)$ n'admet pas d'élément neutre. On pourra procéder par l'absurde, supposer l'existence d'un élément neutre $f$, considérer $\\alpha>0$ tel que $\\int_{|x|<\\alpha}|f|<1$ et $g=\\mathbf 1_{[-\\alpha,\\alpha]}$.",
+    "hint": "Majorer $g(0)=g\\star f(0)$.",
+    "solution": "On raisonne par l'absurde et on suppose l'existence d'un élément neutre $f$. \r\nSoit $\\alpha>0$ tel que $\\int_{|x|<\\alpha}|f|<1$ et posons $g=\\mathbf 1_{[-\\alpha,\\alpha]}$. Alors\r\n\\begin{align*}\r\n1=g(0)=g\\star f(0)&=\\int_{\\mathbb R}g(t)f(-t)dt\\\\\r\n&=\\int_{-\\alpha}^{\\alpha} f(-t)dt\\\\\r\n&\\leq \\int_{-\\alpha}^{\\alpha}|f(t)|dt\\\\\r\n&<1.\r\n\\end{align*}\r\nCeci est une contradiction, et donc $L^1(\\mathbb R)$ n'admet pas d'élément neutre pour le produit de convolution.",
+    "lang": "french"
+}

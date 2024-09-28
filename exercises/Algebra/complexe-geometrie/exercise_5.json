@@ -1,0 +1,6 @@
+{
+    "script": "Dans le plan complexe, on considère les points $A,$ $B,$ $C$ et $D$ d'affixe respective $1,$ $-1$, $i$ et $-i.$ On note $\\mathcal C$ le cercle unité, c'est-à-dire l'ensemble des nombres complexes de module 1. Si $M$ est un point de $\\mathcal C,$ on note $p(M)$ le produit des distances de $M$ aux points $A,B,C,D$ :\r\n$$p(M)=MA\\times MB\\times MC\\times MD.$$\r\nDéterminer le maximum de $p(M)$ lorsque $M$ décrit $\\mathcal C.$",
+    "hint": "Interpréter $AM$ en fonction de module, etc... puis utiliser les propriétés du module des nombres complexes.",
+    "solution": "On a $AM=|z-1|,$ $BM=|z+1|,$ $CM=|z-i|$ et $DM=|z+i|.$ Alors \r\n\\begin{align*}\r\np(M)&=|z-1|\\times |z+1|\\times |z-i|\\times |z+i|\\\\\r\n&=|z^2-1|\\times |z^2+1|\\\\\r\n&=|z^4-1|.\r\n\\end{align*}\r\nPar l'inégalité triangulaire,\r\n$$p(M)\\leq |z^4|+1=|z|^4+1=2.$$\r\nAinsi, $p(M)\\leq 2.$ De plus, si $M$ est le point d'affixe $e^{i\\pi/4},$\r\nalors \r\n$$p(M)=|e^{i\\pi}-1|=|-2|=2.$$\r\nAinsi, le maximum de $p$ sur $\\mathcal C$ est $2$.",
+    "lang": "french"
+}

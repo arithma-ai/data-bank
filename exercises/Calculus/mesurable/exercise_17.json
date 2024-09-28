@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(X,\\mathcal B,\\mu)$ un espace mesuré et $f:X\\to (\\mathbb R,\\mathcal B(\\mathbb R))$ une fonction mesurable. On suppose que $\\mu\\left(\\{x\\in X;\\ f(x)>0\\}\\right)>0$. Démontrer qu'il existe $\\veps>0$ tel que\r\n$$\\mu\\left(\\{x\\in X;\\ f(x)>\\veps\\}\\right)>0.$$",
+    "hint": "Introduire $E_n=\\{x\\in X;\\ f(x)>1/n\\}$.",
+    "solution": "Introduisons $E_n=\\{x\\in X;\\ f(x)>1/n\\}$ et $E=\\{x\\in X;\\ f(x)>0\\}$. Alors $(E_n)$ est une suite croissante de parties mesurables de $X$ et $\\bigcup_n E_n=E$. On en déduit que \r\n$$\\mu(E)=\\lim_{n\\to+\\infty}\\mu(E_n).$$\r\nPuisque $\\mu(E)>0$, on en déduit qu'il existe un entier $n$ tel que $\\mu(E_n)>0$. Il suffit de choisir $\\veps=1/n$ pour conclure.",
+    "lang": "french"
+}

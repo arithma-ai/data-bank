@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ continue sur $[0,1]$. Déterminer la limite de la suite $u_n=\\frac 1n\\sum_{k=0}^n (-1)^k f\\left(\\frac kn\\right).$",
+    "hint": "Calculer la limite de la somme des termes pairs et des termes impairs en utilisant le théorème sur les sommes de Riemann.",
+    "solution": "Supposons pour fixer les idées que $n=2p$ est pair. On a alors\r\n$u_n=v_p-w_p$\r\noù \r\n$$v_p=\\frac 12\\times \\frac{1}p\\sum_{k=0}^p f\\left(\\frac kp\\right)$$\r\net \r\n$$w_p=\\frac 12\\times \\frac{1}p\\sum_{k=0}^{p-1}f\\left(\\frac{k}p+\\frac{1}{2p}\\right).$$\r\nOr, par le théorème sur les sommes de Riemann d'une fonction continue, $(v_p)$ tend vers $\\frac 12\\int_0^1 f(t)dt$. Pour les mêmes raisons, $(w_p)$ tend aussi vers $\\frac 12\\int_0^1 f(t)dt$. On en déduit que $(u_n)$ tend vers 0 (on traite le cas $n$ impair exactement de la même façon).",
+    "lang": "french"
+}

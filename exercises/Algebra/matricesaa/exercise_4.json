@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\dis A=\\left(\r\n\\begin{array}{ccc}\r\n-1&1&1\\\\\r\n1&-1&1\\\\\r\n1&1&-1\r\n\\end{array}\\right)$. Montrer que $A^2=2I_3-A$, en déduire que $A$ est inversible et calculer $A^{-1}$.Soit $ A=\\begin{pmatrix} 1 & 0 & 2 \\cr\r\n0 & -1 & 1 \\cr\r\n1 & -2 & 0 \\cr \\end{pmatrix} .$ Calculer $\r\nA^3-A .$ En déduire\r\nque $ A $ est inversible puis déterminer $ A^{-1} .$Soit $A=\\begin{pmatrix} \r\n0&1&-1\\\\\r\n-1&2&-1\\\\\r\n1&-1&2\r\n\\end{pmatrix}$. Calculer $A^2-3A+2I_3$. En déduire que $A$ est inversible, et calculer $A^{-1}$.",
+    "hint": "Écrire $\\frac{A^2+A}{2}=I_3$, et factoriser.Écrire $A \\times \\frac 1 4 (A^2-I_3) =\r\nI_3$ et factoriser",
+    "solution": "Le calcul ne pose pas de problèmes. Il mène à :\r\n$$\r\n\\frac{A^2+A}{2}=I_3\\implies A\\frac{A+I_3}{2}=\\frac{A+I_3}{2}A=I_3.$$\r\n$A$ est inversible, et son inverse est :\r\n$$\\frac{A+I_3}{2}.$$Un calcul donne $A^3-A = 4 I_3$. Donc $A \\times \\frac 1 4 (A^2-I_3) =\r\nI_3$, ainsi $A$ est inversible et\r\n$$A^{-1} = \\frac 1 4 (A^2-I_3) = \\frac 1 4\r\n\\begin{pmatrix}\r\n2&-4&2\\\\\r\n1&-2&-1\\\\\r\n1&2&-1\\\\\r\n\\end{pmatrix}.\r\n$$On vérifie facilement que $A^2-3A+2I_3=0$. On réécrit ceci en :\r\n$$A(A-3I_3)=-2I_3\\iff A\\left(\\frac{-1}2(A-3I_3)\\right)=I_3.$$\r\nAinsi, $A$ est inversible et son inverse est $\\frac{-1}2(A-3I_3)$.",
+    "lang": "french"
+}

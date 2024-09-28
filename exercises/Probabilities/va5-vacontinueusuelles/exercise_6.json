@@ -1,0 +1,6 @@
+{
+    "script": "Soit $U$ une variable aléatoire suivant une loi uniforme sur $[-\\pi/2,\\pi/2]$. On pose $X=\\tan U$. Déterminer la loi de $X$, sa densité.",
+    "hint": "Calculer $P(X\\in [a,b])$ en effectuant un changement de variables.",
+    "solution": "Soit $a<b$ deux réels. On a $X\\in [a,b]\\iff \\tan U\\in [a,b]\\iff U\\in [\\arctan a,\\arctan b]$.\r\nAinsi,\r\n$$P(X\\in [a,b])=\\frac1{\\pi}\\int_{\\arctan a}^{\\arctan b} dx=\\frac{\\arctan b-\\arctan a}{\\pi}.$$\r\nPour déterminer la densité de $X$, on va effectuer le changement  de variables $x=\\arctan y$ dans l'intégrale précédente, de sorte que \r\n$$dx=\\frac{dy}{1+y^2}.$$\r\nOn a donc \r\n$$P(X\\in [a,b])=\\frac{1}{\\pi}\\int_a^b \\frac{dy}{1+y^2}.$$\r\nLa densité de $X$ est donc donnée par $f(y)=\\frac1{\\pi(1+y^2)}$. \r\nOn reconnait une loi de Cauchy.",
+    "lang": "french"
+}

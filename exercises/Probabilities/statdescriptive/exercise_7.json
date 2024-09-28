@@ -1,0 +1,6 @@
+{
+    "script": "L'étude d'une réaction chimique en fonction du temps a donné les résultats suivants : \r\n$$\\begin{array}{|c|c|c|c|c|c|}\r\n\\hline\r\n\\textrm{Temps t (en h)}&1&2&3&4&5\\\\ \\hline\r\n\\textrm{Concentration C (en g/L)}&6,25&6,71&7,04&7,75&8,33\\\\\r\n\\hline\r\n\\end{array}\r\n$$\r\nDes considérations théoriques laissent supposer que la concentration $C$ et le temps $t$\r\nsont liés par une relation de la forme $C=\\frac 1{at+b}$. Donner une estimation de la concentration après 6H.",
+    "hint": "Poser $D=1/C$ et estimer $a$ et $b$ par la méthode des moindres carrés. Revenir à $C$ et appliquer pour\r\n$t=6$.",
+    "solution": "On va commencer par déterminer des valeurs possibles pour $a$ et $b$ en utilisant la méthode des moindres\r\ncarrés. Pour cela, on pose $D=1/C=at+b$ et on utilise la méthode des moindres carrés. A $10^{-2}$ près, on trouve\r\n$$a\\simeq -0,01\\textrm{ et }b\\simeq 0,170.$$\r\nPour $t=6$, on peut estimer que $C\\simeq 9,1 g/l$.Il faut savoir calculer une droite de régression à l'aide d'un tableur. Sous OpenOffice, on utilise la fonction DROITEREG(donnée Y;donnée X). Attention, il s'agit d'une fonction matricielle, il faut la valider par Ctrl+Maj+Entrée.",
+    "lang": "french"
+}

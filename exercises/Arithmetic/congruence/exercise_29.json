@@ -1,0 +1,6 @@
+{
+    "script": "Un nombre palindrome est un nombre qui se lit indifféremment de gauche à droite ou de droite à gauche.\r\nPar exemple, 2002, 12321 sont des nombres palindromes. Prouver qu'un nombre palindrome ayant un nombre pair de chiffres est divisible par 11",
+    "hint": "Écrire le nombre sous la forme $a_1\\dots a_p a_p\\dots a_1$ et remarquer que $10^k$ est congru à 1 modulo 11\r\nsi $k$ est pair, à -1 si $k$ est impair.",
+    "solution": "Écrivons un tel nombre $n=a_1\\dots a_p a_p\\dots a_1$, c'est-à-dire \r\n\\begin{eqnarray*}\r\nn&=&10^{2p-1}a_1+10^{2p-2}a_2+\\dots+10^p a_p+10^{p-1}a_{p}+10 a_2+a_1\\\\\r\n&=&\\sum_{k=1}^p (10^{k-1}+10^{2p-k})a_k.\r\n\\end{eqnarray*}\r\nRemarquons ensuite que $10=-1\\textrm{ (mod }11)$, et donc $10^k=(-1)^k\\textrm{ (mod }11)$. On obtient donc\r\n\\begin{eqnarray*}\r\n10^{k-1}+10^{2p-k}&=&(-1)^{k-1}+(-1)^{2p-k}\\textrm{ (mod }11)\\\\\r\n&=&(-1)^{k-1}+(-1)^k\\textrm{ (mod }11)\\\\\r\n&=&0\\textrm{ (mod }11)\r\n\\end{eqnarray*}\r\nAinsi, chaque terme $(10^{k-1}+10^{2p-k})a_k$ est congru à 0 modulo 11. Il en est de même pour $n$.",
+    "lang": "french"
+}

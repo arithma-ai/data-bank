@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(X,\\mathcal B)$ un espace mesurable et soient $\\mu$, $\\nu$ deux mesures finies sur $(X,\\mathcal B)$. \r\nOn suppose que, pour tout $A\\in\\mathcal B$, on a $\\mu(A)=0\\implies \\nu(A)=0$. \r\nDémontrer que, pour tout $\\veps>0$, il existe $\\eta>0$ tel que, $\\forall A\\in\\mathcal B$, \r\n$\\mu(A)<\\eta \\implies \\nu(A)<\\veps$.",
+    "hint": "Raisonner par l'absurde, et appliquer la propriété avec $\\eta=2^{-n}$. \r\nOn obtient un ensemble $A_n$. Étudier la mesure (pour $\\mu$ et pour $\\nu$) de $\\bigcap_n \\bigcup_{n\\geq k}A_n$.",
+    "solution": "On raisonne par l'absurde, et on suppose l'existe de $\\veps>0$ telle que la propriété soit fausse.\r\nPour $\\eta=2^{-n}$, on trouve un ensemble $A_n$ tel que $\\mu(A_n)<2^{-n}$ et $\\nu(A_n)\\geq \\veps$.\r\nPosons alors, pour $n\\geq 1$, $B_n=\\bigcup_{k\\geq n}A_k$. On a clairement\r\n$$\\mu(B_n)\\leq \\sum_{k\\geq n}\\mu(A_k)\\leq 2^{-n+1}.$$\r\nD'autre part, on a $\\nu(B_n)\\geq\\nu(A_n)\\geq\\veps.$\r\nLa suite $(B_n)$ est une suite décroissante de parties mesurables. Les mesures $\\mu$ et \r\n$\\nu$ étant finies, en posant $C=\\bigcap_n B_n$, on obtient\r\n$$\\mu(C)=\\lim_n \\mu(B_n)=0\\textrm{ et }\\nu(C)=\\lim_n \\nu(B_n)\\geq \\veps.$$\r\nCeci contredit l'hypothèse initiale.",
+    "lang": "french"
+}

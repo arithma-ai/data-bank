@@ -1,0 +1,6 @@
+{
+    "script": "Soit $d$ un entier supérieur ou égal à 1. Démontrer que pour tout $n\\in\\mathbb N$, il existe des entiers $q,r\\in\\mathbb N$ avec $0\\leq r<d$ tels que $n=qd+r$.",
+    "hint": "Procéder par récurrence forte, en initialisant des rangs 0 à $d-1$.",
+    "solution": "Pour $n\\in\\mathbb N$, on note \r\n$$\\mathcal P(n)=\"\\exists (q,r)\\in\\mathbb N^2,\\ n=qd+r,\\ 0\\leq r<d\".$$\r\nDémontrons par récurrence forte cette propriété.Initialisation : Soit $n\\in \\{0,\\dots,d-1\\}$. Alors $n=0d+n$, avec $0\\leq n<d-1$. Ainsi, $\\mathcal P(0),\\dots,\\mathcal P(d-1)$ sont vraies.Hérédité : Soit $n\\geq d-1$ tel que $\\mathcal P(0),\\dots,\\mathcal P(n)$ sont vraies et prouvons que $\\mathcal P(n+1)$ est vraie. Posons $m=(n+1)-d$. Alors $0\\leq m\\leq n$ et donc, par hypothèse de récurrence, il existe $q\\in\\mathbb N$ et $r\\in\\mathbb N$ avec $m=qd+r$. Mais alors \r\n$$n+1=m+d=(q+1)d+r=q'd+r$$\r\navec $q'\\in\\mathbb N$ et $r\\in\\{0,\\dots,d-1\\}$. Ainsi, $\\mathcal P(n+1)$ est vraie.Conclusion : par le principe de récurrence forte, $\\mathcal P(n)$ est vraie pour tout $n\\in\\mathbb N$.",
+    "lang": "french"
+}

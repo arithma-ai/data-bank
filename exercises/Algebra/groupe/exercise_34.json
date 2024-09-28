@@ -1,0 +1,6 @@
+{
+    "script": "Un groupe $(G,\\cdot)$ est dit divisible si, pour tout $g\\in G$ et tout $n\\in\\mathbb N^*$, il existe $u\\in G$ tel que $u^n=g$.Le groupe $(\\mathbb Q,+)$ est-il divisible?Montrer que $(\\mathbb Q,+)$ et $(\\mathbb Q_+^*,\\cdot)$ ne sont pas isomorphes.",
+    "hint": "Oui!Démontrer que si $G$ et $H$ sont isomorphes et si $G$ est divisible, $H$ est divisible. Démontrer que $(\\mathbb Q_+^*,\\cdot)$ n'est pas divisible.",
+    "solution": "Soit $x\\in\\mathbb Q$, et $n\\in\\mathbb N^*$. Alors, si on pose $y=x/n$, c'est un élément de $\\mathbb Q$ et $ny=x$ : le groupe $(\\mathbb Q,+)$ est divisible.Procédons en deux temps. On commence par montrer que si $G$ et $H$ sont deux groupes isomorphes et si $G$ est divisible, alors $H$ est divisible. En effet, soit $\\phi:G\\to H$ un isomorphisme. Soit $h\\in H$. Il existe $g\\in G$ tel que $h=\\phi(g)$. Puisque $G$ est divisible, pour tout $n\\geq 1$, il existe $u\\in G$ tel que $u^n=g$. Posons $v=\\phi(u)$. Alors puisque $\\phi$ est un morphisme, on a $v^n=h$ et $h$ est divisible.Pour conclure, il suffit donc de prouver que $(\\mathbb Q_+^*,\\cdot)$ n'est pas divisible. Mais par exemple, pour $g=2$ et $n=2$, il n'existe par de rationnel $u$ tel que $u^2=2$ (car $\\sqrt 2$ est irrationnel). Les deux groupes ne sont donc pas isomorphes.",
+    "lang": "french"
+}

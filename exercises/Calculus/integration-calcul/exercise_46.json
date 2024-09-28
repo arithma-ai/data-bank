@@ -1,0 +1,6 @@
+{
+    "script": "On se propose de calculer $I=\\int_1^{5/2}\\sqrt{-x^2+2x+8}dx$.Mettre le trinôme sous forme canonique.En effectuant deux changements de variable, calculer la valeur de $I$.",
+    "hint": "Le premier changement de variables pourra être $u=(x-1)/3$.",
+    "solution": "On a tout simplement :\r\n$$-x^2+2x+8=-(x^2-2x-8)=-\\big( (x-1)^2-9\\big)=9-(x-1)^2.$$On a \r\n\\begin{eqnarray*}\r\nI&=&\\int_1^{5/2}\\sqrt{9-(x-1)^2}dx\\\\\r\n&=&3\\int_1^{5/2}\\sqrt{1-\\left(\\frac{x-1}3\\right)^2}dx\r\n\\end{eqnarray*}\r\nOn pose alors $u=\\frac{x-1}3$ de sorte de se ramener à une intégrale du type $\\int\\sqrt{1-u^2}du$, que l'on sait calculer. On a $dx=3du$, et le changement de variables est affine, donc bijectif. On en déduit que\r\n\\begin{eqnarray*}\r\nI&=&9\\int_0^{1/2}\\sqrt{1-u^2}du\r\n\\end{eqnarray*}\r\nOn pose ensuite $u=\\sin t$. La fonction $\\sin$ réalisant une bijection de l'intervalle $[0,\\pi/6]$ sur l'intervalle $[0,1/2]$, on en déduit que\r\n\\begin{eqnarray*}\r\nI&=&9\\int_0^{\\pi/6}\\sqrt{1-\\sin^2 t}\\cos tdt\\\\\r\n&=&9\\int_0^{\\pi/6}\\cos^2(t)dt\\\\\r\n&=&\\frac 92\\int_0^{\\pi/6}\\big(1+\\cos(2t)\\big)dt\\\\\r\n&=&\\frac 92\\left[t+\\frac12\\sin(2t)\\right]_0^{\\pi/6}\\\\\r\n&=&\\frac{3\\pi}4+\\frac{9\\sqrt 3}8.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

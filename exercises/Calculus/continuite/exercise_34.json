@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que tout polynôme de degré impair admet au moins une racine.",
+    "hint": "Théorème des valeurs intermédiaires!",
+    "solution": "Soit $f$ un tel polynôme. Alors $f$ est une fonction continue. De plus, écrivons $f(x)=a_n x^n+\\cdots+a_0$. Alors si $a_n>0$, on a $\\lim_{-\\infty}f=-\\infty$ et $\\lim_{+\\infty}f=+\\infty$. Si $a_n<0$, alors $\\lim_{-\\infty}f=+\\infty$\r\net $\\lim_{+\\infty}f=-\\infty.$ Dans tous les cas, on peut appliquer le théorème des valeurs intermédiaires pour conclure que l'équation $f(x)=0$ admet toujours au moins une solution.",
+    "lang": "french"
+}

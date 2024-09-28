@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A=\\left(\\begin{array}{cc}\r\n-5&3\\\\\r\n6&-2\r\n\\end{array}\\right).$\r\nMontrer que $A$ est diagonalisable et calculer ses valeurs propres. En déduire qu'il existe une matrice $B$ telle que \r\n$B^3=A$.",
+    "hint": "Calculer le polynôme caractéristique de $A$. $A$ est semblable à une matrice diagonale $D$.\r\nTrouver d'abord une matrice $M$ telle que $M^3=D$.",
+    "solution": "On calcule le polynôme caractéristique de $A$ et on trouve\r\n$$P_A(X)=(X-1)(X+8).$$\r\nLes racines du polynôme caractéristique de $A$ sont toutes dans $\\mathbb R$ et toutes distinctes.\r\n $A$ est donc diagonalisable. Il existe donc une matrice inversible $P$ telle que $A=PDP^{-1}$, avec\r\n$$D=\\left(\\begin{array}{cc}\r\n1&0\\\\\r\n0&-8\r\n\\end{array}\\right).$$\r\nPour prouver l'existence d'une matrice $B$ telle que $B^3=A$, l'idée est de d'abord faire la même chose avec $D$. Mais si \r\n$$M=\\left(\\begin{array}{cc}\r\n1&0\\\\\r\n0&-2\r\n\\end{array}\\right)$$\r\nalors on a $M^3=D$. Posons $B=PMP^{-1}$. Alors\r\n$$B^3=PM^3P^{-1}=PDP^{-1}=A.$$\r\nRemarquons que l'énoncé de l'exercice ne demande pas de calculer $B$...",
+    "lang": "french"
+}

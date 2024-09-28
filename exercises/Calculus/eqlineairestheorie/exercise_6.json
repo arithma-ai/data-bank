@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a,b:\\mathbb R\\to\\mathbb R$ deux fonctions continues avec $a$ impaire et $b$ paire. Montrer que l'équation différentielle \r\n$$(E)\\ y'(t)+a(t)y(t)=b(t)$$\r\nadmet une unique solution impaire.",
+    "hint": "Que vaut une fonction impaire en $0$? Penser ensuite à l'existence et à l'unicité au problème de Cauchy.",
+    "solution": "Il y a deux clés pour résoudre cet exercice :toute fonction impaire vaut $0$ en $0$;l'équation différentielle $(E)$ admet une unique solution $y_0$ vérifiant $y_0(0)=0$.Ceci montre déjà l'unicité : s'il y a une fonction $y$ impaire solution de $(E)$, elle vérifie $y(0)=0$ et doit donc être égale à $y_0$.\r\nRéciproquement, on doit prouver que $y_0$ est impaire. On va poser $z(t)=-y_0(-t)$. $z$ est solution de $(E)$. En effet, \r\n$$z'(t)+a(t)z(t)=y_0'(-t)-a(t)y_0(-t)=y_0'(-t)+a(-t)y_0(-t)=b(-t)=b(t),$$\r\ncar $y_0$ est solution de $(E)$, $a$ est impaire et $b$ est paire. $z$ est donc solution de $(E)$, et satisfait de plus $z(0)=0$.\r\nAinsi, par unicité au problème de Cauchy, $z$ est égale à $y_0$, et donc $y_0$ est impaire.On pouvait aussi prouver que $y_0$ est impaire, en cherchant à résoudre l'équation différentielle par la méthode usuelle \r\n(solution de l'équation homogène à l'aide de l'exponentielle et d'une primitive de $a$, puis méthode de variation de la constante).",
+    "lang": "french"
+}

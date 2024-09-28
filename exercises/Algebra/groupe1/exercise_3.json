@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ un groupe dont tous les éléments (sauf l'élément neutre) sont d'ordre au plus deux. Démontrer que $G$ est abélien.",
+    "hint": "Comparer $x^2y^2$ et $(xy)^2$.",
+    "solution": "Pour tous $x,y\\in G$, on a $x^2y^2=e=xyxy$ soit en simplifiant à gauche par $x$ et à droite par $y$, $xy=yx$.",
+    "lang": "french"
+}

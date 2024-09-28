@@ -1,0 +1,6 @@
+{
+    "script": "Soient $X_1$ et $X_2$ deux variables aléatoires indépendantes qui suivent une loi géométrique de paramètre $p\\in ]0,1[$. Soit \r\n$$A=\\left(\\begin{array}{cc} X_1&1\\\\0&X_2\\end{array}\\right).$$\r\nQuelle est la probabilité que $A$ soit diagonalisable?",
+    "hint": "Se ramener à calculer $P(X_1=X_2)$.",
+    "solution": "Les valeurs propres de la matrice triangulaire $A$ sont $X_1$ et $X_2$. Si $X_1\\neq X_2$, alors la matrice est diagonalisable. Si au contraire $X_1=X_2$, alors l'espace propre associé à l'unique valeur propre $X_1$ a pour équation $y=0$ : il est de dimension 1 et $A$ n'est pas diagonalisable.$A$ est donc diagonalisable si et seulement si $X_1\\neq X_2$. Or,\r\n$$P(X_1=X_2)=\\sum_{k=1}^{+\\infty} P\\big ( (X_1=k)\\cap (X_2=k)\\big)=\\sum_{k=1}^{+\\infty}P(X_1=k)P(X_2=k)$$\r\ncar les variables aléatoires sont indépendantes. On a donc\r\n$$P(X_1=X_2)=\\sum_{k=1}^{+\\infty}p^2(1-p)^{2k-2}=\\frac{p^2}{1-(1-p)^2}=\\frac{p}{2-p}.$$\r\nLa probabilité recherchée est donc \r\n$$1-\\frac{p}{2-p}=\\frac{2(1-p)}{2-p}.$$",
+    "lang": "french"
+}

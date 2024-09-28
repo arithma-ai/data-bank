@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ et $F$ deux ensembles, soit $A,C$ deux parties de $E$ et $B,D$ deux parties de $F$. Démontrer que \r\n$$(A\\times B)\\cap(C\\times D)=(A\\cap C)\\times (B\\cap D).$$",
+    "hint": "Procéder par double inclusion!",
+    "solution": "On va procéder par double inclusion. Soit $(x,y)\\in (A\\times B)\\cap(C\\times D)$. Alors $(x,y)\\in A\\times B$ et donc $x\\in A$, $y\\in B$. On a aussi $(x,y)\\in (C\\times D)$, et donc $x\\in C$ et $y\\in D$. Ainsi, $x\\in A\\cap C$ et $y\\in B\\cap D$. Ceci prouve que $(x,y)\\in (A\\cap C)\\times (B\\cap D)$.Réciproquement, soit $(x,y)\\in (A\\cap C)\\times (B\\cap D)$. Alors $x\\in A\\cap C$ et donc $x\\in A$ et $x\\in C$. De même $y\\in B\\cap D$, donc $y\\in B$ et $y\\in D$. Ainsi, $(x,y)\\in A\\times B$ et $(x,y)\\in C\\times D$. On conclut que $(x,y)\\in (A\\times B)\\cap(C\\times D)$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Pour $a,b,c\\in\\mathbb R$, on note \r\n$$M(a,b,c)=\\left(\\begin{array}{ccc}\r\na&b&c\\\\\r\nc&a&b\\\\\r\nb&c&a\r\n\\end{array}\\right)$$\r\net $E=\\{M(a,b,c);\\ a,b,c\\in \\mathbb R\\}$. Démontrer que $E$ une algèbre, et en donner une base en tant qu'espace vectoriel.",
+    "hint": "Démontrer que $E$ est une sous-algèbre de $\\mathcal M_3(\\mathbb R)$.",
+    "solution": "On va prouver que $E$ est une sous-algèbre de $\\mathcal M_3(\\mathbb R)$. Pour cela, notons \r\n$$A=\\left(\\begin{array}{ccc}\r\n0&1&0\\\\\r\n0&0&1\\\\\r\n1&0&0\r\n\\end{array}\r\n\\right)\\textrm{ et }\r\nB=\\left(\\begin{array}{ccc}\r\n0&0&1\\\\\r\n1&0&0\\\\\r\n0&1&0\r\n\\end{array}\r\n\\right).$$\r\nAlors il est clair que $E=\\textrm{vect}(I_3,A,B)$ et que la famille $(I_3,A,B)$ est libre. On en déduit que $E$ est un sous-espace vectoriel de $\\mathcal M_3(\\mathbb R)$ de dimension 3. De plus, un calcul rapide montre que \r\n$$M(a,b,c)M(a',b',c')=M(aa′ +bc′ +cb′,ab′ +a′b+cc′,ac′ +a′c+bb′).$$\r\n$E$ est stable par produit matriciel, et c'est une sous-algèbre de $\\mathcal M_3(\\mathbb R)$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Justifier l'existence des dérivées partielles des fonctions suivantes, et les calculer.$f(x,y)=e^x\\cos y.$$f(x,y)=(x^2+y^2)\\cos(xy).$$f(x,y)=\\sqrt{1+x^2y^2}.$",
+    "hint": "Dériver par rapport à une variable comme si l'autre était constante!",
+    "solution": "Pour tout réel $y$ fixé, la fonction $x\\mapsto e^x\\cos y$ est dérivable sur $\\mathbb R$, ce qui justifie l'existence de la dérivée partielle par rapport à la première variable dans le premier exemple. La justification est identique pour les autres fonctions et on trouve respectivement :$$\\frac{\\partial f}{\\partial x}(x,y)=e^x\\cos y\\textrm{ et }\\frac{\\partial f}{\\partial y}(x,y)=-e^{x}\\sin y.$$$$\\frac{\\partial f}{\\partial x}(x,y)=2x\\cos(xy)-y(x^2+y^2)\\sin(xy),$$\r\n$$\\frac{\\partial f}{\\partial y}(x,y)=2y\\cos(xy)-x(x^2+y^2)\\sin(xy).$$$$\\frac{\\partial f}{\\partial x}(x,y)=\\frac{xy^2}{\\sqrt{1+x^2y^2}},\\textrm{ et }\\frac{\\partial f}{\\partial y}(x,y)=\\frac{yx^2}{\\sqrt{1+x^2y^2}}.$$",
+    "lang": "french"
+}

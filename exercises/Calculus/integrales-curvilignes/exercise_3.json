@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\omega$ la forme différentielle $\\omega=(y^3-6xy^2)dx+(3xy^2-6x^2y)dy$. Montrer que $\\omega$ est une forme différentielle exacte sur $\\mtr^2$. En déduire l'intégrale curviligne le long du demi-cercle supérieur de diamètre $[AB]$ de $A(1,2)$ vers $B(3,4)$.",
+    "hint": "Utiliser le théorème de Poincaré, puis chercher une primitive. L'intégrale ensuite ne dépend pas du chemin choisi.",
+    "solution": "En posant $P(x,y)=y^3-6xy^2$ et $Q(x,y)=3xy^2-6x^2y$, on vérifie aisément que les dérivées croisées :\r\n$$\\frac{\\partial P}{\\partial y}=\\frac{\\partial Q}{\\partial x}=3y^2-12xy$$\r\nsont égales. La forme différentielle est fermée, et comme elle est définie sur $\\mtr^2$ qui est étoilée, elle est exacte. La recherche d'une primitive par résolution successive des deux dérivées partielles ne pose pas de problèmes! On trouve qu'une primitive est $f(x,y)=xy^3-3x^2y^2$. On utilise enfin cette primitive pour calculer l'intégrale curviligne, et on trouve :\r\n$$\\int_C\\omega=f(B)-f(A)=-236.$$",
+    "lang": "french"
+}

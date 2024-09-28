@@ -1,0 +1,6 @@
+{
+    "script": "Cherchez le plus court chemin de $A$ à $K$ dans le graphe suivant. On détaillera les calculs.",
+    "hint": "Appliquer l'algorithme de Dijkstra.",
+    "solution": "On applique l'algorithme de Dijkstra, et on obtient le tableau suivant :\r\n$$\r\n\\begin{array}{c|c|c|c|c|c|c|c|c|c|c}\r\nA&B&C&D&E&F&G&H&I&J&K\\\\\r\n\\mathbf{0}&\\infty&\\infty&\\infty&\\infty&\\infty&\\infty&\\infty&\\infty&\\infty&\\infty\\\\\r\n&4&\\mathbf{1}(A)&\\infty&\\infty&\\infty&\\infty&\\infty&\\infty&\\infty&\\infty\\\\\r\n&\\mathbf{3}(C)&&9&\\infty&8&\\infty&\\infty&\\infty&\\infty&\\infty\\\\\r\n&&&8&12&\\mathbf{6}(B)&20&\\infty&\\infty&\\infty&\\infty\\\\\r\n&&&\\mathbf{8}(B)&10&&17&44&32&27&\\infty\\\\\r\n&&&&\\mathbf{10}(F)&&15&40&30&23&53\\\\\r\n&&&&&&\\mathbf{15}(E)&38&30&21&53\\\\\r\n&&&&&&&38&28&\\mathbf{21}(G)&47\\\\\r\n&&&&&&&36&\\mathbf{28}(J)&&47\\\\\r\n&&&&&&&\\mathbf{36}(I)&&&45\\\\\r\n&&&&&&&&&&\\mathbf{45}(H)\r\n\\end{array}$$\r\nLa longueur de $A$ à $K$ est donc égale à 45, et le plus court chemin est $ACBFEGJIHK$.",
+    "lang": "french"
+}

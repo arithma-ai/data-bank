@@ -1,0 +1,6 @@
+{
+    "script": "Un étang contient des brochets et des truites. On note $p$ la proportion de truites dans l'étang. On souhaite évaluer $p$. On prélève 20 poissons au hasard. On suppose que le nombre de poissons est suffisamment grand pour que ce prélèvement s'apparente à 20 tirages indépendants avec remise. On note $X$ le nombre de truites obtenues.Quelle est la loi de $X$?Le prélèvement a donné $8$ truites. Pour quelle valeur de $p$ la quantité $P(X=8)$ est-elle maximale?",
+    "hint": "Etudier la fonction $p\\mapsto P(X=8)$.",
+    "solution": "On reconnait le principe d'un schéma de Bernoulli, avec 20 épreuves indépendantes et une probabilité $p$ de succès. $X$ suit donc une loi binomiale $\\mathcal B(20,p)$.On a $P(X=8)=\\binom {20}8 p^8(1-p)^{12}$. On va étudier cette fonction de $p$ de sorte de trouver son maximum. Il suffit en réalité d'étudier, sur $[0,1]$, la fonction $g(p)=p^8(1-p)^{12}$. $g$ est dérivable et sa dérivée est\r\n\\begin{eqnarray*}\r\ng'(p)&=&8p^7(1-p)^{12}-12p^8(1-p)^{11}\\\\\r\n&=&\\big(8(1-p)-12p)p^7(1-p)^{11}\\\\\r\n&=&\\big(8-20p\\big)p^7(1-p)^{11}.\r\n\\end{eqnarray*}\r\nOn en déduit que $g'(p)\\geq 0$ sur $[0,2/5]$ et $g'(p)\\leq 0$ sur $[2/5,1]$. La probabilité $P(X=8)$ est maximale pour $p=2/5$.",
+    "lang": "french"
+}

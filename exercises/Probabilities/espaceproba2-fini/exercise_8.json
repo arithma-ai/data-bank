@@ -1,0 +1,6 @@
+{
+    "script": "Vous êtes dans une classe de 30 élèves. Votre prof de maths veut parier avec vous 10 euros \r\nque deux personnes dans cette classe ont la même date d'anniversaire. Acceptez-vous le pari?",
+    "hint": "Traduire le problème en terme d'application injective (ou plutôt non injective...).",
+    "solution": "On va chercher la probabilité que deux personnes de la classe aient la même date d'anniversaire. Si elle est supérieure à 1/2, il ne faut pas accepter le pari. Il est plus facile de calculer la probabilité de l'événement complémentaire. On va donc chercher la probabilité que deux personnes n'ont pas la même date d'anniversaire et, pour simplifier, on va oublier que\r\ncertaines années comportent un 29 février. Formalisons un peu le problème. Pour que deux personnes n'aient pas la même date d'anniversaire,\r\non doit fabriquer une injection de $\\{1,\\dots,30\\}$ dans $\\{1,\\dots,365\\}$. Il y a $365\\times 364\\times\\dots\\times 336$ telles applications injectives. Il y a total de $365^{30}$ applications de $\\{1,\\dots,30\\}$ dans $\\{1,\\dots,365\\}$. La\r\nprobabilité que deux personnes aient la même date d'anniversaire vaut donc \r\n$$1-\\frac{365\\times 364\\times \\dots\\times336}{365^{30}}=1-\\frac{364}{365}\\times \\dots\\times \\frac{336}{365}\\simeq 1-0,293\\simeq0,706$$\r\nRefusez le pari!",
+    "lang": "french"
+}

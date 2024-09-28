@@ -1,0 +1,6 @@
+{
+    "script": "En utilisant la formule de Green-Riemann, calculer \r\n$$\\int_\\gamma (2xy-x^2)dx+(x+y^2)dy,$$\r\noù $\\gamma$ est le bord orienté du domaine délimité par les courbes d'équation $y=x^2$ et $x=y^2$.",
+    "hint": "Le domaine correspondant a pour paramétrage :\r\n$$\\Omega=\\left\\{(x,y)\\in\\mtr^2;\\ 0\\leq x\\leq 1,\\ x^2\\leq y\\leq \\sqrt{x}\\right\\}.$$",
+    "solution": "Le domaine correspondant a pour paramétrage :\r\n$$\\Omega=\\left\\{(x,y)\\in\\mtr^2;\\ 0\\leq x\\leq 1,\\ x^2\\leq y\\leq \\sqrt{x}\\right\\}.$$ On pose $P(x,y)=2xy-x^2$ et $Q(x,y)=x+y^2$. On a :\r\n\\begin{eqnarray*}\r\nI&=&\\int\\!\\int_{\\Omega}\\left(\\frac{\\partial Q}{\\partial x}-\\frac{\\partial P}{\\partial y}\\right)dxdy\\\\\r\n&=&\\int_0^1\\!\\int_{x^2}^{\\sqrt{x}}(1-2x)dydx\\\\\r\n&=&\\int_0^1(1-2x)(\\sqrt{x}-x^2)dx\\\\\r\n&=&\\int_0^1\\sqrt{x}-2x\\sqrt{x}-x^2+2x^3dx\\\\\r\n&=&\\frac{1}{30}.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace préhilbertien et $(e_n)$ une famille orthonormée totale de $E$. Démontrer que, pour tout $x\\in E$, on a \r\n$$\\sum_{n\\geq 1} \\langle x,e_n\\rangle^2=\\|x\\|^2.$$",
+    "hint": "Utiliser que $\\|x-p_N(x)\\|\\to 0$ si $p_N$ est la projection orthogonale sur $\\textrm{vect}(e_1,\\dots,e_N)$.",
+    "solution": "Pour $N\\geq 1$, notons $p_N$ la projection orthogonale sur l'espace vectoriel $\\textrm{vect}(e_1,\\dots,e_N)$. Alors puisque la famille $(e_n)_{n\\geq 1}$ est totale, on sait que $\\|x-p_N(x)\\|\\to 0$ lorsque $N\\to+\\infty$. Mais par le théorème de Pythagore, \r\n$$\\|x\\|^2=\\|x-p_N(x)\\|^2+\\|p_N(x)\\|^2=\\|x-p_N(x)\\|^2+\\sum_{n=1}^N \\langle x,e_n\\rangle^2.$$\r\nFaisant tendre $N$ vers $+\\infty$, on trouve bien le résultat demandé.",
+    "lang": "french"
+}

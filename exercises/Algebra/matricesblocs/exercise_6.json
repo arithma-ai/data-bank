@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in\\mathcal M_n(\\mathbb K)$ une matrice de rang $r$.Démontrer que $A$ est semblable à une matrice par blocs $\\begin{pmatrix}B&0\\\\C&0\\end{pmatrix}$ avec $B\\in\\mathcal M_r(\\mathbb K)$ et $C\\in\\mathcal M_{n-r,r}(\\mathbb K)$.On suppose de plus que $\\textrm{Im}(A)$ et $\\ker(A)$ sont supplémentaires. Démontrer que l'on peut demander $C=0$. Que dire de $B$?",
+    "hint": "",
+    "solution": "On notera, pour éviter toute confusion, $u$ et non $A$ l'endomorphisme de $\\mathbb R^n$ dont la matrice dans la base canonique de $\\mathbb R^n$ est $A$.Puisque $A$ est de rang $r$, $\\ker(u)$ est de dimension $n-r$ d'après le théorème du rang. Soit $S$ un supplémentaire de $\\ker(u)$, de dimension $r$, et considérons $(e_1,\\dots,e_r)$ une base de $S$, $(e_{r+1},\\dots,e_{n})$ une base de $\\ker(u)$, de sorte que $(e_1,\\dots,e_n)$ est une base de $\\mathbb K^n$. Alors la matrice de $u$ dans la base $(e_1,\\dots,e_n)$ a bien la forme voulue.On reprend la même démonstration, mais cette fois on choisit comme supplémentaire de $\\ker(u)$ le sous-espace vectoriel $\\textrm{Im}(u)$. On a alors bien $C=0$, et puisque le rang de $A$ vaut $r$, il en est de même du rang de $B$ qui est donc inversible.",
+    "lang": "french"
+}

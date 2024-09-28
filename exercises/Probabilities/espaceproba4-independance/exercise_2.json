@@ -1,0 +1,6 @@
+{
+    "script": "Votre voisine a deux enfants dont vous ignorez le sexe. On considère les trois événement suivants :$A$=\"les deux enfants sont de sexes différents\"$B$=\"l'ainé est une fille\"$C$=\"le cadet est un garçon\".Montrer que $A$, $B$ et $C$ sont deux à deux indépendants, mais ne sont pas mutuellement indépendants. On suppose que la probabilité à la naissance d'avoir une fille (respectivement un garçon) est égale à $1/2$.",
+    "hint": "Calculer la probabilité de $A$, $B$, $C$, $A\\cap B$,...",
+    "solution": "Clairement, on a $P(B)=P(C)=\\frac 12$. Les quatre possibilités pour les deux enfants, supposées équiprobables, sont (F,G), (F,F), (G,G), (G,F). On en déduit que $P(A)=\\frac 12$.Ensuite $A\\cap B$ correspond à $(F,G)$ et donc $P(A\\cap B)=\\frac 14=P(A)P(B)$. On en déduit que $A$ et $B$ sont indépendants. On prouve de la même façon que $A$ et $C$ sont indépendants, et que $B$ et $C$ sont indépendants.Enfin, $A\\cap B\\cap C=B\\cap C$ et donc $P(A\\cap B\\cap C)=\\frac 14\\neq P(A)P(B)P(C)$. Les trois événements ne sont pas mutuellement indépendants.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Quel est le coefficient de $x^ay^bz^c$ dans le développement de l'expression $(x+y+z)^n$?",
+    "hint": "Appliquer deux fois la formule du binôme.",
+    "solution": "Développons $(x+y+z)^n$ en appliquant deux fois la formule du binôme, la première fois en écrivant que \r\n$$(x+y+z)^n=\\big( (x+y)+z\\big)^n.$$\r\nIl vient\r\n\\begin{align*}\r\n (x+y+z)^n&=\\sum_{k=0}^n \\binom nk (x+y)^k z^{n-k}=\\sum_{k=0}^n \\sum_{j=0}^k \\binom nk\\binom kj x^j y^{k-j}z^{n-k}.\r\n\\end{align*}\r\nDans le développement de $(x+y+z)^n$ n'interviennent que des termes $x^ay^bz^c$ avec $a+b+c=n$. A un tel triplet\r\n$(a,b,c)$ donné correspond un unique couple $(k,j)$ avec $0\\leq k\\leq n$ et $0\\leq j\\leq k$ tel que \r\n$a=j$, $b=k-j$ et $c=n-k$ (on a alors $k=a+b$). Le coefficient intervenant devant $x^a y^b z^c$ est donc\r\n$$\\binom{n}{a+b}\\binom{a+b}{a}=\\frac{n!}{(a+b)!c!}\\times\\frac{(a+b)!}{a!b!}=\\frac{n!}{a!b!c!}.$$",
+    "lang": "french"
+}

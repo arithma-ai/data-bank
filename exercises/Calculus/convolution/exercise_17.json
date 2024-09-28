@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f\\in L^1(\\mtr)$.Pour $h\\in\\mtr$, exprimer la fonction $x\\mapsto \\int_x^{x+h}f(t)dt$ comme le produit de convolution de $f$ par une fonction $\\alpha_h$.On pose $F(x)=\\int_0^xf(t)dt$, et on pose $G_h(x)=\\frac{F(x+h)-F(x)}{h}$. Justifier que $G_h$ converge vers $f$ dans $L^1(\\mtr)$ quand $h$ tend vers 0.",
+    "hint": "Chercher $\\alpha_h$ sous la forme d'une fonction caractéristique.La suite $(\\alpha_h/h)$ ne serait-elle pas une unité approchée?",
+    "solution": "Avec une telle forme, on est tenté de chercher $\\alpha_h$ sous la forme d'une fonction caractéristique $1_{[u,v]}$. On a en effet :\r\n$$\\int_x^{x+h}f(t)dt=\\int_{\\mtr}f(t)1_{[x,x+h]}(t)dt.$$\r\nMaintenant, on a aussi :\r\n$$t\\in[x,x+h]\\iff t-x\\in[0,h]\\iff x-t\\in[-h,0].$$\r\nD'où l'on déduit\r\n$$\\int_x^{x+h}f(t)dt=f\\star\\alpha_h(x),$$\r\navec $\\alpha_h(t)=1_{[-h,0]}.$Un calcul immédiat donne $\\frac{F(x+h)-F(x)}{h}=f\\star\\frac{\\alpha_h}{h}(x)$. On est donc ramené à prouver que $f\\star (\\alpha_h/h)$ tend vers $f$ dans $L^1$. Pour cela, il suffit de prouver que\r\nla suite $(\\alpha_h/h)_{h>0}$, est une suite régularisante pour $h\\to 0$. C'est presque immédiat, car c'est une fonction positive, son intégrale vaut 1, et son support est compris dans $[-h,0]$.",
+    "lang": "french"
+}

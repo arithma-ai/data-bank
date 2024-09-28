@@ -1,0 +1,6 @@
+{
+    "script": "Soient $n,p\\geq 1$. Démontrer que \r\n$$\\binom{n}{p}=\\frac np \\binom {n-1}{p-1}.$$Pour $n\\in\\mathbb N$ et $a,b$ réels non nuls, simplifier les expressions suivantes :\r\n$$\\mathbf 1.\\ (n+1)!-n!\\ \\quad\\mathbf 2.\\ \\frac{(n+3)!}{(n+1)!}\\ \\quad\\mathbf 3.\\ \\frac{n+2}{(n+1)!}-\\frac 1{n!}\\ \\quad\\mathbf 4.\\ \\frac{u_{n+1}}{u_n}\\textrm{ où }u_n=\\frac{a^n}{n!b^{2n}}.$$",
+    "hint": "Utiliser une expression des coefficiens binômiaux.Factoriser...",
+    "solution": "On sait que \r\n$$\\binom{n}{p}=\\frac{n!}{p!(n-p)!}=\\frac{n\\times (n-1)!}{p\\times (p-1)!(n-p)!}=\\frac{n}p\\times\\frac{(n-1)!}{(p-1)!\\big((n-1)-(p-1)\\big)!}=\\frac np\\binom{n-1}{p-1}.$$On a \r\n$$(n+1)!-n!=(n+1)n!-n!=(n+1-1)n!=n\\times n!$$On a\r\n$$\\frac{(n+3)!}{(n+1)!}=\\frac{(n+3)(n+2)(n+1)!}{(n+1)!}=(n+3)(n+2).$$On a \r\n$$\\frac{n+2}{(n+1)!}-\\frac 1{n!}=\\frac 1{n!}\\left(\\frac{n+2}{n+1}-1\\right)=\\frac 1{(n+1)!}.$$On a\r\n$$\\frac{u_{n+1}}{u_n}=\\frac{a^{n+1}}{a^n}\\times \\frac{n!}{(n+1)!}\\times\\frac {b^{2n}}{b^{2n+2}}=\\frac{a}{(n+1)b^2}.$$",
+    "lang": "french"
+}

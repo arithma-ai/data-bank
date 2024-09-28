@@ -1,0 +1,6 @@
+{
+    "script": "Soient $E,F$ deux espaces vectoriels\r\net $f\\in\\mathcal L(E,F)$. Soit $G$ un supplémentaire\r\nde $\\ker(f)$ dans $E$. Montrer que $G$ et $\\textrm{Im}(f)$\r\nsont isomorphes.",
+    "hint": "Définir $g:G\\to \\textrm{Im}(f)$ par $g(x)=f(x)$.",
+    "solution": "On définit $g:G\\to \\textrm{Im}(f)$ par $g(x)=f(x)$. Alors :$g$ est linéaire : c'est une conséquence directe du fait que $f$ est linéaire.$g$ est injective : si $x\\in\\ker(g)$, alors $x\\in G$ et $x\\in\\ker(f)$. Comme\r\n$G$ et $\\ker(f)$ sont\r\nsupplémentaires, on a $x=0$.$g$ est surjective : prenons $y\\in\\textrm{Im}(f)$. Alors\r\n$y=f(x)$ avec $x\\in E$. Décomposons $x$ en $x=u+v$ avec $u\\in G$\r\net $v\\in\\ker(f)$. Alors $y=f(x)=f(u)+f(v)=f(u)=g(u)$ avec $u\\in G$, ce\r\n qui prouve bien que $g$ est surjective.Ainsi, $g$ définit un isomorphisme de $G$ sur $\\textrm{Im}(f)$.",
+    "lang": "french"
+}

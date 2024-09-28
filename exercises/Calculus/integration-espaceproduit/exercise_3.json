@@ -1,0 +1,6 @@
+{
+    "script": "En calculant de deux façons différentes $\\int_{\\mathbb R^2}e^{-x^2-y^2}dxdy$, déterminer la valeur de $\\displaystyle I=\\int_{\\mathbb R}e^{-u^2}du.$",
+    "hint": "Utiliser d'une part le théorème de Fubini, et d'autre part un changement de variables en coordonnées polaires.",
+    "solution": "En utilisant d'une part le théorème de Fubini/Tonnelli, on a \r\n\\begin{eqnarray*}\r\n\\int_{\\mathbb R^2}e^{-x^2-y^2}dxdy&=&\\int_{\\mathbb R}\\left(\\int_{\\mathbb R}e^{-y^2}dy\\right)e^{-x^2}dx\\\\\r\n&=&\\int_{\\mathbb R} I\\times e^{-x^2}dx=I^2.\r\n\\end{eqnarray*}\r\nD'autre part, en intégrant en coordonnées polaires, on trouve\r\n\\begin{eqnarray*}\r\n\\int_{\\mathbb R^2}e^{-x^2-y^2}dxdy&=&\\int_{r=0}^{+\\infty}\\int_{\\theta=0}^{2\\pi}re^{-r^2}drd\\theta\\\\\r\n&=&\\pi\\left[-e^{-r^2}\\right]_0^{+\\infty}\\\\\r\n&=&\\pi.\r\n\\end{eqnarray*}\r\nOn en déduit donc que $I=\\sqrt\\pi$.",
+    "lang": "french"
+}

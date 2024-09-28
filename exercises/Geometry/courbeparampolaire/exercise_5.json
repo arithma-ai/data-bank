@@ -1,0 +1,6 @@
+{
+    "script": "Étudier et tracer la courbe paramétrée d'équation $\\rho(\\theta)=1+\\frac{\\pi/4}{\\theta-\\pi/3}$.",
+    "hint": "",
+    "solution": "La fonction \r\n$\\rho$ est définie sur $]-\\infty,\\pi/3[\\cup]\\pi/3,+\\infty[$. Sur chacun des deux intervalles qui constituent son ensemble de définition, elle est décroissante, et\r\nelle s'annule en $\\pi/12$. On obtient donc le tableau de variation suivant :Au voisinage de $+\\infty$ et de $-\\infty$, $\\rho$ tend vers 1. La courbe s'enroule alors autour du cercle de centre $O$ et de rayon 1. \r\nÉtudions maintenant la branche infinie autour de $\\pi/3$, en posant $Y(\\theta)=\\rho(\\theta)\\sin(\\theta-\\pi/3)$. Il vient \r\n$$Y(\\theta)=\\sin(\\theta-\\pi/3)+\\frac\\pi4\\times \\frac{\\sin(\\theta-\\pi/3)}{\\theta-\\pi/3}.$$\r\nPuisque $\\sin(x)/x$ tend vers 1 lorsque $x$ tend vers 0, on en déduit que $Y(\\theta)$ tend vers $\\pi/4$ en $\\pi/3$. La courbe admet donc la\r\ndroite d'équation $Y=\\pi/4$ dans le repère $(O,\\vec u_{\\pi/3},\\vec v_{\\pi/3})$ pour asymptote. On remarque enfin qu'à l'origine, point atteint uniquement pour le paramètre $\\theta=\\pi/4$, la tangente a pour équation polaire $\\theta=\\pi/4$. On en déduit donc le tracé suivant :",
+    "lang": "french"
+}

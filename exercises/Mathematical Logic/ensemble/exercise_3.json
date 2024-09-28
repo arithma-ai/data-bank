@@ -1,0 +1,6 @@
+{
+    "script": "On considère le diagramme de Venn suivant, avec $A,B,C$ trois parties d'un ensemble $E$, et $a,b,c,d,e,f,g,h$ des élements de $E$.Dire si les assertions suivantes sont vraies ou fausses :$g\\in A\\cap \\bar B$;$g\\in\\bar A\\cap \\bar B$;$g\\in\\bar A\\cup\\bar B$;$f\\in C\\backslash A$;$e\\in \\bar A\\cap\\bar B\\cap \\bar C$;$\\{h,b\\}\\subset \\bar A\\cap\\bar B$;$\\{a,f\\}\\subset A\\cup C$.",
+    "hint": "",
+    "solution": "Faux car $g\\in B$ et donc $g\\notin \\bar B$.Faux pour la même raison.Vrai car $g\\in \\bar A$.Non car $f\\in A$;Faux car $e\\in A$;Ceci revient à démontrer que $h\\in \\bar A\\cap\\bar B$ et $b\\in \\bar A\\cap\\bar B$ : c'est vrai!Ceci revient à démontrer que $a\\in A\\cup C$ et $f\\in A\\cup C$ : c'est vrai!",
+    "lang": "french"
+}

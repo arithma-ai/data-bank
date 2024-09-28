@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R_+\\to\\mathbb R$ une fonction continue surjective.Démontrer que $0$ admet un nombre infini d'antécédents.Plus généralement, démontrer que tout réel admet un nombre infini d'antécédents.",
+    "hint": "Raisonner par l'absurde. Considérer le plus grand des antécédents, notons le $A$, et étudier $f([0,A])$ et $f(]A,+\\infty[)$.Se ramener au cas précédent.",
+    "solution": "On raisonne par l'absurde et on suppose que $0$ admet un nombre fini d'antécédents. Notons $A$ le plus grand de ces antécédents. Alors $0$ n'est pas dans l'image de $]A,+\\infty[$ par $f$. Par le théorème des valeurs intermédiaires, ceci entraine que $f(]A,+\\infty[)\\subset ]0,+\\infty[$ ou $f(]A,+\\infty[)\\subset ]-\\infty,0[$. Supposons par exemple que $f(]A,+\\infty[)\\subset ]0,+\\infty[$. On sait aussi d'autre part que l'image du segment $[0,A]$ par $f$ est un segment $[m,M]$. Mais ainsi, on a prouvé que $f(\\mathbb R_+)\\subset [m,M]\\cup ]0,+\\infty[$. Cet ensemble ne peut pas être égal à $\\mathbb R$ (on ne s'approche jamais de $-\\infty$) et donc ceci contredit que $f$ est surjective.Fixons $y\\in\\mathbb R$. On se ramène à la question précédente en posant $g(x)=f(x)-y$ qui reste surjective.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que l'équation $\\cos x=\\frac 1x$ admet une infinité de solutions dans $\\mathbb R_+^*$.",
+    "hint": "Considérer $f(x)=\\cos x-\\frac 1x$ et appliquer le théorème des valeurs intermédiaires dans des intervalles bien choisis. Il faudra bien sûr utiliser la $2\\pi$-périodicité de $\\cos x$.",
+    "solution": "Posons, pour $x>0$, $f(x)=\\cos x-\\frac 1x$. Alors $f$ est continue sur $]0,+\\infty[$. Soit $k\\geq 1$ un entier. Alors on a \r\n$$f(2k\\pi)=1-\\frac{1}{2k\\pi}\\geq 0$$\r\nalors que\r\n$$f(2k\\pi+\\pi)=-1-\\frac{1}{2k\\pi+\\pi}\\leq 0.$$\r\nPar le théorème des valeurs intermédiaires, il existe un réel $x_k$ dans l'intervalle $[2k\\pi,2k\\pi+\\pi]$ tel que $f(x_k)=0$. On a clairement $x_k<2(k+1)\\pi\\leq x_{k+1}$. Ainsi, les réels $x_k$ sont deux à deux disjoints et l'équation admet une infinité de solutions.",
+    "lang": "french"
+}

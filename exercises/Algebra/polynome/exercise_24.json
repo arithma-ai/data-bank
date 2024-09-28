@@ -1,0 +1,6 @@
+{
+    "script": "Soient $n,m\\geq 1$. Déterminer le pgcd de $X^n-1$ et $X^m-1$.",
+    "hint": "Effectuer la division euclidienne de $X^n-1$ par $X^m-1$. On pourra écrire $n=mq+r$.",
+    "solution": "Une idée possible est d'appliquer l'algorithme d'Euclide pour calculer le pgcd de ces deux polynômes.\r\nOn suppose par exemple $n>m$, et on écrit $n=mp+r$, avec $0\\leq r<m$. Alors on a :\r\n$$X^n-1=X^{mp+r}-1=X^r(X^{mp}-1)+X^r-1.$$\r\nLe point crucial est que $X^{mp}-1$ est divisible par $X^m-1$. En effet,\r\n$$X^{mp}-1=(X^m-1)(X^{m(p-1)}+X^{m\\big((p-1)-1\\big)}+\\dots+X^m+1).$$\r\nAinsi, $\\textrm{pgcd}(X^n-1,X^m-1)=\\textrm{pgcd}(X^m-1,X^r-1)$. Mais puisque\r\n$\\textrm{pgcd}(n,m)=\\textrm{pgcd}(m,r)$, on en déduit finalement que\r\n$$\\textrm{pgcd}(X^n-1,X^m-1)=X^{\\textrm{pgcd}(n,m)}-1.$$",
+    "lang": "french"
+}

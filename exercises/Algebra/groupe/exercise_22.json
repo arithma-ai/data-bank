@@ -1,0 +1,6 @@
+{
+    "script": "Traduire en termes de morphismes de groupes les propriétés bien connues suivantes (dont le domaine de validité a volontairement été omis) :$\\ln(xy)=\\ln(x)+\\ln(y)$;$|zz'|=|z||z'|$;$\\sqrt{xy}=\\sqrt{x}\\sqrt{y}$;$e^{x+y}=e^xe^y$;",
+    "hint": "Il faut trouver le bon groupe. Attention à ce qu'il s'agisse bien d'un groupe!",
+    "solution": "La fonction $\\ln$ est un morphisme du groupe $(\\mathbb R_+^*,\\times)$ dans le groupe $(\\mathbb R,+)$.La fonction $|\\cdot|$ est un morphisme de groupes de $(\\mathbb C^*,\\times)$ dans lui-même. Attention, même si la propriété est vraie pour $z=0$, il faut exclure $0$ du groupe!La fonction $\\sqrt{}$ est un morphisme du groupe $(\\mathbb R_+^*,\\times)$ dans lui-même.La fonction $\\exp$ est un morphisme de groupe de $(\\mathbb R,+)$ dans $(\\mathbb R_+^*,\\times)$.",
+    "lang": "french"
+}

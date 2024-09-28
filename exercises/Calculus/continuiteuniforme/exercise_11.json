@@ -1,0 +1,6 @@
+{
+    "script": "Soient $f,g:[a,b]\\to\\mathbb R$ deux fonctions continues. Pour $t\\in\\mathbb R$, on pose\r\n$$h(t)=\\sup\\{f(x)+tg(x);\\ x\\in[a,b]\\}.$$\r\nMontrer que $h$ est lipschitzienne.",
+    "hint": "Prendre $t$ et $s$ dans $\\mathbb R$ et écrire que $h(t)=f(x_1)+tg(x_1)$,\r\n$h(s)=f(x_2)+tg(x_2)$, puis manipuler les inégalités.",
+    "solution": "Soient $s,t\\in\\mathbb R$. Puisque $x\\mapsto f(x)+tg(x)$ est une fonction continue\r\nsur $[a,b]$, on peut trouver $x_1,x_2\\in\\mathbb R$ tels que \r\n$$h(t)=f(x_1)+tg(x_1),\\ h(s)=f(x_2)+sg(x_2)\\geq f(x_1)+sg(x_1).$$\r\nOn trouve alors\r\n\\begin{eqnarray*}\r\nh(t)-h(s)&=&f(x_1)+tg(x_1)-(f(x_2)+sg(x_2))\\\\\r\n&\\leq&f(x_1)+tg(x_1)-f(x_1)-sg(x_1)\\\\\r\n&\\leq &g(x_1)(t-s).\r\n\\end{eqnarray*}\r\nDe la même façon, on a\r\n\\begin{eqnarray*}\r\nh(t)-h(s)&=&f(x_1)+tg(x_1)-(f(x_2)+sg(x_2))\\\\\r\n&\\geq&f(x_2)+tg(x_2)-f(x_2)-sg(x_2)\\\\\r\n&\\geq &g(x_2)(t-s).\r\n\\end{eqnarray*}\r\nPar conséquent, si $M=\\max_{[a,b]}|g|$ ($M$ existe car $g$ est continue sur le segment $[a,b]$),\r\nalors on a \r\n$$|h(t)-h(s)|\\leq M|t-s|$$\r\nce qui prouve que $h$ est lipschitzienne.",
+    "lang": "french"
+}

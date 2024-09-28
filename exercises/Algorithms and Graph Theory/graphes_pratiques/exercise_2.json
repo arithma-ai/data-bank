@@ -1,0 +1,6 @@
+{
+    "script": "On considère le dessin suivant :Est-il possible de le dessiner sans lever le crayon et en passant une, et une seule fois, par chaque trait?",
+    "hint": "Utiliser le théorème d'Euler.",
+    "solution": "Si on considère que ceci représente un graphe, on cherche à tracer un chemin eulérien dans ce graphe.\r\nD'après le théorème d'Euler, c'est possible si et seulement si tous les sommets sont de degré pair, sauf au plus deux.\r\nDonnons un nom aux sommets, comme sur le dessin suivant :Alors les sommets $A,E$ et $B$ sont de degré 3. C'est donc impossible!",
+    "lang": "french"
+}

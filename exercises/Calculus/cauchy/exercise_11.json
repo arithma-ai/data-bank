@@ -1,0 +1,6 @@
+{
+    "script": "On rappelle que la fonction sinus hyperbolique est définie par \r\n$$\\textrm{sh}(z)=\\frac{e^z-e^{-z}}{2}.$$\r\nSoit $R>0$. Calculer $\\int_{C(0,R)}\\frac{\\textrm{sh}(w)}{w^8}dw.$",
+    "hint": "",
+    "solution": "Il suffit d'appliquer la formule de Cauchy. On a \r\n$$\\frac{1}{2i\\pi}\\int_{C(0,R)}\\frac{\\textrm{sh}(w)}{w^8}dw=\\frac{\\textrm{sh}^{(7)}(0)}{7!}=a_7$$\r\noù $\\textrm{sh}(z)=\\sum_{n\\geq 0}a_nz^n$. En écrivant le développement en série entière du sinus hyperbolique ou en calculant les\r\ndérivées successives, on trouve finalement que l'intégrale recherchée vaut $\\frac{2i\\pi}{7!}$.",
+    "lang": "french"
+}

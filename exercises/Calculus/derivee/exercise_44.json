@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\in\\mathbb N$. Montrer que la dérivée d'ordre $n+1$ de $x^ne^{1/x}$ est\r\n$$\\frac{(-1)^{n+1}}{x^{n+2}}e^{1/x}.$$",
+    "hint": "Procéder par récurrence et utiliser la formule de Leibniz.",
+    "solution": "La fonction est de classe $C^\\infty$ sur $\\mathbb R^*$. Démontrons la formule demandée par récurrence sur $n$.\r\nPour $n=0$, la dérivée de $e^{1/x}$ est bien $\\frac{-1}{x^2}e^{1/x}$. Supposons la formule vraie au rang $n-1$, et prouvons-la\r\nau rang $n$. Pour cela, on écrit $x^ne^{1/x}$ sous la forme $x\\times x^{n-1}e^{1/x}$ et on utilise la formule\r\nde Leibniz :\r\n$$\\left(x^n e^{1/x}\\right)^{(n+1)}=x\\left(x^{n-1}e^{1/x}\\right)^{(n+1)}+(n+1)\\left(x^{n-1}e^{1/x}\\right)^{(n)}.$$\r\nOn introduit alors le résultat de l'hypothèse de récurrence, qui donne directement la valeur du second terme et aussi\r\ncelle du premier terme après une dernière dérivation :\r\n$$x\\left(x^{n-1}e^{1/x}\\right)^{(n+1)}=x\\left(\\frac{(-1)^{n+1}}{x^{n+3}}e^{1/x}+\\frac{(-1)^{n+1}(n+1)}{x^{n+2}}e^{1/x}\\right).$$\r\nEn mettant tous les résultats ensembles, on trouve exactement le résultat demandé.",
+    "lang": "french"
+}

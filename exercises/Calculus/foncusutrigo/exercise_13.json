@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout $t\\in]-\\pi/2,\\pi/2[\\backslash\\{0\\}$, on a \r\n$ \\displaystyle \\frac{1-\\cos t}{\\sin t}=\\tan(t/2).$En déduire une forme simplifiée de $\\displaystyle \\arctan\\left(\\frac{\\sqrt{1+x^2}-1}x\\right),$ pour $x\\neq 0$.",
+    "hint": "Utiliser $\\cos(2u)=2\\cos^2 u-1$;Poser $x=\\tan t$.",
+    "solution": "On utilise simplement la formule $\\cos(2u)=1-2\\sin^2 u$ qui donne ici $1-\\cos t=2\\sin^2(t/2)$ et $\\sin t=2\\sin(t/2)\\cos(t/2)$.Puisque $\\tan$ réalise une bijection de $]-\\pi/2,\\pi/2[$ sur $\\mathbb R$, on peut poser $x=\\tan t$, avec $t\\in]-\\pi/2,\\pi/2[$.\r\nOn a\r\n$$\\sqrt{1+x^2}=\\sqrt{\\frac 1{\\cos^2 t}}=\\frac 1{|\\cos t|}=\\frac{1}{\\cos t},$$\r\ncar le cosinus est positif sur l'intervalle $]-\\pi/2,\\pi/2[$. On en déduit que \r\n$$\\frac{\\sqrt{1+x^2}-1}x=\\frac{1-\\cos t}{\\sin t}=\\tan(t/2).$$\r\nOr, $t/2\\in[-\\pi/4,\\pi/4]$, et donc $\\arctan(\\tan (t/2))=t/2$. On en déduit finalement que\r\n$$\\arctan\\left(\\frac{\\sqrt{1+x^2}-1}x\\right)=\\frac t2=\\frac{\\arctan x}2.$$",
+    "lang": "french"
+}

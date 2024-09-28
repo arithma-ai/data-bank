@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les réels $x$ tels que $\\sqrt{2-x}=x$.",
+    "hint": "Raisonner par analyse-synthèse en donnant des conditions nécessaires que $x$ doit vérifier, puis en démontrant que ces conditions sont suffisantes.",
+    "solution": "On va raisonner par analyse-synthèse.Analyse : Imaginons que $x$ soit une solution de cette équation. Alors il est déjà clair que $x\\in ]-\\infty,2]$, sinon la racine carrée n'aurait pas de sens. On doit aussi avoir $x\\geq 0$, car la racine carrée est positive et donc $x\\in [0,2]$. Élevons ensuite l'équation au carré. Si $x$ est solution, alors $2-x=x^2$ (on a bien ici simplement une implication, pas une condition nécessaire et suffisante!), c'est-à-dire $x^2+x-2=0$. La résolution de cette équation du second degré donne $x_1=1$ et $x_2=-2$. Seul $x_1$ est dans l'intervalle $[0,2].$ Donc la seule solution possible est $1.$Synthèse : Prouvons que $x=1$ est solution de l'équation. C'est presque évident, car $\\sqrt{2-1}=1$.Conclusion : la seule solution de l'équation est $1$.",
+    "lang": "french"
+}

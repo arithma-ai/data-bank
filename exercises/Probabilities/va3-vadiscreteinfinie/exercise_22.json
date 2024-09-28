@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire suivant une loi géométrique de paramètre $p\\in]0,1[$. Soit $a,b\\in\\mathbb N^*$. Étudier la convergence et éventuellement calculer la somme de la série \r\n$$\\sum_{n\\geq 1}\\frac{P(X\\geq an)}{P(X\\geq bn)}.$$",
+    "hint": "Commencer par calculer $P(X\\geq k)$ pour tout $k\\geq 1.$",
+    "solution": "On commence par remarquer que si $a\\leq b,$ alors l'événement $(X\\geq bn)$ est contenu dans l'événement $(X\\geq an)$. Ainsi, $P(X\\geq an)/P(X\\geq bn)\\geq 1$ et la série est grossièrement divergente. Supposons maintenant $a>b.$ On commence par calculer, pour $k\\geq 1,$ $P(X\\geq k)$ : \r\n$$P(X\\geq k)=\\sum_{j\\geq k}P(X=i)=\\sum_{j\\geq k}q^{j-1}p=p\\frac{q^{j-1}}{1-q}=q^{j-1}$$\r\noù on a noté comme d'habitude $q=1-p.$\r\nOn a donc, pour tout $n\\geq 1,$\r\n$$\\frac{P(X\\geq an)}{P(X\\geq bn)}=q^{(a-b)n}.$$\r\nOn a donc affaire à une série géométrique de raison $q^{a-b}\\in]0,1[$. La série est convergente et\r\n$$\\sum_{n=1}^{+\\infty}\\frac{P(X\\geq an)}{P(X\\geq bn)}=\\sum_{n=1}^{+\\infty}q^{(a-b)n}=\\frac{q^{a-b}}{1-q^{a-b}}.$$",
+    "lang": "french"
+}

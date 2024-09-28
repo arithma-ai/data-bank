@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 2$ et $H$ un sous-groupe de $S_n$ normal contenant une transposition. Démontrer que $H=S_n$.",
+    "hint": "",
+    "solution": "Soit $(i\\ j)$ une transposition élément de $H$. $H$ contient toute sa classe de conjugaison, ie tous les \r\n$(\\sigma(i)\\ \\sigma(j))$ où $\\sigma\\in S_n$. En particulier, $H$ contient toutes les transpositions. Il contient également le groupe engendré par ces transpositions, qui est $S_n$ tout entier.",
+    "lang": "french"
+}

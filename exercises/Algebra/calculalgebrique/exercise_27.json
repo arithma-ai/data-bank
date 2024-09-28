@@ -1,0 +1,6 @@
+{
+    "script": "Pour $n\\geq 1$, on pose $S_n=\\sum_{k=1}^n \\frac 1k$ et $u_n=\\sum_{k=1}^n S_k$. Démontrer que, pour tout $n\\geq 1$, $u_n=(n+1)S_n-n$.",
+    "hint": "Faire apparaître $u_n$ comme deux sommes successives, puis permuter les sommes.",
+    "solution": "On écrit (attention à ne pas utiliser les mêmes indices de sommation!)\r\n$$u_n=\\sum_{k=1}^n \\sum_{l=1}^k \\frac{1}l.$$\r\nOn va permuter ces deux sommes, en remarquant que \r\n$$\\{(k,l)\\in\\mathbb N^2:\\ 1\\leq k\\leq n,\\ 1\\leq l\\leq k\\}=\\{(k,l)\\in\\mathbb N^2:\\ 1\\leq l \\leq n,\\ l\\leq k\\leq n\\}.$$\r\nOn a donc\r\n\\begin{align*}\r\nu_n&=\\sum_{l=1}^n \\sum_{k=l}^n \\frac 1l\\\\\r\n&=\\sum_{l=1}^n \\frac{n+1-l}l\\\\\r\n&=\\sum_{l=1}^n \\frac{n+1}l-\\sum_{l=1}^n 1\\\\\r\n&=(n+1)S_n-n.\r\n\\end{align*}",
+    "lang": "french"
+}

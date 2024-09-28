@@ -1,0 +1,6 @@
+{
+    "script": "Étudier la convexité/concavité de $x\\mapsto \\frac{1}{1+e^x}$ sur $\\mathbb R$.En déduire que pour tous $x_1,\\dots,x_n\\geq 1$, on a \r\n$$\\sum_{k=1}^n \\frac{1}{1+x_k}\\geq \\frac{n}{1+\\sqrt[n]{x_1\\cdots x_n}}.$$",
+    "hint": "Dérivée seconde!Poser $y_i=\\ln(x_i)$ et appliquer l'inégalité de Jensen à la fonction précédente et aux $y_i$.",
+    "solution": "Notons $f$ cette fonction. La fonction $f$ est clairement de classe $C^\\infty$ et sa dérivée seconde vérifie \r\n$$f''(x)=\\frac{e^{2x}-e^x}{(e^x+1)^3}.$$\r\nLa fonction exponentielle étant croissante, $f''$ est du signe de $2x-x=x$. Ainsi, $f''\\geq 0$ sur $[0,+\\infty[$ et $f''\\leq 0$ sur $]-\\infty,0]$. Ainsi, $f$ est concave sur $]-\\infty,0[$ et convexe sur $]0,+\\infty[$.Posons, pour $i=1,\\dots,n$, $y_i=\\ln(x_i)\\geq 0$. Appliquons l'inégalité de Jensen à $f$, aux $y_i$, avec pour coefficients $1/n$. On obtient \r\n$$f\\left(\\frac{\\ln(x_1)+\\cdots+\\ln(x_n)}n\\right)\\leq \\sum_{k=1}^n \\frac 1n f\\left(\\ln(x_k)\\right)=\\frac 1n\\sum_{k=1}^n \\frac{1}{1+x_k}.$$\r\nOn conclut en remarquant que \r\n$$\\frac{\\ln(x_1)+\\cdots+\\ln(x_n)}n=\\ln\\left(\\sqrt[n]{x_1\\cdots x_n}\\right).$$",
+    "lang": "french"
+}

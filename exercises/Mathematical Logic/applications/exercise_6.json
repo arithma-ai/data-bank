@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un ensemble. Pour $A\\in\\mathcal P(E)$ une partie de $E$, on note $\\bar A$ son complémentaire. La fonction $\\phi:\\mathcal P(E)\\to\\mathcal P(E)$, $A\\mapsto \\bar A$ est-elle injective? surjective?",
+    "hint": "Que vaut $\\phi\\circ \\phi$?",
+    "solution": "Le plus simple est de remarquer que $\\phi$ est même bijective, car $\\phi\\circ \\phi=Id_{\\mathcal P(E)}$, ce qui prouve que $\\phi$ est bijective avec $\\phi^{-1}=\\phi$.Sinon, on peut prouver directement que $\\phi$ est injective et surjective. Le point clé est encore que le complémentaire du complémentaire de $A$ est égal à $A$. Ainsi, si $A,B\\in\\mathcal P(E)$ sont tels que $\\phi(A)=\\phi(B)$, on a $\\overline{\\phi(A)}=\\overline{\\phi(B)}$ et donc $A=B$ puisque $\\overline{\\phi(A)}=A$ et $\\overline{\\phi(B)}=B$. Ainsi, $\\phi$ est injective.De même, $\\phi$ est surjective car si $B\\in \\mathcal P(E)$, et si on pose $A=\\overline{B}=\\phi(B)$, alors $\\phi(A)=\\overline{\\phi(B)}=B$.",
+    "lang": "french"
+}

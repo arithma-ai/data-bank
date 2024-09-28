@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer la forme linéaire $f$ définie sur $\\mathbb R^3$ telle que\r\n$$f(1,1,1)=0,\\ f(2,0,1)=1\\textrm{ et }f(1,2,3)=4.$$\r\nDonner une base du noyau de $f$.",
+    "hint": "$f$ est donné par $f(x,y,z)=\\alpha x+\\beta y+\\gamma z$.\r\nLes trois vecteurs permettent d'obtenir un système d'équations pour\r\ncalculer $\\alpha$, $\\beta$ et $\\gamma$.",
+    "solution": "$f$ est donné par $f(x,y,z)=\\alpha x+\\beta y+\\gamma z$.\r\nEn calculant les valeurs de $f(1,1,1)=0$, etc... on obtient le système suivant :\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\n\\alpha+\\beta+\\gamma&=&0\\\\\r\n2\\alpha+\\gamma&=&1\\\\\r\n\\alpha+2\\beta+3\\gamma&=&4\r\n\\end{array}\r\n\\right.\r\n$$\r\nOn résoud ce système et on trouve $\\alpha=-1$, $\\beta=-2$ et $\\gamma=3$.\r\nAinsi, on a $f(x,y,z)=-x-2y+3z$. On en déduit\r\n$$f(x,y,z)=0\\iff \\left\\{\r\n\\begin{array}{rcl}\r\nx&=&-2y+3z\\\\\r\ny&=&y\\\\\r\nz&=&z\r\n\\end{array}\\right.$$\r\nUne base de $\\ker(f)$ est donc donnée par la famille des deux vecteurs\r\n$(-2,1,0)$ et $(3,0,1)$.",
+    "lang": "french"
+}

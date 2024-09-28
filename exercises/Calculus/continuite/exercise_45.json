@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ une fonction continue telle que $\\lim_{-\\infty}f=\\lim_{+\\infty}f.$ Démontrer que $f$ n'est pas injective.",
+    "hint": "Procéder par l'absurde en supposant que $f$ est injective. Considérer $c<d$ tel que $f(c)<f(d)$. Démontrer que pour tout $x\\geq d$, $f(x)\\geq f(d).$",
+    "solution": "Supposons par l'absurde que $f$ est injective. Soit $c<d$. Alors $f(c)\\neq f(d).$ Pour fixer les idées, on va supposer que $f(c)<f(d)$. Alorsd'une part, pour tout $x>d,$ on a $f(x)\\geq f(d).$ Si ce n'était pas le cas, il existerait $x_0>d$ avec $f(x_0)<f(d).$ Considérons $y$ tel que $y>\\min(f(c),f(x_0))$ et $y<f(d).$ Par le théorème des valeurs intermédiaires appliqué entre $d$ et $x_0$, il existe $x_1\\in ]d,x_0[$ tel que $y=f(x_1).$ De même, d'après le théorème des valeurs intermédiaires appliqué à $f$ entre $c$ et $d$, il existe $x_2\\in]c,d[$ tel que $f(x_2)=y$. Mais alors $x_1<d<x_2$ et $f(x_1)=f(x_2)$. Ceci contredit que $f$ est injective.d'autre part, pour tout $x<c$, on a $f(x)\\leq f(c),$ en utilisant un raisonnement tout à fait similaire.Mais alors, on a $\\lim_{x\\to+\\infty}f(x)\\geq f(d)$ et $\\lim_{x\\to-\\infty}f(x)\\leq f(c)$. Puisque $f(c)<f(d)$, ceci contredit que $\\lim_{+\\infty}f=\\lim_{-\\infty}f.$ L'hypothèse de départ était donc fausse, et $f$ n'est pas injective.",
+    "lang": "french"
+}

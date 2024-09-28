@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les limites suivantes : \r\n$$\\lim_{x\\to+\\infty}\\frac{e^x}{2e^x+e^{-2x}}\\textrm{ et }\\lim_{x\\to-\\infty}\\frac{e^x}{2e^x+e^{-2x}}.$$",
+    "hint": "Factoriser par $e^x$ pour la première limite. La deuxième ne conduit pas à une forme indéterminée.",
+    "solution": "La première limite donne une forme indéterminée $\\infty/\\infty$. On lève l'indétermination en factorisant par $e^x$ au dénominateur :\r\n$$\\frac{e^x}{2e^x+e^{-2x}}=\\frac{e^x}{e^x(2+e^{-3x})}=\\frac{1}{2+e^{-3x}}.$$\r\nComme $\\lim_{x\\to-\\infty}e^{-3x}=0$, on en déduit que \r\n$$\\lim_{x\\to+\\infty}\\frac{e^x}{2e^x+e^{-2x}}=\\frac 12.$$\r\nLa deuxième limite n'est pas une forme indéterminée. En effet, on a \r\n$\\lim_{x\\to -\\infty}e^x=0$ et $\\lim_{x\\to -\\infty}2e^x+e^{-2x}=+\\infty$. On en déduit que \r\n$$\\lim_{x\\to-\\infty}\\frac{e^x}{2e^x+e^{-2x}}=0.$$",
+    "lang": "french"
+}

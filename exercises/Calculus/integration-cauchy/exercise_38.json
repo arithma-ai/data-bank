@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,1]\\to\\mathbb R$ une fonction continue. On pose $u_n=\\int_0^1 t^n f(t)dt$.Démontrer que $(u_n)$ tend vers 0.On suppose de plus que $f$ est $C^1$ et que $f(1)\\neq 0$. Déterminer un équivalent de $(u_n)$.",
+    "hint": "Une fonction continue sur un segment est bornée.Intégrer par parties.",
+    "solution": "$f$ étant continue sur le segment $[0,1]$, elle est majorée, disons par une constante $M\\geq 0$. On a alors\r\n$$|u_n|\\leq \\int_0^1 |t^n f(t)|dt\\leq \\int_0^1 M t^n dt\\leq \\frac M{n+1}.$$\r\nAinsi, la suite $(u_n)$ converge vers 0.On intègre par parties, et on trouve \r\n\\begin{eqnarray*}\r\nu_n&=&\\left[f(t)\\frac{t^{n+1}}{n+1}\\right]_0^1-\\frac 1{n+1}\\int_0^1 f'(t)t^{n+1}dt\\\\\r\n&=&\\frac{f(1)}{n+1}-\\frac 1{n+1}\\int_0^1 f'(t)t^{n+1}dt.\r\n\\end{eqnarray*}\r\nOr, par le résultat de la question précédente, on sait que $\\int_0^1 f'(t)t^{n+1}dt$ tend vers 0 lorsque $n$ tend\r\nvers $+\\infty$. Ainsi, $u_n\\sim_{+\\infty}\\frac {f(1)}{n+1}.$",
+    "lang": "french"
+}

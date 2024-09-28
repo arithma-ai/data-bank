@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que l'application $f:\\mathbb R^2\\backslash\\{(0,0)\\}\\to \\mathbb R^2\\backslash\\{(0,0)\\}$ définie par $f(x,y)=(x^2-y^2,2xy)$ définit en tout point de $\\mathbb R^2\\backslash\\{(0,0)\\}$ un $\\mathcal C^1$-difféomorphisme local, mais que f n'est pas un $\\mathcal C^1$-difféomorphisme global.",
+    "hint": "Calculer la matrice jacobienne en tout point de $\\mathbb R^2\\backslash\\{(0,0)\\}$. Appliquer le théorème d'inversion locale. Utiliser aussi que $f$ n'est pas injective.",
+    "solution": "Soit $(x_0,y_0)\\in \\mathbb R^2\\backslash\\{(0,0)\\}$. La matrice jacobienne de $f$ en $(x_0,y_0)$ est\r\n$$\\begin{pmatrix}\r\n2x_0&-2y_0\\\\\r\n2y_0&2x_0\r\n\\end{pmatrix}.\r\n$$\r\nSon déterminant est $4x_0^2+4y_0^2>0$. Ainsi, par le théorème d'inversion local, $f$ réalise un $\\mathcal C^1$-difféomorphisme local en $(x_0,y_0)$. Pour autant, $f$ n'est pas un $\\mathcal C^1$-difféomorphisme global de $\\mathbb R^2\\backslash\\{(0,0)\\}$ sur $f(\\mathbb R^2\\backslash\\{(0,0)\\})$ car $f$ n'est pas injective : on a $f(1,1)=f(-1,-1)=(0,2)$ par exemple.",
+    "lang": "french"
+}

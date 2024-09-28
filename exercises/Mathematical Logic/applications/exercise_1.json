@@ -1,0 +1,6 @@
+{
+    "script": "Soient $f$ et $g$ les deux fonctions de $\\mathbb R$ dans $\\mathbb R$ définies par\r\n$$f(x)=3x+1\\textrm{ et }g(x)=x^2-1.$$\r\nCalculer $f\\circ g$ et $g\\circ f$.Dans les exemples suivants, déterminer deux fonctions $u$ et $v$ telles que $h=u\\circ v$ :\r\n$$h_1(x)=\\sqrt{3x-1}\\quad h_2(x)=\\sin\\left(x+\\frac \\pi 2\\right)\\quad h_3(x)=\\frac 1{x+7}.$$",
+    "hint": "",
+    "solution": "Soit $x\\in\\mathbb R$. On a\r\n$$f\\circ g(x)=f(x^2-1)=3(x^2-1)+1=3x^2-2.$$\r\nD'autre part, on a \r\n$$g\\circ f(x)=g(3x+1)=(3x+1)^2-1=9x^2+6x.$$\r\nEn particulier, on a $f\\circ g\\neq g\\circ f$.Pour chacun des cas, on peut poser :$u(x)=\\sqrt x$, $v(x)=3x-1$;$u(x)=\\sin x$, $v(x)=x+\\frac\\pi 2$;$u(x)=\\frac 1x$, $v(x)=x+7$.",
+    "lang": "french"
+}

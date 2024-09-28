@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(X_n)$ une suite de variables aléatoires indépendants de même loi et de carré intégrable.\r\nOn note $m$ leur espérance commune.\r\nÉtudier la convergence presque sûre de la suite \r\n$$S_n=\\frac{X_1X_2+X_2X_3+\\dots+X_{n-2}X_{n-1}+X_{n-1}X_n}{n}.$$",
+    "hint": "Appliquer la loi des grands nombres à \r\n$$\\frac{X_1X_2+X_3X_4+\\dots}{2n}...$$",
+    "solution": "On ne peut pas appliquer directement la loi des grands nombres à la suite $(X_iX_{i+1})$ car ces variables\r\nne sont pas indépendantes. On va coupler les choses deux par deux. En effet, supposons (sans perte de généralité)\r\nque $n=2p$ est pair et écrivons :\r\n$$T_p=\\frac{X_1X_2+X_3X_4+\\dots+X_{2p-1}X_{2p}}{p}$$\r\n$$U_p=\\frac{X_2X_3+X_4X_5+\\dots+X_{2p-2}X_{2p-1}}{p}.$$\r\nOn peut appliquer la loi des grands nombres à $(T_p)$ et $(U_p)$ qui convergent presque sûrement vers\r\n$E(X_1X_2)=E(X_1)E(X_2)=m^2$. De plus, on a \r\n$$S_n=\\frac{1}{2}T_p+\\frac{1}{2}U_p.$$\r\nAinsi, $(S_n)$ converge aussi presque sûrement vers $m^2$.",
+    "lang": "french"
+}

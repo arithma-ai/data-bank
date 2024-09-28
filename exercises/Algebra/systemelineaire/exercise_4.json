@@ -1,0 +1,6 @@
+{
+    "script": "Discuter suivant la valeur du paramètre $m\\in\\mathbb R$ le système :$$\\left\\{\r\n\\begin{array}{rcl}\r\n3x+y-z&=&1\\\\\r\nx-2y+2z&=&m\\\\\r\nx+y-z&=&1\r\n\\end{array}\\right.$$",
+    "hint": "",
+    "solution": "Notons $(S)$ ce système, et appliquons la méthode du pivot de Gauss. On choisit la troisième ligne comme pivot :\r\n\\begin{eqnarray*}\r\n(S)&\\iff&\\left\\{\r\n\\begin{array}{rcll}\r\nx+y-z&=&1&\\textrm{ (L3)}\\\\ \r\n-3y+3z&=&m-1&\\textrm{ (L2)-(L3)}\\\\\r\n-2y+2z&=&-2&\\textrm{ (L1)-3(L3)}\r\n\\end{array}\\right.\\\\\r\n&\\iff&\\left\\{\r\n\\begin{array}{rcl}\r\nx+y-z&=&1\\\\\r\n-y+z&=&(m-1)/3\\\\\r\n-y+z&=&-1\r\n\\end{array}\\right.\r\n\\end{eqnarray*}\r\nLe système admet donc des solutions si et seulement si $(m-1)/3=-1$, soit $m=-2$. Dans ce cas, il est équivalent à \r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx&=&1-y+z\\\\\r\nz&=&-1+y\r\n\\end{array}\\right.\\iff\r\n\\left\\{\\begin{array}{rcl}\r\nx&=&0\\\\\r\ny&=&y\\\\\r\nz&=&-1+y\r\n\\end{array}\\right.$$\r\nDans le cas où $m=-2$, l'ensemble des solutions est donc \r\n$$\\{(0,y,-1+y);\\ y\\in\\mathbb R\\}.$$",
+    "lang": "french"
+}

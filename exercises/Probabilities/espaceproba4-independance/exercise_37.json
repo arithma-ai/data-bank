@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(X_i)_{i\\in\\mathbb N}$ une suite de variables aléatoires indépendantes suivant toutes la même loi. On pose, pour $n\\geq 1$, $S_n=X_1+\\dots+X_n$\r\net on considère $a\\in\\mathbb R$. Démontrer l'équivalence suivante :\r\n$$P(X_1\\geq a)>0\\iff \\forall n\\geq 1,\\ P(S_n\\geq na)>0.$$",
+    "hint": "Relier l'événement $S_n\\geq na$ aux événements $X_1\\geq a$, $X_2\\geq a,\\dots,X_n\\geq a$.",
+    "solution": "Le sens réciproque est trivial puisqu'il correspond uniquement au cas $n=1$. Pour le sens direct, on remarque que\r\n$$(S_n\\geq na)\\supset (X_1\\geq a)\\cap (X_2\\geq a)\\cap\\dots\\cap (X_n\\geq a)$$\r\nce qui implique que\r\n$$P(S_n\\geq na)\\geq P\\big((X_1\\geq a)\\cap (X_2\\geq a)\\cap\\dots\\cap(X_n\\geq a)\\big).$$\r\nLes variables aléatoires étant indépendantes, on en déduit que\r\n$$P(S_n\\geq na)\\geq\\prod_{j=1}^n P(X_j\\geq a).$$\r\nEnfin, puisque les $X_i$ ont toutes la même loi que $X_1$, on a \r\n$$P(S_n \\geq na)\\geq \\big(P(X_1\\geq a)\\big)^n.$$\r\nAinsi, si $P(X_1\\geq a)>0$, on a bien $P(S_n\\geq na)>0$ pour tout entier $n\\geq 1$, ce qui prouve le sens direct.",
+    "lang": "french"
+}

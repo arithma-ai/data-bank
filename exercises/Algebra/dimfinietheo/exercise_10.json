@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ et $F$ deux espaces vectoriels de dimension finie et soit $f\\in\\mathcal L(E,F)$. Démontrer que $f$ est la somme de $r$ applications linéaires de rang $1$.",
+    "hint": "Considérer une base $(u_1,\\dots,u_r)$ de $\\textrm{Im}(f)$, la compléter en une base de $F$, et utiliser les projections sur les $u_i$....",
+    "solution": "Soit $(u_1,\\dots,u_r)$ une base de $\\textrm{Im}(f)$, que l'on complète en une base $(u_1,\\dots,u_r,u_{r+1},\\dots,u_n)$ de $F$. Notons, pour $i=1,\\dots,r$, $P_i$ la projection sur $\\textrm{vect}(u_i)$ parallèlement à $\\textrm{vect}(u_j:\\ j\\neq i)$, puis $f_i=P_i\\circ f$. Puisque $\\textrm{Im}(f_i)\\subset \\textrm{vect}(u_i)$, on a $\\textrm{rg}(f_i)\\leq 1$, et si on note $x_i$ tel que $f(x_i)=u_i$, on a $f_i(x_i)=P_i(u_i)=u_i$, ce qui prouve que $f_i$ n'est pas l'application nulle et est donc de rang $1$.Il reste à démontrer que $f=\\sum_{i=1}^r f_i$. Mais si \r\n$$f(x)=\\sum_{i=1}^r a_i u_i,$$\r\nalors \r\n$$f_i(x)=P_if(x)=a_i u_i$$\r\net donc\r\n$$\\sum_{i=1}^r f_i(x)=\\sum_{i=1}^r a_i u_i=f(x).$$",
+    "lang": "french"
+}

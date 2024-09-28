@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que la fonction $\\ln|x|$ est dans $L^1_{loc}(\\mathbb R)$.",
+    "hint": "",
+    "solution": "Il s'agit de démontrer que, pour tout segment $[a,b]$, l'intégrale $\\int_a^b |\\ln|x||dx$ est convergente. Si $0\\notin [a,b]$, c'est clair car on intègre une fonction continue sur un segment. Si $0\\in [a,b]$, ce n'est pas beaucoup plus dur, car on peut calculer cette intégrale. Par exemple, on a \r\n$$\\int_0^b \\ln(x)dx=\\left[x\\ln x -x\\right]_0^b=b\\ln b-b$$\r\noù on a utilisé que $x\\ln x\\to 0$ lorsque $x\\to 0$.",
+    "lang": "french"
+}

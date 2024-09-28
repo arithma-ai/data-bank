@@ -1,0 +1,6 @@
+{
+    "script": "Calculer les développements limités suivants :\r\n$$\\begin{array}{lcl}\r\n\\displaystyle \\mathbf 1.\\ \\arccos x\\textrm{ à l'ordre 5 en 0}&&\r\n\\displaystyle \\mathbf 2.\\ \\int_0^x e^{t^2}dt\\textrm{ à l'ordre 5 en 0}.\r\n\\end{array}\r\n$$",
+    "hint": "Intégrer des développements limités.",
+    "solution": "La fonction $\\arccos$ est dérivable en $0$, et sa dérivée vaut\r\n$$-\\frac{1}{\\sqrt{1-x^2}}.$$\r\nCette fonction est de classe $C^\\infty$ autour de $0$, elle admet au moins un développement limité à l'ordre $4$ en $0$. Pour le calculer, on commence par écrire que \r\n$$\\frac{1}{1-x^2}=1+x^2+x^4+o(x^4).$$\r\nPosons $u=x^2+x^4+o(x^4)$ et remarquons que \r\n$u^2=x^4+o(x^4).$\r\nDu développement limité de $\\sqrt{1+u}$, \r\n$$\\sqrt{1+u}=1+\\frac u2-\\frac{u^2}8+o(u^2),$$\r\non déduit que \r\n$$-\\frac 1{\\sqrt{1-x^2}}=-1-\\frac{x^2}2-\\frac 38{x^4}+o(x^4).$$\r\nOn intègre ce développement limité. Tenant compte de $\\arccos(0)=\\frac\\pi2$, il vient\r\n$$\\arccos(x)=\\frac\\pi 2-x-\\frac{x^3}6-\\frac{3}{40}x^5+o(x^5).$$La méthode est similaire. On remarque que \r\n$$e^{x^2}=1+x^2+\\frac{x^4}2+o(x^4).$$\r\nEn intégrant, on trouve que\r\n$$\\int_0^x e^{t^2}dt=0+x+\\frac{x^3}3+\\frac{x^5}{10}+o(x^5).$$",
+    "lang": "french"
+}

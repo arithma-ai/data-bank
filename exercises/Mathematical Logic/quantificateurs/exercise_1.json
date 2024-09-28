@@ -1,0 +1,6 @@
+{
+    "script": "Quatre cartes comportant un chiffre sur une face et une couleur sur l'autre sont disposées à plat sur une table. Une seule face de chaque carte est visible. Les faces visibles sont les suivantes: 5, 8, bleu, vert. Quelle(s) carte(s) devez-vous retourner pour déterminer la véracité de la règle suivante :\r\nsi une carte a un chiffre pair sur une face, alors elle est bleue sur l'autre face. Il ne faut pas retourner de carte inutilement, ni oublier d'en retourner une.",
+    "hint": "",
+    "solution": "Il faut retourner la carte 8 et la carte verte :inutile de retourner la carte 5, on n'a pas de contraintes sur les cartes ayant un chiffre impair sur une face;il faut retourner la carte 8, pour vérifier que la couleur sur l'autre face est bleue;inutile de retourner la carte bleue, une carte ayant un chiffre pair ou impair sur une face peut être bleue sur l'autre face;il faut retourner la carte verte : si le chiffre inscrit sur l'autre face était pair, la règle serait fausse.",
+    "lang": "french"
+}

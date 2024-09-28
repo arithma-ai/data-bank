@@ -1,0 +1,6 @@
+{
+    "script": "On définit $\\phi$ sur $\\mtc_n[X]\\times\\mtc_n[X]$ par $\\phi(P,Q)=\\int_{-1}^1 \\overline{P(x)}Q(-x)dx$.\r\nVérifier que $\\phi$ est une forme hermitienne. Est-elle positive? négative? définie?",
+    "hint": "On pourra calculer $\\phi$ de certains monômes.",
+    "solution": "La vérification est immédiate, le seul point un peu plus délicat étant la propriété de symétrie hermitienne, que l'on traite\r\npar un changement de variable du type $u=-x$. D'autre part, on a $\\varphi(X,X)=\\int_{-1}^1 -x^2dx=\\frac{-2}{3}$, tandis que\r\n$\\varphi(1,1)=\\int_{-1}^1 1dx=2$. La forme n'est ni positive, ni négative. En considérant le polynôme $X+\\frac{1}{\\sqrt{3}}$, on\r\npeut aussi démontrer qu'elle n'est pas définie.",
+    "lang": "french"
+}

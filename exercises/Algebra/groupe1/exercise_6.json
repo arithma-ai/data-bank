@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ un groupe admettant un nombre fini de sous-groupes.Démontrer que tout élément de $G$ est d'ordre fini.En déduire que $G$ est fini.",
+    "hint": "Si un élément n'est pas d'ordre fini, le sous-groupe engendré par cet élément est isomorphe à $(\\mathbb Z,+)$.Remarquer que $G$ est la réunion des sous-groupes engendrés par ses éléments.",
+    "solution": "Supposons que $G$ admette un élément $x$ d'ordre infini et notons $H$ le sous-groupe engendré par $x$. Alors $H$ est isomorphe à $(\\mathbb Z,+)$, qui contient une infinité\r\n de sous-groupes. On en déduit que $H$, et donc $G$, contiennent aussi une infinité de sous-groupes (les sous-groupes engendrés par les $x^n$, $n\\geq 1$, qui ne sont pas deux à deux égaux).Pour $x\\in G$, notons $H_x$ le sous-groupe engendré par $x$. Alors on a $G=\\bigcup_{x\\in G}H_x$. Mais puisque $G$ contient seulement un nombre fini de sous-groupes, \r\n il y a un nombre fini de $H_x$ différents, notons-les $H_{x_1},\\dots,H_{x_p}$, d'où $G=\\bigcup_{i=1}^p H_{x_i}$. Mais chacun des $H_{x_i}$ est fini d'après la question précédente.\r\n Donc $G$ est fini.",
+    "lang": "french"
+}

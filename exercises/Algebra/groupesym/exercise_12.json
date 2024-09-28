@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ un groupe et $H$ un sous-groupe de $G$ d'indice 2. Démontrer que, pour tout $x\\in G$, on a $x^2\\in H$.En déduire que $\\mathcal A_4$ n'admet pas de sous-groupes d'ordre 6.",
+    "hint": "Si $x,y\\notin H$, alors $xH=yH$.Les $3$-cycles sont des carrés.",
+    "solution": "Puisque $H$ est d'indice 2, si $x\\notin H$, alors on a $xH\\cap H=\\varnothing$ et par des considérations de cardinal, $H\\cup xH=G$. Ainsi, $xH$ est le complémentaire de $H$ dans $G$.\r\nEn particulier, pour tous $x,y$ dans $G$ mais pas dans $H$, alors on a $xH=yH$. Prenons maintenant $x\\in G$. Si $x\\in H$, alors $x^2\\in H$ et il n'y a rien à prouver. Sinon, si $x^2\\notin H$, alors $xH=x^2H$ ce qui entraîne, après simplifications, que $x\\in H$, contradiction. On a donc bien prouvé que $x^2\\in H$ pour tout $x\\in G$.Il y a trop de carrés dans $\\mathcal A_4$! En effet, tous les $3$-cycles sont des carrés (si $c$ est un $3$-cycle, alors $c=(c^2)^2$). Et il y a huit $3$-cycles dans $\\mathcal A_4$, trop pour qu'il y ait un sous-groupe d'ordre 6.",
+    "lang": "french"
+}

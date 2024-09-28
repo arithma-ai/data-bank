@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction holomorphe dans $D(0,R)$ et continue dans $\\overline{D(0,R)}$. \r\nPour tout $z\\in D(0,R)$, prouver que\r\n$$f(z)=\\frac{1}{2i\\pi}\\int_{C(0,R)}\\frac{f(w)}{w-z}dw.$$",
+    "hint": "La formule est vraie en remplaçant $R$ par $r\\in]|z|,R[$. Faire tendre $r$ vers $R$.",
+    "solution": "Pour $r\\in]|z|,R]$, on note\r\n$$I_r=\\frac{1}{2i\\pi}\\int_{C(0,r)}\\frac{f(w)}{w-z}dw$$\r\net on remarque que $I_r=f(z)$ si $|z|<R$ d'après la formule de Cauchy.\r\nIl s'agit donc de prouver que $I_r$ converge vers $I_R$ lorsque $r$ tend vers $R$.\r\nMais\r\n\\begin{eqnarray*}\r\n2\\pi(I_r-I_R)&=&\\int_0^{2\\pi}\\frac{re^{it}f(re^it)}{re^{it} -z}-\\frac{Re^{it}f(Re^it)}{Re^{it}-z}dt\r\n\\end{eqnarray*}\r\nOn peut conclure de plusieurs façons, par exemple en appliquant le théorème de convergence dominée, en notant\r\n$M$ un majorant de $|f|$ sur $\\overline{D(0,R)}$ et en supposant $r\\geq r_0\\geq |z|+\\alpha$\r\navec $\\alpha>0$, on a\r\n$$\\left|\\frac{re^{it}f(re^it)}{re^{it} -z}-\\frac{Re^{it}f(Re^it)}{Re^{it}-z}\\right|\\leq \\frac{2RM}{\\alpha}$$\r\nqui est une fonction intégrable sur $[0,2\\pi]$. Puisque la fonction à intégrer tend vers 0\r\nlorsque $r$ tend vers $R$, on en déduit le résultat. On peut aussi s'en sortir à la main\r\nsans utiliser le théorème de convergence dominée.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les arcs de classe $C^2$ dont la courbure est constante.",
+    "hint": "Paramétrer par abscisse curviligne et utiliser la formule de Frénet liant courbure et détermination angulaire.",
+    "solution": "On utilise un paramétrage $(I,f)$  de la courbe par abscisse curviligne. Soit $\\alpha$ une détermination angulaire de la courbe, c'est-à-dire\r\nqu'en tout $s$ de $I$, on a $f'(s)=e^{i\\alpha(s)}$. Les formules de Frénet entraînent que \r\n$$\\frac{d\\alpha}{ds}=\\gamma(s)=C,$$\r\noù $\\gamma$ est la fonction courbure. En intégrant, on trouve $\\alpha(s)=Cs+\\alpha_0$. Quitte à effectuer une rotation du repère,\r\non peut supposer que $\\alpha_0=0$. On a alors $f'(s)=e^{iCs}$. On intègre alors, et on distingue deux cas :Si $C\\neq 0$, on obtient $f(s)=\\frac 1{iC}e^{iCs}+z_0$. On reconnait un cercle de centre d'affixe $z_0$ et de rayon $1/C$.Si $C=0$, alors on obtient $f(s)=s+z_0$. On reconnait la droite orientée par $\\vec i$ et passant par $z_0$. Tenant compte de la rotation initiale\r\ndu repère, on peut en réalité obtenir n'importe quelle droite.Réciproquement, on vérifie facilement qu'une droite et un cercle sont à courbure constante.",
+    "lang": "french"
+}

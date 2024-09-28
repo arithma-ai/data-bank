@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f=\\mathbf{1}_{[-1,1]}$ et $g=\\mathbf{1}_{[-a,a]}$, avec $a\\geq 1$. Calculer $f\\star g$ après en avoir justifié\r\nl'existence.",
+    "hint": "",
+    "solution": "$f$ et $g$ sont par exemple deux fonctions de $L^2(\\mtr)$ : on peut donc calculer leur produit de convolution.\r\nOn a \r\n$$f\\star g(x)=\\int_\\mtr 1_{[-1,1]}(y)1_{[-a,a]}(x-y)dy.$$\r\nOn a donc\r\n$$f\\star g(x)=\\int_{-1}^1 1_{[-a,a]}(x-y)dy.$$\r\nOr, $x-y\\in [-a,a]\\iff y\\in[-a+x,a+x]$ et donc\r\n$$f\\star g(x)=\\mathrm{longueur}([-1,1]\\cap [-a+x,a+x]).$$\r\n On distingue donc plusieurs cas :Si $-a+x\\geq 1$, ie $x\\geq a+1$, alors $f\\star g(x)=0$.De même, si $a+x\\leq -1$, ie $x\\leq -1-a$, alors $f\\star g(x)=0$.Si $[-1,1]\\subset [-a+x,a+x]$, ie $-a+x\\leq -1$ et $a+x\\geq 1$, ie $-a+1\\leq x\\leq a-1$, alors $f\\star g(x)=2$.Sur les deux intervalles restants, ie $[-a-1,-a+1]$ et $[a-1,a+1]$, alors $f\\star g$ est linéaire.\r\nPlus précisément, si $x\\in [-a-1,-a+1]$, \r\n$$f\\star g(x)=x+a+1$$ \r\net si $x\\in [a-1,a+1]$, \r\n$$f\\star g(x)=a+1-x.$$",
+    "lang": "french"
+}

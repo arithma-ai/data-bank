@@ -1,0 +1,6 @@
+{
+    "script": "Écrire en extension (c'est-à-dire en donnant tous leurs éléments) les ensembles suivants :\r\n$$A=\\left\\{\\textrm{nombres entiers compris entre $\\sqrt{2}$ et $2\\pi$}\\right\\}.$$\r\n$$B=\\left\\{x\\in\\mtq;\\ \\exists(n,p)\\in\\mtn^*\\times\\mtn,\\ x=\\frac{p}{n}\\textrm{ et }1\\leq p\\leq 2n\\leq 7\\right\\}.$$",
+    "hint": "Pour $B$, prendre garde aux répétitions.",
+    "solution": "On a :\r\n$$A=\\left\\{2,3,4,5,6\\right\\}.$$\r\nPour écrire $B$, on remarque que $1/2\\leq n\\leq 7/2\\implies n=1,2$ ou $3$. Pour chaque valeur possible de $n$, on détermine ensuite les valeurs possibles de $p$ :Pour $n=1$, on a $p\\in\\{1,2\\}$.Pour $n=2$, on a $p\\in\\{1,2,3,4\\}$.Pour $n=3$, on a $p\\in\\{1,2,3,4,5,6\\}$.Finalement, on trouve\r\n$$B=\\left\\{1,2,\\frac{1}{2},\\frac{3}{2},\\frac{1}{3},\\frac{2}{3},\\frac{4}{3},\\frac{5}{3}\\right\\}.$$\r\nOn n'a pas écrit plusieurs fois 1, qui s'obtient aussi avec 2/2 et 3/3, ni plusieurs fois 2, qu'on obtient avec 2/1, 4/2 et 6/3.",
+    "lang": "french"
+}

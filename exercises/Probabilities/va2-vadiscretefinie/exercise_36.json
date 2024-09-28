@@ -1,0 +1,6 @@
+{
+    "script": "La plupart des langages de programmation dispose d'une fonction ALEA() qui renvoie un nombre aléatoire suivant la loi uniforme sur $[0,1]$. Écrire un algorithme dont les données sont un entier $N\\geq 1$ et un tableau $p[1],\\dots,p[N]$ de réels positifs vérifiant $\\sum_{i=1}^n p[i]=1$ et qui retourne un nombre aléatoire $X$ tel que $P(X=i)=p[i]$.",
+    "hint": "",
+    "solution": "Une méthode possible est basée sur la fonction de répartition de $X$. Plus précisément, notons\r\n$s_0=0$ et, pour $i=1,\\dots,N$, $s_i=s_{i-1}+p_i$. Alors, si $U$ suit une loi uniforme sur $[0,1]$, \r\n$P(U\\in ]s_{i-1},s_i])=s_i-s_{i-1}=p_i$. L'algorithme suivant reprend cette idée.Données :N, p[1],...,p[N]Variables :Traitement :S[0]=0Pour i allant de 1 à N faireS[i]=S[i-1]+p[i]Fin Pourx=ALEA()Pour i allant de 1 à N faireSi S[i-1]<x<=S[i] alors retourner i.Fin PourUne erreur classique serait d'utiliser la fonction ALEA() à l'intérieur de la deuxième boucle Pour. On ne tirerait pas une seule fois un nombre au hasard, mais plusieurs fois et cela n'aurait plus du tout le même sens (d'ailleurs, on pourrait sortir de la boucle pour sans avoir retourné quelque chose).",
+    "lang": "french"
+}

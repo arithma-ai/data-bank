@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout entier $n\\geq 0$,\r\n$(3-\\sqrt{5})^n+(3+\\sqrt{5})^n$ est divisible par $2^n$.",
+    "hint": "Montrer que la suite $(u_n)$ vérifie une relation de\r\nrécurrence $u_{n+2}=au_{n+1}+bu_n$ avec $a,b$ entiers.",
+    "solution": "Posons $u_n=(3-\\sqrt{5})^n+(3+\\sqrt{5})^n$. L'idée est de prouver\r\nque la suite $(u_n)$ vérifie une relation de récurrence d'ordre 2.\r\nEn effet, elle est de la forme $u_n=r_1^n+r_2^n$. D'après la théorie des suites récurrentes linéaires,\r\n$(u_n)$ vérifie l'équation de récurrence linéaire dont l'équation caractéristique associée est \r\n$$X^2-(r_1+r_2)X+r_1r_2=0\\iff X^2-6X+4=0.$$\r\nAutrement dit, on a $u_{n+2}=6u_{n+1}-4u_n$. Bien sûr, on peut vérifier directement que la suite\r\n$(u_n)$ satisfait cette condition de récurrence.On prouve alors par récurrence sur $n$ que $2^n$ divise $u_n$. C'est vrai pour $n=0$, \r\ncar $u_0=2$ et pour $n=1$, car $u_1=6$. Supposons que $2^n|u_n$ et $2^{n+1}|u_{n+1}$.\r\nAlors, écrivant $u_n=k2^n$ et $u_{n+1}=l2^{n+1}$, on a \r\n$$u_{n+2}=2\\times 3\\times l2^{n+1}-2^2\\times k2^n=2^{n+2}(3l-k).$$\r\nCeci prouve le résultat demandé.",
+    "lang": "french"
+}

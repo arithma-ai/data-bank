@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace affine et $F_1$, $F_2$ deux sous espaces affines de $E$.\r\nOn suppose que $F_1$ est (faiblement) parallèle à $F_2$, c'est-à-dire que $\\vec{F_1}\\subset \\vec{F_2}$. Démontrer que $F_1\\cap F_2=\\varnothing$, ou $F_1\\subset F_2$.",
+    "hint": "Supposer que $F_1\\cap F_2\\neq \\varnothing$ et considérer $M\\in F_1\\cap F_2$. Utilisant $M$, et $A$ tel que $F_1=A+\\vec{F_1}$, prouver que $A\\in F_2$.",
+    "solution": "Soit $A\\in F_1$ et $B\\in F_2$, de sorte que $F_1=A+\\vec{F_1}$ et $F_2=B+\\vec{F_2}$. \r\nOn suppose que $F_1\\cap F_2\\neq\\varnothing$ et on va/doit prouver que $F_1\\subset F_2$. Pour cela, on choisit $M\\in F_1\\cap F_2$. \r\nAlors $\\overrightarrow{AM}\\in\\vec{F_1}\\subset\\vec{F_2}$ et $\\overrightarrow{BM}\\subset\\vec{F_2}$. On en déduit que\r\n$\\overrightarrow{BA}=\\overrightarrow{BM}+\\overrightarrow{MA}\\in\\vec{F_2}$. Ainsi, $A$ est élément de $F_2$. Donc $A+\\vec{F_1}\\subset A+\\vec{F_2}=F_2$.",
+    "lang": "french"
+}

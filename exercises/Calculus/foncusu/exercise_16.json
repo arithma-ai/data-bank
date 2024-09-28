@@ -1,0 +1,6 @@
+{
+    "script": "Existe-t-il un point de la courbe représentative du logarithme tel que la tangente à cette courbe représentative en ce point passe par l'origine?",
+    "hint": "Considérer un point $(a,\\ln(a))$ sur la courbe et écrire l'équation de la tangente à la courbe en $(a,\\ln(a))$. Vérifier si cette droite passe ou non par l'origine.",
+    "solution": "Soit $a>0$ et $(a,\\ln(a))$ un point sur la courbe représentative du logarithme. La tangente à la courbe en ce point a pour équation \r\n$$y-\\ln (a)=\\frac{1}{a}(x-a).$$\r\nElle passe par l'origine si et seulement si\r\n$$0-\\ln a=\\frac 1a(0-a)\\iff -\\ln a =-1\\iff a=e.$$\r\nIl y a donc un unique point pour lequel la tangente à la courbe représentative passe par l'origine, le point $(e,1)$.",
+    "lang": "french"
+}

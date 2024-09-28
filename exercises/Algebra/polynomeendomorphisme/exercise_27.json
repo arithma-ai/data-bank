@@ -1,0 +1,6 @@
+{
+    "script": "Existe-t-il dans $\\mathcal M_n(\\mathbb R)$ une matrice dont le polynôme minimal est $X^2+1$?",
+    "hint": "Discuter suivant la parité de $n$, puis traiter d'abord le cas $n=2$.",
+    "solution": "Supposons d'abord qu'il existe une telle matrice. Alors puisque $X^2+1$ n'a pas de racines dans $\\mathbb R$, $A$ n'admet pas de valeurs propres réelles. Ceci n'est possible que si $n$ est pair, sinon le polynôme caractéristique est de degré impair et s'annule.Réciproquement, supposons que $n=2p$ est pair. La clé est le cas $n=2$. Dans ce cas, la matrice \r\n$$B=\\left(\\begin{array}{cc}\r\n0&1\\\\\r\n-1&0\r\n\\end{array}\\right)$$\r\nconvient (dans ce cas, on a également $\\chi_B(X)=X^2+1$). Plus généralement, pour $n=2p$ pair quelconque, on considère la matrice diagonale par blocs comprenant sur la diagonale $p$ blocs de $B$.",
+    "lang": "french"
+}

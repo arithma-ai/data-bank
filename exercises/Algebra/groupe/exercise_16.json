@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ un groupe et $H_1,H_2$ deux sous-groupes de $G$. Démontrer que $H_1\\cap H_2$ est un sous-groupe de $G$.",
+    "hint": "Vérifier les hypothèses du théorème de caractérisation des sous-groupes.",
+    "solution": "On va vérifier les hypothèses du théorème de caractérisation des sous-groupes.On sait que $1_G\\in H_1$ (puisque $H_1$ est un sous-groupe de $G$) et que $1_G\\in H_2$ (puisque $H_2$ est un sous-groupe de $G$). Donc $1_G\\in H_1\\cap H_2$.Soit $x,y\\in H_1\\cap H_2$. Alors, $x\\in H_1,$ $y\\in H_1$ et donc puisque $H_1$ est un sous-groupe de $G$, $xy\\in H_1$. De la même façon, on prouve que $xy\\in H_2$ et donc que $xy\\in H_1\\cap H_2$.Soit $x\\in H_1\\cap H_2$. Alors, $x\\in H_1$ et puisque $H_1$ est un sous-groupe de $G$, $x^{-1}\\in H_1$. De même, $x^{-1}\\in H_2$ et finalement $x^{-1}\\in H_1\\cap H_2$.",
+    "lang": "french"
+}

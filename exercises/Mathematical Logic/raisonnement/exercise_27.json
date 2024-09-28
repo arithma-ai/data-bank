@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que tout entier $n\\geq 1$ peut s'écrire comme somme de puissances de 2 toutes distinctes.",
+    "hint": "Procéder par récurrence forte sur $n$.",
+    "solution": "On va procéder par récurrence forte sur $n$. La propriété est vraie pour $n=1$, puisqu'on peut alors écrire $1=2^0$.\r\nSoit $n\\geq 1$ et supposons la propriété vraie pour tous les entiers inférieurs stricts à $n$. Si $n$ est pair, alors $n=2m$ et \r\n$m$ s'écrit comme somme de puissances de 2 toutes distinctes, $m=2^{p_1}+\\dots+2^{p_r}$. Alors \r\n$n=2^{p_1+1}+\\dots+2^{p_r+1}$ s'écrit aussi comme somme de puissances de 2 toutes distinctes. Si $n$ est impair,\r\nalors $n-1=2m$ est pair. $m$ s'écrit à nouveau $m=2^{p_1}+\\dots+2^{p_r}$, où les $p_i$ sont tous différents. Mais alors,\r\n$$n=1+2m=2^0+2^{p_1+1}+\\dots+2^{p_r+1}$$\r\ns'écrit bien comme somme de puissances de 2 toutes distinctes.",
+    "lang": "french"
+}

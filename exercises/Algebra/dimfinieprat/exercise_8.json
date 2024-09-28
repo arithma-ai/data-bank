@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E=\\mathbb C_{n-1}[X]$ et soit $\\alpha_1,\\dots,\\alpha_n$ des nombres complexes deux à deux distincts. On pose, pour $k=1,\\dots,n$,\r\n$$L_k=\\frac{\\prod_{\\substack{i=1\\\\i\\neq k}}^n (X-\\alpha_i)}{\\prod_{\\substack{i=1\\\\i\\neq k}}^n (\\alpha_k-\\alpha_i)}.$$\r\nDémontrer que $(L_k)_{k=1,\\dots,n}$ est une base de $E$. Déterminer les coordonnées d'un élément $P\\in E$ dans cette base.",
+    "hint": "Le point clé est de constater que $L_k(\\alpha_i)=1$ si $i=k$, $0$ sinon.",
+    "solution": "Le point clé est de constater que $L_k(\\alpha_i)=1$ si $i=k$, $0$ sinon. Supposons alors que \r\n$$a_1L_1+\\dots+a_n L_n=0.$$\r\nSi on évalue cette égalité en $\\alpha_k$, on trouve $a_k=0$. La famille est libre. C'est une famille de $n$ vecteurs dans un espace de dimension $n$, donc c'est une base de $E$.De plus, prenons $P\\in E$, et cherchons $a_1,\\dots,a_n$ tels que \r\n$$P=a_1L_1+\\dots+a_n L_n.$$\r\nLa méthode est identique : on évalue en $\\alpha_k$ et on trouve\r\n$$P(\\alpha_k)=a_k.$$\r\nAinsi, on a prouvé que pour tout $P\\in E$, on a \r\n$$P(X)=\\sum_{k=1}^n P(\\alpha_k)L_k.$$",
+    "lang": "french"
+}

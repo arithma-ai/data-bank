@@ -1,0 +1,6 @@
+{
+    "script": "Soient $(a_n)_{n\\in\\mathbb N}$ et $(B_n)_{n\\in\\mathbb N}$ deux suites de nombres complexes. On définit deux suites $(A_n)_{n\\in\\mathbb N}$ et $(b_n)_{n\\in\\mathbb N}$ en posant :\r\n$$A_n=\\sum_{k=0}^n a_k,\\quad\\quad b_n=B_{n+1}-B_n.$$Démontrer que $\\sum_{k=0}^n a_kB_k=A_n B_n-\\sum_{k=0}^{n-1}A_kb_k.$En déduire la valeur de $\\sum_{k=0}^n 2^kk$.",
+    "hint": "Remplacer $a_k$ par $A_k-A_{k-1}$. On obtient deux sommes. Les séparer et changer d'indice dans l'une des deux sommes.Poser $a_k=2^k$.",
+    "solution": "On convient que $A_{-1}=0$. On a alors\r\n\\begin{eqnarray*}\r\n\\sum_{k=0}^n a_k B_k&=&\\sum_{k=0}^n (A_k-A_{k-1})B_k\\\\\r\n&=&\\sum_{k=0}^n A_k B_k-\\sum_{k=0}^n A_{k-1}B_k\\\\\r\n&=&\\sum_{k=0}^n A_k B_k-\\sum_{k=0}^{n-1} A_k B_{k+1}\\\\\r\n&=&A_n B_n+\\sum_{k=0}^{n-1}A_k (B_k-B_{k+1})\\\\\r\n&=&A_nB_n-\\sum_{k=0}^{n-1} A_k b_k.\r\n\\end{eqnarray*}On pose $a_k=2^k$ et $B_k=k$. Alors $A_n=2^{n+1}-1$ et $b_k=1$. On en déduit que\r\n\\begin{eqnarray*}\r\n\\sum_{k=0}^n k2^k&=&(2^{n+1}-1)n-\\sum_{k=0}^{n-1}(2^{k+1}-1)\\\\\r\n&=&(2^{n+1}-1)n-2(2^n-1)+n\\\\\r\n&=&2^{n+1}(n-1)+2.\r\n\\end{eqnarray*}Ce procédé de transformation de somme s'appelle une sommation d'Abel.",
+    "lang": "french"
+}

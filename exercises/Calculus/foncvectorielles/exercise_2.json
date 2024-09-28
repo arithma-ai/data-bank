@@ -1,0 +1,6 @@
+{
+    "script": "Soit $I$ un intervalle, $E$ un espace vectoriel euclidien et $f:I\\to E$ dérivable. On suppose de plus que $f$ ne s'annule pas et on pose, pour tout $t\\in I$, $g(t)=\\|f(t)\\|$. Démontrer que $g$ est dérivable et donner $g'$.",
+    "hint": "Dérivée d'une fonction composée.",
+    "solution": "Pour tout $t\\in I$, on a $g(t)=\\sqrt{\\langle f(t),f(t)\\rangle}$. La fonction racine carrée étant dérivable sur $]0,+\\infty[$ (de dérivée $x\\mapsto 1/2\\sqrt x$) et la fonction $t\\mapsto \\langle f(t),f(t)\\rangle$ étant dérivable sur $I$, de dérivée $2\\langle f(t),f'(t)\\rangle$, on en déduit par composition la dérivabilité de $g$ sur $I$. De plus, pour tout $t\\in I$, on a\r\n$$g'(t)=\\frac{2\\langle f(t),f'(t)\\rangle}{2\\sqrt{\\langle f(t),f(t)\\rangle}}=\\frac{\\langle f(t),f'(t)\\rangle}{\\|f(t)\\|}.$$",
+    "lang": "french"
+}

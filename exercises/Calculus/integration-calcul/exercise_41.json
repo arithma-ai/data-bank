@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer une primitive de la fonction $\\frac 1{\\cos^6 x}$ sur l'intervalle $]-\\pi/2,\\pi/2[$.",
+    "hint": "Poser $t=\\tan x$.",
+    "solution": "Puisqu'on sait qu'une primitive de $\\frac1{\\cos^2 x}$ est $\\tan x$, on est incité à utiliser le changement de variables $t=\\tan x$. Utilisant \r\n$$dt=\\frac{dx}{\\cos^2 x}\\textrm{ et }1+t^2=\\frac{1}{\\cos^2 x}$$\r\non trouve\r\n\\begin{eqnarray*}\r\n\\int \\frac{dx}{\\cos^6 x}&=&\\int (1+t^2)^2 dt\\\\\r\n&=&\\int (1+2t^2+t^4)dt\\\\\r\n&=&t+\\frac{2t^3}{3}+\\frac{t^5}5\\\\\r\n&=&\\tan x+\\frac{2\\tan^3 x}3+\\frac{\\tan^5 x}5.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

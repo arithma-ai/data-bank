@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction continue sur $\\mtr$ admettant une période $T$. Prouver que $f$ est uniformément continue.",
+    "hint": "Appliquer le théorème de Heine en prenant un peu de marge sur l'intervalle.",
+    "solution": "Fixons $\\veps>0$. Par le théorème de Heine, $f$ est uniformément continue sur le segment $[-T,2T]$ :\r\n$$\\exists\\eta>0,\\ x,y\\in[-T,2T]\\textrm{ et }|x-y|\\leq\\eta\\implies |f(x)-f(y)|\\leq\\varepsilon$$\r\n(on peut supposer $\\eta<T$). Prenons alors $x$ et $y$ dans $\\mtr$, avec $|x-y|\\leq\\eta$. Il existe $k\\in \\mtz$ tel que $x'=x+kT\\in[0,T]$. Mais alors, on a $y'=y+kT\\in[x'-\\eta,x'+\\eta]\\subset[-T,2T]$. Remarquons enfin que $|x'-y'|\\leq\\eta$. On en déduit :\r\n$$|f(x)-f(y)|=|f(x')-f(y')|\\leq \\veps.$$\r\nLa fonction est uniformément continue sur $\\mtr$.",
+    "lang": "french"
+}

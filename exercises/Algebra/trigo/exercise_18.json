@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer l'ensemble des couples $(x,y)$ vérifiant les conditions suivantes :\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\n2\\cos(x)+3\\sin(y)&=&\\sqrt 2-\\frac 32\\\\\r\n4\\cos(x)+\\sin(y)&=&2\\sqrt 2-\\frac 12\\\\\r\nx\\in [-\\pi;\\pi],\\ y\\in [-\\pi;\\pi]\r\n\\end{array}\\right.$$",
+    "hint": "Poser $X=\\cos x$ et $Y=\\sin y$.",
+    "solution": "Posons $X=\\cos(x)$ et $Y=\\sin(y)$. Alors le couple $(X,Y)$ est solution du système\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\n2X+3Y&=&\\sqrt 2-\\frac 32\\\\\r\n4X+Y&=&2\\sqrt 2-\\frac 12.\r\n\\end{array}\\right.$$\r\nOn résout ce système en remarquant que \r\n$$Y-2\\times 3Y=2\\sqrt 2-\\frac 12-2\\times\\left(\\sqrt 2-\\frac 32\\right)$$\r\nce qui donne encore\r\n$$-5Y=\\frac 52\\iff Y=-\\frac 12.$$\r\nOn en déduit ensuite que $X=\\frac{\\sqrt 2}2$. On a donc $\\sin(y)=-\\frac 12$ ce qui entraîne que $y=-\\pi/6$ ou $y=-5\\pi/6$, puis $\\cos x=\\sqrt 2/2$, ce qui entraîne $x=\\pi/4$ ou $x=-\\pi/4$. Finalement, on trouve 4 couples de solutions : \r\n$$\\mathcal S=\\left\\{\\left(\\frac \\pi4,-\\frac \\pi 6\\right);\r\n\\left(\\frac \\pi4,-\\frac{5\\pi} 6\\right);\\left(-\\frac \\pi4,-\\frac \\pi 6\\right);\\left(-\\frac \\pi4,-\\frac{5\\pi} 6\\right)\\right\\}.$$",
+    "lang": "french"
+}

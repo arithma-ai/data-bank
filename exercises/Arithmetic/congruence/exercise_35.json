@@ -1,0 +1,6 @@
+{
+    "script": "Soit $p\\geq 2$ un nombre premier. Démontrer que pour tout $N\\in\\mathbb N^*$, pour tout $j\\in\\mathbb N^*$, pour tous\r\n$(x_1,\\dots,x_N)\\in\\mathbb Z^N$, on a\r\n$$\\left(\\sum_{i=1}^N x_i\\right)^{p^j}\\equiv \\sum_{i=1}^N x_i^{p^j}\\ [p].$$",
+    "hint": "Commencer par démontrer que, pour tout $a\\in\\mathbb Z$ et tout $j\\geq 1,$\r\n$$a^{p^j}\\equiv a\\ [p].$$",
+    "solution": "Soit $a\\in\\mathbb Z$. Pour $j\\geq 1$, on pose \r\n$$\\mathcal P_j: \"a^{p^j}\\equiv a\\ [p].\"$$\r\nOn prouve par récurrence que $\\mathcal P_j$ est vraie pour tout $j\\geq 1$.Initialisation : $\\mathcal P_1$ est vraie d'après le petit théorème de Fermat.Hérédité : Soit $j\\geq 1$ tel que $a^{p^j}\\equiv a\\ [j]$. Alors par le petit théorème de Fermat appliqué à $b=a^{p^j}$, on trouve que \r\n\\begin{align*}\r\na^{p^{j+1}}&=b^p\\\\\r\n&\\equiv b\\ [p]\\\\\r\n&\\equiv a^{p^j}\\ [p]\\\\\r\n&\\equiv a\\ [p].\r\n\\end{align*}\r\nAinsi, $\\mathcal P_{j+1}$ est vraie.On en déduit alors que :\r\n\\begin{align*}\r\n\\left(\\sum_{i=1}^N x_i\\right)^{p^j}&\\equiv \\sum_{i=1}^n x_i\\ [p]\\\\\r\n&\\equiv \\sum_{i=1}^N x_i^{p^j}\\ [p]\r\n\\end{align*}\r\nen alignant la propriété précédente une première fois avec $a=\\sum_{i=1}^N x_i$ et une deuxième fois avec $a=x_i$, $i=1,\\dots,N.$",
+    "lang": "french"
+}

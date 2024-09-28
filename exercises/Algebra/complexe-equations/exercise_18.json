@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre  l'équation $4iz^3+2(1+3i)z^2-(5+4i)z+3(1-7i)=0$, sachant qu'elle admet une racine réelle.",
+    "hint": "",
+    "solution": "Soit $x$ une racine réelle, ie $4ix^3+2(1+3i)x^2-(5+4i)x+3(1-7i)=0$. Partie\r\nréelle et partie imaginaire du membre de gauche doivent être nulles, on obtient donc\r\naprès identification :\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\n2x^2-5x+3&=&0\\\\\r\n4x^3+6x^2-4x-21&=&0.\r\n\\end{array}\\right.$$\r\nIl est facile de résoudre la première équation et de vérifier si on obtient une racine de l'autre équation.\r\nOn trouve que $3/2$ est racine. On factorise alors le polynôme par $z-3/2$, et on trouve (par exemple en procédant par identification) :\r\n$$4iz^3+2(1+3i)z^2-(5+4i)z+3(1-7i)=(z-3/2)\\big(4iz^2+2(1+6i)z+2(-1+7i)\\big).$$\r\nReste à résoudre ensuite l'équation :\r\n$$4iz^2+2(1+6i)z+2(-1+7i)=0$$\r\ndont les solutions sont $-2+\\frac32i$ et $-1-i$.",
+    "lang": "french"
+}

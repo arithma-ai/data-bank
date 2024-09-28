@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a,b>0$. Calculer les coordonnées du centre de gravité du domaine :\r\n$$D=\\left\\{(x,y)\\in\\mtr^2;\\ \\frac{x^2}{a^2}+\\frac{y^2}{b^2}\\leq 1,\\ x\\geq 0\\textrm{ et }y\\geq 0\\right\\}.$$",
+    "hint": "Les coordonnées du centre de gravité de $D$ sont données par :\r\n$$x_G=\\frac{1}{\\textrm{aire $D$}}\\int\\!\\int_Dxdxdy,$$\r\n$$y_G=\\frac{1}{\\textrm{aire $D$}}\\int\\!\\int_Dydxdy.$$",
+    "solution": "On commence par calculer l'aire du domaine. Il s'agit d'un quart d'ellipse, et on obtient $\\frac{\\pi ab}{4}$. On peut faire ce calcul en effectuant le changement de variables $x=ar\\cos\\theta$ et $y=br\\sin\\theta$. Effectuons d'ailleurs ce changement de variables pour calculer $x_G$. On a :\r\n$$(x,y)\\in D\\iff 0\\leq r\\leq 1\\textrm{ et }\\theta\\in[0,\\pi/2].$$\r\nOn a donc :\r\n\\begin{eqnarray*}\r\nx_G&=&\\frac{4}{\\pi ab}\\int_0^1\\int_0^{\\pi/2}ar\\cos\\theta abrdrd\\theta\\\\\r\n&=&\\frac{4a}{\\pi}\\int_0^1r^2dr\\\\\r\n&=&\\frac{4a}{3\\pi}.\r\n\\end{eqnarray*}\r\nDe même, on trouve par symétrie entre les variables $x$ et $y$ :\r\n$$y_G=\\frac{4b}{3\\pi}.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[a,b]\\to\\mathbb R$ dérivable. On suppose que $f(a)=f(b)=0$ et que $f'(a)>0$, $f'(b)>0$. Démontrer qu'il existe $c\\in]a,b[$ tel que $f(c)=0$.",
+    "hint": "Trouver $a'\\in]a,b[$ tel que $f(a')>0$ et $b'\\in]a,b[$ tel que $f(b')<0$.",
+    "solution": "Puisque $f'(a)>0$, on sait que \r\n$$\\lim_{x\\to a^+}\\frac{f(x)-f(a)}{x-a}>0.$$\r\nCeci implique qu'il existe $a'\\in ]a,b[$ tel que $f(a')>0$ (sinon, pour tout $x\\geq a$, on aurait $f(x)\\leq f(a)$, donc $f(x)-f(a)\\leq 0$ donc \r\n$$\\frac{f(x)-f(a)}{x-a}\\leq 0,$$\r\ndonc en passant à la limite $f'(a)\\leq 0$). De la même façon, en utilisant $f'(b)>0$, on prouve l'existence de $b'\\in]a,b[$ tel que $f(b')<0$. \r\nIl suffit ensuite d'appliquer le théorème des valeurs intermédiaires entre $a$ et $b$ pour conclure.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Quel est, pour $n\\geq 1$,  l'ordre de multiplicité de $2$ comme racine du polynôme \r\n$$P_n(X)=nX^{n+2}-(4n+1)X^{n+1}+4(n+1)X^n-4X^{n-1}?$$",
+    "hint": "Dériver!",
+    "solution": "On vérifie d'abord que $P_n(2)=0$ et donc que $2$ est racine de $P_n$. Ensuite, on calcule la dérivée :\r\n$$P_n'(X)=n(n+2)X^{n+1}-(4n+1)(n+1)X^n +4n(n+1)X^{n-1}-4(n-1)X^{n-2}$$\r\n(si $n=1$, le dernier terme est interprété comme le polynôme nul).\r\nEn particulier, on a \r\n\\begin{eqnarray*}\r\nP_n'(2)&=&n(n+2)2^{n+1}-(4n+1)(n+1)2^n +4n(n+1)2^{n-1}-4(n-1)2^{n-2}\\\\\r\n&=&2^{n-2}\\big( 8n(n+2)-4(4n+1)(n+1)+8n(n+1)-4(n-1)\\big)\\\\\r\n&=&0\r\n\\end{eqnarray*}\r\nOn dérive une fois encore :\r\n$$P_n''(X)=n(n+1)(n+2)X^n-(4n+1)n(n+1)X^{n-1}+4n(n+1)(n-1)X^{n-2}-4(n-1)(n-2)X^{n-3},$$\r\nd'où l'on tire\r\n\\begin{eqnarray*}\r\nP_n''(2)&=&2^{n-3}\\big(8n(n+1)(n+2)-4(4n+1)n(n+1)+8n(n+1)(n-1)-4(n-1)(n-2)\\big)\\\\\r\n&=&2^n(2n-1)\r\n\\end{eqnarray*}\r\nPuisque $2n-1$ ne s'annule pas quand $n$ est un entier, on a $P_n(2)=P_n'(2)=0$ et $P_n''(2)\\neq 0$. $2$ est racine de multiplicité 2 de $P_n$.On aurait aussi factoriser $P$ sous la forme $P(X)=X^{n-1}Q(X)$ et étudier (par la même méthode) la multiplicité de $2$ comme racine de $Q.$",
+    "lang": "french"
+}

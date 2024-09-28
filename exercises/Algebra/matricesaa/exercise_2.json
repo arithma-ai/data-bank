@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$ et $A\\in\\mathcal M_n(\\mathbb R)$ tel que $A^2=0.$Démontrer que $A$ n'est pas inversible.Démontrer que $I_n+A$ est inversible.",
+    "hint": "Faire un raisonnement par l'absurde.Comment se traduit matriciellement l'identité remarquable $(1+a)(1-a)=1-a^2$?",
+    "solution": "On va faire un raisonnement par l'absurde. Supposons que $A$ est inversible. Alors on a \r\n$$A^2=0\\implies A^{-1}A^2=A^{-1}0\\implies (A^{-1}A)A=0\\implies A=0.$$\r\nOr la matrice nulle n'est pas inversible, il y a donc une contradiction et $A$ n'est pas inversible.Il suffit de remarquer (c'est simplement une extension de l'identité remarquable $(1+x)(1-x)=1-x^2$) que\r\n$$(I_n+A)(I_n-A)=I_n-A+A-A^2=I_n.$$\r\nAinsi, $I_n+A$ est inversible, et son inverse est $I_n-A.$",
+    "lang": "french"
+}

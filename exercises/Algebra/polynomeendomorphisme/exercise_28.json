@@ -1,0 +1,6 @@
+{
+    "script": "Soit $u$ un endomorphisme d'un $\\mathbb K$-espace vectoriel $E$ de dimension finie, et soit $\\pi_u$ son polynôme minimal. Soit $P\\in\\mathbb K[X]$. Démontrer que $P(u)$ est inversible si et seulement si $P$ et $\\pi_u$ sont premiers entre eux.",
+    "hint": "Quel théorème applique-t-on souvent quand on a deux polynômes premiers entre eux? Pour l'autre sens, partir de $P$ un polynôme non premier avec $\\pi_u$ et construire un polynôme $R$ avec $\\deg(R )<\\deg(\\pi_u)$ tel que $P(u)R(u)=0$.",
+    "solution": "Supposons d'abord que $P$ et $\\pi_u$ sont premiers entre eux. Alors, d'après le théorème de Bézout, il existe $U,V\\in\\mathbb K[X]$ tels que $UP+V\\pi_u=1$.\r\nOn évalue en $u$ : \r\n$$U(u)P(u)+V(u)\\pi_u(u)=Id_E\\iff U(u)P(u)=Id_E.$$\r\n$P(u)$ est donc inversible, d'inverse $U(u)$.Réciproquement, supposons que $P$ et $\\pi_u$ ne sont pas premiers entre eux, et soit $Q$ un facteur commun. On factorise $\\pi_u$ en $\\pi_u=QR$ avec $\\deg(Q),\\deg(R )<\\deg(\\pi_u)$. En particulier, on a $R(u)\\neq 0$. Mais d'autre part, $\\pi_u|PR$ et donc $0=P(u)R(u)$. Comme $R(u)$ est non-nul, $P(u)$ n'est pas inversible.",
+    "lang": "french"
+}

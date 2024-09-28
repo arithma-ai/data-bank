@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ et $F$ deux ensembles, $\\mathcal T$ une tribu sur $F$ et $\\phi:E\\to F$ une application. Montrer que $\\mathcal T'=\\{\\phi^{-1}(A);\\ A\\in\\mathcal T\\}$ est une tribu sur $E$.",
+    "hint": "Utiliser les propriétés de l'image réciproque d'une fonction....",
+    "solution": "Remarquons d'abord que $E=\\phi^{-1}(F)$ est un élément de $\\mathcal T'$. De plus, si $B\\in\\mathcal T'$, $B=\\phi^{-1}(A)$ avec $A\\in\\mathcal T$, alors $B^c=\\phi^{-1}(A)^c=\\phi^{-1}(A^c)$ est aussi un élément de $\\mathcal T'$. Enfin, si $(B_n)$ est une suite d'éléments de $\\mathcal T'$, chaque $B_n$ s'écrivant $B_n=\\phi^{-1}(A_n)$, alors $$\\bigcup_n B_n=\\bigcup_n \\phi^{-1}( A_n)=\\phi^{-1}\\left(\\bigcup_n A_n\\right)\\in\\mathcal T'.$$\r\nAinsi, on a prouvé que $\\mathcal T'$ est bien une tribu.",
+    "lang": "french"
+}

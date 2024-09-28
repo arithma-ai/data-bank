@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(\\Omega,\\mathcal A,\\mathbb P)$ un espace probabilisé et $A$ un événement de probabilité non nulle. Donner une condition nécessaire et suffisante pour que $\\mathbb P_A=\\mathbb P$.",
+    "hint": "Que vaut $\\mathbb P_A(A)$?",
+    "solution": "Supposons d'abord que $\\mathbb P_A=\\mathbb P$. En particulier, $\\mathbb P(A)=\\mathbb P_A(A)=1$. Ainsi, $A$ doit être un événement presque sûr.Réciproquement, si on suppose que $\\mathbb P(A)=1$, alors pour tout événement $B$, on a \r\n$$\\mathbb P_A(B)=\\frac{\\mathbb P(A\\cap B)}{\\mathbb P(A)}=\\mathbb P(A\\cap B).$$\r\nMaintenant, on sait que \r\n$$\\mathbb P(A\\cap B)+\\mathbb P(\\bar A\\cap B)=\\mathbb P(B).$$\r\nMais puisque $\\bar A\\cap B\\subset\\bar A$ et que $\\mathbb P(\\bar A)=0$, on en déduit que \r\n$$\\mathbb P(A\\cap B)=\\mathbb P(B).$$\r\nAinsi,  $\\mathbb P_A=\\mathbb P$ si et seulement si $A$ est un événement presque sûr.",
+    "lang": "french"
+}

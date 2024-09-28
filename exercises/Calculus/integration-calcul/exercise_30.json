@@ -1,0 +1,6 @@
+{
+    "script": "Donner une primitive des fonctions suivantes :\r\n$$\r\n\\begin{array}{lcl}\r\n\\displaystyle \\mathbf{1.}\\quad x\\mapsto \\frac{1}{x^2+4}&\\quad\\quad&\\displaystyle \\mathbf{2.}\\quad x\\mapsto\\frac{1}{x^2+4x+5}\\\\\r\n\\displaystyle \\mathbf{3.}\\quad x\\mapsto \\frac{1}{1-x^2}\r\n\\end{array}$$",
+    "hint": "Reconnaitre une primitive.Écrire le dénominateur sous forme canonique.Factoriser le dénominateur!",
+    "solution": "On remarque simplement que $x^2+4=x^2+2^2$. Une primitive de $x\\mapsto \\frac{1}{x^2+4}$ est donc $\\frac 12\\arctan\\left(\\frac x2\\right)$.On écrit le dénominateur sous forme canonique, $x^2+4x+5=(x+2)^2+1$. La méthode précédente donne\r\n$$\\int\\frac{dx}{x^2+4x+5}=\\arctan(x+2).$$Le dénominateur se factorise en $(1-x)(1+x)=-(x-1)(x+1)$. On sait donc qu'il existe $a,b\\in\\mathbb R$ tels que \r\n$$\\frac{1}{1-x^2}=\\frac{a}{x-1}+\\frac{b}{x+1}.$$ En mettant tout au même dénominateur et en procédant par identification, on trouve\r\n$$a=-1/2,\\ b=1/2.$$\r\nUne primitive de $\\frac{1}{1-x^2}$ est donc $\\frac 12\\ln|x+1|-\\frac 12\\ln |x-1|$.",
+    "lang": "french"
+}

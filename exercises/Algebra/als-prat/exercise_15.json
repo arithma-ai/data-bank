@@ -1,0 +1,6 @@
+{
+    "script": "On considère l'application linéaire $f:\\mathbb R^3\\to\\mathbb R^3$ définie par $f(x,y,z)=(2x-2z,y,x-z)$. $f$ est-elle une symétrie? une projection? Déterminer une base de ses éléments caractéristiques.",
+    "hint": "Commencer par calculer $f\\circ f$.",
+    "solution": "On vérifie facilement que \r\n$$f\\circ f(x,y,z)=(2(2x-2z)-2(x-z),y,2x-2z-x+z)=(2x-2z,y,x-z)=f(x,y,z).$$\r\nOn a donc $f\\circ f=f$ et $f$ est une projection, sur $\\textrm{Im}(f)$ et parallèlement à $\\ker(f)$. Déterminons une base de $\\ker(f)$. On a \r\n$$f(x,y,z)=0\\iff \\left\\{\r\n\\begin{array}{rcl}\r\n2x-2z&=&0\\\\\r\ny&=&0\\\\\r\nx-z&=&0\r\n\\end{array}\\right. \\iff \r\n\\left\\{\r\n\\begin{array}{rcl}\r\nx&=&z\\\\\r\ny&=&0\\\\\r\nz&=&z\r\n\\end{array}\\right.$$\r\nUne base de $\\ker(f)$ est donc donnée par le vecteur $u=(1,0,1)$.Déterminons ensuite une base de $\\textrm{Im}(f)$. On sait que $(f(e_1),f(e_2),f(e_3))$ est une famille génératrice de $\\textrm{Im}(f)$. Ce n'est pas une base, puisque $f(e_3)=(-2,0,-1)=-f(e_1)$. Posons ensuite $v=(2,0,1)=f(e_1)$ et $w=(0,1,0)=f(e_2)$. Alors $(v,w)$ est une famille génératrice de $\\textrm{Im}(f)$ et c'est aussi une famille libre : $(v,w)$ est une base de $\\textrm{Im}(f)$.",
+    "lang": "french"
+}

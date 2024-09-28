@@ -1,0 +1,6 @@
+{
+    "script": "L'accroissement de la population $P$ d'un pays est proportionnel à cette population.\r\nLa population double tous les 50 ans. En combien de temps triple-t-elle?",
+    "hint": "L'énonce signifie que $P$ vérifie l'équation différentielle $P'(t)=kP(t)$,\r\navec $k$ une constante.",
+    "solution": "L'accroissement de la population est mesuré par $P'(t)$, cette fonction est donc proportionnelle\r\nà $P(t)$. Autrement dit, $P$ vérifie une équation différentielle du type\r\n$P'(t)=kP(t)$. Sa solution est de la forme $P(t)=Ce^{kt}$. De l'autre information (la population double tous les 50 ans),\r\non déduit que $P(t+50)=2P(t)$ pour tout $t\\geq 0$. Ainsi, on a \r\n$$Ce^{kt}e^{50k}=2Ce^{kt}\\implies 50k=\\ln 2\\implies k=\\ln2/50.$$\r\nOn cherche $x$ tel que $P(t+x)=3P(t)$ pour tout $t\\geq 0$. Ceci donne\r\n$$Ce^{kt}e^{kx}=3Ce^{kt}\\implies kx=\\ln 3\\implies x=\\frac{50\\ln 3}{\\ln 2}\\simeq 79,24.$$\r\nLa population triple environ tous les 79 ans et un quart.",
+    "lang": "french"
+}

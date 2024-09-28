@@ -1,0 +1,6 @@
+{
+    "script": "Soit $P$ un polynôme à coefficients réels de degré $2$ dont l'une des racines est le nombre $-2+i\\sqrt 3.$Indiquer l'autre racine de $P$.Donner les expressions développées et factorisées de $P$, sachant que $P(0)=35.$",
+    "hint": "Que dire des racines complexes d'un polynôme de degré $2$ à coefficients réels?$P$ s'écrit $P=\\lambda(x-x_1)(x-x_2)$ où $x_1,x_2$ sont les racines de $P$.",
+    "solution": "Puisque $-2+i\\sqrt 3$ est racine de $P$ polynôme à coefficients réels, son conjugué $-2-i\\sqrt 3$ est aussi racine de $P$.On sait que $P$ se factorise en \r\n\\begin{align*}\r\nP&=\\lambda \\big(x-(-2+i\\sqrt 3)\\big)\\big(x-(-2-i\\sqrt 3)\\big)\\\\\r\n&=\\lambda (x^2+4x+7).\r\n\\end{align*}\r\nPuisque de plus $P(0)=35,$ on trouve $\\lambda=5.$\r\nFinalement,\r\n\\begin{align*}\r\nP&=5 \\big(x-(-2+i\\sqrt 3)\\big)\\big(x-(-2-i\\sqrt 3)\\big)\\\\\r\n&=5x^2+20x+35.\r\n\\end{align*}",
+    "lang": "french"
+}

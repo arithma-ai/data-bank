@@ -1,0 +1,6 @@
+{
+    "script": "Soit $P(X)=a_nX^n+\\dots+a_0$ un polynôme à coefficients dans $\\mathbb Z$, avec\r\n$a_n\\neq 0$ et $a_0\\neq 0$. On suppose que $P$ admet une racine rationnelle $p/q$\r\navec $p\\wedge q=1$. Démontrer que $p|a_0$ et que $q|a_n$. Le polynôme $P(X)=X^5-X^2+1$\r\nadmet-il des racines dans $\\mathbb Q$?",
+    "hint": "Mettre tout au même dénominateur.",
+    "solution": "On écrit que $P(p/q)=0$ et on met tout au même dénominateur en multipliant par $q^n$. On trouve\r\n$$a_np^n +a_{n-1}p^{n-1}q+\\dots+a_1pq^{n-1}+a_0q^n=0.$$\r\nOn commence par isoler $a_0q^n$ et on trouve que\r\n$$p(a_np^{n-1}+a_{n-1}p^{n-2}q+\\dots+a_1q^{n-1})=-a_0q^n.$$\r\nEn particulier, $p|a_0q^n$. Puisque $p\\wedge q=1$, on en déduit que $p|a_0$.\r\nDe même, en isolant $a_np^n$, on trouve\r\n$$q(a_{n-1}p^{n-1}+\\dots+a_0q^{n-1})=-a_np^n,$$\r\nsoit $q|a_n p^n$, soit, puisque $p\\wedge q=1$, $q|a_n$.Par conséquent, si le polynôme \r\n$X^5-X^2+1$ admet une racine rationnelle $p/q$, alors $p|1$ et $q|1$, et\r\ndonc $p=\\pm 1$ et $q=\\pm 1$. Autrement dit, les seules racines rationnelles possibles\r\nsont $1$ et $-1$. Or, elles ne sont pas racines de $P$. Donc $P$ n'admet pas \r\nde racines rationnelles.",
+    "lang": "french"
+}

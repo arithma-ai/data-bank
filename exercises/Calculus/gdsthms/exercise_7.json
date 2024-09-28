@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\Omega$ un ouvert de $\\mathbb C$ non borné, et $f:\\bar\\Omega\\to\\mathbb C$ continue, holomorphe dans $\\Omega$, et vérifiant $\\lim_{|z|\\to+\\infty}|f(z)|=0.$ Démontrer que $f$ est bornée et que $\\sup_{\\overline\\Omega}|f|=\\sup_{\\partial \\Omega}|f|.$",
+    "hint": "Commencer par démontrer qu'il existe $a\\in \\bar\\Omega$ tel que $|f(a)|=\\sup_{\\overline\\Omega}|f|.$",
+    "solution": "Supposons que $f$ n'est pas bornée. Alors, pour tout $n\\in\\mathbb N,$ il existe $z_n\\in\\bar\\Omega$ tel que $|f(z_n)|\\geq n.$ Puisque $\\lim_{|z|\\to+\\infty}|f(z)|=0$, la suite $(z_n)$ est bornée. Elle admet une sous-suite $(z_\\phi(n))$ qui converge vers $a\\in \\overline\\Omega.$ Mais alors, par continuité de $|f|$, $|f(z_{\\phi(n)})|\\to |f(a)|$ ce qui est une contradiction.Ainsi, $f$ est bornée, et le raisonnement précédent prouve en outre que, si $f\\neq 0,$ il existe $a\\in \\overline\\Omega$ tel que $|f(a)|=\\sup_{\\overline\\Omega}|f|.$\r\nSupposons que $a\\in\\Omega$. Soit $V$ la composante connexe de $\\Omega$ contenant $a$. Alors par le principe du maximum, $f$ est constante dans un voisinage de $a,$ donc sur $V$ tout entier. Considérons maintenant $w\\in\\partial V.$ \r\nAlors \r\n$$\\sup_{\\overline\\Omega}|f|=|f(a)|=|f(w)|=\\sup_{\\partial \\Omega}|f|.$$",
+    "lang": "french"
+}

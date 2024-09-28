@@ -1,0 +1,6 @@
+{
+    "script": "Calculer $\\int_1^2x\\sqrt{x^2-2x+5}dx$.",
+    "hint": "Écrire le trinôme sous forme canonique et en déduire le changement de\r\nvariables adéquat (par exemple, $x-1=2\\sh(t)$).",
+    "solution": "On commence par écrire le trinôme sous forme canonique :\r\n$$I=\\int_1^2 x\\sqrt{x^2-2x+5}dx=\\int_1^2x\\sqrt{(x-1)^2+4}dx.$$\r\nOn trouve un terme de la forme $\\sqrt{u^2+1}$, pour $(x-1)^2=4u^2$.\r\nCeci nous incite à poser $u=\\textrm{sh}(t)$, soit encore $x-1=2\\textrm{sh}t$.\r\nEn posant $\\alpha=\\textrm{Argsh}(1/2)$, on obtient\r\n$$I=\\int_0^\\alpha (1+2\\textrm{sh}t)\\times2\\textrm{ch}t\\times2\\textrm{ch}tdt=\\int_0^\\alpha 4\\textrm{ch}^2t+8\\int_0^\\alpha \\textrm{sh}(t)\\textrm{ch}^2(t)dt.$$\r\nUtilisant $2\\textrm{ch}^2(t)=1+\\textrm{ch}(2t)$, on obtient\r\n$$I=2\\left[t+\\frac{\\textrm{sh}(2t)}2\\right]_0^\\alpha+\\frac{8}{3}\\left[\\textrm{ch}^3 t\\right]_0^\\alpha=2\\alpha+\\textrm{sh}(2\\alpha)+\\frac83\\textrm{ch}^3\\alpha\r\n-\\frac83.$$\r\nCeci peut encore se simplifier en exprimant $\\textrm{sh}(2\\alpha)$ en fonction de $\\textrm{sh}(\\alpha)$ et $\\textrm{ch}(\\alpha)$, ie\r\n$\\textrm{sh}(2\\alpha)=2\\textrm{sh}(\\alpha)\\textrm{ch}(\\alpha)$, et en remarquant que $\\textrm{ch}^2\\alpha-\\textrm{sh}^2\\alpha=1.$\r\nOn obtient finalement\r\n$$I=2\\alpha+\\frac{13\\sqrt5}{6}-\\frac83.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un $\\mathbb K$-espace vectoriel de dimension finie, et $u\\in\\mathcal L(E)$. Dire si les assertions suivantes sont vraies ou fausses :Si $F$ et $G$ sont deux sous-espaces supplémentaires de $E$ stables par $u$, alors $u$ est diagonalisable si et seulement si les deux endomorphismes induits $u_F$ et $u_G$ sont diagonalisables.Deux matrices semblables ont le même polynôme caractéristique et le même polynôme minimal.Si le polynôme caractéristique d'une matrice est égal à son polynôme minimal, alors la matrice est diagonalisable.",
+    "hint": "",
+    "solution": "Vrai! Dans le sens direct, c'est une conséquence d'un théorème du cours sur les endomorphismes induits (qui nécessite l'utilisation du polynôme minimal). Pour la réciproque, si $\\mathcal B_F$ est une base de $F$ de vecteurs propres pour $u_F$ (donc pour $u$) et si $\\mathcal B_G$ est une base de $G$ de vecteurs propres pour $u_G$ (donc pour $u$), alors $\\mathcal B_F\\cup\\mathcal B_G$ est une base de $E$ de vecteurs propres de $u$.C'est vrai : elles représentent le même endomorphisme dans deux bases différentes.Pas du tout! Par exemple, prenons\r\n$$A=\\left(\\begin{array}{cc}\r\n1&1\\\\\r\n0&1\r\n\\end{array}\\right)$$\r\nalors $\\chi_A(X)=\\pi_A(X)=(X-1)^2$, et pourtant $A$ n'est pas diagonalisable.",
+    "lang": "french"
+}

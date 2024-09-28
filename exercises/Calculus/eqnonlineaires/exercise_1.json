@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que l'équation différentielle suivante \r\n$$y'=\\frac{\\sin(xy)}{x^2};\\ y(1)=1$$\r\nadmet une unique solution maximale.",
+    "hint": "Montrer qu'on est dans les conditions d'application du théorème de Cauchy-Lipschitz.",
+    "solution": "On définit la fonction $f:]0,+\\infty[\\times\\mathbb R\\to \\mathbb R,\\ (x,y)\\mapsto \\frac{\\sin(xy)}{x^2}.$\r\nCette fonction est clairement de classe $C^1$, donc continue et localement lipschitzienne par rapport à la seconde variable, sur son domaine de définition. Puisque $(1,1)\\in]0,+\\infty[\\times\\mathbb R$, par application du théorème de Cauchy-Lipschitz, on en déduit l'existence et l'unicité d'une solution maximale à l'équation différentielle.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in\\mathcal M_n(\\mathbb R)$ une matrice nilpotente, c'est-à-dire qu'il existe $p\\geq 1$ tel que $A^p=0$. Démontrer que la matrice $I_n-A$ est inversible, et déterminer son inverse.",
+    "hint": "Penser aux sommes de suites géométriques.",
+    "solution": "L'idée est que, si $-1<x<1$, on a \r\n$$\\frac1{1-x}=1+x+x^2+\\dots$$\r\nLa même chose va se produire pour les matrices grâce au fait que $A^p=0$. En effet, on a \r\n\\begin{eqnarray*}\r\n(I_n-A)(I_n+A+\\dots+A^{p-1})&=&I_n-A+A-A^2+A^2+\\dots+A^{p-1}-A^p\\\\\r\n&=&I_n-A^p\\\\\r\n&=&I_n.\r\n\\end{eqnarray*}\r\nOn en déduit que $I_n-A$ est inversible, d'inverse $I_n+A+\\dots+A^{p-1}$.",
+    "lang": "french"
+}

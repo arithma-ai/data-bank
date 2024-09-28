@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre l'inéquation $x-1\\leq \\sqrt{x+2}$.",
+    "hint": "Séparer l'étude suivant que $x-1\\leq 0$ ou $x-1>0$.",
+    "solution": "D'abord, cette inéquation n'a de sens que pour $x\\geq -2$ ce que l'on supposera désormais. Ensuite, si $x-1\\leq 0$, c'est-à-dire si $x\\leq 1$, cette inéquation est vérifiée. On suppose donc désormais $x>1$. Puisque tout est positif, l'inéquation est sur l'intervalle $]1,+\\infty[$ équivalente à $(x-1)^2\\leq x+2$, c'est-à-dire \r\n$x^2-3x-1\\leq 0$. On étudie le signe du trinôme en calculant son discriminant (il vaut $13$) et en cherchant les racines de $x^2-3x-1=0$, qui sont $x_1=\\frac{3-\\sqrt{13}}2\\simeq -0,3$ et $x_2=\\frac{3+\\sqrt{13}}2\\simeq 3,3$. Ainsi, $x^2-3x-1$ est négatif si $x\\in [x_1,x_2]$. Comme on travaillait sur l'intervalle $]1,+\\infty[$, on ne doit considérer que les réels dans l'intervalle $]1,x_2]$. Finalement, on a prouvé que l'ensemble des solutions est $[-2,x_2]$.",
+    "lang": "french"
+}

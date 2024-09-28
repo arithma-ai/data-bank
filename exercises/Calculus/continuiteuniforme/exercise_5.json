@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:I\\to\\mathbb R$ et $g:\\mathbb R\\to\\mathbb R$.On suppose que $f$ et $g$ sont uniformémement continues. Montrer que $g\\circ f$ est uniformément continue.On suppose que $f$ est uniformément continue et bornée et que $g$ est continue.\r\nDémontrer que $g\\circ f$ est uniformément continue.",
+    "hint": "Appliquer la définition de l'uniforme continuité à $g$, puis à $f$.Se ramener à la question précédente avec le théorème de Heine.",
+    "solution": "Fixons $\\veps>0$. Puisque $g$ est uniformément continue, il existe $\\delta>0$ tel que, si $|a-b|<\\delta$, on a \r\n$|g(a)-g(b)|<\\veps$. Pour ce $\\delta>0$, puisque $f$ est uniformémement continue, il existe $\\eta>0$ tel que,\r\nsi $|x-y|<\\eta$, on a $|f(x)-f(y)|<\\delta$. Mais alors, si $|x-y|<\\eta$, on a \r\n$$|g(f(x))-g(f(y))|<\\veps.$$\r\nAinsi, $g\\circ f$ est uniformément continue.Soit $M>0$ tel que $|f(x)|\\leq M$ pour tout $x\\in I$. Notons $h$ la restriction de $g$ au segment $[-M,M]$, de sorte que $g\\circ f=h\\circ f$. Par le théorème de Heine, la fonction $h$ est uniformément continue. Il suffit alors d'appliquer le résultat de la question précédente.",
+    "lang": "french"
+}

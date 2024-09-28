@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 2$ et $A$ la matrice définie par $A=(a_{i,j})_{1\\leq i,j\\leq n}\\in\\mathcal M_n(\\mathbb R)$ où $a_{i,i+1}=1$ pour $i=1,\\dots,n-1$, les autres coefficients étant tous nuls.La matrice $A$ est-elle diagonalisable?Existe-t-il $B\\in\\mathcal M_n(\\mathbb R)$ tel que $B^2=A$?",
+    "hint": "Pour la deuxième question, vérifier que $A$ est nilpotente, et calculer son indice de nilpotence.",
+    "solution": "$A$ ne peut pas être diagonalisable. Sa seule valeur propre est $0$, et si $A$ était diagonalisable, alors ce serait la matrice nulle. Remarquons ensuite en calculant les puissances successives de $A$ que $A^n=0$ alors que $A^{n-1}\\neq 0$. S'il existait $B\\in\\mathcal M_n(\\mathbb R)$ tel que $B^2=A$, alors on aurait \r\n$B^{2n}=A^n=0$. $B$ serait donc nilpotente. Mais son indice de nilpotence doit être inférieur ou égal à $n$, et on aurait $B^n=0$. Mais $B^{2n-2}=A^{n-1}\\neq 0$, et $2n-2\\geq n$, ce qui est absurde. $A$ n'admet pas de racine carrée.",
+    "lang": "french"
+}

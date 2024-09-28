@@ -1,0 +1,6 @@
+{
+    "script": "Trouver tous les couples d'entiers $(x,y)\\in\\mathbb N^2$ tels que $x\\vee y+11(x\\wedge y)=203$.",
+    "hint": "Écrire $x=dx'$, $y=dy'$ avec $x'\\wedge y'=1$. On obtient $d|203=7\\times 29$.\r\nQue peut valoir $d$? Etudier tous les cas.",
+    "solution": "On pose $d=x\\wedge y$ et on écrit $x=dx'$, $y=dy'$ et $x'\\wedge y'=1$. L'équation devient\r\n$$d(x'y'+11)=203=7\\times 29.$$\r\nOn a donc $d=1,7,29$ ou $203$ et on sépare les cas.Les cas $d=29$ et $d=203$ ne conduisent pas à une solution, puisqu'on a alors $x'y'=7-11<0$ ou $x'y'=1-11<0$, ce\r\nqui est impossible puisque $x'$ et $y'$ sont positifs.Pour $d=1$, on a $x'y'=192=2^6\\times 3$. Puisque $x'\\wedge y'=1$, on obtient que $(x',y')$ est un des couples\r\n$(192,1)$, $(3,2^6)$, $(2^6,3)$ ou $(1,192)$.Pour $d=7$, on a $x'y'=18=2\\times 3^2$. Puisque $x'\\wedge y'=1$, on obtient que $(x',y')$ est un des couples\r\n$(18,1)$, $(2,9)$, $(9,2)$ ou $(1,18)$.En remultipliant par $d$, on trouve que l'ensemble des solutions est constitué par les couples $(1,192)$, $(3,64)$,\r\n$(7,126)$, $(14,63)$ et leurs symétriques.",
+    "lang": "french"
+}

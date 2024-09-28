@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer qu'il n'existe pas de fraction rationnelle $F$ tel que $F^2=X$.",
+    "hint": "Quel devrait être son degré?",
+    "solution": "Si $F$ est une fraction rationnelle, alors $\\deg(F^2)=2\\deg (F)$.\r\nOr, $\\deg(X)=1$, et l'équation $2n=1$ n'a pas de solutions dans $\\mathbb Z$.",
+    "lang": "french"
+}

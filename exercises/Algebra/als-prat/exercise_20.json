@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ l'espace vectoriel des fonctions continues de $\\mathbb R$ dans $\\mathbb R$ et $u$ l'endomorphisme de $E$ qui à tout $f$ de $E$ associe $u(f):x\\mapsto xf(x)$. L'application $u$ est-elle injective? surjective?",
+    "hint": "Déterminer le noyau de $u$, et démontrer que la fonction égale à $1$ n'est pas dans l'image de $u$.",
+    "solution": "Soit $f\\in E$. Alors $u(f)=0$ si et seulement si, pour tout $x\\in\\mathbb R$, $xf(x)=0$. Ceci entraîne que pour tout $x$ différent de $0$, $f(x)=0$. Comme $f$ est continue en $0$, on en déduit que $f=0$. On a donc $\\ker(u)=\\{0\\}$ et $u$ est injective.D'autre part, soit $g\\in E$ telle que $g(x)=1$ pour tout $x\\in\\mathbb R$. Alors $g$ n'est pas un certain $u(f)$. En effet, si c'était le cas, on aurait $xf(x)=g(x)=1$ pour tout $x\\in\\mathbb R$, en particulier, en $x=0$, $0=1$. Donc $u$ n'est pas surjective.Ceci illustre que $E$ n'est pas de dimension finie, puisque $u$ est injective, mais n'est pas surjective.",
+    "lang": "french"
+}

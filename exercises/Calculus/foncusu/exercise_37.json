@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer tous les couples $(n,p)$ d'entiers naturels non nuls tels que $n^p=p^n$ et $n\\neq p$.",
+    "hint": "Se ramener à l'étude de la fonction $x\\mapsto \\ln(x)/x$.",
+    "solution": "Le point de départ est de remarquer que \r\n$$n^p=p^n\\iff p\\ln n=n\\ln p\\iff \\frac{\\ln n}n=\\frac{\\ln p}p.$$\r\nCeci nous amène à étudier la fonction $f$ définie sur $]0,+\\infty[$ par $f(x)=\\frac{\\ln x}x$. Cette fonction est dérivable\r\nsur son domaine de définition, de dérivée $$f'(x)=\\frac{1-\\ln x}{x^2}.$$ On obtient le tableau de variations suivant :La fonction est donc strictement croissante sur $[1,e]$, et strictement décroissante sur $[e,+\\infty[$. Si les entiers naturels $(n,p)$ vérifient $f(n)=f(p)$,\r\nl'un de ces deux entiers, disons $n$, doit être dans $[1,e]$, et l'autre doit être dans $[e,+\\infty[$. Or, dans $[1,e]$, il n'y a que deux entiers : $n=1$ et $n=2$. \r\nPour $n=1$, $f(1)=0$, et la valeur nulle n'est pas prise par la fonction $f$ sur $[e,+\\infty[$. Pour $n=2$, on a $f(2)=(\\ln 2)/2=f(4)$. \r\nLa seule solution pour cette équation est donc \r\n$$2^4=4^2.$$",
+    "lang": "french"
+}

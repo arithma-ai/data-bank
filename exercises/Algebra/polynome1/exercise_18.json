@@ -1,0 +1,6 @@
+{
+    "script": "Vérifier que $i$ est racine du polynôme \r\n$$P(X)=X^4-5X^3+7X^2-5X+6.$$\r\nEn déduire la factorisation de $P$ sur $\\mathbb C$.",
+    "hint": "On pourra aussi remarquer que $-i$ est racine du polynôme.",
+    "solution": "On a \r\n$$P(i) =i^4−5i^3+ 7i^2−5i+ 6 = 1 + 5i−7−5i+ 6 = 0.$$\r\nDonc $i$ est racine de $P(X)$. Comme le polynôme $P$ est à coefficients réels, puisque $i$ est racine, son conjugué $−i$ l’est aussi. Donc $P(X)$ est divisible par $(X−i)(X+i) =X^2+ 1$. On effectue la division euclidienne de $P$ par $X^2+1$ et on trouve\r\n$$P(X)=(X^2+1)(X^2-5X+6)=(X-i)(X+i)(X-2)(X-3).$$",
+    "lang": "french"
+}

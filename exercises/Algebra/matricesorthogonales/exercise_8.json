@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel euclidien, et $a\\in E\\backslash\\{0\\}$. On pose \r\n$$s_a(x)=x-2\\frac{(a,x)}{(a,a)}a,$$\r\nMontrer que $s_a$ est un endomorphisme orthogonal. Calculer $\\ker(s_a-id)$, $\\ker(s_a+id)$. \r\nDécrire alors géométriquement $s_a$.",
+    "hint": "Calculer $\\|s_a(x)\\|$, puis démontrer que $s_a$ est une symétrie orthogonale.",
+    "solution": "Posons $F=\\vect(a)$ et $G=a^\\perp$. Soit $x\\in E$, que l'on décompose\r\nen $x=g+\\lambda a$, avec $g\\in G$. On a alors :\r\n$$s_a(x)=x-2\\frac{(a,\\lambda a)}{(a,a)}a=\\lambda a+g-2\\lambda a=g-\\lambda a.$$\r\nCeci prouve en particulier, à l'aide de la relation de Pythagore, que $\\|x\\|^2=\\|s_a(x)\\|^2=\\|g\\|^2+\\lambda^2\\|a\\|^2$, et que l'endomorphisme est orthogonal.\r\nLe calcul précédent prouve en outre que $\\ker(s_a-id)=G$ et $\\ker(s_a+id)=\\vect(a)$. Ainsi, on a\r\n$$\\ker(s_a-id)\\oplus^\\perp \\ker(s_a+id)=E.$$\r\n$s_a$ est la symétrie orthogonale par rapport à l'hyperplan $a^\\perp$.",
+    "lang": "french"
+}

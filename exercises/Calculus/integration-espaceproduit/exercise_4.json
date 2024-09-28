@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f(x,y)=2e^{-2xy}-e^{-xy}$. Démontrer que \r\n$$\\int_{0}^1 \\int_{\\mathbb R_+}f(x,y)dxdy\\neq \\int_{\\mathbb R^+}\\int_{0}^1 f(x,y)dydx.$$\r\nQue peut-on en déduire?",
+    "hint": "",
+    "solution": "Soit $y>0$. On a\r\n$$\\int_{0}^{+\\infty}f(x,y)dx=\\left[\\frac {-1}y\\left(e^{-2xy}-e^{-xy}\\right)\\right]_{x=0}^{x=+\\infty}=0.$$\r\nD'autre part, on a pour $x>0$, \r\n$$\\int_{0}^1f(x,y)dy=\\left[\\frac {-1}x\\left(e^{-2xy}-e^{-xy}\\right)\\right]_{y=0}^{y=1}=\\frac{e^{-x}-e^{-2x}}x.$$\r\nCette dernière fonction est strictement positive sur $]0,+\\infty[$. Sans chercher à calculer sa valeur, on n'a donc pas\r\n$$\\int_0^{+\\infty}\\frac{e^{-x}-e^{-2x}}xdx=0.$$\r\nEn particulier, puisqu'on ne peut pas appliquer le théorème de Fubini, la fonction $f$ n'est pas intégrable sur $[0,+\\infty[\\times ]0,1[$.",
+    "lang": "french"
+}

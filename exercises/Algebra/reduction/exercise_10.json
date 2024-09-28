@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(a,b,c)\\in\\mathbb R^3$. La matrice $A=\\left(\\begin{array}{ccc}\r\n0&-b&c\\\\\r\na&0&-c\\\\\r\n-a&b&0\r\n\\end{array}\\right)$ est-elle diagonalisable?",
+    "hint": "Calculer le polynôme caractéristique, puis discuter.",
+    "solution": "On calcule le polynôme caractéristique de $A$ et on trouve facilement que \r\n$$\\chi_a(X)=X\\big(X^2+(ab+bc+ca)\\big).$$\r\nPosons $\\delta=ab+bc+ca$. On discute alors suivant la valeur de $\\delta$ :Si $\\delta>0$, le polynôme caractéristique n'est pas scindé sur $\\mathbb R$ et donc la matrice n'est pas diagonalisable.Si $\\delta<0$, le polynôme caractéristique est scindé à racines simples : la matrice est diagonalisable.Si $\\delta=0$, alors $0$ est racine de multiplicité 3 du polynôme caractéristique. La matrice n'est diagonalisable que s'il s'agit de la matrice nulle, c'est-à-dire si et seulement si $a=b=c=0$.",
+    "lang": "french"
+}

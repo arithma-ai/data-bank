@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 2$ un entier et $p,q\\in\\mathbb R$. On note $P(X)=X^n+pX+q$.Démontrer que $P$ admet au plus 3 racines réelles.On suppose que $n$ est pair. Démontrer que $P$ admet au plus deux racines réelles.",
+    "hint": "Raisonner par l'absurde et trouver deux racines distinctes à une dérivée suffisamment grande de $P$.",
+    "solution": "Supposons que $P$ admette 4 racines réelles distinctes. Alors, par le théorème de Rolle, $P'$ admet au moins 3 racines réelles distinctes, et $P''$ au moins deux racines réelles distinctes. Mais $P''(X)=n(n-1)X^{n-2}$ admet au plus une racine, et on a une contradiction.Supposons que $P$ admette au moins 3 racines réelles distinctes. Alors, par le théorème de Rolle, $P'$ admet au moins 2 racines réelles distinctes. Mais $P'(X)=nX^{n-1}+p$ définit une fonction polynômiale strictement croissante, car $n-1$ est impair, et donc $P'$ admet au plus une racine, ce qui est une contradiction.",
+    "lang": "french"
+}

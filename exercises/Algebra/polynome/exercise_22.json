@@ -1,0 +1,6 @@
+{
+    "script": "Soient $P$ et $Q$ des polynômes de $\\mtc[X]$ non constants.\r\nMontrer que $P$ et $Q$ ont un facteur commun si, et seulement si, il existe $A,B\\in\\mtc[X]$, $A\\neq 0$, $B\\neq 0$, tels que $AP=BQ$ et $\\deg(A)<\\deg(Q)$, $\\deg(B)<\\deg(P)$.",
+    "hint": "Utiliser le théorème de Gauss.",
+    "solution": "Supposons que $P$ et $Q$ ont un facteur commun $D$. On factorise $P=DB$ et $Q=DA$, $A$ et $B$ vérifient les conditions voulues.\r\n Réciproquement, si $P\\wedge Q=1$ et $AP=BQ$, alors $P|BQ$ et par le théorème de Gauss $P|B$. Ceci contredit les contraintes imposées à $B$.",
+    "lang": "french"
+}

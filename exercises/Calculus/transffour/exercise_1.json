@@ -1,0 +1,6 @@
+{
+    "script": "Soit $T\\in\\mcs'(\\mtr^n)$ homogène de degré $\\lambda\\in\\mtr$, ie \r\n$$\\langle T,\\varphi_t\\rangle=t^{-(n+\\lambda)}\\langle T,\\varphi\\rangle$$\r\npour tout $\\varphi\\in\\mcs(\\mtr^n)$ et tout $t>0$, où $\\varphi_t(x)=\\varphi(tx)$.\r\nMontrer que $\\hat{T}$ est homogène d'un degré que l'on précisera.",
+    "hint": "",
+    "solution": "Comme souvent pour les transformées de Fourier de distribution, tout se ramène aux transformées de Fourier de\r\nfonction de $\\mcs(\\mtr^n)$. On a en effet \r\n\\begin{eqnarray*}\r\n\\mathcal{F}(\\varphi_t)(x)&=&\\int_{\\mtr^n}\\varphi(ty)e^{-2\\pi i y.x}dy\\\\\r\n&=& t^{-n}\\int_{\\mtr^n}\\varphi(u)e^{-2\\pi i u.(x/t)}du\\\\\r\n&=&t^{-n}\\mathcal{F}(\\varphi)(x/t)\r\n\\end{eqnarray*}\r\nIl vient\r\n\\begin{eqnarray*}\r\n\\langle \\hat{T},\\varphi_t\\rangle&=&\\langle T,\\mathcal{F}{\\varphi_t}\\rangle\\\\\r\n&=&t^{-n}\\langle T,(\\mathcal{F}{\\varphi})_{1/t}\\rangle\\\\\r\n&=&t^{-n}t^{n+\\lambda}\\langle T,\\mathcal{F}(\\varphi)\\rangle\\\\\r\n&=&t^{\\lambda}\\langle \\hat{T},\\varphi\\rangle.\r\n\\end{eqnarray*}\r\nIl suffit ensuite de remarquer que $\\lambda=-(n+\\mu)$ avec $\\mu=-n-\\lambda$ pour conclure\r\nque $\\hat{T}$ est homogène de degré $-n-\\lambda$.",
+    "lang": "french"
+}

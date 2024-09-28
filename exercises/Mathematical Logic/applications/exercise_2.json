@@ -1,0 +1,6 @@
+{
+    "script": "Soit pour $x\\in\\mathbb R_+,$ $f(x)=\\frac{x}{x+1}$. Déterminer $f\\circ f\\circ\\dots\\circ f(x)$ (où le symbole $f$ apparaît $n$ fois) en fonction de $n\\in\\mathbb N^*$ et de $x\\in\\mathbb R_+$.",
+    "hint": "Calculer $f\\circ f(x)$ pour émettre une conjecture. Démontrer la conjecture par récurrence.",
+    "solution": "On va commencer par calculer $f\\circ f(x)$ pour émettre une conjecture.\r\nOn a \r\n$$f\\circ f(x)=\\frac{\\frac x{x+1}}{\\frac x{x+1}+1}=\\frac{x}{2x+1}.$$\r\nCeci nous conduit à conjecturer que \r\n$$f\\circ f\\circ\\dots\\circ f(x)=\\frac{x}{nx+1}.$$\r\nDémontrons ce résultat par récurrence. Il est vrai au rang $n=1$ et $n=2$. Supposons le résultat démontré au rang $n-1$. Alors \r\n$$f\\circ f\\circ\\dots\\circ f(x)=\\frac{\\frac x{x+1}}{(n-1)\\frac x{x+1}+1}=\\frac{ \\frac x{x+1}}{\\frac {(n-1)x+x+1}{x+1}}=\\frac{x}{nx+1}.$$\r\nLe résultat est donc encore vrai au rang $n$. Par le principe de récurrence, il est vrai pour tout entier $n$.On peut se poser la question subsidiaire suivantes : pour quelles valeurs de $x$ peut-on définir $f\\circ f\\circ\\dots\\circ f(x)$?",
+    "lang": "french"
+}

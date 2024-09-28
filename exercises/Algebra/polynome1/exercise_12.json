@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer tous les polynômes $P\\in\\mathbb R[X]$ vérifiant $P(0)=0$ et $P(X^2+1)=\\big(P(X)\\big)^2+1$",
+    "hint": "Calculer $P(0)$, $P(1)$, $P(2)$, $P(5),\\dots$.",
+    "solution": "Pour tout $x\\in\\mathbb R$, on a $P(x^2+1)=\\big(P(x)\\big)^2+1$. Pour $x=0$, on trouve $P(1)=1$.\r\nPour $x=1$, on trouve $P(2)=2$. Pour $x=2$, on trouve $P(5)=5$. Pour $x=5$, on trouve $P(5^2+1)=5^2+1$. Ceci nous incite à considérer la suite\r\ndéfinie par $u_{n+1}=u_n^2+1$ et $u_0=0$. Il est aisé de prouver que cette suite est strictement croissante.\r\nDe plus, on prouve par récurrence sur $n$ que $P(u_n)=u_n$. En effet, la propriété est vraie pour $n=0,1,2,3$. Si elle est vraie au rang $n$, \r\nalors on a \r\n$$P(u_{n+1})=P(u_n^2+1)=\\big(P(u_n))^2+1=u_n^2+1=u_{n+1}$$\r\nce qui prouve l'hérédité.Posons alors $Q(X)=P(X)-X$. $Q$ est un polynôme qui s'annule en chaque $u_n$. Comme les $u_n$ sont tous différents, \r\n$Q$ admet une infinité de racines. Donc $Q$ est identiquement nulle et on a $P(X)=X$. Réciproquement, $X$ convient.",
+    "lang": "french"
+}

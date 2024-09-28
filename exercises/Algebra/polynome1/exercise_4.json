@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n$ un nombre entier, $a$, $b$ des réels et $P(X)=\\sum_{k=0}^n X^{k+2}+aX+b$. A quelle(s) condition(s) $P$ admet-il $1$ comme racine double.",
+    "hint": "Calculer $P(1)$, $P'(1)$ et $P''(1)$.",
+    "solution": "D'abord, pour que $1$ soit racine double de $P$, il est nécessaire que $P(1)=0$ et $P'(1)=0$. Mais \r\n$$P(1)=\\sum_{k=0}^n 1+a+b=n+1+a+b.$$\r\nD'autre part,\r\n$$P'(X)=\\sum_{k=0}^n (k+2)X^{k+1}+a$$\r\nde sorte que \r\n$$P'(1)=\\sum_{k=0}^n (k+2)+a=\\sum_{k=0}^n k+2(n+1)+a=\\frac{n(n+1)}2+2(n+1)+a.$$\r\nOn a donc $P'(1)=0$ si et seulement si\r\n$$a=-2(n+1)-\\frac{n(n+1)}4=-\\frac{(n+1)(n+4)}2.$$\r\nEnsuite, cette valeur de $a$ étant fixée, on a $P(1)=0$ si et seulement si\r\n$$b=-a-(n+1)=\\frac{(n+1)(n+2)}2.$$\r\nPour que $1$ soit une racine double, il suffit maintenant que $P''(1)=\\neq 0$. Mais\r\n$$P''(X)=\\sum_{k=0}^n (k+2)(k+1)X^k$$\r\nde sorte que\r\n$$P''(1)=\\sum_{k=0}^n (k+2)(k+1)>0.$$\r\nAinsi, $1$ est racine double de $P$ si et seulement si \r\n$$a==-\\frac{(n+1)(n+4)}2\\textrm{ et }b=\\frac{(n+1)(n+2)}2.$$",
+    "lang": "french"
+}

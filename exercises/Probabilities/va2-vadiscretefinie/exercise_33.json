@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(X_n)$ une suite de variables aléatoires définies sur un même espace probabilisé fini $\\Omega$. On suppose que, pour chaque $n\\geq 1$, $X_i$ suit une loi de Bernoulli de paramètre $p_i$. On suppose en outre que les variables aléatoires sont deux à deux indépendantes. On pose\r\n$$S_n=\\frac{X_1+\\dots+X_n}n\\textrm{ et }m_n=\\frac{p_1+\\dots+p_n}n.$$\r\nDémontrer que, pour tout $\\veps>0$, $P(|S_n-m_n|\\geq\\veps)\\to 0$.",
+    "hint": "Utiliser l'inégalité de Bienaymé-Tchebychev.",
+    "solution": "On a $E(S_n)=m_n$ et puisque les variables aléatoires sont indépendantes, \r\n$$V(S_n)=\\frac{1}{n^2}\\sum_{k=1}^n V(X_k).$$\r\nOn a $V(X_k)=p_k(1-p_k)\\leq 1$ et donc $V(S_n)\\leq \\frac 1n$. D'après l'inégalité de Bienaymé-Tchebychev, on en déduit que \r\n$$0\\leq P(|S_n-m_n|\\geq\\veps)\\leq \\frac{1}{n\\veps^2}$$\r\net donc le terme au milieu tend bien vers 0 d'après le théorème des gendarmes.",
+    "lang": "french"
+}

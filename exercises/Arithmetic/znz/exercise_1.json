@@ -1,0 +1,6 @@
+{
+    "script": "Est-ce que $\\overline{18}$ est inversible dans $\\mathbb Z/49\\mathbb Z$? Si oui, quel est son inverse?Est-ce que $\\overline{42}$ est inversible dans $\\mathbb Z/135\\mathbb Z$? Si oui, quel est son inverse?",
+    "hint": "",
+    "solution": "18 et 49 sont premiers entre eux, et donc $\\overline{18}$ est inversible dans $\\mathbb Z/49\\mathbb Z$. Pour trouver son inverse, il faut résoudre l'équation de Bezout $18u+49v=1$. Avec l'algorithme d'Euclide ou un logiciel, on trouve que $7\\times 49-19\\times 18=1$. Ainsi, l'inverse de $\\overline{18}$ dans $\\mathbb Z/49\\mathbb Z$ est $\\overline{-19}=\\overline{30}$.3 divise à la fois 42 et 135. Ainsi, $\\overline{42}$ n'est pas inversible dans $\\mathbb Z/135\\mathbb Z$.",
+    "lang": "french"
+}

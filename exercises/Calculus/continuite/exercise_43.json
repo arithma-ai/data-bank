@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction continue sur un segment $[a,b]$.\r\nOn suppose que $f$ vérifie la propriété suivante : \r\npour tous les points $c<d$ de l'intervalle, il existe $e$ compris entre $c$ et $d$ tel que $f(e)=f(a)$ ou $f(e)=f(b)$. Montrer que $f$ est constante.",
+    "hint": "Remarquer que $f$ ne peut prendre que deux valeurs.",
+    "solution": "Soit $c$ un réel quelconque intervalle de l'intervalle $]a,b[$. Soit $d_n$ une suite de l'intervalle qui tend vers $c$ par valeur supérieure.\r\n D'après l'hypothèse, il existe $c\\leq e_n\\leq d_n$ tel que $f(e_n)=f(a)$ ou $f(e_n)=f(b)$.\r\n  Maintenant, par le théorème des gendarmes, on constate que $e_n$ tend vers $c$, et par continuité de $f$ en $c$,\r\n   $f(e_n)$ tend vers $f(c)$. Ainsi, on a obligatoirement $f(c)=f(a)$ ou $f(c)=f(b)$. \r\n   Ainsi, $f$ ne peut prendre que deux valeurs : $f(a)$ et $f(b)$.\r\nOr, d'après le théorème des valeurs intermédiaires, une fonction continue qui ne peut prendre qu'un nombre fini de valeurs est constante.\r\n Donc $f$ est constante.",
+    "lang": "french"
+}

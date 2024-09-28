@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 2$ un entier et $S_n=\\sum_{i=1}^n \\frac 1i$. Démontrer que $S_n$ n'est jamais un entier.",
+    "hint": "Isoler dans la somme le terme correspondant à la plus grande puissance de 2 inférieure ou égale à $n$.",
+    "solution": "Considérons un entier $n$ et $p$ l'unique entier tel que $2^p\\leq n<2^{p+1}$. Alors, tout entier\r\n$k\\leq n$, différent de $2^p$, s'écrit $k=2^u v$ avec $v$ impair et $u\\leq p-1$.  Ainsi, \r\n$$\\sum_{k=1}^n \\frac 1k=\\frac {1}{2^p}+\\sum_{k\\leq n,\\ k\\neq 2^p}\\frac 1k=\\frac {1}{2^p}+\\frac{N}{2^{p-1}q}$$ où $q$ est impair. On en déduit que \r\n$$S_n=\\sum_{k=1}^n \\frac 1k=\\frac{q+2N}{2^p q}$$ et le numérateur est impair alors que le dénominateur est pair.... Donc $S_n$ n'est pas un entier.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ un ensemble. Démontrer que $X$ et $\\mathcal P(X)$ ne sont pas équipotents.",
+    "hint": "Procéder par l'absurde et considérer $A=\\{x\\in X;\\ x\\notin f(x)\\}$.",
+    "solution": "Supposons qu'il existe une bijection $f$ de $X$ sur $\\mathcal P(X)$ et notons $A=\\{x\\in X;\\ x\\notin f(x)\\}$. Soit $y$ tel que $f(y)=A$. Alors, si $y\\in A$, $y\\notin f(y)=A$ ce qui est une contradiction. Donc $y\\notin A$. Mais alors, $y\\in f(y)=A$, ce qui est tout autant une contradiction. Ainsi, une telle bijection ne peut pas exister et $\\mathcal P(N)$ n'est pas dénombrable.",
+    "lang": "french"
+}

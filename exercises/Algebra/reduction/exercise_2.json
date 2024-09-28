@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E=\\mathbb R[X]$ et soit $u$ l'endomorphisme de $E$ défini par $u(P)=XP.$\r\nDéterminer les valeurs propres et les vecteurs propres de $u.$",
+    "hint": "Comparer le degré de $XP$ et celui de $\\lambda P.$",
+    "solution": "Soit $\\lambda\\in\\mathbb R$ et $P\\in E.$ Alors $P$ est un vecteur propre de $u$ associé à la valeur propre $\\lambda$ lorsque $XP=\\lambda P.$ Or, si $P\\neq 0,$ le polynôme à gauche de l'égalité est\r\nde degré strictement plus grand que le polynôme à droite de l'égalité. Ainsi, l'égalité $XP=\\lambda P$\r\nest impossible si $P\\neq 0.$ L'endomorphisme $u$ n'admet donc ni valeurs propres ni vecteurs propres.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Caractériser géométriquement l'endomorphisme de $\\mathbb R^3$ canoniquement associé à \r\n$$A=\\frac 19 \\left(\r\n\\begin{array}{ccc}\r\n-8&4&1\\\\\r\n4&7&4\\\\\r\n1&4&-8\r\n\\end{array}\\right).$$",
+    "hint": "La matrice $A$ est symétrique et orthogonale.",
+    "solution": "On remarque que la matrice $A$ est symétrique et orthogonale. L'endomorphisme canoniquement associé est donc une symétrie orthogonale. Pour le déterminer complètement, il suffit de déterminer l'ensemble de ses points invariants. On résout donc l'équation $AX=X$, et on trouve que l'ensemble des points invariants est $F=\\textrm{vect}(1,4,1)$. $A$ est donc la matrice, dans la base canonique, de la symétrie orthogonale par rapport à $F$, ou encore du retournement par rapport à $F$.",
+    "lang": "french"
+}

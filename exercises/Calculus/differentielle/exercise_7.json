@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathcal M_n(\\mathbb R)\\to\\mathcal M_n(\\mathbb R)$ définie par $f(M)=M^2$. Justifer que $f$ est de classe $\\mathcal C^1$ et déterminer la différentielle de $f$ en tout $M\\in\\mathcal M_n(\\mathbb R)$.",
+    "hint": "Calculer $f(M+H)-f(M)$ pour revenir à la définition d'une différentielle.",
+    "solution": "Remarquons déjà que $f$ est de classe $C^1$ puisque $f$ est polynômiale.\r\nSoient $M,H\\in\\mathcal M_n(\\mathbb R)$. Alors on a \r\n$$f(M+H)-f(M)=(M+H)^2-M^2=HM+MH+H^2.$$\r\nPosons $\\phi(H)=HM+MH$. $\\phi$ est linéaire et \r\n$$f(M+H)-f(M)=\\phi(H)+o(\\|H\\|).$$\r\nAinsi, $\\phi$ est la différentielle de $f$ en $M$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ un graphe non-orienté simple d'ordre $2p$. On suppose que le degré de chaque sommet est au moins égal à $p$.\r\nDémontrer que ce graphe est connexe.",
+    "hint": "Raisonner par l'absurde!",
+    "solution": "Supposons par l'absurde que ce graphe ne soit pas connexe, et soient $x$, $y$ deux sommets\r\ntels qu'il n'existe pas de chaine liant $x$ à $y$. Alors, $x$ a au moins $p$ voisins, et il en est de même pour $y$.\r\nMais les voisins de $x$ sont forcément tous distincts des voisins de $y$ : sinon, il existerait une chaine de longueur 2\r\njoignant $x$ à $y$. Le graphe comprend donc au moins $1+1+p+p=2p+2$ sommets ($x$, $y$, les voisins de $x$, les voisins de $y$).\r\nOn obtient donc une contradiction puisque le graphe est d'ordre $2p$.",
+    "lang": "french"
+}

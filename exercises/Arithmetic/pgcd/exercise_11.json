@@ -1,0 +1,6 @@
+{
+    "script": "J'ai une pile de livres. Lorsque je les range par 10, il m'en reste 3. Lorsque je les range par 17, il m'en reste 2. Quel est le nombre minimum de livres que je possède? Quels sont tous les nombres possibles?",
+    "hint": "Se ramener à résoudre une équation de Bézout...",
+    "solution": "Soit $N$ le nombre de livres. L'information que l'on donne est que le reste dans la division euclidienne de $N$ par $10$ (respectivement par $17$) vaut $3$ (respectivement $2$). Ainsi, il existe $a$ et $b$ des entiers naturels tels que $N=10a+3$ et $N=17b+2$. Faisant la différence, on trouve que $(a,b)$ est une solution de l'équation de Bézout $17b-10a=1$.On résoud cette équation. Le couple $(a,b)=(5,3)$ est solution, et donc les couples solutions sont les couples $(a,b)$ avec $a=5+17k$ et $b=3+10k$, avec $k\\in\\mathbb N$ (il n'y a pas de $-$ car l'équation de Bézout comporte déjà un $-$). Ainsi, si $N$ est le nombre de livres, il existe $k\\in\\mathbb N$ (car le nombre de livres est positif!) tel que $N=53+170k$.Réciproquement, on vérifie que $53+170k= 10\\times (17k+5)+3=17\\times(10k+3)+2$. Le nombre minimal de livres possible est 53, les nombres possibles sont ceux de la forme $53+170k$ avec $k\\in\\mathbb N$. Bien sûr, le nombre minimal de livres possibles aurait pu être trouvé à l'aide d'un tableur.",
+    "lang": "french"
+}

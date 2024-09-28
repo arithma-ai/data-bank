@@ -1,0 +1,6 @@
+{
+    "script": "Trouver la plus grande valeur de $\\sqrt[n]n$, $n\\in\\mathbb N^*$.",
+    "hint": "Étudier la fonction $f(x)=x^{1/x}$.",
+    "solution": "Pour $x>0$, posons \r\n$$f(x)=x^{1/x}=\\exp\\left(\\frac {\\ln x}x\\right)$$\r\nde sorte que $\\sqrt[n]n=f(n)$. $f$ est dérivable sur l'intervalle $]0,+\\infty[$ et on a \r\n$$f'(x)=\\frac{1-\\ln x}{x^2}\\exp\\left(\\frac {\\ln x}x\\right).$$\r\nPour $x>0$, $f'(x)$ est du signe de $1-\\ln x$, donc $f'(x)>0$ si $x\\in ]0,e[$ et $f'(x)<0$ si $x\\in ]e,+\\infty[$. Puisque $3>e$, on en déduit que la fonction $f$ est strictement décroissante sur $[3,+\\infty[$. En particulier, pour $n\\geq 3$, on a $f(n)\\leq f(3)$, et donc la plus grande valeur de\r\n$\\sqrt[n]{n}$ est atteinte pour $n=2$ ou pour $n=3$. Comme\r\n$$\\sqrt 2\\simeq 1,41\\textrm{ et }\\sqrt[3]3\\simeq 1,44$$\r\nla valeur maximale vaut $\\sqrt[3]{3}.$",
+    "lang": "french"
+}

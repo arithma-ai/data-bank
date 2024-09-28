@@ -1,0 +1,6 @@
+{
+    "script": "Dans un tétraèdre $ABCD$, on désigne par $I,J,K,L,M$ et $N$ les milieux des arêtes $[AB]$, $[BC]$, $[CD]$, $[DA]$, $[AC]$ et $[BD]$ et par $G_1,G_2,G_3$ et $G_4$ les centres de gravité des triangles $BCD$, $CDA$, $ABD$ et $ABC$. Démontrer que les sept droites $(AG_1)$, $(BG_2)$, $(CG_3)$, $(DG_4)$, $(IK)$, $(JL)$ et $(MN)$ sont concourantes.",
+    "hint": "Deviner d'abord le point de concours!",
+    "solution": "Soit $O$ l'isobarycentre de $A,B,C,D$. On va démontrer que toutes les droites considérées passent par $O$. Pour $(AG_1)$, on remarque, par associativité du barycentre, que $O$ est le barycentre de $(A,1)$ et de $(G_1,3)$ et donc il est sur la droite $(AG_1)$. C'est exactement la même chose pour les droites $(BG_2)$, $(CG_3)$ et $(DG_4)$. Ensuite, toujours par associativité du barycentre, $O$ est le barycentre de $(I,2)$ et de $(K,2)$. Il est donc aussi sur la droite $(IK)$. Le raisonnement est similaire pour les autres droites.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit dans $\\mathbb R^3$ la famille de vecteurs $(e_1,e_2,e_3)$, avec $e_1=(1,1,t)$, $e_2=(1,t,1)$ et $e_3=(t,1,1)$. Dire pour quelles valeurs de $t$ la famille\r\n$(e_1,e_2,e_3)$ est libre.",
+    "hint": "Il suffit de calculer le déterminant de la matrice de ces trois vecteurs.",
+    "solution": "Puisqu'on est en dimension 3, la famille  $(e_1,e_2,e_3)$ est une famille libre si et seulement si c'est une\r\nbase. Soit $M$ la matrice de ses trois vecteurs, ie\r\n$$M=\\left(\\begin{array}{ccc}\r\n1&1&t\\\\\r\n1&t&1\\\\\r\nt&1&1\r\n\\end{array}\\right).$$\r\nLa famille $(e_1,e_2,e_3)$ est une base de $\\mathbb R^3$ si et seulement si la matrice $M$ est inversible,\r\nc'est-à-dire si et seulement si $\\det(M)\\neq 0$. Mais on a\r\n\\begin{eqnarray*}\r\n\\left|\\begin{array}{ccc}\r\n1&1&t\\\\\r\n1&t&1\\\\\r\nt&1&1\\end{array}\\right|&=&\\left|\\begin{array}{ccc}\r\nt+2&1&t\\\\\r\nt+2&t&1\\\\\r\nt+2&1&1\\end{array}\\right|\\\\\r\n&=&(t+2)\\left|\\begin{array}{ccc}\r\n1&1&t\\\\\r\n1&t&1\\\\\r\n1&1&1\\end{array}\\right|\\\\\r\n&=&(t+2)\\left|\\begin{array}{ccc}\r\n1&1&t\\\\\r\n0&t-1&1-t\\\\\r\n0&0&1-t\\end{array}\\right|\\\\\r\n&=&-(t+2)(t-1)^2.\r\n\\end{eqnarray*}\r\nLa famille est donc une base si et seulement si $t\\neq -2$ et $t\\neq 1$.",
+    "lang": "french"
+}

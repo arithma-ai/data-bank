@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre les équations différentielles suivantes :$y''-2y'-3y=0.$$y''-2y'+y=0.$$y''-2y'+5y=0.$",
+    "hint": "",
+    "solution": "L'équation caractéristique de l'équation est $r^2-2r-3=0$, dont les solutions sont $r=-1$ et $r=3$. Les solutions de l'équation différentielle sont donc les fonctions $y(t)=K_1\\, \\mathrm e^{3t} + K_2\\, \\mathrm e^{-t},\\quad K_1,K_2\\in\\mathbb R$.L'équation caractérique est $r^2-2r+1=0$, qui admet $1$ comme racine double. Ainsi, les solutions de l'équation différentielle sont les fonctions $y(t)=(K_1 + K_2t)\\, \\mathrm e^{t},\\quad K_1,K_2\\in\\mathbb R$.L'équation caractéristique est $r^2-2r+5=0$. Son discriminant est $-16$, et l'équation admet deux racines complexes conjuguées, $r_1=1+2i$ et $r_2=1-2i$. Les solutions de l'équation différentielle sont donc les fonctions $y(t)=(K_1 \\, \\cos(2t) + K_2\\, \\sin(2t)) \\mathrm e^{t},\\quad K_1,K_2\\in\\mathbb R$.",
+    "lang": "french"
+}

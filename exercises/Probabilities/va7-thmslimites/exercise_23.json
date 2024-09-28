@@ -1,0 +1,6 @@
+{
+    "script": "On lance une infinité de fois une pièce de monnaie parfaitement équilibrée. Montrer qu'avec probabilité 1, on obtiendra une infinité de fois deux piles consécutifs.",
+    "hint": "Introduire les événements $B_n$ : \"on obtient pile au $2n$-ième lancer et pile au $(2n+1)$-ième lancer\".",
+    "solution": "Introduisons les événements $B_n$ : \"on obtient pile au $2n$-ième lancer et pile au $(2n+1)$-ième lancer\". Alors les événements $B_n$ sont indépendants, et $P(B_n)=\\frac 14$. Ainsi, $\\sum_{n\\geq 1}P(B_n)=+\\infty$. D'après le lemme de Borel-Cantelli, avec une probabilité égale à 1, une infinité d'événements $B_n$ seront réalisés.",
+    "lang": "french"
+}

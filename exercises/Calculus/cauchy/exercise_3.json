@@ -1,0 +1,6 @@
+{
+    "script": "Calculer $\\int_C (z^2+3z)dz$ le long du cercle $|z|=2$, du point $(2,0)$\r\nau point $(0,2)$.",
+    "hint": "Paramétrer le cercle, ou utiliser une primitive.",
+    "solution": "On peut paramétrer l'arc de cercle par $z=2e^{it}$, $0\\leq t\\leq\\pi/2$. Il vient\r\n$$I=\\int_{0}^{\\pi/2}(4e^{2it}+6e^{it})2ie^{it}dt=\\frac{-8}{3}i-\\frac{44}{3},$$\r\naprès un petit calcul... Une autre façon de procéder est de remarquer que, dans l'ouvert $\\mathbb C$, la fonction\r\n$z\\mapsto z^2+3z$ admet une primitive, égale à $F:z\\mapsto z^3/3+3z^2/2$. On a alors, et ceci ne dépend\r\nen fait pas du chemin suivi :\r\n$$I=F(2i)-F(2).$$\r\nBien sûr, on doit trouver le même résultat!",
+    "lang": "french"
+}

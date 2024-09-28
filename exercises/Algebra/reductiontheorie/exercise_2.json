@@ -1,0 +1,6 @@
+{
+    "script": "Soient $f,g$ deux endomorphismes du $\\mathbb K$-espace vectoriel $E$ de dimension finie tels que $f$ est diagonalisable. Démontrer que $f$ et $g$ commutent si et seulement si les sous-espaces propres de $f$ sont stables par $g$.",
+    "hint": "Pour la réciproque, vérifier que $f$ et $g$ commutent sur chaque sous-espace propre de $f$.",
+    "solution": "D'abord si $f$ et $g$ commutent, on sait que $\\ker(P(f))$ est stable par $g$ pour tout polynôme $P$, en particulier pour les polynômes $P(X)=X-\\lambda$. Ainsi, chaque sous-espace propre de $f$ est stable par $g$. Réciproquement, on suppose que $g$ laisse stable tous les sous-espaces propres de $f$. Soit $E_\\lambda$ un tel sous-espace propre et soit $x\\in E_\\lambda$. Alors d'une part\r\n$$g(f(x))=g(\\lambda x)=\\lambda g(x)$$\r\net d'autre part, puisque $g(x)\\in E_\\lambda$ on a aussi\r\n$$f(g(x))=\\lambda g(x).$$\r\nAutrement dit, si $x\\in E_\\lambda$, on a $f(g(x))=g(f(x))$. Maintenant, comme $f$ est diagonalisable, $E$ est somme directe des sous-espaces propres de $f$. Écrivant tout $x\\in E$ comme somme de $x_i$, où $x_i\\in E_{\\lambda_i}$, on prouve que $f(g(x))=g(f(x))$ et donc que $g$ et $f$ commutent.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Pour quelles valeurs de $a$ les vecteurs $(1,0,a)$, $(a,1,0)$ et $(0,a,1)$ sont-ils coplanaires?",
+    "hint": "Calculer le produit mixte (ou déterminant) de ces trois vecteurs.",
+    "solution": "Trois vecteurs sont coplanaires si et seulement si leur produit mixte (ou déterminant) est nul.\r\nOn calcule donc le déterminant des trois vecteurs donnés. En développant par rapport à la première colonne, on trouve :\r\n$$\\left|\r\n\\begin{array}{ccc}\r\n1&a&0\\\\\r\n0&1&a\\\\\r\na&0&1\\\\\r\n\\end{array}\\right|=1\\left|\\begin{array}{cc}1&a\\\\\r\n0&1\\\\\r\n\\end{array}\\right|+a\\left|\\begin{array}{cc}a&0\\\\\r\n1&a\r\n\\end{array}\\right|=a^3+1.$$\r\nCette quantité s'annule si et seulement si $a=-1$. Les vecteurs sont donc coplanaires si et\r\nseulement si $a=-1$.",
+    "lang": "french"
+}

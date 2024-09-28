@@ -1,0 +1,6 @@
+{
+    "script": "On définit la relation $\\mathcal R$ sur $\\mathbb N^*$ par $p\\mathcal R q\\iff \\exists k\\in\\mathbb N^*,\\ q=p^k$. Montrer que $\\mathcal R$ définit un ordre partiel sur $\\mathbb N^*$.\r\nDéterminer les majorants de $\\{2,3\\}$ pour cet ordre.",
+    "hint": "Démontrer que $\\{2,3\\}$ n'admet pas de majorants!",
+    "solution": "La relation estréflexive : $p\\mathcal R p$ puisque $p=p^1$ pour tout $p\\in\\mathbb N^*$;antisymétrique : si $p\\mathcal R q$ et $q\\mathcal R p$, alors $p=q^k$ et $q=p^j$ avec $k,j\\geq 1$ et donc $p=p^{jk}$. Ceci n'est possible\r\nque si $p=1$, mais alors $q=1=p$ ou si $jk=1$, ce qui implique $j=k=1$ et donc $p=q$.transitive : si $p\\mathcal R q$ et $q\\mathcal R r$, alors $q=p^k$ et $r=q^j=p^{jk}$, donc $p\\mathcal R r$.On définit donc ainsi un ordre sur $\\mathbb N^*$ qui n'est pas total (par exemple, on ne peut pas comparer $2$ et $3$).\r\nSoit maintenant $p$ un majorant de $\\{2,3\\}$. Alors $2\\mathcal R p$ et donc $p=2^k$, avec $k\\geq 1$. De même, $p=3^j$ avec $j\\geq 1$. Par unicité\r\nde la décomposition en produits de facteurs premiers, ceci est impossible. L'ensemble $\\{2,3\\}$ n'a pas de majorant.",
+    "lang": "french"
+}

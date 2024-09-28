@@ -1,0 +1,6 @@
+{
+    "script": "Soit $P(z)=z^n+a_1 z^{n-1}+\\dots+a_n$, $a_j\\in\\mathbb C$. Montrer qu'il existe un point\r\n$c$ de module 1 tel que $|P(c)|\\geq 1$.",
+    "hint": "Faire un raisonnement par l'absurde, et appliquer le théorème de Rouché avec la fonction $-z^n$ et la fonction $a_1 z^{n-1}+\\dots+a_n$.",
+    "solution": "Supposons le contraire, et posons $f(z)=a_1 z^{n-1}+\\dots+a_n$ et $g(z)=-z^n$. Alors $f$ et $g$ vérifient, pour $|z|=1$, \r\n$$|f(z)-g(z)|=|P(z)|<1\\leq |g(z)|.$$\r\nPar le théorème de Rouché, $f$ et $g$ ont le même nombre de zéros, comptés avec leur multiplicité, dans $D(0,1)$.\r\nOr, $g$ en a $n$ (rappelons que l'on compte aussi les multiplicités), donc $f$ doit aussi en avoir $n$. Ce n'est pas possible, car $f$ est un\r\npolynôme de degré inférieur ou égal à $n-1$.",
+    "lang": "french"
+}

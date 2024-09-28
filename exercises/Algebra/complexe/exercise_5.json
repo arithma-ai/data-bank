@@ -1,0 +1,6 @@
+{
+    "script": "Soit $z$ un nombre complexe non nul, de forme algébrique $z=x+iy$. Donner la forme algébrique des nombres complexes suivants :\r\n$$\\begin{array}{lll}\r\n\\mathbf{1.}\\ z_1=\\frac{\\overline z}{z}&\\quad\\mathbf{2.}\\ z_2=\\frac{iz}{\\overline z}.\r\n\\end{array}$$",
+    "hint": "Remplacer $\\overline z$ par $x-iy$, puis faire les calculs de quotients comme on les fait d'ordinaire.",
+    "solution": "On remplace $z$ par $x+iy$ et $\\overline z$ par $x-iy$, puis on mène le calcul comme d'habiture. On a donc\r\n$$z_1=\\frac{x-iy}{x+iy}=\\frac{(x-iy)(x-iy)}{(x+iy)(x-iy)}=\\frac{x^2-y^2-2ixy}{x^2+y^2}=\\frac{x^2-y^2}{x^2+y^2}-2\\frac{xy}{x^2+y^2}i.$$On a \r\n\\begin{align*}\r\nz_2&=\\frac{i(x+iy)}{x-iy}\\\\\r\n&=\\frac{-y+ix}{x-iy}\\\\\r\n&=\\frac{(-y+ix)(x+iy)}{(x-iy)(x+iy)}\\\\\r\n&=\\frac{-2xy+i(x^2-y^2)}{x^2+y^2}\\\\\r\n&=\\frac{-2xy}{x^2+y^2}+i\\frac{x^2-y^2}{x^2+y^2}.\r\n\\end{align*}",
+    "lang": "french"
+}

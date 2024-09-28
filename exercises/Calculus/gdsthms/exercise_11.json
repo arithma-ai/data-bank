@@ -1,0 +1,6 @@
+{
+    "script": "Soit $U$ un ouvert de $\\mathbb C$ contenant $a\\in U$. Soit $(g_n)$ une suite de fonctions\r\nholomorphes sur $U$. Pour $n\\geq 1$, $z\\in U$, on pose $f_n(z)=(z-a)g_n(z)$.\r\nOn suppose que la suite de fonctions $(f_n)$ converge uniformément vers 0 sur $U$. Montrer\r\nque la suite $(g_n)$ converge aussi uniformément sur $U$.",
+    "hint": "Fixons $r>0$ tel que $\\overline{D(a,r)}\\subset U$ et découper l'étude en ce qui se passe\r\ndans ce disque et au dehors. A l'intérieur, on pourra utiliser le principe du maximum.",
+    "solution": "Soit $\\veps>0$, et fixons $r>0$ tel que $\\overline{D(a,r)}\\subset U$. Il existe $n_0\\in\\mathbb N$\r\ntel que, pour tout $z\\in U$ et tout $n\\geq n_0$, alors \r\n$$|f_n(z)|\\leq r\\veps.$$\r\nPour $z\\in U\\backslash D(a,r)$, on a $|z-a|\\geq r$ et donc \r\n$$|g_n(z)|\\leq \\frac{|f_n(z)|}{|z-a|}\\leq \\frac{r\\veps}{r}=\\veps.$$\r\nCette inégalité est en particulier vraie sur le cercle $C(a,r)$ donc,\r\npar le principe du maximum, dans $D(a,r)$. En conclusion, on a prouvé\r\nque pour tout $z\\in U$ et tout $n\\geq n_0$, on a $|g_n(z)|\\leq\\veps$\r\nce qui prouve la convergence uniforme de $g_n$ vers 0.",
+    "lang": "french"
+}

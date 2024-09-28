@@ -1,0 +1,6 @@
+{
+    "script": "Soit $U$ un ouvert de $\\mathbb C$ et $f$ une fonction holomorphe sur $U$.\r\nSoit $V=\\{z\\in\\mathbb C;\\ \\bar z\\in U\\}$. On pose, pour $z\\in V$, $g(z)=\\overline{f(\\bar z)}$.\r\nMontrer que $g$ est holomorphe sur $V$.",
+    "hint": "Vérifier que $g$ satisfait les équations de Cauchy-Riemann.",
+    "solution": "On va vérifier que $g$ satisfait les équations de Cauchy-Riemann en tout point de $V$.\r\nSi on pose $z=x+iy$ et $f(z)=P(x,y)+iQ(x,y)$, alors on a \r\n$$g(z)=\\overline{f(x-iy)}=P(x,-y)-iQ(x,-y):=u(x,y)+iv(x,y)$$ \r\noù $u(x,y)=P(x,-y)$ et $v(x,y)=-Q(x,-y)$. Ainsi, $g$ est bien $\\mathbb R$-différentiable. De plus, on a \r\n$$\\frac{\\partial u}{\\partial x}(x,y)=\\frac{\\partial P}{\\partial x}(x,-y)=\\frac{\\partial Q}{\\partial y}(x,-y)$$\r\ntandis que \r\n$$\\frac{\\partial v}{\\partial y}(x,y)=-\\left(-\\frac{\\partial Q}{\\partial y}(x,-y)\\right)=\\frac{\\partial Q}{\\partial y}(x,-y).$$\r\nOn a donc bien $\\frac{\\partial u}{\\partial x}=\\frac{\\partial v}{\\partial y}$. On vérifie\r\nde la même façon que $\\frac{\\partial u}{\\partial y}=-\\frac{\\partial v}{\\partial x}$, ce qui achève la preuve du fait\r\nque $g$ est holomorphe.",
+    "lang": "french"
+}

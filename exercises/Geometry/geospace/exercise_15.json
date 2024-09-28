@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer le projeté orthogonal $H$ du point $M(u,v,w)$ sur le plan $\\mathcal P$\r\ndéterminé par les trois points $A(1,2,3)$, $B(0,1,5)$ et $C(2,3,4)$.",
+    "hint": "Chercher une équation de $\\mathcal P$, puis de la perpendiculaire à $\\mathcal P$ passant par $M$.",
+    "solution": "Un vecteur normal à $\\mathcal P$ est $\\overrightarrow{AB}\\wedge\\overrightarrow{AC}$, de\r\ncoordonnées $(-3,3,0)$, ou encore, pour que les équations soient plus simples à écrire,\r\nle vecteur $(1,-1,0)$ qui lui est colinéaire.\r\nUne équation de $\\mathcal P$ est donc de la forme $x-y+d=0$, et puisque \r\n$A$ est élément du plan, on obtient $1-2+d=0\\implies d=1$. La perpendiculaire à $\\mathcal P$\r\npassant par $M$ a pour vecteur directeur un vecteur normal du plan, comme $(1,-1,0)$. Comme elle passe par $M$,\r\nelle admet pour équation paramétrique :\r\n$$\\begin{cases}\r\nx&=u+t\\\\\r\ny&=v-t\\\\\r\nz&=w.\r\n\\end{cases}$$\r\nL'intersection de cette droite et du plan $\\mathcal P$ est le projeté orthogonal recherché. On introduit l'équation paramétrique de la droite\r\ndans celle du plan, et on trouve :\r\n$$u+t-v+t+1=0\\implies t=\\frac{-u+v-1}2.$$\r\nOn en déduit les coordonnées de $H$ :\r\n$$x_H=u+\\frac{-u+v-1}{2}=\\frac{u+v-1}2\\quad y_H=v-\\frac{-u+v-1}2=\\frac{u+v+1}{2}\\quad z_H=w.$$",
+    "lang": "french"
+}

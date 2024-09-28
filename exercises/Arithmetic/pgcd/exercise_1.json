@@ -1,0 +1,6 @@
+{
+    "script": "Quels sont les diviseurs communs à 390 et 525?Calculer $(3^{123}-5)\\wedge 25$.Soit $n\\in\\mathbb Z$. Démontrer que $6|n(n+1)(n+2)$.",
+    "hint": "Chercher le pgcd de ces deux nombres.Pourquoi le pgcd de ces deux nombres est 1, 5 ou 25?\r\nPourquoi est-ce forcément 1?Démontrer que $2|n(n+1)(n+2)$ et $3|n(n+1)(n+2)$.",
+    "solution": "En utilisant l'algorithme d'Euclide par exemple, on trouve que le pgcd de 390 et 525 est égal à 15. Les diviseurs communs de 390 et 525 sont les diviseurs de 15. Ces diviseurs sont donc $1,\\ 3,\\ 5$ et $15$.Notons $d$ le pgcd à calculer. Puisqu'il divise les deux nombres, il divise\r\n25 et $d$ est donc égal à $1$, $5$ ou $25$. S'il est égal à $5$ ou $25$,\r\nceci signifie que $5$ divise $3^{123}-5$. Mais alors, puisque\r\n$5$ divise $-5$, ceci entrainerait encore que $5$ divise $3^{123}$, ce\r\nqui n'est pas vrai. Donc $d=1$.$n$ et $n+1$ sont deux entiers consécutifs. L'un des deux au moins\r\nest pair, et donc $2|n(n+1)(n+2)$. De même, $n$, $n+1$ et $n+2$ sont trois entiers consécutifs.\r\nL'un au moins est un multiple de 3, et donc $3|n(n+1)(n+2)$. Par le théorème de Gauss,\r\npuisque $2$ et $3$ sont premiers entre eux,\r\n$6|n(n+1)(n+2)$.",
+    "lang": "french"
+}

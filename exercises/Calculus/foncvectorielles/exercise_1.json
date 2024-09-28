@@ -1,0 +1,6 @@
+{
+    "script": "Soit $M:\\mathbb R\\to\\mathcal M_n(\\mathbb R),\\ t\\mapsto M(t)$ une fonction dérivable.Démontrer que la fonction $\\phi:t\\in\\mathbb R\\mapsto M(t)M(t)^T$ est dérivable.On suppose pour tout $t\\in\\mathbb R,$ la matrice $M(t)$ est orthogonale. Démontrer que, pour tout $t\\in \\mathbb R$, $M'(t)M(t)^T$ est antisymétrique.",
+    "hint": "Utiliser les théorèmes du cours, et notamment comment calculer la dérivée d'une application bilinéaire.",
+    "solution": "Notons $L(M)=M^T$ et $B(M,N)=MN.$ Alors $L$ est une application linéaire et $B$ est une application bilinéaire. De plus, on a pour tout $t\\in \\mathbb R,$ \r\n$$\\phi(t)=B(M(t),L(M(t))).$$\r\nPar composée, $\\phi$ est dérivable. De plus,\r\n\\begin{align*}\r\n\\phi'(t)&=B(M'(t),L(M(t))+B(M(t),L(M'(t)))\\\\\r\n&=M'(t)M(t)^T+M(t)M'(t)^T.\r\n\\end{align*}On sait que, pour tout $t\\in\\mathbb R,$ $\\phi(t)=I_n.$ Ainsi, la dérivée de $\\phi$ est nulle et\r\n$$M'(t)M(t)^T+M(t)M'(t)^T=0$$\r\npour tout $t\\in\\mathbb R$. D'autre part, \r\n$$(M'(t)M(t)^T)^T=M(t)M'(t)^T.$$\r\nOn déduit de ces deux résultats que \r\n$$M'(t)M(t)^T=-(M'(t)M(t)^T)^T$$\r\nce qui prouve que $M'(t)M(t)^T$ est antisymétrique.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que la fonction $f:\\mathbb R\\to\\mathbb R_+^*$ définie par \r\n$$f(x)=\\frac{e^x+2}{e^{-x}}$$\r\nest bijective. Calculer sa bijection réciproque $f^{-1}$.",
+    "hint": "Prendre $y>0$ et résoudre l'équation $y=f(x)$. On doit trouver une unique valeur pour $x$.",
+    "solution": "La première chose à remarquer est que $f$ s'écrit plus facilement \r\n$$f(x)=e^{2x}+2e^x.$$\r\nSoit $y>0$. Alors on a\r\n$$y=f(x)\\iff e^{2x}+2e^x-y=0.$$\r\nOn pose alors $X=e^x$ et l'équation est équivalente à l'équation du second degré \r\n$$X^2+2X-y=0$$\r\ndont les racines sont\r\n$$X_1=-1-\\sqrt{1+y}\\textrm{ et }X_2=-1+\\sqrt{1+y}.$$\r\nMais $e^x>0$, et donc on a \r\n$$y=f(x)\\iff  e^x=-1+\\sqrt{1+y}\\iff x=\\ln\\left(-1+\\sqrt{1+y}\\right).$$\r\nL'équation $y=f(x)$ admet donc toujours une unique solution. La fonction $f$ est bijective et \r\n$$f^{-1}(y)=\\ln\\left(-1+\\sqrt{1+y}\\right).$$",
+    "lang": "french"
+}

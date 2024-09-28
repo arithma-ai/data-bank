@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(A,+,\\times)$ un anneau commutatif et $M$ une partie de $A$. On appelle annulateur de $M$ l'ensemble des $x\\in A$ tels que $xy=0$ pour tout $y\\in M$. Démontrer que l'annulateur de $M$ est un idéal de $(A,+,\\times)$.",
+    "hint": "",
+    "solution": "Notons $I$ cet ensemble. Il suffit d'appliquer la définition. En effet, on remarque que $0\\in I$. De plus, prenons $u,v\\in I$ et $a\\in A$. Alors, pour tout $y\\in M$, on a \r\n$$(u-v)y=uy-vy=0$$\r\net \r\n$$(au)y=a(uy)=0.$$\r\nAinsi, $u-v$ et $au$ sont dans $I$ qui est un idéal.",
+    "lang": "french"
+}

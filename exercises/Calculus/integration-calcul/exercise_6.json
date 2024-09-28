@@ -1,0 +1,6 @@
+{
+    "script": "La hauteur, en mètres, d'une ligne électrique de $160\\textrm{m}$ peut être modélisée par la fonction $h$ définie sur $[-80;80]$ par \r\n$h(x)=10\\left(e^{x/40}+e^{-x/40}\\right).$\r\nQuelle est la hauteur moyenne de cette ligne électrique?",
+    "hint": "Appliquer la formule du cours donnant la valeur moyenne d'une fonction. Trouver une primitive de $x\\mapsto \\exp(ax)$.",
+    "solution": "Par une formule du cours, la hauteur moyenne de la ligne électrique est :\r\n\\begin{align*}\r\n\\frac{1}{160}\\int_{-80}^{80}h(x)\\mathrm dx & = \\frac{1}{160}\\int_{-80}^{80}10\\left(e^{x/40}+e^{-x/40}\\right)\\mathrm dx \\\\\r\n& = \\frac{1}{16} \\Big[40e^{x/40} - 40e^{-x/40}\\Big]_{-80}^{80} \\\\\r\n& = \\frac{5}2\\left(e^2 - e^{-2} - \\left(e^{-2} - e^{2}\\right)\\right) \\\\\r\n& = 5\\left(e^2 - e^{-2}\\right) \\\\\r\n& \\approx 36,\\!27\\textrm m.\r\n\\end{align*}",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Trouver des conditions nécessaires (pas forcément suffisantes) à chacune des propositions suivantes :Avoir son bac.Le point $A$ appartient au segment $[BC]$.Le quadrilatère $ABCD$ est un rectangle.",
+    "hint": "",
+    "solution": "Avoir passé l'examen.Les points $A,B$ et $C$ sont alignés.$ABCD$ est un parallélogramme.Les trois conditions précédentes sont des conditions nécessaires mais non suffisantes (pourquoi?). On peut en imaginer bien d'autres...",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\in\\mathbb N$.Calculer $A_n=\\sum_{k=2n+1}^{3n}(2n)$.Calculer $B_n=\\sum_{k=n}^{2n}k$.En déduire la valeur de $S_n=\\sum_{k=n}^{3n}\\min(k,2n)$.",
+    "hint": "On somme des termes constants.Écrire $B_n$ comme la différence de deux sommes connues.Couper la somme en deux.",
+    "solution": "On ne somme que des termes constants, et donc on trouve \r\n$$A_n=n\\times (2n)=2n^2.$$Notons $T_n=\\sum_{k=0}^n k$. Alors on a \r\n$$B_n=T_{2n}-T_{n-1}=n(2n+1)-\\frac{(n-1)n}2=\\frac{n(4n+2-(n-1))}2=\\frac{3(n+1)n}2.$$On remarque que si $k\\leq 2n$, alors $\\min(k,2n)=k$ alors que si $k\\geq 2n+1$, on a $\\min(k,2n)=2n$. On en déduit que\r\n$$S_n=A_n+B_n=2n^2+\\frac{3n(n+1)}2=\\frac{n(7n+3)}2.$$",
+    "lang": "french"
+}

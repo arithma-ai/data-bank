@@ -1,0 +1,6 @@
+{
+    "script": "soit $f:E\\to F$ et $g:F\\to G$ deux applications. On note $h=g\\circ f$ la composée.On suppose $h$ injective et $f$ surjective. Montrer que $g$ est injective.On suppose $h$ surjective et $g$ injective. Montrer que $f$ est surjective.",
+    "hint": "Procéder par l'absurde.Considérer $y\\in F$, puis $x\\in E$ tel que $h(x)=g(y)$.",
+    "solution": "Supposons que $g$ ne soit pas injective. Alors il existe $a,b\\in F$ tels que $g(a)=g(b)$ et $a\\neq b$. Puisque $f$ est surjective, il existe $x\\in E$ tel que $f(x)=a$ et il existe $y\\in E$ tel que $f(y)=b$. Puisque $a\\neq b$, on a bien sûr $x\\neq y$. Mais alors, $h(x)=g(f(x))=g(a)=g(b)=g(f(y))=h(y)$, et donc $h$ n'est pas injective, une contradiction.Soit $y\\in F$. Alors, $g(y)\\in G$ et donc, puisque $h$ est surjective, il existe $x\\in E$ tel que $h(x)=g(y)$. Mais $h(x)=g(f(x))=g(y)$. Puisque $g$ est injective, on a $f(x)=y$. Ceci prouve bien que $f$ est surjective.",
+    "lang": "french"
+}

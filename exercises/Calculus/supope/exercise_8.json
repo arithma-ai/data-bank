@@ -1,0 +1,6 @@
+{
+    "script": "Soit $T$ une distribution sur $\\mtr^n$ et $f$ une fonction $\\mathcal C^\\infty$ sur $\\mtr^n$.Montrer que si $fT=0$, alors le support de $T$ est inclus dans $Z(f)=\\left\\{x\\in\\mtr^n,\\ f(x)=0\\right\\}$.En prenant $T=\\delta'\\in\\mcd'(\\mtr)$, montrer que la réciproque est fausse.Déterminer les fonction $f$ de classe $\\mathcal C^\\infty$ telles que $f\\delta'=0$.",
+    "hint": "",
+    "solution": "Soit $\\phi\\in\\mcd(\\mtr^n)$ à support dans $Z(f)^c$. Alors $\\phi/f$ est aussi dans $\\mcd(\\mtr)$, et on a \r\n$$\\langle T,\\phi\\rangle = \\langle fT,\\phi/f\\rangle=0.$$\r\n$T$ s'annule sur l'ouvert $Z(f)^c$ et donc le support de $T$ est inclus dans $Z(f)$.Prenons $f(x)=x$. On a bien $supp(T)\\subset Z_f$. Mais,\r\n$$\\langle x\\delta',\\phi\\rangle =\\langle \\delta',x\\phi\\rangle=\\phi(0),$$\r\nce qui prouve bien que $x\\delta'$ n'est pas la distribution nulle.On a \r\n$$\\langle f\\delta',\\phi\\rangle=-f'(0)\\phi(0)-f(0)\\phi'(0),$$\r\net ceci est identiquement nulle si, et seulement si, $f(0)=f'(0)=0$. \r\nCela revient à dire que $f$ s'ecrit $f(x)=x^2g(x)$ où $g$ est une autre fonction $C^\\infty$.",
+    "lang": "french"
+}

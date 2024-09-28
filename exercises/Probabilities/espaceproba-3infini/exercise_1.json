@@ -1,0 +1,6 @@
+{
+    "script": "On lance une pièce une infinité de fois. Pour $n\\geq 1$, on note $A_n$ l'événement \r\n``le $n$-ème lancer amène pile''.Décrire par une phrase les événements suivants : \r\n$$B=\\bigcap_{i=5}^{+\\infty}A_i,\\ C=\\bigcup_{i=5}^{+\\infty}A_i.$$Écrire à l'aide de $A_i$ l'événement $D$=``On n'obtient plus que des piles à partir d'un certain lancer''.",
+    "hint": "",
+    "solution": "$B$ signifie qu'à partir du cinquième lancer, on n'obtient que des piles. \r\n$C$ signifie qu'un lancer au moins à partir du cinquième lancer donne pile. On peut décrire $D$ par la formule\r\n$$D=\\bigcup_{n=1}^{+\\infty}\\bigcap_{i\\geq n}A_i.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "En utilisant une somme télescopique, calculer $\\sum_{k=1}^n k\\cdot k!$.",
+    "hint": "Écrire $k=(k+1)-1$.",
+    "solution": "Pour faire apparaître une somme télescopique, on va écrire $k=(k+1)-1$. Il vient\r\n\\begin{align*}\r\n\\sum_{k=1}^n k\\cdot k!&=\\sum_{k=1}^n (k+1-1)\\cdot k!\\\\\r\n&=\\sum_{k=1}^n \\big( (k+1)!-k!\\big)\\\\\r\n&=(n+1)!-1!=(n+1)!-1.\r\n\\end{align*}",
+    "lang": "french"
+}

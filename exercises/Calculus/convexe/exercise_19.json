@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:I\\to\\mathbb R$ une fonction continue convexe et strictement croissante. Étudier la convexité de $f^{-1}:f(I)\\to I.$",
+    "hint": "Revenir à la définition. Bizarrement, on doit trouver une fonction concave!",
+    "solution": "Soit $y_1,y_2\\in f(I)$ et $x_1,x_2\\in I$ tels que $y_1=f(x_1)$ et $y_2=f(x_2)$. Soit aussi $t\\in [0,1]$. Alors \r\n$$f^{-1}\\big(ty_1+(1-t)y_2\\big)=f^{-1}\\big(tf(x_1)+(1-t)f(x_2)\\big).$$\r\nPar convexité de $f$, \r\n$$tf(x_1)+(1-t)f(x_2)\\geq f(tx_1+(1-t)x_2).$$\r\nPuisque $f^{-1}$ est croissante (la réciproque d'une fonction croissante est croissante), on en déduit que \r\n$$f^{-1}\\big(ty_1+(1-t)y_2\\big)\\geq f^{-1}\\big(f(tx_1+(1-t)x_2)\\big)=tx_1+(1-t)x_2=tf^{-1}(y_1)+(1-t)f^{-1}(y_2).$$\r\nAinsi, $f^{-1}$ est concave.",
+    "lang": "french"
+}

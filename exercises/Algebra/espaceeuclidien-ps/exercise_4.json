@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que les formules suivantes définissent des produits scalaires sur l'espace vectoriel associé :$\\langle f,g\\rangle=f(0)g(0)+\\int_0^1 f'(t)g'(t)dt$ sur $E=\\mathcal C^1([0,1],\\mathbb R)$;$\\langle f,g\\rangle=\\int_a^b f(t)g(t)w(t)dt$ sur $E=\\mathcal C([a,b],\\mathbb R)$ où $w\\in E$ est telle que $w(x)>0$ pour tout $x\\in]a,b[.$",
+    "hint": "Le point difficile est de démontrer que la forme est définie. Utiliser le fait que si $h$ est continue et positive, alors $\\int_a^b h(t)dt=0\\implies h\\equiv 0$.",
+    "solution": "Dans les deux exemples, la difficulté est de démontrer qu'on a affaire à une forme définie.Si $\\langle f,f\\rangle=0$, alors on a à la fois $(f(0))^2=0$, donc $f(0)=0$, et \r\n$$\\int_0^1 \\big(f'(t)\\big)^2dt=0.$$\r\nOr, $(f')^2$ est continue et positive sur $[0,1]$. Puisque son intégrale est nulle, c'est que $f'$ est nulle sur $[0,1]$. On en déduit que $f$ est constante sur $[0,1]$, puis, comme $f(0)=0$, que $f$ est identiquement nulle sur $[0,1]$.Si $f\\in E$ est tel que $\\langle f,f\\rangle=0$, le même raisonnement donne que $f^2w=0$ sur $[a,b]$, donc, puisque $w$ ne s'annule pas sur $]a,b[$, que $f=0$ sur $]a,b[$. Par continuité, on en déduit que $f=0$ sur $[a,b]$ et donc que $f\\equiv 0$. La forme est bien définie positive.",
+    "lang": "french"
+}

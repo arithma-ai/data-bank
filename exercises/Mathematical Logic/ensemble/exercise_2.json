@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A=\\{(x,y)\\in\\mathbb R^2;\\ 4x-y=1\\}$ et $C=\\{(t+1,4t+3);\\ t\\in\\mathbb R\\}$. Démontrer que $A=C$.",
+    "hint": "Procéder par double inclusion.",
+    "solution": "On va procéder par double inclusion. Le plus facile est de prouver que $C\\subset A$. En effet, prenons un couple $(x,y)\\in C$. Alors on sait qu'il existe un $t\\in\\mathbb R$ tel que $x=t+1$ et $y=4t+3$. Mais alors,\r\n$$4x-y=4t+4-4t-3=1$$\r\net donc on a bien $(x,y)\\in A$.Réciproquement, prenons $(x,y)\\in A$ et prouvons que $(x,y)\\in C$. C'est plus difficile, car il faut construire un réel $t$. On va procéder par analyse-synthèse. Si un tel $t$ existe, alors nécessairement on doit avoir $t=x-1$. Posons donc $t=x-1$. Alors, $y=4x-1=4(t+1)-1=4t+3$. On a donc bien $(x,y)=(t+1,4t+3)$ et $(x,y)\\in C$.",
+    "lang": "french"
+}

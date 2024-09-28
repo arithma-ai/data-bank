@@ -1,0 +1,6 @@
+{
+    "script": "On munit $E=\\mathcal M_n(\\mathbb R)$ du produit scalaire $\\langle A,B\\rangle=\\textrm{Tr}(A^T B).$ Pour $A\\in E,$ on définit les endomorphismes $R_A$ et $L_A$ de $E$ par $R_A(M)=MA$ et $L_A(M)=AM.$ Déterminer les adjoints de $R_A$ et de $L_A$.",
+    "hint": "Revenir à la définition",
+    "solution": "On va revenir à la définition de l'adjoint. Pour tous $M,N\\in E,$ \r\n$$\\langle R_A (M),N\\rangle=\\textrm{Tr}((MA)^T N)=\\textrm{Tr}(A^T M^T N)=\\textrm{Tr}(M^T N A^T)=\\langle M,NA^T\\rangle$$\r\nce qui prouve que $R_A^* = R_{A^T}.$ De la même façon, on prouve que $L_A^*=L_{A^T}$.",
+    "lang": "french"
+}

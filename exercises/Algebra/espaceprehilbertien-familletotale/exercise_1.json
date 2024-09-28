@@ -1,0 +1,6 @@
+{
+    "script": "On munit $\\mathcal C([0,1])$ du produit scalaire \r\n$$\\langle f,g\\rangle=\\int_0^1 f(t)g(t)dt.$$\r\nDémontrer que la famille $(X^n)_{n\\geq 0}$ est totale dans cet espace préhilbertien.",
+    "hint": "Utiliser le théorème de Weierstrass.",
+    "solution": "Remarquons que, pour tout $g\\in\\mathcal C([0,1])$, on a \r\n$$\\|g\\|_2=\\left(\\int_0^1|g(t)|^2dt\\right)^{1/2}\\leq \\|g\\|_\\infty.$$\r\nPrenons maintenant $f\\in\\mathcal C([0,1])$ et $\\veps>0$. D'après le théorème de Weierstrass, il existe un polynôme $P$ tel que $\\|f-P\\|_\\infty\\leq\\veps$. On en déduit que $\\|f-P\\|\\leq \\veps$ ce qui prouve bien que la famille $(X^n)_{n\\geq 0}$ est totale.",
+    "lang": "french"
+}

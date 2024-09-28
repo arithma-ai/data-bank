@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que $-1$ est une somme de deux carrés dans $\\mathbb Q[i\\sqrt 2]$. En déduire que les corps $\\mathbb Q[\\sqrt 2]$ et $\\mathbb Q[i\\sqrt 2]$ ne sont pas isomorphes.",
+    "hint": "Vérifier aussi que $-1$ n'est pas un carré de $\\mathbb Q[\\sqrt 2]$, puis procéder par l'absurde.",
+    "solution": "Il n'est pas très difficile de trouver que \r\n$$-1=(1)^2+(i\\sqrt 2)^2.$$\r\nImaginons qu'il existe un isomorphisme $\\sigma$ de $\\mathbb Q[i\\sqrt 2]$ sur $\\mathbb Q[\\sqrt 2]$. Alors, on sait que $\\sigma(-1)=-1\\sigma(1)=-1$. \r\nMaintenant, $-1=a^2+b^2$ dans $\\mathbb Q[i\\sqrt 2]$ et donc \r\n$$-1=\\sigma(-1)=c^2+d^2$$\r\noù $c=\\sigma(a)$ et $d=\\sigma(b)$. Ainsi, $-1$ est aussi somme de deux carrés dans $\\mathbb Q[\\sqrt 2]$. C'est impossible, puisque les carrés de $\\mathbb Q[\\sqrt 2]$ sont des réels positifs ou nuls! En réalité, on a même prouvé une propriété plus forte : il n'existe pas de morphisme de corps de $\\mathbb Q[i\\sqrt 2]$ vers $\\mathbb Q[\\sqrt 2]$.",
+    "lang": "french"
+}

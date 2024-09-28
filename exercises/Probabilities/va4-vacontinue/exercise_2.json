@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ la fonction définie sur $\\mathbb R$ par $f(x)=\\frac{a}{1+x^2}$. Déterminer $a$ pour que $f$ soit la densité de probabilité d'une variable aléatoire $X$. Déterminer la fonction de répartition de $X$. $X$ admet-elle une espérance?",
+    "hint": "",
+    "solution": "La fonction $f$ est continue sur $\\mathbb R$ et positive. Elle va être la densité de probabilité d'une variable aléatoire $X$ si elle est intégrable et si $\\int_{-\\infty}^{+\\infty}f(x)dx=1$. Or, une primitive de $\\frac{1}{1+x^2}$ est $\\arctan(x)$. On a donc \r\n$$\\int_{-\\infty}^{+\\infty}f(x)dx=a\\lim_{x\\to+\\infty}\\arctan(x)-a\\lim_{x\\to-\\infty}\\arctan(x)=a\\pi.$$\r\nAinsi, $f$ est la densité de probabilité d'une variable aléatoire $X$ si et seulement si $a=\\frac 1{\\pi}$. Dans ce cas, la fonction de répartition de $X$ est donnée par \r\n$$F_X(t)=\\int_{-\\infty}^t \\frac{1}{\\pi(1+x^2)}dx=\\frac 1\\pi\\left[\\arctan(x)\\right]_{-\\infty}^t=\\frac1\\pi\\arctan(t)+\\frac 12.$$\r\nEnfin, $X$ n'admet pas d'espérance car la fonction $xf(x)$ n'est pas intégrable sur $\\mathbb R$. En effet, au voisinage de $+\\infty$, on a \r\n$$xf(x)\\sim_{+\\infty}\\frac{1}{\\pi x}$$\r\net on conclut par comparaison à une intégrale de Riemann divergente.",
+    "lang": "french"
+}

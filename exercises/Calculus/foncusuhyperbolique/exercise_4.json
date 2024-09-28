@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre l'équation $\\cosh(x)=2$.",
+    "hint": "Se ramener à une équation du second degré.",
+    "solution": "Utilisant la définition de la fonction cosinus hyperbolique, on sait que \r\n$$\\cosh x=2\\iff e^x+e^{-x}-4=0\\iff e^{-x}(e^{2x}+1-4e^x)=0.$$\r\nLa fonction exponentielle ne s'annulant jamais, l'équation est équivalente à \r\n$$e^{2x}-4e^x+1=0.$$\r\nOn pose $X=e^x$ et on résoud\r\n$$X^2-4X+1=0.$$\r\nSes racines sont $2-\\sqrt 3$ et $2+\\sqrt 3$, qui sont tous les deux des réels positifs. Les solutions de l'équation sont donc $\\ln(2-\\sqrt 3)$ et $\\ln(2+\\sqrt 3)$.",
+    "lang": "french"
+}

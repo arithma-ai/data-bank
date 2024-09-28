@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que $(\\mathbb Q,+)$ et $(\\mathbb Z,+)$ ne sont pas isomorphes",
+    "hint": "Procéder par l'absurde, et utiliser que $x+x=1$ n'a pas de solutions dans $\\mathbb Z$.",
+    "solution": "On procède par l'absurde et on suppose qu'il existe un isomorphisme de groupes $f:(\\mathbb Q,+)\\to (\\mathbb Z,+)$. Notons $a=f^{-1}(1)$. Alors \r\n$\\frac a2\\in \\mathbb Q$ et \r\n$$\\frac a2+\\frac a2=a.$$\r\nSi on applique $f$ on trouve \r\n$$2f(a/2)=f(a)=1\\implies \\frac 12=f(a/2)\\in \\mathbb Z.$$\r\nC'est bien sûr une contradiction!",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Calculer explicitement $\\langle x^\\alpha \\partial^\\beta\\delta_p,\\phi\\rangle$ pour tout $\\phi\\in\\mcd(\\mtr^n)$,\r\noù $\\alpha$ et $\\beta$ sont des entiers et $\\delta_p$ \r\nest la masse de Dirac au point $p\\in\\mtr$. Quel est le support de $x^\\alpha\\partial^\\beta\\delta_p$?",
+    "hint": "Appliquer les définitions.",
+    "solution": "On a \r\n$$\\langle x^\\alpha\\partial^\\beta \\delta_p,\\phi\\rangle =\\langle \\partial^\\beta \\delta_p,x^\\alpha\\phi\\rangle=(-1)^{\\beta}\\langle \\delta_p,\\partial^\\beta(x^\\alpha\\phi)\\rangle,$$\r\n$$\\partial^\\beta(x^\\alpha\\phi)=\\sum_{k=0}^{\\min(\\alpha,\\beta)}\\binom \\beta k\\alpha\\dots(\\alpha-k+1)x^{\\alpha-k}\\partial^{\\beta-k}\\phi.$$\r\nDonc,\r\n$$\\langle x^\\alpha \\partial^\\beta\\delta_p,\\phi\\rangle =(-1)^\\beta\\sum_{k=0}^{\\min(\\alpha,\\beta)}\r\n\\binom\\beta k\\alpha\\dots(\\alpha-k+1)p^{\\alpha-k}\\partial^{\\beta-k}\\phi(p).$$\r\nEn particulier, le support est $\\{p\\}$ si $p\\neq 0$, il est vide si $p=0$ et $\\alpha>\\beta$.",
+    "lang": "french"
+}

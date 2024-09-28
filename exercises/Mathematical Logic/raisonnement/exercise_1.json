@@ -1,0 +1,6 @@
+{
+    "script": "On rappelle que $\\sqrt 2$ est un nombre irrationnel.Démontrer que si $a$ et $b$ sont deux entiers relatifs tels que $a+b\\sqrt 2=0$, alors $a=b=0$.En déduire que si $m,n,p$ et $q$ sont des entiers relatifs, alors \r\n$$m+n\\sqrt 2=p+q\\sqrt 2\\iff (m=p\\textrm{ et }n=q).$$",
+    "hint": "Raisonner par l'absurde.Il s'agit de faire une double implication.",
+    "solution": "Raisonnons par l'absurde. Supposons que $a+b\\sqrt 2=0$ sans que $a=b=0$. Alors, nécessairement $b\\neq 0$ car si $b=0$ alors on devrait aussi avoir $a=0$, ce qui est contraire à l'hypothèse $(a,b)\\neq (0,0)$. Mais alors, on a $\\sqrt 2=\\frac {-a}b\\in\\mathbb Q$ ce qui est faux. L'hypothèse de départ est donc fausse, et on a $a=b=0$.D'une part, si $m=p$ et $n=q$, alors $m+n\\sqrt 2=p+q\\sqrt 2$. Réciproquement, supposons que $m+n\\sqrt 2=p+q\\sqrt 2$. Alors on a aussi\r\n$$(m-p)+(n-q)\\sqrt 2=0.$$\r\nLe résultat de la question précédent nous dit que $m-p=0$ et que $n-q=0$, soit encore $m=p$ et $n=q$.",
+    "lang": "french"
+}

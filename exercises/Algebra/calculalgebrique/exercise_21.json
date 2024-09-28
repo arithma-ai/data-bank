@@ -1,0 +1,6 @@
+{
+    "script": "Soit pour $n\\in\\mathbb N$, $u_n=(-2)^n$.  Calculer les sommes suivantes : \r\n$$\\sum_{k=0}^{2n} u_{k};\\quad \\sum_{k=0}^{2n+1} u_{k};\\quad \\sum_{k=0}^{n} u_{2k};\\quad \\sum_{k=0}^{2n} (u_{k}+n);\\quad \\left(\\sum_{k=0}^{2n} u_{k}\\right)+n;\\quad \\sum_{k=0}^{n} u_{k+n};\\quad \\sum_{k=0}^{n} u_{kn}.$$",
+    "hint": "Bien observer les notations, et se rappeler de la formule donnant une somme géométrique.",
+    "solution": "Dans cet exercice, il faut faire très attention aux notations, puis appliquer la formule de la somme d'une série géométrique. Il vient alors\r\n$$\\sum_{k=0}^{2n} u_{k}=\\sum_{k=0}^{2n}(-2)^k=\\frac{1-(-2)^{2n+1}}{1-(-2)}=\\frac{1+2^{2n+1}}3.$$\r\n$$\\sum_{k=0}^{2n+1} u_{k}=\\frac{1-2^{2n+2}}3.$$\r\n$$\\sum_{k=0}^{n} u_{2k}=\\sum_{k=0}^n 4^k=\\frac{1-4^{n+1}}{1-4}=\\frac{4^{n+1}-1}3.$$\r\n$$\\sum_{k=0}^{2n} (u_{k}+n)=\\sum_{k=0}^{2n} u_k+\\sum_{k=0}^{2n} n=\\frac{1+2^{2n+1}}3+n(2n+1).$$\r\n$$\\left(\\sum_{k=0}^{2n} u_{k}\\right)+n=\\frac{1+2^{2n+1}}3+n.$$\r\n$$\\sum_{k=0}^{n} u_{k+n}=\\sum_{k=0}^n (-2)^{k+n}=(-2)^n\\sum_{k=0}^n (-2)^k=\\frac{(-2)^n(1-(-1)^{n+1} 2^{n+1})}{3}.$$\r\n$$\\sum_{k=0}^{n} u_{kn}=\\sum_{k=0}^n ((-2)^n)^k=\\frac{1-(-2)^{n(n+1)}}{1-(-2)^n},$$\r\nsauf si $n=0$ auquel cas la somme vaut $u_0=1$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soient $\\mu_1,\\dots,\\mu_n$ des mesures définies sur un même espace mesurable $(X,\\mathcal T)$. Soient également\r\n$a_1,\\dots,a_n$ des réels positifs. On définit une application $\\nu:\\mathcal T\\to[0,+\\infty]$ par, pour tout\r\n$T\\in\\mathcal T$, \r\n$$\\nu(T)=\\sum_{k=1}^n a_k\\mu_k(T).$$\r\nDémontrer que $\\nu$ est une mesure sur la tribu $\\mathcal T$.",
+    "hint": "Il suffit d'appliquer la définition.",
+    "solution": "Il suffit de vérifier que $\\nu$ satisfait la définition d'une mesure. D'une part, on a \r\n$$\\nu(\\varnothing)=\\sum_{k=1}^n a_k\\mu_k(\\varnothing)=\\sum_{k=1}^n a_k\\times 0=0.$$\r\nD'autre part, soit $(T_i)_{i\\geq 1}$ une suite d'éléments de $\\mathcal T$ deux à deux disjoints. On a \r\n\\begin{eqnarray*}\r\n\\nu\\left(\\bigcup_{i=1}^{+\\infty}T_i\\right)&=&\\sum_{k=1}^n a_k \\mu_k\\left(\\bigcup_{i=1}^{+\\infty}T_i\\right)\\\\\r\n&=&\\sum_{k=1}^n a_k\\sum_{i=1}^{+\\infty}\\mu_k(T_i)\\\\\r\n&=&\\sum_{i=1}^{+\\infty}\\sum_{k=1}^n a_k \\mu_k(T_i)\\\\\r\n&=&\\sum_{i=1}^{+\\infty}\\nu(T_i).\r\n\\end{eqnarray*}\r\nAinsi, $\\nu$ est bien une mesure sur $(X,\\mathcal T)$.  Remarquons qu'il n'y a pas de problèmes pour échanger les sommes car une de ces sommes est finie.",
+    "lang": "french"
+}

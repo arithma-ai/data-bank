@@ -1,0 +1,6 @@
+{
+    "script": "Calculer la longueur d'une arche de cycloïde de paramétrage $$\\left\\{ \\begin{gathered} x(t) = t - \\sin t  \\\\ y(t) = 1 - \\cos t  \\\\ \\end{gathered} \\right., t \\in \\left[ {0,2\\pi } \\right].$$",
+    "hint": "C'est sans difficultés. On applique la formule du cours.",
+    "solution": "On a $x'(t)=1-\\cos t$, $y'(t)=\\sin t$ de sorte que \r\n$$x'(t)^2+y'(t)^2=2-2\\cos t=4\\sin^2(t/2).$$\r\nPour $t\\in[0,2\\pi]$, $t/2\\in[0,\\pi]$ et donc $\\sin(t/2)\\geq 0$. On en déduit que la longueur de l'arche de cycloïde est :\r\n$$\\int_0^{2\\pi}2\\sin(t/2)dt=8.$$",
+    "lang": "french"
+}

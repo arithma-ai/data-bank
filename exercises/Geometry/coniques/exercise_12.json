@@ -1,0 +1,6 @@
+{
+    "script": "Soient $A$ et $B$ deux points distincts du plan et soit $I$ le milieu de $[AB]$.\r\nDéterminer le lieu des points $M$ du plan tels que $MI^2=MA\\times MB$.",
+    "hint": "Prendre un repère le plus adapté possible au problème, \r\npuis calculer les différentes longueurs dans ce repère.",
+    "solution": "On va travailler dans un repère orthonormé où les calculs seront le plus facile possible.\r\nPar exemple, on va prendre un repère orthonormé de centre $I$ tel que $A$ a pour coordonnée $(a,0)$\r\net $B$ a pour coordonnée $(-a,0)$. Soit $M(x,y)$.\r\nAlors $$MI^2=MA\\times MB\\iff MI^4=MA^2\\times MB^2$$\r\n(tout est positif).\r\nOr,\r\n$$MI^4=x^4+y^4+2x^2y^2.$$\r\n$$MA^2\\times MB^2=x^4+y^4-2a^2x^2+2a^2y^2+y^4.$$\r\nOn a donc \r\n$$MI=MA\\times MB\\iff -2a^2x^2+a^4+2a^2y^2=0\\iff \\frac{x^2}{2a^2}-\\frac{y^2}{2a^2}=1.$$\r\nOn reconnait l'équation d'une hyperbole équilatère.",
+    "lang": "french"
+}

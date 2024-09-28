@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(u_n)$ la suite définie par $u_0=1$ et, pour tout $n\\geq 0$, $u_{n+1}=u_0+u_1+\\dots+u_n$. Démontrer que, pour tout $n\\geq 1$, $u_n=2^{n-1}$.",
+    "hint": "Raisonner par récurrence forte.",
+    "solution": "On va démontrer par récurrence forte sur $n\\geq 1$ la propriété $\\mathcal P(n)$ suivante : \"$u_n=2^{n-1}\"$.Initialisation : D'après la formule de récurrence, $u_1=u_0=1=2^{1-1}$. La propriété est donc initialisée au rang $n=1$.Hérédité : Soit $n\\geq 1$. Supposons la propriété $\\mathcal P(k)$ démontrée pour tous les $k$ compris entre $1$ et $n$, et prouvons que $\\mathcal P(n+1)$ est également vraie. On a, appliquant d'abord la définition de $u_{n+1}$, puis l'hypothèse de récurrence :\r\n\\begin{eqnarray*}\r\nu_{n+1}&=&u_0+u_1+u_2+\\dots+u_n\\\\\r\n&=&1+1+2+2^2+\\dots+2^{n-1}.\r\n\\end{eqnarray*}\r\nD'après la formule donnant la somme des termes d'une suite géométrique, on déduit que \r\n$$u_{n+1}=1+\\frac{2^n-1}{2-1}=1+2^n-1=2^{(n+1)-1}.$$\r\nDonc la propriété $\\mathcal P(n+1)$ est vraie.Conclusion : Par le principe de récurrence fort, la propriété $\\mathcal P(n)$ est vraie pour tout entier $n\\geq 1$.",
+    "lang": "french"
+}

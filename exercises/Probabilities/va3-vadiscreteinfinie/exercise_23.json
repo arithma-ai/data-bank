@@ -1,0 +1,6 @@
+{
+    "script": "On lance une pièce de monnaie truquée de sorte que la probabilité d'obtenir pile soit égale à $p$. On répète cette expérience de façon indépendante et on  note $X$ la variable aléatoire égale au numéro du premier tirage pour lequel on obtient pile.Écrire un algorithme qui simule cette variable aléatoire.Modifier l'algorithme précédent de sorte qu'il permette d'obtenir une valeur approchée de l'espérance de cette variable aléatoire.",
+    "hint": "Faire une boucle Tant Que.Répéter l'expérience un grand nombre de fois.",
+    "solution": "Voici une solution possible sous Python. On répète les tirages tant qu'on n'a pas obtenu le pile...def geometrique(p)n=1while (random()>p):n=n+1return nImaginons que l'on répète $n$ fois l'expérience précédente, et que l'on note $X_1,\\dots,X_n$ les variables aléatoires obtenues. Elles suivent toutes la même loi (une loi géométrique de paramètre $p$), et par la loi des grands nombres, on sait que $(X_1+\\dots+X_n)/n$ tend vers $E(X)$. Si on répète $n$ fois l'expérience, avec $n$ grand, et si on fait la moyenne des résultats obtenus, alors on aura une approximation de l'espérance. Voici comment modifier l'algorithme :def esperance_geo(p,n):S=0for i in range(n):k=1while (random()>p):k=k+1S=S+kreturn S/n",
+    "lang": "french"
+}

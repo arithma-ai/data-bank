@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les fonctions $f$ dérivables sur $\\mathbb R$ et vérifiant, pour tout $x\\in\\mathbb R$, $f'(x)f(-x)=1$ et $f(0)=-4$.",
+    "hint": "Montrer que la fonction $g$ définie sur $\\mathbb R$ par $g(x)=f(x)f(-x)$ est constante.",
+    "solution": "Posons, pour $x\\in\\mathbb R$, $g(x)=f(x)f(-x)$. Alors $g$ est dérivable sur $\\mathbb R$ et pour tout $x\\in\\mathbb R$, on a \r\n$$g'(x)=f'(x)f(-x)-f(x)f'(-x)=1-1=0$$\r\noù on a utilisé deux fois la propriété donnée par l'énoncé sur $f$, une fois avec $x$ et une fois avec $-x$. On en déduit que $g$ est constante. Puisque $g(0)=\\big(f(0)\\big)^2=16$, on en déduit que, pour tout $x\\in\\mathbb R$, $f(x)f(-x)=16$. En particulier, $f$ ne s'annule pas sur $\\mathbb R$ et $f(-x)=16/f(x)$.Ainsi, si $f$ est solution du problème, elle vérifie l'équation différentielle\r\n$f'(x)=\\frac 1{16}f(x)$, avec la condition initiale $f(0)=-4$. Ainsi, $f$ est nécessairement égale à la fonction $-4e^{\\frac{x}{16}}$. Réciproquement, on vérifie que cette fonction est solution (cette vérification est obligatoire, car nous n'avons pas raisonné par équivalence).",
+    "lang": "french"
+}

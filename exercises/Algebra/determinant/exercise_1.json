@@ -1,0 +1,6 @@
+{
+    "script": "Calculer le déterminant suivant :\r\n$$\\left|\\begin{array}{cccc}\r\n1&1&1&1\\\\\r\n1&-1&1&1\\\\\r\n1&1&-1&1\\\\\r\n1&1&1&-1\r\n\\end{array}\\right|.$$Soit $E$ un $\\mathbb R$-espace vectoriel et $f\\in\\mathcal L(E)$ tel que $f^2=-Id_E$. Que dire de la dimension de $E$?",
+    "hint": "Soustraire la première ligne à toutes les autres.Calculer $\\det(f^2)$ et $\\det(-Id_E)$.",
+    "solution": "Notons $D$ le déterminant que l'on cherche à calculer. En enlevant la première ligne à toutes les autres, on trouve que \r\n$$D=\\left|\\begin{array}{cccc}\r\n1&1&1&1\\\\\r\n0&-2&0&0\\\\\r\n0&0&-2&0\\\\\r\n0&0&0&-2\r\n\\end{array}\\right|.$$\r\nOn a une matrice triangulaire supérieure, et donc $D=-8$.On a d'une part $\\det(f^2)=\\det(f)\\times \\det(f)=\\big(\\det(f)\\big)^2$. D'autre part, on a\r\n$\\det(-Id_E)=(-1)^n$ où $n=\\dim(E)$. Ainsi, $(-1)^n$ doit être le carré d'un réel. Ainsi, $n$ doit être pair.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:x\\mapsto \\frac{x^4}{1+x^6}$. Déterminer $f^{(n)}(0)$.",
+    "hint": "Déterminer le développement limité à l'ordre n, puis appliquer la formule de Taylor-Young pour identifier.",
+    "solution": "Remarquons que la fonction est de classe $C^\\infty$. Par la formule de Taylor-Young, elle admet un développement limité\r\nà l'ordre $n$ en 0, et le coefficient devant $x^n$ est $\\frac{f^{(n)}(0)}{n!}$. D'autre part, on a :\r\n$$\\frac{x^4}{1+x^6}=x^4\\sum_{k=0}^n (-1)^k x^{6k}+o(x^{6n+4}).$$\r\nPar unicité de la partie régulière d'un développement limité, si $n\\equiv 4\\ \\mod 6$, alors \r\n$f^{(n)}(0)=n!(-1)^{(n-4)/6},$ sinon, $f^{(n)}(0)=0$.",
+    "lang": "french"
+}

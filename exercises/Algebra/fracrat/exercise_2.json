@@ -1,0 +1,6 @@
+{
+    "script": "Soit $F\\in\\mathbb K(X)$. Montrer que si $\\deg(F')<\\deg(F)-1$, alors $\\deg(F)=0$.",
+    "hint": "Écrire $F=A/B$ et calculer le degré de $F'$ en fonctions des degrés respectifs de $A$ et $B$.",
+    "solution": "On écrit $F=A/B$, avec $\\deg(F)=\\deg(A)-\\deg(B)$. On a $F'=(A'B-AB')/B^2$,\r\net donc $\\deg(F')=\\deg(A'B-AB')-2\\deg(B)$. Or, $\\deg(A'B)=\\deg(AB')=\\deg(A)+\\deg(B)-1$.\r\nSi $\\deg(A'B-AB')=\\deg(A)+\\deg(B)-1$, on aurait $\\deg(F')=\\deg(F)-1$, ce qui n'est pas le cas.\r\nOn a donc $\\deg(A'B-AB')<\\deg(A'B)=\\deg(AB')$. Mais si $A=a_k X^k+\\dots$ et $B=b_nX^n+\\dots,$\r\nalors $A'B=ka_kb_nX^{k+n-1}+\\dots$ et $AB'=na_kb_nX^{k+n-1}+\\dots$. Pour que $\\deg(A'B-AB')$ soit inférieur\r\nstrict à $n+k-1$, il est donc nécessaire que $k=n$, c'est-à-dire que $A$ et $B$ aient le même degré.\r\nCeci signifie exactement $\\deg(F)=0$.",
+    "lang": "french"
+}

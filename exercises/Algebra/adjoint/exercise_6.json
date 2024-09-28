@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel euclidien et soit $f,g\\in\\mathcal L(E)$.Démontrer que $g=0\\iff g^*\\circ g=0.$En déduire que $f\\circ f^*=f^2\\iff f=f^*$.",
+    "hint": "Pour $x\\in E,$ calculer $\\|g(x)\\|$.Appliquer le résultat de la question précédente à $g=f-f^*$.",
+    "solution": "Il est d'abord clair que si $g=0$, alors $g^*\\circ g=0$. Réciproquement, si $g^*\\circ g=0,$ alors pour $x\\in E,$ on a \r\n$$\\|g(x)\\|^2=\\langle g(x),g(x)\\rangle=\\langle x,g^*\\circ g(x)\\rangle=\\langle x,0\\rangle=0.$$\r\nAinsi, $g(x)=0$ pour tout $x\\in E$ et donc $g=0.$A nouveau, l'implication $f=f^*$ entraîne immédiatement $f\\circ f^*=f^2.$\r\nRéciproquement, si $f^2=f\\circ f^*$, on pose $g=f-f^*$ et on remarque que \r\n\\begin{align*}\r\n(f-f^*)^*\\circ(f-f^*)&=(f^*-f)\\circ (f-f^*)\\\\\r\n&=f^*\\circ f-f^2+f\\circ f^*-(f^*)^2\\\\\r\n&=0\r\n\\end{align*}\r\npuisque $f^2=f^*\\circ f$ et que, par passage à l'adjoint, $(f^*)^2=f\\circ f^*.$\r\nAinsi, $g^*\\circ g=0,$ donc $g=0,$ donc $f=f^*.$",
+    "lang": "french"
+}

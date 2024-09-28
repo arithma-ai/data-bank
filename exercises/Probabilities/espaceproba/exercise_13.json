@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(\\Omega,\\mathcal F,\\mathbb P)$ un espace probabilisé. Soit $(A_n)_{n\\geq 0}$ une suite d'événements.\r\nOn note $A=\\limsup_n A_n=\\bigcap_{n\\geq 0}\\bigcup_{k\\geq n}A_k$. On suppose que $\\sum_n \\mathbb P(A_n)<+\\infty$. Pour $n\\geq 1$, on note \r\n$D_n=\\bigcup_{k=n}^{+\\infty}A_k$.Démontrer que $\\lim_{n\\to+\\infty}\\mathbb P(D_n)=0$;En déduire que $\\mathbb P(A)=0$. Interpréter ce résultat.",
+    "hint": "Utiliser la sous additivité dénombrable.Continuité monotone décroissante (démontrer d'abord que la suite $(D_n)$ est décroissante).",
+    "solution": "Par la sous-additivité d'une probabilité, \r\n$$0\\leq P(D_n)\\leq\\sum_{k=n}^{+\\infty}P(A_k).$$\r\nLa dernière somme tend vers $0$ lorsque $n$ tend vers l'infini car c'est le reste\r\nd'une série convergente. Par le théorème d'encadrement, $(P(D_n))$ tend vers 0.On écrit que $A=\\bigcap_n D_n$. On va démontrer que la suite $(D_n)$ est décroissante.\r\nEn effet,\r\n$$D_{n}=D_{n+1}\\cup A_n.$$\r\nOn peut donc utiliser la continuité monotone décroissante de $P$ pour en déduire\r\n$$P(A)=\\lim_{n\\to+\\infty}P(D_n)=0.$$\r\nPresque sûrement, seul un nombre fini des événements $A_n$ peuvent se produire simultanément.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Combien existe-t-il de partitions d'un ensemble de cardinal $np$ en $n$ parties de cardinal $p$?",
+    "hint": "Pour chaque liste ordonnée des $np$ éléments, on regroupe les éléments dans l'ordre $p$ par $p$. \r\nIl faut ensuite diviser par le nombre de listes qui donnent la même partition.",
+    "solution": "Pour fabriquer une telle partition, on peut partir d'une liste ordonnée des $np$ éléments, et les grouper \r\nensuite $p$ par $p$. Il y a $(np)!$ façons d'écrire ces listes ordonnées, mais plusieurs listes peuvent donner la même partition.\r\nD'abord, sur chaque groupe de $p$ éléments qu'on a choisi, on peut opérer une permutation qui ne changera par la partition obtenue.\r\nPour chaque groupe, il y a $p!$ telles permutations, et comme il y a $n$ groupes de $p$ éléments, on obtient finalement\r\n$(p!)^n$ telles permutations. Ensuite, on peut également permuter tous ces groupes les uns avec les autres. Il y a $n!$\r\ntelles permutations de ces groupes. Finalement, on trouve que le nombre de partitions d'un ensemble de\r\ncardinal $np$ en $n$ parties de cardinal $p$ est $\\displaystyle \\frac{(np)!}{(p!)^n n!}$.",
+    "lang": "french"
+}

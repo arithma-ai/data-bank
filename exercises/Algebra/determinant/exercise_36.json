@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A$ une matrice carrée d'ordre $n\\geq 1$ à coefficients complexes. Montrer :\r\n$$\\exists \\alpha>0,\\ \\forall\\veps\\in\\mtr,\\ 0<|\\veps|<\\alpha,\\ A+\\veps I_n \\textrm{ est inversible.}$$",
+    "hint": "Considérer les racines de $P(x)=\\det(A+x I)$.",
+    "solution": "Soit la fonction $P(x)=\\det(A+x I)$. $P$ est un polynôme de degré $n,$ il ne possède donc qu'un nombre fini de racines. En particulier, il existe $\\alpha>0$ tel que $P$ ne s'annule pas en $x$, pour $|x|<\\alpha$, $x\\neq 0$. La caractérisation de l'inversibilité des matrices en fonction de la non-nullité des déterminants donne le résultat.",
+    "lang": "french"
+}

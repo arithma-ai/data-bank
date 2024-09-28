@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E=\\mathcal C^{\\infty}(\\mathbb R)$ et $D$ l'endomorphisme de $E$ qui à $f$ associe $f'$. Déterminer les valeurs propres de $D$ et les sous-espaces propres associés.",
+    "hint": "C'est une question d'équation différentielle, à revoir de toute urgence si vous ne savez pas traiter l'exercice!",
+    "solution": "$f$ est un vecteur propre de $D$ associé à la valeur propre $\\lambda\\in\\mathbb R$ si et et seulement si $f'=\\lambda f$. $f$ est donc un multiple de la fonction $x\\mapsto \\exp(\\lambda x)$, et la réciproque est vraie. Autrement dit, tous les réels sont des valeurs propres pour $D$, et $\\exp(\\lambda x)$ est une base de l'espace propre associé à $\\lambda$.",
+    "lang": "french"
+}

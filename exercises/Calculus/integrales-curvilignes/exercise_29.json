@@ -1,0 +1,6 @@
+{
+    "script": "Calculer la longueur de la cardioïde d'équation polaire $\\rho=a(1+\\cos\\theta)$, avec $0\\leq\\theta\\leq 2\\pi$.",
+    "hint": "Utiliser $x=\\rho\\cos \\theta$, ou calculer directement l'intégrale curviligne en polaire si vous connaissez la formule.",
+    "solution": "On a $x(\\theta)=\\rho\\cos\\theta=a(1+\\cos\\theta)\\cos\\theta$ et $y(\\theta)=\\rho\\sin\\theta=a(1+\\cos\\theta)\\sin\\theta$. On en déduit :\r\n$$\\sqrt{x(\\theta)^2+y(\\theta)^2}=a\\sqrt{2+2\\cos\\theta}=2a\\cos(\\theta/2).$$\r\nOn en déduit :\r\n$$L=\\int_0^{2\\pi}2a\\cos(\\theta/2)=8a.$$\r\nOn pouvait aussi, à condition de connaitre la formule, utiliser directement l'expression de l'abscisse curviligne en coordonnées polaires :\r\n$$(ds)^2=(d\\rho)^2+\\rho^2(d\\theta)^2.$$",
+    "lang": "french"
+}

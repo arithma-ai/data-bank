@@ -1,0 +1,6 @@
+{
+    "script": "Pour $n\\geq 1$, donner une primitive de $\\ln^n x$.",
+    "hint": "Deviner le résultat sur les premiers termes par une intégration par parties, puis prouver le résultat par récurrence.",
+    "solution": "Notons $f_n$ une telle primitive. Intégrant par parties (en dérivant $\\ln^n x$ et en intégrant $1$), on trouve\r\n$$f_n=\\int \\ln^n xdx=x\\ln^{n}x-nf_{n-1}.$$\r\nOn itère alors les intégrations par parties, pour trouver\r\n\\begin{eqnarray*}\r\nf_n&=&x\\ln^{n}x-nx\\ln^{n-1}x+n(n-1)f_{n-2}\\\\\r\n&=&x\\ln^{n}x-nx\\ln^{n-1}x+n(n-1)x\\ln^{n-2}x-n(n-1)(n-2)f_{n-3}\\\\\r\n&\\vdots&\\vdots\\\\\r\n&=&\\sum_{k=0}^{n}(-1)^k n(n-1)\\dots(n-k+1)x\\ln^{n-k}x\\\\\r\n&=&\\sum_{k=0}^n (-1)^k \\frac{n!}{(n-k)!}x\\ln^{n-k} x.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

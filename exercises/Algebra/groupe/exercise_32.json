@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que les groupes multiplicatifs $(\\mathbb R^*,\\cdot)$ et $(\\mathbb C^*,\\cdot)$ ne sont pas isomorphes.",
+    "hint": "Raisonner par l'absurde, supposer l'existence d'un isomophisme $f$ de $(\\mathbb C^*,\\cdot)$ dans $(\\mathbb R^*,\\cdot)$ et travailler à partir de $f(i)$.",
+    "solution": "Supposons que ces deux groupes sont isomorphes et soit $f$ un isomorphisme de $(\\mathbb C^*,\\cdot)$ dans $(\\mathbb R^*,\\cdot)$. Posons $a=f(i)$. Alors\r\n$$f(i^4)=a^4=1$$\r\net donc $a^2=1$ puisque $a^2>0$. D'où $1=a^2=f(i^2)=f(-1)$ et $1=f(1)$. $f$ ne peut pas être injectif, on a obtenu une contradiction.",
+    "lang": "french"
+}

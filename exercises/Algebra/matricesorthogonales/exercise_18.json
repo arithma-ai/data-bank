@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel euclidien et soit $u\\in\\mathcal O(E)$ diagonalisable. Démontrer que $u$ est une symétrie.",
+    "hint": "Quelles peuvent être les valeurs propres de $u$?",
+    "solution": "Soit $\\lambda$ une valeur propre de $u$, de vecteur propre associé $x$. Alors on a\r\n$$\\|x\\|=\\|u(x)\\|=|\\lambda|\\times\\|x\\|.$$\r\nAinsi, on a $\\lambda=\\pm 1$. Ainsi, dans une base de vecteurs propres, la matrice de $u$ est constituée de $1$ et de $-1$ sur la diagonale. C'est bien la matrice d'une symétrie.",
+    "lang": "french"
+}

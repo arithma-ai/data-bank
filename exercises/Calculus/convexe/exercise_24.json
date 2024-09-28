@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ une fonction convexe croissante. Montrer que $f$ est constante\r\nou que $\\lim_{+\\infty}f=+\\infty$.",
+    "hint": "Si $f$ n'est pas constante, trouver $x_1<x_2$ avec $f(x_1)<f(x_2)$ et comparer la position de la courbe représentative\r\nde $f$ à la corde passant par $(x_1,f(x_1))$ et $(x_2,f(x_2))$.",
+    "solution": "Supposons $f$ non constante. On peut trouver $x_1<x_2$ tels que $f(x_1)<f(x_2)$. Soit $y=ax+b$ l'équation de \r\nla corde passant par $(x_1,f(x_1))$ et $(x_2,f(x_2))$, avec donc $a>0$. Pour $x>x_2$, l'inégalité des pentes assure que le point\r\nde la courbe représentative de $f$ d'abscisse $x$ est au-dessus du point de la corde de même abscisse. Autrement dit,\r\npour tout $x\\geq x_2$, on a $f(x)\\geq ax+b$. Ceci prouve que $\\lim_{+\\infty}f=+\\infty$.",
+    "lang": "french"
+}

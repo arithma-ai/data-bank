@@ -1,0 +1,6 @@
+{
+    "script": "Calculer $\\displaystyle\\int_1^2 \\frac{2u}{\\sqrt{1+u}}du$.En déduire $\\displaystyle \\int_0^{3}\\frac{dt}{\\sqrt{1+\\sqrt{1+t}}}$.",
+    "hint": "Effectuer le changement de variables $x=\\sqrt{1+u}$.Effectuer le changement de variables $u=\\sqrt{1+t}$.",
+    "solution": "La fonction $u\\mapsto\\sqrt{1+u}$ est de classe $C^1$ sur $[0,2]$, à valeurs dans $[0,\\sqrt 3]$. Posons $x=\\sqrt{1+u}$. En dérivant, on trouve $dx=\\frac{du}{2\\sqrt{1+u}}$ ce qui donne \r\n$$\\frac{2u}{\\sqrt{1+u}}du=4(x^2-1)dx$$\r\nen ayant remarqué que l'on a aussi $u=x^2-1$. De plus, si $u=1$, alors $x=\\sqrt 2$ et si $u=2$, alors $x=\\sqrt 3$. On en déduit que \r\n\\begin{align*}\r\n\\int_1^2\\frac{2u}{\\sqrt{1+u}}du&=4\\int_{\\sqrt 2}^{\\sqrt 3}(u^2-1)du\\\\\r\n&=4\\left[\\frac{u^3}3-u\\right]_{\\sqrt 2}^{\\sqrt 3}\\\\\r\n&=4\\left(\\frac{3\\sqrt 3}3-\\sqrt 3-\\frac{2\\sqrt 2}3+\\sqrt 2\\right)\\\\\r\n&=\\frac{4\\sqrt 2}3.\r\n\\end{align*}On va effectuer le même changement de variables, en posant $u=\\sqrt{1+t}$, de sorte que $du=\\frac{dt}{2\\sqrt{1+t}}=\\frac{dt}{2u}$. Il vient donc\r\n$$\\frac{dt}{\\sqrt{1+\\sqrt{1+t}}}=\\frac{2u}{\\sqrt{1+u}}du.$$\r\nDe plus, si $t=0$, alors $u=1$ et si $t=3$, alors $u=2$. On a donc\r\n$$\\int_0^{3}\\frac{dt}{\\sqrt{1+\\sqrt{1+t}}}dt=\\int_1^2 \\frac{2u}{\\sqrt{1+u}}du=\\frac{4\\sqrt 2}3.$$",
+    "lang": "french"
+}

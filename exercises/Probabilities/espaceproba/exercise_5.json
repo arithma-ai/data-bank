@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ un ensemble non-vide et $A_1,\\dots,A_n$ une partition de $X$.\r\nOn note \r\n$$\\mathcal T=\\left\\{\\bigcup_{i\\in J}A_i;\\ J\\subset\\{1,\\dots,n\\}\\right\\}.$$\r\nDémontrer que $\\mathcal T$ est la tribu engendrée par $A_1,\\dots,A_n$.",
+    "hint": "Démontrer d'abord que $\\mathcal T$ est une tribu.",
+    "solution": "On commence par remarquer que $\\mathcal T$ est une tribu. En effet,$X=\\bigcup_{i\\in\\{1,\\dots,n\\}}A_i$;Si $A=\\bigcup_{i\\in J}A_i$ est un élément de $\\mathcal T$, alors\r\n$$A^c=\\bigcup_{i\\in \\{1,\\dots,n\\}\\backslash J}A_i$$\r\ncar $A_1,\\dots,A_n$ forme une partition de $X$ et donc $A^c\\in\\mathcal T$.$\\bigcup_p\\bigcup_{i\\in J_p}A_i=\\bigcup_{i\\in\\bigcup_p J_p}A_i$, et donc $\\mathcal T$ est stable par réunion\r\ndénombrable.De plus, $\\mathcal T$ contient tous les $A_i$, et donc elle contient la tribu engendrée par $A_1,\\dots,A_n$.\r\nMaintenant, toute tribu contenant $A_1,\\dots,A_n$ doit nécessairement contenir n'importe quelle réunion finie des\r\n$A_i$. $\\mathcal T$ est donc bien la tribu engendrée par $A_1,\\dots,A_n$.",
+    "lang": "french"
+}

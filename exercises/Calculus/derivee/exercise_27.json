@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer les inégalités suivantes :$\\forall x,y\\in\\mathbb R,\\ |\\arctan(x)-\\arctan(y)|\\leq |x-y|$.$\\forall x\\geq 0$, $x\\leq e^x-1\\leq xe^x$.",
+    "hint": "Appliquer l'inégalité des accroissements finis à $\\arctan$ entre $x$ et $y$.Appliquer le théorème des accroissements finis à $e^x$ entre $0$ et $x$.",
+    "solution": "On rappelle que la fonction $\\arctan$ est dérivable sur $\\mathbb R$ de dérivée $x\\mapsto \\frac{1}{1+x^2}$. De plus, pour tout $x\\in\\mathbb R$, \r\n$$\\left|\\frac1{1+x^2}\\right|\\leq 1.$$\r\nL'inégalité des accroissements finis appliquée à la fonction $\\arctan$ entre $x$ et $y$ donne alors le résultat.On appelle cette fois le théorème (et non l'inégalité!) des accroissements finis à $e^x$ entre $0$ et $x$. Il existe donc $c\\in ]0,x[$ tel que \r\n$$e^x-1=e^x-e^0=e^c(x-0)=e^c x.$$\r\nPuisque $1\\leq e^c\\leq e^x$ et $x\\geq 0$, on en déduit l'inégalité demandée.",
+    "lang": "french"
+}

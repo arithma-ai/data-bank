@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ une fonction paire. On suppose que $f$ admet $\\ell$ pour limite en $+\\infty$. Démontrer que $f$ admet pour limite $\\ell$ en $-\\infty$.",
+    "hint": "Revenir à la définition avec des quantificateurs.",
+    "solution": "Soit $\\veps>0$. Puisque $f$ admet pour limite $\\ell$ en $+\\infty$, il existe un réel $A>0$ tel que, pour tout $x>A$, on a $|f(x)-\\ell|<\\veps$.On va maintenant utiliser la parité de la fonction. Posons $B=-A$ et soit $y<B$. Alors $x=-y>-B=A$ et donc \r\n$|f(x)-\\ell|<\\veps$, c'est-à-dire que $|f(-y)-\\ell|<\\veps$. Puisque $f$ est paire, on a donc $|f(y)-\\ell|<\\veps$.Résumons donc ce que nous avons démontré : Pour tout $\\veps>0$, il existe $B\\in\\mathbb R$ tel que, pour tout $y<B$, $|f(y)-\\ell|<\\veps$. C'est exactement la définition d'avoir pour limite $\\ell$ en $-\\infty$.",
+    "lang": "french"
+}

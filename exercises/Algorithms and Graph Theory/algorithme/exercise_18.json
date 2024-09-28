@@ -1,0 +1,6 @@
+{
+    "script": "On rappelle que si $n$, $k$ sont deux entiers naturels, le coefficient binomial $\\binom nk$ vérifie$\\binom nk=0$ si $k>n$.$\\binom n0=\\binom nn=1$.$\\binom nk=\\binom {n-1}{k-1}+\\binom {n-1}k$ si $1\\leq k\\leq n-1$.Écrire une fonction récursive permettant de calculer $\\binom nk$ à partir des formules précédentes.",
+    "hint": "",
+    "solution": "def binom(n,k):if (k>n):return 0if (k==0) or (k==n):return 1return binom(n-1,k)+binom(n-1,k-1)",
+    "lang": "french"
+}

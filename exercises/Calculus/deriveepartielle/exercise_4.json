@@ -1,0 +1,6 @@
+{
+    "script": "On définit $f:\\mathbb R^2\\backslash\\{(0,0)\\}\\to\\mathbb R$ par \r\n$$f(x,y)=\\frac{x^2}{(x^2+y^2)^{3/4}}.$$\r\nJustifier que l'on peut prolonger $f$ en une fonction continue sur $\\mathbb R^2$. Étudier l'existence de dérivées partielles en $(0,0)$ pour ce prolongement.",
+    "hint": "Pour l'étude de l'existence de dérivées partielles, revenir à la définition en utilisant la limite du taux d'accroissement.",
+    "solution": "D'une part, la fonction $f$  est continue sur $\\mathbb R^2\\backslash\\{(0,0)\\}$. D'autre part, on a \r\n$$|f(x,y)|\\leq (x^2+y^2)^{1/4}.$$\r\nAinsi, $f$ se prolonge par continuité en $(0,0)$ en posant $f(0,0)=0$. Du fait que $f(0,t)=0$ pour tout réel $t$, $f$\r\nadmet une dérivée partielle par rapport à la seconde variable en $(0,0)$ qui vaut $\\frac{\\partial f}{\\partial y}(0,0)=0$.\r\nD'autre part, pour $t\\neq 0$, on a \r\n$$\\frac{f(t,0)-f(0,0)}t=|t|^{-1/2}.$$\r\nCeci tend vers $+\\infty$ si $t$ tend vers 0, et donc $f$ n'admet pas de dérivée partielle par rapport à la première variable en $(0,0)$.",
+    "lang": "french"
+}

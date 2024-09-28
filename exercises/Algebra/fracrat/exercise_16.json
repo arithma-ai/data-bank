@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$. Déterminer la dérivée $n$-ème de la fonction suivante  :\r\n$$f(x)=\\frac{1}{x^2-3x+2}.$$",
+    "hint": "Décomposer en éléments simples la fraction rationnelle\r\n$$\\frac{1}{X^2-3X+2}.$$\r\nQuelle est la dérivée $n$-ème de $\\frac1x?$",
+    "solution": "On va commencer par décomposer en éléments simples la fraction rationnelle\r\n$$\\frac{1}{X^2-3X+2}.$$\r\nOn peut factoriser $X^2-3X+2$ en $(X-1)(X-2).$ On a donc\r\n$$\\frac{1}{X^2-3X+2}=\\frac{a}{X-1}+\\frac b{X-2}.$$\r\nNotons $P(X)=X^2-3X+2$ de sorte que $P'(X)=2X-3$. Alors $a=\\frac1{P'(1)}=-1$ \r\net $b=\\frac 1{P'(2)}=1.$ Ainsi, on a\r\n$$f(x)=\\frac{1}{x-2}-\\frac 1{x-1}.$$\r\nD'autre part, il est facile de voir (par exemple par récurrence) que la dérivée $n$-ème de $x\\mapsto \\frac 1x$ est $x\\mapsto \\frac{(-1)^n n!}{x^{n+1}}.$\r\nOn en déduit finalement que \r\n$$f^{(n)}(x)=\\frac{(-1)^n n!}{(x-2)^{n+1}}-\\frac{(-1)^n n!}{(x-1)^{n+1}}.$$",
+    "lang": "french"
+}

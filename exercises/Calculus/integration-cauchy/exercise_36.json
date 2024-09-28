@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction définie, continue, positive sur $[a,b]$. Montrer que \r\n$$\\lim_{n\\to +\\infty}\\left(\\int_a^b f(x)^n dx\\right)^{1/n}=\\sup_{x\\in [a,b]}f(x).$$",
+    "hint": "Prendre un point de $[a,b]$ où le maximum de $f$ est atteint, et minorer l'intégrale par l'intégrale autour d'un voisinage de ce point bien choisi.",
+    "solution": "Soit $M=\\sup_{x\\in[a,b]}f(x)$. Puisque $f$ est continue, il existe un point $c$ dans $[a,b]$ tel que $f(c)=M$. On suppose pour le moment que $c\\in]a,b[$. Fixons $\\veps>0$. Il existe $\\eta>0$ tel que, pour tout $x$ dans $[c-\\eta,c+\\eta]$, $f(x)\\geq M-\\veps$.\r\nOn a alors :\r\n$$2\\eta(M-\\veps)^n\\leq\\int_{c-\\eta}^{c+\\eta}f(x)^ndx\\leq \\int_a^b f(x)^n dx\\leq (b-a)M^n,$$\r\n$$(2\\eta)^{1/n}(M-\\veps)\\leq\\left(\\int_a^b f(x)^n dx\\right)^{1/n}\\leq (b-a)^{1/n}M.$$\r\nMaintenant, $(2\\eta)^{1/n}$ tend vers 1, et $(b-a)^{1/n}$ aussi. Il est donc possible de trouver un entier $n_0$ tel que, pour $n\\geq n_0$, on a :\r\n$$M-2\\veps\\leq\\left(\\int_a^b f(x)^n dx\\right)^{1/n}\\leq M+\\veps.$$\r\nCeci prouve le résultat demandé. La preuve est identique si $c$ est une des bornes, mais on intègre par exemple entre $a$ et $a+\\eta$ simplement.",
+    "lang": "french"
+}

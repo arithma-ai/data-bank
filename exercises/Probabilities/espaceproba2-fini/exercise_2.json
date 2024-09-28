@@ -1,0 +1,6 @@
+{
+    "script": "Dans une loterie de Noël, 300 billets sont vendus par les enfants de l'école. Parmi ces 300 billets, 4 sont gagnants. J'achète 10 billets à mon petit voisin. Quelle est la probabilité que je gagne au moins un lot?",
+    "hint": "Calculer la probabilité du complémentaire en effectuant un dénombrement....",
+    "solution": "L'univers des possibles est l'ensemble des combinaisons de 10 billets parmi 300. Il a donc pour cardinal $\\binom{300}{10}$. On est dans une situation d'équiprobabilité. On note $A$ l'événément : \"parmi les 10 billets que j'achète, au moins un est gagnant\". Il est plus facile de calculer la probabilité de $\\bar A$. En effet, $\\bar A$ est l'événement : \"parmi les 10 billets que j'achète, aucun n'est gagnant\". Cet événement correspond à l'ensemble des combinaisons de 10 billets parmi 296 (les billets perdants) et son cardinal est $\\card(\\bar A)=\\binom{296}{10}.$ On a donc\r\n\\begin{align*}\r\nP(\\bar A)&=\\frac{\\binom{296}{10}}{\\binom{300}{10}}\\\\\r\n&=\\frac{290\\times 289\\times 288\\times 287}{300\\times 299\\times 298\\times 297}.\r\n\\end{align*}\r\nFinalement, on trouve \r\n$$P(A)=1-P(\\bar A)= 1-\\frac{290\\times 289\\times 288\\times 287}{300\\times 299\\times 298\\times 297}\\simeq 0,\\!127.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Écrire une fonction qui prend en entrée un entier naturel $a$ et retourne\r\ncet entier écrit à l'envers. Par exemple, si $a=1234$, la fonction\r\ndevra retourner $a=4321$. On pourra utiliser les fonctions quotient(n,p)\r\net reste(n,p) qui donnent le quotient et le reste de la division de n par p.",
+    "hint": "",
+    "solution": "L'idée est que si l'on prend le reste de a dans la division par 10, on récupère le dernier chiffre,\r\net si on prend le quotient, on récupère $a$ privé de son dernier chiffre. Il suffit d'itérer\r\nle procédé, en décalant à chaque fois le résultat provisoire vers la gauche. Une solution est donc :b=0Tant que a>0 faireb=10b+reste(a,10)a=quotient(a,10)Retourner b",
+    "lang": "french"
+}

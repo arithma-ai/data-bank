@@ -1,0 +1,6 @@
+{
+    "script": "Un sous-groupe d'un groupe produit est-il nécessairement produit de deux sous-groupes?",
+    "hint": "Penser à un contre-exemple avec $\\mathbb Z^2$.",
+    "solution": "Non, ce n'est pas le cas. Prenons $\\mathbb Z^2=\\mathbb Z\\times \\mathbb Z$ et $H=\\{(x,x);\\ x\\in\\mathbb Z\\}$. $H$ est clairement un sous-groupe de $\\mathbb Z^2$, et $H$ ne s'écrit pas $H=A\\times B$, sinon on aurait $A=B=\\mathbb Z$ ce qui n'est pas le cas.",
+    "lang": "french"
+}

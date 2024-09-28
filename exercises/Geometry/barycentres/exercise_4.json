@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A,B,C$ trois points du plan. Déterminer les points $M$ du plan tels que \r\n$$\\left\\|2\\overrightarrow{MA}-\\overrightarrow{MB}+2\\overrightarrow{MC}\\right\\|=\r\n\\left\\|\\overrightarrow{MA}+\\overrightarrow{MB}+\\overrightarrow{MC}\\right\\|.$$",
+    "hint": "Introduire les bons barycentres.",
+    "solution": "Soit $K$ le barycentre de $(A,2)$, $(B,-1)$ et $(C,2)$, et $G$ l'isobarycentre de $A,B$ et $C$. Alors la condition se réécrit en \r\n$$3MK=3MG.$$\r\nL'ensemble recherché est donc la médiatrice de $[GK]$ si $G\\neq K$, l'ensemble de tous les points du plan si $G=K$ (si $A$, $B$ et $C$ ne sont pas alignés, alors on a nécessairement $G\\neq K$).",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout $n\\geq 1$ et tout $x\\in\\mathbb R$, $|\\sin(nx)|\\leq n|\\sin(x)|$.",
+    "hint": "Raisonner par récurrence sur $n$, et utiliser la formule de trigonométrie $\\sin(a+b)=\\dots$.",
+    "solution": "On va démontrer le résultat par récurrence sur $n$. On fixe $x\\in\\mathbb R$ et pour $n\\geq 1$, on note $P_n:\"|\\sin(nx)|\\leq n|\\sin(x)|\"$.Initialisation : la propriété est clairement vraie pour $n=1$.Hérédité : soit $n\\geq 1$ tel que $P_n$ est vraie et prouvons $P_{n+1}$. Alors on a \r\n$$\\sin((n+1)x)=\\sin(nx)\\cos(x)+\\sin(x)\\cos(nx).$$\r\nEn utilisant l'inégalité triangulaire, puis $|\\cos(x)|\\leq 1$ et $|\\cos(nx)|\\leq 1$, on trouve\r\n\\begin{align*}\r\n|\\sin((n+1)x)|&\\leq |\\sin(nx)|\\cdot |\\cos(x)|+|\\sin(x)|\\cdot |\\cos(nx)|\\\\\r\n&\\leq |\\sin(nx)|\\cdot 1+|\\sin(x)|\\cdot 1\\\\\r\n&\\leq n|\\sin(x)|+|\\sin(x)|\\\\\r\n&\\leq (n+1)|\\sin(x)|\r\n\\end{align*}\r\noù l'avant-dernière ligne vient de l'hypothèse de récurrence. Donc $P_{n+1}$ est vraie.Conclusion : La propriété $P_n$ est vraie pour tout $n\\geq 1$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre les équations suivantes :\r\n$$\r\n\\begin{array}{lll}\r\n\\displaystyle{\\mathbf 1.}\\ 2z+i=\\overline z+1&\\displaystyle{\\mathbf 2.}\\ 2z+\\overline z=2+3i&\\displaystyle{\\mathbf 3.}\\ 2z+2\\overline z=2+3i.\r\n\\end{array}$$",
+    "hint": "Écrire $z=x+iy$ et utiliser que deux nombres complexes sont égaux s'ils ont les mêmes parties réelles et les mêmes parties imaginaires.",
+    "solution": "On écrit $z=x+iy$ avec $x,y\\in\\mathbb R$ de sorte que $2z+i=2x+i(2y+1)$ et $\\overline z+1=(x-iy)+1=(x+1)-iy$. Puisque deux nombres complexes sont égaux si et seulement s'il ont même partie réelle et même partie imaginaire, l'équation est équivalente à $2x=x+1$ et $2y+1=-y$. On trouve alors $x=1$ et $y=-1/3$. L'équation admet une unique solution, $z=1-\\frac 13 i$.On reprend la même méthode. Alors $2z+\\bar z=3x+iy=2+3i$ si et seulement si $x=\\frac 23$ et $y=3$. L'équation admet donc une unique solution, $z=\\frac 23+3i$.On procède de la même façon, mais cette fois on constate que $2z+2\\bar z=4x$ est réel : il ne pourra jamais être égal à $2+3i$. L'équation n'admet pas de solutions.",
+    "lang": "french"
+}

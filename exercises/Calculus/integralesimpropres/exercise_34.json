@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,+\\infty[\\to\\mathbb R$ une fonction continue, et $b>a>0$ deux réels.On suppose que $f(0)=0$. Démontrer que \r\n$$\\lim_{x\\to 0^+}\\int_{ax}^{bx}\\frac{f(t)}tdt=0.$$Déterminer $\\lim_{x\\to 0^+}\\int_{ax}^{bx}\\frac{f(t)}tdt$ si on ne suppose plus que $f(0)=0$.",
+    "hint": "Majorer l'intégrale.Se ramener à la question précédente.",
+    "solution": "Notons, pour $x>0$,  $\\veps(x)=\\sup\\{|f(t)|;\\ t\\in [ax,bx]\\}$. Puisque $f$ est continue en $0$ et que $f(0)=0$, alors $\\lim_{x\\to 0}\\veps(x)=0$. Mais on peut écrire que\r\n$$\\left|\\int_{ax}^{bx}\\frac{f(t)}tdt\\right|\\leq \\veps(x) \\int_{ax}^{bx}\\frac{dt}t=\\veps(x)\\ln\\left(\\frac ba\\right).$$\r\nCeci tend bien vers $0$ si $x$ tend vers $0$.Posons $g(x)=f(x)-f(0)$. Alors d'après la question précédente, \r\n$$\\lim_{x\\to 0^+}\\int_{ax}^{bx}\\frac{g(t)}tdt=0.$$\r\nMais, puisque $\\int_{ax}^{bx}\\frac{f(0)}tdt=f(0)\\ln\\left(\\frac ba\\right)$, on en déduit par linéarité que\r\n$$\\lim_{x\\to0^+}\\int_{ax}^{bx}\\frac{f(t)}tdt=f(0)\\ln\\left(\\frac ba\\right).$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a+ib$ une racine $n-$ième de l'unité, et $f(x)=e^{ax}\\cos(bx)$. Donner une formule simple pour $f^{(n)}$.",
+    "hint": "Utiliser la fonction $g(x)=e^{ax}\\cos(bx)+ie^{ax}\\sin(bx)$.",
+    "solution": "Une première solution consiste à utiliser la formule de Leibniz et à couper la somme en 4, suivant le nombre de fois où on dérive le cosinus. Il est toutefois plus aisé d'utiliser :\r\n$$g(x)=e^{ax}\\cos(bx)+ie^{ax}\\sin(bx)=e^{(a+ib)x}.$$\r\nOn a alors :\r\n$$g^{(n)}(x)=(a+ib)^n e^{(a+ib)x}=e^{(a+ib)x}$$\r\npuisque $a+ib$ est une racine n-ième de l'unité. Il suffit alors de remarquer que $f$ est la partie réelle de $g$ pour conclure que :\r\n$$f^{(n)}(x)=f(x)=e^{ax}\\cos(bx).$$",
+    "lang": "french"
+}

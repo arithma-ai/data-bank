@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les coordonnées cylindriques puis sphériques du point $M(2,2\\sqrt 3,4)$.",
+    "hint": "Retourner à la définition (et relire son cours!).",
+    "solution": "Soit $m$ le projeté orthogonal de $M$ sur le plan $(Oxy)$. $m$ a pour coordonnées \r\n$(2,2\\sqrt 3,0)$. En particulier, on a $Om=\\sqrt {4+4\\times 3}=4$, et on a \r\n$$\\overrightarrow{Om}=4\\left(\\frac12\\vec i+\\frac{\\sqrt 3}2\\vec j\\right)=4\\big(\\cos(\\pi/3)\\vec i+\\sin(\\pi/3)\\vec j\\big).$$\r\nLes coordonnées cylindriques de $M$ sont donc $(4,\\pi/3,4)$.Pour déterminer les coordonnées sphériques, il faut en plus déterminer la longueur $OM$ et\r\nune mesure de l'angle $(\\vec k,\\overrightarrow{OM})$. Mais on a $OM=4\\sqrt 2$, et l'angle\r\n$(\\vec k,\\overrightarrow{OM})$ est compris entre 0 et $\\pi$. Puisque \r\n$$\\cos(\\vec k,\\overrightarrow{OM})=\\frac{\\overrightarrow{OM}\\cdot \\vec k}{\\|\\overrightarrow{OM}\\|\\cdot\\|\\vec k\\|}=\\frac{\\sqrt 2}2,$$\r\non en déduit que l'angle fait $\\pi/4$. Les coordonnées sphériques de $M$ sont donc\r\n$(4\\sqrt 2,\\pi/3,\\pi/4)$.",
+    "lang": "french"
+}

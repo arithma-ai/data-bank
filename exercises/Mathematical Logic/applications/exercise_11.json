@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que l'application $$\r\n\\begin{array}{rcl}\r\nf:\\mathbb C\\backslash \\{-3\\}&\\to&\\mathbb C\\backslash \\{i\\}\\\\\r\nz&\\mapsto&\\frac{iz-i}{z+3}\r\n\\end{array}$$\r\nest une bijection. Déterminer sa bijection réciproque.",
+    "hint": "Prouver que pour tout $w\\in\\mathbb C\\backslash\\{i\\}$, l'équation $f(z)=w$ admet une unique solution $z\\in\\mathbb C\\backslash\\{-3\\}$ et déterminer cette solution.",
+    "solution": "On va démontrer directement que $f$ est bijective en prouvant que, pour tout $w\\in\\mathbb C\\backslash\\{i\\}$, l'équation \r\n$f(z)=w$ admet une unique solution $z\\in\\mathbb C\\backslash\\{-3\\}$. Pour cela, on remarque que\r\n\\begin{eqnarray*}\r\n\\frac{iz-i}{z+3}=w&\\iff&iz-i=wz+3w\\\\\r\n&\\iff&(i-w)z=3w+i.\r\n\\end{eqnarray*}\r\nPuisque $w\\neq i$, ceci est encore équivalent à \r\n$$z=\\frac{3w+i}{i-w}.$$\r\nL'équation admet une unique solution : $f$ est bijective et sa bijection réciproque est donnée par\r\n$$f^{-1}(w)=\\frac{3w+i}{i-w}.$$",
+    "lang": "french"
+}

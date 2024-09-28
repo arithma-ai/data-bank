@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,+\\infty[\\to\\mathbb R$ continue admettant une limite (finie) en $+\\infty$. Montrer que $f$ est bornée sur $[0,+\\infty[$.",
+    "hint": "Découper $[0,+\\infty[$ en deux : une partie $[A,+\\infty[$ où $f$ est bornée car $f$ admet une limite en $+\\infty$,\r\net $[0,A]$ où $f$ est bornée (pourquoi?)",
+    "solution": "Soit $a=\\lim_{+\\infty} f$. Appliquons la définition de la limite pour $\\veps=1$. Il existe $A>0$ tel que,\r\npour tout $x\\geq A$, on a $|f(x)-a|\\leq 1$. En particulier, pour $x\\in[A,+\\infty[$, on a $|f(x)|\\leq |a|+1$.\r\nDe plus, $f$ est continue sur le segment $[0,A]$. Elle y est bornée. Soit $M_0$ tel que $|f(x)|\\leq M_0$\r\npour tout $x\\in[0,A]$. Alors, en posant $M=\\max(M_0,|a|+1)$, on a $|f(x)|\\leq M$ pour tout $x\\in[0,+\\infty[$.",
+    "lang": "french"
+}

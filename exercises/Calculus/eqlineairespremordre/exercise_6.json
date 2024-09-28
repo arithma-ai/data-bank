@@ -1,0 +1,6 @@
+{
+    "script": "Donner une équation différentielle dont les solutions sont les fonctions de la forme \r\n$$x\\mapsto \\frac{C+x}{1+x^2},\\ C\\in\\mathbb R.$$",
+    "hint": "Exprimer $C$ en fonction de $x$ et de la fonction, et dériver.",
+    "solution": "On va procéder par analyse/synthèse. Pour cela, on écrit qu'une solution \r\n$f$ s'écrit \r\n$$f(x)= \\frac{C+x}{1+x^2}\\iff C=(1+x^2)f(x)-x.$$\r\nLe but étant d'éliminer $C$, on dérive la relation précédente, et on trouve\r\n$$0=(1+x^2)f'(x)+2xf(x)-1.$$\r\nC'est l'équation différentielle recherchée! En effet, réciproquement, si l'on considère l'équation\r\ndifférentielle \r\n$$(1+x^2)y'(x)+2xy(x)-1=0,$$\r\non prouve facilement que ses solutions sont les fonctions $ x\\mapsto \\frac{C+x}{1+x^2}.$",
+    "lang": "french"
+}

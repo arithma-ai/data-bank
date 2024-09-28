@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a$ et $b$ deux réels. On considère la proposition suivante : si $a+b$ est irrationnel, alors $a$ ou $b$ sont irrationnels.Quelle est la contraposée de cette proposition?Démontrer la proposition.Est-ce que la réciproque de cette proposition est toujours vraie?",
+    "hint": "Démontrer la contraposée.Trouver un contre-exemple.",
+    "solution": "La contraposée de cette proposition est : si $a$ et $b$ sont rationnels, alors $a+b$ est rationnel.On va démontrer la contraposée, ce qui va prouver la proposition. On suppose donc que $a$ et $b$ sont rationnels. Ils s'écrivent alors $a=\\frac pq$ et $b=\\frac{p'}{q'}$, avec $p,p',q,q'$ des entiers relatifs, et $q,q'$ non nuls. On calcule $a+b$ en réduisant au même dénominateur : \r\n$$a+b=\\frac pq+\\frac{p'}{q'}=\\frac{pq'+p'q}{qq'}.$$\r\nLe nombre $a+b$ est le quotient de deux entiers, c'est un rationnel.La réciproque de la proposition est : si $a$ ou $b$ sont irrationnels, alors $a+b$ est irrationnel. Ce n'est pas toujours le cas. Par exemple, si $a=\\sqrt 2$ et $b=-\\sqrt 2$, alors $a$ ou $b$ sont irrationnels (en réalité, on a même $a$ et $b$ qui sont irrationnels), et pourtant $a+b$ n'est pas irrationnel. On prendra bien garde ici à la signification du \"ou\" en mathématiques.",
+    "lang": "french"
+}

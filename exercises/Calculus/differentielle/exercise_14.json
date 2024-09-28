@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R^2\\to \\mathbb R$ telle que, pour tout $(x,y)\\in(\\mathbb R^2)^2$, on a\r\n$$|f(x)-f(y)|\\leq \\|x-y\\|^2.$$\r\nDémontrer que $f$ est constante.",
+    "hint": "Justifier que $f$ est différentiable et calculer sa différentielle.",
+    "solution": "Fixons $x\\in\\mathbb R^2$. Alors, pour $h\\in\\mathbb R^2$, on a\r\n$$|f(x+h)-f(x)|\\leq \\|h\\|^2\\implies f(x+h)=f(x)+o(\\|h\\|).$$\r\nCeci signifie que $f$ est différentiable en $x$ et que $df_x=0$. En particulier, $f$ est donc de classe $C^1$ sur $\\mathbb R^2$. Comme $\\mathbb R^2$ est convexe (donc connexe par arcs),\r\nceci implique que $f$ est constante.",
+    "lang": "french"
+}

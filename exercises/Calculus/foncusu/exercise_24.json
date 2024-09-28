@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les entiers naturels $n$ tels que $2^n\\geq n^2$.",
+    "hint": "Prendre le logarithme de cette inégalité.",
+    "solution": "Le logarithme étant une fonction croissante, on a $2^n\\geq n^2$ si et seulement si $n\\ln 2\\geq 2\\ln n$. Ceci nous incite à introduire et étudier la fonction $f$ définie sur $]0,+\\infty[$ par \r\n$$f(x)=x\\ln 2-2\\ln x.$$\r\nCette fonction est dérivable, et sa dérivée est donnée par\r\n$$f'(x)=\\ln 2-\\frac{2}{x}=\\frac{x\\ln 2-2}x.$$\r\nAinsi, $f'(x)\\geq 0$ si $x\\geq 2/\\ln 2\\simeq 2,88$ et donc $f$ est croissante sur l'intervalle $[3,+\\infty[$. Remarquons ensuite que $f(4)=4\\ln 2-2\\ln 4=0.$\r\nDonc $f$ est positive sur l'intervalle $[4,+\\infty[$. Ainsi, l'inégalité est vraie pour tous les entiers naturels $n\\geq 4$. On peut tester à la main ce qui se passe pour $n=0,1,2,3$, et on trouve qu'elle est vraie en $0,1,2$ et fausse en 3.",
+    "lang": "french"
+}

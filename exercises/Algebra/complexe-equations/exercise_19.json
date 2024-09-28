@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre les équations suivantes : \r\n$$\\begin{array}{lll}\r\n\\mathbf{1.}\\ z^4=-1&&\\mathbf{2.}\\ z^5=-i.\r\n\\end{array}$$",
+    "hint": "",
+    "solution": "On écrit $-1=e^{i\\pi}$ puis on utilise le cours :\r\n$$z^4=-1=e^{i\\pi}\\iff z=e^{i\\frac \\pi4+k\\frac{\\pi}2},\\ k\\in\\mathbb Z.$$\r\nOn obtient $4$ racines distinctes correspondant à $k=0,1,2,3$, qui sont $e^{i\\pi/4}$, $e^{i3\\pi/4}$, $e^{5i\\pi/4}$ et $e^{7i\\pi/4}$.On a $-i=e^{-i\\pi/2}$, et donc\r\n$$z^5=-i=e^{-i\\pi/2}\\iff z= e^{\\frac{2ik\\pi}{5}-\\frac{i\\pi}{10}},\\ k\\in\\mathbb Z;$$\r\non obtient $5$ racines distinctes pour $k=0,\\dots,4$.",
+    "lang": "french"
+}

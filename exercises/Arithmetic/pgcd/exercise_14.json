@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que l'équation $x^3-x^2+x+1=0$ n'a pas de solutions dans $\\mathbb Q$.",
+    "hint": "Raisonner par l'absurde et imaginer qu'une solution\r\n$x=p/q$ existe, avec $p\\wedge q=1$. Remettre tout au même dénominateur, et montrer que $q=1$.",
+    "solution": "Admettons qu'il existe une solution rationnelle $x=p/q$, avec $p\\wedge q=1$ et $q>0$. Alors, \r\nremplaçant $x$ par $p/q$ dans l'équation et multipliant tout par $q^3$, on obtient :\r\n$$p^3-p^2q+pq^2+q^3=0.$$\r\nPuisque $q|p^2q+pq^2+q^3$, on obtient $q|p^3$ et donc $q=1$ puisque $p$ et $q$ sont\r\npremiers entre eux. En effectuant le même raisonnement avec $p$, on obtient $p=\\pm 1$.\r\nOr $1$ et $-1$ ne sont pas solutions de l'équation. Il y a donc contradiction.",
+    "lang": "french"
+}

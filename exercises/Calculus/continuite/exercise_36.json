@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ continue telle que, pour tout $x\\in\\mathbb R$, on a $f(x)^2=1$.\r\nDémontrer que $f=1$ ou $f=-1$.",
+    "hint": "Ce n'est pas complètement évident, il faut utiliser le théorème des valeurs intermédiaires en procédant par l'absurde.",
+    "solution": "Ce que donne immédiatement l'énoncé est \r\n$$\\forall x\\in\\mathbb R,\\ f(x)=1\\textrm{ ou }f(x)=-1.$$\r\nOn veut prouver que \r\n$$(\\forall x\\in\\mathbb R,\\ f(x)=1)\\ \\textrm{ ou } (\\forall x\\in\\mathbb R,\\ f(x)=-1).$$\r\nCe n'est pas la même chose : pensons à la fonction identiquement égale à $-1$ sur \r\n$]-\\infty,0]$ et égale à $1$ sur $[0,+\\infty[$.Supposons donc que la deuxième propriété est fausse. Il existe donc $x_0\\in\\mathbb R$ tel que $f(x_0)=1$ et il existe $x_1\\in\\mathbb R$ tel que $f(x_1)=-1$. Par le théorème des valeurs intermédiaires, il existe $y$ tel que $f(y)=0$. Ceci contredit que $(f(y))^2=1$.  Donc la deuxième propriété est vraie.",
+    "lang": "french"
+}

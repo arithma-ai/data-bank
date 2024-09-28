@@ -1,0 +1,6 @@
+{
+    "script": "Soit $D$ la droite d'équation $3x-2y+5=0$. Déterminer une équation des droites qui passent\r\npar le point $A(1,2)$ et qui font un angle de $\\pi/6$ avec $D$.",
+    "hint": "Commencer par trouver un vecteur directeur de $D$, puis des deux droites.",
+    "solution": "S'agissant d'angles de droites, il y a deux droites qui font un angle de $\\pi/6$ avec $D$, notons les $\\Delta_1$ et $\\Delta_2$. Un vecteur directeur de $D$ est $\\vec u=(2,3)$, soit en notation complexe $2+3i$.\r\nUn vecteur directeur de $\\Delta_1$ est l'image par la rotation d'angle $\\pi/6$ de ce vecteur. Il est donc\r\nd'affixe $e^{i\\pi/6}(2+3i)=(2\\sqrt 3-3)/2+i(3\\sqrt 3+2)/2$. \r\nUne équation de la droite recherchée est donc de la forme $-(3\\sqrt 3+2)x+(2\\sqrt 3-3)y=k$.\r\nPuisqu'elle passe par $A(1,2)$, on a $k=\\sqrt 3-8$. On procède de même pour la deuxième droite, mais cette fois un vecteur directeur de $\\Delta_2$ est l'image par la rotation d'angle $-\\pi/6$ de $\\vec u$. Les calculs à mener sont similaires.",
+    "lang": "french"
+}

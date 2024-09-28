@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les fonctions $f:\\mathbb R\\to\\mathbb R$ dérivables et telles que\r\n$$\\forall x\\in\\mathbb R,\\ f'(x)+f(x)=f(0)+f(1).$$Déterminer les fonctions $f:\\mathbb R\\to\\mathbb R$ dérivables et telles que\r\n$$\\forall x\\in\\mathbb R,\\ f'(x)+f(x)=\\int_0^1 f(t)dt.$$",
+    "hint": "Commencer par résoudre l'équation différentielle, en remplaçant $f(0)+f(1)$ ou $\\int_0^1 f(t)dt$ par une constante. Ensuite, adapter les constantes pour que l'équation\r\nsoit résolue.",
+    "solution": "Soit $f$ une solution de l'équation. On sait qu'il existe $C\\in \\mathbb R$ telle que $f$ est solution de \r\n$f'+f=C$. Les solutions de cette équation sont les fonctions $f:x\\mapsto C+De^{-x}$. Mais on doit aussi avoir $f(0)+f(1)=C$, \r\net donc \r\n$$2C+D(1+e^{-1})=C\\iff C=-D(1+e^{-1}).$$\r\nAinsi, si $f$ est solution de l'équation, il existe $D\\in\\mathbb R$ tel que, pour tout $x\\in\\mathbb R$,\r\n$$f(x)=-D(1+e^{-1})+De^{-x}.$$\r\nRéciproquement, on vérifie facilement que ces fonctions sont bien solutions de l'équation de départ.On applique le même raisonnement, mais cette fois on doit avoir\r\n$$\\int_0^1 f(t)dt=C,$$\r\nc'est-à-dire \r\n$$C+D(1-e^{-1})=C.$$\r\nOn doit donc avoir $D=0$, et les seules solutions sont les fonctions constantes, puisque ces fonctions vérifient clairement l'équation de départ.",
+    "lang": "french"
+}

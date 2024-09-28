@@ -1,0 +1,6 @@
+{
+    "script": "Pour cet exercice, on rappelle que tout ensemble infini contient un ensemble infini dénombrable.\r\nSoit $X$ un ensemble infini et $D$ un ensemble au plus dénombrable. Démontrer que $X\\cup D$ est équipotent à $X$.",
+    "hint": "Considérer $D'$ une partie dénombrable de $X$ et utiliser que $D'\\cup D$ est équipotent à $D'$.",
+    "solution": "Posons d'abord $D_0=D\\backslash X$ et considérons $D'\\subset X$ tel que $D'$ est dénombrable. Soit enfin $Y$ le complémentaire de $D'$ dans $X$. Alors $D'\\cup D_0$ est dénombrable. Il est donc équipotent à $D'$, et donc il existe une bijection $h$ de $D'\\cup D_0$ sur $D'$. On définit maintenant une bijection $f$ de $X\\cup D$ sur $X$ de la façon suivante :si $x\\in Y$, alors $f(y)=y$;si $x\\in D'\\cup D_0$, alors $f(y)=h(y)$.Il est facile de vérifier que $f$ est effectivement une bijection, et donc $X$ et $X\\cup D$ sont équipotents.",
+    "lang": "french"
+}

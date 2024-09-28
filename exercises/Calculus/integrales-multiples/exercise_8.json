@@ -1,0 +1,6 @@
+{
+    "script": "Soit $D=\\left\\{(x,y)\\in\\mtr^2;\\ x^2+y^2-2x\\leq 0\\right\\}$.Montrer que $D$ est un disque.Calculer $\\dis\\int\\!\\int_D\\sqrt{x^2+y^2}dxdy.$",
+    "hint": "Passer en coordonnées polaires. Il va falloir exprimer le disque en coordonnées polaires...",
+    "solution": "On a :\r\n$$x^2+y^2-2x=(x-1)^2+y^2-1$$\r\net donc\r\n$$x^2+y^2-2x\\leq 0\\iff (x-1)^2+y^2\\leq 1.$$\r\n$D$ est le disque de centre $(1,0)$ et de rayon 1.On passe en coordonnées polaires, avec $x=r\\cos\\theta$ et $y=r\\sin\\theta$. L'équation du disque donne :\r\n$$r^2-2r\\cos\\theta\\leq 0\\implies 0\\leq r\\leq 2\\cos\\theta,$$\r\ntandis que $\\theta$ varie dans $[-\\pi/2,\\pi/2]$ (impératif pour que $\\cos(\\theta)$ soit positif). La formule de changement de variables donne donc :\r\n\\begin{eqnarray*}\r\nI&=&\\int_{\\theta=-\\pi/2}^{\\theta=\\pi/2}\\int_{r=0}^{r=2\\cos\\theta}r^2drd\\theta\\\\\r\n&=&\\frac{8}{3}\\int_{-\\pi/2}^{\\pi/2}\\cos^3\\theta d\\theta.\r\n\\end{eqnarray*}\r\nIl reste à linéariser $\\cos^3\\theta$, ce que l'on fait en utilisant les nombres complexes :\r\n$$\\cos^3\\theta=\\frac{1}{4}\\cos3\\theta+\\frac{3}{4}\\cos \\theta.$$\r\nOn achève le calcul sans difficultés pour trouver :\r\n$$I=\\frac{32}{9}.$$",
+    "lang": "french"
+}

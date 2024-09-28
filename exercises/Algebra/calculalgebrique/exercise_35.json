@@ -1,0 +1,6 @@
+{
+    "script": "Soient $n,p$ des entiers naturels avec $n\\geq p$. Démontrer que\r\n$$\\sum_{k=p}^n \\dbinom{k}{p}=\\dbinom{n+1}{p+1}.$$",
+    "hint": "Procéder par récurrence.",
+    "solution": "Une méthode naturelle pour démontrer cette propriété est de procéder par récurrence sur $n$. La formule est clairement vraie pour $n=0$\r\n(ce qui implique $p=0$). Supposons la propriété vraie au rang $n$, c'est-à-dire que pour tout $p\\leq n$, la formule donnée est vérifiée.\r\nProuvons-la au rang $n+1$. Pour cela, prenons $p\\leq n+1$. Si $p\\leq n$, alors on a\r\n\\begin{eqnarray*}\r\n\\sum_{k=p}^{n+1}\\dbinom{k}{p}&=&\\sum_{k=p}^n \\dbinom{k}{p}+\\dbinom{n+1}{p}\\\\\r\n&=&\\dbinom{n+1}{p+1}+\\dbinom{n+1}{p}\\textrm{ (hypothèse de récurrence)}\\\\\r\n&=&\\dbinom{n+2}{p+1}\\textrm{ (formule du triangle de Pascal)}.\r\n\\end{eqnarray*}\r\nSi $p=n+1$, la formule est aussi vérifiée. La propriété est donc aussi vraie au rang $n+1$.",
+    "lang": "french"
+}

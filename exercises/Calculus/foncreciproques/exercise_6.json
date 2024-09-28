@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0;+\\infty[\\to [0;+\\infty[$ définie par $f(x)=xe^x$. Démontrer que $f$ est bijective. Calculer $(f^{-1})'(e)$.",
+    "hint": "Utiliser la formule donnant la dérivée d'une fonction réciproque, en remarquant que $f(1)=e$.",
+    "solution": "La fonction $f$ est continue sur $[0;+\\infty[$. Elle est aussi dérivable sur cet intervalle\r\net sa dérivée est $f'(x)=(x+1)e^x$. C'est une fonction strictement positive sur $[0;+\\infty[$\r\ndonc la fonction est strictement croissante. De plus, $f(0)=0$ et $\\lim_{x\\to +\\infty}f(x)=+\\infty$.\r\nAinsi, $f$ réalise une bijection de $[0;+\\infty[$ sur $[0;+\\infty[$.Puisque $f'$ ne s'annule pas, on sait que $f^{-1}$ est dérivable sur $[0;+\\infty[$. De\r\nplus, pour tout $y\\in[0;+\\infty[$, posant $x=f^{-1}(y)$, on a \r\n$$(f^{-1})'(y)=\\frac{1}{f'(x)}.$$\r\nPour $y=e$, on $1=f^{-1}(e)$ (puisque $f(1)=e$), et donc \r\n$$(f^{-1})'(e)=\\frac{1}{f'(1)}=\\frac1{2e}.$$",
+    "lang": "french"
+}

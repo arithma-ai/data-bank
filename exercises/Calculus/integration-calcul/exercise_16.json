@@ -1,0 +1,6 @@
+{
+    "script": "Soient $(\\alpha,\\beta,n)\\in\\mathbb R^2\\times\\mathbb N$. Calculer\r\n$$\\int_\\alpha^\\beta(t-\\alpha)^n (t-\\beta)^n dt.$$",
+    "hint": "Faire $n$ intégrations par parties successives.",
+    "solution": "On pose, pour $(\\alpha,\\beta,n,m)\\in\\mathbb R^2\\times\\mathbb N^2$,\r\n$$I_{m,n}=\\int_\\alpha^\\beta (t-\\alpha)^m(t-\\beta)^n dt.$$\r\nOn intègre par parties pour obtenir une relation entre $I_{m,n}$ et $I_{m-1,n+1}$, et on trouve\r\n\\begin{eqnarray*}\r\nI_{m,n}&=&\\left[(t-\\alpha)^m\\frac{(t-\\beta)^{n+1}}{n+1}\\right]_\\alpha^\\beta-\\frac m{n+1}\\int_{\\alpha}^\\beta (t-\\alpha)^{m-1}(t-\\beta)^{n+1}dt\\\\\r\n&=&-\\frac{m}{n+1}I_{m-1,n+1}.\r\n\\end{eqnarray*}\r\nD'autre part, pour tout $p\\in\\mathbb N$, on a \r\n$$I_{0,p}=\\int_{\\alpha}^\\beta (t-\\beta)^pdt=-\\frac{(\\alpha-\\beta)^{p+1}}{p+1}.$$\r\nUne récurrence immédiate donne alors\r\n$$I_{m,n}=(-1)^{m+1}\\frac{m(m-1)\\dots 1}{(n+1)(n+2)\\dots(n+m)}\\frac{(\\alpha-\\beta)^{m+n+1}}{m+n+1}.$$\r\nEn particulier, l'intégrale recherché vaut $I_{n,n}$, c'est-à-dire\r\n$$I_{n,n}=(-1)^{n+1}\\frac{n!}{(n+1)\\dots(2n)}\\frac{(\\alpha-\\beta)^{2n+1}}{2n+1}=(-1)^{n+1}\\frac{(\\alpha-\\beta)^{2n+1}}{(2n+1)\\binom{2n}{n}}.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ et $g$ deux fonctions convolables paires. Démontrer que $f\\star g$ est paire.",
+    "hint": "Faire des changements de variables.",
+    "solution": "Soit $x\\in\\mathbb R$. Alors \r\n\\begin{align*}\r\nf\\star g(-x)&=\\int_{\\mathbb R}f(-x-t)g(t)dt\\\\\r\n&=\\int_{\\mathbb R}f(-x+u)g(-u)du\\textrm{ (changement de variables $u=-t$)}\\\\\r\n&=\\int_{\\mathbb R}f(x-u)g(u)du\\textrm{ (par parité de $f$ et $g$)}\\\\\r\n&=f\\star g(x).\r\n\\end{align*}",
+    "lang": "french"
+}

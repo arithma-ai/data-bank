@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer toutes les matrices $A\\in\\mathcal M_n(\\mathbb R)$ diagonalisables telles que $A^3+2A=3I_n.$",
+    "hint": "Quelles peuvent être les valeurs propres de $A$?",
+    "solution": "Notons $P(X)=X^3+2X-3.$ Alors $P$ est un polynôme annulateur pour $A.$ Les valeurs propres de $A$ sont donc racines de $P.$ De plus, \r\n$P$ se factorise en $P(X)=(X-1)(X^2+X+3).$ Puisque $X^2+X+3$ ne s'annule pas sur $\\mathbb R$\r\n(son discriminant est négatif), la seule valeur propre possible pour $A$ est $1.$ \r\nPuisque $A$ est diagonalisable, on doit nécessairement avoir $A=I_n$. Réciproquement, $I_n$ vérifie l'équation.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a\\neq 0$ un réel.Déterminer la dérivée de la fonction $f$ définie sur $\\mathbb R$ par $f(x)=\\arctan(ax)$.En déduire une primitive de $\\frac{1}{4+x^2}$.",
+    "hint": "Dérivée d'une fonction du type $g(ax)$.Se ramener à la question précédente...",
+    "solution": "En utilisant la dérivée de $\\arctan$ et la dérivée d'une fonction du type $g(ax)$, on trouve que \r\n$$f'(x)=a\\times\\frac{1}{1+a^2x^2}.$$Posons $g(x)=\\frac1{4+x^2}$. On va se ramener à la question précédente en remarquant que \r\n$$g(x)=\\frac{1}{4(1+x^2/4)}=\\frac 14\\times \\frac{1}{1+\\left(\\frac 12\\right)^2x^2}\r\n=\\frac 12 \\times \\frac 12\\times \\frac{1}{1+\\left(\\frac 12\\right)^2x^2}=\\frac 12\\times f'(x)$$\r\nen choisissant $a=1/2$. Une primitive de $g$ est donc la fonction \r\n$$G(x)=\\frac 12f(x)=\\frac 12 \\arctan\\left(\\frac x2\\right).$$",
+    "lang": "french"
+}

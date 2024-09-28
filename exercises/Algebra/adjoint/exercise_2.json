@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel euclidien, $a,b\\in E$. Déterminer l'adjoint $f^*$ de $f\\in\\mathcal L(E)$ défini par :\r\n$$\\forall x\\in E,\\ f(x)=\\langle a,x\\rangle b-\\langle b,x\\rangle a.$$",
+    "hint": "Revenir à la définition et utiliser la bilinéarité du produit scalaire.",
+    "solution": "Soit $x,y\\in E$. On va déterminer l'adjoint $f^*$ en revenant à la définition :\r\n\\begin{align*}\r\n\\langle f(x),y\\rangle&=\\langle \\langle a,x\\rangle b-\\langle b,x\\rangle a,y\\rangle\\\\\r\n&=\\langle a,x\\rangle \\langle b,y\\rangle-\\langle b,x\\rangle \\langle a,y\\rangle\\\\\r\n&=\\langle x,a\\rangle \\langle b,y\\rangle-\\langle x,b\\rangle \\langle a,y\\rangle\\\\\r\n&=\\langle x,\\langle b,y\\rangle a-\\langle a,y\\rangle b\\rangle.\r\n\\end{align*}\r\nOn en déduit que \r\n$$f^*(y)=\\langle b,y\\rangle a-\\langle a,y\\rangle b=-f(y).$$",
+    "lang": "french"
+}

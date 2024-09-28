@@ -1,0 +1,6 @@
+{
+    "script": "Pour tout $n\\in\\mathbb N^*$, on pose\r\n$$I_n=\\int_0^1\\frac{dx}{(x^2+1)^n}.$$Exprimer $I_{n+1}$ en fonction de $I_n$ pour tout $n\\in\\mathbb N^*$.En déduire la valeur de $I_3$.",
+    "hint": "Effectuer une intégration par parties à partir de $I_n$.",
+    "solution": "Une intégration par parties donne, en posant $u(x)=(x^2+1)^{-n}$ et $v'(x)=1$, \r\n$$I_n=\\left[\\frac{x}{(x^2+1)^n}\\right]_0^1 +2n\\int_0^1 \\frac{x^2}{(x^2+1)^{n+1}}dx=\\frac{1}{2^n}+2n\\int_0^1 \\frac{x^2}{(x^2+1)^{n+1}}dx.$$\r\nOr,\r\n$$\\int_0^1 \\frac{x^2}{(x^2+1)^{n+1}}dx=\\int_0^1\\frac{x^2+1}{(x^2+1)^{n+1}}dx-\\int_0^1 \\frac{1}{(x^2+1)^{n+1}}dx=I_n-I_{n+1}.$$\r\nRegroupant les termes, on trouve \r\n$$2nI_{n+1}=(2n-1)I_n+\\frac1{2^n}\\iff I_{n+1}=\\frac{2n-1}{2n}I_n+\\frac{1}{n2^{n+1}}.$$\r\nSachant que \r\n$$I_1=\\left[\\arctan x\\right]_0^1=\\frac\\pi4,$$ on trouve\r\n$$I_2=\\frac{\\pi}8+\\frac14\\textrm{ et }I_3=\\frac{3\\pi}{32}+\\frac14.$$",
+    "lang": "french"
+}

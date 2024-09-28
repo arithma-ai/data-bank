@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire suivant une loi uniforme sur $\\{0,1,\\dots,a\\}$, où $a\\in\\mathbb N$. On suppose que $E(X)=6$. Déterminer $a$.",
+    "hint": "Calculer $E(X)$ en fonction de $a$.",
+    "solution": "On a $E(X)=\\frac1{a+1}\\big(0+1+\\dots+a\\big)=\\frac a2$. On en déduit donc que $a=12$.",
+    "lang": "french"
+}

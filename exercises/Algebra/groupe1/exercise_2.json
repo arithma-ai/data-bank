@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ un groupe et $x\\in G$ d'ordre $n$. Quel est l'ordre de $x^2$?",
+    "hint": "Distinguer les cas $n$ est pair et $n$ est impair.",
+    "solution": "D'abord, on remarque que $x^2$ est d'ordre fini, car $(x^2)^n=(x^n)^2=e^2=e$. De plus, son ordre que nous allons noter $d$ divise $n$. Distinguons alors deux cas :Si $n$ est pair et s'écrit $2p$, alors $(x^2)^p=x^{n}=e$, et donc l'ordre de $x^2$ divise $p$. De plus, si l'ordre de $x^2$ est inférieur strict à $p$, on a $x^{2d}=e$ avec $1\\leq 2d<n$, ce qui contredit la définition de l'ordre de $x$. Donc, si $n$ est pair, l'ordre de $x^2$ est $n/2$.Si $n$ est impair, alors on a $x^{2d}=e$ et donc $n|2d$. Mais comme $n$ est premier avec $2$, on a $n|d$. Puisqu'on avait déjà remarqué que $d|n$, on en déduit que $d=n$. En résumé, si $n$ est impair, l'ordre de $x^2$ est $n$.",
+    "lang": "french"
+}

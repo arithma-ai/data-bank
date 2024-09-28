@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction entière non constante. Montrer que $f(\\mathbb C)$ est dense dans $\\mathbb C$.",
+    "hint": "Si $w$ n'est pas dans l'adhérence de $f(\\mathbb C)$, considérer la fonction\r\n$g(z)=\\frac{1}{f(z)-w}$.",
+    "solution": "Imaginons que ce ne soit pas le cas, et considérons $w\\in\\mathbb C$ qui n'est pas dans l'adhérence\r\nde $f(\\mathbb C)$. En particulier, on peut trouver $\\delta>0$ tel que $|f(z)-w|\\geq\\delta$\r\npour tout $z\\in\\mathbb C$. Posons $g(z)=\\frac{1}{f(z)-w}$. Alors la fonction $g$ est entière,\r\net elle est bornée par $\\delta^{-1}$. Par le théorème de Liouville, elle est constante. Ceci n'est possible\r\nque si $f$ est constante, ce qui contredit les hypothèses faites sur $f$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[1,+\\infty[\\to[1,+\\infty[$ définie par $f(x)=\\exp(\\ln^2 (x))$. Démontrer que $f$ est une bijection, et déterminer la bijection réciproque.",
+    "hint": "",
+    "solution": "On va commencer par démontrer que $f$ est strictement croissante sur $[1,+\\infty[$. Soit $1\\leq x<y$. Alors, par croissance stricte des fonctions logarithme (sur $[1,+\\infty[$), carré (sur $[0,+\\infty[$) et exponentielle (sur $\\mathbb R$), on a successivement,\r\n$$1\\leq x<y\\implies 0\\leq \\ln(x)<\\ln(y)\\implies 0\\leq \\ln^2(x)<\\ln^2(y)\\implies 1\\leq f(x)<f(y).$$\r\nDe plus, $f(1)=1$ et, par composition de limites, $\\lim_{x\\to+\\infty}f(x)=+\\infty$. Comme $f$ est continue strictement croissante, $f$ réalise une bijection de $[1,+\\infty[$ sur $[1,+\\infty[$.Déterminons la bijection réciproque. Soit $y\\geq 1$. L'équation $f(x)=y$ est équivalente à \r\n$$\\exp(\\ln^2 x)=y\\iff \\ln^2(x)=\\ln(y)\\iff \\ln(x)=\\sqrt{\\ln y}\\iff x=\\exp\\left(\\sqrt{\\ln y}\\right)$$\r\noù on a utilisé le fait que les fonctions logarithme,racine carré, et exponentielle, sont injectives. Donc, $f^{-1}(y)=\\exp\\left(\\sqrt{\\ln y}\\right)$.",
+    "lang": "french"
+}

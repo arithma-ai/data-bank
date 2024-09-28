@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ et $Y$ deux variables aléatoires indépendantes suivant des lois géométriques de paramètres respectifs $p$ et $q$. Calculer $P(Y>X)$.",
+    "hint": "L'événement $Y>X$ est la réunion des événements disjoints $X=k,Y>k$, pour $k$ allant de $1$ à $+\\infty$.",
+    "solution": "L'événement $Y>X$ est la réunion des événements disjoints $X=k,Y>k$, pour $k$ allant de $1$ à $+\\infty$. Par indépendance des variables aléatoires $X$ et $Y$, on a $P(X=k,Y>k)=P(X=k)\\times P(Y>k)$. De plus, puisque $X$ et $Y$ suivent des lois géométriques, on sait que\r\n$$P(X=k)=p(1-p)^{k-1}\\textrm{ et }P(Y>k)=(1-q)^k.$$\r\nOn en déduit que \r\n$$P(Y>X)=\\sum_{k=1}^{+\\infty}p(1-q)\\big((1-p)(1-q)\\big)^{k-1}=\\frac{p(1-q)}{1-(1-p)(1-q)}=\\frac{p-pq}{p+q-pq}.$$",
+    "lang": "french"
+}

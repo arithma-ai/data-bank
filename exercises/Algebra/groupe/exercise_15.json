@@ -1,0 +1,6 @@
+{
+    "script": "Soit $H$ un sous-groupe strict d'un groupe $(G,\\cdot)$. Déterminer le sous-groupe engendré par le complémentaire de $H$.",
+    "hint": "Démontrer que $H$ est inclus dans ce sous-groupe. On pourra utiliser un élément $a\\in H^c$.",
+    "solution": "Notons $K$ le complémentaire de $H$ et fixons $a$ un élément de $K$ (rappelons que $H$ est strictement inclus dans $G$). Nous allons prouver que le sous-groupe engendré par $K$, que nous allons noter $L$, est égal à $G$ tout entier. Puisque ce sous-groupe contient déjà $K$, il suffit de prouver qu'il contient également son complémentaire, à savoir $H$. Soit donc $x\\in H$. Alors $ax$ ne peut pas être un élément de $H$, sinon \r\n$a=ax x^{-1}$ serait élément de $H$ lui aussi. Donc $ax$ est élément de $K$. Mais alors, $x=a^{-1}ax$ est un élément de $L$ puisque $a$ et $ax$ sont tous deux éléments de $K$, donc de $L$, et que $L$ est un sous-groupe (ce qui entraîne que $a^{-1}\\in L$ et que le produit $a^{-1}ax$ est aussi dans $L$).",
+    "lang": "french"
+}

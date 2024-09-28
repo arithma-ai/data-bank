@@ -1,0 +1,6 @@
+{
+    "script": "Dire si les applications suivantes sont des applications linéaires :$f:\\mathbb R^2\\to\\mathbb R^3,\\ (x,y)\\mapsto (x+y,x-2y,0)$;$f:\\mathbb R^2\\to\\mathbb R^3,\\ (x,y)\\mapsto (x+y,x-2y,1)$;$f:\\mathbb R^2\\to\\mathbb R,\\ (x,y)\\mapsto x^2-y^2$.",
+    "hint": "Vérifiez si la définition d'une application linéaire est vérifiée, et si vous n'y parvenez pas, prouvez à l'aide d'un contre-exemple qu'il ne s'agit pas d'une application linéaire.",
+    "solution": "$f$ est une application linéaire. Prenons $u=(x,y)$ et $v=(x',y')$ dans $\\mathbb R^2$, et $\\lambda\\in\\mathbb R$. Alors :\r\n\\begin{eqnarray*}\r\nf(u+v)&=&\\big( (x+x')+(y+y'),(x+x')-2(y+y'),0)\\\\\r\n&=&\\big(x+y,x-2y,0)+(x'+y',x'-2y',0)\\\\\r\n&=&f(u)+f(v).\r\n\\end{eqnarray*}\r\nDe même, \r\n\\begin{eqnarray*}\r\nf(\\lambda u)&=&(\\lambda x+\\lambda y,\\lambda x-2\\lambda y,0)\\\\\r\n&=&\\lambda(x+y,x-2y,0)\\\\\r\n&=&\\lambda f(u).\r\n\\end{eqnarray*}$f$ n'est pas une application linéaire car $f\\big((0,0)\\big)\\neq (0,0,0)$.$f$ n'est pas une application linéaire. En effet,\r\n$$f\\big((1,0)\\big)=1,\\ f\\big((-1,0)\\big)=1\\textrm{ et }f\\big((0,0)\\big)=0\\neq f\\big((1,0)\\big)+f\\big((-1,0)\\big).$$",
+    "lang": "french"
+}

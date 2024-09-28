@@ -1,0 +1,6 @@
+{
+    "script": "Soit $z$ un nombre complexe, $z\\neq 1$. Démontrer que :\r\n$$|z|=1\\iff \\frac{1+z}{1-z}\\in i\\mathbb R.$$",
+    "hint": "Ecrire un nombre complexe de module 1 sous la forme $e^{i\\theta}$, puis factoriser par l'angle moitié.",
+    "solution": "Supposons d'abord que $|z|=1$. Alors $z$ s'écrit $z=e^{i\\theta}$, avec $\\theta\\in\\mathbb R\\backslash 2\\pi\\mathbb Z$.\r\nOn peut alors écrire :\r\n$$\\frac{1+z}{1-z}=\\frac{1+e^{i\\theta}}{1-e^{i\\theta}}=\\frac{e^{i\\theta/2}(e^{-i\\theta/2}+e^{i\\theta/2})}{e^{i\\theta/2}(e^{-i\\theta/2}-e^{i\\theta/2})}=\\frac{2\\cos(\\theta/2)}{-2i\\sin(\\theta/2)}=i\\frac{\\cos(\\theta/2)}{\\sin(\\theta/2)}$$\r\nqui est bien un élément de $i\\mathbb R$. Remarquons que l'on a le droit d'effectuer ce calcul car $\\sin(\\theta/2)$ ne s'annule pas.Réciproquement, supposons que $\\frac{1+z}{1-z}=ia$, avec $a$ un réel. On va exprimer $z$ en fonction de $a$, \r\npuis calculer son module. Il vient :\r\n$$\\frac{1+z}{1-z}=ia\\iff 1+z=ia(1-z)\\iff z(1+ia)=-1+ia\\iff z=\\frac{-1+ia}{1+ia}.$$\r\nOn en déduit que\r\n$$|z|=\\left|\\frac{-1+ia}{1+ia}\\right|=\\frac{\\sqrt{1+a^2}}{\\sqrt{1+a^2}}=1,$$\r\nce qui prouve la réciproque.",
+    "lang": "french"
+}

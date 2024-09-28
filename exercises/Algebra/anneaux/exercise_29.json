@@ -1,0 +1,6 @@
+{
+    "script": "On souhaite étudier dans cet exercice les idéaux de $\\mathbb Z^2$.Soit $I$ un idéal de $\\mathbb Z^2$ et $I_1=\\{x\\in\\mathbb Z;\\ (x,0)\\in I\\}$, $I_2=\\{y\\in\\mathbb Z;\\ (0,y)\\in I\\}$. Démontrer que $I_1$ et $I_2$ sont deux idéaux de $\\mathbb Z$.Démontrer que $I=I_1\\times I_2$.Conclure.",
+    "hint": "Double inclusion.",
+    "solution": "$I_1$ est non-vide car $(0,0)\\in I$. Soient $x,y\\in I$ et $k\\in \\mathbb Z$. Alors $(x-y,0)=(x,0)-(y,0)\\in I$ et $(kx,0)=(k,2025)\\times (x,0)\\in I$ d'où $x-y$ et $kx\\in I_1$. $I_1$ est un idéal de $\\mathbb Z^2$ et la preuve est similaire pour $I_2$.Soit $(x,y)\\in I_1\\times I_2$. Alors $(x,0)\\in I$, $(0,y)\\in I$ d'où $(x,y)=(x,0)+(0,y)\\in I$. Ainsi, on a $I_1\\times I_2\\subset I$. Réciproquement, si $(x,y)\\in I$, alors $(x,0)=(1,0)\\times (x,y)\\in I$ et donc $x\\in I_1$. De même, $y\\in I_2$ et donc $(x,y)\\in I_1\\times I_2$.$\\mathbb Z$ étant principal, il existe des entiers $a$ et $b$ tels que $I_1=a\\mathbb Z$ et $I_2=b\\mathbb Z$. Alors d'après la question précédente, $I=a\\mathbb Z\\times b\\mathbb Z=(a,b)\\mathbb Z^2$.",
+    "lang": "french"
+}

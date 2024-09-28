@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ la fonction définie sur $\\mathbb C^*$ par $f(z)=e^{1/z}$. Démontrer qu'il existeune direction suivant laquelle la limite de $f$ en $0$ est $0$.une direction suivant laquelle la limite de $f$ en $0$ est $+\\infty$.une direction suivant laquelle $f(z)$ oscille en restant bornée lorsque $z$ tend vers $0$.Quelle est la nature de $0$?",
+    "hint": "",
+    "solution": "Il suffit de prendre la direction $]-\\infty,0[$.Il suffit de prendre la direction $]0,+\\infty[$.Il suffit de prendre la direction $i\\mathbb R_+$.Le point $0$ est donc une singularité essentielle.",
+    "lang": "french"
+}

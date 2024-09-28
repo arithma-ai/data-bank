@@ -1,0 +1,6 @@
+{
+    "script": "Soit $B$ la boule unité, et $a>1$. Calculer :\r\n$$\\int\\int\\int_B\\frac{dxdydz}{\\sqrt{x^2+y^2+(z-a)^2}}.$$",
+    "hint": "Passer en coordonnées sphériques!",
+    "solution": "On passe en coordonnées sphériques, en posant \r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx&=&r\\cos\\theta\\sin\\phi\\\\\r\ny&=&r\\sin\\theta\\sin\\phi\\\\\r\nz&=&r\\cos\\phi.\r\n\\end{array}\\right.$$\r\nOn obtient :\r\n\\begin{eqnarray*}\r\n\\int\\int\\int_B\\frac{dxdydz}{\\sqrt{x^2+y^2+(z-a)^2}}&=&\\int_0^1\\int_{-\\pi}^\\pi\\int_0^\\pi \\frac{r^2\\sin\\phi}{\\sqrt{r^2+a^2-2ar\\cos\\phi}}d\\theta d\\phi dr\\\\\r\n&=&2\\pi\\int_0^1r^2\\int_0^\\pi \\frac{\\sin\\phi d\\phi}{\\sqrt{r^2+a^2-2ar\\cos\\phi}}dr.\r\n\\end{eqnarray*}\r\nOn calcule l'intégrale au centre en effectuant le changement de variables $t=r^2+a^2-2ar\\cos\\phi$, $dt=2ar\\sin \\phi d\\phi$. On trouve :\r\n\\begin{eqnarray*}\r\n\\int\\int\\int_B\\frac{dxdydz}{\\sqrt{x^2+y^2+(z-a)^2}}&=&2\\pi\\int_0^1r^2\\int_{(a-r)^2}^{(r+a)^2}\\frac{dt}{2ar\\sqrt{t}}dr\\\\\r\n&=&\\frac{4\\pi}{a}\\int_0^1r^2dr\\\\\r\n&=&\\frac{4\\pi}{3a}.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

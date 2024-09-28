@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que l'idéal $I$ engendré par $2$ et $X$ n'est pas un ideal principal de $\\mathbb Z[X]$.",
+    "hint": "",
+    "solution": "Supposons que cet idéal soit principal, et notons $P\\in\\mathbb Z[X]$ tel que $I=(P).$ Alors on sait que $P|2$ et donc $P=c$ est une constante. De plus, $P|X$, et donc $X=c Q$ avec $Q\\in\\mathbb Z[X]$. Ceci n'est possible que si $c=\\pm 1$ et $Q=\\pm X$. Finalement, $P$ est un élément inversible de $\\mathbb Z[X]$ et $I=\\mathbb Z[X]$. Reste à voir que ce n'est pas le cas. \r\nEn effet, \r\n$$I=\\left\\{\\lambda 2+\\mu X:\\ \\lambda,\\mu\\in \\mathbb Z[X]\\right\\}.$$\r\nEn particulier, $3\\notin I$ car le terme constant de $\\lambda 2+\\mu X$ est toujours divisible par $2$.",
+    "lang": "french"
+}

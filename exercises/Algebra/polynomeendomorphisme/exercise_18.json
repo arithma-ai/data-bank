@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in\\mathcal M_n(\\mathbb K)$ une matrice inversible. Démontrer que $A$ est triangulaire supérieure si et seulement si, pour tout $k\\geq 2$, $A^k$ est triangulaire supérieure. Le résultat subsiste-t-il si on ne suppose plus que $A$ est inversible?",
+    "hint": "Pour la réciproque, utiliser le théorème de Cayley-Hamilton. Comment la condition $A$ inversible se traduit-elle sur le polynôme caractéristique?",
+    "solution": "Le sens direct est clair (le produit de deux matrices triangulaires supérieures étant une matrice triangulaire supérieure). Réciproquement, soit $\\chi_A(X)$ le polynôme caractéristique de $A$.\r\n$$\\chi_A(X)=X^n+a_{n-1}X^{n-1}+\\dots+a_0$$\r\noù $a_0=(-1)^n \\det(A)$. En particulier, $a_0\\neq 0$. D'après le théorème de Cayley-Hamilton, on a \r\n$$\\chi_A(A)=A^n+a_{n-1}A^{n-1}+\\dots+a_0 I_n=0.$$\r\nOn multiplie la relation par $A$, puis on isole $A$. Il vient :\r\n$$A=\\frac{-1}{a_0}\\left(a_1A^2+\\dots+a_{n-1}A^n+A^{n+1}\\right).$$\r\nAinsi, comme $A^2,\\dots,A^{n+1}$ sont triangulaires supérieures, il en est de même de $A$.Le résultat ne subsiste pas si $A$ n'est pas inversible. En effet, prenons\r\n$$A=\\left(\r\n\\begin{array}{cc}\r\n0&0\\\\\r\n1&0\r\n\\end{array}\\right).$$\r\n$A$ n'est pas triangulaire supérieure, et pour tout $k\\geq 2$, $A^k=0$.",
+    "lang": "french"
+}

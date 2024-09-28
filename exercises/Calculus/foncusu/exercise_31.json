@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre l'équation $x^{\\sqrt x}={\\left(\\sqrt x\\right)}^x$.",
+    "hint": "Écrire sous forme exponentielle et utiliser l'injectivité de la fonction exponentielle.",
+    "solution": "Remarquons d'abord que cette équation n'a de sens que sur $]0,+\\infty[$. Sur cet intervalle, en passant par l'écriture exponentielle des puissances, on a\r\n\\begin{eqnarray*}\r\nx^{\\sqrt x}=\\left(\\sqrt x\\right)^x&\\iff&e^{\\sqrt x\\ln x}=e^{x\\ln \\sqrt x}\\\\\r\n&\\iff&\\sqrt x\\ln x=\\frac{x}2\\ln x\\textrm{ car la fonction $\\exp$ est injective}\\\\\r\n&\\iff&(\\ln x=0)\\textrm{ ou }(x=2\\sqrt x)\\\\\r\n&\\iff&x=1\\textrm{ ou }x=4.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

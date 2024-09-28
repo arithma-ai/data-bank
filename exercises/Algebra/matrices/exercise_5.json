@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A=\\left( \\begin{array}{cc} 1 & 1\\\\ \r\n 0 &1 \\end{array} \\right).$ Trouver toutes les matrices $B\\in\\mathcal M_2(\\mathbb R)$ qui commutent avec $A$,\r\nc'est-à-dire telles que $AB=BA$.",
+    "hint": "Prendre une matrice $B$ $2\\times2$ quelconque, et calculer les produits $AB$ et $BA$.",
+    "solution": "Soit $B=\\left( \\begin{array}{cc} c & d\\\\ \r\n e &f \\end{array} \\right)$ une telle matrice. On a :\r\n$$AB=\\left(\\begin{array}{cc}\r\nc+e&d+f\\\\\r\ne&f\\\\\\end{array}\\right),BA=\\left(\\begin{array}{cc}\r\nc&c+d\\\\\r\ne&e+f\\\\\\end{array}\\right).$$\r\nPuisque $AB=BA$, on obtient le système :\r\n$$\\left\\{\\begin{array}{rcl}\r\nc+e&=&c\\\\\r\nd+f&=&c+d\\\\\r\nf&=&e+f\\\\\\end{array}\\right.$$\r\nOn résout ce système pour trouver que $e=0$ et $c=f$. Toutes les matrices $B$ qui conviennent sont celles de la forme :\r\n$$\\left(\\begin{array}{cc}\r\nc&d\\\\\r\n0&c\\end{array}\\right).$$",
+    "lang": "french"
+}

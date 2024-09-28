@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R^n\\to\\mathbb R^n$ une application différentiable. Calculer la différentielle de \r\n$u:x\\mapsto \\langle f(x),f(x)\\rangle$.",
+    "hint": "",
+    "solution": "Notons $g(x)=\\langle x,x\\rangle$, de sorte que $u=g\\circ f$.\r\nPar composée,\r\n$du_x(h)=dg_{f(x)}\\circ df_x(h).$\r\nOr, $dg_y(h)=2\\langle y,h\\rangle$, ce qu'on peut retrouver en écrivant\r\n$$\\langle y+h,y+h\\rangle=\\langle y,y\\rangle+2\\langle y,h\\rangle+\\|h\\|^2.$$\r\nOn en déduit que $du_x(h)=2\\langle f(x),df_x(h)\\rangle.$",
+    "lang": "french"
+}

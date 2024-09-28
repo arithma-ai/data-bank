@@ -1,0 +1,6 @@
+{
+    "script": "Classer les suites suivantes par ordre de \"négligeabilité\" : \r\n$$\\begin{array}{llll}\r\na_n=\\frac 1n&b_n=\\frac1{n^2}&c_n=\\frac{\\ln n}n&d_n=\\frac{e^n}{n^3}\\\\\r\ne_n=n&f_n=1&g_n=\\sqrt{ne^n}.\r\n\\end{array}$$",
+    "hint": "Commencer par séparer les suites qui tendent vers 0, celles qui admettent une limite finie non nulle, et celles qui tendent vers $+\\infty$.",
+    "solution": "On remarque d'abord que, en utilisant la croissance comparée des fonctions, queles suites $(a_n)$, $(b_n)$, $(c_n)$ tendent vers $0$.la suite $(f_n)$ tend vers 1.les suites $(d_n)$, $(e_n)$ et $(g_n)$ tendent vers l'infini.Classons d'abord les trois suites qui tendent vers 0. Clairement, on a $b_n=o(a_n)$, puisque $b_n/a_n=1/n\\to 0$. De même, on a $a_n=o(c_n)$ puisque $a_n/c_n=1/\\ln n$ qui tend vers $0$ quand $n$ tend vers $+\\infty$.La suite $(f_n)$ s'intercale ensuite, et on a $c_n=o(f_n)$, tandis que la suite $(f_n)$ est négligeable devant les trois dernières suites.Ensuite, par croissance comparée des puissances et de l'exponentielle, \r\n$$\\frac{e_n}{g_n}=\\sqrt{\\frac{n}{e^n}}\\to 0$$\r\net donc $e_n=o(g_n)$. Enfin, on a \r\n$$\\frac{g_n}{d_n}=\\frac{n^{7/2}}{\\sqrt{e^n}}=\\sqrt{\\frac{n^7}{e^n}}\\to 0,$$\r\net donc $g_n=o(d_n)$.",
+    "lang": "french"
+}

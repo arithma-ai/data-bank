@@ -1,0 +1,6 @@
+{
+    "script": "Donner l'écriture exponentielle du nombre complexe suivant : \r\n\\begin{equation*}\r\n  \\frac{1-e^{i\\frac{\\pi}{3}}}{1+e^{i\\frac{\\pi}{3}}}.\r\n\\end{equation*}",
+    "hint": "Utiliser les formules d'Euler. On pourra écrire $1=e^{i\\times 0}$ et factoriser par l'angle moitié.",
+    "solution": "On va utiliser les formules d'Euler pour faire les calculs, en utilisant que $1=e^{i0}$, et en factorisant par l'angle moitié. On a donc\r\n\\begin{align*}\r\n \\frac{1-e^{i\\frac{\\pi}{3}}}{1+e^{i\\frac{\\pi}{3}}}&= \\frac{e^{i0}-e^{i\\frac{\\pi}{3}}}{e^{i0}+e^{i\\frac{\\pi}{3}}}\\\\\r\n&=\\frac{e^{i\\frac{\\pi}6}\\left(e^{-i\\frac\\pi6}-e^{i\\frac{\\pi}{6}}\\right)}\r\n{e^{i\\frac{\\pi}6}\\left(e^{-i\\frac\\pi6}+e^{i\\frac{\\pi}{6}}\\right)}\\\\\r\n&=\\frac{-2i\\sin(\\pi/6)}{2\\cos(\\pi/6)}\\\\\r\n&=\\frac{-\\sqrt 3}3i\\\\\r\n&=\\frac{\\sqrt 3}3e^{i\\frac{3\\pi}2}.\r\n\\end{align*}",
+    "lang": "french"
+}

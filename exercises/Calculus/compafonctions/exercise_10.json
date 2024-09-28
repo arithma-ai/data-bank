@@ -1,0 +1,6 @@
+{
+    "script": "Comparer les fonctions suivantes :$x\\ln x$ et $\\ln(1+2x)$ au voisinage de 0;$x\\ln x$ et $\\sqrt{x^2+3x}\\ln(x^2)\\sin x$ au voisinage de $+\\infty$;",
+    "hint": "Majorer $|\\sin x|$ par 1.",
+    "solution": "On a \r\n$$\\frac{\\ln(1+2x)}{x\\ln x}\\sim_0 \\frac{2}{\\ln x}\\to 0.$$\r\nOn en déduit que $\\ln(1+2x)=o(x\\ln x)$ en 0.On a, pour $x$ assez grand,\r\n$$\\sqrt{x^2+3x}\\leq 2x,\\ \\ln(x^2)=2\\ln x\\textrm{ et }|\\sin x|\\leq 1.$$\r\nOn en déduit que \r\n$$|\\sqrt{x^2+3x}\\ln(x^2)\\sin x|\\leq 4x\\ln x$$\r\net donc que $\\sqrt{x^2+3x}\\ln(x^2)\\sin x=O(x\\ln x)$ au voisinage de $+\\infty$. La relation contraire n'est pas vérifiée, car $\\sin(x)$ peut être nul\r\npour des $x$ très grands. De plus, on n'a pas $\\sqrt{x^2+3x}\\ln(x^2)\\sin x=o(x\\ln x)$ en $+\\infty$. En effet, posons $f(x)=\\sqrt{x^2+3x}\\ln(x^2)\\sin x$ et $g(x)=x\\ln x$. Alors \r\n$\\frac{f(2k\\pi+\\pi/2)}{g(2k\\pi+\\pi/2)}$ admet une limite finie non-nulle (ce que l'on peut vérifier avec des équivalents!).",
+    "lang": "french"
+}

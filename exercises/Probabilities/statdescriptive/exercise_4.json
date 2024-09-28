@@ -1,0 +1,6 @@
+{
+    "script": "Ecrire un algorithme qui calcule la moyenne d'une série statistique. Il demandera à l'utilisateur (par l'instruction LIRE) l'effectif de cette série et ensuite chacun des éléments de cette série.Modifier l'algorithme pour qu'il calcule de plus la variance.",
+    "hint": "Utiliser la bonne expression de la variance.",
+    "solution": "Variables :I,N : entierX,S : réelsDébutAfficher \"Nombre de valeurs ?\"Lire NS prend la valeur 0Pour I allant de 1 a N faireLire XS prend la valeur S+XFin pourAfficher (S/N)FinOn va utiliser que la variance est donnée par \r\n$$V(X)=\\frac 1n\\sum_{i=1}^n x_i^2-(\\bar x)^2.$$\r\nC'est plus aisé à calculer que par la formule\r\n$$V(X)=\\frac 1n\\sum_{i=1}^n (x_i-\\bar x)^2$$\r\ncar pour calculer la moyenne, il faut connaitre toutes les valeurs, et il faudrait encore avoir mémorisé toutes les valeurs pour retrouver la variance.Variables :I,N : entierX,S,C,M : réelsDébutAfficher \"Nombre de valeurs ?\"Lire NS prend la valeur 0C prend la valeur 0Pour I allant de 1 a N faireLire XS prend la valeur S+XC prend la valeur C+X*XFin pourM prend la valeur S/NAfficher MAfficher C/N -M*MFin",
+    "lang": "french"
+}

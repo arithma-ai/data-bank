@@ -1,0 +1,6 @@
+{
+    "script": "Soient $m,\\sigma$ deux réels. On dit que $X$ suit une loi log-normale de paramètres $(m,\\sigma^2)$ si $Y=\\ln X$ suit une loi normale\r\n$\\mathcal N(m,\\sigma^2)$. On supposera dans la suite $m=0$ et $\\sigma=1$.Exprimer la fonction de répartition de $X$ à l'aide de la fonction de répartition $\\phi$ de la loi normale centrée réduite.Calculer sa densité.Démontrer que $E(X)=\\sqrt e$.",
+    "hint": "Utiliser le théorème de transfert plutôt que la densité.",
+    "solution": "$X=e^Y$ ne prend ses valeurs que dans $[0,+\\infty[$. On en déduit que $F_X(x)=0$ si $x\\leq 0$. Pour $x>0$, on a\r\n$X\\leq x\\iff Y\\leq \\ln x$ et donc $F_X(x)=\\phi(\\ln x)$.Il suffit de dériver, et on trouve\r\n$$f_X(x)=\\frac{1}{x}\\phi'(\\ln x)\\mathbf 1_{[0,+\\infty[}(x)=\\frac{1}{x\\sqrt{2\\pi}}e^{-\\frac{\\ln^2 x}{2}}\\mathbf 1_{[0,+\\infty[}(x).$$Plutôt que d'utiliser la densité, on va utiliser le théorème de transfert et écrire\r\n$$E(X)=E(e^Y)=\\int_{\\mathbb R}e^y\\frac{e^{-y^2/2}}{\\sqrt{2\\pi}}dy=\\sqrt e\\int_{\\mathbb R}\\frac{e^{-(y-1)^2/2}}{\\sqrt{2\\pi}}dy.$$\r\nAprès changement de variables $u=y-1$, on reconnait $\\int_{\\mathbb R}e^{-u^2/2}$ qui vaut $\\sqrt{2\\pi}$. D'où le résultat.",
+    "lang": "french"
+}

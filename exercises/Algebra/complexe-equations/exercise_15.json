@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\alpha$ un nombre complexe non nul. On considère l'équation \r\n$$z^2-\\alpha(\\alpha+i)z+i\\alpha^3=0.$$Déterminer les solutions de cette équation.Si $\\alpha=\\rho e^{i\\theta}$, donner la forme exponentielle de ces solutions.",
+    "hint": "Procéder comme d'habitude... Le discriminant devrait apparaître immédiatement comme un carré parfait.",
+    "solution": "Calculons le discriminant de cette équation. On a \r\n\\begin{align*}\r\n\\Delta&=\\big(\\alpha(\\alpha+i)\\big)^2-4i\\alpha^3\\\\\r\n&=\\alpha^2 (\\alpha^2+2i\\alpha-1)-4i\\alpha^3\\\\\r\n&=\\alpha^2 (\\alpha^2-2i\\alpha-1)\\\\\r\n&=\\alpha^2 (\\alpha-i)^2\\\\\r\n&=\\big (\\alpha(\\alpha-i)\\big)^2.\r\n\\end{align*}\r\nLes deux solutions de cette équation sont donc \r\n$$z_1=\\frac{\\alpha(\\alpha+i)-\\alpha(\\alpha-i)}{2}=i\\alpha\\textrm{ et }\r\nz_2=\\frac{\\alpha(\\alpha+i)+\\alpha(\\alpha-i)}{2}=\\alpha^2.$$Très facilement, on a \r\n$$z_1=\\rho e^{i\\left(\\theta+\\frac\\pi 2\\right)}\\textrm{ et }z_2=\\rho^2 e^{2i\\theta}.$$",
+    "lang": "french"
+}

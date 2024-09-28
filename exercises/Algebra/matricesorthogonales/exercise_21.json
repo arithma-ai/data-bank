@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in O_n(\\mathbb R)$ dont $1$ n'est pas valeur propre.Étudier la convergence de la suite $\\frac 1{p+1}(I_n+A+\\dots+A^p)$.La suite $(A^p)$ est-elle convergente?",
+    "hint": "Multiplier par $I_n-A$.Utiliser le lemme de Césaro.",
+    "solution": "Posons $M_p=\\frac 1{p+1}(I_n+A+\\dots+A^p)$. Alors \r\n$$(I_n-A)M_p=\\frac1{p+1}(I_{n}-A^{p+1}).$$\r\nOr, $A$ est un élément de $O_n(\\mathbb R)$ donc c'est une isométrie. En prenant la norme subordonnée des applications linéaires, on a $\\|A^{p+1}\\|=1$ pour tout $p\\in\\mathbb N$. Ainsi, $(I_n-A)M_p$ tend vers 0. Mais comme $1$ n'est pas valeur propre de $A$, la matrice $I_n-A$ est inversible, et donc $(M_p)$ tend vers 0.Si la suite $(A_p)$ convergeait vers $B$, alors d'après le lemme de Césaro, $(M_p)$ convergerait également vers $B$. Or, $(M_p)$ converge vers 0, et donc $B=0$. Mais c'est impossible, car $\\|A^p\\|=1$ et donc on a également $\\|B\\|=1$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\varphi,\\theta\\in\\mathcal D(\\mathbb R)$ tel que $\\theta(0)=1$. Démontrer qu'il existe $\\psi\\in\\mathcal D(\\mathbb R)$ tel que, pour tout $x\\in\\mathbb R$, \r\n$$\\varphi(x)=\\varphi(0)\\theta(x)+x\\psi(x).$$",
+    "hint": "Appliquer la formule fondamentale du calcul intégral à $\\gamma(x)=\\varphi(x)-\\varphi(0)\\theta(x)$.",
+    "solution": "Posons $\\gamma(x)=\\varphi(x)-\\varphi(0)\\theta(x)$. Alors, $\\gamma\\in\\mathcal D(\\mathbb R)$ et $\\gamma(0)=0$. Appliquons la formule fondamentale du calcul intégral à $\\gamma$ entre $0$ et $x\\in\\mathbb R$. Alors on a\r\n$$\\gamma(x)=\\int_0^x\\gamma'(t)dt.$$\r\nFaisons le changement de variables $t=ux$ dans l'intégrale. Alors on a \r\n$$\\gamma(x)=x\\int_0^1 \\gamma'(ux)du.$$\r\nD'après le théorème de régularité des intégrales à paramètres, la fonction $x\\mapsto \\int_0^1 \\gamma'(ux)du$ est de classe $\\mathcal C^\\infty$. \r\nPosons alors $\\psi(x)=\\int_0^1 \\gamma'(ux)du$. Alors, pour tout $x\\in\\mathbb R$, on a \r\n$$\\gamma(x)=x\\psi(x).$$\r\nReste à démontrer que $\\psi$ est à support compact. Mais $\\gamma$ est à support compact, et donc il existe $A>0$ tel que $\\gamma(x)=0$ si $x\\notin [-A,A]$. Mais alors, puisque $x\\neq 0$, on a nécessairement $\\psi(x)=0$ si $x\\notin [-A,A]$ et donc la fonction $\\psi$ est à support compact.",
+    "lang": "french"
+}

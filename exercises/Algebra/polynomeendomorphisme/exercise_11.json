@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in\\mathcal M_n(\\mathbb R)$ et soit $\\phi_A$ l'endomorphisme de $\\mathcal M_n(\\mathbb R)$ défini par $\\phi_A(M)=AM$.Démontrer que $\\phi_A=0$ si et seulement si $A=0$.Soit $P\\in\\mathbb R[X]$. Exprimer $P(\\phi_A)$ en fonction de $P(A)$.En déduire que $\\phi_A$ est diagonalisable si et seulement si $A$ est diagonalisable.",
+    "hint": "Si $A\\neq 0$, trouver une matrice $M$ telle que $\\phi_A(M)\\neq 0$.Caractériser la diagonalisabilité en utilisant l'existence d'un polynôme annulateur scindé à racines simples.",
+    "solution": "Si $A=0$, il est clair que $\\phi_A=0$. Si $A\\neq 0$, il existe un vecteur $X\\in\\mathbb R^n$ tel que $AX\\neq 0$. Soit $M$ une matrice dont la première colonne est $X$. Alors on a $\\phi_A(M)(e_1)=AMe_1=AX\\neq 0$ et donc l'endomorphisme $\\phi_A$ est non nul.L'associativité du produit matriciel permet d'écrire que $\\phi_{A^n}=\\phi_A^n$. Par linéarité, on en déduit ensuite que $\\phi_{P(A)}=P(\\phi_A)$.Comme conséquence des deux questions précédentes, on sait que $P(\\phi_A)=0$ si et seulement si $P(A)=0$. Un endomorphisme étant diagonalisable si et seulement s'il admet un polynôme annulateur scindé à racines simples, on en déduit que $A$ est diagonalisable si et seulement si $\\phi_A$ est diagonalisable.",
+    "lang": "french"
+}

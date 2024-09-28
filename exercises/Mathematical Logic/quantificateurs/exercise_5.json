@@ -1,0 +1,6 @@
+{
+    "script": "Soit $P$ et $Q$ deux propositions. Montrer que les propositions $\\textrm{NON}(P\\implies Q)$ et $P\\textrm{ ET NON }Q$ sont équivalentes.",
+    "hint": "Établir leurs tables de vérité.",
+    "solution": "Il suffit d'établir les tables de vérité de ces deux propositions et de vérifier qu'elles sont identiques. On a d'une part \r\n$$\r\n\\begin{array}{c|c|c|c}\r\nP&Q&P\\implies Q&\\textrm{NON }P\\implies Q\\\\\r\n0&0&1&0\\\\\r\n0&1&1&0\\\\\r\n1&0&0&1\\\\\r\n1&1&1&0\\\\\r\n\\end{array}\r\n$$\r\net d'autre part\r\n$$\r\n\\begin{array}{c|c|c|c}\r\nP&Q&\\textrm{ NON Q}&P\\textrm{ ET NON } Q\\\\\r\n0&0&1&0\\\\\r\n0&1&0&0\\\\\r\n1&0&1&1\\\\\r\n1&1&0&0\\\\\r\n\\end{array}\r\n$$\r\nLes deux propositions sont bien équivalentes!",
+    "lang": "french"
+}

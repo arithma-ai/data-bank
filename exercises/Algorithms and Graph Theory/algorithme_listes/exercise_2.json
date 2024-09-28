@@ -1,0 +1,6 @@
+{
+    "script": "Écrire une fonction prenant en argument une liste Liste et une variable x, et qui retourne le plus petit indice k de la liste tel que Liste[k] soit égal à x. Si la liste ne contient pas x, alors la fonction doit retourner -1.",
+    "hint": "",
+    "solution": "def plus_petit(liste,x):n=len(liste)i=0while (i<n) and (liste[i]!=x):i+=1if i==n:return -1else:return i",
+    "lang": "french"
+}

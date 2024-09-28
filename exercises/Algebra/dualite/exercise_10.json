@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E=\\mathbb R_n[X]$ muni de la base $\\mathcal B=\\{1,X,\\dots,X^n\\}$. Pour tout $i$ de $\\{0,\\dots,n\\}$, \r\non définit une forme linéaire $f_i$ sur $E$ par \r\n$$\\forall j\\in\\{0,\\dots,n\\},\\ f_i(X^j)=\r\n\\begin{cases}\r\n1&\\textrm{ si }i=j\\\\\r\n0&\\textrm{ si }i\\neq j.\r\n\\end{cases}\r\n$$Démontrer que $(f_0,\\dots,f_n)$ est une base de $E^*$.On considère les deux éléments $\\phi$ et $\\psi$ de $E^*$ définis par, pour tout $P\\in E$, \r\n$\\phi(P)=P(1)$ et $\\psi(P)=P'(0)$. Déterminer les coordonnées de chacune des formes $\\phi$\r\net $\\psi$ dans la base $(f_0,\\dots,f_n)$.",
+    "hint": "Base duale!Calculer, en fonction des $a_i$, $\\phi(\\sum_j a_jX^k)$.",
+    "solution": "Il y a plusieurs façons de répondre. La plus simple est de remarquer que, par définition, \r\n$(f_0,\\dots,f_n)$ est la base duale de $\\mathcal B$.Les $f_i$ étant les formes linéaires coordonnées dans la base $\\mathcal B$, on va exprimer $\\phi$ et $\\psi$ en fonction\r\ndes coordonnées du polynôme dans la base $\\mathcal B$. Considérons donc $P=\\sum_{j=0}^n a_j X^j$. On a\r\n$$\\phi(P)=P(1)=\\sum_{j=0}^n a_j=\\sum_{j=0}^n f_j(P).$$\r\nDe même,\r\n$$\\psi(P)=P'(0)=a_1=f_1(P).$$\r\nAinsi, $\\phi=\\sum_{j=0}^n f_j$ et $\\psi=f_1$.",
+    "lang": "french"
+}

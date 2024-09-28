@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction définie et de classe $C^1$ sur $[0,1]$.\r\nOn suppose que $f(0)=0$ et que $f'(x)>0$ pour tout $x\\in[0,1]$.\r\nMontrer qu'il existe $m>0$ tel que $f(x)\\geq mx$ pour tout $x\\in [0,1]$.",
+    "hint": "Poser $m=\\inf_{x\\in[0,1]} f'(x)$ et justifier que $m>0$.",
+    "solution": "$f'$ est continue sur $[0,1]$. Elle est donc bornée et atteint ses bornes.\r\nSoit $m=\\inf_{x\\in[0,1]}f'(x)$. Il existe $x_0\\in[0,1]$ tel que $m=f'(x_0)$.\r\nEn particulier $m>0$ puisque $f'(x_0)>0$. Considérons ensuite $x\\in ]0,1]$. \r\nPar le théorème des accroissement finis appliqués entre $0$ et $x$, il existe $c\\in ]0,x[$ tel que\r\n$$f(x)-f(0)=f'(c) x.$$\r\nPuisque $f'(c)\\geq m$, ceci entraine bien que $f(x)\\geq mx.$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que l'on définit une distribution $T\\in\\mcd'(\\mtr)$ en posant \r\n$$\\forall \\phi\\in\\mcd(\\mtr),\\ \\langle T,\\phi\\rangle=\\lim_{\\veps\\to 0}\\int_{|x|\\geq \\veps}\\frac{\\phi(x)}{x}dx.$$\r\nCette distribution est notée $vp(1/x)$. Montrer que son ordre est inférieur ou égal à 1.",
+    "hint": "Utiliser l'identité \r\n$$\\int_{|x|\\geq \\veps}\\frac{\\phi(x)}{x}dx=\\int_{|x|\\geq\\veps}\\frac{\\phi(x)-\\phi(0)}{x}dx.$$",
+    "solution": "Soit $R>0$ tel que le support de $\\phi$ soit inclus dans $[-R,R]$. On a \r\n$$\\int_{|x|\\geq \\veps}\\frac{\\phi(x)}{x}dx=\\int_{R\\geq |x|\\geq \\veps}\\frac{\\phi(x)}{x}dx=\\int_{R\\geq |x|\\geq\\veps}\\frac{\\phi(x)-\\phi(0)}{x}dx.$$\r\nOr, on a \r\n$$\\frac{|\\phi(x)-\\phi(0)|}{x}\\leq \\|\\phi'\\|_\\infty.$$\r\nCeci montre d'une part que l'intégrale est convergente si $\\veps$ tend vers 0, et d'autre part que\r\n$$\\langle vp(1/x),\\phi\\rangle \\leq 2R \\|\\phi'\\|_\\infty.$$\r\nLa distribution est donc bien d'ordre inférieur ou égal à 1.",
+    "lang": "french"
+}

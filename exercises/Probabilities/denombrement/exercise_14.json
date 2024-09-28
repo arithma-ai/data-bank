@@ -1,0 +1,6 @@
+{
+    "script": "Dénombrer les anagrammes des mots suivants : MATHS, RIRE, ANANAS.",
+    "hint": "Un anagramme correspond à une permutation des lettres, mais certaines permutations donnent le même résultat.",
+    "solution": "Une anagramme correspond à une permutation des lettres d'un mot. Mais si on permute deux lettres\r\nidentiques, on trouve le même mot! On doit donc diviser le nombre total de permutations par le nombres de permutations entre lettres identiques.\r\nOn trouve donc :MATHS : 5!RIRE : 4!/2!ANANAS : 6!/(2!3!)Pour compter les anagrammes d'ANANAS, on peut aussi :choisir la position des 3 lettres $A$ : il y a $\\binom 63$ choix possibles;choisir la position des 2 lettres $N$ : il y a $\\binom 32$ choix possibles (il reste 3 places une fois qu'on a placé les $A$);le $S$ est alors placé.Le nombre d'anagrammes d'ANANAS est donc \r\n$$\\binom 63\\times \\binom 32=\\frac{6!}{2!\\cdot 3!}.$$",
+    "lang": "french"
+}

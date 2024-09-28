@@ -1,0 +1,6 @@
+{
+    "script": "On munit $\\mathbb R^n$ de sa structure euclidienne canonique.\r\nDémontrer l'équivalence de$A$ est antisymétrique;toutes les solutions de l'équation $X'=AX$ sont de norme constante.",
+    "hint": "Poser $Y=X^TX$ et dériver $Y$ ($Y$ est une fonction constante).",
+    "solution": "On va noter $M^T$ la transposée d'une matrice. La norme de $X$ (au carré)\r\nest donnée par $Y(t)=X(t)^T X(t)$. On cherche une condition sur $A$ pour que, pour toute solution $X$,\r\nla dérivée de $Y$ est constante. Or, \r\n$$Y'(t)=X'(t)^TX(t)+X(t)^TX'(t)=X(t)^T(A^T+A)X(t).$$\r\nAinsi, si $A$ est antisymétrique, on a bien $Y'(t)=0$ et les solutions\r\nsont de norme constante.Réciproquement, si les solutions sont toutes de norme constante, on sait que, quelque soit\r\nle choix de $X(0)\\in\\mathbb R^n$, on a \r\n$$X(0)^T(A^T+A)X(0)=0.$$\r\nPar suite, si $X(0)$ est un vecteur propre de l'endomorphisme symétrique $A^T+A$, associé\r\nà la valeur propre $\\lambda$, on a\r\n$$\\lambda\\|X(0)\\|^2=0,$$\r\net donc $\\lambda=0$. Donc la seule valeur propre de $A^T+A$ est $0.$\r\nCet endomorphisme étant symétrique, donc diagonalisable,\r\non en déduit qu'il est nul et que $A^T=-A$, c'est-à-dire que $A$\r\nest anti-symétrique.",
+    "lang": "french"
+}

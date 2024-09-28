@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(f_n)$ une suite d'applications de $\\mathbb N$ dans $\\mathbb N$. Soit $f:\\mathbb N\\to\\mathbb N$ définie par : par tout $n\\in\\mathbb N$, $f(n)=f_n(n)+1$. Démontrer que pour tout entier $p$, on a $f_p\\neq f$. En déduire que l'ensemble des applications de $\\mathbb N$ dans $\\mathbb N$ n'est pas dénombrable.",
+    "hint": "",
+    "solution": "Fixons $p\\in\\mathbb N$. Alors $f(p)=f_p(p)+1\\neq f_p(p)$ et donc $f\\neq f_p$. Si l'ensemble des applications de $\\mathbb N$ dans $\\mathbb N$ était dénombrable, alors on pourrait les énumérer sous la forme $\\mathcal F(\\mathbb N)=\\{f_n;\\ n\\in\\mathbb N\\}$. Mais on vient de voir que l'on peut construire une application $f$ de $\\mathbb N$ dans $\\mathbb N$ différent de tous les $f_n$. C'est une contradiction et $\\mathcal F(\\mathbb N)$ n'est pas dénombrable.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $F=\\{P\\in\\mathbb R_3[X]:\\ P(0)=P'(0)=0\\}$. Déterminer un supplémentaire de $F$ dans $\\mathbb R_3[X]$.",
+    "hint": "Commencer par chercher une base de $F$, puis compléter cette base en une base de $\\mathbb R_3[X]$.",
+    "solution": "On commence par chercher une base de $F$. Soit $P(X)=a+bX+cX^2+d X^3\\in \\mathbb R_3[X]$. Alors, puisque $P(0)=a$ et $P'(0)=b$, on a \r\n$$P\\in F\\iff a=0\\textrm{ et }b=0\\iff P(X)=cX^2+dX^3,\\ c,d\\in\\mathbb R.$$\r\nOn en déduit que $(X^2,X^3)$ est une base de $F$. Puisque $(1,X,X^2,X^3)$ est une base de $\\mathbb R_3[X]$, on obtient que $G=\\vect(1,X)$ est un supplémentaire de $F$ dans $\\mathbb R_3[X]$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "La chaînette est la courbe décrite par un fil pesant, homogène, tenu à ses deux extrémités.\r\nDans un repère approprié, elle admet pour équation $y=\\cosh(x)$.\r\nDéterminer la longueur d'un arc de chaînette. Préciser le repère de Frénet et la courbure en un point.",
+    "hint": "Utiliser des formules de trigonométrie hyperbolique.",
+    "solution": "Il suffit de se laisser guider par les formules du cours, la seule difficulté supplémentaire venant de l'utilisation \r\nde formules de trigonométrie hyperbolique. Posons $f(t)=(t,\\cosh t)$ un paramétrage de la courbe. On a \r\n$f'(t)=(1,\\sinh t)$, $f''(t)=(0,\\cosh t)$, de sorte que \r\n$$\\|f'(t)\\|=\\sqrt{1+\\sinh^2 t}=\\cosh t.$$\r\nAinsi, la longueur de l'arc de chaînette comprise entre les points d'abscisse $x_1$ et $x_2$, avec $x_1<x_2$ est \r\n$$\\int_{x_1}^{x_2}\\cosh tdt=\\sinh(x_2)-\\sinh(x_1).$$\r\nLe repère de Frénet en $M(t)$ est donné par \r\n$$\\vec T(t)=\\left(\\frac 1{\\cosh t},\\tanh(t)\\right)\\textrm{ et }\\vec N(t)=\\left(-\\tanh t,\\frac 1{\\cosh t}\\right).$$\r\nLa courbure vaut :\r\n$$\\gamma(t)=\\frac{\\cosh t}{\\cosh^{3} t}=\\frac 1{\\cosh^2t}.$$",
+    "lang": "french"
+}

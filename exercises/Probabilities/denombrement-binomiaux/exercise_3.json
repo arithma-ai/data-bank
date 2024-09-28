@@ -1,0 +1,6 @@
+{
+    "script": "Soit $1\\leq p\\leq n$. On considère $n$ boules et deux boîtes $A$ et $B$. Un échantillon est constitué d'une boule dans la boîte $A$ et de $p-1$ boules dans la boîte $B$. En dénombrant de deux façons différentes ces échantillons, établir la formule $$n\\binom{n-1}{p-1}=p\\binom np.$$\r\nRetrouver cette formule par le calcul.",
+    "hint": "",
+    "solution": "Voici deux façons de compter le nombre d'échantillons.On choisit d'abord une boule à mettre dans la boîte $A$ : il y a $n$ choix possibles. Puis on choisit $p-1$ boules parmi les $n-1$ boules restantes pour mettre dans la boîte $B$. Il y a donc $n\\times\\binom{n-1}{p-1}$ échantillons.On choisit d'abord les $p$ boules parmi $n$ qui seront dans les deux boîtes : il y a $\\binom np$ choix possibles. Puis on choisit parmi ces $p$ boules celle à mettre dans la boîte $A$ : il y a $p$ choix possibles, et donc le nombre d'échantillons recherché est $p\\times \\binom np$.Puisqu'on compte de deux façons différentes le même nombre d'échantillons, on obtient bien le résultat escompté. Par le calcul, on a \r\n$$n\\binom {n-1}{p-1}=n\\times\\frac{(n-1)!}{(p-1)!\\big((n-1)-(p-1)\\big)!}=p\\times\\frac{n!}{p!(n-p)!}=p\\binom np.$$",
+    "lang": "french"
+}

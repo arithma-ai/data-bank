@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout $n\\geq 0$, pour tout $P\\in\\mathbb R_n[X]$, il existe un unique $Q\\in\\mathbb R_n[X]$ tel que $P=\\sum_{k=0}^n Q^{(k)}$.",
+    "hint": "Traduire cet exercice par le fait qu'une application linéaire doit être un isomorphisme. Utiliser les outils d'algèbre linéaire pour prouver que c'est un isomorphisme.",
+    "solution": "Considérons $E=\\mathbb R_n[X]$ et $\\phi\\in\\mathcal L(E)$ définie par $\\phi(Q)=\\sum_{k=0}^n Q^{(k)}$ (il est facile de vérifier que $\\phi$ est linéaire). Le but de l'exercice est de démontrer que $\\phi$ est bjective. Etant une application linéaire entre deux espaces de même dimension finie, il suffit de prouver que $\\phi$ est injective, ou encore que son noyau est réduit au polynôme nul. Mais si $Q$ n'est pas le polynôme nul, il est clair que $\\phi(Q)$ a même degré que $Q$, et le même coefficient dominant. On en déduit que $\\phi(Q)=0\\implies Q=0$. $\\phi$ est bijective.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ un groupe cyclique et soit $H$ un sous-groupe de $G$. Démontrer que $H$ est cyclique.",
+    "hint": "Soit $a$ un générateur de $G$ et $n$ le plus petit entier supérieur ou égal à $1$ tel que $a^n\\in H$. Démontrer que $H$ est engendré par $a^n$. On pourra utiliser la division euclidienne.",
+    "solution": "Soit $a$ un générateur de $G$. L'ensemble des entiers $p\\geq 1$ tels que $a^p\\in H$ est non-vide (puisque $a^{\\textrm{card}(G)}=e\\in H$). Il contient un plus petit élément que nous noterons $n$. On va alors prouver que $H$ est le groupe engendré par $a^n$. Il est d'abord évident que le sous-groupe engendré par $a^n$ est contenu dans $H$.Réciproquement, soit $x\\in H$. $x$ s'écrit $x=a^p$, et il suffit de prouver que $p=kn$. Effectuons la division euclidienne de $p$ par $n$ : $p=qn+r$ avec $0\\leq r<n$. Mais alors :\r\n$$a^p=(a^n)^qa^r\\implies a^r=a^p (a^n)^{-q}\\in H.$$\r\nPar minimalité de $n$, ceci n'est possible que si $r=0$, donc que si $p$ est un multiple de $n$.Remarquons la proximité entre cette démonstration et celle des sous-groupes de $\\mathbb Z$.",
+    "lang": "french"
+}

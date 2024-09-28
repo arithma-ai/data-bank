@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que l'ensemble \r\n$$S=\\left\\{(x,y,z)\\in\\mathbb R^3;\\ xy+xz+2x+2y-z=0\\right\\}$$\r\ndéfinit une sous-variété de $\\mathbb R^3$ de dimension 2. Déterminer le plan tangent à cette sous-variété en l'origine.",
+    "hint": "Vérifier que l'on a une submersion en tout point de $S$.",
+    "solution": "On définit $f(x,y,z)=xy+xz+2x+2y-z$ de sorte que $S=f^{-1}(0)$. Pour vérifier que $S$ est une sous-variété de dimension 2, il suffit de vérifier que $f$ est une submersion en chaque point de $S$. Mais, en tout $(x_0,y_0,z_0)$ de $\\mathbb R^3$, $df_{(x_0,y_0,z_0)}$ est donné par la matrice ligne\r\n$$(y_0+z_0+2\\quad\\quad x_0+2\\quad\\quad x_0-1).$$\r\nPour que $df_{(x_0,y_0,z_0)}$ soit surjective, il suffit qu'elle soit de rang 1 (l'espace d'arrivée est $\\mathbb R$). Il est impossible que les deuxièmes et troisièmes colonnes soient simultanément nulles. Donc $f$ est une submersion en tout point $(x_0,y_0,z_0)$ de $\\mathbb R^3$, en particulier en tout point de $S$.Le plan tangent en l'origine est alors donné par \r\n$$T_0S=\\{(x,y,z)\\in\\mathbb R^3;\\ df_0(x,y,z)=0\\}=\\{(x,y,z)\\in\\mathbb R^3;\\ 2x+2y-z=0\\}.$$",
+    "lang": "french"
+}

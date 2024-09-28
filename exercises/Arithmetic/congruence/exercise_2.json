@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tous $x,y\\in \\mathbb R$ et tout $n\\in\\mathbb N\\backslash\\{0\\}$, on a \r\n$$x^n-y^n=(x-y)\\sum_{k=0}^{n-1}x^k y^{n-1-k}.$$\r\nEn déduire que $609|5^{4n}-2^{4n}.$",
+    "hint": "Développer le membre de droite.",
+    "solution": "Développons le membre de droite de l'identité que l'on nous demande de démontrer.\r\n\\begin{eqnarray*}\r\n(x-y)\\sum_{k=0}^{n-1}x^k y^{n-1-k}&=&\\sum_{k=0}^{n-1}x^{k+1}y^{n-1-k}-\\sum_{k=0}^{n-1}x^k y^{n-k}\\\\\r\n&=&\\sum_{k=1}^n x^ky^{n-k}-\\sum_{k=0}^{n-1}x^k y^{n-k}\r\n\\end{eqnarray*}\r\nen effectuant un changement d'indice dans la première somme. Mais les deux sommes sont identiques, à deux termes près, et on a donc\r\n$$(x-y)\\sum_{k=0}^{n-1}x^k y^{n-1-k}=x^ny^{n-n}-x^0y^{n-0}=x^n-y^n.$$\r\nLe fait que $609|5^{4n}-2^{4n}$ est alors une application immédiate de cette identité à $x=5^4$ et $y=2^4$, puisque dans ce cas $x-y=609$.",
+    "lang": "french"
+}

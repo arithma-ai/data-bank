@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que $]0,1[$ et $]0,1]$ sont équipotents (on pourra utiliser une bijection de $]0,1]$ dans $]0,1[$ qui à $1/n$ associe $1/(n+1)$.)Démontrer que $]0,1[$ et $[0,1]$ sont équipotents.",
+    "hint": "$x\\mapsto x$ pour les autres réels.Démontrer que $]0,1]$ est équipotent à $[0,1]$.",
+    "solution": "Définissons $f$ sur $]0,1]$ par $f(1/n)=1/(n+1)$ pour tout $n\\geq 1$, et $f(x)=x$ sinon. Alors $f$ est une bijection de $]0,1]$ sur $]0,1[$ et donc ces deux ensembles sont équipotents.Remarquons d'abord que $[0,1]$ est équipotent à $[0,1[$ (la même application que précédemment fonctionne). On a alors$]0,1[$ est équipotent à $]0,1]$;$]0,1]$ est équipotent à $[0,1[$ (considérer $f(x)=1-x$);$[0,1[$ est équipotent à $[0,1]$.La relation d'équipotence étant une relation d'équivalence, on en déduit le résultat annoncé.",
+    "lang": "french"
+}

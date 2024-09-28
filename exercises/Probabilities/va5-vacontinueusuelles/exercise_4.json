@@ -1,0 +1,6 @@
+{
+    "script": "A partir de 7heures du matin, les bus passent toutes les quinze minutes à un arrêt précis. Un usager se présente à cet arrêt entre 7h et 7h30. On fait l'hypothèse que l'heure exacte de son arrivée, représentée par le nombre de minutes après 7h, est une variable aléatoire uniformément répartie sur l'intervalle [0,30]. Quelle est la probabilité que l'usager attende moins de cinq minutes le prochain bus? Qu'il l'attende plus de dix minutes?",
+    "hint": "Trouver les heures possibles d'arrivée pour que l'usager attende moins de cinq minutes.",
+    "solution": "L'usager attendra moins de cinq minutes si son heure d'arrivée est comprise entre 7h10 et 7h15, ou entre 7h25 et 7h30. Si on note $X$ la variable aléatoire définie par l'énoncé, ceci revient à $X$ appartient à $[10,15]$ ou $X$ appartient à $[25,30]$. La probabilité recherchée est donc \r\n$\\frac{5+5}{30}=\\frac 13$.Le raisonnement est identique pour déterminer la probabilité qu'il attende plus de dix minutes. Dans ce cas, l'heure d'arrivée doit être comprise entre 7h et 7h05 ou entre 7h15 et 7h20. On trouve à nouveau une probabilité de 1/3.",
+    "lang": "french"
+}

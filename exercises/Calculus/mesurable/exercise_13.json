@@ -1,0 +1,6 @@
+{
+    "script": "Donner un exemple d'espace mesurable $(E,\\mathcal T)$ et d'application \r\n$f:E\\to \\mathbb R$ qui n'est pas mesurable, mais telle que $|f|$ est mesurable.",
+    "hint": "Prendre un espace mesurable $(E,\\mathcal T)$ tel qu'il existe une partie $A$ de $E$ qui n'est pas\r\nmesurable. Définir une fonction f de module constant et telle que $f^{-1}(\\{1\\})=A$.",
+    "solution": "L'idée est la suivante. On va considérer un espace mesurable $(E,\\mathcal T)$ tel qu'il existe une partie $A$ de $E$ qui n'est pas\r\nmesurable. On définit ensuite une fonction $f$ de module constant et telle que $f^{-1}(\\{1\\})=A$. Ainsi, $|f|$ est mesurable\r\npuisque constante, tandis que $f$ n'est pas mesurable, car l'image réciproque du borélien $\\{1\\}$ n'est pas mesurable.Pour le choix de $(E,\\mathcal T)$ et $A$, il suffit de savoir qu'un tel exemple existe. Si on veut expliciter un exemple,\r\non peut prendre $E=\\{0,1\\}$ et $\\mathcal T=\\{\\varnothing,E\\}$ qui est une tribu (la plus petite tribu sur $E$).\r\nOn pose ensuite $A=\\{0\\}$.Il est ensuite facile de définir $f$. On peut poser $f(x)=1$ si $x\\in A$ et $f(x)=-1$ si $x\\notin A$.\r\nElle vérifie les conditions voulues.",
+    "lang": "french"
+}

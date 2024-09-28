@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que la formule suivant définit une fonction holomorphe dans un\r\ndomaine à préciser :\r\n$$\\zeta(s)=\\sum_{n=1}^{+\\infty}\\frac{1}{n^s}.$$",
+    "hint": "S'intéresser à la convergence normale.",
+    "solution": "Puisque la limite uniforme sur tout compact d'une suite (d'une série ici) de fonctions holomorphes est \r\nholomorphe, il suffit de trouver un domaine $U$ pour lequel la série définissant $\\zeta$\r\nconverge uniformément sur les compacts. Soit $U=\\{s;\\ \\Re e(s)>1\\}$. \r\nAlors, si $K$ est un compact de $U$, il existe $b>1$ tel que $\\Re e(s)\\geq b$\r\npour tout $s$ dans $K$. On en déduit\r\n$$|n^{-s}|=|\\exp(-s\\ln n)|=\\exp(-\\Re e(s)\\ln n)\\leq n^{-b}.$$\r\nPuisque $\\sum_{n\\geq 1} n^{-b}$ converge, la série $\\sum_{n\\geq 1}n^{-s}$ converge normalement,\r\ndonc uniformément, dans $K$. La formule donnant $\\zeta$ définit une fonction holomorphe dans $U$.On peut aussi remarquer que si $\\Re e(s)\\leq 0$, la série diverge grossièrement. L'étude de la bande du milieu est plus délicate, mais on peut démontrer que la série ne converge que si $\\Re e(s)>1$ (ce n'est pas demandé dans cet exercice!).",
+    "lang": "french"
+}

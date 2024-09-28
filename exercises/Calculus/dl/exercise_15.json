@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer $a\\in\\mathbb R$ tel que la fonction $x\\mapsto \\frac{e^x+e^{ax}-2}{x^2}$ admette une limite finie en $0$. Déterminer alors la limite.",
+    "hint": "Faire un développement limité à l'ordre deux du numérateur.",
+    "solution": "On effectue un développement limité à l'ordre 2 du numérateur. On trouve\r\n\\begin{eqnarray*}\r\ne^x+e^{ax}-2&=&\\left(1+x+\\frac{x^2}2+o(x^2)\\right)+\\left(1+ax+\\frac{a^2x^2}{2}+o(x^2)\\right)-2\\\\\r\n&=&(1+a)x+\\frac{1+a^2}2x^2+o(x^2).\r\n\\end{eqnarray*}\r\nSi $a\\neq -1$, alors la fonction est équivalente, au voisinage de $0$, à $\\frac{(1+a)x}{x^2}=\\frac{1+a}x$. Elle n'admet donc pas de limite finie en $0$. Si $a=-1$, alors elle est équivalente à $\\frac{x^2}{x^2}=1$. Elle admet donc $1$ comme limite en $0$.",
+    "lang": "french"
+}

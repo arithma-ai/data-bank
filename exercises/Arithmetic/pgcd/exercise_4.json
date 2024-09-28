@@ -1,0 +1,6 @@
+{
+    "script": "Soient $a$ et $b$ deux rationnels tels que $a+b$ et $a\\times b$ sont des entiers. Prouver que $a$ et $b$ sont des entiers.",
+    "hint": "Écrire $a$ et $b$ sous forme de fraction irréductible et commencer, en utilisant $a+b$, par démontrer que les dénominateurs sont égaux.",
+    "solution": "Remarquons d'abord que si $a$ ou $b$ est nul, c'est trivial. On suppose donc que $a\\neq 0$ et $b\\neq 0$, et on écrit ces réels sous forme de fraction\r\nirréductible, $a=\\frac{p_1}{q_1}$ et $b=\\frac{p_2}{q_2}$, avec $q_1,q_2>0$ et $p_1\\wedge q_1=1$, $p_2\\wedge q_2=1$. On a alors \r\n$$a+b=\\frac{p_1q_2+p_2q_1}{q_1q_2}\\in\\mathbb Z.$$\r\nOn en déduit que $q_1|(p_1q_2+p_2q_1)$. Or, on sait déjà que $q_1|p_2q_1$. On a donc $q_1|p_1q_2$. De plus, puisque $q_1\\wedge p_1=1$, le théorème de Gauss\r\nnous dit que $q_1|q_2$. Par symétrie, on a aussi $q_2|q_1$, et donc $q_1=q_2=q$. Le produit $ab$ vaut alors\r\n$$ab=\\frac{p_1p_2}{q^2},$$\r\net donc $q|p_1p_2$. Ceci implique (toujours par le lemme de Gauss) que $q|p_1$ et comme $q\\wedge p_1=1$, on a $q\\wedge p_1=q=1$.\r\nAinsi, $a$ et $b$ sont des entiers.",
+    "lang": "french"
+}

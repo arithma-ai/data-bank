@@ -1,0 +1,6 @@
+{
+    "script": "Trouver des conditions suffisantes (pas forcément nécessaires) à chacune des propositions suivantes :Avoir son bac.Le point $A$ appartient au segment $[BC]$.Le quadrilatère $ABCD$ est un rectangle.",
+    "hint": "",
+    "solution": "Avoir plus que $12$ en moyenne.$A$ est le milieu de $[BC]$.Les diagonales de $ABCD$ ont même longueur et se coupent en leur milieu.Les deux premières conditions sont des conditions suffisantes, mais non nécessaires (pourquoi?). En revanche, la troisième condition est une condition nécessaire et suffisante.",
+    "lang": "french"
+}

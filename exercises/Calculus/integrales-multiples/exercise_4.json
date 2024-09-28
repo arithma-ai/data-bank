@@ -1,0 +1,6 @@
+{
+    "script": "On pose :\r\n$$D=\\left\\{(x,y)\\in\\mtr^2;\\ 0\\leq x\\leq 1,\\ 0\\leq y\\leq 1,\\ x^2+y^2\\geq 1\\right\\}.$$\r\nCalculer $\\dis \\int\\!\\int_D\\frac{xy}{1+x^2+y^2}dxdy.$",
+    "hint": "La difficulté est dans le calcul des primitives. On pourra utiliser que, si u est une fonction positive, une primitive de $u'\\ln u$ est $u\\ln u-u$.",
+    "solution": "On a :\r\n\\begin{eqnarray*}\r\nI&=&\\int_0^1\\int_{\\sqrt{1-x^2}}^1\\frac{xy}{(1+x^2)+y^2}dydx\\\\\r\n&=&\\int_0^1\\left[\\frac{x}{2}\\ln\\left(1+x^2+y^2\\right)\\right]_{\\sqrt{1-x^2}}^1dx\\\\\r\n&=&\\int_0^1\\frac{x}{2}\\ln(2+x^2)dx-\\int_0^1\\frac{x}{2}\\ln(2)dx\\\\\r\n&=&\\frac{1}{4}\\left[(2+x^2)\\ln(2+x^2)-(2+x^2)\\right]_0^1-\\frac{1}{4}\\ln 2\\\\\r\n&=&\\frac{3}{4}\\ln\\left(\\frac{3}{2}\\right)-\\frac{1}{4}.\r\n\\end{eqnarray*}\r\nOn a notamment utilisé que, si u est une fonction positive, une primitive de $u'\\ln u$ est $u\\ln u-u$.",
+    "lang": "french"
+}

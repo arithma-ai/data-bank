@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,+\\infty[\\to\\mathbb R$ une fonction uniformément continue.\r\nMontrer qu'il existe deux réels $a$ et $b$ tels que\r\n$|f(x)|\\leq ax+b$ pour tout $x\\geq 0$.",
+    "hint": "Appliquer la définition de l'uniforme continuité pour $\\veps=1$.\r\nOn obtient un $\\alpha$. Majorer $f$ sur $[0,\\alpha]$, puis sur $[alpha,2\\alpha]$,\r\netc....",
+    "solution": "Écrivons la définition de l'uniforme continuité pour $\\veps=1$.\r\nIl existe $\\alpha>0$ tel que, pour tous $x,y\\in[0,\\infty[$ avec $|x-y|\\leq \\alpha$,\r\nalors $|f(x)-f(y)|<1$. On va majorer la fonction $f$ sur $[0,\\alpha]$,\r\npuis sur $[\\alpha,2\\alpha]$, etc...\r\nOn a d'abord, pour $x\\in[0,\\alpha]$,\r\n$$|f(x)-f(0)|\\leq 1\\implies f(x)\\leq f(0)+1.$$\r\nPuis, pour $x\\in[\\alpha,2\\alpha]$,\r\n$$|f(x)-f(\\alpha)|\\leq 1\\implies f(x)\\leq f(\\alpha)+1\\leq f(0)+2.$$\r\nPar récurrence facile, on prouve que, pour $x\\in [n\\alpha,(n+1)\\alpha]$, on a\r\n$$f(x)\\leq f(0)+(n+1).$$\r\nIl suffit maintenant de trouver $a$ et $b$ tels que, pour tout $x\\in[n\\alpha,(n+1)\\alpha]$,\r\non a $ax+b\\geq f(0)+(n+1)$.\r\nPuisque $ax\\geq an\\alpha$, il suffit de choisir $a=1/\\alpha$ et $b=f(0)+1$.",
+    "lang": "french"
+}

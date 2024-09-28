@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ la fonction définie sur $\\mathbb R\\backslash\\{-1\\}$ par \r\n$$f(x)=\\frac{1+x}{x^3+1}.$$\r\nDémontrer qu'on peut prolonger $f$ par continuité en $-1$. Préciser la valeur prise en $-1$ par ce prolongement.",
+    "hint": "Factoriser $x^3+1$.",
+    "solution": "Le numérateur et le dénominateur s'annule tous les deux en $-1$, et donc on a une forme indéterminée lorsqu'on calcule la limite de $f$ en $-1$. Pour lever cette indétermination, on factorise le dénominateur en \r\n$$x^3+1=(x+1)(x^2-x+1)$$\r\n(pour trouver cette forme, on peut procéder par identification en écrivant $x^3+1=(x+1)(x^2+ax+b)$). On en déduit alors que, pour tout $x\\neq -1$, on a \r\n$$f(x)=\\frac{1}{x^2-x+1}.$$\r\nAinsi, $\\lim_{x\\to -1} f(x)=1/3$ et on en déduit que l'on peut prolonger $f$ par continuité en $-1$ en posant $f(-1)=1/3$.",
+    "lang": "french"
+}

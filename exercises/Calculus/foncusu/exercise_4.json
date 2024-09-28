@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que pour tout réel $x$, on a \r\n$$\\frac{e^x+e^{-x}}{2}\\leq e^{|x|}.$$",
+    "hint": "Procéder par disjonction de cas, ou utiliser la croissance de la fonction exponentielle et le fait que $x\\leq\\dots$.",
+    "solution": "Donnons deux preuves de cette inégalité. La première utilise que pour tout $x\\in \\mathbb R$, on a à la fois $x\\leq |x|$ et $-x\\leq |x|$. Par croissance de la fonction exponentielle, on en déduit que $e^x\\leq e^{|x|}$ et que $e^{-x}\\leq e^{|x|}$. Faisant la somme de ces deux inégalités, on trouve\r\n$$e^x+e^{-x}\\leq 2e^{|x|}\\iff \\frac{e^x+e^{-x}}2\\leq e^{|x|}.$$\r\nPour la deuxième preuve, on peut procéder par disjonction de cas. Si $x\\geq 0$, on a $e^{|x|}=e^x$. De plus, on a $-x\\leq x$ et puisque la fonction exponentielle est croissante, on a $e^{-x}\\leq e^x$. Ainsi, on a \r\n$$e^{-x}+e^{x}\\leq e^x+e^x=2e^x=2e^{|x|}.$$\r\nSi $x<0$, alors $|x|=-x$ et $x<-x$. Par croissance de la fonction exponentielle, on a $e^{x}\\leq e^{-x}$ et donc \r\n$$e^{-x}+e^x\\leq e^{-x}+e^{-x}=2e^{-x}=2e^{|x|}.$$",
+    "lang": "french"
+}

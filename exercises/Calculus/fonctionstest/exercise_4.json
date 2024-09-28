@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\psi\\in\\mathcal D(\\mathbb R)$. Déterminer une condition nécessaire et suffisante sur $\\psi$ pour qu'il existe $\\phi\\in\\mathcal D(\\mathbb R)$ avec $\\phi'=\\psi$.",
+    "hint": "Écrire une primitive sous forme intégrale.",
+    "solution": "Soit $a$ tel que $\\psi$ est à support dans $[-a,a]$. Toute primitive $\\phi$ de $\\psi$ s'écrit \r\n$$\\phi(x)=C+\\int_{-a}^x \\psi(t)dt.$$\r\nSupposons qu'il existe une telle primitive à support compact, disons dans $[-b,b]$. Alors, pour $x\\leq\\min(-a,-b)$, on a $\\phi(x)=0$ et $\\int_{-a}^x\\psi(t)dt=0$. On en déduit que $C=0$. De plus, pour $x=\\max(a,b)$, on a $\\phi(x)=0$ et $\\int_{-a}^x \\psi(t)dt=\\int_{-a}^a \\psi(t)dt$. Il est donc nécessaire que $\\int_{-a}^a \\psi(t)dt=0$.Réciproquement, si $\\int_{-a}^a \\psi(t)dt=0$, alors la fonction $\\phi(x)=\\int_a^x \\psi(t)dt$ définit bien une primitive de $\\psi$ à support dans $[-a,a]$.",
+    "lang": "french"
+}

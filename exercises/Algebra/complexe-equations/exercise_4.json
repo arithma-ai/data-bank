@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre dans $\\mathbb C$ les équations suivantes :\r\n$$\\begin{array}{lll}\r\n\\mathbf{1.}\\ 2z^2+6z+5=0&\\quad&\\mathbf{2.}\\ z^2-6z+13=0\\\\\r\n\\mathbf{3.}\\ z^2+z+1=0&\\quad&\\mathbf{4.}\\ \\frac{3z+2}{z+1}=z+3\r\n\\end{array}$$",
+    "hint": "Pour le 4. se ramener à une équation du second degré en multipliant par $z+1$.",
+    "solution": "On calcule le discriminant : $\\Delta=36-4\\times 5\\times 2=-4=(2i)^2$. L'équation admet donc deux solutions qui sont \r\n$$z_1=\\frac{-6-2i}{4}=\\frac{-3-i}2\\textrm{ et }z_2=\\frac{-6+2i}{4}=\\frac{-3+i}2.$$On a cette fois $\\Delta=36-4\\times 13=-16=(4i)^2$. L'équation admet donc deux solutions qui sont \r\n$$z_1=\\frac{6+4i}{2}=3+2i\\textrm{ et }z_2=3-2i.$$On a $\\Delta=1-4=-3=(i\\sqrt 3)^2$. L'équation admet donc deux solutions qui sont \r\n$$z_1=\\frac{-1-i\\sqrt 3}2\\textrm{ et }z_2=\\frac{-1+i\\sqrt 3}2.$$On doit avoir $z\\neq -1$. Pour $z\\neq -1$, l'équation est équivalente à \r\n$$3z+2=(z+3)(z+1)\\iff z^2+z+1=0.$$\r\nLes solutions sont donc les mêmes qu'à la question précédente (on vérifie bien que $-1$ n'est pas solution).",
+    "lang": "french"
+}

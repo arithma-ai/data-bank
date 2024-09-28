@@ -1,0 +1,6 @@
+{
+    "script": "Dans une entreprise deux ateliers fabriquent les mêmes pièces. L'atelier 1 fabrique en une journée deux fois plus de pièces que l'atelier 2.\r\nLe pourcentage de pièces défectueuses est $3\\%$ pour l'atelier 1 et $4\\%$ pour l'atelier 2. On prélève une pièce au hasard dans l'ensemble de la production d'une journée.\r\nDéterminerla probabilité que cette pièce provienne de l'atelier 1;la probabilité que cette pièce provienne de l'atelier 1 et est défectueuse;la probabilité que cette pièce provienne de l'atelier 1 sachant qu'elle est défectueuse.",
+    "hint": "",
+    "solution": "Notons $A$ l'événement ``la pièce provient de l'atelier 1'', $B$ l'événement ``la pièce provient de l'atelier 2'' et $D$ l'événement ``la pièce est défectueuse''.L'énoncé nous dit que les 2/3 des pièces produites proviennent de l'atelier 1. Donc $P(A)=2/3$.On cherche $P(A\\cap D)=P_A(D)P(A)=0,03\\times \\frac 23=\\frac 1{50}$.On démontre de même que $P(B\\cap D)=\\frac 1{75}$ et donc que \r\n $$P(D)=P(A\\cap D)+P(B\\cap D)=\\frac 1{30}.$$\r\n Ainsi, on a \r\n $$P_D(A)=\\frac{P(A\\cap D)}{P(D)}=\\frac 35.$$",
+    "lang": "french"
+}

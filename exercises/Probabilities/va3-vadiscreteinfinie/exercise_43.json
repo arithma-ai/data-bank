@@ -1,0 +1,6 @@
+{
+    "script": "Calculer l'espérance d'une loi de Poisson de paramètre $\\lambda$; sa variance.Calculer l'espérance d'une loi géométrique de paramètre $p\\in ]0,1[$.",
+    "hint": "",
+    "solution": "Si $X$ suit une loi de Poisson de paramètre $\\lambda$, alors \r\n$$E(X)=\\sum_{k=0}^{+\\infty}ke^{-\\lambda}\\frac{\\lambda^k}{k!}=\\lambda e^{-\\lambda}\\sum_{k=1}^{+\\infty}\\frac{\\lambda^{k-1}}{(k-1)!}=\\lambda e^{-\\lambda}e^{\\lambda}=\\lambda.$$\r\nPour la variance, on a \r\n$$E(X^2)=\\sum_{k=0}^{+\\infty}k^2e^{-\\lambda}\\frac{\\lambda^k}{k!}.$$\r\nOn écrit que $k^2=k(k-1)+k$ et donc \r\n$$E(X^2)=\\lambda^2 e^{-\\lambda}\\sum_{k=2}^{+\\infty}\\frac{\\lambda^{k-2}}{(k-2)!}+\\lambda e^{-\\lambda}\\sum_{k=1}^{+\\infty}\\frac{\\lambda^{k-1}}{(k-1)!}=\\lambda^2+\\lambda.$$\r\nOn en déduit que \r\n$$V(X)=E(X^2)-\\big(E(X)\\big)^2=\\lambda.$$Si $X$ suit une loi géométrique de paramètre $\\lambda$, alors \r\n$$E(X)=\\sum_{k=1}^{+\\infty} k p(1-p)^{k-1}.$$\r\nOn rappelle que la série entière \"géométrique\" $g(t)=\\sum_{k=0}^{+\\infty}t^k$ a pour rayon de convergence $1$, que sa somme est $\\frac 1{1-t}$, et qu'elle se dérive terme à terme. En particulier, on a\r\n$$g'(t)=\\sum_{k=1}^{+\\infty}kt^{k-1}=\\frac{1}{(1-t)^2}.$$\r\nOn en déduit que\r\n$$E(X)=p\\sum_{k=1}^{+\\infty}k(1-p)^{k-1}=\\frac{p}{p^2}=\\frac 1p.$$",
+    "lang": "french"
+}

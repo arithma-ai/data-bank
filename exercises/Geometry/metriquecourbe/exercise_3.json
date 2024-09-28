@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer la longueur de la cardioide d'équation polaire $\\rho=1+\\cos\\theta$.",
+    "hint": "Appliquer la formule du cours.",
+    "solution": "La courbe $\\theta\\mapsto(1+\\cos\\theta)e^{i\\theta}$ est $2\\pi$-périodique, et $2\\pi$ est la plus petite période possible.\r\nD'après la formule du cours, la longueur de la cardioide est :\r\n\\begin{eqnarray*}\r\n\\int_0^{2\\pi}\\sqrt {\\rho'(\\theta)^2+\\rho(\\theta)^2}d\\theta\r\n&=&\\int_0^{2\\pi}\\sqrt{2(1+\\cos\\theta)}d\\theta\\\\\r\n&=&2\\int_0^{2\\pi}\\sqrt{\\cos^2(\\theta/2)}d\\theta\\\\\r\n&=&2\\int_0^\\pi\\cos(\\theta/2)d\\theta-2\\int_\\pi^{2\\pi}\\cos(\\theta/2)d\\theta\\\\\r\n&=&8.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

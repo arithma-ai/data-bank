@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre l'équation $e^z=3\\sqrt 3-3i$.",
+    "hint": "Poser $z=a+ib$ et mettre $3\\sqrt 3-3i$ sous forme trigonométrique.",
+    "solution": "Posons $z=a+ib$, $a,b\\in\\mathbb R$. Alors \r\n$e^z=e^ae^{ib}$. Ceci nous incite à mettre $3\\sqrt 3-3i$ sous forme trigonométrique. On obtient\r\n$$|3\\sqrt 3-3i|=\\sqrt{27+9}=6.$$\r\nIl vient\r\n$$3\\sqrt 3-3i=6\\left(\\frac{\\sqrt 3}2-i\\frac 12\\right)=6e^{-i\\pi/6}.$$\r\nOn obtient alors $\\exp a=6$ et $b=-\\pi/6+2k\\pi,\\ k\\in\\mathbb Z$. Les solutions de l'équation\r\nsont donc les nombres complexes $\\ln(6)+i\\left(-\\frac\\pi6+2k\\pi\\right),\\ k\\in\\mathbb Z$.",
+    "lang": "french"
+}

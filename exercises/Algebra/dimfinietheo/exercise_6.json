@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel de dimension finie et $f\\in\\mathcal L(E)$.\r\nOn suppose que, pour tout $x\\in E$, il existe un entier $n_x\\in\\mathbb N$ tel\r\nque $f^{n_x}(x)=0.$ Montrer qu'il existe un entier $n$ tel que $f^n=0$.",
+    "hint": "Introduire une base de $E$.",
+    "solution": "Soit $(e_1,\\dots,e_p)$ une base de $E$. Pour chaque $i$,\r\nil existe un entier $n_i$ tel que $f^{n_i}(e_i)=0$. Posons $n=\\max(n_1,\\dots,n_p)$ et\r\nremarquons que pour chaque $i\\in\\{1,\\dots,p\\}$,\r\n$$f^n(e_i)=f^{n-n_i}\\big(f^{n_i}e_i\\big)=f^{n-n_i}(0)=0.$$\r\nConsidérons maintenant $x\\in E$ et écrivons-le $x=x_1 e_1+\\dots+x_p e_p$. On obtient\r\n$$f^n(x)=\\sum_{i=1}^p x_i f^n(e_i)=\\sum_{i=1}^p x_i 0_E=0_E.$$",
+    "lang": "french"
+}

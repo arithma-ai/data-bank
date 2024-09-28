@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\in\\mathbb N$.Pour quels entiers $p\\in\\{0,\\dots,n-1\\}$ a-t-on $\\binom np<\\binom n{p+1}$.Soit $p\\in\\{0,\\dots,n\\}$. Pour quelle(s) valeur(s) de $q\\in\\{0,\\dots,n\\}$ a-t-on \r\n$\\binom np=\\binom nq$?",
+    "hint": "Faire le quotient.Utiliser la question précédente.",
+    "solution": "On fait le quotient des deux nombres :\r\n$$\\frac{\\binom np}{\\binom n{p+1}}=\\frac{n(n-1)\\dots(n-p+1)}{p!}\\times \\frac{(p+1)!}{n(n-1)\\dots(n-p+1)(n-p)}=\\frac{p+1}{n-p}.$$\r\nCeci est inférieur strict à $1$ si et seulement si \r\n$$\\frac{p+1}{n-p}<1\\iff p<\\frac{n-1}2.$$La question précédente montre que la suite des coefficients binômiaux $\\binom nq$ croît strictement avec $q$ pour $q$ allant de $0$ à $\\frac{n-1}2$ et on montrerait de la même façon qu'elle décroît strictement pour $q$ allant de $\\frac{n+1}2$ à $n$.  L'égalité \r\n$$\\binom np=\\binom nq$$\r\npeut donc avoir lieu au plus pour deux valeurs de $q$, l'une avec $q$ dans $0,\\dots,\\frac{n-1}2$, l'autre avec $q$ supérieur ou égal à $\\frac{n+1}2$. Or, on a bien deux solutions, qui sont $q=p$ et $q=n-p$.\r\nCes solutions sont distinctes sauf si \r\n$n=2p$. Et dans ce cas, il n'y a qu'une seule solution (c'est le coefficient binômial le plus grand).",
+    "lang": "french"
+}

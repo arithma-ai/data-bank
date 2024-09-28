@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les limites suivantes :\r\n$$\\lim_{x\\to+\\infty}\\frac{\\ln x}{1+x\\ln x}\\textrm{ et }\\lim_{x\\to 0^+}\\frac{\\ln x}{1+x\\ln x}.$$",
+    "hint": "",
+    "solution": "Pour la première limite, on a une forme indéterminée de la forme $\\infty/\\infty$. On va lever cette forme indéterminée en factorisant par le terme dominant, $x\\ln x$, au dénominateur. On écrit donc \r\n$$\\frac{\\ln x}{1+x\\ln x}=\\frac{\\ln x}{x\\ln x}\\times \\frac{1}{\\frac{1}{x\\ln x}+1}=\\frac{1}{x}\\times  \\frac{1}{\\frac{1}{x\\ln x}+1}.$$\r\nComme $1/x\\ln x$ tend vers $0$ en $+\\infty$, on a \r\n$$\\lim_{x\\to+\\infty}\\frac{1}{\\frac{1}{x\\ln x}+1}=1$$\r\net donc \r\n$$\\lim_{x\\to+\\infty}\\frac{\\ln x}{1+x\\ln x}=0.$$\r\nLa deuxième limite n'est pas une forme indéterminée, puisque le dénominateur tend vers $1$ lorsque $x$ tend vers $0^+$ et que le numérateur tend vers $-\\infty$. On en déduit que \r\n$$\\lim_{x\\to 0^+}\\frac{\\ln x}{1+x\\ln x}=-\\infty.$$",
+    "lang": "french"
+}

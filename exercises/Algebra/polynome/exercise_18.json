@@ -1,0 +1,6 @@
+{
+    "script": "Soient $A,B,P\\in\\mathbb K[X]$ avec $P$ non-constant. On suppose que $A\\circ P|B\\circ P$.\r\nDémontrer que $A|B$.",
+    "hint": "Écrire à priori la division euclidienne de $B$ par $A$, puis composer par $P$.",
+    "solution": "On écrit la division euclidienne de $B$ par $A$, $B=AQ+R$ avec $\\deg(R)<\\deg(A)$. \r\nOn compose alors par $P$, et on obtient $B\\circ P=(A\\circ P)\\times(Q\\circ P)+R\\circ P$. Or, le \r\npolynôme $A\\circ P$ a pour degré $\\deg(A)\\times\\deg(P)$. Le polynôme $R\\circ P$ a pour degré\r\n$\\deg(R)\\times\\deg(P)$. On en déduit que $\\deg(R\\circ P)<\\deg(A\\circ P)$ et donc que \r\n$B\\circ P=(A\\circ P)\\times(Q\\circ P)+R\\circ P$ est la division euclidienne de $B\\circ P$ par $A\\circ P$. \r\nMais on sait que $A\\circ P|B\\circ P$ et donc on en déduit que $R\\circ P$ est égal à 0. Ceci n'est possible\r\nque si $R=0$, et donc $A|B$.",
+    "lang": "french"
+}

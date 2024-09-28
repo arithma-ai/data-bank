@@ -1,0 +1,6 @@
+{
+    "script": "Émile achète pour sa maman une bague contenant 2g d'or, 5g de cuivre et 4g d'argent. Il la paie 6200 euros.Paulin achète pour sa maman une bague contenant 3g d'or, 5g de cuivre et 1g d'argent. Il la paie 5300 euros.Frédéric achète pour sa chérie une bague contenant 5g d'or, 12g de cuivre et 9g d'argent. Combien va-t-il la payer?",
+    "hint": "Le vecteur $(5,12,9)$.  est combinaison linéaire de $(2,5,4)$, $(3,5,1)$.",
+    "solution": "Le vecteur $(5,12,9)$  est combinaison linéaire de $(2,5,4)$, $(3,5,1)$. Il s'écrit en effet\r\n$$(5,12,9)=\\frac{11}5 (2,5,4)+\\frac 15 (3,5,1).$$\r\nAutrement dit, la dernière bague peut être réalisée avec 11/5 de la première bague et 1/5 de la deuxième bague. Son coût est donc\r\n$$\\frac{11}{5}\\times 6200+\\frac 15 5300=14700\\textrm{ euros}.$$\r\nTrès joli cadeau!",
+    "lang": "french"
+}

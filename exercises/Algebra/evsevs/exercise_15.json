@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ l'espace vectoriel des fonctions de $\\mathbb R$ dans $\\mathbb R$, $F$ le sous-espace vectoriel des fonctions périodiques de période 1 et $G$ le sous-espace vectoriel des fonctions $f$ telles que $\\lim_{+\\infty}f=0$. Démontrer que $F\\cap G=\\{0\\}$. Est-ce que $F$ et $G$ sont supplémentaires?",
+    "hint": "D'une part, fixer $x\\in\\mathbb R$ et étudier $f(x+n)$. D'autre part, que dire d'une fonction qui tend vers $+\\infty$ en $+\\infty$.",
+    "solution": "Soit $f\\in F\\cap G$ et prenons $x\\in \\mathbb R$. Alors $f(x+n)=f(x)$ puisque $f$ est $1-$périodique. Mais d'autre part, $f(x+n)$ tend vers 0 quand $n$ tend vers l'infini puisque $f$ est élément de $G$. Ainsi, $f(x)=0$ et puisque c'est vrai pour tout $x\\in\\mathbb R$, on a $f=0$. \r\nD'autre part, considérons la fonction $f(x)=x$. Alors si $f\\in F+G$, $f$ s'écrit $f=g+h$ avec $g$ périodique de période 1 et $h$ qui tend vers $0$ en $+\\infty$. Mais alors, \r\n$$f(n)=g(n)+h(n)=g(0)+h(n)\\to g(0)\\in\\mathbb R$$\r\nalors que $f(n)\\to+\\infty$. On obtient une contradiction et donc $F+G\\neq E$. $F$ et $G$ ne sont pas supplémentaires.",
+    "lang": "french"
+}

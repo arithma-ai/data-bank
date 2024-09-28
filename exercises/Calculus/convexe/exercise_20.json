@@ -1,0 +1,6 @@
+{
+    "script": "Soit $I$ un intervalle ouvert de $\\mathbb R$ et $f:I\\to\\mathbb R$ convexe. Démontrer que $f$ est continue sur $I$. Le résultat subsiste-t-il si $I$ n'est plus supposé ouvert?",
+    "hint": "Utiliser l'inégalité des pentes pour démontrer que $f$ est continue à droite en tout point.",
+    "solution": "Soit $x_0\\in I$. On va démontrer que $f$ est continue à droite en $x_0$. La preuve serait identique pour la continuité à gauche. Prenons $a<x_0$ et $b>x_0$ tels que $a,b\\in I$. Alors, d'après l'inégalité des pentes, pour tout $x\\in ]x_0,b]$, on a \r\n$$\\frac{f(x_0)-f(a)}{x_0-a}\\leq\\frac{f(x)-f(x_0)}{x-x_0}\\leq \\frac{f(b)-f(x_0)}{b-x_0}$$ \r\nce qui donne\r\n$$(x-x_0)\\frac{f(x_0)-f(a)}{x_0-a}\\leq f(x)-f(x_0)\\leq (x-x_0)\\frac{f(b)-f(x_0)}{b-x_0}.$$\r\nPar le théorème des gendarmes,\r\n$$\\lim_{x\\to x_0^+}f(x)=f(x_0).$$\r\nLe résultat devient faux si $I=[0,1]$ par exemple. En effet, la fonction non continue en $0$ et en $1$ définie par $f(x)=0$ si $x\\in ]0,1[$ et $f(0)=f(1)=1$ est convexe.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in GL_p(\\mathbb R)$, $B\\in\\mathcal M_{q,p}(\\mathbb R)$, $C\\in\\mathcal M_{q}(\\mathbb R)$ et $M\\in\\mathcal M_{p+q}(\\mathbb R)$ la matrice définie par blocs \r\n$$M=\\begin{pmatrix}\r\nA&0\\\\\r\nB&C\r\n\\end{pmatrix}.$$\r\nDémontrer que $\\textrm{rg}(M)=\\textrm{rg}(A)+\\textrm{rg}(C)$.",
+    "hint": "Déterminer la dimension de son noyau.",
+    "solution": "On va plutôt déterminer la dimension du noyau de $M$. Soit $X=\\begin{pmatrix}X_1\\\\X_2\\end{pmatrix}$ tel que $MX=0$. Ceci est équivalent à \r\n$$\\left\\{\\begin{array}{rcl}\r\nAX_1&=&0\\\\\r\nBX_1+CX_2&=&0\r\n\\end{array}\\right.$$\r\nPuisque $A$ est inversible, c'est équivalent à $X_1=0$ et $CX_2=0$, c'est-à-dire $X_2\\in \\ker(C)$. On a donc $\\ker(M)=\\{0\\}\\times \\ker(C)$ et donc \r\n$\\dim(\\ker(M))=\\dim(\\ker(C))$. Il vient \r\n$$\\textrm{rg}(M)=p+q-\\dim(\\ker(M))=p+(q-\\dim(\\ker(C))=\\textrm{rg}(A)+\\textrm{rg}(C).$$",
+    "lang": "french"
+}

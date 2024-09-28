@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que la formule $F(z)=\\sum_{n\\geq 1}\\frac{2^n}{z^n+1}$ définit une fonction holomorphe dans $\\mathbb C\\backslash \\overline{D}(0,2)$. Calculer $F'(z)$ pour tout $z\\in \\mathbb C\\backslash \\overline{D}(0,2)$.",
+    "hint": "Il suffit de démontrer la convergence uniforme sur tous les compacts.",
+    "solution": "Posons $U=\\mathbb C\\backslash \\overline{D}(0,2)$ et, pour $n\\geq 1$, \r\n$$u_n(z)=\\frac{2^n}{z^n+1}.$$\r\nAlors chaque fonction $u_n$ est holomorphe dans $U$. De plus, soit $K$ un compact de $U$. Alors il existe $M>2$ tel que, pour tout $z\\in K,$\r\n$|z|\\geq M.$ On a alors, pour $z\\in K,$\r\n$$|u_n(z)|\\leq \\frac{2^n}{|z|^n-1}\\leq\\frac{2^n}{M^n-1}.$$\r\nLe membre de droite est le terme général d'une série numérique convergente. Ainsi la série $\\sum_{n\\geq 1}u_n$ converge normalement donc uniformément sur tous les compacts de $U$. Ceci prouve que $F$, sa somme, est holomorphe. De plus, la dérivée s'obtient en dérivant terme à terme, et on a donc, pour tout $z\\in U,$\r\n$$F'(z)=-\\sum_{n\\geq 1}\\frac{n2^n z^{n-1}}{(z^n+1)^2}.$$",
+    "lang": "french"
+}

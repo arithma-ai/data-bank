@@ -1,0 +1,6 @@
+{
+    "script": "On pose $f(x)=1/(1+x)$, $g(x)=e^{-x}$, $h(x)=\\sqrt{1-2\\sin x}$, $k(x)=\\cos(\\sqrt{2x})$.\r\nPréciser les positions relatives au voisinage de 0 des courbes représentatives $C_f$, $C_g$, $C_h$, $C_k$.",
+    "hint": "Faire un développement limité en 0 à un ordre suffisant pour qu'on puisse distinguer les fonctions.",
+    "solution": "On fait un développement limité en 0 à un ordre suffisamment grand pour qu'on puisse distinguer les fonctions. Ici, il suffit d'aller jusqu'à l'ordre 2.\r\nLe point le plus difficile est pour $h(x)$. Mais\r\n$$1-2\\sin x=1-2x+o(x^2)$$\r\nde sorte que\r\n$$h(x)=1-x-\\frac{x^2}{2}+o(x^2).$$\r\nPour les autres, on a\r\n\\begin{eqnarray*}\r\nf(x)&=&1-x+x^2+o(x^2)\\\\\r\ng(x)&=&1-x+\\frac{x^2}{2}+o(x^2)\\\\\r\nk(x)&=&1-x+\\frac{x^2}{6}+o(x^2)\r\n\\end{eqnarray*}\r\nEn comparant donc les termes d'ordre 2, on trouve $h\\leq k\\leq g\\leq f$.\r\nLes courbes représentatives sont bien sûr dans le même ordre.",
+    "lang": "french"
+}

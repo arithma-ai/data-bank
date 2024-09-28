@@ -1,0 +1,6 @@
+{
+    "script": "Dans une pièce, il y a deux tables. La première dispose de 3 chaises, numérotées de 1 à 3, la seconde dispose de 4 chaises,\r\nnumérotées de 1 à 4.\r\nSept personnes entrent. Combien y-a-t-il de possibilités de les distribuer autour de ces deux tables?",
+    "hint": "Choisir les trois personnes qui vont sur la petite table, puis disposer les personnes sur chaque table.",
+    "solution": "On commence par choisir les personnes qui vont s'installer autour de la première table. Il y a $\\binom 73$ possibilités.\r\nEnsuite, les 3 personnes qui sont autour de la première table peuvent choisir librement leur place. Il y a 3! choix\r\n(autant que de permutations des 3 chaises). De même, il y  4! choix pour les personnes qui s'installent autour de la deuxième table.\r\nLe nombre total de possibilités est donc $\\binom 73\\times 3!\\times 4!=7!$.Le fait de trouver $7!$ montre que le dénombrement que nous avons fait, qui suit les données de l'énoncé, peut être simplifié. En effet, le fait d'imposer deux tables ne change en réalité rien au problème : on doit placer 7 personnes sur 7 chaises, et il y a $7!$ façons différentes de le faire.",
+    "lang": "french"
+}

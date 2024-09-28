@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\Omega$ un ouvert connexe de $\\mathbb C$, $f$ une fonction holomorphe dans $\\Omega$.On suppose que $|f|$ est constant dans $\\Omega$. Que dire de $f$?On suppose que $f$ est à valeurs réelles. Que dire de $f$?",
+    "hint": "Appliquer le théorème de l'image ouverte.",
+    "solution": "Si $f$ n'est pas constante, d'après le théorème de l'image ouverte, $f(\\Omega)$ \r\nest un ouvert de $\\mathbb C$. Ainsi, il n'est pas possible que $|f|$ est constant sur $\\Omega$,\r\nsinon $f(\\Omega)$ serait inclus dans un cercle. On peut aussi conclure en appliquant le principe du maximum \r\n(une fonction à module constant atteint un maximum à l'intérieur de l'ouvert connexe, donc est constante).Avec un raisonnement similaire, on prouve que $f$ est constante dans $\\Omega$, car $\\mathbb R$ n'est pas un ouvert de $\\mathbb C$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "En appliquant la formule de Taylor avec reste intégral à la fonction $x\\mapsto \\ln(1+x^2)$, prouver que :\r\n$$\\int_0^1\\frac{(1+t)(1-t)^2}{(1+t^2)^2}dt=\\frac{\\ln 2}{2}.$$",
+    "hint": "Calculer jusqu'à la dérivée seconde de $f$.",
+    "solution": "Remarquons que $\\dis f'(x)=\\frac{2x}{1+x^2},\\ f''(x)=\\frac{2-2x^2}{(1+x^2)^2}.$ On applique donc la formule de Taylor avec reste intégral à $f$ entre 0 et 1, à l'ordre 2 :\r\n$$f(1)=f(0)+f'(0)\\times 1+\\int_0^1\\frac{2(1-t^2)}{(1+t^2)^2}(1-t)dt.$$\r\nPuisque $f(1)=\\ln 2$, $f(0)=f'(0)=0$, et factorisant $(1-t^2)$ en $(1-t)(1+t)$, on trouve le résultat souhaité.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire prenant ses valeurs dans $\\mathbb N^*$.\r\nOn suppose qu'il existe $p\\in ]0,1[$ tel que, pour tout $n\\in\\mathbb N^*$, $P(X=n)=pP(X\\geq n)$.\r\nDéterminer la loi de $X$.",
+    "hint": "Déterminer d'abord $P(X=1)$ (facile!) puis de proche en proche, $P(X=2)$, etc...",
+    "solution": "Pour simplifier, notons $p_n=P(X=n)$. La formule avec $n=1$ donne :\r\n$$p_1=p \\sum_{k\\geq 1}p_k=p.$$\r\nPour $n=2$, on a \r\n$$p_2=p\\sum_{k\\geq 2}p_k=p\\left(\\sum_{k\\geq 1}p_k-p_1\\right)=p(1-p).$$\r\nMontrons ensuite par récurrence sur $k$ que $p_k=p(1-p)^{k-1}$. Le résultat est vérifié si $k=1,2$, supposons le vérifié jusqu'au rang $k$ et prouvons le au rang $k+1$. D'après la contrainte imposée par l'énoncé, on a \r\n\\begin{eqnarray*}\r\np_{k+1}&=&p\\sum_{j\\geq k+1}p_j=p\\left(1-\\sum_{j=1}^{k}p(1-p)^{j-1}\\right)\\\\\r\n&=&p\\left(1-p\\frac{1-(1-p)^k}{1-(1-p)}\\right)\\\\\r\n&=&p(1-p)^k.\r\n\\end{eqnarray*}\r\nLe résultat est donc prouvé au rang $k+1$ et par le principe de récurrence, le résultat est vrai pour tout $k$. On en déduit que $X$ suit une loi géométrique de paramètre $p$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soient $A$ et $B$ deux événements d'un espace probabilisé. Démontrer que \r\n$$\\max\\big(0,P(A)+P(B)-1\\big)\\leq P(A\\cap B)\\leq \\min\\big(P(A),P(B)\\big).$$",
+    "hint": "Il y a en réalité quatre inégalités à prouver. Une seule n'est pas immédiate. Partir de \r\n$$P(A\\cup B)=P(A)+P(B)-P(A\\cap B).$$",
+    "solution": "Remarquons d'abord que $A\\cap B\\subset A$ et donc $P(A\\cap B)\\leq P(A)$. De même, $P(A\\cap B)\\leq P(B)$, ce qui prouve l'inégalité de droite. De plus, $P(A\\cap B)\\geq 0$ et aussi\r\n$$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)\\implies P(A\\cap B)=P(A)+P(B)-P(A\\cup B).$$\r\nMais $P(A\\cup B)\\leq 1$ et donc \r\n$$P(A\\cap B)\\geq P(A)+P(B)-1.$$\r\nOn a donc aussi obtenu l'inégalité de gauche.",
+    "lang": "french"
+}

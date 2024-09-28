@@ -1,0 +1,6 @@
+{
+    "script": "Soient $F$ et $G$ deux sous-espaces vectoriels de $\\mathbb R^5$ de dimension 3.\r\nMontrer que $F\\cap G\\neq\\{0\\}$.",
+    "hint": "Si c'était le cas, quelle serait la dimension de $F+G$?",
+    "solution": "Si c'était le cas, alors $F$ et $G$ seraient en somme directe, et on aurait\r\n$$\\dim(F\\oplus G)=\\dim(F)+\\dim(G)=3+3=6.$$\r\nOr, $F\\oplus G$ est un sous-espace vectoriel de $\\mathbb R^5$, il est de dimension au plus 5.\r\nC'est donc impossible!",
+    "lang": "french"
+}

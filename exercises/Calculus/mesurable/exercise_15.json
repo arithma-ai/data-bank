@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$. On note $f_n$ l'application de $[0,1[$ dans $\\mathbb R$ définie par $f_n(x)$ vaut la $n$-ième décimale de $x$ dans son développement décimal propre. Démontrer que $f_n$ est mesurable.",
+    "hint": "Il suffit de montrer que, pour tout $k\\in\\{0,\\dots,9\\}$, alors $f_n^{-1}(\\{k\\})$ est mesurable. Ceci est égal à une réunion d'un certain nombre d'intervalles...",
+    "solution": "On commence par remarquer que $f_n$ est à valeurs dans $\\{0,\\dots,9\\}$, ensemble fini. Il suffit donc de prouver que, pour tout $k\\in\\{0,\\dots,9\\}$, alors $f_n^{-1}(\\{k\\})$ est mesurable. Pour fixer les idées, on va considérer le cas $n=2$ et $k=0$. Alors, on a \r\n$$f_2^{-1}(\\{0\\})=[0;0.01[\\cup [0.1;0.11[\\cup [0.2;0.21[\\cup\\dots\\cup [0.9;0.91[.$$\r\nPlus généralement, $f_n^{-1}(\\{k\\})$ est la réunion de $10^{n-1}$ intervalles : tous les intervalles de la forme\r\n$\\left [a+\\frac{k}{10^n};a+\\frac{k+1}{10^n}\\right [$ où $a$ est n'importe nombre de $[0,1[$ de la forme $q/10^{n-1}$, avec $q$ un entier. Ainsi, $f_n^{-1}(\\{k\\})$ est une réunion d'intervalles : c'est donc une partie mesurable.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction entière dont la partie réelle est bornée. Démontrer que $f$ est constante.",
+    "hint": "On pourra considérer l'exponentielle de cette fonction.",
+    "solution": "Posons, pour $z\\in\\mathbb C$, $g(z)=\\exp(f(z)))$. Alors $g$ est bornée. En effet, \r\n$$|g(z)|=\\exp\\big((\\Re ef(z)\\big)$$\r\net l'image d'une partie bornée par la fonction exponentielle est bornée. Ainsi, $g$ est entière et bornée, donc d'après le théorème de Liouville, elle est constante. Attention! Ceci ne signifie pas directement que $f$ est constante. Soit $w\\in\\mathbb C$  tel que $g(z)=\\exp(w)$ pour tout $z\\in\\mathbb C$. L'égalité $\\exp\\big(f(z)\\big)=\\exp(w)$ valable pour tout $z\\in\\mathbb C$ entraîne que, pour tout $z\\in\\mathbb C$, il existe $k_z\\in\\mathbb Z$ tel que $f(z)=w+k_z(2i\\pi)$. Maintenant, $f$ est continue, et donc l'image de $\\mathbb C$ par $f$ est connexe. Ceci n'est possible que si tous les $k_z$ sont égaux. Et donc il existe $k\\in\\mathbb Z$ tel que, pour tout $z\\in\\mathbb C$, $f(z)=w+k(2i\\pi)$. La fonction $f$ est bien constante.",
+    "lang": "french"
+}

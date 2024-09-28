@@ -1,0 +1,6 @@
+{
+    "script": "Soient $X$ et $Y$ deux variables aléatoires à valeurs dans $\\mtn^*$, telles que :\r\n$$P\\big((X=i)\\cap(Y=j)\\big)=\\frac{a}{2^{i+j}},$$\r\npour tous $i,j$ de $\\mtn^*$.Calculer $a$.Déterminer les lois marginales de $X$ et $Y$.$X$ et $Y$ sont-elles indépendantes?",
+    "hint": "Il faut que la somme sur $i$ et $j$ fasse 1.Utiliser la définition.Comparer $P\\big((X=i)\\cap(Y=j)\\big)$ et $P(X=i)\\times P(Y=j)$.",
+    "solution": "Il est d'abord nécessaire que $a\\geq 0$. On a ensuite :\r\n$$\\sum_{i,j\\geq 1}\\frac{a}{2^{i+j}}=1\\iff a\\sum_{i=1}^{+\\infty}\\frac{1}{2^i}\\sum_{j=1}^{+\\infty}\\frac 1{2^j}=1\\iff a=1.$$Pour $i\\in\\mtn^*$, on a :\r\n$$P(X=i)=\\sum_{j=1}^{+\\infty}P\\big((X=i)\\cap(Y=j)\\big)=\\sum_{j=1}^{+\\infty}\\frac{1}{2^{i+j}}=\\frac{1}{2^i}=\\frac{1}{2}\\frac{1}{2^{i-1}}.$$\r\n$X$ suit donc une loi géométrique de paramètre $1/2$. Par raison de symétrie, il en est de même pour $Y$.On a :\r\n$$P(X=i)\\times P(Y=j)=\\frac{1}{2^{i+j}}=P\\big((X=i)\\cap(Y=j)\\big).$$\r\nLes variables aléatoires sont indépendantes.",
+    "lang": "french"
+}

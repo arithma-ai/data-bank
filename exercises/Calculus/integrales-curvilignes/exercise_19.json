@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(O,\\vec{i},\\vec{j},\\vec{k})$ un repère orthonormé, et $\\vec{F}$ le champ de vecteurs :\r\n$$\\vec{F}(x,y,z)=(x+z)\\vec{i}-3xy\\vec{j}+x^2\\vec{k}.$$\r\nCalculer la circulation de ce champ de vecteurs entre les points $O(0,0,0)$ et $P(1,2,-1)$ le long des chemins suivants :$\\Gamma_1:(x=t^2,y=2t,z=-t)$.Le segment de droite $[O,P]$.Que peut-on remarquer? Pourquoi?",
+    "hint": "Un paramétrage du segment de droite [O,P] est :\r\n$$(t,2t,-t).$$\r\nLe champ de vecteurs peut-il dériver d'un potentiel scalaire?",
+    "solution": "Par définition,\r\n\\begin{eqnarray*}\r\n\\int_{\\Gamma_1} \\vec{F}.\\overline{dM}&=&\\int_0^1(t^2-t)\\times 2t-3t^2\\times 2t\\times 2+t^4\\times(-1)dt\\\\\r\n&=&\\int_0^1 -t^4-10t^3-2t^2dt\\\\\r\n&=&-\\left[\\frac{t^5}{5}-\\frac{5}{2}t^2-\\frac{2}{3}t^3\\right]_0^1\\\\\r\n&=&-\\frac{101}{30}.\r\n\\end{eqnarray*}Le segment de droite [O,P] se paramétrise en :\r\n$$(t,2t,-t).$$\r\nOn a donc :\r\n\\begin{eqnarray*}\r\n\\int_{[OP]}\\vec{F}.\\overline{dM}&=&\\int_0^1 (t-t)-12t^2-t^2dt\\\\\r\n&=&\\int_0^1-13t^2dt\\\\\r\n&=&\\frac{-13}{3}.\r\n\\end{eqnarray*}On trouve donc des résultats différents. Ceci signifie que le champ de vecteurs ne dérive pas d'un potentiel scalaire!",
+    "lang": "french"
+}

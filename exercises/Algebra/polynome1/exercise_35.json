@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que si $P$ et $Q$ sont deux polynômes de $\\mathbb C[X]$ premiers entre eux, alors $P+Q$ et $PQ$ le sont aussi.",
+    "hint": "Si $P+Q$ et $PQ$ ne sont pas premiers entre eux, ils ont une racine commune. Trouver une contradiction.",
+    "solution": "Faisons un raisonnement par contraposée. On suppose donc que $P+Q$ et $PQ$ ne sont pas premiers entre eux. Il existe donc un polynôme de degré $1$ de la forme $X-\\alpha$ qui divise à la fois $P+Q$ et $PQ$. Autrement dit, $\\alpha$ est une racine à la fois de $P+Q$ et de $PQ$. Puisque $P(\\alpha)Q(\\alpha)=0$, $\\alpha$ est une racine de $P$ ou de $Q$, par exemple de $P$. Mais de $P(\\alpha)+Q(\\alpha)=0$ on déduit $Q(\\alpha)=0$ et donc $(X-\\alpha)$ divise à la fois $P$ et $Q$. Ainsi, $P$ et $Q$ ne sont pas premiers entre eux.Par contraposée, si $P$ et $Q$ sont premiers entre eux, alors $P+Q$ et $PQ$ sont premiers entre eux.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to E$ de classe $\\mathcal C^2$. On suppose que $f$ et $f''$ sont bornées.Soit $x\\in\\mathbb R$ et $h>0$. Démontrer que \r\n$$\\|f'(x)\\|\\leq\\frac{2\\|f\\|_\\infty}h+\\frac{h\\|f''\\|_\\infty}2.$$En déduire que \r\n$$\\|f'\\|_\\infty\\leq 2\\sqrt{\\|f\\|_\\infty \\|f''\\|_\\infty}.$$",
+    "hint": "Appliquer l'inégalité de Taylor-Lagrange à $f$ entre $x$ et $x+h$ à l'ordre 1.Optimiser en fonction de $h$.",
+    "solution": "Appliquons l'inégalité de Taylor-Lagrange à $f$ entre $x$ et $x+h$ à l'ordre $1$ :\r\n$$\\|f(x+h)-f(x)-hf'(x)\\|\\leq \\frac{h^2\\|f''\\|_\\infty}2.$$\r\nPar l'inégalité triangulaire, \r\n$$\\|hf'(x)\\|\\leq \\|f(x+h)-f(x)-hf'(x)\\|+\\|f(x+h)\\|+\\|f(x)\\|\\leq 2\\|f\\|_\\infty+\\frac{h^2\\|f''\\|_\\infty}2.$$Posons, pour $h>0$, $\\phi(h)=\\frac{2\\|f\\|_\\infty}h+\\frac{h\\|f''\\|_\\infty}2$. En calculant la dérivée de cette fonction, on voit qu'elle admet un minimum en $h=2\\sqrt{\\|f\\|_\\infty/\\|f''\\|_\\infty}$. L'inégalité de la question précédente appliquée en cette valeur de $h$ donne exactement ce que l'on veut.",
+    "lang": "french"
+}

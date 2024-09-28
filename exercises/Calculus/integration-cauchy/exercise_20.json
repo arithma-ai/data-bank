@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer la limite de $S_n=\\sum_{p=n}^{2n}\\frac 1p$.",
+    "hint": "Interpréter cette somme comme une somme de Riemann. On pourra écrire $p=n+k$.",
+    "solution": "On va interpréter cette somme comme une somme de Riemann. Ce n'est pas tout à fait immédiat, l'astuce consiste ici à écrire $p=n+k$ avec $k$ dans $0,\\dots,n$. On a donc\r\n$$S_n=\\sum_{k=0}^n \\frac{1}{n+k}=\\frac 1n\\sum_{k=0}^n \\frac{1}{1+\\frac kn}.$$\r\nOn reconnait alors une somme de Riemann de la fonction continue $x\\mapsto \\frac 1{1+x}$ sur l'intervalle $[0,1]$. On en déduit que \r\n$$S_n\\to\\int_0^1 \\frac{1}{1+x}dx=\\ln 2.$$",
+    "lang": "french"
+}

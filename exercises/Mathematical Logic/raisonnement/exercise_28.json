@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A$ une partie de $\\mathbb N^*$ possédant les trois propriétés suivantes :$1\\in A$;$\\forall n\\in\\mathbb N^*,\\ n\\in A\\implies 2n\\in A$;$\\forall n\\in\\mathbb N^*,\\ n+1\\in A\\implies n\\in A$.Démontrer que $A=\\mathbb N^*$.",
+    "hint": "Remarquer d'abord que si $p\\in A$, alors tout l'intervalle $\\{1,\\dots,p\\}$ est contenu dans $A$.",
+    "solution": "Remarquons d'abord que si $p\\in A$, alors tout l'intervalle $\\{1,\\dots,p\\}$ est contenu dans $A$ à cause de la propriété 3 : en effet, si on applique la propriété 3 avec $n=p-1$, on obtient que $p-1\\in A$, puis $p-2\\in A$. Il faut faire une récurrence (décroissante) finie pour prouver que tout l'intervalle $\\{1,\\dots,p\\}$ est inclus dans $A$.Supposons ensuite que $A\\neq\\mathbb N^*$, et notons $p$ le plus petit entier de $\\mathbb N^*$ qui n'est pas dans $A$. Alors, $p>1$, et donc $p-1\\geq 1$. Or, $p-1\\in A$ et donc $2(p-1)\\in A$. Mais $2(p-1)\\geq p$ puisque $p\\geq 2$. Par la remarque faite au début, on en déduit que $p\\in A$, une contradiction.",
+    "lang": "french"
+}

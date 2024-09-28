@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que la somme de trois cubes consécutifs est toujours divisible par 9.",
+    "hint": "Développer $n^3+(n+1)^3+(n+2)^3$ et essayer de factoriser par 9. On pourra discuter suivant la congruence\r\nmodulo 3 de $n$.",
+    "solution": "On développe $n^3+(n+1)^3+(n+2)^3$ :\r\n$$n^3+(n+1)^3+(n+2)^3=3n^3+9n^2+15n+9=9(n^2+1)+3n(n^2+5).$$\r\nIl suffit donc de démontrer que $9|3n(n^2+5)$ ou encore que $3|n(n^2+5)$.\r\nSi $n\\equiv 0\\ [3]$, c'est bien sûr vrai. Si $n\\equiv 1\\ [3]$, on a\r\n$n^2\\equiv 1\\ [3]$ et donc $n^2+5\\equiv 6\\equiv 0\\ [3]$. Si $n\\equiv 2\\ [3]$,\r\nalors $n^2+5\\equiv 4+5\\equiv 9\\equiv 0\\ [3]$. Dans tous les cas,\r\n$3n(n^2+5)$ est divisible par 9.",
+    "lang": "french"
+}

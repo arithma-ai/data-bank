@@ -1,0 +1,6 @@
+{
+    "script": "Soient $E$ un $\\mathbb K$-espace vectoriel de dimension finie, soit $u$ un endomorphisme de $E$ et soit $F,G$ deux sous-espaces de $E$ supplémentaires stables par $u$. On note $\\pi_u$ le polynôme minimal de $u$, $\\pi_F$ le polynôme minimal de $u_{|F}$ et $\\pi_G$ le polynôme minimal de $u_{|G}$. Démontrer que \r\n$$\\pi_u=\\textrm{ppcm}(\\pi_F,\\pi_G).$$",
+    "hint": "Posons $P=\\textrm{ppcm}(\\pi_F,\\pi_G).$ et prouvons que $\\pi_u|P$ puis que $P|\\pi_u$.",
+    "solution": "Posons $P=\\textrm{ppcm}(\\pi_F,\\pi_G).$ Alors, pour tout $y\\in F$, on a $P(u)(y)=0$ car $\\pi_F|P$ et pour tout $z\\in G$, on  $P(u)(z)=0$ car $\\pi_G|P$. Puisque tout élément de $x\\in E$ s'écrit $y+z$ avec $y\\in F$ et $z\\in G$, on a $P(u)(x)=0$, et donc $\\pi_u|P$.Réciproquement, on sait que $\\pi_F|\\pi_u$ et que $\\pi_G|\\pi_u$, et donc $P|\\pi_u$. En conclusion, on a bien $P=\\pi_u$ (les deux polynômes sont unitaires).",
+    "lang": "french"
+}

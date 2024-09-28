@@ -1,0 +1,6 @@
+{
+    "script": "Simplifier les nombres complexes suivants : $(1+i)^5$, $(1-i)^4$.",
+    "hint": "Utiliser la formule du binôme.",
+    "solution": "On développe par la formule du binôme de Newton, en utilisant $i^2=-1$ pour simplifier et regrouper partie réelle et partie imaginaire. Il vient\r\n$$(1+i)^5=1+5i-10-10i+5+i=-4-4i.$$\r\nDe même,\r\n$$(1-i)^4=1-4i-6+4i+1=-4.$$\r\nOn aurait aussi pu obtenir ces résultats en mettant les nombres complexes sous forme trigonométrique.",
+    "lang": "french"
+}

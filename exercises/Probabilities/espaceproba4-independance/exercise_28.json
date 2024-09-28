@@ -1,0 +1,6 @@
+{
+    "script": "Le gérant d'un magasin d'informatique a reçu un lot de clés USB. $5\\%$ des boites sont abîmées. Le gérant estime que :$60\\%$ des boites abîmées contiennent au moins une clé défectueuse.$98\\%$ des boites non abîmées ne contiennent aucune clé défectueuse.Un client achète une boite du lot. On désigne par $A$ l'événement : ``la boite est abîmée'' et par $D$ l'événement ``la boite achetée contient au moins une clé défectueuse''.Donner les probabilités de $P(A)$, $P(\\bar A)$, $P(D|A)$, $P(D|\\bar A)$, $P(\\bar D|A)$ et $P(\\bar D|\\bar A)$. En déduire la probabilité de $D$.Le client constate qu'une des clés achetées est défectueuse. Quelle est\r\nla probabilité pour qu'il ait acheté une boite abîmée?",
+    "hint": "Traduire les informations de l'énoncé, utiliser la formule des probabilités totales.Utiliser la formule de Bayes.",
+    "solution": "L'énoncé donne directement $P(A)=0,05$, d'où $P(\\bar A)=0,95$, $P(D|A)=0,6$ et $P(\\bar D|\\bar A)=0,98$. On en déduit :\r\n$$P(\\bar D|A)=1-P(D|A)=0,4$$\r\n$$P(D|\\bar A)=1-P(\\bar D|\\bar A)=0,02.$$\r\nD'après la formule des probabilités totales :\r\n$$P(D)=P(A)P(D|A)+P(\\bar A)P(D|\\bar A)=\\frac{49}{1000}.$$On obtient $P(A|D)$ grâce à la formule de Bayes :\r\n$$P(A|D)=\\frac{P(A\\cap D)}{P(D)}=\\frac{P(D|A)P(A)}{P(D)}=\\frac{30}{49}.$$",
+    "lang": "french"
+}

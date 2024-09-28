@@ -1,0 +1,6 @@
+{
+    "script": "Bonjour, je suis le magicien des mathématiques.\r\nVous allez choisir un nombre, effectuer une suite d'opérations,\r\net je vais deviner le résultat.Vous : \"Incroyable, impossible!\"Moi : \"Si! Tenez, choisissez un nombre premier différent de 2 et 3. Élevez-le au carré, ajoutez 17, divisez par 12, et rappelez-vous le reste!\"Vous : \"Ouh, la,la, c'est compliqué! Ca y est!\"Moi : \"C'est 6, n'est-ce pas!\"Vous : \"Incroyable! Mais comment avez-vous fait?\"Et vous, saurez-vous déjouer le tour du magicien des mathématiques?",
+    "hint": "Un nombre premier différent de 2 et 3 est congru à 1 ou -1 modulo 6.",
+    "solution": "La clé est de remarquer qu'un entier premier différent de 2 et 3 est congru à 1 ou -1 modulo 6.\r\nEn effet, un entier congru à 0,2,4 modulo 6 est divisible par 2, et un entier congru à 3 modulo 6\r\nest divisible par 3. Soit donc $p=6k\\pm 1$ un tel premier. On le met au carré : $p^2=36k^2\\pm 12k+1$.\r\nAinsi, $p^2\\equiv 1\\ [12]$. Ajoutant 17, on a $p^2+17\\equiv 18\\equiv 6\\ [12]$. Lorsqu'on effectue la division\r\npar 12, le reste sera donc 6.",
+    "lang": "french"
+}

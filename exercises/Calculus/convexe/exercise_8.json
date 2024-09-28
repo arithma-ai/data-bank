@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que pour tout $x\\in[-1,1]$ et tout $\\lambda\\in\\mathbb R$, on a \r\n$$\\exp(\\lambda x)\\leq \\textrm{ch}(\\lambda)+x\\textrm{sh}(\\lambda).$$",
+    "hint": "Appliquer la convexite de la fonction exponentielle entre $\\lambda$ et $-\\lambda$, avec un coefficient bien choisi.",
+    "solution": "Nous allons appliquer la définition de la convexité à la fonction $\\exp$, avec des points et des coefficients bien choisis. Pour comprendre d'où viennent ces points et ces coefficients, remarquons que l'inégalité que l'on cherche à prouver est équivalente à \r\n$$\\exp(\\lambda x)\\leq \\frac{e^\\lambda+e^{-\\lambda}}2+x\\frac{e^\\lambda-e^{-\\lambda}}2$$\r\nqui est encore équivalente à \r\n$$\\exp(\\lambda x)\\leq \\left(\\frac{1+x}2\\right)e^\\lambda +\\left(\\frac{1-x}2\\right)e^{-\\lambda}.$$\r\nOn pose alors $t=\\frac{1+x}2\\in[0,1]$ de sorte que $1-t=\\frac{1-x}2$ et on applique la définition de la convexité de la fonction exponentielle avec les points $\\lambda$ et $-\\lambda$, et avec $t$. On obtient directement l'inégalité demandée, sous la forme équivalente obtenue ci-dessus.",
+    "lang": "french"
+}

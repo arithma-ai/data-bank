@@ -1,0 +1,6 @@
+{
+    "script": "Calculer $\\tan(\\pi/8)$.",
+    "hint": "Utiliser les formules de duplication, en remarquant que $2\\frac{\\pi}8=\\frac{\\pi}4$.",
+    "solution": "On remarque que $2\\frac{\\pi}8=\\frac{\\pi}4$. On a donc\r\n\\begin{align*}\r\n\\tan(\\pi/4)&=\\frac{\\tan(\\pi/8)+\\tan(\\pi/8)}{1-\\tan^2(\\pi/8)}\\\\\r\n&=\\frac{2\\tan(\\pi/8)}{1-\\tan^2(\\pi/8)}.\r\n\\end{align*}\r\nPuisque $\\tan(\\pi/4)=1$, $\\tan(\\pi/8)$ est solution de l'équation $x^2+2x-1=0$. Les deux solutions de cette équation sont \r\n$$x_0=\\frac{-2-\\sqrt 8}{2}=-1-\\sqrt{2},\\ x_1=\\frac{-2+\\sqrt 8}2=-1+\\sqrt 2.$$\r\nComme on sait que $\\tan(\\pi/8)>0$ puisque $\\pi/8\\in ]0,\\pi/2[$, on en déduit que \r\n$$\\tan\\left(\\frac\\pi 8\\right)=\\sqrt 2-1.$$",
+    "lang": "french"
+}

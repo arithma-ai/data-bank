@@ -1,0 +1,6 @@
+{
+    "script": "Soit $I$ un intervalle et $f,g,h:I\\to\\mathbb R$ continues par morceaux. On suppose que $f$ et $h$ sont intégrables sur $I$ et que $f\\leq g\\leq h.$ Démontrer que $g$ est intégrable sur $I$.",
+    "hint": "Considérer $g-f$ et $h-f$.",
+    "solution": "On peut réécrire l'inégalité en $0\\leq g-f\\leq h-f$. Or, $h-f$ est intégrable sur $I$ comme différence de fonctions intégrables. Par majoration et positivité, $g-f$ est intégrable sur $I$. Écrivant $g=(g-f)+f$, on trouve que $g$ est intégrable sur $I$.",
+    "lang": "french"
+}

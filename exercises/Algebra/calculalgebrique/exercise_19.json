@@ -1,0 +1,6 @@
+{
+    "script": "Pour $n\\geq 1$, on pose $u_n=\\frac{1}{n^2}+\\frac{2}{n^2}+\\cdots+\\frac{n}{n^2}$. Calculer explicitement $u_n$, puis en déduire la limite de la suite $(u_n)$.",
+    "hint": "On peut mettre $1/n^2$ en facteur.",
+    "solution": "En mettant $1/n^2$ en facteur, on se ramène à une somme classique. En effet, on peut écrire\r\n$$u_n=\\frac1{n^2}\\sum_{k=1}^n k=\\frac{1}{n^2}\\times\\frac{n(n+1)}{2}=\\frac{n+1}{2n}=\\frac{1}2+\\frac{1}{2n}.$$\r\nAinsi, la suite $(u_n)$ tend vers $1/2$.",
+    "lang": "french"
+}

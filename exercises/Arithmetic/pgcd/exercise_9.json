@@ -1,0 +1,6 @@
+{
+    "script": "Soient $n\\in\\mathbb Z$. Calculer les pgcd suivants :\r\n$$\\begin{array}{lll}\r\n\\mathbf 1.\\ (n^2+n)\\wedge (2n+1)&\\quad\\quad&\\mathbf  2.\\ (15n^2+8n+6)\\wedge(30n^2+21n+13)\\\\\r\n\\end{array}\r\n$$",
+    "hint": "On pourra utiliser une astuce (relation entre $n^2+n$ et $2n+1$ par exemple) ou l'algorithme d'Euclide.",
+    "solution": "On remarque que $4(n^2+n)=(2n+1)^2-1$. Ainsi, si $d|(n^2+n)$ et $d|2n+1$, $d|1$. On a donc $(n^2+n)\\wedge (2n+1)=1$.Rappelons que si $a=bq+r$, on a $a\\wedge b=b\\wedge r$ et que $a\\wedge b=a\\wedge (a-b)$ (on écrit $a=b+(a-b)$).\r\nAinsi, on trouve ici\r\n$$30n^2+21n+13=2(15n^2+8n+6)+5n+1,\\ \\ \\ 15n^2+8n+6=3n(5n+1)+5n+6.$$\r\nOn a donc\r\n\\begin{eqnarray*}\r\n(30n^2+21n+13)\\wedge (15n^2+8n+6)&=&(15n^2+8n+6)\\wedge (5n+1)\\\\\r\n&=&(5n+1)\\wedge (5n+6)\\\\\r\n&=&(5n+1)\\wedge 5\\\\\r\n&=&1.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

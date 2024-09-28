@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que, pour tout $x\\neq 0$,\r\n$$\\sum_{k=0}^n\\cosh(kx)=\\frac{\\cosh(nx/2)\\sinh\\big((n+1)x/2\\big)}{\\sinh(x/2)}.$$",
+    "hint": "Utiliser la forme exponentielle et la somme d'une série géométrique.",
+    "solution": "On a, pour $x\\neq 0$ :\r\n\\begin{eqnarray*}\r\n\\sum_{k=0}^n\\cosh(kx)&=&\\frac12\\sum_{k=0}^n e^{kx}+\\frac12\\sum_{k=0}^n e^{-kx}\\\\\r\n&=&\\frac12\\left(\\frac{1-e^{(n+1)x}}{1-e^x}+\\frac{1-e^{-(n+1)x}}{1-e^{-x}}\\right)\\\\\r\n&=&\\frac12\\left(\\frac{e^{(n+1)x/2}}{e^{x/2}}\\times\\frac{e^{-(n+1)x/2}-e^{(n+1)x/2}}{e^{-x/2}-e^{x/2}}+\\right.\\\\\r\n&&\\quad\\quad\\left.\\frac{e^{-(n+1)x/2}}{e^{-x/2}}\\times\\frac{e^{(n+1)x/2}-e^{-(n+1)x/2}}{e^{x/2}-e^{-x/2}}\\right)\\\\\r\n&=&\\frac12\\left(e^{nx/2}\\frac{\\sinh\\big((n+1)x/2\\big)}{\\sh(x/2)}+e^{-nx/2}\\frac{\\sinh\\big((n+1)x/2\\big)}{\\sh(x/2)}\\right) \\\\\r\n&=&\\frac{\\cosh(nx/2)\\sinh\\big((n+1)x/2\\big)}{\\sinh(x/2)}.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

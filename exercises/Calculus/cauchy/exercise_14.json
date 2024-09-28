@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction entière de période $1$ et $i$. Montrer que $f$ est constante.",
+    "hint": "Montrer que $f$ est bornée. Précisément, montrer\r\nque $|f(z)|\\leq \\sup_{w\\in K}|f(w)|$ où $K$ est le carré de sommets \r\n$0,1,1+i,i$.",
+    "solution": "On va prouver que $f$ est bornée et la conclusion résultera immédiatement\r\ndu théorème de Liouville. Prenons $z=x+iy\\in\\mathbb C$ et posons $n=\\lfloor x\\rfloor $, $m=\\lfloor y\\rfloor$.\r\nPuisque $f$ est $1$-périodique, on a $f(z)=f(z-n)$. Puisque $f$ est $i$-périodique,\r\non a $f(z)=f(z-n-im)$. Mais $z-n-im$ est un élément de partie réelle comprise entre 0 et 1\r\net de partie imaginaire comprise entre 0 et 1. Notant $K$ le carré de sommets \r\n$0,1,1+i,i$, on en déduit\r\n$$|f(z)|\\leq \\sup_{w\\in K}|f(w)|.$$\r\nPuisque $f$ est continue sur le compact $K$, la quantité $\\sup_{w\\in K}|f(w)|$ est finie, ce qui achève la preuve\r\nque $f$ est bornée.",
+    "lang": "french"
+}

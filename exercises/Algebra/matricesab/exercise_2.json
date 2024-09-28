@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que l'ensemble des matrices symétriques ($A=\\ ^t\\!A$) et l'ensemble des matrices anti-symétriques ($A=-\\ ^t\\!A$) sont deux sous-espaces vectoriels supplémentaires de $\\mathcal M_n(\\mathbb R)$.",
+    "hint": "Utiliser $A\\pm\\ ^t\\!A$",
+    "solution": "Il est d'abord clair que ces deux ensembles sont des sous-espaces vectoriels. Soit $A=(a_{i,j})$ une matrice à la fois symétrique et antisymétrique. Ses coefficients diagonaux sont nuls, et si $i\\neq j$, on a à la fois $a_{i,j}=a_{j,i}$ et $a_{i,j}=-a_{j,i}$, ce qui donne $a_{i,j}=-a_{i,j}$ ce qui n'est possible que si $a_{i,j}=0$. La matrice $A$ est donc la matrice nulle, et les espaces vectoriels sont en somme directe.D'autre part, si A est une matrice quelconque, on pose : $C=\\frac{A+\\ \\!^tA}{2}$ et $D=\\frac{A-\\ \\!^tA}{2}$. Il est facile de vérifier que $C$ est symétrique, que $D$ est anti-symétrique, et que $A=C+D$. Les deux sous-espaces vectoriels sont supplémentaires dans $\\mathcal M_n(\\mathbb R)$.",
+    "lang": "french"
+}

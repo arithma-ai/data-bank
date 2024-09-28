@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que, dans tout triangle, les symétriques de l'orthocentre par rapport aux côtés appartiennent au cercle circonscrit\r\nau triangle.",
+    "hint": "Utiliser la condition de cocyclicité de 4 points par les angles.",
+    "solution": "On note $ABC$ le triangle, $H$ l'orthocentre, et $K$ le symétrique de $H$ par rapport à $(BC)$. Il suffit de démontrer\r\nque $A,B,C$ et $K$ sont cocycliques, par exemple en vérifiant que \r\n$$(\\overrightarrow{AB},\\overrightarrow{AC})=(\\overrightarrow{KB},\\overrightarrow{KC})\\ \\mod \\pi.$$\r\nD'une part, notons $B'$ le pied de la hauteur issue de $B$ et $C'$ le pied de la hauteur issue de $C$. \r\nLes points $B'$ et $C'$ sont sur le cercle de diamètre $[AH]$. On a donc, par le théorème de l'arc capable\r\n(théorème de l'angle inscrit) :\r\n$$(\\overrightarrow{AC'},\\overrightarrow{AB'})=(\\overrightarrow{HC'},\\overrightarrow{HB'})\\ \\mod \\pi.$$\r\nCeci donne encore :\r\n$$(\\overrightarrow{AB},\\overrightarrow{AC})=(\\overrightarrow{AC'},\\overrightarrow{AB'})=(\\overrightarrow{HC'},\\overrightarrow{HB'})=(\\overrightarrow{HC},\\overrightarrow{HB})\\ \\mod \\pi.$$\r\nD'autre part, par symétrie, on a \r\n$$(\\overrightarrow{HC},\\overrightarrow{HB})=(\\overrightarrow{KB},\\overrightarrow{KC})\\ \\mod \\pi.$$\r\nCeci donne le résultat voulu.",
+    "lang": "french"
+}

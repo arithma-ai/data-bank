@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer la limite, lorsque $x\\to 0^+$, de $\\int_x^{2x}\\frac{\\sin t}{t^2}dt$.",
+    "hint": "Utiliser un développement limité de $\\sin$.",
+    "solution": "On sait que $\\sin t=t+t^2\\veps(t)$ où la fonction $\\veps$ tend vers 0 en 0. On a donc\r\n$$\\int_x^{2x}\\frac{\\sin t}{t^2}dt=\\int_x^{2x}\\frac{dt}t+\\int_x^{2x}\\veps(t)dt=\\ln 2+\\int_x^{2x}\\veps(t)dt.$$\r\nPuisque la fonction $\\veps$ est bornée (disons par $M$) au voisinage de $0$, on a\r\n$$\\left|\\int_x^{2x}\\veps(t)dt\\right|\\leq Mx\\to 0,$$\r\net donc la limite recherchée est $\\ln 2$.",
+    "lang": "french"
+}

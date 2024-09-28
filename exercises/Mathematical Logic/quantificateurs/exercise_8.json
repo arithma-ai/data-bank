@@ -1,0 +1,6 @@
+{
+    "script": "On rappelle qu'un entier $p$ divise $n$, et on note $p|n$, s'il existe un entier relatif $k$ tel que $n=k\\times p$.Est-ce que $6|n$ est une condition nécessaire à ce que $n$ soit pair?Est-ce que $6|n$ est une condition suffisante à ce que $n$ soit pair?",
+    "hint": "Trouver un contre-exemple.Prouver le.",
+    "solution": "Notons $A$ la proposition \"$6|n$\" et $B$ la proposition \"$n$ est pair\". Alors $A\\implies B$. En effet, si $6|n$, alors il existe un entier $k$ tels que $n=6\\times k$ et donc $n=2\\times (3k)$ est pair. En revanche, la réciproque est fausse. En effet, $4$ est pair mais $6$ ne divise pas 4. On en déduit que$6|n$ n'est pas une condition nécessaire à ce que $n$ soit pair ($4$ est un contre-exemple).$6|n$ est une condition suffisante à ce que $n$ soit pair.",
+    "lang": "french"
+}

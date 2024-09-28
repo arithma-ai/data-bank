@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$. Montrer que $(n+1)|\\binom{2n}{n}$.Soit $p\\geq 2$ premier. Montrer que $p|\\binom{p}{k}$ pour $k\\in\\{1,\\dots,p-1\\}$.En déduire une preuve du petit théorème de Fermat : si $n\\geq 1$ et $p$ est premier, $n^p\\equiv n\\ [p]$.",
+    "hint": "Utiliser la formule $(n+1)\\dbinom{2n}{n+1}=n\\dbinom{2n}{n}$.Montrer que $k!(p-k)! | (p-1)!$.Procéder par récurrence sur $n$.",
+    "solution": "Il est clair que $(n+1)\\binom{2n}{n+1}=n\\binom{2n}{n}$. Maintenant,\r\ncomme $(n+1)\\wedge n=1$, on en déduit que $(n+1)|\\binom{2n}n$.Puisque $\\binom{p}{k}$ est entier, on sait que $k!(p-k)! | p!=p\\times(p-1)!$.\r\nMaintenant, puisque $p$ est premier, on sait aussi que $k!\\wedge p=1$ et $(p-k)!\\wedge p=1$. Par le théorème de Gauss,\r\n$k!(p-k)! |(p-1)!$ et donc $\\frac{(p-1)!}{k!(p-k)!}$ est un entier. Autrement dit, $p|\\binom{p}{k}$.Si $n=1$, le résultat est trivial. Supposons le résultat établi au rang $n$ et prouvons le au rang $n+1$.\r\n On a\r\n $$(n+1)^p=n^p+1+\\sum_{k=1}^{p-1}\\binom{p}{k}n^{k}\\equiv n^p+1\\ [p]$$\r\nd'après la question précédente. Par hypothèse de récurrence,\r\n$$(n+1)^p\\equiv n+1\\ [p].$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $P(X)=X^4-4X^3+4X^2+X-2$.Déterminer deux racines évidentes $a$ et $b$ de $P$.Effectuer la division euclidienne de $P$ par $(X-a)(X-b)$.En déduire toutes les racines de $P$.",
+    "hint": "Calculer $P(1)$ et $P(2)$.Résoudre également $x^2+x+1=0$.",
+    "solution": "On vérifie facilement que $P(1)=P(2)=0$.La division euclidienne de $P(X)$ par $(X-1)(X-2)=X^2-3X+2$ donne\r\n$$X^4-4X^3+4X^2+X-2=(X^2-X-1)(X^2-3X+2).$$On a \r\n$$x^4-x^3+x-2=0\\iff (x^2-x-1)=0\\textrm{ ou }x^2-3x+2=0.$$\r\nLes solutions de $x^2-3x+2=0$ sont $x=1$ et $x=2$. Quant aux solutions\r\nde $x^2-x-1=0$, après un calcul du discriminant, on trouve \r\n$x_1=\\frac{1+\\sqrt 5}2$ et $x_2=\\frac{1-\\sqrt 5}2$. Les racines de $P$ sont donc \r\n$1$, $2$, $\\frac{1+\\sqrt 5}2$ et $\\frac{1-\\sqrt 5}2$.",
+    "lang": "french"
+}

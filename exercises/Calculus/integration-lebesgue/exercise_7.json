@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(X,\\mathcal B,\\mu)$ un espace mesuré, et soit $f$ une fonction intégrable. Démontrer la propriété suivante :\r\n$$\\forall\\veps>0,\\ \\exists\\delta>0,\\  \\forall A\\in\\mathcal B,\\ \\mu(A)<\\delta\\implies \\int_A |f|d\\mu<\\veps.$$",
+    "hint": "Considérer $A_M=\\{x;\\ |f(x)|\\leq M\\}$ et $B_M=\\{x;\\ |f(x)|> M\\}$. Séparer $A$ en $A\\cap A_M$ et $A\\cap B_M$.",
+    "solution": "Pour $M>0$, on pose $A_M=\\{x;\\ |f(x)|\\leq M\\}$ et $B_M=\\{x;\\ |f(x)|> M\\}$. Pour tout $x\\in X$, on a \r\n$|\\mathbf 1_{A_M}(x)f(x)|\\to |f(x)|$ quand $M\\to+\\infty$ et $|\\mathbf 1_{A_M}(x)f(x)|\\leq|f(x)|$. Le théorème de convergence dominée assure donc que\r\n$$\\int_{A_M}|f(x)|d\\mu(x)\\xrightarrow{M\\to+\\infty}\\int |f(x)|d\\mu(x)\\implies \\int_{B_M}|f(x)|d\\mu(x)\\xrightarrow{M\\to+\\infty} 0.$$\r\nSoit maintenant $\\veps>0$. On fixe $M>0$ tel que \r\n$$\\int_{B_M}|f(x)|d\\mu(x)<\\veps/2.$$\r\nSoit ensuite $\\delta>0$ tel que $M\\delta<\\veps/2$. Pour tout $A\\in\\mathcal B$ tel que $\\mu(A)<\\delta$, on a \r\n$$\\int_A |f|d\\mu=\\int_{A\\cap A_M}|f|d\\mu+\\int_{A\\cap B_M}|f|d\\mu\\leq M\\mu(A)+\\int_{B_M}|f|d\\mu< \\veps/2+\\veps/2=\\veps.$$\r\nLe résultat est donc prouvé.",
+    "lang": "french"
+}

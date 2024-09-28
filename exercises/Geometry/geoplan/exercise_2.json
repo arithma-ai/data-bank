@@ -1,0 +1,6 @@
+{
+    "script": "Le plan étant muni d'un repère orthonormal, on considère les points $A(-1,1)$, \r\n$B(3,-1)$ et $C(1,4)$. Déterminer les coordonnées du point $H$, projeté orthogonal de $C$ sur \r\nla droite $(AB)$.",
+    "hint": "Déterminer l'équation de $(AB)$ et l'équation de la perpendiculaire à $(AB)$ passant par $C$.",
+    "solution": "On commence par déterminer l'équation de la droite $(AB)$. Le point $M(x,y)$ est élément de\r\n$(AB)$ si et seulement si \r\n$$\\det(\\overrightarrow{AB},\\overrightarrow{AM})=0\\iff 4(y-1)+2(x+1)=0\\iff x+2y-1=0.$$\r\nOn détermine ensuite l'équation de la perpendiculaire à $(AB)$ passant par $C$. Le point $M(x,y)$ appartient à \r\ncette droite si et seulement si \r\n$$\\overrightarrow{AB}\\cdot\\overrightarrow{CM}=0\\iff 4(x-1)-2(y-4)=0\\iff 2x-y+2=0.$$\r\nLe point $H$ est le point d'intersection de ces deux droites. On résoud le système et on trouve\r\n$H(-3/5,4/5)$.",
+    "lang": "french"
+}

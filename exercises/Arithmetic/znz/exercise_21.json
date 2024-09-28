@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1.$Soit $d$ un diviseur de $n$. On pose \r\n$$A_d=\\left\\{1\\leq k\\leq n;\\  k\\wedge n=d\\right\\}.$$\r\nQuel est le cardinal de $A_d$?En déduire que $n=\\sum_{d|n}\\phi(d).$",
+    "hint": "Écrire un élément de $A_d$ sous la forme $k=d\\times l$. Quelles sont les valeurs possibles pour $l$?Les ensembles $A_d$, $d|n$, forment une partition de $\\{1,\\dots,n\\}$.",
+    "solution": "Soit $k\\in A_d$. Alors $k$ s'écrit $d\\times l$, avec $l\\wedge n=1$ et $1\\leq ld\\leq n$ ce qui entraîne \r\n$1\\leq l\\leq\\frac nd$ (remarquons que $\\frac nd$ est entier). De plus, si $l\\wedge n=1$, on a aussi $l\\wedge\\frac nd=1$. Réciproquement, tout entier $k$ s'écrivant $d\\times l$\r\navec $1\\leq l\\leq \\frac nd$ et $l\\wedge \\frac nd=1$ est élément de $A_d$. On en déduit que\r\n$$\\textrm{card}(A_d)=\\phi\\left(\\frac nd\\right).$$Il est clair que les ensembles $A_d$, pour $d|n$, forment une partition de $\\{1,\\dots,n\\}$. Ainsi, on a\r\n$$n=\\sum_{d|n}\\textrm{card}(A_d)=\\sum_{d|n}\\phi\\left(\\frac nd\\right)=\\sum_{d|n}\\phi(d).$$\r\nPour obtenir la dernière inégalité, on a effectué le changement de variables $d'=n/d$.",
+    "lang": "french"
+}

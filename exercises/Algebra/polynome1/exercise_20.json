@@ -1,0 +1,6 @@
+{
+    "script": "En remarquant qu'il admet une racine double, décomposer le polynôme $T(X) = X^4+2X^2-8X+5$ en produit de polynômes irréductibles dans $\\mathbb R[X]$.",
+    "hint": "$1$ est racine double évidente. Factoriser par $(X-1)^2$.",
+    "solution": "En remarquant que $1$ est racine évidente de $T$ et $T'$ puis que $T''(1)\\ne 0$, on déduit que $(X-1)^2$ divise $T$. La division euclidienne de $T$ par $X^2-2X+1$ par exemple permet d'affirmer que : $T=(X-1)^2(X^2+2X+5)$. $T$ est bien décomposé  en produit de polynômes irréductibles sur $\\mathbb R$ car le discriminant de $X^2+2X+5$ est strictement négatif et $X-1$ est de degré $1$.",
+    "lang": "french"
+}

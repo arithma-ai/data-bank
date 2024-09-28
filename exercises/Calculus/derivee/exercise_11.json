@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que les courbes d'équation $y=x^2$ et $y=1/x$ admettent une unique tangente commune.",
+    "hint": "Écrire l'équation de la tangente à la première courbe au point d'abscisse $a$, et l'équation de la tangente\r\nà la deuxième courbe au point d'abscisse $b$. Quelle condition faut-il mettre sur $a$ et $b$ pour que\r\nles deux tangentes soient identiques?",
+    "solution": "Écrivons l'équation de la tangente à la courbe d'équation $y=x^2$ au point d'abscisse $a$ : il s'agit de \r\n$$y-a^2=2a(x-a)\\iff y=2ax-a^2.$$\r\nDe même, écrivons l'équation de la tangente à la courbe d'équation $y=1/x$ au point d'abscisse $b$ : il s'agit de\r\n$$y-\\frac 1b=-\\frac 1{b^2}(x-b)\\iff y=-\\frac 1{b^2}x+\\frac 2b.$$\r\nPour que les deux tangentes coincident, il faut que $a$ et $b$ vérifient\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\n2a&=&\\frac{-1}{b^2}\\\\\r\n-a^2&=&\\frac 2b.\r\n\\end{array}\\right.$$\r\nOn en déduit que $-8a=a^4$, ce qui donne $a=0$ ou $a=-2$. La solution $a=0$ est à exclure, car on ne peut pas déterminer\r\nde valeur correspondante pour $b$. Pour $a=-2$, on obtient $b=-1/2$, et on vérifie facilement que les tangentes en $a$ et en $b$ coincident.",
+    "lang": "french"
+}

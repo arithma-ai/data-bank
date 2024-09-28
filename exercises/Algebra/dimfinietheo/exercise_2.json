@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel de dimension finie, $F$ et $G$ deux sevs\r\nde $E$. Montrer que deux quelconques des trois propriétés suivantes entraînent la troisième :$F\\cap G=\\{0\\}$;$F+G=E$;$\\dim(F)+\\dim(G)=\\dim(E)$.",
+    "hint": "Tout repose sur la formule\r\n$\\dim(F+G)=\\dim(F)+\\dim(G)-\\dim(F\\cap G)$.",
+    "solution": "Tout repose sur la formule des quatre dimensions\r\n$$\\dim(F+G)=\\dim(F)+\\dim(G)-\\dim(F\\cap G)$$\r\net sur la propriété : si $H$ est un sev de $E$ tel que $\\dim(H)=\\dim(E)$, \r\nalors $H=E$.Si 1. et 2. sont vraies, alors \r\n$$\\dim(F+G)=\\dim(F)+\\dim(G)-\\dim(F\\cap G)=\\dim(F)+\\dim(G)$$\r\ntandis que $E=F+G$ implique\r\n$$\\dim(E)=\\dim(F)+\\dim(G).$$\r\n3. est donc vérifié.Si 1. et 3. sont vraies, alors \r\n$$\\dim(F+G)=\\dim(F)+\\dim(G)-\\dim(F\\cap G)=\\dim(E)-0=\\dim(E).$$\r\nAinsi, $F+G$ est un sev de $E$ de même dimension que $E$ : $F+G=E$.Si 2. et 3. sont vraies, alors\r\n$$\\dim(E)=\\dim(F+G)=\\dim(F)+\\dim(G)-\\dim(F\\cap G)=\\dim(E)-\\dim(F\\cap G).$$\r\nOn en déduit que $\\dim(F\\cap G)=0$ et donc que $F\\cap G=\\{0\\}$.",
+    "lang": "french"
+}

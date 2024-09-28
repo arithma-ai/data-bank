@@ -1,0 +1,6 @@
+{
+    "script": "Soit $D=\\left\\{(x,y)\\in \\mtr^2;\\ x\\geq 0,\\ y\\geq 0,\\frac{x^2}{a^2}+\\frac{y^2}{b^2}\\leq 1\\right\\}$. Calculer l'intégrale :\r\n$$J=\\int\\!\\int_D (2x^3-y)dxdy.$$",
+    "hint": "Utiliser le changement de variables $x=ar\\cos \\theta$ et $y=br\\sin\\theta$.",
+    "solution": "On utilise le changement de variables $x=ar\\cos \\theta$ et $y=br\\sin\\theta$, $0\\leq r\\leq 1$, $0\\leq\\theta\\leq \\pi/2$. La matrice jacobienne de ce changement de variables est donc :\r\n$$\\left(\r\n\\begin{array}{cc}\r\na\\cos\\theta&-ar\\sin\\theta\\\\\r\nb\\sin\\theta&br\\cos\\theta.\r\n\\end{array}\\right).$$\r\nLe déterminant jacobien vaut donc $abr$, et on a par la formule du changement de variables :\r\n\\begin{eqnarray*}\r\nJ&=&\\int_0^1\\int_0^{\\pi/2}(2a^3r^3\\cos^3\\theta-br\\sin\\theta)abr d\\theta dr\\\\\r\n&=&\\frac{4}{15}a^4b-\\frac{ab^2}{3}.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

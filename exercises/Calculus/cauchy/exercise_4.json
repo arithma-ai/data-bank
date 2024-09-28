@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\gamma$ l'ellipse défini par $\\gamma(t)=a\\cos t+ib\\sin t$,\r\npour $t\\in[0,2\\pi]$ et $a,b>0$. Montrer que $\\textrm{Ind}_\\gamma(0)=1$.",
+    "hint": "Construite une homotopie avec le cercle de centre $0$ et de rayon $a$.",
+    "solution": "On va construite une homotopie, dans $\\mathbb C^*$, entre le chemin $\\gamma$\r\net le cercle de centre $0$ et de rayon $a$. Comme on sait que celui-ci est d'indice 1 par rapport à 0\r\net que l'indice est invariant par homotopie, on obtiendra que $\\textrm{Ind}_\\gamma(0)=1$.\r\nL'idée est de déformer le cercle en ellipse, par exemple en posant\r\n$$F(u,t)=a\\cos(t)+i (u b+(1-u)a)\\sin (t),\\ 0\\leq u\\leq 1,\\ 0\\leq t\\leq 2\\pi.$$\r\nOn a $|F(u,t)|^2=a^2\\cos^2(t)+(ub+(1-u)a)^2\\sin^2(t)>0$\r\npuisque $a^2>0$ et $(ub+(1-u)a)^2>0$. $F$ est clairement continue.\r\nDe plus, $F(1,t)=\\gamma(t)$ et $F(0,t)=ae^{it}$. D'où le résultat.",
+    "lang": "french"
+}

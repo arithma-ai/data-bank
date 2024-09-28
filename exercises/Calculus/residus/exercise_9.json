@@ -1,0 +1,6 @@
+{
+    "script": "En utilisant le théorème des résidus, calculer\r\n$$I=\\int_0^{2\\pi}\\frac{dt}{a+\\sin t},\\ a>1.$$",
+    "hint": "Poser $z=e^{it}$ et écrire $\\sin t=\\frac{1}{2i}(z-\\frac 1z)$.",
+    "solution": "On pose $z=e^{it}$ de sorte que $\\sin(t)=\\frac{1}{2i}(z-\\frac 1z)$\r\net $dz=ie^{it}dt$ ce qui entraîne $dt=-iz^{-1}dz$. On a donc\r\n$$a+\\sin t=\\frac{z^2+2iaz-1}{2iz}$$\r\net \r\n$$I=\\int_\\Gamma \\frac{2iz}{z^2+2iaz-1}\\times (-iz^{-1})dz=\\int_\\Gamma\\frac{2}{z^2+2iaz-1}dz$$\r\noù $\\Gamma$ est le cercle unité, orienté positivement. L'équation $z^2+2iaz-1$ a\r\npour solutions $p=-ia+i\\sqrt{a^2-1}$ et $q=-ia-i\\sqrt{a^2-1}$. La seule située dans le disque\r\nunité est $p$. Comme $f(z)=\\frac{2}{(z-p)(z-q)}$, on a\r\n$$\\textrm{Res}(f,p)=\\frac{2}{p-q}=\\frac{1}{i\\sqrt{a^2-1}}.$$\r\nIl résulte alors immédiatement du théorème des résidus (en fait, de la formule de Cauchy...) que\r\n$$I=2i\\pi \\frac{1}{i\\sqrt{a^2-1}}=\\frac{2\\pi}{\\sqrt{a^2-1}}.$$",
+    "lang": "french"
+}

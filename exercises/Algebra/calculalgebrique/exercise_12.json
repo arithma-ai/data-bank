@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$ et $x_1,\\dots,x_n$ des réels vérifiant \r\n$$\\sum_{k=1}^n x_k=n\\textrm{ et }\\sum_{k=1}^n x_k^2=n.$$\r\nDémontrer que, pour tout $k$ dans $\\{1,\\dots,n\\}$, $x_k=1$.",
+    "hint": "Calculer $\\sum_{k=1}^n (1-x_k)^2$.",
+    "solution": "Calculons $\\sum_{k=1}^n (1-x_k)^2$ :\r\n$$\\sum_{k=1}^n (1-x_k)^2=\\sum_{k=1}^n 1-2\\sum_{k=1}^n x_k+\\sum_{k=1}^n x_k^2=n-2n+n=0.$$\r\nOr, une somme de réels positifs est nulle si et seulement si chacun des termes de la somme est nul. On en déduit le résultat demandé.",
+    "lang": "french"
+}

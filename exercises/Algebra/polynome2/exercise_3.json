@@ -1,0 +1,6 @@
+{
+    "script": "Soit $p$ un nombre premier et $n\\geq 1$ un entier non divisible par $p$.Démontrer que le polynôme $X^n-1$ est premier avec son polynôme dérivé sur $(\\mathbb Z/p\\mathbb Z)[X]$.En déduire que le polynôme $X^n-1$ ne possède pas de facteurs carrés sur $(\\mathbb Z/p\\mathbb Z)[X]$.",
+    "hint": "Prouver une identité de Bézout.",
+    "solution": "Notons $P(X)=X^n-1$ et $P'(X)=nX^{n-1}$. Alors \r\n$$X P'-nP=n.$$\r\nPuisque $n$ est premier avec $p$, c'est un élément inversible de $\\mathbb Z/p\\mathbb Z$ et on a prouvé une identité de Bézout entre $P$ et $P'$. Ainsi, $P$ et $P'$ sont premiers entre eux.Si $P$ se factorise en $P(X)=A(X)A(X)B(X)$, alors on aurait \r\n$$P'(X)=2A(X)A'(X)B(X)+A(X)A(X)B'(X)=A(X)\\big(2A'(X)B(X)+A(X)B'(X)\\big).$$\r\nAinsi, $A$ serait un facteur commun à $P$ et à $P'$, ce qui contredit le résultat de la question précédente.",
+    "lang": "french"
+}

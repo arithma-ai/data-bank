@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in\\mathcal M_n(\\mathbb C)$. Démontrer que \r\n$$\\textrm{Sp}(A)\\subset \\bigcup_{i=1}^n \\left\\{z\\in\\mathbb C: |z-a_{i,i}|\\leq \\sum_{j\\neq i}|a_{i,j}|\\right\\}.$$",
+    "hint": "Pour $x$ un vecteur propre associé à la valeur propre $\\lambda$, on pourra considérer $i$ tel que $|x_i|=\\max_{j=1}^n |x_j|$.",
+    "solution": "Soit $\\lambda$ une valeur propre de $A$ et soit $x\\neq 0$ un vecteur propre associé. Notons aussi $i$ tel que $|x_i|=\\max_{j=1}^n |x_j|$. Alors la $i$-ème ligne de la relation $AX=\\lambda X$ se lit \r\n$$\\sum_{j=1}^n a_{i,j}x_j=\\lambda x_i.$$\r\nCeci se réécrit encore \r\n$$(\\lambda-a_{i,i})x_i=\\sum_{j\\neq i} a_{i,j}x_j.$$\r\nOn divise par $x_i$ qui est non nul, et on trouve\r\n$$\\lambda-a_{i,i}=\\sum_{j\\neq i}a_{i,j}\\frac{x_j}{x_i}.$$\r\nOn prend le module de cette égalité. En utilisant l'inégalité triangulaire puis l'inégalité $|x_j|\\leq |x_i|$ pour tout $j\\neq i$, on trouve\r\n\\begin{align*}\r\n|\\lambda-a_{i,i}|&\\leq \\sum_{j\\neq i}|a_{i,j}|\\cdot \\left|\\frac{x_j}{x_i}\\right|\\\\\r\n&\\leq \\sum_{j\\neq i}|a_{i,j}|.\r\n\\end{align*}\r\nAinsi, on a prouvé\r\n$$\\lambda\\in  \\left\\{z\\in\\mathbb C: |z-a_{i,i}|\\leq \\sum_{j\\neq i}|a_{i,j}|\\right\\},$$ \r\nce qui est le résultat demandé.",
+    "lang": "french"
+}

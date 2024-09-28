@@ -1,0 +1,6 @@
+{
+    "script": "La relation d'orthogonalité entre deux droites du plan est-elle symétrique? réflexive? transitive?",
+    "hint": "",
+    "solution": "La relation n'est pas réflexive : une droite n'est pas orthogonale à elle-même.La relation est symétrique : si $D$ est orthogonale à $D'$, alors $D'$ est orthgonale à $D$.La relation n'est pas transitive : si $D$ est orthogonale à $D'$ et si $D'$ est orthogonale à $D''$, alors $D$ et $D''$ ne sont pas orthogonales (elles sont parallèles ou confondues).",
+    "lang": "french"
+}

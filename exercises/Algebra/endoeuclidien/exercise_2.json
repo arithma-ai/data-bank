@@ -1,0 +1,6 @@
+{
+    "script": "Soit $u:E\\to E$ tel que, pour tous $x,y\\in E$, on a $\\langle u(x),y\\rangle=\\langle x,u(y)\\rangle$. Démontrer que $u$ est linéaire.",
+    "hint": "Calculer $\\langle u(x+y)-u(x)-u(y),z\\rangle$.",
+    "solution": "Soient $x,y\\in E$. Pour démontrer que $u(x+y)=u(x)+u(y)$, il suffit de démontrer que le vecteur $u(x+y)-u(x)-u(y)$ est orthogonal à tous les vecteurs de l'espace. Prenons donc $z\\in E$. Alors on a \r\n\\begin{eqnarray*}\r\n\\langle u(x+y)-u(x)-u(y),z\\rangle&=&\\langle u(x+y),z\\rangle-\\langle u(x),z\\rangle-\\langle u(y),z\\rangle\\\\\r\n&=&\\langle x+y,u(z)\\rangle-\\langle x,u(z)\\rangle-\\langle y,u(z)\\rangle\\\\\r\n&=&0.\r\n\\end{eqnarray*}\r\nAvec une méthode tout à fait similaire, on prouve que $u(\\lambda x)=\\lambda u(x)$ pour tout $\\lambda\\in\\mathbb R$, et donc $u$ est bien linéaire.",
+    "lang": "french"
+}

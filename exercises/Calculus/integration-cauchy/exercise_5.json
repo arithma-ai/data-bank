@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,1]\\to\\mathbb R$ une fonction continue. Montrer que si $\\int_0^1 f(t)dt=\\frac 12$, alors $f$ admet au moins un point fixe dans $[0,1]$.",
+    "hint": "$\\frac 12=\\int_0^1 x dx$.",
+    "solution": "La clé est de remarquer que $\\frac 12=\\int_0^1 x dx$.  L'hypothèse nous dit donc que \r\n$$\\int_0^1 \\big( f(x)-x\\big)dx=0.$$\r\nCeci n'est pas possible si $x\\mapsto f(x)-x$, qui est une fonction continue, est strictement positive ou strictement négative sur $[0,1]$. Ainsi, cette fonction doit s'annuler sur $[0,1]$ et la fonction doit avoir un point fixe.",
+    "lang": "french"
+}

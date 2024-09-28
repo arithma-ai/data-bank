@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel et $u,v\\in\\mathcal L(E)$. On suppose que $u\\circ v=v\\circ u$. Démontrer que $\\textrm{ker}(u)$ et $\\textrm{Im}(u)$ sont stables par $v$, c'est-à-dire que\r\n$$v(\\ker (u))\\subset \\ker (u)\\textrm{ et }v(\\textrm{Im}(u))\\subset \\textrm{Im}(u).$$",
+    "hint": "",
+    "solution": "Prenons $x\\in \\ker (u)$. Alors $u(x)=0$, donc $v(u(x))=0$, donc $u(v(x))=0$. Ainsi, $v(x)\\in \\ker (u)$.Prenons ensuite $y\\in\\textrm{Im}(u)$. Alors il existe $x\\in E$ tel que $y=u(x)$. Mais alors \r\n$$v(y)=v(u(x))=u(v(x))\\in\\textrm{Im}(u).$$\r\nC'est bien que $v(\\textrm{Im}(u))\\subset \\textrm{Im}(u).$",
+    "lang": "french"
+}

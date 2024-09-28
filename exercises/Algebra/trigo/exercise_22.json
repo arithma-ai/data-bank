@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre dans $]-\\pi;\\pi]$ l'inéquation suivante : $\\tan(x)\\geq 2\\sin(x)$.",
+    "hint": "Attention! On ne peut pas simplifier par $\\sin x$.",
+    "solution": "Pour ne pas se tromper en simplifiant par $\\sin x$, on passe tout à gauche et on factorise : \r\n$$\\tan(x)-2\\sin(x)=\\sin(x)\\left(\\frac{1}{\\cos x}-2\\right)=\\sin(x)\\frac{1-2\\cos x}{\\cos x}.$$\r\nOn conclut par un tableau de signes.On trouve donc que l'ensemble des solutions est \r\n$$\\left]-\\pi,-\\frac\\pi2\\right[\\cup \\left[-\\frac{\\pi}3;0\\right]\\cup\\left[\\frac{\\pi}3,\\frac{\\pi}2\\right[\\cup\\{\\pi\\}.$$\r\nRemarquons qu'on aurait pu simplement étudier le signe de $\\sin(x)\\frac{1-2\\cos x}{\\cos x}$ sur $[0,\\pi]$ puis conclure par imparité de cette fonction.",
+    "lang": "french"
+}

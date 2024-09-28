@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les limites suivantes si elles existent :\r\n$$\\begin{array}{lll}\r\n\\mathbf{1.} \\displaystyle \\lim_{x\\to+\\infty} x\\left( 5- \\frac{4}{(x-3)^2} \\right) & \\quad & \\displaystyle \\lim_{x\\to 0^-} \\frac{4\\ln(x+\\frac12)}x\r\n\\end{array}\r\n$$",
+    "hint": "Utiliser les théorèmes d'opérations sur les limites. Il n'y a normalement pas de formes indéterminées.",
+    "solution": "On a d'une part \r\n$$\\lim_{x\\to+\\infty}\\frac 4{(x-3)^2}=0$$\r\nd'où \r\n$$\\lim_{x\\to +\\infty}5-\\frac 4{(x-3)^2}=5$$\r\n(théorème sur les sommes de limites). Puisque $\\lim_{x\\to+\\infty}x=+\\infty$, on en déduit (théorème sur les produits de limites) que \r\n$$\\lim_{x\\to+\\infty}x\\left( 5- \\frac{4}{(x-3)^2} \\right)=+\\infty.$$On a \r\n$$\\lim_{x\\to 0^-} \\ln\\left(x+\\frac 12\\right)=\\ln(1/2)<0$$\r\npuisque $1/2<1$ et que la fonction logarithme est strictement croissante. D'autre part, \r\n$$\\lim_{x\\to 0^-}\\frac{4}{x}=-\\infty.$$\r\nOn en déduit (théorème sur les produits de limites) que \r\n$$\\lim_{x\\to 0^-} \\frac{4\\ln(x+\\frac12)}x=+\\infty.$$",
+    "lang": "french"
+}

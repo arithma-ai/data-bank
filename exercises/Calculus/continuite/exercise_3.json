@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ définie par $f(x)=\\lfloor x\\rfloor +\\sqrt{x-\\lfloor x\\rfloor }$.\r\nÉtudier la continuité de $f$ sur $\\mathbb R$.",
+    "hint": "Utiliser que $f$ est \"presque\" $1$-périodique, puis étudier la continuité en 0.",
+    "solution": "On remarque d'abord que, puisque $\\lfloor x+1\\rfloor =\\lfloor x\\rfloor+1$, on a $f(x+1)=f(x)+1$. De plus, par composée et somme de fonctions continues,\r\n$f$ est clairement continue sur $\\mathbb R\\backslash \\mathbb Z$. \r\nIl suffit donc d'étudier la continuité de  $f$ en $0,$ la relation $f(x+1)=f(x)+1$ donnant alors la continuité sur $\\mathbb Z.$ On a d'une part pour $x\\in[0,1[$,\r\n$$\\lfloor x\\rfloor +\\sqrt{x-\\lfloor x\\rfloor }=\\sqrt x$$\r\nce qui entraîne\r\n$$\\lim_{x\\to 0^+}f(x)=\\lim_{x\\to 0^+}\\sqrt{x}=0.$$\r\nD'autre part, pour $x\\in ]-1,0[$, on a \r\n$$\\lfloor x\\rfloor +\\sqrt{x-\\lfloor x\\rfloor }=-1+\\sqrt{x+1}.$$\r\nOn en déduit\r\n$$\\lim_{x\\to 0^-}f(x)=-1+\\sqrt 1=0.$$\r\nLa fonction $f$ admet des limites à gauche et à droite en 0 qui coïncident. Elle est donc continue en 0, et par suite sur $\\mathbb R$ tout entier.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "On considère une suite de lancers de pile ou face indépendants, la probabilité d'obtenir pile étant $p\\in]0,1[$. On note $X$ (respectivement $Y$) le rang du premier (respectivement du deuxième) pile.Déterminer la loi du couple $(X,Y)$.En déduire la loi de $Y$.",
+    "hint": "Écrire l'événement $(X=i,Y=j)$ en fonction des résultats des lancers.Il y a une méthode générale pour déterminer une loi marginale connaissant la loi du couple.",
+    "solution": "$(X,Y)$ prend ses valeurs dans $(\\mathbb N^*)^2$. Soit $i,j\\in\\mathbb N^*$. Alors, si $i\\geq j,$ on a $(X=i)\\cap (Y=j)=\\varnothing$ et si $i<j$, l'événement $(X=i)\\cap (Y=j)$ est l'événement \r\n$$F_1\\cap\\cdots\\cap F_{i-1}\\cap P_i\\cap F_{i+1}\\cap\\cdots\\cap F_{j-1}\\cap P_j,$$\r\noù $F_k$ (respectivement $P_k$) désigne l'événement obtenir face (respectivement pile) au $k$-ème lancer. On a donc \r\n$$P((X,Y)=(i,j))=\\left\\{\r\n\\begin{array}{ll}\r\n0&\\textrm{ si }i\\geq j\\\\\r\np^2(1-p)^{j-1}&\\textrm{ si }i<j.\r\n\\end{array}\\right.\r\n$$La variable aléatoire $Y$ est à valeurs dans $\\{2,3,\\dots\\}$. Pour $j\\geq 2,$ on a\r\n$$P(Y=j)=\\sum_{i=1}^{+\\infty}P(X=i,Y=j)=\\sum_{i=1}^{j-1}P(X=i,Y=j)=\\sum_{i=1}^{j-1}p^2(1-p)^{j-2}=(j-1)p^2(1-p)^{j-2}.$$",
+    "lang": "french"
+}

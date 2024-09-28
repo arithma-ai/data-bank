@@ -1,0 +1,6 @@
+{
+    "script": "Soit $y$ la solution de l'équation différentielle $y'(x)=(x+1)y(x)+e^x$ telle que $y(0)=-1$. Déterminer, suivant la valeur de $a\\in\\mathbb R$, $\\lim_{x\\to 0}\\frac{y(x)+1}{x^a}$.",
+    "hint": "Utiliser la formule de Taylor-Young pour obtenir un développement limité de $y$ en $0$.",
+    "solution": "Il ne faut surtout pas tenter de résoudre l'équation différentielle. Ici, on a juste besoin des valeurs de $y^{(k)}(0)$ et de la formule de Taylor-Young pour obtenir un développement limité de $y$ en $0$. On s'arrête au premier $k$ tel que $y^{(k)}(0)\\neq 0$, ceci afin de déterminer un équivalent de $y(x)+1$. L'équation différentielle nous donne immédiatement $y'(0)=0$. De plus,\r\n$$y''(x)=y(x)+(x+1)y'(x)+e^x$$\r\n$$y^{(3)}(x)=2y'(x)+(x+1)y''(x)+e^x$$\r\nde sorte que $y''(0)=0$ et $y^{(3)}(0)=1$. On en déduit que \r\n$$y(x)=-1+\\frac{x^3}6+o(x^3)$$\r\net donc que\r\n$$\\frac{y(x)+1}{x^a}\\sim_0 +\\frac{x^{3-a}}6.$$\r\nAinsi, la limite recherchée est$+\\infty$ si $a>3$;$1/6$ si $a=3$;$0$ si $a<3$.",
+    "lang": "french"
+}

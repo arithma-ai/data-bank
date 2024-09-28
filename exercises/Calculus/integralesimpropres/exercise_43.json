@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,+\\infty[\\to\\mathbb R$ une fonction de classe $\\mathcal C^1$ telle que $f$ et $f'$ soient intégrables sur $[0,+\\infty[$. Démontrer que $f$ tend vers $0$ en $+\\infty$.",
+    "hint": "Démontrer d'abord que $f$ admet une limite en l'infini en l'écrivant comme primitive de $f'$.",
+    "solution": "On sait que $f(x)=\\int_0^x f'(t)dt+f(0)$. Puisque $f'$ est intégrable, $f$ admet une limite $\\ell\\in\\mathbb R$ en l'infini. Mais cette limite ne peut être que nulle. En effet, si $\\ell\\neq 0$, alors $f\\sim_{+\\infty}\\ell$ et la fonction constante égale à $\\ell$ n'est pas intégrable sur $[0,+\\infty[$. Par comparaison, $f$ ne serait pas intégrable, ce qui est contraire aux hypothèses. Donc on a prouvé que $f$ tend vers $0$ en $+\\infty$.",
+    "lang": "french"
+}

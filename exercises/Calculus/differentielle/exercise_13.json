@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(E,\\|\\cdot\\|)$ un espace vectoriel normé et $N$ une norme sur $E$. Soit $x\\in E$, $x\\neq 0$, tel que $N$ est différentiable en $x$. Démontrer que $N$ est différentiable en $\\lambda x$ pour tout $\\lambda\\in\\mathbb R^*.$",
+    "hint": "Écrire $$N(x+h)=N(x)+L(h)+o(\\|h\\|)$$\r\npuis utiliser ceci et les propriétés de la norme pour obtenir un développement limité de $N(\\lambda x+h).$",
+    "solution": "Puisque $N$ est différentiable en $x,$ il existe une application linéaire $L:E\\to E$ telle que, pour tout $h\\in E,$ \r\n$$N(x+h)=N(x)+L(h)+o(\\|h\\|).$$\r\nOn veut obtenir un développement limité du même type en $\\lambda x.$ Pour cela, on écrit\r\n\\begin{align*}\r\nN(\\lambda x+h)&=N\\left(\\lambda\\left(x+\\frac{h}{\\lambda}\\right)\\right)\\\\\r\n&=|\\lambda| N\\left(x+\\frac h\\lambda\\right)\\\\\r\n&=|\\lambda| N(x)+|\\lambda|L\\left(\\frac h\\lambda\\right)+|\\lambda|o\\left(\\left\\|\\frac h\\lambda\\right\\|\\right)\\\\\r\n&=N(\\lambda x)+\\frac {|\\lambda|}\\lambda L(h)+o(\\|h\\|)\r\n\\end{align*} \r\nCeci prouve que $N$ est différentiable en $\\lambda x$ et que \r\n$$dN(\\lambda x)=\\frac{|\\lambda|}{\\lambda}dN(x).$$\r\nEn particulier, si $\\lambda>0$, $dN(\\lambda x)=dN(x).$",
+    "lang": "french"
+}

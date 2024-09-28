@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire positive admettant une densité $f$. On suppose que $X$ admet une espérance finie. On note $F$ la fonction de répartition de $X$. Démontrer que \r\n$$E(X)=\\int_0^{+\\infty}\\big(1-F(x)\\big)dx.$$",
+    "hint": "Faire une intégration par parties ou utiliser le théorème de Fubini.",
+    "solution": "Une preuve facile utilise le théorème de Fubini : on commence par remarquer que \r\n$$1-F(x)=P(X\\geq x)=\\int_x^{+\\infty} f(t)dt$$\r\net donc\r\n$$\\int_0^{+\\infty}(1-F(x))dx=\\int_0^{+\\infty}\\left(\\int_x^{+\\infty}f(t)dt\\right)dx=\\int_0^{+\\infty}\\left(\\int_{0}^t dx\\right)f(t)dt=\\int_0^{+\\infty}tf(t)dt$$\r\nle changement dans l'ordre d'intégration étant justifié par le fait que tout est positif.On peut aussi procéder par intégration par parties : en écrivant $1-F(x)=1\\times(1-F(x))$, on a \r\n$$\\int_0^{+\\infty}(1-F(x))dx=[x(1-F(x)]_0^{+\\infty}+\\int_0^{+\\infty}xf(x)dx.$$\r\nPour conclure, il suffit de prouver que $\\lim_{x\\to+\\infty}x(1-F(x))=0$. Mais \r\n$$0\\leq x(1-F(x))=x\\int_x^{+\\infty}f(u)du\\leq \\int_x^{+\\infty}uf(u)du$$\r\net le membre de droite tend vers $0$ car $X$ admet une espérance.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Un point $M$ d'une hyperbole $\\mathcal H$ est projeté orthogonalement en les points $H$ et $H'$ sur\r\nles axes de $\\mathcal H$. Prouver que le produit $MH\\times MH'$ est constant.",
+    "hint": "Travailler dans un repère où l'équation de l'hyperbole est réduite, et faire les calculs...",
+    "solution": "Dans un repère orthonormée, l'équation réduite de l'hyperbole\r\nest $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$. Les axes de l'hyperbole sont $(D)$ d'équation $y=-\\frac{b}ax$ soit $bx+ay=0$ et\r\n$(D')$ d'équation $y=\\frac ba x$, soit $-bx+ay=0$. Soit $M(x,y)$ un point de $\\mathcal H$. Le produit $MH\\times MH'$ est encore égal à \r\n$$\\textrm{dist}(M,(D))\\times \\textrm{dist}(M,(D')).$$\r\nOr, on a des formules pour calculer ces distances :\r\n$$\\textrm{dist}(M,(D))=\\frac{|bx+ay|}{\\sqrt{a^2+b^2}}\\textrm{ et }\\textrm{dist}(M,(D'))=\\frac{|-bx+ay|}{\\sqrt{a^2+b^2}}.$$\r\nOn en déduit que\r\n$$MH\\times MH'=\\frac{|a^2y^2-b^2x^2|}{a^2+b^2}.$$\r\nOn conclut en utilisant que $M$ est un point de l'hyperbole, et donc que \r\n$$b^2x^2-a^2y^2=a^2b^2.$$\r\nOn a donc prouvé que, pour tout point $M$ de l'hyperbole,\r\n$$MH\\times MH'=\\frac{a^2b^2}{a^2+b^2}.$$",
+    "lang": "french"
+}

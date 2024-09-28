@@ -1,0 +1,6 @@
+{
+    "script": "Simplifier les expressions suivantes :\r\n$$\\begin{array}{lll}\r\n\\displaystyle \\mathbf{1.}\\ x^{\\frac{\\ln(\\ln x)}{\\ln x}};&\\quad&\\displaystyle\\mathbf{2.}\\ \\log_x\\left(\\log_x x^{x^y}\\right)\\\\\r\n\\end{array}$$",
+    "hint": "Passer à la forme exponentielle!",
+    "solution": "On écrit \r\n$$x^{\\frac{\\ln(\\ln x)}{\\ln x}}=\\exp\\left(\\frac{\\ln(\\ln x)}{\\ln x}\\ln x\\right)=\\exp\\big(\\ln (\\ln x)\\big)=\\ln x.$$On écrit \r\n$$\\log_x\\left(\\log_x x^{x^y}\\right)=\\frac{\\ln \\left(x^y\\frac{\\ln x}{\\ln x}\\right)}{\\ln x}=y.$$",
+    "lang": "french"
+}

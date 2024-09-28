@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer la valeur de $\\arcsin(-1/2)$, $\\arccos(-\\sqrt 2/2)$ et $\\arctan(\\sqrt 3)$.",
+    "hint": "Il faut trouver $x\\in [-\\pi/2,\\pi/2]$ tel que $\\sin(x)=-1/2$.",
+    "solution": "Il faut trouver $x\\in [-\\pi/2,\\pi/2]$ tel que $\\sin(x)=-1/2$. La valeur de $\\arcsin(-1/2)$ est donc $-\\pi/6$. Il faut ensuite trouver $x\\in [0,\\pi]$ tel que $\\cos(x)=-\\sqrt 2/2$. On trouve donc $\\arccos(-\\sqrt 2/2)=3\\pi/4$. Il faut enfin trouver $x\\in ]-\\pi/2,\\pi/2[$ tel que $\\tan(x)=\\sqrt 3$. On trouve $\\arctan(\\sqrt 3)=\\pi/3$.",
+    "lang": "french"
+}

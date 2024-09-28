@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$ et soit $a_0,\\dots,a_n$ des réels distincts deux à deux. Montrer que l'application $\\varphi:\\mathbb R_n[X]\\times\\mathbb R_n[X]\\to\\mathbb R$\r\ndéfinie par $\\varphi(P,Q)=\\sum_{i=0}^n P(a_i)Q(a_i)$ définit un produit scalaire sur $\\mathbb R_n[X]$.",
+    "hint": "Un polynôme de degré inférieur ou égal à $n$ admettant au moins $(n+1)$ racines est le polynôme nul.",
+    "solution": "Il est d'une part très facile (et laisser au lecteur) de vérifier que $\\varphi$ est une forme bilinéaire symétrique\r\n(ie $\\varphi(P_1+\\lambda P_2,Q)=\\varphi(P_1,Q)+\\lambda\\varphi(P_2,Q)$ et $\\varphi(P,Q)=\\varphi(Q,P)$). D'autre part,\r\npour tout $P\\in\\mathbb R_n[X]$, on a $\\varphi(P,P)=\\sum_{i=0}^n (P(a_i))^2$. Cette quantité est positive ou nulle.\r\nDe plus, si elle est nulle, c'est-à-dire si $\\varphi(P,P)=0$, alors comme on considère la somme de $n+1$ quantités positives ou nulles, chacune de ces\r\nquantités doit être nulle, et donc, pour tout $i=0,\\dots,n$, on a $P(a_i)=0$. Ainsi, $P$ est un polynôme de degré inférieur\r\nou égal à $n$ admettant au moins $n+1$ racines. Ainsi, $P$ est le polynôme nul.\r\nOn a donc démontré que $\\varphi$ est une forme bilinéaire, symétrique, et définie positive : c'est un produit scalaire sur $\\mathbb R_n[X]$.",
+    "lang": "french"
+}

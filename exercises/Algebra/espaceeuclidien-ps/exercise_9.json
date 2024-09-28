@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que pour tous $x_1,\\dots,x_n\\in\\mathbb R,$\r\n$$\\left(\\sum_{k=1}^n \\frac{x_k}{2^k}\\right)^2\\leq\\frac 13\\sum_{k=1}^n x_k^2.$$",
+    "hint": "Il suffit d'appliquer l'inégalité de Cauchy-Schwarz dans $\\mathbb R^n$ muni de son produit scalaire canonique, avec $x=(x_1,\\dots,x_n)$.",
+    "solution": "Il suffit d'appliquer l'inégalité de Cauchy-Schwarz dans $\\mathbb R^n$ muni de son produit scalaire canonique, avec $x=(x_1,\\dots,x_n)$ et $y=(2^{-1},\\cdots,2^{-n})$. Il vient\r\n\\begin{align*}\r\n\\left|\r\n\\sum_{k=1}^n \\frac{x_k}{2^k}\\right|&\\leq \\left(\\sum_{k=1}^n \\frac{1}{2^{2k}}\\right)^{1/2}\\left(\\sum_{k=1}^n x_k^2\\right)^{1/2}\r\n\\end{align*}\r\nPar croissance de la fonction carrée sur $\\mathbb R_+$, et en utilisant la formule donnant la somme d'une suite géométrique, on trouve\r\n\\begin{align*}\r\n\\left(\\sum_{k=1}^n \\frac{x_k}{2^k}\\right)^2\r\n&\\leq \\frac{\\frac 14-\\frac{1}{4^{n+1}}}{1-\\frac 14}\\left(\\sum_{k=1}^n x_k^2\\right)\\\\\r\n&\\leq \\frac{\\frac 14}{\\frac 34}\\left(\\sum_{k=1}^n x_k^2\\right)\\\\\r\n&\\leq \\frac 13\\left(\\sum_{k=1}^n x_k^2\\right).\r\n\\end{align*}",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$, $a_0,\\dots,a_n$ des nombres réels deux à deux distincts. Pour tout $i=0,\\dots,n$, on pose \r\n$$L_i(X)=\\prod_{j\\neq i}\\frac{X-a_j}{a_i-a_j}.$$Démontrer que $(L_0,\\dots,L_n)$ est une base de $\\mathbb R_n[X]$.Déterminer sa base duale.",
+    "hint": "Utiliser $L_i(a_j)=\\delta_{i,j}$.Utiliser $L_i(a_j)=\\delta_{i,j}$...",
+    "solution": "La famille comportant $(n+1)$ éléments, et l'espace étant de dimension $(n+1)$, il suffit de démontrer qu'elle est libre. Soit $\\lambda_0,\\dots,\\lambda_n$ des réels tels que $\\lambda_0L_0+\\cdots+\\lambda_n L_n=0$. \r\nAppliquons cette égalité en $a_i$, pour $i=0,\\dots,n$. On trouve\r\n$$(\\lambda_0L_0+\\cdots+\\lambda_n L_n)(a_i)=\\lambda_i=0$$\r\npuisque $L_j(a_i)=\\delta_{i,j}$. La famille est bien libre.On utilise à nouveau que $L_j(a_i)=\\delta_{i,j}$. Ceci incite à poser, pour $i=0,\\dots,n$, $\\phi_i(P)=P(a_i)$. Alors, pour tous $i,j=1,\\dots,n$, $\\phi_i(L_j)=\\delta_{i,j}$, ce qui prouve que $(\\phi_0,\\dots,\\phi_n)$ est la base duale de $(L_0,\\dots,L_n)$.",
+    "lang": "french"
+}

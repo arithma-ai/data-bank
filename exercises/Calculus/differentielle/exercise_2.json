@@ -1,0 +1,6 @@
+{
+    "script": "Justifier que les fonctions suivantes sont différentiables, et calculer leur matrice jacobienne.$\\dis f(x,y,z)=\\left(\\frac{1}{2}(x^2-z^2),\\sin x\\sin y\\right).$$\\dis f(x,y)=\\left(xy,\\frac{1}{2}x^2+y,\\ln(1+x^2)\\right).$",
+    "hint": "",
+    "solution": "Il suffit de vérifier que les fonctions coordonnées sont différentiables, et elles sont clairement $C^\\infty$. On a respectivement$$J_{(x,y,z)}f=\\left(\r\n\\begin{array}{ccc}\r\nx&0&-z\\\\\r\n\\cos x\\sin y&\\sin x\\cos y&0\r\n\\end{array}\\right).$$$$J_{(x,y)}f=\\left(\r\n\\begin{array}{cc}\r\ny&x\\\\\r\nx&1\\\\\r\n\\frac{2x}{1+x^2}&0\r\n\\end{array}\\right).$$",
+    "lang": "french"
+}

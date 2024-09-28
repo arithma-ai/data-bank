@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n>0$. Démontrer que si $n$ est le carré d'un entier, alors $2n$ n'est pas le carré d'un entier.",
+    "hint": "Raisonner par l'absurde et utiliser le fait que $\\sqrt 2$ est irrationnel.",
+    "solution": "Raisonnons par l'absurde. On suppose donc que $n$ est le carré d'un entier, et que $2n$ est lui aussi le carré d'un entier. Alors $n$ s'écrit $n=p^2$ et $2n$ s'écrit $2n=q^2$. Alors, en faisant le quotient, on a $2=\\frac{q^2}{p^2}$ et en prenant la racine carrée, $\\sqrt 2=\\frac{q}{p}$. Or $\\sqrt 2$ est irrationnel, on a une contradiction!",
+    "lang": "french"
+}

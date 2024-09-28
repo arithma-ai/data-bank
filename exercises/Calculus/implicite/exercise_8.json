@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$. Démontre qu'il existe $\\alpha>0$ tel que, pour tout $A\\in\\mathcal M_n(\\mathbb R)$ avec $\\|A-I_n\\|<\\alpha$,\r\nil existe $B\\in\\mathcal M_n(\\mathbb R)$ tel que $A=\\exp(B)$.",
+    "hint": "Utiliser $\\phi:\\mathcal M_n(\\mathbb R)\\to\\mathcal M_n(\\mathbb R),\\ M\\mapsto \\exp(M).$",
+    "solution": "Soit $\\phi:\\mathcal M_n(\\mathbb R)\\to\\mathcal M_n(\\mathbb R),\\ M\\mapsto \\exp(M),$ qui vérifie $\\phi(0)=I_n$.\r\nAlors $\\phi$ est de classe $\\mathcal C^1$. De plus, \r\n$$\\phi(H)=\\sum_{n\\geq 0}\\frac{H^n}{n!}=I_n+H+o(\\|H\\|).$$\r\nAinsi, $d\\phi(0)=\\textrm{Id}_{\\mathcal M_n(\\mathbb R)}$ et donc $d\\phi(0)$ est\r\nun isomorphisme de $\\mathcal M_n(\\mathbb R)$. On déduit du théorème d'inversion locale \r\nl'existence d'un voisinage ouvert $U$ de $0$ et d'un voisinage ouvert $V$ de $I_n$ tels que\r\n$\\phi$ réalise une bijection de $U$ sur $V$. Ceci prouve le résultat demandé.",
+    "lang": "french"
+}

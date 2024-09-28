@@ -1,0 +1,6 @@
+{
+    "script": "Décomposer en éléments simples la fraction rationnelle $\\displaystyle\\frac{1}{X(X+1)(X+2)}$.En déduire la limite de la suite $(S_n)$ suivante : $\\displaystyle S_n=\\sum_{k=1}^n \\frac{1}{k(k+1)(k+2)}$.",
+    "hint": "Réindexer les sommes, beaucoup de termes s'éliminent!",
+    "solution": "On sait que la fraction rationnelle admet une décomposition en éléments simples de la forme\r\n$$\\frac{a}{X}+\\frac{b}{X+1}+\\frac{c}{X+2}.$$\r\nPar les techniques usuelles (identification, multiplication par $X$ et faire $X=0$,...), on trouve\r\n$$\\frac{1}{X(X+1)(X+2)}=\\frac{1/2}X-\\frac{1}{X+1}+\\frac{1/2}{X+2}.$$Utilisant la décomposition en éléments simples précédente, il vient \r\n\\begin{eqnarray*}\r\nS_n&=&\\sum_{k=1}^n \\frac{1/2}{k}-\\sum_{k=1}^n\\frac{1}{k+1}+\\sum_{k=1}^n \\frac{1/2}{k+2}\\\\\r\n&=&\\sum_{k=1}^n \\frac{1/2}{k}-\\sum_{k=2}^{n+1}\\frac{1}{k}+\\sum_{k=3}^{n+2} \\frac{1/2}{k}\\\\\r\n&=&\\frac12+\\frac14-\\frac{1}2-\\frac{1}{n+1}+\\frac{1/2}{n+1}+\\frac{1/2}{n+2}.\r\n\\end{eqnarray*}\r\nOn en déduit immédiatement que $(S_n)$ converge vers $\\frac14$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $p\\in\\mathbb N$.Vérifier que $\\arctan(p+1)-\\arctan p=\\arctan\\left(\\frac{1}{p^2+p+1}\\right)$.Déterminer la limite de $S_n=\\sum_{p=0}^n\\arctan\\left(\\frac1{p^2+p+1}\\right)$.",
+    "hint": "Prendre la tangente et vérifier qu'on est dans le bon intervalle!C'est une somme télescopique!",
+    "solution": "On a $0\\leq \\arctan p\\leq \\arctan(p+1)$ et $\\arctan(p+1)<\\pi/2$. On en déduit que\r\n$\\arctan(p+1)-\\arctan p\\in[0,\\pi/2[$. De même, puisque $\\frac{1}{p^2+p+1}\\geq 0$, on a \r\n$\\arctan\\left(\\frac{1}{p^2+p+1}\\right)\\in[0,\\pi/2[$. Pour prouver que ces deux nombres sont égaux, il suffit\r\ndonc de prouver qu'ils ont la même tangente. Mais on a\r\n$$\\tan\\left(\\arctan\\left(\\frac{1}{p^2+p+1}\\right)\\right)=\\frac{1}{p^2+p+1}$$\r\net \r\n\\begin{eqnarray*}\r\n\\tan\\big(\\arctan (p+1)-\\arctan p\\big)&=&\\frac{\\tan(\\arctan(p+1))-\\tan(\\arctan p)}{1+\\tan(\\arctan(p+1))\\tan(\\arctan p)}\\\\\r\n&=&\\frac{p+1-p}{1+(p+1)p}=\\frac{1}{p^2+p+1}.\r\n\\end{eqnarray*}\r\nOn en déduit le résultat voulu.Utilisant le résultat de la question précédente, on trouve une somme télescopique :\r\n$$S_n=\\sum_{p=0}^n\\big(\\arctan(p+1)-\\arctan p\\big)=\\arctan(n+1)-\\arctan(0)=\\arctan(n+1).$$\r\nOn en déduit donc que $(S_n)$ tend vers $\\pi/2$.",
+    "lang": "french"
+}

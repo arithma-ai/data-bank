@@ -1,0 +1,6 @@
+{
+    "script": "Calculer l'intégrale :\r\n$$\\int_0^\\pi x^2e^x \\cos xdx.$$",
+    "hint": "Remplacer $\\cos x$ par $e^{ix}$ puis intégrer par parties.",
+    "solution": "Notons $I$ l'intégrale.  $I$ est égale à $\\Re e(J)$ avec $J=\\int_0^\\pi x^2e^{(1+i)x}dx$ \r\n(on a posé $\\cos x=\\Re e(e^{ix})$). En intégrant par parties, on trouve\r\n\\begin{eqnarray*}\r\nJ&=&\\left[\\frac{x^2e^{(1+i)x}}{1+i}\\right]_0^\\pi-\\frac{2}{1+i}\\int_0^\\pi xe^{(1+i)x}dx\\\\\r\n&=&-\\frac{\\pi^2e^\\pi}{1+i}-\\frac{2}{1+i}\\int_0^\\pi xe^{(1+i)x}dx.\r\n\\end{eqnarray*}\r\nOn fait une deuxième intégration par parties pour calculer cette dernière intégrale, et on trouve\r\n\\begin{eqnarray*}\r\n\\int_0^\\pi xe^{(1+i)x}dx&=&\\left[\\frac{xe^{(1+i)x}}{1+i}\\right]_0^\\pi-\\frac{1}{1+i}\\int_0^\\pi e^{(1+i)x}dx\\\\\r\n&=&-\\frac{\\pi e^{\\pi}}{1+i}-\\frac{1}{(1+i)^2}\\left[e^{(1+i)x}\\right]_0^\\pi\\\\\r\n&=&-\\frac{\\pi e^{\\pi}}{1+i}+\\frac{i}2(-1-e^{\\pi}).\r\n\\end{eqnarray*}\r\nRegroupant tous les termes, et multipliant par la quantité conjuguée au dénominateur, on trouve :\r\n$$J=-\\pi^2e^\\pi\\frac{1-i}2-i\\pi e^\\pi -\\frac{1+i}2(-1-e^\\pi),$$\r\nsoit\r\n$$I=\\frac12+\\frac{1-\\pi^2}2e^{\\pi}.$$",
+    "lang": "french"
+}

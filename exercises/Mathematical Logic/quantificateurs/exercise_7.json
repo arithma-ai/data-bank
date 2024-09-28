@@ -1,0 +1,6 @@
+{
+    "script": "\"S'il pleut, Abel prend un parapluie. Béatrice ne prend jamais de parapluie s'il ne pleut pas et en prend toujours un quand il pleut\". Que peut-on déduire de ces affirmations\r\ndans les différentes situations ci-dessous? Justifier soigneusement vos réponses en introduisant 3 propositions logiques $p$, $q$ et $r$.Abel se promène avec un parapluie.Abel se promène sans parapluie.Béatrice se promène avec un parapluie.Béatrice se promène sans parapluie.Il ne pleut pas.Il pleut.",
+    "hint": "Notez $p=$\"il pleut\", $q=$\"Abel a un parapluie\" et $r=$\"Béatrice a un parapluie\". Que signifie l'énoncé sur $p,q,r$?",
+    "solution": "Notons $p=$\"il pleut\", $q=$\"Abel a un parapluie\" et $r=$\"Béatrice a un parapluie\". L'énoncé nous dit que $p\\implies q$ et que $p\\iff r$.Dans cette situation, on nous dit que $q$ est vraie. On ne peut rien conclure.non $q$ est vraie. Or, on sait (contraposée de $p\\implies q$) que (non $q\\implies$ non $p$). Donc il ne pleut pas.$r$ est vraie, et $r$ équivaut à $p$. Donc il pleut et Abel a son parapluie.non $r$ est vraie et non $r$ équivaut à non $p$ donc il ne pleut pas.non $p$ est vraie et non $p$ équivaut à non $r$ donc Béatrice se promène sans parapluie.$p$ est vraie or $p\\implies q$ et $p\\iff r$ donc Abel et Béatrice ont tous deux leur parapluie.",
+    "lang": "french"
+}

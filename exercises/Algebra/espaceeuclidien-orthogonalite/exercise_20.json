@@ -1,0 +1,6 @@
+{
+    "script": "Dans $\\mathbb R^3$ muni de sa structure euclidienne canonique, déterminer la distance de $u(3,4,3)$ au plan $\\mathcal P$ d'équation $2x+y-z=0$.",
+    "hint": "Déterminer un vecteur normal au plan $\\mathcal P$ et appliquer la formule du cours.",
+    "solution": "Un vecteur normal à $\\mathcal P$ est donnée par $v=(2,1,-1)$. Ainsi, par une formule du cours, \r\n$$d(u,\\mathcal P)=\\frac{|\\langle u,v\\rangle|}{\\|v\\|}=\\frac{7}{\\sqrt 6}.$$",
+    "lang": "french"
+}

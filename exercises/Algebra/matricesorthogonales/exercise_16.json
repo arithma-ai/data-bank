@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in\\mathcal M_n(\\mathbb R)$ dont le polynôme caractéristique est scindé. Démontrer que $A$ est orthogonalement semblable à une matrice triangulaire supérieure.",
+    "hint": "Utiliser l'orthonormalisée de Gram-Schmidt d'une base qui trigonalise.",
+    "solution": "Soit $u$ l'endomorphisme de $\\mathbb R^n$ dont la matrice dans la base canonique est $A$. L'hypothèse nous dit que $u$ est trigonalisable. Autrement dit, il existe une base $(e_1,\\dots,e_n)$ de $\\mathbb R^n$ telle que, pour tout $j\\in\\{1,\\dots,n\\},$ $u(\\vect(e_1,\\dots,e_j))\\subset \\vect(e_1,\\dots,e_j).$ Soit $(f_1,\\dots,f_n)$ la base orthonormale obtenue à partir de $(e_1,\\dots,e_n)$\r\nen appliquant le procédé d'orthonormalisation de Gram-Schmidt. Alors puisque $\\vect(e_1,\\dots,e_j)=\\vect(f_1,\\dots,f_j)$ pour tout $j=1,\\dots,n,$ cette base est aussi une base de trigonalisation de $u$. Autrement dit, la matrice de $u$ dans cette base est triangulaire supérieure. On a donc $A=PBP^{-1}$ avec $B$ matrice triangulaire supérieure et $P$ la matrice de passage de la base canonique de $\\mathbb R^n$ à la base $(f_1,\\dots,f_n)$. Comme il s'agit de deux bases orthonormales, la matrice $P$ est orthogonale, et on a prouvé le résultat.",
+    "lang": "french"
+}

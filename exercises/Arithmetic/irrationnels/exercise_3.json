@@ -1,0 +1,6 @@
+{
+    "script": "Soit $x$ un nombre irrationnel et $(a,b,c,d)\\in\\mathbb Q^4$. Prouver que, si $ad-bc\\neq 0$, \r\nalors $\\frac{ax+b}{cx+d}$ est un nombre irrationnel.",
+    "hint": "Procéder par l'absurde et résoudre l'équation.",
+    "solution": "Supposons que $\\frac{ax+b}{cx+d}$ soit un rationnel $q$. Alors on obtient \r\n$$ax+b=qcx+dq\\iff (a-qc)x=dq-b.$$\r\nSi $a-qc\\neq 0$, on obtient que $x=(dq-b)/(a-qc)$ est à la fois :irrationel par choix de $x$;rationnel comme quotient de rationnels.C'est une contradiction. Si $a-qc=0$, puisque $x\\neq 0$, on a $dq-b=0$ et donc $ad-bc=0$, ce qui est là-aussi une contradiction.",
+    "lang": "french"
+}

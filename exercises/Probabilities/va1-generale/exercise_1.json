@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire admettant un moment d'ordre 2. Démontrer que $E\\big((X-a)^2\\big)$ est minimal\r\npour $a=E(X)$.",
+    "hint": "Dériver la fonction!",
+    "solution": "Posons $f(a)=E((X-a)^2)=E(X^2)-2aE(X)+a^2$. Cette fonction est un polynôme du second degré, à coefficient dominant positif.\r\nElle admet donc un minimum lorsque $f'(a)=0$, c'est-à-dire pour $a=E(X)$.",
+    "lang": "french"
+}

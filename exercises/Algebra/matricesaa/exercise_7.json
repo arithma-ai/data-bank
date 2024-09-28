@@ -1,0 +1,6 @@
+{
+    "script": "Pour quelles valeurs du paramètre $m$ la matrice $A=\\begin{pmatrix} 1&1&m\\\\1&m&1\\\\m&1&1 \\end{pmatrix}$ admet-elle un inverse? On ne demande pas de calculer l'inverse.",
+    "hint": "Appliquer la méthode du pivot de Gauss.",
+    "solution": "On applique la méthode du pivot de Gauss, mais inutile d'utiliser la matrice augmentée puisqu'on ne demande pas de calculer l'inverse. On trouve successivement\r\n$$\\left(\\begin{array}{ccc}\r\n1&1&m\\\\\r\n0&m-1&1-m\\\\\r\n0&1-m&1-m^2\r\n\\end{array}\\right)\\begin{array}l \\\\\r\nL_2\\leftarrow L_2-L_1\\\\\r\nL_3\\leftarrow L_3-mL_1\\\\\r\n\\end{array} $$\r\n$$\\left(\\begin{array}{ccc}\r\n1&1&m\\\\\r\n0&m-1&1-m\\\\\r\n0&0&2-m-m^2\\\\\r\n\\end{array}\\right)\r\n\\begin{array}l\r\n\\\\\r\n\\\\\r\nL_3\\leftarrow L_3+L_2\r\n\\end{array}\r\n$$\r\nLa matrice est donc inversible si et seulement si $m-1\\neq 0$ et $2-m-m^2\\neq 0$. Les solutions des équations $m-1=0$ et $m^2+m-2=0$ étant les réels $1$ et $-2$, la matrice est inversible si et seulement si $m\\notin \\{-2,1\\}$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:I\\to J$ une fonction. Déterminer si, à partir des 4 propriétés suivantes, on peut déduire que :$f$ est injective (mais pas forcément surjective);$f$ est surjective (mais pas forcément injective);$f$ est bijectiveon ne peut rien dire sur $f$.$\\forall y\\in J$, $f^{-1}(\\{y\\})\\neq\\varnothing$;$\\forall y\\in J$, $f^{-1}(\\{y\\})$ contient au plus un élément;$\\forall y\\in f(I)$, $f^{-1}(\\{y\\})\\neq\\varnothing$;$\\forall y\\in f(I)$, $f^{-1}(\\{y\\})$ contient au plus un élément;",
+    "hint": "",
+    "solution": "Cette proposition dit que $f$ est surjective (tout élément de $J$ admet au moins un antécédent), mais pas plus (il se pourrait qu'un élément de $J$ admette plus d'un antécédent).cette proposition dit que $f$ est injective (tout élément de $J$ admet au plus un antécédent), mais pas plus (il se pourrait que des éléments de $J$ n'admettent pas d'antécédents).cette proposition n'apporte aucune information : par définition de $f(I)$, tout élément de $f(I)$ admet un antécédent;cette proposition dit que $f$ est injective (tout élément de l'image $f(I)$ admet au plus un antécédent; les éléments qui sont dans $J$ mais pas dans $f(I)$ n'admettent de toute façon aucun antécédent).",
+    "lang": "french"
+}

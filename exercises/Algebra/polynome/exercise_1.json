@@ -1,0 +1,6 @@
+{
+    "script": "Le polynôme $X^4+X^2+1$ est-il irréductible dans $\\mathbb R[X]$? dans $\\mathbb C[X]$?La relation $\\mathcal R$ définie sur $\\mathbb R[X]$ par $A\\mathcal R B$ si et seulement si $A$ divise $B$ est-elle une relation d'ordre?",
+    "hint": "Quel est le degré d'un irréductible de $\\mathbb R[X]$? de $\\mathbb C[X]$?La relation est-elle antisymétrique?",
+    "solution": "Les irréductibles de $\\mathbb R[X]$ sont de degré 1 ou 2, les irréductibles de $\\mathbb C[X]$ sont de degré 1. Le polynôme $X^4+X^2+1$ n'est donc irréductible ni dans $\\mathbb R[X]$, ni dans $\\mathbb C[X]$.On peut vérifier que la relation $\\mathcal R$ est transitive et réflexive. En revanche, elle n'est pas anti-symétrique. Prenons par exemple $A=X$ et $B=2X$. Alors $A$ divise $B$, $B$ divise $A$, et pourtant $A$ est différent de $B$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(u_n)$ la suite d'entiers définie par $u_0=14$ et $u_{n+1}=5u_n-6$. Démontrer que le pgcd de deux termes\r\nconsécutifs de la suite est constant. Préciser sa valeur.",
+    "hint": "Démontrer que le pgcd de $u_n$ et $u_{n+1}$ est dans $\\{1,2,3,6\\}$. Puis démontrer que $3$ ne divise aucun\r\n$(u_n)$.",
+    "solution": "De la relation $u_{n+1}=5u_n-6$, on tire que tout diviseur commun de $u_n$ et de $u_{n+1}$ divise aussi 6.\r\nAinsi, le pgcd de $u_n$ et $u_{n+1}$ ne peut qu'être un élément de $\\{1,2,3,6\\}$. Par ailleurs, on va démontrer par\r\nrécurrence sur $n$ que 2 divise $u_n$ et que $3$ ne divise pas $u_n$. C'est bien le cas pour $u_0=14$, et considérons $n\\in\\mathbb N$ tel que $2$ divise $u_n$ et $3$ ne divise pas $u_n$. Alors,  $2|5u_n$ et $2$ divise\r\n$6$, donc $2$ divise $u_{n+1}=5u_n-6$. De plus, si on avait $3|u_{n+1}$, alors $3|u_{n+1}+6$ et donc  $3|5u_{n}$. De plus, par le théorème de Gauss, puisque $3\\wedge\r\n5=1$, on tire $3|u_{n}$, ce qui est une contradiction.Ainsi, pour tout entier $n$, on a prouvé que $2|u_n$ et $3$ ne divise pas $u_n$. Ainsi, si $d_n$ est le pgcd de $u_n$ et $u_{n+1}$, $2|d_n$ et $3$ ne divise pas $d_n$. Puisque l'on sait déjà que $d_n\\in\\{1,2,3,6\\}$, on a nécessairement $d_n=2$.",
+    "lang": "french"
+}

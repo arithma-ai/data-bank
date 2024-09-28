@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(X_n)$ une suite de variables aléatoires vérifiant une loi binomiale $\\mathcal B(n,p_n)$,\r\navec $np_n\\to\\lambda>0$. Démontrer que $(X_n)$ converge en loi vers une variable aléatoire\r\n$X$ suivant une loi de Poisson $\\mathcal P(\\lambda)$.",
+    "hint": "Prouver la convergence des fonctions caractéristiques.",
+    "solution": "Notons $\\phi_{X_n}$ la fonction caractéristique de $X_n$, \r\net $\\phi_X$ la fonction caractéristique de $X$. On va démontrer que\r\npour chaque $t\\in\\mathbb R$, on a $\\phi_{X_n}(t)\\to\\phi_X(t)$. Rappelons que\r\n\\begin{eqnarray*}\r\n \\phi_{X_n}(t)&=&\\left(p_n\\exp(it)+(1-p_n)\\right)^n\\\\\r\n\\phi_X(t)&=&\\exp\\left(\\lambda\\big(\\exp(it)-1\\big)\\right).\r\n\\end{eqnarray*}\r\nOn écrit \r\n\\begin{eqnarray*}\r\n \\phi_{X_n}(t)&=&\\left(1+p_n\\big(\\exp(it)-1\\big)\\right)^n\\\\\r\n&=&\\exp\\left(n\\log\\left(1+p_n\\big(\\exp(it)-1\\big)\\right)\\right)\\\\\r\n&=&\\exp\\left(np_n\\big(\\exp(it)-1\\big)+o(np_n)\\right)\\\\\r\n&\\to&\\exp\\left(\\lambda\\big(\\exp(it)-1\\big)\\right).\r\n\\end{eqnarray*}\r\nOn a bien convergence de $\\phi_{X_n}(t)$ vers $\\phi_X(t)$.",
+    "lang": "french"
+}

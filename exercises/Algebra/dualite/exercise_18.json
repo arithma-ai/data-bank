@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel et $H$ un sous-espace de $E$. Démontrer que si $\\dim(E/H)=1$, alors $H$ est un hyperplan de $E$.",
+    "hint": "Prendre $u\\in E$ tel que $\\textrm{vect}(\\bar u)=E/H$, et prouver que $E=H\\oplus\\textrm{vect}(u)$.",
+    "solution": "Notons $\\bar x$ la classe de $x\\in E$ dans $E/H$. Puisque $\\dim(E/H)=1$, on sait qu'il existe $u\\in E$ tel que \r\n$E/H=\\textrm{vect}(\\bar u)$. Prouvons alors que $E=H\\oplus\\textrm{vect}(u)$. Considérons tout d'abord $x\\in H\\cap\\textrm{vect}(u)$.\r\nAlors $x$ s'écrit $x=\\lambda u$. De plus, $\\bar x=0$ puisque $x\\in H$. Comme $\\bar x=\\lambda\\bar u$ et que $\\bar u\\neq 0$, on a $\\lambda=0$\r\net donc $x=0$. D'autre part, soit $y\\in E$. Alors il existe $\\lambda\\in \\mathbb K$ tel que $\\bar y=\\lambda \\bar u$. Ceci\r\nimplique que $\\overline{y-\\lambda u}=0$, et donc que $y-\\lambda u\\in H$. Notons $x=y-\\lambda u\\in H$. L'écriture $y=x+\\lambda u$\r\nprouve que $y\\in H+\\textrm{vect}(u)$.",
+    "lang": "french"
+}

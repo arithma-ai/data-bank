@@ -1,0 +1,6 @@
+{
+    "script": "Quel est le sous-espace vectoriel engendré par les matrices symétriques définies positives dans $\\mathcal M_n(\\mathbb R)$?",
+    "hint": "Commencer par remarquer que toute matrice diagonale est dans ce sous-espace.",
+    "solution": "Soit $A$ une matrice symétrique quelconque.\r\nIl existe une matrice inversible $P$ telle que $A=PDP^{T}$,\r\noù $D$ est une matrice diagonale, $D=\\textrm{diag}(\\lambda_1,\\dots,\\lambda_n)$.\r\nSoit $M>\\max(|\\lambda_1|,\\dots,|\\lambda_n|).$\r\nOn considère les deux matrices suivantes :\r\n$$B=P\\textrm{diag}(M+\\lambda_1,\\dots,M+\\lambda_n)P^{T}\\textrm{ et } C=P\\textrm{diag}(M,\\dots,M)P^{T}.$$\r\nAlors $B$ et $C$ sont deux matrices symétriques définies positives, et\r\n$A=B-C$. L'espace vectoriel engendré par les matrices symétriques définies positives contient\r\ndonc toutes les matrices symétriques. Comme l'ensemble des matrices symétriques est un espace vectoriel,\r\non en déduit que c'est le sous-espace vectoriel recherché.",
+    "lang": "french"
+}

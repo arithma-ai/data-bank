@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que \r\n$$\\sum_{k=1}^n k!\\sim_{+\\infty} n!.$$",
+    "hint": "Il suffit de montrer que \r\n$$\\sum_{k=1}^{n-1}\\frac{k!}{n!}$$\r\ntend vers 0. Séparer le dernier terme de la somme des autres pour lesquels on peut faire une majoration grossière.",
+    "solution": "On a \r\n\\begin{eqnarray*}\r\n\\frac{\\sum_{k=1}^n k!}{n!}&=&1+\\sum_{k=1}^{n-1}\\frac{k!}{n!}.\r\n\\end{eqnarray*}\r\nIl suffit de montrer que la dernière somme apparaissant à droite tend vers 0 avec $n$. Mais on a\r\n\\begin{eqnarray*}\r\n0\\leq\\sum_{k=1}^{n-1}\\frac{k!}{n!}&\\leq&\\frac{1}{n}+\\sum_{k=1}^{n-2} \\frac{1}{n(n-1)}\\\\\r\n&\\leq&\\frac{1}{n}+\\frac{n-2}{n(n-1)}\r\n\\end{eqnarray*}\r\nPar le théorème des gendarmes, c'est bien le cas!",
+    "lang": "french"
+}

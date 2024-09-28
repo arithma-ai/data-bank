@@ -1,0 +1,6 @@
+{
+    "script": "Soient $z=\\rho e^{i\\theta}$ et $z'=\\rho'e^{i\\theta'}$ deux nombres complexes non nuls. Démontrer que \r\n$$|z+z'|=|z-z'|\\Longleftrightarrow{\\theta'=\\theta+\\frac{\\pi}{2}[\\pi]}.$$",
+    "hint": "Passer au carré, et développer!",
+    "solution": "L'idée est de passer au carré, et de développer.\r\n\\begin{align*}\r\n|z+z'|=|z-z'|&\\iff |z+z'|^2=|z-z'|^2\\\\\r\n&\\iff (z+z')\\overline{(z+z')}=(z-z')\\overline{(z-z')}\\\\\r\n&\\iff |z|^2+|z'|^2+(z\\overline{z'}+\\overline{z}z')=|z|^2+|z'|^2-(z\\overline{z'}+\\overline{z}z')\\\\\r\n&\\iff |z|^2+|z'|^2+2\\Re e(z\\overline{z'})=|z|^2+|z'|^2-2\\Re e(z\\overline{z'}).\r\n\\end{align*}\r\nEn simplifiant par les termes égaux, ceci est donc équivalent à \r\n$$\\Re e(z\\overline{z'})=0.$$\r\nOr, $z\\overline{z'}=\\rho\\rho'e^{i(\\theta-\\theta')}.$ Ceci a une partie réelle nulle si et seulement si $\\cos(\\theta-\\theta')=0$, c'est-à-dire\r\nsi et seulement si $\\theta'=\\theta+\\frac\\pi2\\ [\\pi]$.",
+    "lang": "french"
+}

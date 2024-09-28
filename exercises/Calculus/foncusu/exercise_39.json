@@ -1,0 +1,6 @@
+{
+    "script": "Dans l'exercice, il est demandé de démontrer que $\\lim_{x\\to+\\infty}\\ln(x)=+\\infty$ (sachant qu'on peut utiliser les propriétés de la fonction exponentielle). Voici les réponses de deux étudiants. Qu'en pensez-vous?Étudiant 1 : Il faut montrer que, pour tout $M\\in\\mathbb R$, il existe $x\\in\\mathbb R_+$ tel que $\\ln(x)\\geq M$, c'est-à-dire $x\\geq e^M$. Il en existe, et donc $\\lim_{x\\to+\\infty}\\ln(x)=+\\infty$.Étudiant 2 : On a $\\ln(e^x)=x$. Ainsi, $\\lim_{x\\to+\\infty}\\ln(e^x)=\\lim_{x\\to+\\infty}x=+\\infty$.\r\nEn posant $X=e^x$, on a $\\lim_{X\\to+\\infty}\\ln(X)=+\\infty$.",
+    "hint": "",
+    "solution": "L'étudiant 1 se trompe dans la définition d'une fonction qui tend vers l'infini. Il faut démontrer que pour tout $M\\in\\mathbb R$, il existe $A\\in\\mathbb R$ tel que, pour tout $x\\geq A$, on a $\\ln(x)\\geq M$. L'étudiant 2 fait une erreur plus subtile. Pour qu'en posant $X=e^x$, on puisse déduire que $\\lim_{X\\to+\\infty}\\ln(X)=+\\infty$ de l'information  $\\lim_{x\\to+\\infty}\\ln(e^x)=x$, il faut pouvoir prouver que $X\\to+\\infty$ implique $x\\to\\infty$. Mais $x=\\ln(X)$ et donc....",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un $\\mathbb K$-espace vectoriel de dimension finie.Soient $f,g\\in E^*$ non-nulles. Démontrer qu'il existe $u\\in E$ tel que $f(u)\\neq 0$ et $g(u)\\neq 0$.On suppose qu'il existe $p$ formes linéaires $f_1,\\dots,f_p\\in E^*$ telles que :\r\n$$\\forall x\\in E,\\ (f_1(x)=\\dots=f_p(x)=0)\\implies x=0.$$\r\nDémontrer que $\\dim(E)\\leq p$.",
+    "hint": "Si $\\dim(E)>p$, quelle est la dimension minimale de $\\ker(f_1)\\cap\\ker(f_2)\\cap\\dots\\cap \\ker(f_p)$?",
+    "solution": "Si $f$ et $g$ sont proportionnelles, alors il suffit de choisir $u$ tel que $f(u)\\neq 0$. Sinon, \r\nalors on n'a ni $\\ker(f)\\subset \\ker(g)$ ni $\\ker(g)\\subset \\ker(f)$. On peut donc choisir $x\\in\\ker(f)\\backslash \\ker(g)$ et $y\\in\\ker(g)\\backslash \\ker(f)$. Posons alors $u=x+y$. Alors on a \r\n\\begin{eqnarray*}\r\nf(u)&=&f(x+y)=f(y)\\neq 0\\\\\r\ng(u)&=&g(x+y)=g(x)\\neq 0.\r\n\\end{eqnarray*}L'hypothèse nous dit que $\\ker(f_1)\\cap\\ker(f_2)\\cap\\dots\\cap \\ker(f_p)=\\{0\\}$. Si $E$ était de dimension $n>p$, alors l'intersection de ces $p$ hyperplans serait de dimension au moins égale à $n-p>0$, ce qui n'est pas le cas ici. Donc $n\\leq p$.",
+    "lang": "french"
+}

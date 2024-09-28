@@ -1,0 +1,6 @@
+{
+    "script": "Pour tout entier naturel $n$ non nul, on considère la fonction $f_n$ définie par $$f_n(x)=\\mathbf 1_{\\mathbb\r\nR_+}(x)n^2x\\exp(-n^2x^2/2).$$Montrer que $f_n$ est la densité d'une variable aléatoire.Soit $(X_n)$ une suite de variables aléatoires telle que, pour tout entier $n\\geq 1$, $X_n$ admet pour densité $f_n$. Démontrer que la suite $(X_n)$\r\nconverge en probabilité vers une variable aléatoire $X$ que l'on précisera.",
+    "hint": "Appliquer la définition pour démontrer que $(X_n)$ converge en probabilité vers la variable aléatoire nulle.",
+    "solution": "On remarque que $f_n$ est positive et continue. De plus, pour tout $x>0$, \r\n$$\\int_{-\\infty}^x f_n(t)dt=\\int_0^x n^2t\\exp(-n^2t^2/2)dt=\\left[-\\exp(-n^2t^2/2)\\right]_0^x=1-\\exp(-n^2x^2/2).$$\r\nFaisant tendre $x$ vers $+\\infty$, on en déduit que\r\n$$\\int_{-\\infty}^{+\\infty}f(t)dt=1,$$\r\nce qui achève de prouver que $f_n$ est une densité de probabilité.Soit $\\veps>0$. On a \r\n\\begin{eqnarray*}\r\nP(|X_n|\\geq\\veps)&=&\\int_{\\veps}^{+\\infty}n^2 t\\exp(-n^2t^2/2)dt\\\\\r\n&=&\\left[-\\exp(-n^2t^2/2)\\right]_\\veps^{+\\infty}\\\\\r\n&=&\\exp(-n^2\\veps^2/2).\r\n\\end{eqnarray*}\r\nLorsque $n\\to+\\infty$, ceci tend vers 0. On en déduit que $(X_n)$ converge en probabilité vers la variable aléatoire\r\nnulle ($X=0$).",
+    "lang": "french"
+}

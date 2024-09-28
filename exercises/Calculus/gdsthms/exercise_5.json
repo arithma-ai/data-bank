@@ -1,0 +1,6 @@
+{
+    "script": "Soit $U$ le demi-plan $\\{z\\in\\mathbb C:\\ \\Re e(z)>0\\}$.Trouver une fonction $f:\\bar U\\to\\mathbb C,$ continue sur $\\bar U,$ holomorphe dans $U$, bornée sur $\\partial U$ mais non bornée dans $U$Soit $f:\\bar U\\to\\mathbb C,$ continue sur $\\bar U,$ holomorphe dans $U$. On suppose que $|f|\\leq M_1$ sur $\\partial U$ et que $\\limsup_{|z|\\to+\\infty,\\ z\\in U}|f(z)|\\leq M_2$. Démontrer que $|f|\\leq \\max(M_1,M_2).$",
+    "hint": "Une fonction très classique fera l'affaire!",
+    "solution": "La fonction exponentielle convient!Soit $C>\\max(M_1,M_2)$ et $w\\in U.$  Alors il existe $r>0$ tel que $w\\in D(0,r)$ et tel que, si $z\\in U$ et $|z|=r,$ alors $|f(z)|\\leq C.$ De plus, si $z\\in [-ir,ir]$, alors $|f(z)|\\leq C.$ On applique le principe du maximum dans $U\\cap D(0,r)$ pour prouver que $|f(w)|\\leq C.$ Comme $C$ peut être choisi arbitrairement proche de $\\max(M_1,M_2)$, on en déduit le résultat demandé.",
+    "lang": "french"
+}

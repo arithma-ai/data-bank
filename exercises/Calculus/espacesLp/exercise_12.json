@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer qu'il existe $f\\in L^\\infty(\\mathbb R)$ telle que l'application $\\mathbb R\\to L^\\infty(\\mathbb R),$ $a\\mapsto \\tau_a f$ n'est pas continue. On rappelle que $\\tau_a f(x)=f(x-a).$",
+    "hint": "Considérer l'indicatrice d'un intervalle.",
+    "solution": "Choisissons $f=\\mathbf 1_{[0,1]}$. Alors pour $a> 0,$ on a \r\n$\\tau_a f(1+a)-f(1+a)=1$ et pour $a<0$, on a $\\tau_a f(a)-f(a)=1$. Dans tous les cas, on a $\\|\\tau_a f-f\\|_\\infty=1.$ En particulier, l'application n'est pas continue en $0.$",
+    "lang": "french"
+}

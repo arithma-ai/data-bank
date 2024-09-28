@@ -1,0 +1,6 @@
+{
+    "script": "Sur $\\mathbb R^2$, on définit la relation d'équivalence $\\mathcal R$ par \r\n$$(x,y)\\mathcal R (x',y')\\iff x=x'.$$\r\nDémontrer que $\\mathcal R$ est une relation d'équivalence, puis déterminer la classe d'équivalence d'un élément $(x_0,y_0)\\in\\mathbb R^2$.",
+    "hint": "",
+    "solution": "La relation $\\mathcal R$ est une relation d'équivalence. En effet, elle estréflexive : $(x,y)\\mathcal R (x,y)$ car $x=x$;symétrique : si $(x,y)\\mathcal R(x',y')$, alors $x=x'$ ce qui s'écrit aussi $x'=x$ et qui est équivalent à $(x',y')\\mathcal R(x,y)$.transitive : si $(x,y)\\mathcal R(x',y')$ et si $(x',y')\\mathcal R (x'',y'')$, alors on a $x=x'$ d'une part et $x'=x''$ d'autre part, donc $x=x''$ ce qui entraine $(x,y)\\mathcal R (x'',y'')$.Chercher la classe d'équivalence de $(x_0,y_0)$, c'est déterminer tous les couples $(x,y)$ tels que $(x,y)\\mathcal R  (x_0,y_0)$. Mais, \r\n$$(x,y)\\mathcal R(x_0,y_0)\\iff x=x_0.$$\r\nAutrement dit, $x$ doit être égal à $x_0$ et $y$ peut être quelconque. On en déduit que la classe d'équivalence de $(x_0,y_0)$ pour la relation d'équivalence $\\mathcal R$ est $\\{(x_0,y);\\ y\\in\\mathbb R\\}$.",
+    "lang": "french"
+}

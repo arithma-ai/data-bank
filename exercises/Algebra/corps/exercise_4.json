@@ -1,0 +1,6 @@
+{
+    "script": "Soit $d\\in\\mathbb N$ tel que $\\sqrt d\\notin \\mathbb Q$. On note \r\n$$\\mathbb Q[\\sqrt d]=\\{a+b\\sqrt d;\\ (a,b)\\in\\mathbb Q ^2\\}.$$\r\nDémontrer que $(\\mathbb Q[\\sqrt d],+,\\times)$ est un corps.",
+    "hint": "Démontrer que c'est un sous-corps de $(\\mathbb R,+,\\times)$.",
+    "solution": "On va démontrer qu'il s'agit d'un sous-corps de $(\\mathbb R,+,\\times)$. Remarquons d'abord qu'il est bien contenu dans $\\mathbb R$ et que $0,1\\in \\mathbb Q[\\sqrt d]$. Soient $x,y\\in\\mathbb Q[\\sqrt d]$. \r\nOn les écrit $x=a+b\\sqrt d$ et $y=a'+b'\\sqrt d$. Alors :\r\n\\begin{eqnarray*}\r\nx-y&=&(a-a')+(b-b')\\sqrt d\\\\\r\nxy&=&(aa'+dbb')+(ab'+a'b)\\sqrt d\r\n\\end{eqnarray*}\r\nce qui prouve que $x-y$ et $xy\\in\\mathbb Q[\\sqrt d]$. D'autre part, si $x\\neq 0$, alors \r\n$$\\frac 1x=\\frac{1}{a+b\\sqrt d}=\\frac{a-b\\sqrt d}{a^2-b^2d}=\\frac{a}{a^2-b^2 d}-\\frac{b}{a^2-b^2 d}\\sqrt d\\in\\mathbb Q[\\sqrt d]$$\r\net donc $\\frac 1x\\in \\mathbb Q[\\sqrt d]$. Remarquons qu'il était possible de multiplier par la quantité conjuguée qui est non-nulle car $\\sqrt d\\notin \\mathbb Q$.  Finalement, on a bien prouvé que $(\\mathbb Q[\\sqrt d],+,\\times)$ est un sous-corps de $(\\mathbb R,+,\\times)$.",
+    "lang": "french"
+}

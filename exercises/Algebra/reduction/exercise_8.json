@@ -1,0 +1,6 @@
+{
+    "script": "Expliquer sans calculs pourquoi la matrice suivante n'est pas diagonalisable :\r\n$$A=\\left(\\begin{array}{ccc}\r\n\\pi&1&2\\\\\r\n0&\\pi&3\\\\\r\n0&0&\\pi\r\n\\end{array}\\right).$$",
+    "hint": "Quelles sont les valeurs propres de la matrice?\r\nA quoi serait-elle semblable si elle était diagonalisable?",
+    "solution": "La matrice $A$ étant triangulaire supérieure, ses valeurs propres sont données\r\npar les éléments de la diagonale. La seule valeur propre de $A$ est donc $\\pi$.\r\nSi $A$ était diagonalisable, alors il existerait une matrice\r\n$P\\in GL_3(\\mathbb R)$ telle que \r\n$$A=P(\\pi I_3)P^{-1}.$$\r\nMais puisque $I_3$ commute avec toutes les matrices, on aurait\r\n$$A=\\pi I_3 PP^{-1}=\\pi I_3.$$\r\nCe n'est pas le cas : $A$ n'est donc pas diagonalisable.",
+    "lang": "french"
+}

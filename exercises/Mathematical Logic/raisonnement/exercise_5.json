@@ -1,0 +1,6 @@
+{
+    "script": "Que dire d'une fonction $f:I\\to\\mathbb R$, où $I$ est un intervalle, continue,\r\net ne prenant qu'un nombre fini de valeurs?",
+    "hint": "Montrer qu'elle est constante en utilisant le théorème des valeurs intermédiaires.",
+    "solution": "On va démontrer qu'elle est constante en faisant un raisonnement par l'absurde et en utilisant le théorème des valeurs intermédiaires.\r\nSupposons en effet qu'il existe $a<b$ dans $I$ tel que $f(a)\\neq f(b)$. Par le théorème des valeurs\r\nintermédiaires, toute valeur de $[f(a),f(b)]$ (ou $[f(b),f(a)]$ si $f(b)<f(a)$) est prise par $f$\r\ndans $[a,b]$. Comme cette intervalle contient un nombre infini de points, on obtient une contradiction.\r\nDonc, pour tous $a,b\\in I$, on a $f(a)=f(b)$. Autrement dit, $f$ est constante.",
+    "lang": "french"
+}

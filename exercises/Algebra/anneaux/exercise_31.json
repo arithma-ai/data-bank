@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(\\mathbb D,+,\\times)$ l'anneau des nombres décimaux, c'est-à-dire l'ensemble des nombres de la forme $\\frac{n}{10^k}$, avec $n\\in\\mathbb Z$ et $k\\in\\mathbb N$. Démontrer que cet anneau est principal.",
+    "hint": "Considérer un idéal $I$ de $\\mathbb D$ et utiliser que $I\\cap \\mathbb Z$ est un idéal de $\\mathbb Z$, donc...",
+    "solution": "Soit $I$ un idéal de $\\mathbb D$. Alors $I\\cap\\mathbb Z$ est un idéal de $\\mathbb Z$, qui est un anneau principal. Il existe donc $a\\in\\mathbb Z$ tel que $I\\cap\\mathbb Z=a\\mathbb Z$. On va prouver que $I=a\\mathbb D$. Il est d'abord clair que $a\\mathbb D\\subset I$ puisque $a\\in I$ et que $I$ est un idéal. Réciproquement, soit $x=\\frac n{10^k}\\in I$. Alors $n=10^k x\\in I\\cap \\mathbb Z$ et donc $n=am$ pour un certain $m\\in\\mathbb Z$. Ainsi, $x=\\frac{m}{10^k}a\\in a\\mathbb D$. Les idéaux de $\\mathbb D$ sont donc les parties de $\\mathbb D$ du type $a\\mathbb D$, avec $a\\in\\mathbb Z$.",
+    "lang": "french"
+}

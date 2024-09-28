@@ -1,0 +1,6 @@
+{
+    "script": "Calculer $\\int_\\gamma zdx+xdy+ydz$, où $\\gamma$ est le cercle défini par $x+z=1,\\ x^2+y^2+z^2=1$, avec une orientation que l'on choisira.",
+    "hint": "Paramétrer le cercle en introduisant $z=1-x$ dans la seconde équation.",
+    "solution": "Toute la difficulté consiste à paramétrer le cercle. On introduit $z=1-x$ dans la seconde équation. On obtient, après simplifications d'usages :\r\n$$4\\left(x-\\frac{1}{2}\\right)^2+2y^2=1.$$\r\nLe cercle se paramétrise alors en :\r\n$$\\left\\{\\begin{array}{rcl}\r\nx&=&\\frac{1}{2}+\\frac{1}{2}\\cos\\theta\\\\\r\ny&=&\\frac{1}{\\sqrt{2}}\\sin\\theta\\\\\r\nz&=&\\frac{1}{2}-\\frac{1}{2}\\cos\\theta,\\end{array}\\right.$$\r\navec $\\theta\\in[0,2\\pi]$. On obtient :\r\n\\begin{eqnarray*}\r\nI&=&\\int_0^{2\\pi}\\left(\\frac{1}{2}-\\frac{1}{2}\\cos\\theta\\right)\\left(-\\frac{1}{2}\\sin\\theta\\right)+\\left(\\frac{1}{2}+\\frac{1}{2}\\cos\\theta\\right)\\left(\\frac{1}{\\sqrt{2}}\\cos\\theta\\right)+\\frac{1}{\\sqrt{2}}\\sin\\theta\\frac{1}{2}\\sin\\theta d\\theta\\\\\r\n&=&\\int_0^{2\\pi}\\frac{1}{2\\sqrt{2}}(\\cos^2\\theta+\\sin^2\\theta)d\\theta=\\frac{\\pi\\sqrt{2}}{2}.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer toutes les primitives des fonctions suivantes, sur un intervalle bien choisi : \r\n$$\\begin{array}{lll}\r\n\\displaystyle f_1(x)=5x^3-3x+7&\\displaystyle f_2(x)=2\\cos(x)-3\\sin(x)&\\displaystyle f_3(x)=10-3e^x+x\\\\\r\n\\displaystyle f_4(x)=\\frac{5}{\\sqrt x}+\\frac 4x+\\frac{2}{x^2}+\\frac{2}{x^3}&\\displaystyle f_5(x)=\\frac{x+5}{x^2}&\\displaystyle f_6(x)=\\frac{x^2}{5}+\\frac 1{6}\\\\\r\n\\end{array}$$",
+    "hint": "Reconnaitre des primitives usuelles, éventuellement en effectuant des combinaisons linéaires....",
+    "solution": "$x\\mapsto \\frac 54x^4-\\frac 32x^2+7x+C$, $C\\in\\mathbb R$, sur $\\mathbb R$;$x\\mapsto 2\\sin(x)+3\\cos(x)+C$, $C\\in\\mathbb R$, sur $\\mathbb R$;$x\\mapsto 10x-3e^x+\\frac{x^2}2+C$, $C\\in\\mathbb R$, sur $\\mathbb R$;$x\\mapsto 10\\sqrt x+4\\ln(x)-\\frac 2x-\\frac1{x^2}+C$, $C\\in\\mathbb R$, sur $]0,+\\infty[$;$x\\mapsto \\ln(x)-\\frac 5x+C$, $C\\in\\mathbb R$ (on a écrit $f_5(x)=\\frac 1x+\\frac 5{x^2})$, sur $]0,+\\infty[$;$x\\mapsto \\frac{x^3}{15}+\\frac x6+C$, $C\\in\\mathbb R$, sur $\\mathbb R$.",
+    "lang": "french"
+}

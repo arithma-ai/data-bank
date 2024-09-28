@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel euclidien, $f\\in\\mathcal L(E)$ et $P,Q\\in\\mathbb R[X]$ premiers entre eux. Démontrer que $\\ker(P(f))\\perp \\ker (Q(f^*))$.",
+    "hint": "Utiliser le théorème de Bézout!",
+    "solution": "Puisque $P$ et $Q$ sont premiers entre eux, il existe deux polynômes $U,V\\in\\mathbb R[X]$ tels que $UP+VQ=1.$ On a donc, en considérant les polynômes d'endomorphismes associés,\r\n$$U(f)\\circ P(f)+V(f)\\circ Q(f)=\\textrm{Id}.$$\r\nConsidérons ensuite $x\\in\\ker(P(f)).$ Alors $P(f)(x)=0$ et donc\r\n$x=V(f)\\circ Q(f)(x)=Q(f)\\circ V(f)(x).$\r\nSoit maintenant $y\\in \\ker(Q(f^*)).$ Alors\r\n\\begin{align*}\r\n\\langle x,y\\rangle&=\\langle Q(f)\\circ V(f) (x),y\\rangle\\\\\r\n&=\\langle V(f) (x),(Q(f))^* (y)\\rangle\\\\\r\n&=\\langle V(f)(x),Q(f^*)(y)\\rangle\\\\\r\n&=0.\r\n\\end{align*}\r\nAinsi, on a bien $\\ker(P(f))\\perp \\ker(Q(f^*)).$",
+    "lang": "french"
+}

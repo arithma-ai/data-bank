@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que les polynômes $P(X)=2X^4+X^3 − X^2 + 2X − 1$ et $Q(X)=4X^3 + 4X^2 − X − 1$ ont une racine commune que l’on déterminera",
+    "hint": "Déterminer leur pgcd",
+    "solution": "On va calculer leur pgcd. En effectuant les divisions euclidiennes successives, on a \r\n$$P(X)=Q(X) \\left(\\frac X2-\\frac 14\\right)+\\frac{X^2}2+\\frac{9X}4-\\frac 54,$$\r\n$$Q(X)= (2X^2+9X-5)(2X − 7)+ 36(2X − 1)$$\r\net enfin\r\n$$2X^2 + 9X − 5 = (2X − 1)(X + 5).$$\r\nLe pgcd de $P$ et $Q$ est donc le dernier reste non nul, c'est-à-dire $2X-1$. Ainsi, $2X-1$ divise $P$ et $Q$ et $1/2$ est une racine commune à $P$ et $Q$.",
+    "lang": "french"
+}

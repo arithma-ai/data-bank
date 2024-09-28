@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A,B,P$ trois points distincts du plan tels que $P$ soit sur le segment $[AB]$. Écrire $P$ comme barycentre de $A$ et $B$ avec des coefficients s'écrivant en fonction des distances $PA$, $PB$.",
+    "hint": "",
+    "solution": "Il suffit de remarquer que\r\n$$\\overrightarrow{PB}=\\frac{PB}{AB}\\overrightarrow{AB}$$\r\net que\r\n$$\\overrightarrow{PA}=-\\frac{PA}{AB}\\overrightarrow{AB}.$$\r\nCeci donne\r\n$$PB\\cdot \\overrightarrow{PA}+PA\\cdot \\overrightarrow{PB}=\\vec 0.$$\r\nAinsi, $P$ est le barycentre de $(A,BP)$ et de $(B,AP)$.",
+    "lang": "french"
+}

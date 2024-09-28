@@ -1,0 +1,6 @@
+{
+    "script": "Dans l'espace muni d'un repère orthonormé, donner une équation cartésienne du plan $\\mathcal P$\r\npassant par le point $A(1,0,1)$ et dirigé par les vecteurs $\\vec u(1,1,0)$ et $\\vec v=(0,1,1)$.",
+    "hint": "$\\mathcal P$ est normal au vecteur $\\vec u\\wedge\\vec v$ et passe par le point $A$.",
+    "solution": "Il y a plusieurs méthodes, la plus rapide étant de remarquer que $\\vec n=\\vec u\\wedge\\vec v$ est un \r\nvecteur normal au plan $\\mathcal P$. Les coordonnées de $\\vec n$ sont $(1,-1,1)$. On en déduit que \r\n\\begin{eqnarray*}\r\nM(x,y,z)\\in\\mathcal P&\\iff&\\overrightarrow{AM}.\\vec n=0\\\\\r\n&\\iff&1(x-1)-1(y-0)+1(z-1)=0\\\\\r\n&\\iff&x-y+z-2=0.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

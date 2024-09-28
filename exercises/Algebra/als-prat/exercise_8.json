@@ -1,0 +1,6 @@
+{
+    "script": "On considère dans $\\mathbb R^2$ les trois vecteurs $u=(1,1)$, $v=(2,-1)$ et $w=(1,4)$.Démontrer que $(u,v)$ est une base de $\\mathbb R^2$.Pour quelle(s) valeur(s) du réel $a$ existe-t-il une application linéaire $f:\\mathbb R^2\\to \\mathbb R^2$\r\ntelle que $f(u)=(2,1)$, $f(v)=(1,-1)$ et $f(w)=(5,a)$?",
+    "hint": "Exprimer $w$ dans la base $(u,v)$.",
+    "solution": "$(u,v)$ sont deux vecteurs non-nuls de $\\mathbb R^2$, non colinéaires. Ils forment une famille libre de $\\mathbb R^2$\r\nde deux vecteurs. Or, $\\mathbb R^2$ est de dimension 2. $(u,v)$ est donc une base de $\\mathbb R^2$.Exprimons $w$ dans la base $(u,v)$. On a $w=3u-v$. Pour que $f$ soit linéaire, on doit avoir\r\n$$f(w)=3f(u)-f(v)$$\r\nsoit \r\n$$(5,a)=3(2,1)-(1,-1)=(5,4).$$\r\nPour que $f$ soit linéaire, il est donc nécessaire que $a=4$. Réciproquement, on définit ainsi bien une application linéaire, en définissant\r\nl'image d'une base.",
+    "lang": "french"
+}

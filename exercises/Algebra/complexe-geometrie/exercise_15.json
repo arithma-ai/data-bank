@@ -1,0 +1,6 @@
+{
+    "script": "Les points $A$, $B$, $C$ et $D$ du plan complexe ont pour affixes respectives $a$, $b$, $c$ et $d$. On note $I$, $J$, $K$ et $L$ les milieux respectifs de $[AB]$, $[BC]$, $[CD]$ et $[DA]$.Calculer les affixes des points $I$, $J$, $K$ et $L$.En déduire que $IJKL$ est un parallélogramme.",
+    "hint": "On pourra calculer l'affixe de $\\overrightarrow{IJ}$ et de $\\overrightarrow{LK}$.",
+    "solution": "C'est du cours. Les affixes respectives de $I$, $J$, $K$ et $L$ sont \r\n$(a+b)/2$, $(b+c)/2$, $(c+d)/2$, $(d+a)/2$.Le vecteur $\\overrightarrow{IJ}$ a pour affixe \r\n$$\\frac{b+c}2-\\frac{a+b}2=\\frac{c-a}2.$$\r\nLe vecteur $\\overrightarrow{LK}$ a pour affixe\r\n$$\\frac{c+d}2-\\frac{a+d}2=\\frac{c-a}2.$$\r\nAinsi, on a $\\overrightarrow{IJ}=\\overrightarrow{LK}$ et donc $IJKL$ est un parallélogramme.",
+    "lang": "french"
+}

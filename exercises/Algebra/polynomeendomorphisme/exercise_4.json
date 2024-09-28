@@ -1,0 +1,6 @@
+{
+    "script": "Soit $u$ un endomorphisme d'un $\\mathbb K$-espace vectoriel $E$ de dimension finie. Soit $P$ un polynôme annulateur de $u$. On suppose que $P=QR$, où $Q$ et $R$ sont premiers entre eux. Démontrer que $\\textrm{Im}(R(u))=\\ker(Q(u))$.",
+    "hint": "Utiliser le lemme de décomposition des noyaux et le théorème du rang.",
+    "solution": "D'après le théorème de décomposition des noyaux, on a \r\n$$E=\\ker(P(u))=\\ker(R(u))\\oplus \\ker(Q(u)).$$\r\nEn particulier, on sait que $\\dim(\\ker R(u))+\\dim(\\ker Q(u))=\\dim (E).$\r\nD'après le théorème du rang appliqué à l'endomorphisme $R(u)$, on a aussi \r\n$$\\dim(\\textrm{Im}(R(u))+\\dim(\\ker(R(u))=\\dim(E).$$\r\nOn en déduit que $\\textrm{Im}(R(u))$ et $\\ker(Q(u))$ ont la même dimension. De plus, on a sait que\r\n$$QR(u)=Q(u)\\circ R(u)=0,$$\r\nce qui implique que $ \\textrm{Im}(R(u))\\subset \\ker(Q(u))$. Puisque ces deux sous-espaces ont la même dimension, ils sont en réalité égaux.",
+    "lang": "french"
+}

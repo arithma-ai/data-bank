@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que $D=\\left| \r\n\\begin{array}{ccc}\r\n1+a & a & a \\\\ \r\nb & 1+b & b \\\\ \r\nc & c & 1+c\r\n\\end{array}\r\n\\right| =1+a+b+c$ sans le développer.",
+    "hint": "Sommer tout sur la première ligne!",
+    "solution": "On commence par faire l'opération $L_1+L_2+L_3\\to L_1$. On obtient \r\n\\begin{align*}\r\nD&=\\left| \r\n\\begin{array}{ccc}\r\n1+a+b+c & 1+a+b+c & 1+a+b+c \\\\ \r\nb & 1+b & b \\\\ \r\nc & c & 1+c\r\n\\end{array}\r\n\\right|\\\\\r\n&=(1+a+b+c) \r\n\\left| \r\n\\begin{array}{ccc}\r\n1 & 1 & 1 \\\\ \r\nb & 1+b & b \\\\ \r\nc & c & 1+c\r\n\\end{array}\r\n\\right|.\r\n\\end{align*}\r\n\r\nOn retire ensuite $b$ fois la première ligne à la seconde, et $c$ fois la première ligne à la troisième. On obtient alors\r\n$$D=(1+a+b+c) \r\n\\left| \r\n\\begin{array}{ccc}\r\n1 & 1 & 1 \\\\ \r\n0 & 1 & 0 \\\\ \r\n0 & 0 & 1\r\n\\end{array}\r\n\\right|.$$\r\nIl reste une matrice triangulaire supérieure, avec des 1 sur la diagonale. Celle-ci est de déterminant 1 et donc \r\n$D=1+a+b+c$.",
+    "lang": "french"
+}

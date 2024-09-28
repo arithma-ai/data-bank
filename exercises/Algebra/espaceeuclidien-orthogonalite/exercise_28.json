@@ -1,0 +1,6 @@
+{
+    "script": "Dans $\\mathbb R^3$ muni de sa structure euclidienne canonique, déterminer la distance de $M(3,4,5)$ au plan $\\mathcal P$ d'équation $2x+y-z+2=0$.",
+    "hint": "C'est du cours!",
+    "solution": "Un vecteur normal du plan est $u=(2,1,-1)$. Un point du plan est $A=(0,0,2)$. On en déduit que la distance recherchée est \r\n$$d=\\frac{|\\langle u,\\overrightarrow{AM}\\rangle|}{\\|u\\|}=\\frac{\\langle(2,1,-1),(3,4,3)\\rangle}{\\sqrt{6}}=\\frac{7}{\\sqrt 6}.$$",
+    "lang": "french"
+}

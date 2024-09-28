@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que les droites $D_\\lambda$ d'équation cartésienne \r\n$$D_\\lambda: (1-\\lambda^2)x+2\\lambda y=4\\lambda+2,$$\r\noù $\\lambda$ désigne un paramètre réel, sont toutes tangentes à un cercle fixe à préciser.",
+    "hint": "Faire apparaitre les droites correspondant à $\\lambda=0$, $\\lambda=1$ et $\\lambda=-1$ sur un dessin pour trouver\r\nle cercle qui convient. Puis calculer la distance du centre de ce cercle à chacune des droites.",
+    "solution": "On commence par dessiner les droites correspondant à $\\lambda=0$, $\\lambda=1$ et $\\lambda=-1$. Pour $\\lambda=1$ et $\\lambda=-1$,\r\non obtient les droites $y=1$ et $y=3$, donc les cercles tangents aux deux droites sont ceux dont le centre est sur la droite $y=2$\r\net de rayon 1. Le cas $\\lambda=0$ donne la droite $x=2$, ce qui fait que les deux seuls centres possibles sont les points $A(1,2)$ et $B(3,2)$.\r\nCalculons maintenant la distance de $A$ à la droite $D_\\lambda$.\r\nElle vaut\r\n$$\\frac{|(1-\\lambda^2)\\times 1+2\\lambda\\times 2-4\\lambda-2|}{\\sqrt{(1-\\lambda^2)^2+4\\lambda^2}}=\\frac{|\\lambda^2+1|}{\\sqrt{1+2\\lambda^2+\\lambda^4}}= 1.$$\r\nAinsi, toutes les droites $D_\\lambda$ sont tangentes au cercle de centre $A$ et de rayon 1.",
+    "lang": "french"
+}

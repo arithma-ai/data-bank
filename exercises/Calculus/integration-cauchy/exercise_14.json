@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ une fonction de classe $\\mathcal C^1$ telle que $f'$ est $T$-périodique. On suppose\r\nque $f(T)\\neq f(0)$.Montrer que pour tout $n\\geq 1$, $f(nT)-f((n-1)T)=f(T)-f(0)$.En déduire que $f$ n'est pas périodique.",
+    "hint": "Représenter les différences comme l'intégrale de la dérivée.Une fonction continue et périodique est bornée.",
+    "solution": "On écrit \r\n$$f(nT)-f((n-1)T)=\\int_{(n-1)T}^{nT}f'(u)du=\\int_0^Tf'(u)du=f(T)-f(0),$$\r\noù la deuxième égalité est une conséquence du changement de variables $u=t-(N-1)T$ et du fait que\r\n$f'$ est $T$-périodique.De la question précédente, on déduit que\r\n$$f(nT)-f(0)=n\\big(f(T)-f(0)\\big).$$\r\nEn particulier, la suite $(|f(nT)|)$ tend vers $+\\infty$. La fonction $f$ ne peut donc pas être périodique\r\n(peu importe la période) puisqu'une fonction périodique définie sur $\\mathbb R$ est bornée.",
+    "lang": "french"
+}

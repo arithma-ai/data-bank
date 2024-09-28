@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre sur $\\mathbb R$ les équations suivantes : \r\n$$\r\n\\begin{array}{lll}\r\n{\\bf 1.}\\ e^{2x}-e^x-6=0&\\quad\\quad&{\\bf 2.}\\ 3e^x-7e^{-x}-20=0.\r\n\\end{array}$$",
+    "hint": "On pourra poser $X=e^x$.",
+    "solution": "Posons $X=e^x$. Alors l'équation devient $X^2-X-6=0$. Les racines de cette équation sont $X=-2$ et $X=3$. Mais seule la racine positive nous intéresse ici, car l'exponentielle ne prend que des valeurs strictement positives. On en déduit que l'équation admet une unique racine, qui est égale à $\\ln 3$.On pose de même $X=e^x$. L'équation devient $3X-\\frac 7X-20=0$, qui est encore équivalente à $3X^2-20X-7=0$ (on ne s'intéresse qu'aux solutions strictement positives). Les solutions de cette dernière équation sont $X=-1/3$ et $X=7$. Seule la seconde est strictement positive. On déduit donc que l'équation $3e^x-7e^{-x}-20=0$ admet une unique solution donnée par $x=\\ln(7)$.",
+    "lang": "french"
+}

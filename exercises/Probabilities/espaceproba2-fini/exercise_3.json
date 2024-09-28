@@ -1,0 +1,6 @@
+{
+    "script": "Dans une tombola, 1000 billets sont mis en vente, et deux billets sont gagnants. Combien faut-il acheter de billets pour avoir une probabilité supérieure à 1/2 d'avoir au moins un billet gagnant?",
+    "hint": "Passer au complémentaire, comme d'habitude.",
+    "solution": "Notons $n$ le nombre de billets achetés. On cherche la probabilité $p_n$ de l'événement \"au moins un des billets achetés est gagnant\". Bien sûr, c'est la propriété de l'événement complémentaire \"aucun des billets achetés n'est gagnant\" que l'on va calculer. Il y a $\\binom {1000} n$ choix possibles d'achats de billets et $\\binom {998}n$ choix qui amènent à aucun billet gagnant. On a donc\r\n\\begin{eqnarray*}\r\np_n&=&1-\\frac{\\binom {998}n}{\\binom {1000} n}\\\\\r\n&=&1-\\frac{(1000-n)(999-n)}{1000\\times 999}.\r\n\\end{eqnarray*}\r\nOn en déduit que\r\n\\begin{eqnarray*}\r\np_n\\geq 1/2&\\iff &\\frac{(1000-n)(999-n)}{1000\\times 999}\\leq 1/2\\\\\r\n&\\iff&n^2-1999n+500\\times 999\\leq 0.\r\n\\end{eqnarray*}\r\nLe calcul des racines de ce polynôme montre que l'une des racines est comprise entre 292 et 293 et l'autre est supérieure à 1000. Le polynôme est négatif entre ces deux racines, et il faut donc acheter au moins 293 billets.",
+    "lang": "french"
+}

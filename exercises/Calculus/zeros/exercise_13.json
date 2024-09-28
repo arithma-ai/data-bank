@@ -1,0 +1,6 @@
+{
+    "script": "En utilisant le théorème de Rouché, démontrer le théorème de d'Alembert.",
+    "hint": "Soit $P(z)=a_nz^n+\\dots$ un polynôme de degré $n$. Comparer à $a_n z^n$ sur un grand cercle.",
+    "solution": "Soit $P(z)=a_nz^n+\\dots$ un polynôme de degré $n$ et posons $g(z)=a_n z^n$.\r\n$P-g$ est un polynôme de degré inférieur ou égal à $n-1$. Il existe donc un réel $R>0$ tel que, \r\nsur le cercle de rayon $R$, on a $|P-g|<|g|$. Par le théorème de Rouché, $P$ et $g$ ont le même\r\nnombre de zéros dans le disque de centre 0 et de rayon $R$, c'est-à-dire $n$. En particulier,\r\n$P$ possède un zéro dans $\\mathbb C$.",
+    "lang": "french"
+}

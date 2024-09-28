@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer l'équation de la sphère contenant les cercles d'équations\r\n    $\\begin{cases} x^2+y^2 = 9\\\\ z=0\\end{cases}$ et\r\n    $\\begin{cases} x^2+y^2 = 25\\\\ z=2.\\end{cases}$",
+    "hint": "Écrire l'équation a priori d'une sphère, $(x-a)^2+(y-b)^2+(z-c)^2=R^2$,\r\npuis introduire l'équation du premier cercle pour trouver $a$ et $b$, etc...",
+    "solution": "Soit $\\mathcal S$ une telle sphère, d'équation $(x-a)^2+(y-b)^2+(z-c)^2=R^2$.\r\nComme elle contient le premier cercle, on sait que, si $x^2+y^2=9$, alors \r\n$(x-a)^2+(y-b)^2+c^2=R^2$ (on a pour le premier cercle $z=0$). Pour $x=3$ et $y=0$, on trouve\r\n$$(3-a)^2+b^2+c^2=R^2.$$\r\nPour $x=-3$ et $y=0$, on trouve\r\n$$(-3-a)^2+b^2+c^2=R^2.$$\r\nEn faisant la différence des deux équations obtenues, on trouve :\r\n$$(3-a)^2=(-3-a)^2$$\r\nce qui donne\r\n$$3-a=-3-a\\textrm{ ou }3-a=3+a.$$\r\nLe premier cas est impossible, et le second donne $a=0$. On trouve de même que $b=0$. Reprenant le point $(3,0,0)$, on trouve encore\r\nque $c^2+9=R^2.$On utilise maintenant le deuxième cercle. On a donc, si $x^2+y^2=25$ et $z=2$, \r\n$x^2+y^2+(z-c)^2=R^2$, soit\r\n$$25+(2-c)^2=R^2\\implies 25+4-4c+R^2-9=R^2\\implies c=5.$$\r\nOn en déduit $R^2=34$, et l'équation de la sphère contenant les deux cercles est :\r\n$$x^2+y^2+(z-5)^2=34.$$",
+    "lang": "french"
+}

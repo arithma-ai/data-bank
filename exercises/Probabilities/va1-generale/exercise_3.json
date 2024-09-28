@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire réelle et soit $M\\subset\\mathbb R$ tel que,\r\ntout $x\\in M$, $P(X=x)>0$. Démontrer que $M$ est fini ou dénombrable.",
+    "hint": "Considérer, pour $n\\geq 1$, $M_n=\\{x\\in M;\\ P(X=x)\\geq 1/n\\}$.",
+    "solution": "Soit $n\\geq 1$. Posons \r\n$$M_n=\\{x\\in M;\\ P(X=x)\\geq 1/n\\}.$$\r\nAlors $M_n$ est fini de cardinal inférieur ou égal à $n$ (car $P(M_n)\\leq 1$). De plus,\r\n$M=\\bigcup_{n\\geq 1}M_n$. Ainsi, $M$ est fini ou dénombrable, comme réunion d'ensembles finis ou dénombrables.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "On note $T_N$ la distribution associée à la fonction localement intégrable $t\\mapsto \\frac{\\sin(Nt)}{\\pi t}$.\r\nMontrer que $T_N$ converge vers $\\delta_0$. On rappelle que $\\int_{0}^{+\\infty}\\frac{\\sin t}{t}dt=\\frac{\\pi}{2}$.",
+    "hint": "Décomposer une fonction test $\\phi$ sous la forme $\\phi(t)=\\phi(0)+t\\psi(t)$.",
+    "solution": "Soit $\\phi\\in\\mcd(\\mtr)$ à support dans $[-R,R]$. On a \r\n$$\\langle T_n,\\phi\\rangle= \\int_{-R}^{R}\\frac{\\sin(nt)}{\\pi t}\\phi(t)dt.$$\r\nLe problème semble se concentrer en $0$ : ceci nous invite à décomposer (très classiquement!)\r\n$\\phi$ en $\\phi(t)=\\phi(0)+t\\psi(t)$, où $\\psi$ est de classe $C^\\infty$. On a alors :\r\n$$\\langle T_n,\\phi\\rangle=\\phi(0)\\int_{-R}^{R}\\frac{\\sin(nt)}{\\pi t}dt+\\frac{1}{\\pi}\\int_{-R}^R\\sin(nt)\\psi(t)dt.$$\r\nDans la première intégrale, on fait le changement de variables $u=nt$, qui nous ramène à $\\int_{-nR}^{nR}\\frac{\\sin(u)}{u}du$.\r\nD'après le rappel, cette quantité tend vers $\\pi$. Pour la deuxième intégrale,\r\nune simple application du lemme de Riemann-Lebesgue assure que cette intégrale converge vers 0.\r\nAinsi, \r\n$$\\lim_{N\\to+\\infty}\\langle T_N,\\phi\\rangle=\\phi(0)=\\langle \\delta,\\phi\\rangle.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a$ et $b$ deux entiers tels que $a^2+b^2$ soit divisible par $7$. Démontrer que $a$ et $b$ sont divisibles par $7$.",
+    "hint": "Commencer par écrire un tableau décrivant les carrés modulo 7.",
+    "solution": "Commençons par écrire un tableau décrivant les carrés modulo 7.\r\n$$\\begin{array}{c|c|c|c|c|c|c|c}\r\nx\\ [7]&0&1&2&3&4&5&6\\\\\r\n\\hline\r\nx^2\\ [7]&0&1&4&2&2&4&1\\\\\r\n\\end{array}$$\r\nOn distingue alors 4 cas :Si $a^2=0$ modulo 7, alors $a^2+b^2=0$ modulo 7 si et seulement si $b=0$ modulo 7 : c'est le cas où $a$ et $b$ sont tous les deux divisibles par 7.Si $a^2=1$ modulo 7, pour que $7|a^2+b^2$, il faudrait que $b^2=6$ modulo 7, ce qui est impossible.Si $a^2=2$ modulo 7, pour que $7|a^2+b^2$, il faudrait que $b^2=5$ modulo 7, ce qui est impossible.Si $a^2=4$ modulo 7, pour que $7|a^2+b^2$, il faudrait que $b^2=3$ modulo 7, ce qui est impossible.Ainsi la seule possibilité est bien que $a$ et $b$ soient divisibles par 7.",
+    "lang": "french"
+}

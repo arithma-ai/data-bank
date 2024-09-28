@@ -1,0 +1,6 @@
+{
+    "script": "Soient $E$ un espace vectoriel réel de dimension finie\r\net $f\\in\\mathcal L(E)$. On suppose que $f$ possède un polynôme annulateur $P$\r\nvérifiant $P(0)=0$ et $P'(0)\\neq 0$. Montrer qu'on a alors\r\n$\\textrm{Im}(f)\\oplus\\ker(f)=E$.",
+    "hint": "Écrire $P(X)=a_n X^n+\\dots+a_1X+a_0$\r\net traduire la condition sur les coefficients.\r\nPrendre ensuite $y\\in\\ker(f)\\cap\\textrm{Im}(f)$\r\net prouver que $y=0$.",
+    "solution": "Soit $P(X)=a_n X^n+\\dots+a_1X+a_0$ ce polynôme. Puisque $P(0)=0$,\r\non a $a_0=0$. Puisque $P'(0)\\neq 0$, on a $a_1\\neq 0$.\r\nPrenons maintenant $y\\in\\ker(f)\\cap\\textrm{Im}(f)$.\r\nOn peut donc écrire $y=f(x)$ et on sait que $f(y)=0$,\r\nce qui entraîne $f^p(x)=0$ pour tout $p\\geq 2$.\r\nOn applique alors la relation $P(f)=0$ à $x$ :\r\n$$0=P(f)(x)=a_nf^n(x)+\\dots+a_1 f(x)=a_1 f(x)=a_1y$$\r\nce qui entraîne $y=0$. $\\ker(f)$ et\r\n$\\hbox{Im}(f)$ sont donc en somme directe.\r\nDe plus, par le théorème du rang, on sait que\r\n$$\\dim(\\ker(f))+\\dim(\\hbox{Im}(f))=\\dim(E).$$\r\nD'où l'égalité demandée.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer qu'il existe deux réels $a$ et $b$ tels que, pour tout $x\\in\\mathbb R\\backslash\\{-1\\}$, \r\n$$\\frac x{x+1}=a+\\frac b{x+1}.$$En déduire la valeur de $\\int_1^2 \\frac{x}{x+1}dx.$",
+    "hint": "Procéder par identification.",
+    "solution": "On met tout au même dénominateur :\r\n$$a+\\frac{b}{x+1}=\\frac{ax+(a+b)}{x+1}.$$\r\nLe choix de $a=1$ et $b=-1$ fonctionne.On écrit \r\n\\begin{align*}\r\n\\int_1^2 \\frac{x}{x+1}dx\r\n&=\\int_1^2\\left(1-\\frac 1{x+1}\\right)dx\\\\\r\n&=\\left[x-\\ln(x+1)\\right]_1^2\\\\\r\n&=2-\\ln(3)-1+\\ln(2)\\\\\r\n&=1+\\ln(2/3).\r\n\\end{align*}",
+    "lang": "french"
+}

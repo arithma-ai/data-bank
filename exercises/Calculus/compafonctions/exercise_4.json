@@ -1,0 +1,6 @@
+{
+    "script": "Soit $P(x)=a_nx^n+a_{n-1}x^{n-1}+\\dots+a_1x+a_0$ un polynôme à coefficients réels, avec $a_n\\neq 0.$ On note $p$ le plus petit indice tel que $a_p\\neq 0$. Déterminer un équivalent simple de $P$ en $+\\infty$. Déterminer un équivalent simple de $P$ en $0$.",
+    "hint": "Quel est le terme dominant en $+\\infty$?",
+    "solution": "Le terme dominant en $+\\infty$ est $a_nx^n$. On divise donc $P(x)$ par $a_nx^n$ et on obtient\r\n$$\\frac{P(x)}{a_nx^n}=1+\\sum_{k=p}^{n-1}\\frac{a_k}{a_n} x^{k-n}.$$\r\nMais pour chaque $k$ dans $p,\\dots,n-1$, on a $k-n<0$ et donc $x^{k-n}$ tend vers 0 en $+\\infty$. Par somme, \r\n$$\\frac{P(x)}{a_nx^n}\\longrightarrow_{x\\to+\\infty}1$$\r\net donc $P(x)\\sim_{+\\infty} a_nx^n.$La méthode est similaire en $0$, mais cette fois le terme dominant est celui de plus petit degré. On divise donc $P(x)$ par $a_px^p$ et on trouve\r\n$$\\frac{P(x)}{a_px^p}=1+\\sum_{k=p+1}^{n}\\frac{a_k}{a_p} x^{k-p}.$$\r\nMais pour $k\\geq p+1$, $x^{k-p}$ tend vers 0 quand $x$ tend vers 0. Ainsi,\r\n$$\\frac{P(x)}{a_px^p}\\longrightarrow_{x\\to 0}1$$\r\net $P(x)\\sim_0 a_p x^p$.",
+    "lang": "french"
+}

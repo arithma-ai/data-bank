@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ définie sur un intervalle ouvert contenant $x$ et de classe $C^2$ sur cet intervalle. Calculer\r\n$$\\lim_{h\\to 0}\\frac{f(x-h)-2f(x)+f(x+h)}{h^2}.$$",
+    "hint": "Utiliser la formule de Taylor-Young.",
+    "solution": "Puisque $f$ est deux fois dérivable en $x$, elle admet un développement limité d'ordre 2 en $x$\r\ndonné par la formule de Taylor-Young. On trouve donc\r\n\\begin{eqnarray*}\r\nf(x-h)&=&f(x)-hf'(x)+\\frac{h^2}{2}f''(x)+o(h^2)\\\\\r\n-2f(x)&=&-2f(x)\\\\\r\nf(x+h)&=&f(x)+hf'(x)+\\frac{h^2}{2}f''(x)+o(h^2)\r\n\\end{eqnarray*}\r\nEn sommant tout et en divisant par $h^2$, on trouve finalement\r\n$$\\frac{f(x-h)-2f(x)+f(x+h)}{h^2}=f''(x)+o(1).$$\r\nLa limite recherchée vaut donc $f''(x)$.",
+    "lang": "french"
+}

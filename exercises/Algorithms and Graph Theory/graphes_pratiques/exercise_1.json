@@ -1,0 +1,6 @@
+{
+    "script": "Dire parmi les dessins suivants lesquels représentent le même graphe :",
+    "hint": "",
+    "solution": "Les deux premiers dessins représentent le même graphe.\r\nIl s'agit d'un pentagone où tous les sommets sont reliés à trois autres (pour former un cycle),\r\nsauf un sommet qui lui est relié à tous les autres. Les troisième et quatrième dessins ne\r\nreprésentent pas le même graphe. Par exemple, le troisième admet un cycle d'ordre 3, ce qui n'est pas le cas du quatrième.",
+    "lang": "french"
+}

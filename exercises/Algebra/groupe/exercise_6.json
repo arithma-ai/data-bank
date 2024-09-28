@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ un ensemble muni d'une loi de composition interne $\\cdot$ associative, qui possède un élément neutre à droite $e$ (ie pour tout $x$ de $G$, $x.e=x$) et tel que tout élément $x$ possède un inverse à droite $x'$ (ie $xx'=e$). Montrer que $G$ est un groupe.",
+    "hint": "Montrer d'abord que $xx'=x'x=e$ en considérant un inverse à droite de $x'x$.",
+    "solution": "Soit $x\\in G$, d'inverse à droite $x'$. On va prouver que $x'$ est aussi un inverse à gauche pour $x$. $x'x$ est un élément de $G$, il possède donc un inverse à droite que l'on note $z$. On a donc :\r\n$$x((x'x).z)=x\\implies (xx')x.z=x\\implies e.x.z=x,$$\r\npar associativité de la loi. On multiplie ensuite à gauche par $x'$, pour trouver :\r\n$$(x'x)z=x'x\\implies e=x'x.$$\r\nOn en déduit ensuite que $e$ est aussi neutre à gauche, car si $x$ est dans $G$,\r\n$$ex=(xx'x)=xe=x,$$\r\noù on a encore utilisé l'associativité de la loi et le fait que $e$ est un inverse à droite.",
+    "lang": "french"
+}

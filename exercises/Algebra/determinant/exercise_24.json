@@ -1,0 +1,6 @@
+{
+    "script": "Soient $n$ et $p$ des entiers avec $p<n$. Soit $A\\in\\mcm_{n,p}(\\mtr)$ et $B\\in\\mcm_{p,n}(\\mtr)$. Calculer le déterminant de $AB$.",
+    "hint": "Majorer le rang de $AB$.",
+    "solution": "On a :\r\n$$\\rang(AB)\\leq \\rang(A)$$\r\n(car l'image de $AB$, vue comme application linéaire, est contenue dans l'image de $A$). Maintenant, le théorème du rang garantit que \r\n$$\\rang(A)\\leq p<n.$$\r\nPuisque $AB\\in\\mnr$, on a $\\det(AB)=0$.",
+    "lang": "french"
+}

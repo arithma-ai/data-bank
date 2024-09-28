@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer les inégalités suivantes, valables pour tout $x\\geq 0$ : \r\n$$\\sh(x)\\geq x,\\ \\ch(x)\\geq 1+\\frac{x^2}2.$$",
+    "hint": "Introduire la fonction différence....",
+    "solution": "Posons $f(x)=\\sh(x)-x$. La fonction $f$ est dérivable sur $[0,+\\infty[$ et sa dérivée vérifie $f'(x)=\\ch(x)-1$. Comme $\\ch(0)=1$ et que $\\ch$ est croissante, on a $f'(x)\\geq 0$ pour $x\\geq 0$. Ainsi, la fonction $f$ est croissante. De plus, $f(0)=0$. Ainsi, $f(x)\\geq 0$ pour tout $x\\geq 0$.Posons ensuite $g(x)=\\ch(x)-1-\\frac{x^2}2$. La fonction $g$ est dérivable sur $[0,+\\infty[$ et sa dérivée vérifie $g'(x)=\\sh(x)-x\\geq 0$ d'après la première partie. Ainsi $g$ est croissante sur $[0,+\\infty[$. Puisque $g(0)=0$, on a bien que $g(x)\\geq 0$ pour tout $x\\geq 0$.",
+    "lang": "french"
+}

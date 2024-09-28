@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R^n\\to\\mathbb R$ différentiable. On note $S$ la sphère unité de $\\mathbb R^n$ et\r\n$B$ la boule unité ouverte. On suppose que $f$ est constante sur $S$. Démontrer l'existence de $x_0\\in B$ tel que \r\n$df_{x_0}=0$.",
+    "hint": "Utiliser l'existence d'un maximum et d'un minimum sur la boule unité fermée.",
+    "solution": "On copie la preuve en dimension 1. Soit $K$ la boule unité fermée de $\\mathbb R^n$. $K$ étant compacte,\r\n$f$, qui est continue, admet un minimum atteint en $a$ et un maximum atteint en $b$ sur $K$. Si $f(a)=f(b)$, alors $f$ est constante sur \r\n$K$ et $x_0=0$ convient. Sinon, l'une des valeurs prises est différente de la valeur prise par $f$ sur $S$, disons $f(a)$, et donc\r\n$a\\notin S$. Ainsi, $f$ admet un extrémum local en $a$, et donc $df_a=0$.",
+    "lang": "french"
+}

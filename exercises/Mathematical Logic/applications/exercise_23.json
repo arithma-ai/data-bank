@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E,F$ deux ensembles et $f:E\\to F$. Soit $A\\subset E$ et $B\\subset F$. Démontrer l'équivalence :\r\n$$f(A)\\cap B= \\varnothing\\iff A\\cap f^{-1}(B)= \\varnothing.$$",
+    "hint": "$P\\iff Q$ est équivalent à $(\\textrm{non} P)\\iff (\\textrm{non }Q)$. Démontrer la double implication.",
+    "solution": "$P\\iff Q$ est équivalent à $(\\textrm{non} P)\\iff (\\textrm{non }Q)$. Il suffit donc de démontrer que \r\n$$f(A)\\cap B\\neq  \\varnothing\\iff A\\cap f^{-1}(B)\\neq \\varnothing.$$\r\nDémontrons la double implication. Soit $x\\in f(A)\\cap B$. Alors il existe $y\\in A$ tel que $x=f(y)$. Mais alors, $y\\in A$ et $f(y)=x\\in B$ ce qui signifie que $y\\in f^{-1}(B)$. Ainsi, $f^{-1}(B)\\cap A\\neq\\varnothing$.Réciproquement, soit $y\\in f^{-1}(B)\\cap A$. Alors $f(y)\\in B$. Mais on a aussi $f(y)\\in f(A)$ et donc $f(A)\\cap B\\neq\\varnothing$.",
+    "lang": "french"
+}

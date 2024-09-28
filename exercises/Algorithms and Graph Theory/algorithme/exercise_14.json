@@ -1,0 +1,6 @@
+{
+    "script": "Soit $P(x)=a_n x^n+a_{n-1}x^{n-1}+\\dots+a_0$. Pour évaluer $P(x)$, le mathématicien anglais Horner a proposé la méthode suivante : \r\n$$P(x)= (\\cdots(((a_n x+a_{n-1})x+a_{n-2})x+a_{n-3})\\cdots)x+a_0.$$\r\nÉcrire une fonction sous Python qui prend en entrée la liste des coefficients d'un polynôme $P$ et un nombre réel $x$ et qui retourne $P(x)$ suivant la méthode de Horner.",
+    "hint": "",
+    "solution": "Voici une fonction qui reproduit le fonctionnement du schéma de Hörner :def horner(P,x):n=len(P)valeur=0for i in range(n-1,-1,-1):valeur=valeur*x+P[i]return valeurIl y a une petite subtilité ici, autour de la boucle : on fait décroître l'indice $i$ de $n$ (le degré du polynôme) jusque 0 (mais il faut mettre -1 comme deuxième indice de la fonction range). On réalise en fait comme première opération $0\\times x+a_n$, puis $a_n\\times x+a_{n-1}$, etc... d'où ce besoin de faire une boucle où l'indice diminue.Si le degré du polynôme est $d$ (qui est égal à $n+1$ dans notre fonction), notre fonction réalise exactement $d+1$ additions et $d+1$ multiplications. On peut descendre à $d$ additions et $d$ multiplications en modifiant un petit peu l'initialisation puis en faisant partir la boucle de $n-2$ :def horner(P,x):n=len(P)valeur=P[n-1]for i in range(n-2,-1,-1):valeur=valeur*x+P[i]return valeur",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que l'ensemble des matrices de $O_n(\\mathbb R)$ à coefficients (entiers) relatif est fini. Déterminer son cardinal.",
+    "hint": "Combien chaque colonne admet-elle de coefficients non nuls?",
+    "solution": "Soit $A\\in\\mathcal M_n(\\mathbb Z)\\cap O_n(\\mathbb R)$. Alors on sait que, pour tout $j=1,\\dots,n,$ \r\n$$\\sum_{i=1}^n a_{i,j}^2=1.$$\r\nPuisque $a_{i,j}\\in\\mathbb Z,$ ceci n'est possible que s'il existe $\\phi(j)\\in\\{1,\\dots,n\\}$ tel que $a_{\\phi(j),j}=\\pm 1$ et $a_{i,j}=0$ pour tout $i\\neq \\phi(j)$. De plus, deux colonnes sont non colinéaires. Ainsi, $\\phi:\\{1,\\dots,n\\}\\to\\{1,\\dots,n\\}$ est injective, donc bijective puisqu'on travaille avec des ensembles finis. Ainsi, il y a au plus $2^n\\cdot n!$ telles matrices (le $2^n$ correspond au choix des signes, le $n!$ aux permutations des vecteurs).Réciproquement, si on se donne des signes $\\veps_i\\in\\{-1,1\\},$ $i=1,\\dots,n$, et si les colonnes de $A$ constituent une permutation des vecteurs $\\veps_i e_i,$ où $(e_1,\\dots,e_n)$ est la base canonique de $\\mathbb R^n,$ alors $A$ est orthogonale. Il y a donc exactement $2^n\\times n!$ matrices de $O_n(\\mathbb R)$ à coefficients entiers.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(\\Omega,\\mathcal{A},\\mu)$ un espace mesuré, $p\\in[1,+\\infty[$ et soit $g\\in L^q(\\Omega)$,\r\noù $q$ est l'exposant conjugué de $p$. Soit $T:L^p(\\Omega)\\to\\mtc$ définie par $T(f)=\\int_\\Omega f\\overline{g}d\\mu$.Montrer que $T$ est définie et continue. Montrer que $\\|T\\|\\leq \\|g\\|_q$.En utilisant la fonction $f$ définie par $f(x)=g(x)|g(x)|^{q-2}$ si $g(x)\\neq 0$, $f(x)=0$\r\nsinon, montrer qu'en fait $\\|T\\|=\\|g\\|_q$.",
+    "hint": "",
+    "solution": "Soit $f\\in L^p(\\Omega)$. Alors, d'après l'inégalité de Hölder, \r\n$$|T(f)|\\leq \\int_{\\Omega}|f|\\cdot|g|d\\mu\\leq \\left(\\int_\\Omega |f|^pd\\mu\\right)^{1/p}\\cdot \\left(\\int_{\\Omega}|g|^q d\\mu\\right)^{1/q}$$\r\nce qui prouve le résultat demandé.Calculons d'abord $\\|f\\|_p$:\r\n$$\\|f\\|_p^p=\\int_{\\mtr}|g(x)|^{p+pq-2p}dx=\\|g\\|_q^q.$$\r\nD'autre part,\r\n$$T(f)=\\int_\\mtr |g|^q=\\|g\\|_q^q.$$\r\nOn en déduit\r\n$$\\|T\\|\\geq\\frac{|Tf|}{\\|f\\|_p}=\\|g\\|_q^{q-q/p}=\\|g\\|_q.$$",
+    "lang": "french"
+}

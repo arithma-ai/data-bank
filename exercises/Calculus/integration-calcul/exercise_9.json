@@ -1,0 +1,6 @@
+{
+    "script": "Calculer les intégrales suivantes :\r\n$$\\mathbf{1.}\\quad I=\\int_0^1 xe^xdx\\quad\\quad\\mathbf{2.}\\quad J=\\int_1^e x^2\\ln xdx$$",
+    "hint": "Poser $u(x)=x$ et $v'(x)=e^x$.Poser $u(x)=\\ln x$ et $v'(x)=x^2$.",
+    "solution": "de l'exercice en vidéoOn intègre par parties en posant :\r\n$$\\begin{array}{rclcrcl}\r\nu(x)&=&x&\\quad&u'(x)&=&1\\\\\r\nv'(x)&=&e^x&\\quad&v(x)&=&e^x.\r\n\\end{array}$$\r\nOn obtient donc \r\n$$\\int_0^1 xe^x dx=1e^1-0e^0-\\int_0^1 e^xdx.$$\r\nComme on sait calculer cette dernière intégrale, on trouve finalement\r\n$$\\int_0^1 xe^x dx=e-e+1=1.$$On intègre par parties en posant :\r\n$$\\begin{array}{rclcrcl}\r\nu(x)&=&\\ln x&\\quad&u'(x)&=&\\frac 1x\\\\\r\nv'(x)&=&x^2&\\quad&v(x)&=&\\frac{x^3}3.\r\n\\end{array}$$\r\nOn obtient donc \r\n\\begin{eqnarray*}\r\nJ&=&\\left[\\frac{x^3}3\\ln x\\right]_1^e-\\frac 13\\int_1^ex^2dx\\\\\r\n&=&\\frac{e^3}3-\\frac19(e^3-1)\\\\\r\n&=&\\frac{2e^3+1}9.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

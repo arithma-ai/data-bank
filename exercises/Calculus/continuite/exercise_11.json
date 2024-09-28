@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que si une fonction $f:\\mathbb R\\to\\mathbb R$ est continue en $x_0$, alors $|f|$ est continue en $x_0$. Démontrer que la réciproque est fausse.",
+    "hint": "Appliquer la définition de la continuité.",
+    "solution": "On va vérifier par la définition que $|f|$ est continue en $x_0$. Pour cela, soit $\\veps>0$. Puisque $f$ est continue en $x_0$, il existe $\\eta>0$ tel que, si $|x-x_0|<\\eta$, alors $|f(x)-f(x_0)|<\\veps$. Mais, par l'inégalité triangulaire, \r\n$$\\big| |f(x)|-|f(x_0)|\\big|\\leq |f(x)-f(x_0)| <\\veps.$$\r\nAinsi, $|f|$ est continue en $x_0$. On aurait pu aussi utiliser que $|f|=|\\cdot|\\circ f$, et utiliser le fait que la composée de deux fonctions continues est continue.La réciproque est fausse. Considérons par exemple $f$ définie par $f(x)=-1$ si $x\\leq 0$ et $f(x)=1$ si $x>0$. Alors $f$ n'est pas continue en $0$. En revanche, $|f|=1$ est une fonction constante, et donc $|f|$ est continue.",
+    "lang": "french"
+}

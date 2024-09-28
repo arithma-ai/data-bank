@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que $0<\\arccos(3/4)<\\frac{\\pi}4$.Résoudre $\\arccos(x)=2\\arccos(3/4)$.",
+    "hint": "Utiliser la stricte décroissance de $\\arccos$.",
+    "solution": "On sait que (éventuellement en vérifiant à la calculatrice)\r\n$$\\frac{\\sqrt 2}2<\\frac 34<1.$$\r\nPar stricte décroissance de la fonction $\\arccos$, on a \r\n$$\\arccos(1)<\\arccos\\left(\\frac 34\\right)<\\arccos\\left(\\frac{\\sqrt 2}2\\right).$$\r\nCeci est exactement l'inégalité demandée!Soit $x\\in [-1,1]$. Alors $\\arccos(x)\\in[0,\\pi]$ et d'après la question précédente, $2\\arccos(3/4)\\in [0,\\pi/2]\\subset [0,\\pi]$. La fonction $\\cos$ étant injective sur $[0,\\pi]$, on a \r\n\\begin{align*}\r\n\\arccos(x)=2\\arccos(3/4)&\\iff \\cos(\\arccos(x))=\\cos(2\\arccos(3/4))\\\\\r\n&\\iff x=2\\cos^2(\\arccos(3/4))-1\\\\\r\n&\\iff x=2\\times\\left(\\frac 34\\right)^2-1\\\\\r\n&\\iff x=\\frac 18.\r\n\\end{align*}",
+    "lang": "french"
+}

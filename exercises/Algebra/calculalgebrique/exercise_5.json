@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$. Démontrer que \r\n$$\\sum_{k=n+1}^{2n-1}\\ln\\left(\\sin\\left(\\frac{k\\pi}{2n}\\right)\\right)=\\sum_{k=1}^{n-1} \\ln\\left(\\sin\\left(\\frac{k\\pi}{2n}\\right)\\right).$$",
+    "hint": "On pourra utiliser que $\\sin(\\pi-x)=\\sin(x)$. Attention! Il y a deux possibilités pour effectuer le changement d'indices. L'une amène plus facilement au résultat.",
+    "solution": "Il y a deux possibilités naturelles pour effectuer le changement d'indice et obtenir les bonnes bornes. On peut poser $j=k-n$, ou $j=2n-k$. Le deuxième choix permet plus facilement d'arriver au résultat. Posons donc $j=2n-k$. Alors :\r\n\\begin{align*}\r\n\\sum_{k=n+1}^{2n-1}\\ln\\left(\\sin\\left(\\frac{k\\pi}{2n}\\right)\\right)&=\r\n\\sum_{j=1}^{n-1}\\ln\\left(\\sin\\left(\\pi-\\frac{j\\pi}{2n}\\right)\\right)\\\\\r\n&=\\sum_{j=1}^{n-1}\\ln\\left(\\sin\\left(\\frac{j\\pi}{2n}\\right)\\right)\r\n\\end{align*}\r\nen utilisant la formule $\\sin(\\pi-x)=\\sin(x)$. C'est exactement le résultat demandé.",
+    "lang": "french"
+}

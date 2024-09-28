@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ holomorphe dans un ouvert connexe $\\mathcal U$, non identiquement nulle, et soit $K$ un compact contenu dans $\\mathcal U$. On note \r\n$$Z=\\{z\\in K;\\ f(z)=0\\}.$$Démontrer que $Z$ est un compact de $\\mathbb C$.En déduire que $Z$ est fini.",
+    "hint": "L'image réciproque par une application continue d'un fermé est un fermé.Procéder par recouvrement ouvert.",
+    "solution": "Notons $g$ la restriction de $f$ à $K$. Alors $Z=g^{-1}(\\{0\\})$. C'est donc l'image réciproque d'un fermé par une application continue, c'est donc un fermé. Comme il est contenu dans le compact $K$, $Z$ est lui-même compact (par exemple, comme on est dans $\\mathbb C$, car il est fermé et borné).Soit $z\\in Z$. Alors il existe $r_z>0$ tel que $f$ ne s'annule pas sur $D(z,r_z)$ ailleurs qu'en $z$. Clairement, on a $Z\\subset\\bigcup_{z\\in K}D(z,r_z)$. On a donc un recouvrement ouvert du compact $Z$, on peut donc en extraire un sous-recouvrement fini. Autrement dit, il existe $p\\geq 0$ et $z_1,\\dots,z_p\\in K$ tels que $Z\\subset\\bigcup_{j=1}^p D(z_j,r_{z_j})$. Maintenant, puisque $f$ ne s'annule sur le disque $D(z_j,r_{z_j})$ qu'en $z_j$, on a $Z=\\{z_1,\\dots,z_p\\}$, et donc $Z$ est fini.",
+    "lang": "french"
+}

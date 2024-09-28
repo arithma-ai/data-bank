@@ -1,0 +1,6 @@
+{
+    "script": "Soient $a_1,\\dots,a_n:I\\to \\mathbb R$ des fonctions continues. Montrer que toute solution non-nulle\r\nde l'équation $y^{(n)}+a_{n-1}(t)y^{(n-1)}+\\dots+a_0(t)y=0$ a ses zéros isolés.",
+    "hint": "Soit $y$ une solution non-nulle, et $t$ un zéro de $y$. Puisque $0$\r\nest solution de $y$, que peut-on dire de $y$ et de ses dérivées successives de $y$ en $t$?\r\nPuis utiliser la formule de Taylor-Young en $t$.",
+    "solution": "Soit $y$ une solution non-nulle de l'équation et soit $t_0$ un zéro de $y$.\r\nRemarquons que la fonction identiquement nulle est solution de l'équation. D'après la partie\r\nunicité du théorème\r\nde Cauchy (dans sa version linéaire adaptée aux équations d'ordre $n$),\r\non est sûr qu'il existe $k\\in\\{0,\\dots,n-1\\}$\r\ntel que $y^{(k)}(t_0)\\neq 0$ (sinon $y$ serait la fonction nulle). Soit $p$ le plus petit des entiers\r\n$k$ tel que $y^{(k)}(t_0)\\neq 0$. Alors, d'après la formule de Taylor-Young, au voisinage de $t_0$, on a\r\n$$y(t)\\sim_{t_0}\\frac{y^{(p)}(t_0)}{p!}(t-t_0)^p.$$\r\nAinsi, la fonction ne s'annule pas dans un voisinage de $t_0$ ailleurs qu'en $t_0$.",
+    "lang": "french"
+}

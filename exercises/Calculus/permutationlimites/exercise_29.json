@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que $\\int_0^1 \\ln(x)\\ln(1-x)dx=\\sum_{n\\geq 1}\\frac{1}{n(n+1)^2}.$",
+    "hint": "Utiliser le développement en série entière de $\\ln(1-x)$ puis le théorème de convergence monotone.",
+    "solution": "On peut commencer par remarquer que, puisque $\\ln(x)=_0o(1/\\sqrt x)$ et que $\\ln(1-x)=_1 o(1/\\sqrt{1-x}),$ la fonction \r\n$x\\mapsto \\ln(x)\\ln(1-x)$ est bien intégrable sur $]0,1[$. De plus, en effectuant un développement en série entière de $\\ln(1-x),$\r\non sait que, pour tout $x\\in ]0,1[$, \r\n$$\\ln(x)\\ln(1-x)=\\sum_{n\\geq 1}-\\ln(x)\\frac{x^n}{n}.$$\r\nPuisque $-\\ln(x)\\frac{x^n}n\\geq 0$ sur $]0,1[$, on peut appliquer le théorème de convergence monotone à la suite\r\ncroissante de fonctions $(f_N),$ où $f_N(x)$ est donné pour $N\\geq 1$ et $x\\in]0,1[$ par \r\n$$f_N(x)=\\sum_{n=1}^N -\\ln(x)\\frac{x^n}{n}.$$\r\nOn en déduit\r\n$$\\int_0^1 -\\ln(x)\\ln(1-x)dx=\\sum_{n\\geq 1}-\\int_0^1 \\ln(x)\\frac{x^n}ndx.$$\r\nCette dernière intégrale se calcule par une intégration par parties : \r\n\\begin{align*}\r\n \\int_0^1 \\ln(x)\\frac{x^n}ndx&=\\left[\\ln(x)\\frac{x^{n+1}}{n(n+1)}\\right]_0^1 -\\int_0^1 \\frac 1x\\cdot \\frac{x^{n+1}}{n(n+1)}dx\\\\\r\n &=-\\frac1{n(n+1)}.\r\n\\end{align*}",
+    "lang": "french"
+}

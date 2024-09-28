@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[a,b]\\to\\mathbb R$ de classe $C^1$ telle que $f(a)=0$.Prouver que, pour tout $x\\in[a,b]$,\r\n$$|f(x)|^2\\leq (x-a)\\int_a^b |f'(t)|^2dt.$$En déduire que\r\n$$\\int_a^b |f(x)|^2dx\\leq\\frac{(b-a)^2}{2}\\int_a^b |f'(x)|^2dx.$$",
+    "hint": "Représenter $f$ par l'intégrale de sa dérivée, puis appliquer l'inégalité de Cauchy-Schwarz.\r\nOn pourra écrire $f'=f'\\times 1$.Intégrer l'inégalité précédente.",
+    "solution": "Comme $f(a)=0$, on a\r\n$$f(x)=\\int_a^x f'(t)dt.$$\r\nEcrivons $f'=1\\times f'$ et appliquons l'inégalité de Cauchy-Schwarz. On trouve\r\n$$|f(x)|^2=\\left|\\int_a^x f'(t)\\times 1dt\\right|^2\\leq \\int_a^x |f'(t)|^2dt\\times \\int_a^x1^2 dt\\leq (x-a)\\int_a^b |f'(t)|^2dt.$$Il suffit d'intégrer l'inégalité précédente entre $a$ et $b$.",
+    "lang": "french"
+}

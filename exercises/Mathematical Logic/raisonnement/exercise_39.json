@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer toutes les fonctions $f:\\mathbb R\\to\\mathbb R$ telles que, pour tous $x,y\\in\\mathbb R$, \r\n$$f(x)\\times f(y)-f(x\\times y)=x+y.$$",
+    "hint": "Raisonner par analyse-synthèse, et commencer par déterminer $f(0)$.",
+    "solution": "On va raisonner par analyse-synthèse en déterminant des conditions nécessaires sur $f$ pour vérifier cette équation, puis en vérifiant que ces conditions sont suffisantes.Analyse : soit $f$ une fonction vérifiant cette équation. Alors, choisissant $x=y=0$, on obtient $f(0)^2-f(0)=0$, ce qui entraîne $f(0)=0$ ou $f(0)=1$. Choisissant ensuite $x=1$ et $y=0$, on a $f(1)f(0)-f(0)=1$, ce qui interdit $f(0)=0$. On a donc $f(0)=1$ (et aussi $f(1)=2$). Enfin, fixant $y=0$, on obtient que pour tout $x\\in\\mathbb R$, on a $f(x)=x+1$. On a donc prouvé que si $f$ est solution de l'équation, alors, pour tout $x\\in\\mathbb R$, $f(x)=x+1$.Synthèse : réciproquement, considérons la fonction $f$ définie par $f(x)=x+1$. Alors, pour tous $x,y\\in\\mathbb R$, on a\r\n$$f(x)\\times f(y)=(x+1)(y+1)=xy+x+y+1$$\r\net \r\n$$f(xy)=xy+1$$\r\nce qui prouve bien que $f$ est solution de l'équation.En conclusion, l'équation admet une solution unique : la fonction $f$ donné par $f(x)=x+1$.",
+    "lang": "french"
+}

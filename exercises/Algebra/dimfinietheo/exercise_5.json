@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\phi$ un endomorphisme de $\\mathbb R[X]$ qui préserve le degré. Démontrer que $\\phi$ est bijectif (par convention, le degré du polynôme nul est $-\\infty$).",
+    "hint": "Pour démontrer la surjectivité, on pourra passer par $\\mathbb R_n[X]$.",
+    "solution": "Il est d'abord clair qu'un tel endomorphisme est injectif puisque son noyau est réduit au polynôme nul. La surjectivité n'est pas une conséquence immédiate car $\\mathbb R[X]$ n'est pas de dimension finie. Soit $P\\in\\mathbb R[X]$ et soit $n$ le degré de $P$. Notons $\\phi_n$ la restriction de $\\phi$ à $\\mathbb R_n[X]$. Alors $\\phi_n$ est un endomorphisme de $\\mathbb R_n[X]$, puisque $\\phi$ préserve le degré. De plus, $\\phi_n$ est injective. Or, $\\mathbb R_n[X]$ est de dimension finie. Donc $\\phi_n$ est bijective, en particulier surjective. Ainsi, il existe $Q\\in\\mathbb R_n[X]$ tel que que $\\phi(Q)=\\phi_n(Q)=P$. Ceci prouve que $\\phi$ est surjective.",
+    "lang": "french"
+}

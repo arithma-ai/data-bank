@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction holomorphe sur un ouvert contenant le disque fermé $\\overline D(0,1)$. On suppose que \r\n$$|1-f(z)|\\leq |e^{z-1}|$$ \r\nquand $|z|=1$. Démontrer que $\\frac 12\\leq |f(0)|\\leq \\frac 32$.",
+    "hint": "Appliquer le principe du maximum à la fonction $g(z)=\\frac{1-f(z)}{e^{z-1}}$.",
+    "solution": "Puisque $e^{z-1}$ ne s'annule pas, la fonction $g$ définie par $g(z)=\\frac{1-f(z)}{e^{z-1}}$ est holomorphe sur le même ouvert que $f$. De plus, on sait que $|g(z)|\\leq 1$ si $|z|=1$. On peut appliquer le principe du maximum à $g$ et on trouve que, pour tout $z\\in D(0,1)$, $|g(z)|\\leq 1$. Ceci entraîne que, pour tout $z\\in D(0,1)$, on a \r\n$$|1-f(z)|\\leq |e^{z-1}|.$$\r\nEn particulier, en $0$, on a \r\n$$|1-f(0)|\\leq e^{-1}\\leq \\frac{1}2.$$\r\nOn en déduit que $f(0)$ appartient au cercle de centre $1$ et de rayon $1/2$, et donc que l'on a bien $\\frac 12\\leq |f(0)|\\leq \\frac 32$.",
+    "lang": "french"
+}

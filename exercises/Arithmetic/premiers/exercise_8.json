@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a,b\\in\\mathbb N^*$ tels que $a^2|b^2$. Démontrer que $a|b$.",
+    "hint": "Utiliser une décomposition en produit de facteurs premiers.",
+    "solution": "Décomposons $a$ et $b$ en produit de facteurs premiers :\r\n$$a=\\prod_{i=1}^r p_i^{\\alpha_i},\\ b=\\prod_{i=1}^r p_i^{\\beta_i}.$$\r\nOn a donc \r\n$$a^2=\\prod_{i=1}^r p_i^{2\\alpha_i},\\ b^2=\\prod_{i=1}^r p_i^{2\\beta_i}.$$\r\nLa condition $a^2|b^2$ se traduit par, pour tout $i=1,\\dots,r$, $2\\alpha_i\\leq 2\\beta_i$. Mais ceci entraîne que $\\alpha_i\\leq\\beta_i$ et donc que $a|b$.",
+    "lang": "french"
+}

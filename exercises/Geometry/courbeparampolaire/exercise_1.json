@@ -1,0 +1,6 @@
+{
+    "script": "Étudier et tracer la courbe d'équation polaire $\\rho(\\theta)=1+\\cos\\theta$.",
+    "hint": "Se limiter d'abord à l'intervalle $[0,\\pi]$. Ensuite, il n'y a pas de difficultés particulières.",
+    "solution": "On commence par remarquer que $\\rho(\\theta+2\\pi)=\\rho(\\theta)$, et donc qu'il suffit\r\nd'étudier la courbe sur l'intervalle $[-\\pi,\\pi]$. De plus, on a $\\rho(-\\theta)=\\rho(\\theta)$. On peut donc\r\nse contenter d'étudier la courbe sur $[0,\\pi]$, puis d'appliquer une symétrie par rapport à la droite $(Ox)$.\r\nLes variations de $\\rho$ sont évidentes : $\\rho$ est décroissante sur $[0,\\pi]$ avec $\\rho(0)=2$\r\net $\\rho(\\pi)=0$. Le seul point stationnaire est en $\\pi$. La tangente est alors parallèle à $\\vec u_\\pi$, c'est-à-dire parallèle à l'axe des\r\nabscisses. On en déduit le tracé suivant :",
+    "lang": "french"
+}

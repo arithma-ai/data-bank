@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout $x\\in\\mathbb R$, $|x-1|\\leq x^2-x+1$.",
+    "hint": "Séparer les cas $x\\geq 1$ et $x<1$.",
+    "solution": "La difficulté de l'exercice vient du fait que la valeur absolue a deux expressions distinctes suivant le signe de la quantité à l'intérieur. Ceci nous incite à raisonner par disjonction de cas.Si $x\\leq 1$, alors $x-1\\leq 0$ et $|x-1|=1-x$. On doit alors démontrer que, si $x\\leq 1$, on a $1-x\\leq x^2-x+1$. Étudions donc le signe du trinôme \r\n$$P(x)=x^2-x+1-(1-x)=x^2\\geq 0.$$\r\nLa propriété est vraie si $x\\leq 1$.Si $x\\geq 1$, alors $x-1\\geq 0$ et $|x-1|=x-1$. On doit alors démontrer que, si $x\\geq 1$, on a $x-1\\leq x^2-x+1$. Étudions donc le signe du trinôme\r\n$$Q(x)=x^2-x+1-(x-1)=x^2-2x+2=(x-1)^2+1\\geq 0.$$\r\nLa propriété est donc vraie si $x\\geq 1$.En conclusion, la propriété est vraie pour tout $x\\in\\mathbb R$.",
+    "lang": "french"
+}

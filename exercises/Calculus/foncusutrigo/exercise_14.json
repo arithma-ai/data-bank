@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que, pour tout $x\\in[-1,1]$, $\\arccos(x)+\\arcsin(x)=\\frac\\pi2$.",
+    "hint": "Écrire sous la forme $\\arccos(x)=\\frac\\pi2-\\arcsin(x)$ et appliquer\r\nla fonction cosinus (en justifiant!) Ou bien dériver.",
+    "solution": "Il y a deux méthodes classiques pour résoudre cet exercice. La première\r\nconsiste à remarquer que $\\arccos(x)+\\arcsin(x)=\\frac\\pi 2$ si et seulement si\r\n$\\arccos x=\\frac\\pi 2-\\arcsin x$. Or, $\\arccos(x)\\in[0,\\pi]$ et\r\n$\\pi/2-\\arcsin x\\in[0,\\pi]$. Puisque $\\cos$ est une bijection\r\nde $[0,\\pi]$ sur $[-1,1]$, ceci est équivalent à dire\r\n$$\\cos(\\arccos x)=\\cos(\\pi/2-\\arcsin x).$$\r\nMais, on a $\\cos(\\arccos x)=x$ et aussi\r\n$$\\cos(\\pi/2-\\arcsin x)=\\sin(\\arcsin x)=x$$\r\nce qui assure l'égalité demandée.L'autre méthode consiste à poser $f(x)=\\arccos x+\\arcsin x$ et de remarquer\r\nque cette fonction est continue sur $[-1,1]$ et dérivable sur $]-1,1[$.\r\nOr, on a $f'(x)=0$. On en déduit que $f$ est constante sur l'intervalle $[-1,1]$.\r\nPuisque $f(0)=\\arccos(0)+\\arcsin(0)=\\pi/2$, on a bien $\\arccos(x)+\\arcsin(x)=f(x)=\\pi/2$\r\npour tout $x\\in[-1,1]$.",
+    "lang": "french"
+}

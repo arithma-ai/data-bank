@@ -1,0 +1,6 @@
+{
+    "script": "Soient $A,B\\in\\mathcal M_n(\\mathbb R)$. On suppose qu'il existe $P\\in GL_n(\\mathbb C)$ tel que $PAP^{-1}=B$. Démontrer qu'il existe $Q\\in GL_n(\\mathbb R)$ tel que $QAQ^{-1}=B$.",
+    "hint": "Écrire la relation $PA=BP$ et travailler à partir des parties réelles et imaginaires de $P$.",
+    "solution": "On écrit la relation sous la forme $PA=BP$ et on pose $S=\\Re e( P)$ et $T=\\Im m( P)$ de sorte que \r\n$P=S+iT$. On a donc $SA+iTA=BS+iBT$ soit encore $SA=BS$ et $TA=BT$. Le problème est que rien ne dit que $S$ ou $T$ soit inversible. Maintenant, on a encore pour tout $x\\in\\mathbb R$, \r\n$$(S+xT)A=B(S+xT).$$\r\nOr, $R(x)=\\det(S+xT)$ est un polynôme qui n'est pas identiquement nul car $R(i)\\neq 0$. Il admet donc un nombre fini de racines et on peut trouver $x_0\\in\\mathbb R$ tel que $S+x_0 T$ est inversible. On a le résultat voulu en posant $Q=S+x_0 T$.",
+    "lang": "french"
+}

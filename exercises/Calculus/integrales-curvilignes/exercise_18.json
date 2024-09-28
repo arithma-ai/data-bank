@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\dis V(x,y)=\\left(\\frac{-y}{x^2+y^2};\\frac{x}{x^2+y^2}\\right)$ un champ de vecteurs. Calculer sa circulation le long du cercle de centre O et de rayon $R$. En déduire que ce champ de vecteurs ne dérive pas d'un potentiel.",
+    "hint": "Paramétrer le cercle par $x(t)=R\\cos t$ et $y(t)=R\\sin t$. On doit trouver $2\\pi$.",
+    "solution": "On paramètre le cercle par $x(t)=R\\cos t$ et $y(t)=R\\sin t$, où $t$ décrit l'intervalle $[-\\pi,\\pi]$. On a :\r\n$$V(x(t),y(t))=(-\\sin(t)/R;\\cos(t)/R),$$\r\ntandis que \r\n$$(x'(t),y'(t))=(-R\\sin t;R\\cos t).$$\r\nOn a donc :\r\n\\begin{eqnarray*}\r\n\\int_C\\vec{V}.\\overrightarrow{dM}&=&\\int_{-\\pi}^{\\pi}\\sin^2 t+\\cos^2dt\\\\\r\n&=&2\\pi.\r\n\\end{eqnarray*}\r\nLe champ de vecteurs ne peut pas dériver d'un potentiel, car quand on intègre un tel champ de vecteurs le long d'une courbe fermée, on trouve nécessairement zéro.",
+    "lang": "french"
+}

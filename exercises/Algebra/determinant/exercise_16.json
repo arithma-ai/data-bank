@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A=(a_{i,j})_{1\\leq i,j\\leq n}\\in\\mathcal M_n(\\mathbb K)$ et soit $B=(b_{i,j})_{1\\leq i,j\\leq n}$ définie par $b_{i,j}=(-1)^{i+j}a_{i,j}$. Calculer $\\det(B)$ en fonction de $\\det(A)$.",
+    "hint": "Commencer passer de $A$ à $B$ en multipliant certaines lignes et certaines colonnes par des $-1$?",
+    "solution": "On passe de $A$ à $B$ en multipliant toutes les lignes impaires par $-1$, puis toutes les colonnes impaires par $-1$. Si on note $p$ le nombre de lignes impaires et $q$ le nombre de colonnes impaires, alors on sait que \r\n$$\\det(B)=(-1)^{p+q}\\det(A).$$\r\nMais la matrice comporte autant de lignes impaires que de colonnes impaires, et donc $p=q$, ce qui entraine que $\\det(B)=\\det(A)$.",
+    "lang": "french"
+}

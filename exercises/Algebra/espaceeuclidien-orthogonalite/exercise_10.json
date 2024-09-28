@@ -1,0 +1,6 @@
+{
+    "script": "$\\mathbb R^4$ est muni de sa structure euclidienne canonique.\r\nOn considère le sous-espaces $F$ de $\\mathbb R^4$ défini par :\r\n$$F=\\{(x,y,z,t)\\in\\mathbb R^4:\\ x+z+t=0\\textrm{ et }x-y+z=0\\}.$$\r\nDéterminer une base orthonormale de $F$.",
+    "hint": "",
+    "solution": "On commence par chercher une base de $F$. On remarque que \r\n\\begin{eqnarray*}\r\n(x,y,z,t)\\in F&\\iff& \\left\\{\\begin{array}{rcl}\r\nx&=&-z-t\\\\\r\ny&=&x+z=-t\r\n\\end{array}\\right.\\\\\r\n&\\iff&\r\n\\left\\{\\begin{array}{rcl}\r\nx&=&-z-t\\\\\r\ny&=&-t\\\\\r\nz&=&z\\\\\r\nt&=&t\r\n\\end{array}\\right.\r\n\\end{eqnarray*}\r\nPosons alors $u_1=(-1,0,1,0)$ et $u_2=(-1,-1,0,1)$. Alors $(u_1,u_2)$ est une base de $F$. Malheureusement, elle n'est pas orthonormale. On l'orthonormalise en posant \r\n$$v_1=\\frac{u_1}{\\|u_1\\|}=\\frac1{\\sqrt 2}(-1,0,1,0).$$\r\nOn pose ensuite \r\n\\begin{align*}\r\nu'_2&=u_2-\\langle u_2,v_1\\rangle v_1\\\\\r\n&=(-1,-1,0,1)-\\frac{1}{\\sqrt 2}\\times \\frac 1{\\sqrt 2}(-1,0,1,0)\\\\\r\n&=(-1/2,-1,-1/2,1)\r\n\\end{align*}\r\nde sorte que $\\langle u'_2,v_1\\rangle=0.$ On normalise enfin $u'_2$ en posant \r\n$$v_2=\\frac{u'_2}{\\|u'_2\\|}=\\frac{\\sqrt 2}{\\sqrt 5}(-1/2,-1,-1/2,1). $$\r\nLa famille $(v_1,v_2)$ est une base orthonormale de $F.$",
+    "lang": "french"
+}

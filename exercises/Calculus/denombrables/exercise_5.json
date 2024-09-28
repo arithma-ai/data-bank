@@ -1,0 +1,6 @@
+{
+    "script": "On dit qu'un réel $x$ est un nombre algébrique s'il existe $d\\in\\mathbb N^*$ et des entiers relatifs $a_0,\\dots,a_d$ avec $a_d\\neq 0$ tels que \r\n$$a_d x^d+\\dots+a_1x+a_0=0.$$\r\nLe plus petit entier $d$ vérifiant cette propriété est alors le degré de $x$.Quels sont les nombres algébriques de degré $1$?Démontrer que l'ensemble  des nombres algébriques de degré $d$ est au plus dénombrable.Démontrer que l'ensemble des nombres algébriques est dénombrable.",
+    "hint": "Un polynôme de degré $d$ a un nombre fini de racines!",
+    "solution": "Les nombres algébriques de degré $1$ sont exactement les nombres rationnels.Posons $I_d=\\mathbb Z^d\\times \\mathbb Z^*$. Pour $a=(a_0,\\dots,a_d)\\in I_d$, posons\r\n$$E_a=\\{x\\in\\mathbb R;\\ a_d x^d+\\dots+a_1x+a_0=0\\}.$$\r\nAlors $E_a$ est fini, car un polynôme de degré $d$ admet au plus $d$ racines. Mais l'ensemble des nombres algébriques de degré $d$ est contenu dans $\\bigcup_{a\\in I_d}E_a$ : ce dernier ensemble est une réunion dénombrable d'ensembles finis, il est donc dénombrable et il en est de même des entiers algébriques de degré $d$.En écrivant l'ensemble des entiers algébriques comme réunion (dénombrable!) de tous les entiers algébriques de degré $d$, pour $d$ parcourant $\\mathbb N^*$, on obtient bien que cet ensemble est dénombrable.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer toutes les fonctions continues $f:\\mathbb R\\to\\mathbb R$ vérifiant, pour tous $(x,y)\\in\\mathbb R^2$,\r\n$2yf(x)=\\int_{x-y}^{x+y}f(t)dt$.",
+    "hint": "Dériver deux fois par rapport à $y$.",
+    "solution": "Pour $y=1$, la relation devient $f(x)=\\frac{1}{2}\\int_{x-1}^{x+1}f(t)dt$. Par le théorème fondamental du calcul intégral,\r\net par composition, la fonction $f$ est de classe $C^1$. Dérivons la relation $2yf(x)=\\int_{x-y}^{x+y}f(t)dt$ par rapport à $y$.\r\nOn obtient, pour tout $(x,y)\\in\\mathbb R^2$ :\r\n$$2f(x)=f(x+y)+f(x-y).$$\r\nRedérivons ceci par rapport à $y$. On obtient, pour tout $(x,y)\\in\\mathbb R^2$ :\r\n$$0=f'(x+y)-f'(x-y).$$\r\nOr, l'application $(x,y)\\mapsto (x+y,x-y)$ est une bijection de $\\mathbb R^2$ dans $\\mathbb R^2$.\r\nCeci signifie que l'équation précédente peut encore s'écrire, pour tout $(x,y)\\in\\mathbb R^2$, \r\n$f'(x)-f'(y)=0$. Autrement dit, $f'$ est constante, et la fonction $f$ est nécessairement une fonction affine.\r\nRéciproquement, on vérifie facilement que toute fonction affine $f(x)=ax+b$ est solution de l'équation.",
+    "lang": "french"
+}

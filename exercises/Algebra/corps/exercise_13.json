@@ -1,0 +1,6 @@
+{
+    "script": "Soit $K$ un corps et $L$ une extension de $K$ de degré premier. Montrer que, pour tout $\\alpha\\in L\\backslash K$, on a $K(\\alpha)=L$.",
+    "hint": "Appliquer la multiplicativité des degrés à $K\\subset K(\\alpha)\\subset L$.",
+    "solution": "Appliquons la multiplicativité des degrés à l'extension $K\\subset K(\\alpha)\\subset L$. Alors on a\r\n$$[L:K]=[L:K(\\alpha)]\\times [K(\\alpha):K].$$\r\nComme $[L:K]$ est un nombre premier, on a nécessairement $[K(\\alpha):K]=1$ ou $[K(\\alpha):K]=[L:K]$. Le premier cas est exclu, car on a $K(\\alpha)\\neq K$. C'est donc que $[K(\\alpha):K]=[L:K]$ et $[L:K(\\alpha)]=1$. Autrement dit, $L=K(\\alpha)$.",
+    "lang": "french"
+}

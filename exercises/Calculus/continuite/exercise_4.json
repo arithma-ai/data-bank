@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ la fonction définie par \r\n$$f(x)=\\left\\{\r\n\\begin{array}{ll}\r\n1&\\textrm{si }x\\in\\mathbb Q\\\\\r\n0&\\textrm{si }x\\notin \\mathbb Q.\r\n\\end{array}\\right.$$\r\nMontrer que $f$ est discontinue en tout point.",
+    "hint": "$\\mathbb Q$ et $\\mathbb R\\backslash \\mathbb Q$ sont denses dans $\\mathbb R$.",
+    "solution": "Puisque $\\mathbb Q$ et $\\mathbb R\\backslash \\mathbb Q$ sont denses dans $\\mathbb R$, on peut trouver pour chaque\r\n$a\\in\\mathbb R$ une suite $(u_n)$ de $\\mathbb Q$ et une suite $(v_n)$ de $\\mathbb R\\backslash\\mathbb Q$ telles que\r\n$u_n\\to a$ et $v_n\\to a$. Mais, pour chaque $n$, on a $f(u_n)=1$ et $f(v_n)=0$. Les suites $(f(u_n))$ et\r\n$(f(v_n))$ ne convergent pas vers la même limite alors que $(u_n)$ et $(v_n)$ convergent toutes les deux vers $a$.\r\nAinsi, $f$ n'est pas continue en $a$.",
+    "lang": "french"
+}

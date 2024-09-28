@@ -1,0 +1,6 @@
+{
+    "script": "Le but de l'exercice est de démontrer le théorème du toit : si $P_1$ et $P_2$ sont deux plans sécants contenant respectivement deux droites parallèles $d_1$ et $d_2$, alors la droite $d$ intersection de $P_1$ et $P_2$ est parallèle à $d_1$ et à $d_2$.Pour cela, on note $P_3$ le plan contenant $d_1$ et $d_2$ et on suppose que $d_1$ et $d$ ne sont pas parallèles.Justifier que $d$ et $d_1$ se coupent en un point $A$.Démontrer que $A\\in P_2$ et $A\\in P_3$.Conclure.",
+    "hint": "",
+    "solution": "$d$ et $d_1$ sont deux droites coplanaires puisqu'elles sont toutes deux contenues dans le plan $P_1$. Comme elles ne sont pas parallèles, elles se coupent en un point $A$.$A$ est élément de $d_1$ qui est contenu dans le plan $P_3$, donc $A$ est élément de $P_3$. De même, $A$ est élement de $d$, qui est contenu dans le plan $P_2$, donc $A$ est élément de $P_2$.Le point $A$ est donc élément de l'intersection de $P_2$ et $P_3$. Mais cette intersection est la droite $d_2$ (qui est contenue dans les deux plans). Donc $A$ est élément de la droite $d_2$. En particulier, on a obtenu que les droites $d_1$ et $d_2$ se coupent en $A$, une contradiction.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ et $H$ deux groupes finis de cardinaux respectifs $m$ et $n$. On suppose en outre que $m$ et $n$ sont premiers entre eux. Démontrer que le seul morphisme de groupes $f$ de $G$ vers $H$ est le morphisme trivial, c'est-à-dire que $f(x)=1_H$ pour tout $x$ de $G$.",
+    "hint": "Un morphisme $f$ de $G$ vers $H$ induit un isomorphisme de $G/\\ker(f)$ sur $\\textrm{Im}(f)$.",
+    "solution": "Considérons $f$ un tel morphisme. Alors $f$ induit un isomorphisme de $G/\\ker(f)$ sur $\\textrm{Im}(f)$. Notons $d$ le cardinal de $G/\\ker(f)$ qui est aussi celui de $\\textrm{Im}(f)$. Alors $d$ est un diviseur de $m$ et $d$ est un diviseur de $n$. Comme $n$ et $m$ sont premiers entre eux, $d$ ne peut être égal que à $1$, et donc $\\textrm{Im}(f)=\\{1_H\\}$.",
+    "lang": "french"
+}

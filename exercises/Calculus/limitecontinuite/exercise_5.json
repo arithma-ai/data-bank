@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les limites suivantes :\r\n$$\\begin{array}{lll}\r\n{\\mathbf 1.} \\lim_{x\\to+\\infty}\\sqrt{x+4}-\\sqrt{x-4}&\\quad&{\\mathbf 2.} \\lim_{x\\to+\\infty}\\sqrt{x^2-1}-x\r\n\\end{array}$$",
+    "hint": "On pourra multiplier une différence $\\sqrt a-\\sqrt b$ par $\\frac{\\sqrt a+\\sqrt b}{\\sqrt a+\\sqrt b}$.",
+    "solution": "Dans chaque cas, on va multiplier par la quantité conjuguée.\\begin{align*}\r\n\\sqrt{x+4}-\\sqrt{x-4}&=\\frac{(\\sqrt{x+4}-\\sqrt{x-4})(\\sqrt{x+4}+\\sqrt{x-4})}{\\sqrt{x+4}+\\sqrt{x-4}}\\\\\r\n&=\\frac{(x+4)-(x-4)}{\\sqrt{x+4}+\\sqrt{x-4}}\\\\\r\n&=\\frac 8{\\sqrt{x+4}+\\sqrt{x-4}}.\r\n\\end{align*}\r\nLe dénominateur tend vers $+\\infty$ (ce n'est pas une forme indéterminée) et donc on a \r\n$$\\lim_{x\\to+\\infty}\\sqrt{x+4}-\\sqrt{x-4}=0.$$\\begin{align*}\r\n\\sqrt{x^2-1}-x&=\\frac{(\\sqrt{x^2-1}-x)(\\sqrt{x^2-1}+x)}{\\sqrt{x^2-1}+x}\\\\\r\n&=\\frac{x^2-1-x^2}{\\sqrt{x^2-1}+x}\\\\\r\n&=\\frac{-1}{\\sqrt{x^2-1}+x}.\r\n\\end{align*}\r\nLe dénominateur tend vers $+\\infty$, et donc on a \r\n$$\\lim_{x\\to+\\infty}\\sqrt{x^2-1}-x=0.$$",
+    "lang": "french"
+}

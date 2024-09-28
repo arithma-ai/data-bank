@@ -1,0 +1,6 @@
+{
+    "script": "Soient $E$ un $\\mathbb R$-espace vectoriel et $u\\in\\mathcal L(E)$. Existe-t-il toujours un polynôme\r\nannulateur de $u$ (autre que le polynôme nul)?",
+    "hint": "Prendre le $\\mathbb R$-espace vectoriel de dimension infinie le plus simple possible, et considérer\r\nun endomorphisme très simple sur cet espace vectoriel.",
+    "solution": "On sait qu'on a un polynôme annulateur non-nul lorsque $E$ est de dimension finie. Si $E$ est de dimension\r\ninfinie, ce n'est plus nécessairement le cas. Considérons par exemple $E=\\mathbb R[X]$, et $u$ l'endomorphisme\r\ndéfini par $u(A)=XA$. Alors $u$ n'admet pas de polynôme annulateur autre que le polynôme nul. En effet, soit $P(X)=a_kX^k+\\dots+a_0$ un polynôme,\r\nalors $$P(u)(1)=a_ku^k(1)+\\dots+a_1u(1)+a_0Id(1)=a_kX^k+\\dots+a_1X+a_0,$$\r\nqui est non-nul si $P\\neq 0$. D'où $P(u)\\neq 0$ si $P\\neq 0$.",
+    "lang": "french"
+}

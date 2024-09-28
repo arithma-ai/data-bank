@@ -1,0 +1,6 @@
+{
+    "script": "On considère la suite récurrente définie par $u_0\\in \\mathbb R^*$ et $u_{n+1}=f(u_n)$ pour tout $n\\in\\mathbb N$,\r\noù $f$ la fonction définie par $f(x)=1+\\frac 14\\sin\\frac 1x$.Déterminer $I=f(\\mathbb R^*)$, et montrer que $I$ est stable par $f$.Étudier la suite $(u_n)$.",
+    "hint": "Quelle est l'image de la fonction sinus?Démontrer que $f$ est contractante sur $I$, et appliquer le théorème du point fixe.",
+    "solution": "L'image de $\\mathbb R$ par $\\sin(1/x)$ étant égale à $[-1,1]$, \r\non en déduit que $f(\\mathbb R)=[3/4,5/4]=I$. $I$ est stable par $f$ car $f(I)\\subset f(\\mathbb R^*)=I$.$I$ est stable par $f$. On va prouver que $f$ est contractante sur $I$. Pour cela, on calcule la dérivée de $f$ :\r\n$$f'(x)=-\\frac{1}{4x^2}\\cos\\frac 1x,$$\r\nformule valable sur $I$. Or, pour tout $x\\in I$, on a \r\n$$|f'(x)|\\leq \\frac{16}{4\\times 9}=\\frac{4}9<1.$$\r\n$f$ est donc $4/9$-contractante sur l'intervalle fermé $I$ qui est stable par $f$. De plus,\r\n$u_1\\in I$. On en déduit, par le théorème du point fixe, que $f$ admet un unique point fixe $\\alpha\\in I$ et que la suite\r\n$(u_n)$ converge vers $\\alpha$.",
+    "lang": "french"
+}

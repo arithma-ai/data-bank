@@ -1,0 +1,6 @@
+{
+    "script": "Un groupe de 35 éléments agit sur un ensemble à 19 éléments sans fixer aucun d'entre eux. Combien y-a-t-il d'orbites? Combien d'éléments contiennent-elles?",
+    "hint": "Les orbites peuvent contenir 5 ou 7 éléments, elles sont disjointes et leur réunion constitue les 19 éléments de l'ensemble...",
+    "solution": "Remarquons déjà que le cardinal d'une orbite divise 35, le nombre d'éléments du groupe. Ce ne peut être 1 (car aucun point n'est fixé) et ce ne peut être 35 (car une orbite a aussi au plus 19 éléments). Ce ne peut donc être que $5$ ou $7$. Notons $n$ le nombre d'orbites à 5 éléments et $m$ le nombre d'orbites à $7$ éléments. Les orbites réalisant une réunion disjointe de l'ensemble à 19 éléments, on doit avoir $5n+7m=19$; la seule possibilité est $n=1$ et $m=2$. Il y a donc 3 orbites, l'une à 5 éléments, les deux autres à 7 éléments.",
+    "lang": "french"
+}

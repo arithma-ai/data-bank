@@ -1,0 +1,6 @@
+{
+    "script": "On appelle écart-moyen de la série statistique $(x_i)_{i=1,\\dots,n}$ le réel \r\n$$e=\\frac {\\sum_{i=1}^n |x_i-\\bar x|}n.$$\r\nDémontrer que l'écart-moyen est toujours inférieur ou égal à l'écart-type $\\sigma_x$ (conseil : utiliser l'inégalité de Cauchy-Schwarz).",
+    "hint": "",
+    "solution": "D'après l'inégalité de Cauchy-Schwarz, appliquée au produit scalaire canonique sur $\\mathbb R^n$, on a\r\n$$\\sum_{i=1}^n |x_i-\\bar x|\\leq \\left(\\sum_{i=1}^n (x_i-\\bar x)^2\\right)^{1/2}\\left(\\sum_{i=1}^n 1^2\\right)^{1/2}\\leq \\sigma_x\\sqrt n \\times\\sqrt n=n\\sigma_x.$$",
+    "lang": "french"
+}

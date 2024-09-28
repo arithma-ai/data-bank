@@ -1,0 +1,6 @@
+{
+    "script": "Soient $f$ et $g$ deux fonctions définies au voisinage d'un réel $a$ ou de $a=\\pm\\infty$. Montrer que\r\n$e^f\\sim_a e^g\\iff \\lim_a(f-g)=0$.\r\nA-t-on $f\\sim_a g\\implies e^f\\sim_a e^g$?",
+    "hint": "Le quotient de deux exponentielles est l'exponentielle de la différence! Pour la deuxième partie, trouver un contre-exemple avec $f\\sim g$ mais $f-g$ ne tend pas vers 0.",
+    "solution": "Il suffit d'écrire\r\n$$e^f\\sim e^g\\iff \\frac{e^f}{e^g}\\to 1\\iff e^{f-g}\\to 1\\iff f-g\\to 0.$$\r\nPour $f(x)=x$ et $g(x)=x+1$, on a $f\\sim_{+\\infty}g$ et pourtant $e^x$ n'est pas équivalent à $e\\times e^x$.",
+    "lang": "french"
+}

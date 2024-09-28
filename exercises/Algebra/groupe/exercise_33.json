@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que les groupes $(\\mathbb R^*,\\times)$ et $(\\mathbb Q^*,\\times)$ ne sont pas isomorphes.",
+    "hint": "On pourra procéder par l'absurde et considérer $f$ un isomorphisme de $(\\mathbb R^*,\\times)$ sur $(\\mathbb Q,\\times)$ puis $a$ tel que $f(a)=2$. Conclure en utilisant que $\\sqrt 2$ n'est pas rationnel.",
+    "solution": "Procédons par l'absurde et supposons qu'il existe $f:(\\mathbb R^*,\\times)\\to(\\mathbb Q^*,\\times)$ un isomorphisme. En particulier, il existe $a\\in\\mathbb R^*$ tel que $f(a)=2$. Si $a>0$, alors il existe un réel $b$ tel que $a=b^2$. On a alors $2=f(a)=f(b)\\times f(b)$ et donc $\\sqrt 2=\\pm f(b)$. Mais ceci contredit que $\\sqrt 2$ est irrationnel.Si $a<0$, alors il existe un réel $b$ tel que $a=-b^2$. On a alors $2=f(a)=f(-1)f(b)\\times f(b)$. Mais $f(-1)^2=f(-1\\times -1)=f(1)=1$ et donc $f(-1)=\\pm 1$. Comme $f$ est un isomorphisme et $f(1)=1$, on a $f(-1)=-1$. On obtient alors $2=-f(b)^2$, ce qui est impossible puisque $2>0$ et $-f(b)^2<0$.Dans les deux cas, on a obtenu une contradiction et l'existence d'un tel isomorphisme est impossible. On aurait aussi pu utiliser des arguments de cardinalité : $\\mathbb Q^*$ est dénombrable, et $\\mathbb R^*$ ne l'est pas. Donc il ne peut pas exister de bijection entre ces deux ensembles.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que le groupe alterné $\\mathcal A_n$ des permutations paires est engendré par les $3$-cycles.",
+    "hint": "Utiliser que toute permutation est produit de transpositions.",
+    "solution": "Une permutation paire est produit d'un nombre pair de transpositions. Il suffit donc de prouver\r\nque le produit de deux transpositions est aussi produit de 3-cycles. On distingue deux cas :les transpositions sont à supports disjoints : on écrit alors \r\n$$(i\\ j)\\circ (k\\ l)=(i\\ k\\ j)\\circ (k\\ l\\ i).$$les supports des deux transpositions ont un élément en commun : on écrit alors \r\n$$(i\\ j)\\circ (i\\ k)=(i\\ k\\ j).$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $z_0\\in\\mathbb C$ et soit $\\gamma$ un arc de cercle de centre $z_0$. On note $\\alpha\\in[0,2\\pi]$ l'angle décrit par cet arc de cercle ($\\alpha=2\\pi$ s'il s'agit du cercle entier). Pour $z\\in\\mathbb C\\backslash\\{z_0\\}$, on pose $f(z)=\\frac1{z-z_0}$.Calculer l'intégrale de $f$ le long de $\\gamma$.La fonction $f$ admet-elle une primitive dans $\\mathbb C\\backslash\\{z_0\\}$?",
+    "hint": "",
+    "solution": "On paramètre $\\gamma$ en $z_0+re^{it}$, où $t\\in [\\theta,\\theta+\\alpha]$. On en déduit que \r\n$$\\int_\\gamma f(z)dz=\\int_\\theta^{\\theta+\\alpha}\\frac{rie^{it}}{re^{it}}dt=i\\alpha.$$Si on prend pour $\\gamma$ le cercle de centre $z_0$ et de rayon $r$, alors si $f$ admettait une primitive $F$, son intégrale serait nulle. Ce n'est pas le cas ici, et donc $f$ n'admet pas de primitives dans  $\\mathbb C\\backslash\\{z_0\\}$.",
+    "lang": "french"
+}

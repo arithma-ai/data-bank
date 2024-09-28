@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un $\\mathbb K$-espace vectoriel de dimension finie et $U$ une partie irréductible de $\\mathcal L(E)$, c'est-à-dire que les seuls sous-espaces stables communs à tous les éléments de $U$ sont $\\{0\\}$ et $E$. Soit $\\phi\\in \\mathcal L(E)$ qui commute avec tous les éléments de $U$.Démontrer que ou bien $\\phi$ est nulle ou bien $\\phi$ est un automorphisme.On suppose que $\\mathbb K=\\mathbb C$. En déduire qu'il existe $\\lambda\\in\\mathbb C$ tel que $\\phi=\\lambda Id_E$.",
+    "hint": "Appliquer le résultat de la question précédente à $\\phi-\\lambda Id_E$, où $\\lambda$ est bien choisi.",
+    "solution": "Puisque, pour tout $u\\in U$, $u\\circ\\phi=\\phi\\circ u$, on en déduit que $\\ker\\phi$ est stable par tous les éléments de $U$. En particulier, $\\ker\\phi=\\{0\\}$ ou $\\ker\\phi=E$. Le premier cas nous dit que $\\phi$ est injective, donc est un automorphisme de $E$ (qui est de dimension finie). Le deuxième cas nous dit que $\\phi$ est l'application nulle.Soit $\\lambda$ une valeur propre de $\\phi$. Alors $\\phi-\\lambda Id_E$ n'est pas un automorphisme de $E$, mais $\\phi-\\lambda Id_E$ commute avec tous les éléments de $U$. D'après la question précédente, $\\phi-\\lambda Id_E=0$.",
+    "lang": "french"
+}

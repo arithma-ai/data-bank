@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel et soient $F$ et $G$ deux sous-espaces vectoriels\r\nde $E$. Montrer que $F\\cup G$ est encore un sous-espace vectoriel de $E$ si et seulement si \r\n$F\\subset G$ ou $G\\subset F$.",
+    "hint": "Raisonner par l'absurde, prendre $x$ dans $F\\backslash G$ et $y$ dans $G\\backslash F$\r\net considérer $x+y$.",
+    "solution": "Bien sûr, si $F\\subset G$, $F\\cup G=G$ est un sous-espace vectoriel ce qui prouve\r\nune implication. Réciproquement, supposons que $F\\cup G$ est un sous-espace vectoriel de\r\n$E$ et que pourtant $F$ n'est pas inclus dans $G$ et $G$ n'est pas inclus dans $F$.\r\nPrenons $x$ dans $F\\backslash G$ et $y$ dans $G\\backslash F$. Alors, puisque $F\\cup G$ est\r\nun sous-espace vectoriel, il est stable par addition et donc $x+y\\in F\\cup G$. Mais,\r\nsi $x+y$ est dans $F$, alors $y=(x+y)-x\\in F$ (car $F$ est un sev) ce qui n'est pas le cas.\r\nDe même, si $x+y$ est dans $G$, alors $x=(x+y)-y\\in G$ ce qui est impossible. On obtient donc\r\nune contradiction et l'autre implication.",
+    "lang": "french"
+}

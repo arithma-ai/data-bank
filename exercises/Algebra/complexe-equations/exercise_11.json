@@ -1,0 +1,6 @@
+{
+    "script": "Calculer les racines carrées des nombres complexes suivants :\r\n$z_1=3+4i,\\ z_2=8-6i.$",
+    "hint": "Poser $z=a+ib$, écrire $z^2=z_1$ et $|z|^2=|z_1|$.",
+    "solution": "La méthode est toujours la même. On pose $z=a+ib$, de sorte que \r\n$z^2=(a^2-b^2)+2iab$. L'équation $z^2=3+4i$ est donc équivalente à \r\n$$\\left\\{\\begin{array}{rcl}a^2-b^2&=&3\\\\\r\n2ab=4\\end{array}\\right.$$\r\nOn peut ajouter une troisième équation en remarquant que \r\n$$|z|^2=|3+4i|\\iff a^2+b^2=\\sqrt{9+16}=5.$$\r\nOn trouve alors $2a^2=8$, soit $a=\\pm 2$ et $2b^2=2$, soit $b=\\pm 1$.\r\nL'équation $2ab=4$ oblige $a$ et $b$ à avoir même signe, et donc les deux solutions\r\nsont $2+i$ et $-2-i$.Pour l'équation $z^2=8-6i$, on peut suivre une méthode exactement identique, \r\net les solutions sont cette fois $3-i$ et $-3+i$.",
+    "lang": "french"
+}

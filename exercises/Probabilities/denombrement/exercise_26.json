@@ -1,0 +1,6 @@
+{
+    "script": "On considère 51 entiers (distincts!) compris entre $1$ et $100$. Démontrer que parmi ces entiers, il y en a deux qui sont consécutifs.",
+    "hint": "Procéder par l'absurde et noter les entiers $n_1<n_2<\\dots<n_{51}$. Que dire de $n_2$? de $n_3$? de $n_{51}$?",
+    "solution": "On va procéder par l'absurde et supposer que parmi ces entiers, il n'y en a pas deux qui sont consécutifs. Rangeons ces entiers par ordre croissant, $n_1<n_2<\\dots<n_{51}$. On a donc, pour tout $k=1,\\dots,50$, $n_{k+1}-n_k\\geq 2$.\r\nOn en déduit facilement (par récurrence finie) que pour tout $k\\in\\{1,\\dots,51\\}$, $n_k\\geq n_1+2(k-1)$.En particulier, on a $n_{51}\\geq n_1+100\\geq 101$, une contradiction!",
+    "lang": "french"
+}

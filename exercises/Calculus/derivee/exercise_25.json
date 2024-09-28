@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[a,b]\\to\\mathbb R$ une fonction continue, dérivable sur $]a,b[$,\r\net vérifiant $f(a)=f(b)=0$. Soit $d\\in\\mathbb R\\backslash [a,b]$. Montrer qu'il existe une tangente à la courbe représentative\r\nde $f$ passant par le point $(d,0)$.",
+    "hint": "Traduire cela analytiquement. On doit trouver $x_0\\in]a,b[$ vérifiant ... Appliquer ensuite le théorème de Rolle à une\r\nbonne fonction pour obtenir ce point.",
+    "solution": "L'équation de la tangente au point d'abscisse $x_0$ est \r\n$$y-f(x_0)=f'(x_0)(x-x_0).$$\r\nCette tangente passe par le point $(d,0)$ si et seulement si\r\n$$f'(x_0)(x_0-d)-f(x_0)=0.$$\r\nOn va chercher une fonction dont la dérivée va être presque de la forme précédente, et on va montrer par le théorème de Rolle que la dérivée de cette fonction s'annule. Pour cela, on pose\r\n$$g(x)=\\frac{f(x)}{x-d}$$\r\ndéfinie et continue sur $[a,b]$, dérivable sur $]a,b[$, de dérivée \r\n$$g'(x)=\\frac{f'(x)(x-d)-f(x)}{(x-d)^2}.$$\r\nDe plus, $g(a)=g(b)=0$. Par le théorème de Rolle, on peut trouver $x_0\\in]a,b[$ tel que $g'(x_0)=0$. Pour ce $x_0$, la relation\r\n$$f'(x_0)=\\frac{f(x_0)}{x_0-d}$$\r\nest donc vérifiée, et la tangente à la courbe représentative de $f$ au point $(x_0,f(x_0))$ passe par $(d,0)$.",
+    "lang": "french"
+}

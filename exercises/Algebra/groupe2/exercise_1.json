@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que $SL_n(\\mathbb R)$ est un sous-groupe normal de $GL_n(\\mathbb R)$ et prouver que le groupe quotient est isomorphe à $\\mathbb R^*$.",
+    "hint": "Utiliser le déterminant.",
+    "solution": "L'application déterminant est un morphisme surjectif de $GL_n(\\mathbb R)$ sur $\\mathbb R^*$. Son noyau est exactement $SL_n(\\mathbb R)$. Ce dernier, comme noyau d'un morphisme de groupe, est normal. De plus, par le théorème d'isomorphisme, le groupe quotient $GL_n(\\mathbb R)/SL_n(\\mathbb R)$ est isomorphe à $\\mathbb R^*$.",
+    "lang": "french"
+}

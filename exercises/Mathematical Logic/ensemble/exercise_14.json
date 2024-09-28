@@ -1,0 +1,6 @@
+{
+    "script": "Soit $D=\\{(x,y)\\in\\mathbb R^2;\\ x^2+y^2\\leq 1\\}$. Démontrer que $D$ ne peut pas s'écrire comme le produit cartésien de deux parties\r\nde $\\mathbb R$.",
+    "hint": "Faire un dessin, raisonner par l'absurde et considérer $(1,0)$ et $(0,1)$.",
+    "solution": "Procédons par l'absurde et supposons qu'il existe $A,B\\subset\\mathbb R$ tels que $D=A\\times B$.\r\nAlors le point $(1,0)\\in D$, et donc $1\\in A$. De même, $(0,1)\\in D$, et donc $1\\in B$. On en déduit que $(1,1)\\in A\\times B=D$,\r\nce qui n'est pas le cas. $D$ n'est donc pas le produit cartésien de deux parties de $\\mathbb R$.",
+    "lang": "french"
+}

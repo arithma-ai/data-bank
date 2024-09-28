@@ -1,0 +1,6 @@
+{
+    "script": "Trouver des propositions $P$ et $Q$ telles que$P\\implies Q$ est vrai et $Q\\implies P$ est vrai.$P\\implies Q$ est faux et $Q\\implies P$ est vrai.$P\\implies Q$ est faux et $Q\\implies P$ est faux.",
+    "hint": "",
+    "solution": "On peut prendre pour $P$ la proposition \"le triangle $ABC$ est rectangle en $A$\" et pour $Q$ la proposition \"$BC^2=AB^2+AC^2$\".On peut prendre pour $P$ la proposition $\"ABCD$ est un rectangle\" et pour $Q$ la proposition \"$ABCD$ est un carré\".On peut prendre pour $P$ la proposition \"$ABCD$ est un rectangle\" et pour $Q$ la proposition \"$ABCD$ est un losange\".",
+    "lang": "french"
+}

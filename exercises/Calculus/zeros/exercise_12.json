@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\lambda\\in\\mathbb C$ tel que $\\Re e(\\lambda)>1$.\r\nMontrer que l'équation $e^{-z}+z-\\lambda=0$ a une racine et une seule dans\r\nle demi-plan $\\Re e(z)>0$.",
+    "hint": "Appliquer le théorème de Rouché avec les fonctions\r\n$e^{-z}$, $z-\\lambda$ et un demi-disque.",
+    "solution": "Soit $K_R$ le demi-disque situé dans le demi-plan $\\Re e(z)\\geq 0$ et\r\nde diamètre $[-iR,iR]$ où $R>|\\lambda|+1$. Soit $\\Gamma$ sa frontière, qu'on\r\ndécompose en un segment $S$ et un demi-cercle $C$. Posons $f(z)=e^{-z}+z-\\lambda$\r\net $g(z)=z-\\lambda$. Alors, pour $z=it\\in S$, on a\r\n$$|f(z)-g(z)|=|e^{-it}|=1<\\Re e(\\lambda)=|\\Re e(it-\\lambda)|\\leq |it-\\lambda|.$$\r\nPour $z$ sur le demi-cercle, on a $\\Re e(z)\\geq 0$ et\r\ndonc $|f(z)-g(z)|=|e^{-z}|\\leq 1$. Par ailleurs,\r\n$$|z-\\lambda|\\geq R-|\\lambda|>1.$$\r\nDans tous les cas, pour $z\\in\\Gamma$, on a\r\n$$|f(z)-g(z)|<|g(z)|.$$\r\nAinsi, $f$ et $g$ ont le même nombre de zéros dans $K_R$. Ainsi, quel que soit $R$,\r\n$f$ a un zéro unique dans $K_R$. Comme c'est vrai pour tout $R>|\\lambda|+1$, c'est vrai\r\ndans tout le demi-plan $\\Re e(z)>0$ en faisant tendre $R$ vers $+\\infty$.",
+    "lang": "french"
+}

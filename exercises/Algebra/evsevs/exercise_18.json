@@ -1,0 +1,6 @@
+{
+    "script": "Soient $F$ et $G$ deux sous-espaces vectoriels d'un espace vectoriel $E$ tels que\r\n$F+G=E$. Soit $F'$ un supplémentaire de $F\\cap G$ dans $F$. Montrer que\r\n$F'\\oplus G=E$.",
+    "hint": "",
+    "solution": "Prouvons d'abord que $F'$ et $G$ sont en somme directe, c'est-à-dire que $F'\\cap G=\\{0\\}$.\r\nPrenons $x\\in G\\cap F'$. Alors, puisque $F\\cap G$ et $F'$ sont en somme directe, et que \r\n$x\\in F\\cap G$ ($x$ est dans $G$ et dans $F'\\subset F$), on en déduit $x=0$.\r\nD'autre part, il faut montrer que $F'+G=E$. Soit $z\\in E$. On sait que $z=f+g$, avec\r\n$f\\in F$ et $g\\in G$ (car $F+G=E$). D'autre part, on peut décomposer\r\n$f$ en $g'+f'$, avec $g'\\in F\\cap G$ et $f'\\in F'$. Ainsi, on obtient\r\n$$z=g'+f'+g=f'+(g+g')$$\r\navec $f'\\in F'$ et $g+g'\\in G$ : $F'+G=E$ ce qui achève la preuve que $F'$ et $G$\r\nsont supplémentaires.",
+    "lang": "french"
+}

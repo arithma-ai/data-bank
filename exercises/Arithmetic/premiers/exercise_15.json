@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer tous les entiers naturels dont le produit des diviseurs (positifs) est égal à $45^{42}$.",
+    "hint": "Prouver d'abord que $n$ est de la forme $3^p5^q$, puis faire le produit des diviseurs de ces nombres.",
+    "solution": "Remarquons d'abord que $45^{42}$ se décompose en facteurs premiers sous la forme $3^{84}5^{42}$. \r\nAinsi, un entier $n$ dont le produit des diviseurs est égal à $45^{42}$ est forcément de la forme $3^p5^q$. \r\nMaintenant, les diviseurs d'un tel entier sont tous les nombres de la forme $3^k 5^l$ avec $0\\leq k\\leq p$ \r\net $0\\leq l\\leq q$. Ainsi, le produit de ces diviseurs est égal à\r\n\\begin{eqnarray*}\r\n\\prod_{k=0}^p \\prod_{l=0}^q 3^k 5^l&=&\\prod_{k=0}^p \\left(3^{k(q+1)}\\prod_{l=0}^q 5^l\\right)\\\\\r\n&=&\\prod_{k=0}^p \\left(3^{k(q+1)}5^{\\frac{q(q+1)}2}\\right)\\\\\r\n&=&3^{\\frac{p(p+1)(q+1)}2}5^{\\frac{q(q+1)(p+1)}2}.\r\n\\end{eqnarray*}\r\n$p$ et $q$ sont donc solutions du système\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\np(p+1)(q+1)&=&168\\\\\r\nq(q+1)(p+1)&=&84.\r\n\\end{array}\r\n\\right.$$\r\nSi on fait le quotient de ces deux équations, on obtient $p=2q$, ce qui donne encore\r\n$$q(q+1)(2q+1)=84.$$\r\nLa seule solution est $q=3$ et donc $p=6$. Ainsi, il y a un unique entier naturel dont le produit des diviseurs est $45^{42}$. Il s'agit de\r\n$3^65^3$.",
+    "lang": "french"
+}

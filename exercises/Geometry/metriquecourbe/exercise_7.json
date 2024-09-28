@@ -1,0 +1,6 @@
+{
+    "script": "Donner un paramétrage normal du cercle de centre $O$ et de rayon $R>0$.",
+    "hint": "Le faire directement, ou utiliser l'abscisse curviligne.",
+    "solution": "On cherche un paramétrage $t\\mapsto f(t)$ du cercle tel que $\\|f'(t)\\|=1$ pour tout réel $t$. \r\nOn peut en deviner un, ou bien utiliser l'abscisse curviligne. En effet, $g:t\\mapsto (R\\cos t,R\\sin t)$ est\r\nun paramétrage du cercle. L'abscisse curviligne est une primitive de \r\n$$\\sqrt{x'(t)^2+y'(t)^2}=R,$$\r\nsoit par exemple $s(t)=Rt$. On en déduit $s^{-1}(t)=R/t$, et un paramétrage normal est donné\r\npar $f=g\\circ s^{-1}$, soit $g(t)=(R\\cos(t/R),R\\sin(t/R))$.",
+    "lang": "french"
+}

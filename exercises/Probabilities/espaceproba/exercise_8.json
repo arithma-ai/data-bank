@@ -1,0 +1,6 @@
+{
+    "script": "Spot $(\\Omega,\\mathcal A,P)$ un espace probabilisé, et $A_1,\\dots,A_n$ des événements. Démontrer que \r\n$$P\\left(\\bigcup_{i=1}^n A_i\\right)\\leq \\min_{1\\leq k\\leq n}\\left(\\sum_{i=1}^n P(A_i)-\\sum_{\\substack{1\\leq i\\leq n\\\\ i\\neq k}}P(A_i\\cap A_k)\\right).$$",
+    "hint": "Utiliser \r\n$$P(A_i)-P(A_i\\cap A_k)=P(A_i\\backslash A_k).$$",
+    "solution": "Il s'agit de prouver que, pour tout $k\\in\\{1,\\dots,n\\}$, on a \r\n$$P\\left(\\bigcup_{i=1}^n A_i\\right)\\leq \\sum_{i=1}^n P(A_i)-\\sum_{\\substack{1\\leq i\\leq n\\\\ i\\neq k}}P(A_i\\cap A_k).$$\r\nPar symétrie, on peut supposer que $k=n$. Pour $i=1,\\dots,n-1,$ on a \r\n$$P(A_i)-P(A_i\\cap A_{n})=P(A_i\\backslash A_{n})$$\r\net donc \r\n\\begin{align*}\r\n\\sum_{i=1}^n P(A_i)-\\sum_{i=1}^{n-1}P(A_i\\cap A_{n})&=P(A_n)+\\sum_{i=1}^{n-1}\\big(P(A_i)-P(A_i\\cap A_n)\\big)\\\\\r\n&=P(A_n)+\\sum_{i=1}^{n-1}P(A_i\\backslash A_n)\\\\\r\n&\\geq P\\left(A_n\\cup \\bigcup_{i=1}^{n-1}(A_i\\backslash A_n)\\right).\r\n\\end{align*}\r\nOr, \r\n$$A_n\\cup \\bigcup_{i=1}^{n-1}(A_i\\backslash A_n)=\\bigcup_{i=1}^n A_i$$\r\net donc \r\n$$ P\\left(A_n\\cup \\bigcup_{i=1}^{n-1}A_i\\backslash A_n\\right)=P\\left(\\bigcup_{i=1}^n A_i\\right)$$\r\nce qui donne le résultat voulu.",
+    "lang": "french"
+}

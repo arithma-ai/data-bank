@@ -1,0 +1,6 @@
+{
+    "script": "Les ensembles suivants sont-ils dénombrables?$\\{2^n;\\ n\\geq 0\\}$;$\\mathbb N\\times \\mathbb R$;$\\mathbb Q[\\sqrt 2]=\\{a+b\\sqrt 2;\\ a,b\\in\\mathbb Q\\}$;l'ensemble des nombres premiers;l'ensemble des fonctions de $\\mathbb R$ dans $\\mathbb R$.",
+    "hint": "",
+    "solution": "Oui, car c'est une partie de $\\mathbb N$ ou bien parce que l'application $n\\mapsto 2^n$ est une bijection de $\\mathbb N$ sur cet ensemble.Non, car $\\mathbb R$ ne l'est pas et cet ensemble \"contient\" $\\mathbb R$. Plus précisément, l'application $x\\mapsto (0,x)$ est une injection de $\\mathbb R$ dans $\\mathbb N\\times\\mathbb R$.Oui, car l'application $\\phi:(a,b)\\mapsto a+b\\sqrt 2$ est une surjection (et même une bijection car $\\sqrt 2$ est irrationnel) de $\\mathbb Q^2$ dans $\\mathbb Q[\\sqrt 2]$.Oui, car c'est une partie de $\\mathbb N$;Non, car il \"contient\" $\\mathbb R$. Plus précisément, l'application $\\phi:x\\mapsto \\phi_x$, où $\\phi_x:\\mathbb R\\to\\mathbb R,\\ y\\mapsto x$ est une injection de $\\mathbb R$ dans l'ensemble des applications de $\\mathbb R$ dans $\\mathbb R$.",
+    "lang": "french"
+}

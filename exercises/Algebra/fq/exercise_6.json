@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\phi$ une forme quadratique sur $E$, que l'on suppose définie. Montrer que $\\phi$ est\r\nsoit définie négative, soit définie positive.",
+    "hint": "On peut procéder par l'absurde, supposer l'existence de $x$ avec $\\phi(x)>0$, et de $y$ avec $\\phi(y)<0$.\r\nOn pourra ensuite étudier $g(t)=\\phi(x+ty)$.",
+    "solution": "Supposons que $\\phi$ n'est ni définie positive, ni définie négative. Il existe alors $x\\in E$ avec $\\phi(x)>0$ \r\net $y\\in E$ avec $\\phi(y)<0$. Posons la fonction définie sur $\\mtr$ par $g(t)=\\phi(x+ty)$. Un calcul facile montre que\r\n$$g(t)=t^2\\phi(y)+2t\\varphi(x,y)+\\phi(x),$$\r\noù $\\varphi$ est la forme polaire de $\\phi$. $g$ est donc un polynôme de degré 2 qui prend des valeurs négatives (car sa limite en\r\n$+\\infty$ est égale à $-\\infty$, puisque son coefficient dominant est négatif)\r\net des\r\nvaleurs positives, puisque $g(0)=\\phi(x)>0$. Il s'annule donc, et il existe $t_0$ tel que $g(t_0)=0$. Puisque $\\phi$ est définie, \r\nceci entraîne $x+t_0 y=0\\iff x=-t_0 y$. On obtient alors $\\phi(x)=(t_0)^2 \\phi(y)$, et $\\phi(x)$ et $\\phi(y)$ ont même\r\nsigne, ce qui est une contradiction!",
+    "lang": "french"
+}

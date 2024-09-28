@@ -1,0 +1,6 @@
+{
+    "script": "On considère les nombres complexes suivants :\r\n$$z_1=1+i\\sqrt 3,\\ z_2=1+i\\textrm{ et }z_3=\\frac{z_1}{z_2}.$$Écrire $z_3$ sous forme algébrique.Écrire $z_3$ sous forme trigonométrique.En déduire les valeurs exactes de $\\cos\\frac\\pi{12}$ et $\\sin\\frac\\pi{12}$.",
+    "hint": "Pour la dernière question, on pourra comparer les formes algébriquese et trigonométriques.",
+    "solution": "On utilise (classiquement!) la quantité conjuguée du dénominateur :\r\n$$z_3=\\frac{1+i\\sqrt 3}{1+i}\\times\\frac{1-i}{1-i}=\\frac{1+\\sqrt 3}2+\\frac{\\sqrt 3-1}2i.$$On a \r\n$$z_1=2e^{i\\pi/3}\\textrm{ et }z_2=\\sqrt 2 e^{i\\pi/4},$$\r\nd'où \r\n$$z_3=\\sqrt 2e^{i\\left(\\frac \\pi 3-\\frac \\pi 4\\right)}=\\sqrt 2\\left(\\cos(\\pi/12)+i\\sin({\\pi}/{12})\\right).$$D'après l'écriture trigonométrique, on obtient une autre écriture algébrique de $z_3$ :\r\n$$z_3=\\sqrt 2\\cos\\frac\\pi{12}+i\\sqrt 2\\sin \\frac\\pi{12}.$$\r\nPar unicité de l'écriture sous forme algébrique, on en déduit\r\n$$\\cos\\frac\\pi {12}=\\frac{1+\\sqrt 3}{2\\sqrt 2}\\textrm{ et }\\sin\\frac\\pi{12}=\\frac{\\sqrt 3-1}{2\\sqrt 2}.$$\r\nRemarquons qu'on aurait aussi pu obtenir ce résultat à partir de la formule de $\\cos(a-b)$ avec $a=\\frac{\\pi}{3}$ et $b=\\frac{\\pi}4$.",
+    "lang": "french"
+}

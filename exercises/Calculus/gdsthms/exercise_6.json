@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\Omega=]-1,1[\\times]-1,1[$ le carré unité de $\\mathbb C$ et notons $C_1,C_2,C_3$ et $C_4$ ses côtés. On suppose que $f\\in H(\\Omega)\\cap \\mathcal C(\\bar\\Omega)$ vérifie, pour tout $1\\leq j\\leq 4,$ $|f(z)|\\leq m_j$ si $z\\in C_j$, où $m_j$ est un réel positif. Démontrer que\r\n$$|f(0)|\\leq (m_1\\times m_2\\times m_3\\times m_4)^{1/4}.$$",
+    "hint": "Appliquer le principe du maximum à $g(z)=f(z)f(-z)f(-iz)f(iz).$",
+    "solution": "Remarquons que $\\Omega$ est stable par $z\\mapsto -z$ et $z\\mapsto iz,$ puis que, si $z\\in C_1$, alors $iz\\in C_2$, $-z\\in C_3$ et $-iz\\in C_4.$  \r\nPosons alors $g(z)=f(z)f(-z)f(iz)f(-iz).$ Alors la remarque précédente prouve que, pour tout $z\\in\\partial \\Omega,$ on a \r\n$$|g(z)|\\leq m_1\\times m_2\\times m_3\\times m_4.$$\r\nLe principe du maximum appliqué à $g$ entraine que \r\n$$|g(0)|\\leq m_1\\times m_2\\times m_3\\times m_4.$$\r\nC'est exactement le résultat voulu, puisque $|g(0)|=|f(0)|^4.$",
+    "lang": "french"
+}

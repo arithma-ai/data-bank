@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que l'ensemble des parties finies de $\\mathbb N$ est dénombrable.On suppose que l'ensemble des parties de $\\mathbb N$ est dénombrable et on note $f:\\mathbb N\\to\\mathcal P(\\mathbb N)$ une bijection. En considérant $A=\\{n\\in\\mathbb N;\\ n\\notin f(n)\\}$, trouver une contradiction.",
+    "hint": "",
+    "solution": "On note $A_p$ l'ensemble des parties de $N$ avec au plus $p$ éléments, avec $p\\geq 1$. Alors l'application $\\mathbb N^p \\to A_p,\\ (a_1,\\dots,a_p)\\mapsto \\{a_1,\\dots,a_p\\}$ est surjective. Puisque $\\mathbb N^p$ est dénombrable, chaque $A_p$ est dénombrable (il est facile de voir que $A_p$ n'est pas fini). Mais l'ensemble des parties finies de $\\mathbb N$ est la réunion dénombrable des $A_p$. Ainsi, cet ensemble est dénombrable.Soit $k$ tel que $f(k)=A$. Alors, si $k\\in A$, $k\\notin f(k)=A$ ce qui est une contradiction. Donc $k\\notin A$. Mais alors, $k\\in f(k)=A$, ce qui est tout autant une contradiction. Ainsi, une telle bijection ne peut pas exister et $\\mathcal P(N)$ n'est pas dénombrable.",
+    "lang": "french"
+}

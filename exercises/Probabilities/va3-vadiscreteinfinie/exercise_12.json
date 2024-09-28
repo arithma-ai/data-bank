@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire suivant une loi de Poisson de paramètre $\\lambda>0$. Calculer l'espérance de la variable aléatoire $\\frac1{1+X}$.",
+    "hint": "Écrire la définition de l'espérance à l'aide d'une série. Puis appliquer les techniques usuelles de calculs de somme d'une série. On peut aussi appliquer le théorème de transfert.",
+    "solution": "Notons $Y=\\frac 1{1+X}$. $Y$ prend ses valeurs dans $\\left\\{\\frac{1}{1+k};\\ k\\geq 0\\right\\}$ et on a \r\n$$P\\left(Y=\\frac 1{1+k}\\right)=\\frac{\\lambda^k}{k!}e^{-\\lambda}.$$\r\nOn en déduit que \r\n\\begin{eqnarray*}\r\nE(Y)&=&\\sum_{k\\geq 0}\\frac{1}{1+k}\\frac{\\lambda^k}{k!}e^{-\\lambda}\\\\\r\n&=&\\sum_{k\\geq 0}\\frac{\\lambda^k}{(k+1)!}e^{-\\lambda}\\\\\r\n&=&\\frac1{\\lambda}\\sum_{k\\geq 0}\\frac{\\lambda^{k+1}}{(k+1)!}e^{-\\lambda}\\\\\r\n&=&\\frac{e^{-\\lambda}}{\\lambda}\\left(e^{\\lambda}-1\\right)\\\\\r\n&=&\\frac{1-e^{-\\lambda}}{\\lambda}.\r\n\\end{eqnarray*}\r\nOn pouvait aussi retrouver ce résultat en appliquant la formule de transfert à la fonction $x:\\mapsto 1/(1+x).$ On obtient alors\r\n\\begin{align*}\r\nE(Y)&=\\sum_{n=0}^{+\\infty}\\frac{1}{1+n}P(X=n)\\\\\r\n&=\\sum_{n=0}^{+\\infty}\\frac{1}{1+n}\\frac{e^{-\\lambda}\\lambda^n}{n!}\r\n\\end{align*}\r\net on termine le calcul de la même façon.",
+    "lang": "french"
+}

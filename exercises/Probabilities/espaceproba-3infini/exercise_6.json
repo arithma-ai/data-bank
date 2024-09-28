@@ -1,0 +1,6 @@
+{
+    "script": "Émile est un excellent footballeur. La probabilité qu'il marque un but lorsqu'il tire un pénalty est égale à $2/3$.\r\nPaulin est un peu moins fort. La probabilité qu'il marque un but lorsqu'il tire un pénalty est égale à $1/2$.\r\nÉmile lance un défi à Paulin. Chacun va tirer un pénalty à son tour, en commençant par Paulin. Le premier\r\nqui marque a gagné. Quelle est la probabilité que Émile gagne?",
+    "hint": "Notez $A_n$ l'événement : \"Émile et Paulin ratent leurs $n-1$ premiers tirs, Paulin rate son $n$-ième tir, et Émile réussit son\r\n$n$-ième tir\".",
+    "solution": "Notons $A_n$ l'événement : \"Émile et Paulin ratent leurs $n-1$ premiers tirs, Paulin rate son $n$-ième tir, et Émile réussit son\r\n$n$-ième tir\". Alors les événements $A_n$ sont disjoints et leur réunion est l'événement \"Émile gagne\" que l'on note désormais $A$. \r\nOn a donc \r\n$$P(A)=\\sum_{n\\geq 1}P(A_n).$$\r\nMais on a \r\n$$P(A_n)=\\left(\\frac 12\\right)^n\\times\\left(\\frac 13\\right)^{n-1}\\times\\frac 23.$$\r\nIl vient\r\n$$P(A)=\\sum_{n\\geq 1}2\\left(\\frac 16\\right)^n =2\\frac{1/6}{1-1/6}=\\frac 25,$$\r\noù on a utilisé la somme d'une série géométrique.",
+    "lang": "french"
+}

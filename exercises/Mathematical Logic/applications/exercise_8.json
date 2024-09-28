@@ -1,0 +1,6 @@
+{
+    "script": "Soient $f$ et $g$ les applications de $\\mathbb N$ dans $\\mathbb N$ définies par $f(x)=2x$ et \r\n$$g(x)=\\left\\{\r\n\\begin{array}{ll}\r\n\\frac x2&\\textrm{ si $x$ est pair}\\\\\r\n0&\\textrm{ si $x$ est impair.}\r\n\\end{array}\r\n\\right.$$\r\nDéterminer $g\\circ f$ et $f\\circ g$. Les fonctions $f$ et $g$ sont-elles injectives? surjectives? bijectives?",
+    "hint": "Il suffit d'appliquer les définitions. Pour calculer $f\\circ g(x)$, on distinguera deux cas.",
+    "solution": "On a $g\\circ f(x)=g(2x)$. Mais $2x$ est pair, et donc $g(2x)=(2x)/2=x$. Ainsi, $g\\circ f(x)=x$.D'autre part, si $x$ est pair, on a $f\\circ g(x)=f(x/2)=x$. Si $x$ est impair, $f\\circ g(x)=f(0)=0$. En particulier, on a $f\\circ g\\neq g\\circ f$ puisque $f\\circ g(1)=0$ alors que $g\\circ f(1)=1$.$f$ n'est pas surjective, car les nombres impairs ne sont pas des valeurs prises par $f$. En revanche, $f$ est injective car si $f(x)=f(y)$, on a $2x=2y$ et donc $x=y$.$g$ n'est pas injective, car $g(1)=g(3)=0$ alors que $1\\neq 3$. En revanche, $g$ est surjective. Prenons en effet $y$ n'importe quel entier naturel. Alors, $2y$ est pair et $g(2y)=(2y)/2=y$.Des deux études précédentes, on déduit par définition que ni $f$ ni $g$ ne sont bijectives.",
+    "lang": "french"
+}

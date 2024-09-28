@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout $n\\geq 0,$\r\n$$\\sum_{k=0}^n \\sqrt{\\binom nk}\\leq 2^{n/2}\\sqrt{n+1}.$$En déduire la nature de la série de terme général $u_n=\\frac{1}{n^2(\\sqrt 2)^n}\\sum_{k=0}^n \\sqrt{\\binom nk}$.",
+    "hint": "Utiliser l'inégalité de Cauchy-Schwarz en écrivant $\\sqrt{\\binom nk}=1\\times \\sqrt{\\binom nk}.$",
+    "solution": "On va utiliser l'inégalité de Cauchy-Schwarz en écrivant  $\\sqrt{\\binom nk}=1\\times \\sqrt{\\binom nk}.$\r\nIl vient \r\n\\begin{eqnarray*}\r\n\\sum_{k=0}^n \\sqrt{\\binom nk}&\\leq& \\left(\\sum_{k=0}^n 1^2\\right)^{1/2}\\left(\\sum_{k=0}^n \\binom nk\\right)^{1/2}\\\\\r\n&\\leq&(n+1)^{1/2}2^{n/2}.\r\n\\end{eqnarray*}On en déduit que \r\n$$0\\leq u_n\\leq \\frac{(n+1)^{1/2}}{n^{2}}\\leq \\frac{(2n)^{1/2}}{n^2}=\\frac {\\sqrt 2}{n^{3/2}}.$$\r\nPar majoration par une série de Riemann convergente, la série $\\sum_n u_n$ est convergente.",
+    "lang": "french"
+}

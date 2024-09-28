@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in GL_n(\\mathbb K)$, $B\\in GL_m(\\mathbb K)$, $C\\in\\mathcal M_{n,m}(\\mathbb K)$ et $T$ la matrice triangulaire par blocs donnée par\r\n$$T=\\begin{pmatrix}A&C\\\\0&B\\end{pmatrix}.$$\r\nJustifier que $T$ est inversible et donner son inverse.",
+    "hint": "",
+    "solution": "Posons $S=\\begin{pmatrix}A^{-1}&-A^{-1}CB^{-1}\\\\0&B^{-1}\\end{pmatrix}.$\r\nAlors on remarque que $TS=I_{n+m}$. Ainsi, $T$ est inversible et son inverse est $S$.",
+    "lang": "french"
+}

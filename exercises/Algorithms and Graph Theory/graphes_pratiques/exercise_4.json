@@ -1,0 +1,6 @@
+{
+    "script": "Une société doit transporter par camions six produits chimiques, notés P1,...,P6, depuis\r\nl'usine de production jusqu'à l'entreprise utilisatrice. Pour des raisons de sécurité, certains produits\r\nne peuvent pas être transportés ensemble : P1 et P2, P1 et P4, P2 et P3, \r\nP2 et P5, P3 et P4, P5 et P6. Déterminer le nombre minimum de camions nécessaires.",
+    "hint": "On doit chercher le nombre chromatique d'un graphe.",
+    "solution": "On introduit le graphe dont les sommets sont les produits, et une arête joint deux sommets si on ne peut\r\npas les transporter simultanément. On obtient le graphe suivant :On cherche le nombre chromatique de ce graphe, que l'on peut calculer avec l'algorithme de Welch et Powell par exemple.\r\nOn ordonne les sommets par degré décroissant, par exemple P2, P1, P3, P4, P5, P6. Puis on attribueune première couleur à P2, P4 et P6;une seconde couleur à P1, P3, P5.Le nombre chromatique du graphe est au plus 2, et c'est en fait exactement 2 (on ne peut pas colorier avec la\r\nmême couleur P1 et P2). Il faut donc au minimum deux camions pour tout transporter.",
+    "lang": "french"
+}

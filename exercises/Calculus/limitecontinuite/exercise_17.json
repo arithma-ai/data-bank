@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ périodique et admettant une limite finie $l$ en $+\\infty$. Montrer que $f$ est constante.",
+    "hint": "Fixer $x_0\\in\\mathbb R$ et considérer $f(x_0+nT)$, où $T$ est une période de $f$.",
+    "solution": "Soit $T>0$ une période de $f$ et $x_0\\in\\mathbb R$. La suite $(x_0+nT)$ tend vers $+\\infty$. Puisque $f$ admet\r\nune limite $l$ en $+\\infty$, la suite $(f(x_0+nT))$ tend vers $l$. Or, par $T$-périodicité, on sait que\r\n$$f(x_0+nT)=f(x_0)\\textrm{ pour tout }n\\geq 1.$$\r\nPar passage à la limite, on obtient $f(x_0)=l$ et donc la fonction $f$ est constante égale à $l$.",
+    "lang": "french"
+}

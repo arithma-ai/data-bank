@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a\\in ]0,1[$.Démontrer qu'il existe une unique probabilité sur $\\mathbb N$ telle que, pour tout $n\\in\\mathbb N,$ $P(\\{n\\})=(1-a)a^n.$On considère les deux événements $A=\\{2k:\\ k\\in\\mathbb N\\}$ et $B=\\{2k+1:\\ k\\in\\mathbb N\\}$. Calculer $P(A)$ et $P(B)$. Les événements $A$ et $B$ sont-ils incompatibles ? indépendants ?",
+    "hint": "Il y a deux conditions à vérifier.",
+    "solution": "Il suffit de vérifier que, pour tout $n\\in\\mathbb N,$ $a^n(1-a)\\in]0,1[$  - ce qui est clair puisque $a\\in]0,1[$, donc $a^n\\in ]0,1]$ ($n$ peut être égal à $0$) et $1-a\\in]0,1[$ - et que\r\n$$\\sum_{n=0}^{+\\infty}(1-a)a^n=\\frac{1-a}{1-a}=1.$$On a \r\n$$P(A)=\\sum_{k=0}^{+\\infty}(1-a)a^{2k}=\\frac{1-a}{1-a^2}=\\frac{1}{1+a}.$$\r\nComme $B=\\bar A,$ on a\r\n$$P(B)=1-P(A)=\\frac{a}{1+a}.$$\r\nPuisque $A\\cap B=\\varnothing,$ les événements $A$ et $B$ sont incompatibles. Puisque $P(A\\cap B)=P(\\varnothing)=0$ et $P(A)P(B)\\neq 0,$ les événements $A$ et $B$ ne sont pas indépendants.",
+    "lang": "french"
+}

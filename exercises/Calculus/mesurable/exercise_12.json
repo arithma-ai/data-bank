@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ une fonction monotone.Montrer que, pour tout $c\\in\\mathbb R$, $f^{-1}(]-\\infty,c[)$ est convexe.En déduire que $f$ est mesurable.",
+    "hint": "Appliquer la définition.Les convexes de $\\mathbb R$ sont les intervalles.",
+    "solution": "Dans la suite, on supposera $f$ croissante, le cas $f$ décroissante étant symétrique.Soient $x<y$ deux éléments de $f^{-1}(]-\\infty,c[)$ et considérons $z\\in ]x,y[$.\r\nPuisque $f$ est croissante, on a $f(z)\\leq f(y)<c$, et donc $z\\in f^{-1}(]-\\infty,c[)$.Rappelons que les ensembles $]-\\infty,c[$, $c\\in\\mathbb R$, engendrent la tribu des\r\nboréliens. Pour prouver que $f$ est mesurable, il suffit donc de prouver que pour chaque $c\\in\\mathbb R$, \r\n$f^{-1}(]-\\infty,c[)$ est un borélien. Mais c'est un convexe de $\\mathbb R$, donc un intervalle,\r\ndonc un borélien!",
+    "lang": "french"
+}

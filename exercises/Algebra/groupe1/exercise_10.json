@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ un groupe de cardinal $2n$.Démontrer que la relation $\\mathcal R$ définie sur $G$ par\r\n$$x\\mathcal R y\\iff x=y\\textrm{ ou }x=y^{-1}$$\r\nest une relation d'équivalence sur $G$.En déduire que $G$ admet des éléments d'ordre deux.",
+    "hint": "Appliquer la définition!Quel est le cardinal d'une classe d'équivalence?",
+    "solution": "La relation est clairement réflexive et symétrique. De plus, si $x\\mathcal R y$ et $y\\mathcal R z$, alorssi $x=y$ et $y=z$, on a $x=z$;si $x=y$ et $y=z^{-1}$, on a $x=z^{-1}$;si $x=y^{-1}$ et $y=z$, on a $x=z^{-1}$;si $x=y^{-1}$ et $y=z^{-1}$, on a $x=z$.Dans tous les cas, on a $x\\mathcal R z$ et la relation est transitive.Puisqu'on n'a pas $x\\mathcal R y$ si $y\\notin \\{x,x^{-1}\\}$, une classe d'équivalence comporteou bien un seul élément, si $x=x^{-1}$;ou bien exactement deux élements, si $x\\neq x^{-1}$; ces éléments sont alors $x$ et $x^{-1}$.Il y a au moins une classe d'équivalence avec un seul élément : la classe de l'élément neutre. De plus, les classes d'équivalence forment une partition de $G$, et $G$ est de cardinal pair. Il doit donc y avoir au moins une autre classe de cardinal 1 (sinon le cardinal de $G$ serait impair). Cette autre classe de cardinal 1 donne un élément $x$ égal à son inverse.",
+    "lang": "french"
+}

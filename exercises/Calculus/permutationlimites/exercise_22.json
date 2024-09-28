@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que $\\int_0^{+\\infty}\\cos(\\sqrt x)e^{-x}dx=\\sum_{n=0}^{+\\infty}(-1)^n \\frac{n!}{(2n)!}$.",
+    "hint": "Utiliser le développement en série entière de la fonction cosinus pour écrire $\\cos(\\sqrt x)$ comme somme d'une série.",
+    "solution": "On sait que, pour tout $u\\in\\mathbb R$, on a $\\cos(u)=\\sum_{n=0}^{+\\infty}\\frac{(-1)^n u^{2n}}{(2n)!}$. On en déduit que, pour tout $x\\geq 0$,  $\\cos(\\sqrt x)=\\sum_{n=0}^{+\\infty}\\frac{(-1)^n x^n}{(2n)!}$. Posons, pour $x>0$, $f_n(x)=(-1)^n \\frac{x^n}{(2n)!}e^{-x}$. Alors la série $\\sum_{n\\geq 1}f_n(x)$ converge pour tout $x>0$ vers $\\cos(\\sqrt x)e^{-x}$. De plus, on a \r\n$$\\sum_{n\\geq 1}\\int_0^{+\\infty} |f_n(x)|dx=\\sum_{n\\geq 1} \\int_0^{+\\infty}\\frac{x^n e^{-x}}{(2n)!}dx.$$\r\nOr, $\\int_0^{+\\infty}x^n e^{-x}dx=n!$ et donc \r\n$$\\sum_{n\\geq 1}\\int_0^{+\\infty} |f_n(x)|dx=\\sum_{n\\geq 1}\\frac{n!}{(2n)!}$$\r\net ceci est une série convergente, comme on peut le constater en appliquant le critère de d'Alembert. On peut donc appliquer le théorème d'intégration terme à terme et on obtient \r\n$$\\int_0^{+\\infty}\\cos(\\sqrt x)e^{-x}dx=\\sum_{n=0}^{+\\infty}\\int_0^{+\\infty}\\frac{(-1)^n}{(2n)!}x^n e^{-x}dx=\r\n\\sum_{n=0}^{+\\infty}(-1)^n \\frac{n!}{(2n)!}.$$",
+    "lang": "french"
+}

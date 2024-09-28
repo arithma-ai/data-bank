@@ -1,0 +1,6 @@
+{
+    "script": "Dans une station-service, la demande hebdomadaire en essence, en milliers de litres,\r\nest une variable aléatoire $X$ de densité $f(x)=c(1-x)^4\\mathbf 1_{[0,1]}$.Déterminer $c$.La station est réapprovisionnée chaque lundi à 20h. Quelle doit être la capacité du réservoir d'essence\r\npour que la probabilité d'épuiser ce réservoir soit inférieure à $10^{-5}$?",
+    "hint": "$f$ doit être une densité.Calculer la fonction de répartition de $X$.",
+    "solution": "$f$ doit être une densité de probabilité, et donc on doit avoir\r\n$$\\int_0^1 f(x)dx=1.$$\r\nOr, $$\\int_0^1 f(x)dx=c\\left[-\\frac{(1-x)^5}{5}\\right]_0^1=\\frac c5.$$\r\nOn a donc $c=5$.On va commencer par chercher la fonction de répartition $F_X(x)$ de $X$.\r\nElle est nulle à gauche de 0, égale à 1 à droite de 1, et si $x\\in[0,1]$, on a\r\n$$F_X(x)=\\int_0^xf(t)dt=1-(1-x)^5.$$\r\nOn cherche alors $x$ tel que la probabilité de consommer plus de x milliers de litre dans la semaine\r\nsoit inférieure à $10^{-5}$. Autrement dit, on cherche $x$ le plus petit possible tel que $F_X(x)>1-10^{-5}$. Ceci est équivalent à\r\n$$(1-x)^5\\leq 10^{-5}\\iff 1-x\\leq 10^{-1}\\iff x\\geq 0,9.$$\r\nLe réservoir doit contenir au moins 900 litres.",
+    "lang": "french"
+}

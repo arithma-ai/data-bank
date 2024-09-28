@@ -1,0 +1,6 @@
+{
+    "script": "Une rampe verticale de spots nommés de bas en haut $S_1,\\ S_2,\\ S_3,\\ S_4$ change d'état de la manière suivante :à l'instant $t=0$, le spot $S_1$ est allumé.si, à l'instant $t=n,\\ n\\geq 0$, le spot $S_1$ est allumé, alors un (et un seul) des spots $S_1,\\ S_2,\\ S_3,\\ S_4$ s'allume à l'instant $t=n+1$, et ceci de manière équiprobable.si, à l'instant $t=n,\\ n\\geq 0$, le spot $S_k$ ($2\\leq k\\leq 4$) est allumé, le spot $S_{k-1}$ s'allume à l'instant $t=n+1$.On pourra remarquer qu'à chaque instant, un et un seul spot est allumé. On note $X$ la variable aléatoire représentant le premier instant (s'il existe) où le spot $S_2$ s'allume.  Écrire une fonction sous Python simulant le fonctionnement de la variable aléatoire $X$. On rappelle que la fonction $\\verb+randint(a,b)+$ du module random renvoie un nombre entier aléatoire compris entre $a$ et $b$ (avec $a$ et $b$ inclus).",
+    "hint": "Utiliser deux variables : une désignant l'instant, et une désignant le spot allumé.",
+    "solution": "On va utiliser deux variables : instant qui désigne l'instant où l'on est, et $k$ qui désigne le spot allumé à l'instant courant. Un algorithme possible est :from random import *def simulX():instant=0k=1while (k!=2):instant=instant+1if (k==1):k=randint(1,4)else:k=k-1return instant",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\Omega$ un ouvert connexe. Déterminer les fonctions $f:\\Omega\\to\\Omega$ holomorphes et telles que $f\\circ f=f.$",
+    "hint": "Si $f$ n'est pas constante, alors $f$ et l'identité coïncident sur un ouvert...",
+    "solution": "On commence par remarquer que les fonctions constantes à valeurs dans $\\Omega$ sont solutions. Si $f$ est solution et n'est pas constante, posons $U=f(\\Omega)$. Alors $U$ est ouvert et, pour tout $w\\in U,$ il existe $z\\in \\Omega$ tel que $w=f(z)$. Mais alors\r\n$$f(w)=f\\circ f(z)=f(z)=w.$$ \r\nAinsi, $f$ et l'identité coïncident sur l'ouvert non-vide $U$. Par le principe du prolongement analytique (rappelons que $\\Omega$ est connexe), $f$ est égale à l'identité.",
+    "lang": "french"
+}

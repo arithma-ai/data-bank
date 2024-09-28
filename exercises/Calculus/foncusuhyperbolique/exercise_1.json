@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tous $x,y\\in\\mathbb R$,\r\n$$\\sh(x+y)=\\sh(x)\\ch(y)+\\ch(x)\\sh(y)$$\r\n$$\\ch(x+y)=\\ch(x)\\ch(y)+\\sh(x)\\sh(y).$$",
+    "hint": "Développer le membre de droite en utilisant la définition des fonctions $\\sh$ et $\\ch$.",
+    "solution": "On va développer le membre de droite. On a d'une part\r\n\\begin{align*}\r\n\\sh(x)\\ch(y)&=\\left(\\frac{e^x-e^{-x}}{2}\\right)\\times\\left(\\frac{e^y+e^{-y}}2\\right)\\\\\r\n&=\\frac{e^{x+y}+e^{x-y}-e^{-x+y}-e^{-x-y}}4\r\n\\end{align*}\r\net d'autre part\r\n\\begin{align*}\r\n\\ch(x)\\sh(y)&=\\left(\\frac{e^x+e^{-x}}{2}\\right)\\times\\left(\\frac{e^y-e^{-y}}2\\right)\\\\\r\n&=\\frac{e^{x+y}-e^{x-y}+e^{-x+y}-e^{-x-y}}4.\r\n\\end{align*}\r\nEn effectuant la somme, on trouve\r\n$$\\sh(x)\\ch(y)+\\ch(x)\\sh(y)=\\frac{e^{x+y}-e^{-x-y}}2=\\sh(x+y).$$\r\nLa preuve de l'autre égalité est complètement similaire.",
+    "lang": "french"
+}

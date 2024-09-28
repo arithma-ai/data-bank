@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que les réels suivants sont irrationels :$\\sqrt x+\\sqrt y$ où $x$ et $y$ sont des rationnels positifs tels que $\\sqrt x$ et $\\sqrt y$ sont irrationnels.$\\sqrt 2+\\sqrt 3+\\sqrt 5$.",
+    "hint": "Utiliser la quantité conjuguée.Raisonner par l'absurde, écrire $\\sqrt 2+\\sqrt 3=r-\\sqrt 5$, mettre au carré et faire comme à la question précédente.",
+    "solution": "Imaginons que $\\sqrt x+\\sqrt y$ soit un rationnel (non nul). Alors, on a \r\n$$\\sqrt x-\\sqrt y=\\frac{x-y}{\\sqrt x+\\sqrt y}$$\r\net donc $\\sqrt x-\\sqrt y$ est aussi un rationnel. Écrivant\r\n$$2\\sqrt x=(\\sqrt x+\\sqrt y)+(\\sqrt x-\\sqrt y),$$\r\non trouve que $\\sqrt x$ est rationnel, une contradiction.Imaginons que $\\sqrt 2+\\sqrt 3+\\sqrt 5$ soit un rationnel $r>0$. Alors on a\r\n$$\\sqrt 2+\\sqrt 3=r-\\sqrt 5\\implies 2+2\\sqrt 6+3=r^2+5-2r\\sqrt 5$$\r\net donc $r\\sqrt 5+\\sqrt 6$ est un rationnel. On raisonne alors comme à la question précédente pour prouver que\r\nla quantité conjuguée \r\n$$r\\sqrt 5-\\sqrt 6=\\frac{5r^2-6}{r\\sqrt 5+\\sqrt 6}$$\r\nest aussi rationnel et donc que $\\sqrt 6$ l'est aussi. C'est la contradiction que l'on recherchait!",
+    "lang": "french"
+}

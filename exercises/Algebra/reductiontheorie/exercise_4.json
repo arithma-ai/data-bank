@@ -1,0 +1,6 @@
+{
+    "script": "Soient $n,p\\geq 1$ et $A\\in M_n(\\mathbb C)$ tel que\r\n$A^p=I_n$. Soit $\\omega$ une racine $p$-ième de l'unité telle que\r\n$\\omega^{-1}$ n'est pas une valeur propre de $A$.\r\nMontrer que $\\sum_{k=0}^{p-1} \\omega^kA^k=0$.",
+    "hint": "Penser à la somme d'une suite géométrique.",
+    "solution": "La somme $\\sum_{k=0}^{p-1} \\omega^k A^k$ fait penser à une suite géométrique. On ne peut bien sûr par utiliser directement la formule de la somme d'une telle série, mais on peut s'en inspirer en calculant \r\n\\begin{align*}\r\n(I_n-\\omega A)\\sum_{k=0}^{p-1}\\omega^k A^k&=\\sum_{k=0}^{p-1}\\omega^k A^k-\\sum_{k=0}^{p-1}\\omega^{k+1}A^{k+1}\\\\\r\n&=I_n-\\omega^p A^p\\\\\r\n&=0\r\n\\end{align*}\r\npuisque $\\omega^p=1$ et $A^p=I_n$. Or, puisque $\\omega^{-1}$ n'est pas une valeur propre de $A$, la matrice $I_n-\\omega A=-\\omega(A-\\omega^{-1}I_n)$ est inversible. On en déduit que $\\sum_{k=0}^{p-1}\\omega^k A^k=0$.",
+    "lang": "french"
+}

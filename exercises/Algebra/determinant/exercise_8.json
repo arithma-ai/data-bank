@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in\\mathcal M_3(\\mathbb R)$. Calculer le déterminant de $3A-6I_3$ sachant que $A^2 = 4A - 3I_3$ et que ce déterminant est positif.",
+    "hint": "Que vaut $(A-2I_3)^2$?",
+    "solution": "On commence par remarquer que $3A-6I_3=3(A-2I_3)$ et donc \r\n$$\\det(3A-6I_3)=3^3\\det(A-2I_3).$$\r\nD'autre part, on a \r\n$$(A-2I_3)^2=A^2-4A+4I_3=I_3.$$\r\nAinsi, $\\big(\\det(A-2I_3)\\big)^2=\\det\\big((A-2I_3)^2\\big)=1.$\r\nPuisque $\\det(A-2I_3)=\\det(3A-6I_3)/27\\geq 0$, on en déduit que $\\det(A-2I_3)=1$ et que\r\n$$\\det(3A-6I_3)=27.$$",
+    "lang": "french"
+}

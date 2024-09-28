@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A$ un anneau commutatif.On suppose que $A$ n'admet que les idéaux triviaux $\\{0\\}$ et $A$. Démontrer que $A$ est un corps.On suppose que $A$ est intègre et qu'il n'admet qu'un nombre fini d'idéaux. Démontrer que $A$ est un corps.",
+    "hint": "Prendre $x\\in A$ et considérer l'idéal engendré par $x$.Prendre $x\\in A$ et considérer les idéaux $I_n=x^n A$.",
+    "solution": "Soit $x\\in A\\backslash \\{0\\}$. Alors l'idéal engendré par $x$ ne peut pas être l'idéal $\\{0\\}$, donc c'est $A$ tout entier. En particulier, il existe $y\\in A$ tel que $yx=xy=1_A$. C'est bien que $A$ est un corps.Prenons toujours $x\\in A\\backslash \\{0\\}$ et considérons les idéaux $I_n=x^n A$. Alors puisque $A$ admet un nombre fini d'idéaux, il existe $n<p$ tel que $x^n A=x^p A$. En particulier, il existe $a\\in A$ tel que $x^n =x^p a$. Ceci entraîne\r\n$x^n(1-x^{p-n} a)=0$. L'anneau étant intègre (et $x$ étant non nul), ceci entraine que $x^{p-n} a =1$. $x$ est alors inversible, d'inverse $x^{p-n-1}a$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a>0$ un réel. On munit le plan d'un repère orthonormé.\r\nDéterminer le lieu des centres des cercles tangents à $(Oy)$ et coupant l'axe $(Ox)$ en deux\r\npoints $M$ et $M'$ tels que $MM'=a$.",
+    "hint": "Introduire $I$ le milieu de $[MM']$.",
+    "solution": "Soit $C(x,y)$ un tel point et soit $D$ le point de tangence du cercle à l'axe $(Oy)$.\r\n Alors $CD=CM=CM'=x$. Soit $I(x,0)$ le projeté orthogonal de $C$ sur l'axe $(Ox)$. $I$ est aussi le milieu de $[MM']$.\r\n Appliquons le théorème de Pythagore dans le triangle $MIC$, rectangle en $I$. On a \r\n $$y^2+(a/2)^2=x^2\\implies y^2-x^2=-a^2/4.$$\r\nLe point $C$ appartient donc à l'hyperbole d'équation $x^2-y^2= a^2/4$. Réciproquement, si $C$ est un point de cette hyperbole,\r\nses coordonnées sont de la forme\r\n$$C=\\left(\\begin{array}{c}\r\nx\\\\\r\n\\pm\\sqrt{x^2-a^2/4}\\end{array}\\right).$$\r\nAlors les points $M\\left(x-\\frac a2,0\\right)$ et $M'\\left(x+\\frac a2,0\\right)$ appartiennent au cercle de centre $C$ et de rayon $x$. Ce cercle est tangent\r\nà $(Oy)$ et $MM'=a$. Ainsi, on a bien prouvé que l'ensemble recherché est exactement l'hyperbole d'équation $x^2-y^2=a^2/4$.",
+    "lang": "french"
+}

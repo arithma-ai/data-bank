@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire réelle définie sur un espace probabilisé fini. Démontrer que $E(X)^2\\leq E(X^2)$.",
+    "hint": "Inégalité de Cauchy-Schwarz.",
+    "solution": "Soit $x_1,\\dots,x_n$ les valeurs prises par $X$, avec probabilités respectives $p_k$. On a \r\n$$E(X)=\\sum_{k=1}^n x_k p_k=\\sum_{k=1}^n (x_k\\sqrt{p_k})\\sqrt{p_k}.$$\r\nOn applique l'inégalité de Cauchy-Schwarz avec $a_k=x_k\\sqrt{p_k}$ et $b_k=\\sqrt{p_k}$. On en déduit que\r\n$$E(X)^2\\leq \\left(\\sum_{k=1}^n x_k^2p_k\\right)\\left(\\sum_{k=1}^n p_k\\right)=E(X^2).$$\r\nOn peut aussi (plus simplement sans doute) utiliser que \r\n$V(X)=E(X^2)-(E(X))^2$$\r\net que la variance est toujours positive ou nulle.",
+    "lang": "french"
+}

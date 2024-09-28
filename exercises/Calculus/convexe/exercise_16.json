@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout $x>1$, on a \r\n$${x}^{n}-1\\geq n\\left({x}^{\\left(n+1\\right)/2}-{x}^{\\left(n-1\\right)/2}\\right).$$",
+    "hint": "Factoriser par $x-1$ de par et d'autre, puis utiliser une inégalité de convexité...",
+    "solution": "Si on simplifie par $x-1>0$, on trouve que l'inégalité est équivalente à \r\n$$1+x+\\dots+x^{n-1}\\geq nx^{(n-1)/2}.$$\r\nPour démontrer cette inégalité, on pose, ($x>1$ est fixé) $f(y)=\\exp(y\\ln x)$.\r\n$f$ est une fonction convexe.\r\nEn particulier, on a \r\n$$\\frac{1}{n}\\big(f(0)+\\dots+f(n-1)\\big)\\geq f\\left(\\frac 1n\\big(0+1+\\dots+(n-1)\\big)\\right).$$\r\nMais le membre de gauche est $\\frac1n (1+x+\\dots+x^{n-1})$\r\ntandis que celui de droite est\r\n$$f\\left(\\frac1n\\times\\frac{n(n-1)}2\\right)=f((n-1)/2)=x^{(n-1)/2}.$$\r\nOn obtient donc bien l'inégalité voulue.",
+    "lang": "french"
+}

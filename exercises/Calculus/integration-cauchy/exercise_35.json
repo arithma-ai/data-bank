@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,+\\infty[\\to\\mathbb R$ une fonction continue admettant une limite finie $a$ en $+\\infty$.\r\nMontrer que\r\n$$\\frac 1x\\int_0^x f(t)dt\\to a\\textrm{ quand }x\\to+\\infty.$$",
+    "hint": "Fixer $\\veps>0$ et $A$ tel que $|f(x)-a|<\\veps$ pour $x>A$. Couper l'intégrale en $A$.",
+    "solution": "Soit $\\veps>0$ et $A\\geq 0$ tel que $|f(x)-a|<\\veps$. Pour $x>A$, on coupe l'intégrale en $A$.\r\n$$\\frac 1x\\int_0^x f(t)dt=\\frac1x\\int_0^A f(t)dt+\\frac1x\\int_A^xf(t)dt.$$\r\nOn peut trouver $x_0$ assez grand tel que, pour tout $x>x_0$, on a \r\n$$\\left|\\frac1x\\int_0^A f(t)dt\\right|<\\veps.$$\r\nD'autre part, on a \r\n$$\\frac1x\\int_A^x(a-\\veps)dt\\leq \\frac1x\\int_A^xf(t)dt\\leq \\frac1x\\int_A^x(a+\\veps)dt$$\r\nce qui implique\r\n$$\\frac{(a-\\veps)(x-A)}{x}\\leq \\frac1x\\int_A^xf(t)dt\\leq \\frac{(x-A)(a+\\veps)}x.$$\r\nIl est alors possible de trouver $x_1$ tel que, pour tout $x>x_1$, on a \r\n$$a-2\\veps\\leq \\frac{(a-\\veps)(x-A)}{x}\\textrm{ et }\\frac{(x-A)(a+\\veps)}x\\leq a+2\\veps.$$\r\nPour $x>\\max(x_0,x_1)$, on a donc\r\n$$-3\\veps\\leq \\frac 1x\\int_0^x f(t)dt-a\\leq 3\\veps,$$\r\nce qui prouve le résultat voulu.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les endomorphismes symétriques et orthogonaux d'un espace vectoriel euclidien.",
+    "hint": "Penser par exemple en termes de valeurs propres.",
+    "solution": "Soit $u$ un tel endomorphisme, et soit $\\lambda$ une valeur propre de $u$. Si $x$ est un vecteur propre associé, on a $\\|u(x)\\|=\\|x\\|$ et $\\|u(x)\\|=|\\lambda| \\|x\\|$. On en déduit que $\\lambda=\\pm 1$. On a donc $\\ker(u-Id)\\oplus^\\perp \\ker(u+Id)=E$ et donc $u$ est une symétrie orthogonale. Réciproquement, toute symétrie orthogonale est un endomorphisme symétrique et orthogonal.",
+    "lang": "french"
+}

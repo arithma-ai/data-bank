@@ -1,0 +1,6 @@
+{
+    "script": "Soient $f$, $g$ deux fonctions entières non identiquement nulles telle que\r\n$|f(z)|\\leq |g(z)|$ pour tout $z\\in\\mathbb C$.Montrer que $f/g$ se prolonge en une fonction entière.Montrer qu'il existe $\\lambda\\in\\mathbb C$ tel que $f=\\lambda g$.",
+    "hint": "$f/g$ est une fonction méromorphe bornée au voisinage de toutes ses singularités.\r\nCe sont donc de fausses singularités.Appliquer le théorème de Liouville.",
+    "solution": "Soit $S=\\{z\\in\\mathbb C;\\ g(z)=0\\}$. $f/g$ est holomorphe sur $\\Omega=\\mathbb C\\backslash S$\r\net $|f/g|\\leq 1$ sur $\\Omega$. Or $S$ est un ensemble discret (principe des zéros isolés)\r\ndonc pour tout $z_0\\in S$, il existe $r>0$ tel que $f/g$ est holomorphe dans $D(z_0,r)\\backslash \\{z_0\\}$\r\net $|f/g|\\leq 1$ sur $D(z_0,r)\\backslash \\{z_0\\}$. On en déduit que $z_0$ est une singularité effaçable,\r\nou fausse singularité, c'est-à-dire que $f/g$ se prolonge en une fonction holomorphe en $z_0$.\r\nComme ceci est vrai pour tout élément de $S$, $f/g$ se prolonge en une fonction entière.On applique le théorème de Liouville : $f/g$ est une fonction entière bornée, donc constante.",
+    "lang": "french"
+}

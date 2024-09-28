@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que $O_2^+(\\mathbb R)$ agit transitivement sur le cercle unité de $\\mathbb R^2$. Démontrer que $O_3^+(\\mathbb R)$ agit transitivement sur la sphère unité de $\\mathbb R^3$.",
+    "hint": "",
+    "solution": "Soient $A,B$ deux points du cercle unité. Il suffit de considérer la rotation de centre $O$ et d'angle $(\\overrightarrow{OA},\\overrightarrow{OB})$.Soient maintenant $A,B$ deux points de la sphère unité. Soit $P$ un plan contenant $O,A$ et $B$ et $D$ la droite perpendiculaire à $P$ passant par $O$. On considère alors la rotation d'axe $D$ qui transforme $A$ et $B$ (d'angle $(\\overrightarrow{OA},\\overrightarrow{OB})$).",
+    "lang": "french"
+}

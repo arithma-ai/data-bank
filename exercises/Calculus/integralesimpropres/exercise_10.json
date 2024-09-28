@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,+\\infty[\\to\\mathbb R$ une fonction continue. On suppose que $\\int_0^{+\\infty}f(t)dt$ converge, et soit $(x_n)$ et $(y_n)$ deux suites tendant vers $+\\infty$. Démontrer que $\\int_{x_n}^{y_n}f(t)dt$ tend vers 0.En déduire que l'intégrale $\\int_0^{+\\infty}e^{-t\\sin t}dt$ diverge.",
+    "hint": "Écrire l'intégrale entre $x_n$ et $y_n$ à l'aide d'une primitive de $f$. Quelle information sur cette primitive nous donne la convergence de l'intégrale?Prendre $x_n$ et $y_n$ de sorte que $-t\\sin t\\geq 0$ si $t\\in [x_n,y_n]$.",
+    "solution": "Posons $F(x)=\\int_0^x f(t)dt$. Alors les hypothèses nous disent que $F$ admet une limite $\\ell$ en $+\\infty$. Or, \r\n$$\\int_{x_n}^{y_n}f(t)dt=F(y_n)-F(x_n)\\to \\ell-\\ell=0.$$Posons $x_n=(2n+1)\\pi$ et $y_n=(2n+2)\\pi$. Alors si $t\\in [x_n,y_n]$, on a $t\\sin t\\leq 0$ et donc \r\n$e^{-t\\sin t}\\geq e^0=1$. On en déduit que $\\int_{x_n}^{y_n}e^{-t\\sin t}dt\\geq \\pi$. En particulier, cette quantité ne tend pas vers zéro, et donc l'intégrale est divergente.",
+    "lang": "french"
+}

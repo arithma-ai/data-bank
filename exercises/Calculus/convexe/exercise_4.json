@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les fonctions polynomiales de degré impair qui sont convexes.",
+    "hint": "Pour le degré 1, c'est très simple. Pour le degré supérieur ou égal à 3, on pourra s'intéresser à la dérivée seconde, et en particulier à son degré.",
+    "solution": "Soit $P$ une telle fonction. Si son degré est $1$, il s'agit d'une fonction affine, qui est convexe. Si son degré est impair et supérieur ou égal à $3,$ alors $P''$ est de degré impair. En particulier, en remarquant que ou bien la limite de $P''$ en $+\\infty,$ ou bien la limite de $P''$ en $-\\infty$ vaut $-\\infty$ (car le degré de $P''$ est impair), on observe que $P''$ prend des valeurs strictement négatives. En particulier, $P$ n'est pas convexe.En conclusion, les seules fonctions polynomiales qui sont convexes sont les fonctions polynomiales de degré $1.$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Caractériser l'endomorphisme $f$ de $\\mathbb R^3$ dont la matrice dans la base canonique est\r\n$$A=\\frac 13\\left(\r\n\\begin{array}{ccc}\r\n2&-1&2\\\\\r\n2&2&-1\\\\\r\n-1&2&2\r\n\\end{array}\\right).$$",
+    "hint": "$A$ est une matrice orthogonale. Calculer son déterminant.",
+    "solution": "On vérifie que les colonnes de $A$ forment une base orthonormée. Ainsi, $f$ est un endomorphisme orthogonal. De plus, $\\det(A)=1$. $f$ est donc une rotation. Cherchons son axe en cherchant ses points fixes. L'équation $AX=X$ donne que l'axe est la droite $\\textrm{vect}(1,1,1)$. Posons $u=(1,1,1)$. Pour déterminer l'angle de cette rotation, que l'on note $\\theta$, on remarque qu'en écrivant la matrice de $f$ sous forme réduite, on a $\\textrm{Tr}(A)=1+2\\cos\\theta$. Or, $\\textrm{Tr}(A)=2$, et donc $\\cos(\\theta)=\\frac 12$, soit $\\theta=\\pm \\frac{\\pi}3$ modulo $2\\pi$.Pour conclure quant au signe de $\\theta$, on peut remarquer que, posant $v=(1,-1,0)$, qui est orthogonal à $u$, alors la base $(u,v,f(v))$ est directe, ce qui signifie que $\\theta\\in ]0,\\pi[$ modulo $2\\pi$. On en déduit donc que $f$ est la rotation d'axe dirigé par $(1,1,1)$ et d'angle $\\pi/3$.",
+    "lang": "french"
+}

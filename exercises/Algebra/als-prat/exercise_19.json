@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E=\\mathcal C^{\\infty}(\\mathbb R)$ et $\\phi\\in\\mathcal L(E)$ définie par $\\phi(f)=f'$. Quel est le noyau de $\\phi$? Quelle est son image? $\\phi$ est-elle injective? surjective?",
+    "hint": "",
+    "solution": "Une fonction $f:\\mathbb R\\to\\mathbb R$ a sa dérivée nulle si et seulement si elle est constante. Le noyau de $\\phi$ est donc l'ensemble des fonctions constantes. En particulier, $\\phi$ n'est pas injective. D'autre part, si $g$ est une fonction de classe $\\mathcal C^\\infty$ sur $\\mathbb R$, alors elle admet une primitive $f$ qui est donc elle aussi de classe $\\mathcal C^\\infty$, c'est-à-dire élément de $E$. On a alors  $\\phi(f)=g$, ce qui signifie que $\\textrm{Im}(\\phi)=E$. $\\phi$ est surjective. Cet exercice illustre le fait que $\\mathcal C^\\infty(\\mathbb R)$ n'est pas de dimension finie, puisque $\\phi$ est surjective mais n'est pas injective.",
+    "lang": "french"
+}

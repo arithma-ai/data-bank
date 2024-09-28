@@ -1,0 +1,6 @@
+{
+    "script": "Soit $D$ le disque unité et $f:\\overline D\\to\\mathbb C$ continue sur $\\overline D$ et holomorphe dans $D$. On suppose\r\nque $f$ n'est pas constante et que $|f(z)|=1$ si $|z|=1$.Démontrer que $f$ s'annule dans $D$.Démontrer que $D\\subset f(D)$.",
+    "hint": "Utiliser le principe du maximum.Utiliser le théorème de Rouché.",
+    "solution": "D'après le principe du maximum, pour tout $z\\in D$, $|f(z)|\\leq 1$. Mais si $f$ ne s'annule pas, on peut considérer $g=1/f$ qui vérifie les mêmes hypothèses\r\nque $f$. Donc, d'après le principe du maximum, pour tout $z\\in D$, $\\frac 1{|f(z)|}\\leq 1$. On en déduit que $|f(z)|=1$ pour tout $z\\in D$, donc, d'après le théorème\r\nde l'image ouverte, que $f$ est nécessairement constante, ce qui n'est pas le cas. Donc $f$ s'annule dans $D$.Soit $w\\in D$ et $g(z)=f(z)-w$. On souhaite démontrer que $g$ s'annule. Pour cela, on va démontrer à l'aide du théorème de Rouché qu'elle possède les mêmes zéros dans $D$ que $f$. En effet, pour tout $z$ tel que $|z|=1$, alors\r\n$$|f(z)-g(z)|=|w|<1=|f(z)|.$$\r\nPar le théorème de Rouché, $f$ et $g$ ont le même nombre de zéros dans $D$ et donc il existe $z\\in D$ tel que $f(z)=w$.",
+    "lang": "french"
+}

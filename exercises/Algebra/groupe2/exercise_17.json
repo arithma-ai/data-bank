@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ un groupe d'ordre 15.Combien $G$ possède-t-il d'éléménts d'ordre 3?Combien $G$ possède-t-il d'éléments d'ordre 5?Démontrer que $G$ est isomorphe à $\\mathbb Z/15\\mathbb Z$.",
+    "hint": "Utiliser le théorème de Sylow pour compter le nombre de sous-groupes d'ordre 3 de $G$.Idem avec les sous-groupes d'ordre 5.Démontrer que $G$ possède un élément d'ordre 15.",
+    "solution": "D'après les théorèmes de Sylow, $G$ possède un sous-groupe d'ordre 3. De plus, le nombre $n_3$ de sous-groupes d'ordre 3 vérifie $n_3\\equiv 1\\ [3]$ et $n_3|5$. Nécessairement, $n_3=1$. Autrement dit, $G$ admet un unique sous-groupe d'ordre 3, que l'on va noter $H$.Mais tout élément d'ordre 3 génère un sous-groupe d'ordre 3. Il y a donc exactement deux éléments d'ordre 3 : si $H=\\{e,x,y\\}$, alors ces éléments sont $x$ et $y$.De la même façon, on prouve que $G$ possède 4 éléments d'ordre 5.L'ordre d'un élément de $G$ est un diviseur de 15, donc est égal à 1,3,5 ou 15. Comme il y a 1 élément d'ordre 1, 2 éléments d'ordre 3 et 4 éléments d'ordre 5, il y a 8 éléments d'ordre 15. Ainsi, $G$ possède un élément d'ordre son cardinal. $G$ est donc le groupe cyclique engendré par cet élément, c'est-à-dire que $G$ est isomorphe à $\\mathbb Z/15\\mathbb Z$.",
+    "lang": "french"
+}

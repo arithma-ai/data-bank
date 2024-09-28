@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ et $g$ les fonctions définies sur $[0;1]$ par $f(x)=\\displaystyle{\\frac1{1+x}}$ et $g(x)=\\displaystyle{\\frac1{1+x^2}}$. On munit le plan d'un repère orthonormé $(O;I;J)$ tel que $OI=5\\textrm{cm}$.Représenter les courbes représentatives de $f$ et de $g$ dans ce repère. En particulier, on étudiera leurs positions relatives.Déterminer l'aire, en unités d'aires, de la surface $\\mathcal S$ comprise entre les deux courbes et les droites d'équations $x=0$ et $x=1$.En déduire l'aire de $\\mathcal S$ en $\\textrm{cm}^2$.",
+    "hint": "",
+    "solution": "Pour \\(x\\in[0,1]\\), on a \\(x^2\\leq x\\), puis \\(g(x)\\geq f(x)\\). La courbe représentative de~\\(g\\) est donc située au-dessus de celle de \\(f\\) sur le segment \\([0,1]\\).On calcule \\(\\int_0^1(g(x) - f(x))\\mathrm dx = \\Big[\\arctan(x) - \\ln(1 + x)\\Big]_0^1 = \\frac{\\pi}{4} - \\ln(2) \\approx 0.0922.\\)En $\\textrm{cm}^2$, cela donne \\(25\\times\\left(\\frac{\\pi}{4} - \\ln(2)\\right)\\approx 2.3\\textrm{cm}^2\\).",
+    "lang": "french"
+}

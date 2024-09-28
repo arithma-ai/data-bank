@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre sur $[0,2\\pi]$, puis sur $[-\\pi,\\pi]$, puis sur $\\mathbb R$ les inéquations suivantes : \r\n$$\\begin{array}{lll}\r\n\\mathbf{1.}\\ \\sin(x)\\geq 1/2&\\quad&\\mathbf{2.}\\cos(x)\\geq 1/2\r\n\\end{array}$$",
+    "hint": "",
+    "solution": "Il faut s'aider du cercle trigonométrique!Pour $x\\in [0,2\\pi]$, on a \r\n$$\\sin(x)\\geq 1/2\\iff x\\in\\left[\\frac{\\pi}6;\\frac{5\\pi}6\\right].$$\r\nPour $x\\in [-\\pi,\\pi]$, on a le même résultat : \r\n$$\\sin(x)\\geq 1/2\\iff x\\in \\left[\\frac{\\pi}6;\\frac{5\\pi}6\\right].$$\r\nFinalement, par $2\\pi$-périodicité, pour $x\\in \\mathbb R$, on a\r\n$$\\sin(x)\\geq 1/2\\iff \\exists k\\in\\mathbb Z,\\ x\\in \\left[\\frac{\\pi}6+2k\\pi;\\frac{5\\pi}6+2k\\pi\\right].$$Pour $x\\in [0,2\\pi]$, on a\r\n$$\\cos(x)\\geq 1/2\\iff x\\in \\left[0,\\frac\\pi3\\right]\\cup \\left[\\frac{5\\pi}3;2\\pi\\right].$$\r\nPour $x\\in [-\\pi,\\pi]$, on a\r\n$$\\cos(x)\\geq 1/2\\iff x\\in \\left[-\\frac{\\pi}3;\\frac{\\pi}3\\right].$$\r\nOn conclut de la même façon par $2\\pi$-périodicité, mais on utilise plutôt la deuxième expression qui est plus facile. Finalement, pour $x\\in\\mathbb R$, \r\n$$\\cos(x)\\geq 1/2\\iff \\exists k\\in \\mathbb Z,\\ x\\in\\left[-\\frac{\\pi}3+2k\\pi;\\frac{\\pi}3+2k\\pi\\right].$$",
+    "lang": "french"
+}

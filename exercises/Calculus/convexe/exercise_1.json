@@ -1,0 +1,6 @@
+{
+    "script": "Soit $C_1$, $C_2$ deux parties convexes d'un espace vectoriel réel $E$ et soit $s\\in [0,1]$. On pose\r\n$C=sC_1+(1-s)C_2=\\{sx+(1-s)y;\\ x\\in C_1,\\ y\\in C_2\\}$. Démontrer que $C$ est convexe.",
+    "hint": "Revenir à la définition.",
+    "solution": "Soit $z_1,z_2\\in C$ et $t\\in [0,1]$. Alors il existe $x_1,x_2\\in C_1$ et $y_1,y_2\\in C_2$ tels que \r\n$$z_1=sx_1+(1-s)y_1,\\ z_2=sx_2+(1-s)y_2.$$\r\nMais alors\r\n$$tz_1+(1-t)z_2=s(tx_1+(1-t)x_2)+(1-s)(ty_1+(1-t)y_2).$$\r\nPar convexité respective de $C_1$ et $C_2$, $tx_1+(1-t)x_2\\in C_1$ tandis que $ty_1+(1-t)y_2\\in C_2$. On en déduit que $C$ est bien une partie convexe de $E$.",
+    "lang": "french"
+}

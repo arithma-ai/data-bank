@@ -1,0 +1,6 @@
+{
+    "script": "On rappelle que les fonctions $\\Gamma$ et $\\zeta$ sont définies respectivement sur $]0,+\\infty[$ et sur $]1,+\\infty[$ par \r\n$$\\Gamma(x)=\\int_0^{+\\infty}e^{-t}t^{x-1}dt\\textrm{ et }\\zeta(x)=\\sum_{n\\geq 1}n^{-x}.$$\r\nDémontrer que, pour tout $x>1$, \r\n$$\\zeta(x)\\Gamma(x)=\\int_0^{+\\infty}\\frac{t^{x-1}}{e^t-1}dt.$$",
+    "hint": "Appliquer le théorème de convergence monotone pour permuter la série et l'intégrale après avoir fait un changement de variables dans l'intégrale.",
+    "solution": "On a, pour tout $x>0$,\r\n\\begin{eqnarray*}\r\n\\zeta(x)\\Gamma(x)&=&\\sum_{n\\geq 1}n^{-x}\\int_0^{+\\infty} e^{-t}t^{x-1}dt\\\\\r\n&=&\\sum_{n\\geq 1}\\int_0^{+\\infty} n^{-x}e^{-t}t^{x-1}dt\r\n&=&\\sum_{n\\geq 1}\\int_0^{+\\infty} e^{-un}u^{x-1}du\r\n\\end{eqnarray*}\r\nen ayant effectué, dans chaque intégrale, le changement de variables $t=un$. Or, pour chaque $n\\geq 1$ et chaque $x>0$, la fonction $u\\mapsto e^{-un}u^{x-1}$ est positive sur $]0,+\\infty[$. On peut donc appliquer le théorème de convergence monotone, et on trouve que\r\n\\begin{eqnarray*}\r\n\\zeta(x)\\Gamma(x)&=&\\int_0^{+\\infty}\\sum_{n\\geq 1}e^{-un}u^{x-1}\\\\\r\n&=&\\int_0^{+\\infty}\\frac{u^{x-1}e^{-u}}{1-e^{-u}}du\\\\\r\n&=&\\int_0^{+\\infty}\\frac{u^{x-1}}{e^u-1}.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

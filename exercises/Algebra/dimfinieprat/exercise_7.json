@@ -1,0 +1,6 @@
+{
+    "script": "Pour $0\\leq k\\leq n$, on note $P_k(X)=X^k(1-X)^{n-k}$. Démontrer que la famille $(P_0,\\dots,P_n)$ forme une base de $\\mathbb R_n[X]$.",
+    "hint": "Le terme de plus bas degré de chaque $P_k$ est $X^k$. Dans une relation de liaison $\\lambda_0 P_0+\\cdots+\\lambda_n P_n=0$, commencer par prouver que $\\lambda_0=0$.",
+    "solution": "Remarquons d'abord que la famille $(P_0,\\dots,P_n)$ est une famille de $n+1$ vecteurs dans un espace de dimension $n+1$. Elle forme donc une base de $\\mathbb R_n[X]$ si et seulement si elle est libre. D'autre part, le point clé est que le terme de plus bas degré de $P_k$ est $X^k$ (il n'y a pas de termes en $X^{k-1}$, etc...).Procédons par l'absurde et supposons que la famille $(P_0,\\dots,P_n)$ est liée. Soit $\\lambda_0,\\dots,\\lambda_n$ des réels, non tous nuls, tels que $\\lambda_0 P_0+\\cdots+\\lambda_n P_n=0$. Soit $k$ le plus petit entier tel que $\\lambda_k\\neq 0$. Alors, le terme de degré $k$ de $\\lambda_0 P_0+\\cdots+\\lambda_n P_n$ est $\\lambda_k X^k$. Il doit être nul, et donc $\\lambda_k$ doit être égal à 0, ce qui est une contradiction.Donc la famille $(P_0,\\dots,P_n)$ est libre : c'est une base de $\\mathbb R_n[X]$.",
+    "lang": "french"
+}

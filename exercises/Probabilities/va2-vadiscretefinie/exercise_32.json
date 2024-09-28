@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(X_n)$ une suite de variables aléatoires définies sur le même espace probabilisé fini $\\Omega$. On suppose qu'elles sont deux à deux indépendantes, qu'elles ont même espérance $m$ et même variance $\\sigma^2$. On pose $S_n=\\frac{X_1+\\dots+X_n}n$. Démontrer que, pour tout $\\veps>0$, \r\n$$P(|S_n-m|\\geq\\veps)\\to 0.$$",
+    "hint": "Appliquer l'inégalité de Bienaymé-Tchebychev.",
+    "solution": "On a $E(S_n)=m$, et, puisque les variables aléatoires sont deux à deux indépendantes,\r\n$$V(S_n)=\\frac 1{n^2}\\sum_{k=1}^n V(X_k)=\\frac{\\sigma^2}n.$$\r\nOn applique ensuite l'inégalité de Bienaymé-Tchebychev à $S_n$ :\r\n$$0\\leq P(|S_n-m|\\geq \\veps)\\leq \\frac{V(S_n)}{\\veps^2}=\\frac{\\sigma^2}{n\\veps^2}.$$\r\nPar le théorème des gendarmes, ceci tend vers 0 lorsque $n$ tend vers $+\\infty$.",
+    "lang": "french"
+}

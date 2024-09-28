@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction continue par morceaux sur $[0,+\\infty[$. On suppose que $f$ est intégrable sur $[0,+\\infty[$. Démontrer que $\\int_x^{x+1}f(t)dt\\xrightarrow{x\\to+\\infty}0$.",
+    "hint": "",
+    "solution": "Introduisons $F(x)=\\int_0^x f(t)dt$. L'hypothèse d'intégrabilité entraine que $F$ admet une limite finie $\\ell$ en $+\\infty$. Mais par la relation de Chasles, on a \r\n$$\\int_x^{x+1}f(t)dt=F(x+1)-F(x)\\xrightarrow{x\\to+\\infty}\\ell-\\ell=0.$$",
+    "lang": "french"
+}

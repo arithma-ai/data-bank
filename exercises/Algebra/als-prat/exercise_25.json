@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\phi:\\mathbb R[X]\\to\\mathbb R[X],\\ P\\mapsto P(X+1)+P(X)$.Soit $n\\geq 0$. Démontrer que $\\phi$ induit un automorphisme de $\\mathbb R_n[X]$.Démontrer que $\\phi$ est un automorphisme de $\\mathbb R[X]$.",
+    "hint": "Il suffit de démontrer que $\\phi$ est injective.Utiliser le résultat de la question précédente pour prouver la surjectivité.",
+    "solution": "Remarquons d'abord que $\\phi$ est bien un endomorphisme de $\\mathbb R_n[X]$. Puisque $\\mathbb R_n[X]$ est de dimension finie, il suffit de démontrer que $\\phi$ est injective. Mais puisque $\\deg(P(X)+P(X+1))=\\deg(P(X))$, le noyau de $\\phi$ est clairement réduit à $\\{0\\}$. Donc $\\phi$ est injective, ce qui prouve que $\\phi$ est un automorphisme de $\\mathbb R_n[X]$.Bien entendu, $\\phi$, même considérée en tant qu'endomorphisme de $\\mathbb R[X]$, reste injective. Reste à montrer qu'elle est surjective. Comme $\\mathbb R[X]$ est de dimension infinie, on ne peut plus utiliser le théorème du rang. Cependant, soit $Q\\in\\mathbb R[X]$. Alors il existe $n\\geq 0$ tel que $Q\\in\\mathbb R_n[X]$. Puisque $\\phi$ est un automorphisme de $\\mathbb R_n[X]$, il existe $P\\in\\mathbb R_n[X]$ tel que $Q=\\phi(P)$. Donc $\\phi$ est surjective (même considérée comme un endomorphisme de $\\mathbb R[X]$)!",
+    "lang": "french"
+}

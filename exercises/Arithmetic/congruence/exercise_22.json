@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre les équations suivantes dans $\\mathbb Z^2$ :$x^2-5y^2=3$ (on raisonnera modulo $5$);$15x^2-8y^2=9$ (on raisonnera modulo $5$).",
+    "hint": "Écrire l'équation modulo 5 la simplifiera grandement. On peut ensuite faire un raisonnement par disjonction de cas pour prouver qu'il y aura peu de solutions...",
+    "solution": "On écrit l'équations modulo 5, et on trouve que $x^2\\equiv 3\\ [5]$. Or, si $x\\equiv\\pm 1\\ [5]$,\r\nalors $x^2\\equiv 1\\ [5]$ et si $x\\equiv \\pm 2\\ [5]$, alors $x^2\\equiv 4\\ [5]$ et donc l'équation\r\n$x^2=3\\ [5]$ n'a pas de solutions. Ainsi, l'équation de départ n'a pas de solutions dans $\\mathbb Z^2$.On écrit l'équation modulo $5$, et on trouve $-8y^2\\equiv 4\\ [5]$\r\net donc $2y^2\\equiv 4\\ [5]$ puisque $-8\\equiv 2\\ [5]$. Mais :si $y\\equiv 0\\ [5]$, alors $2y^2\\equiv 0\\ [4]$;si $y\\equiv \\pm 1\\ [5]$, alors $2y^2\\equiv 2\\ [5]$;si $y\\equiv \\pm 2\\ [5]$, alors $2y^2\\equiv 8\\ [5]\\equiv 3\\ [5]$.Dans tous les cas, il est impossible que $2y^2\\equiv 4\\ [5]$. Ainsi, l'équation n'admet pas de solutions.",
+    "lang": "french"
+}

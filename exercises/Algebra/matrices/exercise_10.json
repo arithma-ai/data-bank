@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A,B\\in\\mathcal M_n(\\mathbb R)$ deux matrices telles que la somme des coefficients sur chaque colonne de $A$ et sur chaque colonne de $B$ vaut $1$\r\n(on dit qu'une telle matrice est une matrice stochastique).\r\nMontrer que la somme des coefficients sur chaque colonne de $AB$ vaut $1$.",
+    "hint": "Poser $A=(a_{i,j})$, $B=(b_{i,j})$, $C=AB=(c_{i,j})$. Calculer $c_{i,j}$ en fonction des $a_{i,j}$ et des $b_{i,j}$, faire la somme.\r\nIl apparait deux sommes, les permuter.",
+    "solution": "Posons $A=(a_{i,j})$, $B=(b_{i,j})$, $C=AB=(c_{i,j})$. Alors, par définition, pour tous $i,j\\in\\{1,\\dots,n\\}$\r\n$$c_{i,j}=\\sum_{k=1}^n a_{i,k}b_{k,j}.$$\r\nOn veut démontrer que, pour tout $j=1,\\dots,n$, on a \r\n$$\\sum_{i=1}^n c_{i,j}=1.$$\r\nCalculons cette somme : \r\n\\begin{eqnarray*}\r\n \\sum_{i=1}^n c_{i,j}&=&\\sum_{i=1}^n \\sum_{k=1}^n a_{i,k}b_{k,j}\\\\\r\n &=&\\sum_{k=1}^n \\sum_{i=1}^n a_{i,k}b_{k,j}\\\\\r\n &=&\\sum_{k=1}^n b_{k,j}\\left(\\sum_{i=1}^n a_{i,k}\\right).\r\n\\end{eqnarray*}\r\nLa somme à l'intérieur est égale à 1 puisque $A$ est stochastique. Il reste\r\n$$\\sum_{i=1}^n c_{i,j}=\\sum_{k=1}^n b_{k,j}=1$$\r\noù on utilise cette fois que $B$ est stochastique.",
+    "lang": "french"
+}

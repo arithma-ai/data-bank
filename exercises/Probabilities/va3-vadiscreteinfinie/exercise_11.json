@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire réelle suivant une loi de Poisson $\\mathcal P(\\lambda)$.\r\nPour quelle(s) valeur(s) de $k\\in\\mathbb N$ la probabilité $P(X=k)$ est maximale?",
+    "hint": "Calculer $P(X=k+1)/P(X=k)$.",
+    "solution": "On a \r\n$$\\frac{P(X=k+1)}{P(X=k)}=\\frac{\\lambda}{k+1}$$\r\nd'où \r\n$$\\frac{P(X=k+1)}{P(X=k)}\\geq 1\\iff k\\leq \\lambda-1.$$\r\nOn distingue alors trois cas :Si $\\lambda-1<0$, c'est-à-dire $\\lambda\\in ]0,1[$, la suite $(P(X=k))$ est strictement décroissante, et donc son maximum est atteint en $P(X=0)$.si $\\lambda$ est un entier, la suite est strictement croissante jusque $\\lambda-1$, strictement décroissante à partir de $\\lambda$  et le maximum est atteint en deux points : $P(X=\\lambda-1)$ et $P(X=\\lambda)$.Si $\\lambda$ n'est pas un entier, la suite est strictement croissante jusque $\\lfloor \\lambda-1\\rfloor+1$, puis strictement décroissante ensuite. La valeur maximale est donc $P(X=\\lfloor \\lambda\\rfloor)$.",
+    "lang": "french"
+}

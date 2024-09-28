@@ -1,0 +1,6 @@
+{
+    "script": "Soient $F,G$ les sous-espaces vectoriels de $\\mathbb R^3$ suivants :\r\n$$F=\\{(a,a,a)\\in\\mathbb R^3:\\ a\\in\\mathbb R\\}\\textrm{ et }G=\\{(b+c,b,c)\\in\\mathbb R^3:\\ b,c\\in\\mathbb R\\}.$$\r\nSont-ils supplémentaires?",
+    "hint": "La réunion d'une base de $F$ et d'une base de $G$ est-elle une base de $\\mathbb R^3$?",
+    "solution": "Il suffit de vérifier que la réunion d'une base de $F$ et d'une base de $G$ est une base\r\nde $\\mathbb R^3$. Il est ici très facile de déterminer des bases respectives de $F$ et $G$.\r\nPour $F$, une base est donnée par $u_1=(1,1,1)$, pour $G$, une base est donnée par $u_2=(1,1,0)$ et $u_3=(1,0,1)$.\r\nOr, il est aisé de vérifier que la famille $(u_1,u_2,u_3)$ est libre, et comme c'est une famille de trois vecteurs en\r\ndimension 3, c'est une base. Donc $F$ et $G$ sont supplémentaires.",
+    "lang": "french"
+}

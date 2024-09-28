@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ un groupe. Pour tout $g\\in G$, on note $\\varphi_g$ l'automorphisme de $G$ dans lui-même défini par $\\varphi_g(x)=gxg^{-1}$. On note $\\textrm{Int}(G)=\\{\\varphi_g;\\ g\\in G\\}$.Démontrer que $\\textrm{Int}(G)$ est un sous-groupe normal de $\\textrm{Aut}(G)$.Soit $f:G\\to\\textrm{Int}(G)$ défini par $f(g)=\\varphi_g$. Démontrer que $f$ est un morphisme de groupe. Quel est son noyau?En déduire que $G/Z(G)$ est isomorphe à $\\textrm{Int}(G)$.",
+    "hint": "Utiliser la définition.Théorème d'isomorphisme.",
+    "solution": "Soit $g\\in G$ et $u\\in \\textrm{Aut}(G)$. On doit prouver que $u\\varphi_gu^{-1}$ est un automorphisme intérieur. Soit $x\\in G$. On a \r\n$$u\\varphi_gu^{-1}(x)=u(gu^{-1}(x)g^{-1})=u(g)xu(g^{-1})=vxv^{-1}$$\r\navec $v=u(g)$. En particulier, $u\\varphi_gu^{-1}=\\varphi_{u(g)}\\in\\textrm{Int}(G)$.Soient $g,h\\in G$. Alors \r\n$$(f(gh))(x)=\\varphi_{gh}(x)=(gh)x(gh)^{-1}=g(hxh^{-1})g^{-1}=\\varphi_g\\circ\\varphi_h(x)=(f(g)f(h))(x)$$\r\nce qui prouve que $f$ est bien un morphisme de groupes. De plus,\r\n$$g\\in\\ker f\\iff \\forall x\\in G,\\ gxg^{-1}=x\\iff \\forall x\\in G, gx=xg\\iff g\\in Z(G).$$\r\nLe noyau de $f$ est donc le centre du groupe $G$.C'est une conséquence immédiate du théorème d'isomorphisme, le morphisme $f$ étant surjectif par définition de $\\textrm{Int}(G)$.",
+    "lang": "french"
+}

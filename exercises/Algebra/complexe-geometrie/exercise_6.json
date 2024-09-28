@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a$ un nombre complexe de module 1, $z_1,\\dots,z_n$ les racines de l'équation $z^n=a$. Montrer que les points du plan complexe dont\r\nles affixes sont $(1+z_1)^n,\\dots,(1+z_n)^n$ sont alignés.",
+    "hint": "Déterminer l'argument des $(1+z_k)^n$. On pourra poser $a=e^{i\\theta}$ et calculer explicitement les $z_k$.",
+    "solution": "Posons $a=e^{i\\theta}$. Alors les racines de $z^n=a$ sont données par $z_k=e^{i(2k\\pi+\\theta)/n}$, $k=0,\\dots,n-1$. \r\nFactorisant par l'angle moitié et utilisant les formules d'Euler, on a \r\n$$1+z_k=2\\cos\\left(\\frac{2k\\pi+\\theta}{2n}\\right)e^{i(2k\\pi+\\theta)/2n}$$\r\nsoit\r\n$$(1+z_k)^n=2^n \\cos^n \\left(\\frac{2k\\pi+\\theta}{2n}\\right)e^{i(2k\\pi+\\theta)/2}=2^n \\cos^n \\left(\\frac{2k\\pi+\\theta}{2n}\\right)e^{i(k\\pi+\\theta/2)}.$$\r\nTous les points d'affixe $(1+z_k)^n$ sont donc situés sur la droite qui fait un angle $\\theta/2$ avec l'axe des abscisses. Ainsi, ils sont alignés.",
+    "lang": "french"
+}

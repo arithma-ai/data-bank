@@ -1,0 +1,6 @@
+{
+    "script": "Le mouvement d'une particule chargée dans un champ magnétique suivant l'axe $(Oz)$\r\nest régi par un système différentiel de la forme\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx''&=&\\omega y'\\\\\r\ny''&=&-\\omega x'\\\\\r\nz''&=&0\r\n\\end{array}\\right.$$\r\noù $\\omega$ dépend de la masse et de la charge de la particule, ainsi que du champ magnétique. \r\nEn posant $u=x'+iy'$, résoudre ce système différentiel.",
+    "hint": "",
+    "solution": "D'abord, l'équation $z''=0$ donne facilement $z(t)=at+b$, avec $a$ et $b$ des constantes.\r\nEnsuite, on a\r\n$$u'=x''+iy''=\\omega y'-i\\omega x'=-i\\omega u.$$\r\nOn en déduit que $u(t)=(c+id) e^{-i\\omega t}$. En prenant les parties réelles et imaginaires, on trouve que\r\n\\begin{eqnarray*}\r\nx'(t)&=&c\\cos(\\omega t)+d\\sin(\\omega t)\\\\\r\ny'(t)&=&d\\cos(\\omega t)-c\\sin(\\omega t).\r\n\\end{eqnarray*}\r\nIl suffit d'intégrer une nouvelle fois pour trouver les valeurs de $x$ et de $y$ :\r\n\\begin{eqnarray*}\r\nx(t)&=&c'\\sin(\\omega t)-d'\\cos(\\omega t)+x_0\\\\\r\ny(t)&=&d'\\sin(\\omega t)+c'\\cos(\\omega t)+y_0\r\n\\end{eqnarray*}\r\noù on a posé $c'=c/\\omega$ et $d'=d/\\omega$. Il s'agit d'un mouvement hélicoïdal.",
+    "lang": "french"
+}

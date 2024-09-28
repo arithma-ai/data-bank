@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in\\mathcal M_n(\\mathbb R)$. Démontrer que la matrice $A^T A$ est diagonalisable et que ses valeurs propres sont des réels positifs.",
+    "hint": "Si $X$ est un vecteur propre, simplifier l'écriture de $X^T A^T A X$.",
+    "solution": "On remarque d'abord que la matrice $A^T A$ est symétrique. Elle est donc diagonalisable à valeurs propres réelles. De plus, si $X$ est un vecteur propre associé à la valeur propre $\\lambda$, alors on a \r\n$$A^T A X=\\lambda X\\implies X^T A^T A X=\\lambda X^T X\\implies (AX)^T AX=\\lambda X^T X\\implies \\|AX\\|^2=\\lambda \\|X\\|^2.$$\r\nAinsi, $\\lambda$, quotient de deux réels positifs, est un réel positif.",
+    "lang": "french"
+}

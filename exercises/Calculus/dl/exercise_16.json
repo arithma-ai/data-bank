@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ la fonction définie sur $\\mtr$ par $\\dis f(x)=\\frac{1}{1+e^x}.$Donner un développement limité de $f$ à l'ordre 3 en zéro.En déduire que la courbe représentative de $f$ admet une tangente au point d'abscisse 0, dont on précisera l'équation.Prouver que la courbe traverse la tangente en 0. Un tel point est appelé point d'inflexion.",
+    "hint": "Pour le 3., utiliser le troisième terme du développement limité",
+    "solution": "Les techniques classiques de calcul montrent que :\r\n$$\\frac{1}{1+e^x}=\\frac{1}{2}-\\frac{1}{4}x+\\frac{1}{48}x^3+x^3\\veps(x).$$Au point d'abscisse 0, on a $f(0)=1/2$, $f$ est dérivable et vérifie $f'(0)=-1/4.$ Le graphe est donc tangent à la droite\r\nd'équation $y=\\frac{1}{2}-\\frac{x}{4}.$Au voisinage de $0$, on a :\r\n$$\\frac{1}{1+e^x}-\\left(\\frac{1}{2}-\\frac{1}{4}x\\right)=\\frac{1}{48}x^3+x^3\\veps(x).$$\r\nSi $x$ est assez petit, cette quantité est positive pour $x>0$, et négative pour $x<0$ : la courbe traverse sa tangente.",
+    "lang": "french"
+}

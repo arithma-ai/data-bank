@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une application de $\\mathbb R$ dans $\\mathbb R$ continue en 0, et vérifiant $f(2x)=f(x)$ pour tout\r\nréel $x$. Montrer que $f$ est constante. Comment généraliser ce résultat si $f$ vérifie $f(ax+b)=f(x)$ pour\r\ndes réels $a$ et $b$ donnés avec $|a|\\neq 1$?",
+    "hint": "Démontrer que $f(x)=f(x/2^n)$.",
+    "solution": "Soit $x\\in\\mathbb R$ et $(x_n)$ la suite définie par $x_n=x/2^n$.\r\nAlors $x_n=2x_{n+1}$, et donc on a $f(x_n)=f(x_{n+1})$. Ainsi, on obtient que\r\npour tout entier $n$, on a $f(x_n)=f(x)$. Or, la suite $(x_n)$ tend vers 0, \r\net $f$ est continue en 0. On en déduit que $f(x_n)\\to f(0)$, et donc que $f(x)=f(0)$.\r\nComme $x$ est arbitraire, $f$ est bien constante égale à $f(0)$.Si $f$ vérifie la relation $f(ax+b)=f(x)$, alors soit $l$ la solution\r\nde $al+b=l$, soit $l=\\frac{b}{1-a}$ (on a $a\\neq 1$). Si $f$ est continue en $l$,\r\nalors $f$ va être constante. En effet, la transformation $x\\mapsto ax+b$ est une \r\nhomothétie de centre $l$ et de rapport $a$. On peut faire le même travail avec cette homothétie\r\nqu'avec l'homothétie $x\\mapsto 2x$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer l'égalité suivante :\r\n$$\\lim_{n\\to+\\infty} n\\int_1^{+\\infty}e^{-x^n}dx=\\int_1^{+\\infty}\\frac{e^{-x}}xdx.$$",
+    "hint": "Faire un changement de variables $t=x^n$ dans la première intégrale, puis appliquer le théorème de convergence dominée.",
+    "solution": "On va appliquer le théorème de convergence dominée, mais après le changement de variables $t=x^n$ dans la première intégrale.\r\nOn a alors \r\n$$n\\int_1^{+\\infty}e^{-x^n}dx=\\int_1^{+\\infty}\\frac{e^{-t}}{t}t^{1/n}dt.$$\r\n\r\nPosons alors, pour $n\\geq 1$ et $t\\geq 1$, $f_n(t)=\\frac{e^{-t}}{t}t^{1/n}$. Il est clair que, pour tout $t\\geq 1$,\r\n$f_n(t)\\to \\frac{e^{-t}}t$. Pour appliquer le théorème de convergence dominée, il faut encore vérifier l'hypothèse de domination.\r\nMais, tout $t\\geq 1$ et $n\\geq 1$, on a $0\\leq\\frac{t^{1/n}}t=\\frac 1{t^{1-\\frac 1n}}\\leq 1.$ Autrement dit, on a prouvé que, pour tout $t\\geq 1$ et tout $n\\geq 1$, on a\r\n$$|f_n(t)|\\leq e^{-t}.$$\r\nOr, la fonction $t\\mapsto e^{-t}$ est intégrable sur $[1,+\\infty[$. Il est donc légitime d'appliquer le théorème de convergence dominée et on trouve\r\n\\[ \\lim_{n\\to+\\infty} f_n(t)dt=\\int_1^{+\\infty}\\frac{e^{-t}}tdt ,\\]\r\nce qui est le résultat voulu.",
+    "lang": "french"
+}

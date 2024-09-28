@@ -1,0 +1,6 @@
+{
+    "script": "Soient $u$,$v$ deux fonctions dérivables sur un intervalle $[a,b]$, dont la dérivée est continue.Démontrer que, pour tout $x\\in[a,b]$, on a\r\n$$u(x)v'(x)=(uv)'(x)-u'(x)v(x).$$En déduire que \r\n$$\\int_a^b u(x)v'(x)dx=u(b)v(b)-u(a)v(a)-\\int_a^b u'(x)v(x)dx.$$",
+    "hint": "Dériver le produit $uv$.Intégrer l'égalité précédente.",
+    "solution": "La formule de dérivation d'un produit nous dit que, pour tout $x\\in[a,b]$, on a\r\n$$(uv)'(x)=u'(x)v(x)+u(x)v'(x).$$\r\nC'est le résultat demandé, en changeant de côté le terme $u'(x)v(x)$.On intègre la relation précédente. Par linéarite de l'intégrale, on obtient le résultat demandé, en particulier puisque \r\n$$\\int_a^b (uv)'(x)dx=u(b)v(b)-u(a)v(a).$$",
+    "lang": "french"
+}

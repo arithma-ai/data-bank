@@ -1,0 +1,6 @@
+{
+    "script": "Pour $n\\in\\mtn$, on considère la propriété suivante :\r\n$$P_n:\\ 2^n>n^2.$$Montrer que l'implication $P_n\\implies P_{n+1}$ est vraie pour $n\\geq 3$.Pour quelles valeurs de $n$ la propriété $P_n$ est vraie?",
+    "hint": "",
+    "solution": "Soit $n\\geq 3$ tel que $P_n$ est vraie. On a alors \r\n$$2^{n+1}=2\\times 2^n\\geq 2n^2.$$\r\nIl suffit donc de montrer que $2n^2\\geq (n+1)^2\\iff n^2-2n-1\\geq 0$.\r\nOn calcule le discriminant de ce dernier polynôme, on fait son tableau\r\nde signes et on s'aperçoit qu'il est toujours positif pour $n\\geq 3$.\r\nCeci montre bien $P_{n+1}$.Il faut faire attention, car $P_3$ est fausse!\r\nOn ne peut donc pas en déduire que $P_n$ est vraie pour $n\\geq 3$.\r\nD'ailleurs, $P_4$ est fausse, mais $P_5$ est vraie. Par le principe de récurrence,\r\n$P_n$ est vraie pour $n\\geq 5$. Pour les premières valeurs de $n$, on constate\r\négalement que $P_0$ et $P_1$ sont vraies.",
+    "lang": "french"
+}

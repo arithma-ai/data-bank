@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$, $a_0,\\dots,a_n,b_0,\\dots,b_n$ des réels et $P$ le polynôme trigonométrique défini par\r\n$$P(x)=\\sum_{k=0}^n\\big(a_k\\cos(kx)+b_k\\sin(kx)\\big).$$\r\nDémontrer que $P$ admet au plus $2n$ racines dans $[0,2\\pi[$.",
+    "hint": "Utiliser les formules d'Euler et introduire une fraction rationnelle.",
+    "solution": "D'après les formules d'Euler, on a\r\n\\begin{align*}\r\nP(x)&=\\sum_{k=0}^n\\left( \\frac{a_k}2(e^{ikx}+e^{-ikx})+\\frac{b_k}{2i}(e^{ikx}-e^{-ikx})\\right)\\\\\r\n&=\\sum_{k=0}^n\\left( \\frac{a_k}2\\left((e^{ix})^k+\\frac 1{(e^{ix})^k}\\right)+\\frac{b_k}{2i}\\left((e^{ix})^k-\\frac 1{(e^{ix})^k}\\right)\\right).\r\n\\end{align*}\r\nCeci incite à considérer la fraction rationnelle\r\n$$R(X)=\\sum_{k=0}^n\\left( \\frac{a_k}2\\left(X^k+\\frac 1{X^k}\\right)+\\frac{b_k}{2i}\\left(X^k-\\frac 1{X^k}\\right)\\right)$$\r\nde sorte que\r\n$$P(x)=R(e^{ix}).$$\r\n$R$ peut s'écrire $R=A/B$ où $\\deg(A)\\leq 2n$. Ainsi, $R$ admet au plus $2n$ racines. L'application $[0;2\\pi[\\to \\mathbb C$, $x\\mapsto e^{ix}$ étant injective,\r\ndes racines distinctes de $P$ dans  $[0;2\\pi[$ donnent des racines distinctes de $P$. Donc $P$ admet au plus $2n$ racines dans $[0,2\\pi[$.",
+    "lang": "french"
+}

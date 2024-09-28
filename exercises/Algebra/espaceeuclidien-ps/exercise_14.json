@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E=\\mathcal C([a,b],\\mathbb R_+^*)$. Déterminer $\\inf_{f\\in E}\\left(\\int_a^b f\\times \\int_a^b \\frac 1f\\right)$. Cette borne inférieure est-elle atteinte?",
+    "hint": "Appliquer l'inégalité de Cauchy-Schwarz au produit $\\sqrt f\\times\\frac 1{\\sqrt f}$.",
+    "solution": "Utilisons le produit scalaire canonique sur $F=\\mathcal C([a,b],\\mathbb R)$ défini par \r\n$$\\langle f,g\\rangle=\\int_a^b fg.$$\r\nD'après l'inégalité de Cauchy-Schwarz pour ce produit scalaire avec le produit $\\sqrt f\\times\\frac 1{\\sqrt f}$. On obtient\r\n$$b-a=\\int_a^b \\sqrt f\\times \\frac 1{\\sqrt f}\\leq \\left(\\int_a^b f\\right)^{1/2}\\times \\left(\\int_a^b \\frac 1f\\right)^{1/2}.$$\r\nPrenant le carré, on trouve que, pour tout $f\\in E$, \r\n$$(b-a)^{2}\\leq \\int_a^b f\\times\\int_a^b \\frac 1f.$$\r\nDe plus, pour $f=1$, qui est élément de $E$, on a clairement égalité. Ainsi, la borne inférieure recherchée vaut $(b-a)^2$ et est atteinte par la fonction identiquement égale à 1 (plus généralement, par les fonctions constantes).",
+    "lang": "french"
+}

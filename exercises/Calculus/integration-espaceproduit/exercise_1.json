@@ -1,0 +1,6 @@
+{
+    "script": "En calculant de deux façons différentes $\\int_K e^{-xy}dxdy$ où $K=[0,+\\infty[\\times [a,b]$ avec $0<a<b$, calculer $\\displaystyle \\int_0^{+\\infty}\\frac{e^{-ax}-e^{-bx}}xdx$.",
+    "hint": "Appliquer le théorème de Tonelli.",
+    "solution": "La fonction $(x,y)\\mapsto e^{-xy}$ étant mesurable et positive, on peut calculer son intégrale (éventuellement infinie) en calculant l'intégrale dans le sens où on le souhaite. On a d'une part \r\n$$\\int_K e^{-xy}dxdy=\\int_0^{+\\infty}\\int_a^b e^{-xy}dydx=\\int_0^{+\\infty}\\frac{e^{-ax}-e^{-bx}}xdx$$\r\net d'autre part\r\n$$\\int_K e^{-xy}dxdy=\\int_a^b\\int_0^{+\\infty}e^{-xy}dxdy=\\int_a^b \\frac1ydy=\\ln\\left(\\frac ba\\right).$$\r\nL'intégrale recherchée vaut donc $\\ln(b/a)$.",
+    "lang": "french"
+}

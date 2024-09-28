@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:X\\to Y$. Montrer que les conditions suivantes sont équivalentes :$f$ est injective.Pour toutes parties $A,B$ de $X$, on a $f(A\\cap B)=f(A)\\cap f(B)$.",
+    "hint": "Pour l'implication $2\\implies 1$, choisir $A=\\{a\\}$ et $B=\\{b\\}$.",
+    "solution": "$1\\implies 2$ : D'abord, une inclusion est toujours vérifiée : prenons en effet $y\\in f(A\\cap B)$. Alors\r\nil existe $x\\in A\\cap B$ tel que $y=f(x)$. Mais alors, $y\\in f(A)$ puisque $y=f(x)$ avec $x\\in A$. De même,\r\n$y\\in f(B)$. On en déduit que $y\\in f(A)\\cap f(B)$. Réciproquement, \r\nsi $y\\in f(A)\\cap f(B)$, alors il existe $a\\in A$ tel que $y=f(a)$ et $b\\in B$ tel que $y=f(b)$. Mais puisque\r\n$f$ est injective et que $f(a)=f(b)$, on a $a=b$, et donc $a\\in A\\cap B$. On en déduit que $y\\in f(A\\cap B)$.$2\\implies 1$ : Soient $a$ et $b$ tels que $f(a)=f(b)=y$. Prenons $A=\\{a\\}$ et $B=\\{b\\}$. Remarquons que \r\n$f(A)=f(B)=\\{y\\}$. Alors, on a $f(A\\cap B)=\\{y\\}$. En particulier, $A\\cap B\\neq \\varnothing$, et donc $a=b$.",
+    "lang": "french"
+}

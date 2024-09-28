@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 2$ et $A\\in\\mathcal M_n(\\mathbb K)$ de rang $1.$ Démontrer que $A$ est diagonalisable\r\nsi et seulement si $\\textrm{Tr}(A)\\neq 0.$",
+    "hint": "Quel est l'ordre de la valeur propre nulle? Quel est le polynôme caractéristique de $A$?",
+    "solution": "Remarquons que, par le théorème du rang, $\\dim(\\ker(A))=n-1$ et donc que $0$ est valeur propre de $A$ avec $\\dim(E(0))=n-1.$ Soit $\\chi_A(X)$ le polynôme caractéristique de $A.$ Alors $0$ est racine de $\\chi_A$ de multiplicité au moins $n-1$ et donc $\\chi_A$ se factorise en $\\chi_A(X)=X^{n-1}(X-c)$ avec $c\\in\\mathbb K.$ Puisque d'autre part $\\chi_A(X)=X^n-\\textrm{Tr}(A)X^{n-1}+\\dots,$\r\non en déduit que $\\textrm{Tr}(A)=c$. On a alors :si $c\\neq 0,$ alors $c$ est une valeur propre de $A$ et $\\dim(E(c))= 1.$ Puisque $\\dim(E(0))=n-1,$ la somme des dimensions des sous-espaces propres est égale à $n,$ et $A$ est diagonalisable.si $c=0,$ alors la seule valeur propre de $A$ est $0,$ et comme $\\dim(E(0))=n-1<n,$ $A$ n'est pas diagonalisable.",
+    "lang": "french"
+}

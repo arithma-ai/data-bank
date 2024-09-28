@@ -1,0 +1,6 @@
+{
+    "script": "Calculer le déterminant de la matrice $(i^j)_{1\\leq i\\leq n,1\\leq j\\leq n}$.",
+    "hint": "Faire apparaitre un déterminant de Vandermonde!",
+    "solution": "On met $i$ en facteur dans chaque ligne de la matrice. On voit alors apparaitre le déterminant de Vandermonde $V(1,2,\\dots,n)$. Le déterminant recherché vaut donc :\r\n\\begin{eqnarray*}\r\nD&=&n!\\prod_{1\\leq i< j\\leq n  }(j-i)\\\\\r\n&=&n!\\prod_{1< j\\leq n}\\prod_{1\\leq i<j}(j-i)\\\\\r\n&=&n!\\prod_{1<j\\leq n}(j-1)!\\\\\r\n&=&1!2!\\dots n!\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ une fonction bornée et dérivable telle que $\\lim_{+\\infty}f'=l$.\r\nMontrer que $l=0$.",
+    "hint": "Supposer $l>0$ et prendre un voisinage de $+\\infty$ tel que $f'(x)\\geq l/2$.\r\nAppliquer ensuite l'inégalité des accroissements finis.",
+    "solution": "Supposons que $l\\neq 0$. Sans perte de généralité, on peut supposer $l>0$. Il existe alors\r\nun réel $A>0$ tel que, pour tout $x\\geq A$, on a \r\n$$f'(x)\\geq l/2$$\r\n(on applique la définition de la limite avec $\\veps=l/2$). Mais alors, pour tout $x\\geq A$, d'après le théorème des accroissements finis,\r\non a\r\n$$f(x)-f(A)=f'(c)(x-A)\\geq\\frac{l(x-A)}{2}$$\r\noù $c\\in[A,x]$. Faisant tendre $x$ vers $+\\infty$, on trouve que $f$ tend vers $+\\infty$ également ce qui est une contradiction.",
+    "lang": "french"
+}

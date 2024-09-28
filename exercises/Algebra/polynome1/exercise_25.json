@@ -1,0 +1,6 @@
+{
+    "script": "On considère les deux polynômes suivants :\r\n$$P(X)=X^3-9X^2+26X-24\\textrm{ et }Q(X)=X^3-7X^2+7X+15.$$\r\nDécomposer ces deux polynômes en produits d'irréductibles de $\\mathbb R[X]$, sachant qu'ils ont une racine commune.",
+    "hint": "Chercher le pgcd de $P$ et $Q$.",
+    "solution": "Si $a$ est une racine commune de $P$ et $Q$, alors $X-a$ divise le pgcd de $P$ et de $Q$. \r\nOn commence donc par chercher ce pgcd, par exemple en appliquant l'algorithme d'Euclide.\r\nIci, on a \r\n\\begin{eqnarray*}\r\nX^3-9X^2+26X-24&=&X^3-7X^2+7X+15+(-2X^2+19X-39)\\\\\r\nX^3-7X^2+7X+15&=&(-2X^2+19X-39)(-X/2-5/4)+(45X/4-135/4)\\\\\r\n-2X^2+19X-39&=&(45X/4-135/4)(-8X/45+52/45)\r\n\\end{eqnarray*}\r\nLe pgcd de $P$ et $Q$ est donc $45X/4-135/4$, ou encore $X-3$. \r\nOn divise alors $P$ et $Q$ par $X-3$, et on trouve :\r\n$$P(X)=(X-3)(X^2-6X+8)\\textrm{ et }Q(X)=(X-3)(X^2-4X-5).$$\r\nOn factorise encore chacun des polynômes de degré 2 pour trouver finalement :\r\n$$P(X)=(X-3)(X-2)(X-4)\\textrm{ et }Q(X)=(X+1)(X-3)(X-5).$$\r\nOn aurait aussi pu factoriser ces polynômes en cherchant des racines évidentes de chacun...",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "On considère un ensemble $X$ de $n+1$ entiers (distincts) choisis dans $\\{1,\\dots,2n\\}$. Démontrer que parmi les éléments de $X$, on peut toujours trouver $2$ entiers dont la somme fait $2n+1$.",
+    "hint": "Considérer les $n$ paires d'entiers \"complémentaires\" $\\{1,2n\\}$, $\\{2,2n-1\\}$, ...",
+    "solution": "Considérons les paires d'entiers dont la somme fait $2n+1$ : ce sont $\\{1,2n\\}$, $\\{2,2n-1\\}$, $\\{3,2n-2\\},\\dots,\\{n,n+1\\}$. On a donc défini ici $n$ paires d'entiers, et chaque entier entre $1$ et $2n$ est contenu dans une seule paire. Tous les entiers de $X$ ne peuvent pas être dans des paires différentes, puisque $X$ contient $n+1$ éléments. Donc il existe deux éléments de $X$ dans la même paire, et leur somme fait $2n+1$.",
+    "lang": "french"
+}

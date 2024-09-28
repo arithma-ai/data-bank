@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\varphi\\in\\mathcal D(\\mathbb R)$ non identiquement nulle. Pour tout $n\\geq 1$ et tout $x\\in\\mathbb R$, on pose $\\varphi_n(x)=\\frac 1n\\varphi(nx)$. Étudier la convergence de la suite $(\\varphi_n)$ dans $\\mathcal D(\\mathbb R)$.",
+    "hint": "Il y a un problème avec la convergence uniforme de la dérivée!",
+    "solution": "Remarquons d'abord que clairement la suite $(\\varphi_n)$ converge simplement vers $0$. Si on prouve que la suite $(\\varphi_n)$ converge dans $\\mathcal D(\\mathbb R)$, ce ne peut être que vers la fonction nulle. On remarque aussi que si $\\varphi$ a son support dans $[-A,A]$, alors $\\varphi_n$ a son support dans $[-A/n,A/n]\\subset [-A,A]$ : toutes les fonctions $\\varphi_n$ ont leur support contenu dans le même compact $[-A,A]$.Reste à voir si les suites $(\\varphi_n^{(k)})$ convergent uniformément vers $0$ sur $[-A,A]$. Il y a un problème dès la première dérivée. En effet, \r\n$$\\varphi_n'(x)=\\varphi'(nx)\\implies \\|\\varphi_n'\\|_\\infty=\\|\\varphi'\\|_\\infty$$\r\net ceci ne tend pas vers zéro lorsque $n$ tend vers l'infini.",
+    "lang": "french"
+}

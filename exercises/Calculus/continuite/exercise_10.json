@@ -1,0 +1,6 @@
+{
+    "script": "Soit $I$ un intervalle, $k>0$ et $f:I\\to\\mathbb R$ vérifiant :\r\n$$\\forall (x,y)\\in I^2,\\ |f(x)-f(y)|\\leq k|x-y|.$$\r\nDémontrer que $f$ est continue sur $I$.",
+    "hint": "Revenir à la définition. Si on a fixé $x_0$ et $\\veps>0$, le réel $\\eta=\\veps/k$ pourrait être d'un grand secours...",
+    "solution": "On va prouver la continuité de $f$ en revenant à la définition. Soit $x_0\\in I$ et $\\veps>0$. Posons $\\eta=\\veps/k$ et soit $x\\in I$ tel que $|x-x_0|\\leq \\eta.$\r\nAlors \r\n$$|f(x)-f(x_0)|\\leq k |x-x_0|\\leq k\\eta=\\veps.$$\r\nC'est bien que $f$ est continue en $x_0$. Remarquons que $\\eta$ ne dépend pas de $x_0$. En réalité, on a démontré un petit peu plus que la continuité de $f$ sur $I$ : on a démontré sa continuité uniforme.",
+    "lang": "french"
+}

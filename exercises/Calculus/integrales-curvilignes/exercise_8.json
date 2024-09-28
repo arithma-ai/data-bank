@@ -1,0 +1,6 @@
+{
+    "script": "Calculer l'intégrale curviligne $\\omega=(y+z)dx+(z+x)dy+(x+y)dz$ le long du cercle $(C)$ de l'espace :\r\n$$\\left\\{\r\n\\begin{array}{l}\r\nx^2+y^2+z^2=1\\\\\r\nx+y+z=0\\\\\r\n\\end{array}\\right.$$",
+    "hint": "Montrer que $\\omega$ est exacte en recherchant une de ses primitives. Utiliser ensuite que $(C)$ est une courbe fermée.",
+    "solution": "On peut bien sûr paramétrer et tout et tout... mais c'est un peu compliqué. Il est en fait plus facile de constater que $\\omega$ est exacte : pour cela, on peut en rechercher une primitive, et l'on trouve $f(x,y,z)=(xy+xz+yz)$ (on peut également utiliser un théorème de Poincaré dans l'espace, à l'aide du rotationnel). Maintenant, $(C)$ est une courbe fermée, et donc l'intégrale curviligne de la forme différentielle $\\omega$ le long de ce cercle est nulle.",
+    "lang": "french"
+}

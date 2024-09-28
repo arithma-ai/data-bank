@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[a,b]\\to\\mathbb R$ continue telle que $|f(x)|\\leq 1$ pour tout $x\\in[a,b]$\r\net $\\int_a^b f(x)dx=b-a$. Que dire de $f$?",
+    "hint": "$f=1$",
+    "solution": "On remarque que $b-a=\\int_a^b 1dx$, et donc que \r\n$$\\int_a^b \\big(1-f(x)\\big)dx=0$$\r\nalors que $x\\mapsto 1-f(x)$ est une fonction continue sur $[a,b]$ et positive. C'est donc que $1-f$ est la fonction\r\nnulle, ou encore que $f=1$.",
+    "lang": "french"
+}

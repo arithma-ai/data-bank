@@ -1,0 +1,6 @@
+{
+    "script": "Soient $f$ et $g$ deux fonctions continues sur $\\mathbb R$ telles que, pour tout $x\\in[0,1]$, on a $f(x)=\\int_0^x g(t)dt$ et $g(x)=\\int_0^x f(t)dt$. On pose $u=f-g$.Démontrer que $u'=-u$ et que $u(0)=0$.En déduire que $f=g=0$.",
+    "hint": "Appliquer le théorème fondamental du calcul intégral.Commencer par démontrer que $u=0$, puis que $f'=f$...",
+    "solution": "Par linéarité de l'intégrale, on a pour tout $x\\in\\mathbb R$, \r\n\\[ u(x)=\\int_0^x \\big (g(t)-f(t)\\big)dt=\\int_0^x u(t)dt. \\]\r\nOn en déduit que $u(0)=0$ et, en utilisant le théorème fondamental du calcul intégral, que $u$ est de classe $\\mathcal C^1$ avec, pour tout $x>0$, $u'(x)=-u(x)$.Ainsi, on sait qu'il existe $\\lambda\\in\\mathbb R$ de sorte que $u(x)=\\lambda e^{-x}$. La condition $u(0)=0$ garantit que $u=0$ et donc que $f=g$. Mais alors, on a $f(x)=\\int_0^x f(t)dt$. On peut appliquer (presque) le même raisonnement à $f $ : $f$ est de classe $C^1$, on a $f'(x)=f(x)$ pour tout $x\\in\\mathbb R$ et donc il existe $\\mu\\in\\mathbb R$ tel que $f(x)=\\mu e^x$ pour tout $x\\in\\mathbb R$. Puisque $f(0)=0$, on a $f=0$.",
+    "lang": "french"
+}

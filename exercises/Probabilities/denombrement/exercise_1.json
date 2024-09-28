@@ -1,0 +1,6 @@
+{
+    "script": "A leur entrée en L1, les étudiants choisissent une langue (anglais ou allemand) et une option (informatique, chimie ou astronomie).\r\nDans un groupe d'étudiants, 12 étudiants sont inscrits en astronomie, 15 en chimie, 16 étudient l'allemand. Par ailleurs, 8 inscrits en astronomie et 3 inscrits en informatique étudient l'anglais,  6 inscrits en chimie étudient l'allemand.Indiquer la répartition des étudiants par discipline, ainsi que le nombre total d'étudiants dans le groupe.",
+    "hint": "Réaliser un tableau à double entrée.",
+    "solution": "Ce genre d'exercices se traite très facilement en utilisant un tableau à double entrée dans lequel on inscrit les informations\r\nà notre disposition :On complète alors le tableau de proche en proche de sorte d'obtenir les bons totaux sur chaque ligne et chaque colonne. Par exemple, sur la première ligne de la colonne \"Chimie\", on peut facilement inscrire le chiffre 9. On obtient donc",
+    "lang": "french"
+}

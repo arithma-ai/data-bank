@@ -1,0 +1,6 @@
+{
+    "script": "Calculer l'aire du domaine plan délimité par l'axe $(Oy)$ et l'arc paramétré $x=a(t-\\sin t)$ et $y=a(1-\\cos t)$, pour $t\\in[0,2\\pi]$.",
+    "hint": "",
+    "solution": "Soit $\\gamma$ le bord du compact. Alors, par la formule de Green-Riemann, on sait que, au signe près :\r\n$$A=\\int_\\gamma xdy=-\\int_\\gamma ydx=\\frac{1}{2}\\int_\\gamma (xdy-ydx).$$\r\nChoisissons par exemple la deuxième forme. L'intégrale sur l'axe $(Oy)$ de $ydx$ est nulle, il suffit de choisir le paramétrage $x(t)=0$ et $y(t)=t$. Il reste :\r\n\\begin{eqnarray*}\r\nA&=&\\int_0^{2\\pi}a(1-\\cos t)\\times a(1-\\cos t)dt\\\\\r\n&=&a^2\\int_0^{2\\pi}1-2\\cos t+\\cos^2tdt\\\\\r\n&=&a^2\\int_0^{2\\pi}\\frac{3}{2}-2\\cos t+\\frac{\\cos 2t}{2}dt\\\\\r\n&=&3\\pi a^2\\textrm{ unités d'aire.}\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

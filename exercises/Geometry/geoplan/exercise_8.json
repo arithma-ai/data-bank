@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\mathcal C$ le cercle de centre $I(a,b)$ et de rayon $R$. Donner une condition nécessaire\r\net suffisante sur $(u,v,w)\\in\\mathbb R^3$ pour que la droite d'équation $ux+vy+w=0$ soit tangente à $\\mathcal C$.",
+    "hint": "Raisonner en terme de distance.",
+    "solution": "Notons $(D)$ cette droite. Elle est tangente au cercle si et seulement si la distance de $I$ à $(D)$\r\nvaut $R$. Utilisant les formules du cours, c'est vrai si et seulement si \r\n$$|au+bv+w|=R\\sqrt {u^2+v^2}.$$",
+    "lang": "french"
+}

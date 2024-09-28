@@ -1,0 +1,6 @@
+{
+    "script": "Est-il vrai que si $u\\sim_a v$, alors $u$ et $v$ ont le même signe au voisinage de $a$?",
+    "hint": "",
+    "solution": "Oui! On écrit $u=hv$ avec $h$ qui tend vers 1 en $a$. Ainsi, $h$ est positive au voisinage de $a$,\r\net donc $u$ et $v$ ont même signe dans ce voisinage de $a$.",
+    "lang": "french"
+}

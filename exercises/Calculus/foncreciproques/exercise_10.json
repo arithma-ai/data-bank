@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ la fonction définie par $2\\arcsin x+\\arcsin f(x)=\\frac{\\pi}6$. \r\nDonner l'ensemble de définition de $f$. Prouver qu'elle admet une fonction réciproque dont on donnera l'ensemble de\r\ndéfinition.",
+    "hint": "",
+    "solution": "Pour qu'il existe $y$ (nécessairement unique) tel que $\\arcsin y=\\frac{\\pi}6-2\\arcsin x$, il est nécessaire\r\net suffisant que \r\n$$-\\frac\\pi 2\\leq\\frac\\pi 6-2\\arcsin x\\leq \\frac\\pi 2\\textrm{ soit }\\frac{-\\pi}6\\leq\\arcsin x\\leq\\frac{\\pi}3.$$\r\nPassant au sinus, on en déduit que le domaine de définition de $f$ est\r\n$\\mathcal D_f=[-1/2,\\sqrt 3/2]$.De plus, pour tout $x\\in\\mathcal D_f$, on a $f(x)=\\sin\\left(\\frac\\pi 6-2\\arcsin x\\right)$. \r\nLa fonction $\\arcsin$ est croissante, donc la fonction $x\\mapsto \\frac\\pi6-2\\arcsin x$ \r\nest strictement décroissante sur $\\mathcal D_f$ et prend ses valeurs dans $[-\\pi/2,\\pi/2]$. Or, sur cet intervalle, \r\nla fonction sinus est strictement croissante. Il en résulte que $f$ est strictement décroissante sur $\\mathcal D_f$.\r\nDe plus, $f$ est continue comme composée de fonctions continues. $f$ réalise donc une bijection de\r\n$\\mathcal D_f$ sur $[f(\\sqrt 3/2),f(-1/2)]=[-1,1]$. $f$ admet donc une fonction réciproque qui est définie\r\nsur $[-1,1]$.",
+    "lang": "french"
+}

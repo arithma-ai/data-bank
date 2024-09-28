@@ -1,0 +1,6 @@
+{
+    "script": "On souhaite ranger sur une étagère 4 livres de mathématiques (distincts), 6 livres de physique, et 3 de chimie. De combien de façons peut-on effectuer ce rangement :si les livres doivent être groupés par matières.si seuls les livres de mathématiques doivent être groupés.",
+    "hint": "Choisir l'ordre des groupes, puis l'ordre des livres à l'intérieur de chacun des groupes.Choisir la position du groupe des livres de mathématiques, puis ranger les livres de mathématiques d'un côté, le reste des livres de l'autre.",
+    "solution": "Il y a 3! façons de choisir l'ordre des matières. Une telle façon choisie, il y a 4! façons de ranger les livres de mathématiques, 6! façons de ranger les livres de physique, et 3! façons de ranger les livres de chimie. Le nombre de rangements possible est donc : $3!4!6!3!$.Il peut y avoir 0,1,...,9 livres placés avant les livres de mathématiques. Il y a donc 10 choix du nombre de livres placés avant le livre de mathématiques. Ce choix fait, il y a 4! façons d'ordonner les livres de mathématiques, et 9! façons d'ordonner les autres : il y a donc en tout $10\\times 4!9!$ rangements différents.",
+    "lang": "french"
+}

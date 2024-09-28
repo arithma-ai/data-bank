@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que le triangle de sommets $M_1(z_1)$, $M_2(z_2)$ et $M_3(z_3)$ est équilatéral si et seulement si \r\n$$z_1^2+z_2^2+z_3^2=z_1z_2+z_1z_3+z_2z_3.$$",
+    "hint": "Caractériser le fait d'être un triangle équilatéral par une rotation d'angle $\\pm \\pi/3$.",
+    "solution": "Le triangle est équilatéral si et seulement si \r\n$$z_3-z_1=e^{i\\pi/3}(z_2-z_1)\\textrm{ ou }z_3-z_1=e^{-i\\pi/3}(z_2-z_1),$$\r\nc'est-à-dire si et seulement si \r\n$$z_3-(1-e^{i\\pi/3})z_1-e^{i\\pi/3}z_2=0\\textrm{ ou }z_3-(1-e^{-i\\pi/3})z_1-e^{-i\\pi/3}z_2=0.$$\r\nCeci est encore équivalent à dire que le produit de ces deux quantités est nul, c'est-à-dire à \r\n$$(z_3-(1-e^{i\\pi/3})z_1-e^{i\\pi/3}z_2)(z_3-(1-e^{-i\\pi/3})z_1-e^{-i\\pi/3}z_2)=0.$$\r\nEn développant ce produit, on trouve exactement la condition demandée.",
+    "lang": "french"
+}

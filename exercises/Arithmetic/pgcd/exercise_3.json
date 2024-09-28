@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a,b\\geq 2$ deux entiers premiers entre eux. Démontrer que $\\ln(a)/\\ln(b)$ est irrationnel.",
+    "hint": "Procéder par l'absurde.",
+    "solution": "Supposons que $\\ln(a)/\\ln(b)$ est rationnel et soit $p,q\\geq 1$ avec $p\\wedge q=1$ tel que $\\frac{\\ln(a)}{\\ln(b)}=\\frac pq$. Ceci entraîne que $\\ln(a^q)=\\ln(b^p)$ et donc, par injectivité de la fonction $\\ln$, que $a^q=b^p$. \r\nAinsi, $a|b^p$. Mais ceci contredit que $a\\wedge b=1$.",
+    "lang": "french"
+}

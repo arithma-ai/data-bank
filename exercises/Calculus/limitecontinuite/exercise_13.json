@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que les fonctions suivantes n'ont pas de limites :$x\\mapsto \\sin(1/x)$ en $0$;$x\\mapsto \\sin(\\cos(x))$ en $+\\infty$.",
+    "hint": "Pour la première question, trouver deux suites $(u_n)$ et $(v_n)$ qui tendent vers $0$ et telles que $\\sin(1/u_n)$ et $\\sin(1/v_n)$ convergent vers des limites différentes.",
+    "solution": "On va procéder par l'absurde. Supposons que $x\\mapsto \\sin(1/x)$ admette une limite égale à $\\ell$ en $0$. Alors pour toute suite $(u_n)$ qui converge vers $0$, on doit avoir $\\sin(1/u_n)$ qui converge vers $\\ell$.Appliquons ceci avec la suite $u_n=1/n\\pi$. Alors $\\sin(1/u_n)=\\sin(n\\pi)=0$ et donc $\\ell=0$.Appliquons ceci avec la suite $u_n=1/(2n\\pi+\\pi/2)$. Alors $\\sin(1/u_n)=\\sin(2n\\pi+\\pi/2)=1$ et donc $\\ell=1$.Il y a manifestement une contradiction, et la fonction n'admet pas de limite en $0$.On procède de la même façon, en considérant cette fois la suite $(u_n)=(2n\\pi)$ pour laquelle $\\sin(\\cos(2n\\pi))=\\sin(1)$ et à la suite $(u_n)=(2n\\pi+\\pi/2)$ pour laquelle $\\sin(\\cos(2n\\pi+\\pi/2))=\\sin(0)$. Si la fonction $x\\mapsto\\sin(\\cos(x))$ devait admettre une limite $\\ell$, celle-ci devrait être égale à la fois à $\\sin(0)$ et à $\\sin(1)$, et $\\sin(0)\\neq\\sin(1).$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Écrire, à l'aide de quantificateurs, la proposition suivante : $f$ ne tend pas vers $+\\infty$ en $+\\infty$.Soit $f:\\mathbb R\\to\\mathbb R$. On suppose que $f$ admet une limite $\\ell$ en $+\\infty$, avec $\\ell>0$. Démontrer qu'il existe un réel $A>0$ tel que, pour tout $x\\geq A$, $f(x)>0$.",
+    "hint": "Appliquer la définition avec $\\veps=\\ell/2$.",
+    "solution": "$\\exists M>0,\\ \\forall A>0,\\ \\exists x\\geq A,\\ f(x)\\leq M$.On va appliquer la définition de limite avec $\\veps=\\ell/2$. Il existe donc $A>0$ tel que, pour tout $x\\geq A$, on a\r\n$$|f(x)-\\ell |\\leq \\frac{\\ell}2.$$\r\nOn en déduit que \r\n$$-\\frac{\\ell}2\\leq f(x)-\\ell\\leq \\frac{\\ell}2$$\r\nce qui implique \r\n$$f(x)\\geq\\frac{\\ell}2>0.$$",
+    "lang": "french"
+}

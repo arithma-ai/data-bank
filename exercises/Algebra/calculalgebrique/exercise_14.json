@@ -1,0 +1,6 @@
+{
+    "script": "Calculer les somme suivantes :$A_n=\\sum_{k=1}^n 3$.$B_n=\\sum_{k=1}^n A_k$.$S_n=\\sum_{k=0}^{n}(2k+1)$.",
+    "hint": "On somme des termes constants.Utiliser la linéarité.Utiliser la linéarité.",
+    "solution": "On somme des termes constants, et il y a $n$ termes dans la somme, donc \r\n$A_n=3n$.Par linéarité, \r\n\\[ B_n = 3\\sum_{k=1}^n k=\\frac{3n(n+1)}2. \\]On raisonne également par linéarité : \r\n\\begin{align*}\r\nS_n&=2\\sum_{k=0}^n k+\\sum_{k=0}^n 1\\\\\r\n&=n(n+1)+(n+1)\\\\\r\n&=(n+1)^2.\r\n\\end{align*}",
+    "lang": "french"
+}

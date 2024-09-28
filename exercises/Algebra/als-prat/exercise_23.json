@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E=\\mathbb C[X]$, $p$ un entier naturel et $f$ l'application de $E$ dans $E$ définie par\r\n$f(P)=(1-pX)P+X^2P'$. $f$ est-elle injective? surjective?",
+    "hint": "$f$ étant linéaire, il suffit de calculer son noyau et son image. On peut notamment \r\nprouver que $\\textrm{Im}(f)$ ne contient pas de polynôme de degré $p+1$.",
+    "solution": "Il est facile de vérifier que $f$ est linéaire. Pour savoir si elle est injective,\r\non calcule son noyau. Soit $P=\\sum_{i=0}^n a_iX^i$ un polynôme.\r\nAlors \r\n$$f(P)=\\sum_{i=0}^n a_iX^i-p\\sum_{i=0}^n a_i X^{i+1}+\\sum_{i=1}^n i a_i X^{i+1}$$\r\nsoit, après un changement d'indice\r\n$$f(P)=a_0 +\\sum_{i=1}^n (a_i-(p+1-i)a_{i-1})X^i +(n-p)a_n X^{n+1}.$$\r\nSi $f(P)=0$, on obtient donc $a_0=0$ et $a_i=(p+1-i)a_{i-1}$ pour $1\\leq i\\leq n$\r\nce qui entraine $a_i=0$ pour tout $i=0,\\dots,n$. Ainsi, $P=0$,\r\nle noyau de $f$ est réduit à $\\{0\\}$ et $f$ est injective.D'autre part, si $P$ est un polynôme de degré $n$, alors le\r\ncalcul précédent montre quepour $n=p$, le degré de $f(P)$ est inférieur ou égal à $n$, et\r\ndonc différent de $p+1$;pour $n\\neq p$, alors $f(P)$ est de degré $n+1\\neq p+1$.Ainsi, $\\textrm{Im}(f)$ ne contient pas de polynômes de degré $p+1$. Donc $f$ n'est pas\r\nsurjective.",
+    "lang": "french"
+}

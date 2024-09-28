@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A$ un anneau intègre commutatif fini. Démontrer que $A$ est un corps.",
+    "hint": "Prendre $a\\in A$ non nul et considérer $x\\mapsto ax$.",
+    "solution": "Fixons $a\\in A$ non nul et considérons le morphisme de groupes $(A,+)\\to (A,+),\\ x\\mapsto ax$. Alors ce morphisme de groupes est injectif, car son noyau est réduit à $\\{0_A\\}$ puisque $A$ est intègre. Puisque $A$ est fini, ce morphisme est nécessairement bijectif, et donc il existe $x\\in A$ tel que $ax=1_A$. Par commutativité de $A$, on a aussi $xa=1_A$ et donc $a$ admet un inverse : $A$ est un corps.Remarquons que l'on peut se passer de l'hypothèse que $A$ est commutatif, par exemple en faisant le même raisonnement avec $x\\mapsto xa$, et en prouvant que l'inverse à droite et l'inverse à gauche coïncident.",
+    "lang": "french"
+}

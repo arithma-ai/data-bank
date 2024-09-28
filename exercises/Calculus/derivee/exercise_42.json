@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer la dérivée d'ordre $n$ de la fonction $f$ définie par $f(x)=(x-a)^n (x-b)^n$\r\n($a,b$ sont des réels). En étudiant le cas $a=b$, trouver la valeur de $\\sum_{k=0}^n \\binom{n}{k}^2$.",
+    "hint": "Utiliser la formule de Leibniz. Calculer d'abord $g^{(p)}(x)$ pour $g(x)=(x-a)^n$.\r\nDans le cas où $a=b$, dériver directement $f(x)=(x-a)^{2n}$.",
+    "solution": "On écrit $f(x)=g(x)h(x)$ avec $g(x)=(x-a)^n$ et $h(x)=(x-b)^n$. On va appliquer la formule de Leibniz.\r\nPour cela, on remarque que, pour $0\\leq p\\leq n$, on a :\r\n$$g^{(p)}(x)=n(n-1)\\dots(n-p+1)(x-a)^{n-p}=\\frac{n!}{(n-p)!}(x-a)^{n-p},$$\r\n$$h^{(p)}(x)=\\frac{n!}{(n-p)!}(x-b)^{n-p}.$$\r\nLa formule de Leibniz donne\r\n\\begin{eqnarray*}\r\nf^{(n)}(x)&=&\\sum_{k=0}^n\\binom{n}{k}g^{(k)}(x)h^{(n-k)}(x)\\\\\r\n&=&\\sum_{k=0}^n \\binom{n}{k}\\frac{n!}{(n-k)!}\\frac{n!}{k!}(x-a)^{n-k}(x-b)^k\\\\\r\n&=&n! \\sum_{k=0}^n \\binom{n}{k}^2(x-a)^{n-k}(x-b)^k.\r\n\\end{eqnarray*}\r\nDans le cas où $a=b$, la formule devient\r\n$$f^{(n)}(x)=n! \\sum_{k=0}^n\\binom{n}{k}^2 (x-a)^n.$$\r\nD'autre part, on a $f(x)=(x-a)^{2n}$ et on peut dériver directement cela :\r\n$$f^{(n)}(x)=\\frac{(2n)!}{n!}(x-a)^n=n!\\binom{2n}{n}(x-a)^n.$$\r\nEn identifiant, on trouve \r\n$$\\sum_{k=0}^n\\binom{n}{k}^2=\\binom{2n}{n}.$$",
+    "lang": "french"
+}

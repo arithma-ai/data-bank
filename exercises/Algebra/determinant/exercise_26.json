@@ -1,0 +1,6 @@
+{
+    "script": "Soit $M\\in \\mathcal M_n(\\mathbb Z)$. Donner une condition nécessaire et suffisante pour\r\nque $M$ soit inversible et que $M^{-1}$ soit dans $\\mathcal M_n(\\mathbb Z)$.",
+    "hint": "Montrer que c'est équivalent à dire que $\\det(M)=\\pm 1$.",
+    "solution": "Trouvons d'abord une condition nécessaire. \r\nPuisque $M\\in \\mathcal M_n(\\mathbb Z)$, $\\det(M)\\in \\mathbb Z$. D'autre part,\r\nsi $M^{-1}\\in \\mathcal M_n(\\mathbb Z)$, son déterminant est un entier et donc\r\n$\\det(M^{-1})=\\frac{1}{\\det M}\\in\\mathbb Z$. Ceci entraine que\r\n$\\det(M)=\\pm 1$.Réciproquement, si $\\det(M)=\\pm 1$, alors $M$ est inversible. De plus, toutes les entrées de sa comatrice,\r\nqui sont obtenues comme déterminants de sous-matrices de $M$, sont des entiers. De la formule de Cramer,\r\non déduit que $M^{-1}=\\frac{1}{\\det(M)}\\ ^t\\!\\textrm{comat}(M)$ est une matrice\r\nà coefficients dans $\\mathbb Z$.",
+    "lang": "french"
+}

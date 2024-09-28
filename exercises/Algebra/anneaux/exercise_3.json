@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(G,+)$ un groupe commutatif. On note $\\textrm{End}(G)$ l'ensemble des endomorphismes de $G$ sur lequel on définit la loi $+$ par $f+g:G\\to G,\\ x\\mapsto f(x)+g(x)$. Démontrer que $(\\textrm{End}(G),+,\\circ)$ est un anneau.",
+    "hint": "Vérifier tous les points de la définition d'un anneau.",
+    "solution": "On remarque d'abord que $+$ et $\\circ$ sont bien des lois de composition interne sur $\\textrm{End}(G)$. Ensuite, on vérifie tous les points de la définition d'un anneau.$(\\textrm{End}(G),+)$ est un groupe commutatif. En effet, la loi $+$ est associative et commutative, l'application $0_G:G\\to G,\\ g\\mapsto 0$ est un élément neutre pour la loi $+$, et tout élément $f\\in\\textrm{End}(G)$ admet un inverse $-f:G\\to G,\\ x\\mapsto -f(x)$.La loi $\\circ$ est associative.La loi $\\circ$ possède un élément neutre, qui est l'application identité.La loi $\\circ$ est distributive par rapport à la loi $+$ : pour tous $f,g,h\\in\\textrm{End}(G)$ et tout $x\\in G$, \r\n$$((f+g)\\circ h)(x)=(f+g)(h(x))=f(h(x))+g(h(x))=(f\\circ h+g\\circ h)(x)$$\r\net \r\n$$(f\\circ (g+h))(x)=f((g+h)(x))=f(g(x)+h(x))=f(g(x))+f(h(x))=(f\\circ g+f\\circ h)(x).$$Ainsi, $(\\textrm{End}(G),+,\\circ)$ est un anneau.",
+    "lang": "french"
+}

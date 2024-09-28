@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a\\in]0,\\pi[$. Démontrer que pour tout $n\\geq 1$\r\n$$\\prod_{k=1}^n \\cos\\left(\\frac a{2^k}\\right)=\\frac1{2^n}\\cdot \\frac{\\sin(a)}{\\sin\\left(\\frac a{2^n}\\right)}.$$",
+    "hint": "Utiliser $\\sin(2x)=2\\sin(x)\\cos(x)$.",
+    "solution": "On va démontrer la formule par récurrence sur $n$. Notons $\\mathcal P_n$ la propriété \r\n$$\\mathcal P_n=``\\prod_{k=1}^n \\cos\\left(\\frac a{2^k}\\right)=\\frac1{2^n}\\cdot \\frac{\\sin(a)}{\\sin\\left(\\frac a{2^n}\\right)}''.$$\r\nInitialisation : On a $\\sin(a)=2\\sin(a/2)\\cos(a/2)$ et donc \r\n$$\\frac{\\sin(a)}{2\\sin(a/2)}=\\cos(a/2)$$\r\nce qui prouve que $\\mathcal P_1$ est vraie.Hérédité : Soit $n\\in\\mathbb N$ tel que $\\mathcal P_n$ est vraie, et prouvons $\\mathcal P_{n+1}$. Sachant que\r\n$$\\sin(a/2^n)=2\\sin(a/2^{n+1})\\cos(a/2^{n+1})$$\r\non a \r\n\\begin{align*}\r\n \\frac{\\sin(a)}{2^{n+1}\\sin\\left(\\frac a{2^{n+1}}\\right)}&=\\frac{1}{2^n}\\times\\frac{\\sin(a)}{\\sin\\left(\\frac a{2^n}\\right)}\\times\\cos\\left(\\frac a{2^{n+1}}\\right)\\\\\r\n &=\\prod_{k=1}^n \\cos\\left(\\frac a{2^k}\\right)\\times \\cos\\left(\\frac a{2^{n+1}}\\right)\\\\\r\n &=\\prod_{k=1}^{n+1} \\cos\\left(\\frac a{2^k}\\right).\r\n\\end{align*}\r\nAinsi $\\mathcal P_{n+1}$ est vraie.Conclusion : $\\mathcal P_n$ est vraie pour tout $n\\geq 1$.",
+    "lang": "french"
+}

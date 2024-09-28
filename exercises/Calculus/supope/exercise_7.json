@@ -1,0 +1,6 @@
+{
+    "script": "Donner un exemple de distribution $T\\in\\mcd'(\\mtr)$ et de fonction $\\varphi\\in\\mcd(\\mtr)$ telle que $supp(T)=\\{0\\}$,\r\n$\\varphi(0)=0$ et $\\langle T,\\varphi\\rangle\\neq 0$. Plus généralement, si $T\\in\\mcd'(\\mtr)$ et $\\psi\\in\\mcd(\\mtr)$,\r\nquelle condition faut-il sur $T$ et $\\psi$ pour que $\\langle\r\nT,\\psi\\rangle =0$?\r\nQuelle condition donner à $\\psi_1,\\psi_2\\in\\mcd(\\mtr)$ pour que\r\n$\\langle T,\\psi_1\\rangle=\\langle T,\\psi_2\\rangle$?",
+    "hint": "Considérer la dérivée de la masse de Dirac en $0$.",
+    "solution": "Prenons pour $T$ la dérivée de la masse de Dirac $\\delta_0'$ et pour $\\varphi$ une fonction de $\\mcd(\\mtr)$ telle que $\\varphi(0)=0$\r\net $\\varphi'(0)\\neq 0$. Alors $\\langle T,\\varphi\\rangle=-\\varphi'(0)\\neq 0$. Plus généralement, \r\non a $\\langle T,\\psi\\rangle =0$ dès que $\\psi$ est nulle au voisinage\r\ndu support de $T$, c'est-à-dire que les supports de $T$ et $\\psi$\r\nsont disjoints. On a $\\langle T,\\psi_1\\rangle=\\langle T,\\psi_2\\rangle$\r\ndès que $\\psi_1$ et $\\psi_2$ sont égales au voisinage du support de $T$.",
+    "lang": "french"
+}

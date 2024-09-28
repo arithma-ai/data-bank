@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction holomorphe dans le disque $D(0,1)$. On appelle diamètre de $f$ la quantité\r\n$$d=\\sup_{w,z\\in D(0,1)}|f(z)-f(w)|$$\r\n(qui peut être infinie).Démontrer que $2f'(0)=\\frac{1}{2i\\pi}\\int_{C(0,r)}\\frac{f(w)-f(-w)}{w^2}dw$ pour tout $r\\in ]0,1[$.En déduire que $2|f'(0)|\\leq d$.",
+    "hint": "Formule de Cauchy (deux fois) et changement de variables (une fois).Inégalité à l'intérieur de l'intégrale.",
+    "solution": "D'après la formule de Cauchy, on sait que \r\n$$\\int_{C(0,r)}\\frac{f(w)}{w^2}dw=2i\\pi f'(0).$$\r\nDe plus, en effectuant un changement de variables, \r\n$$\\int_{C(0,r)}\\frac{f(-w)}{w^2}dw=-\\int_{C(0,r)}\\frac{f(z)}{z^2}dz=-2i\\pi f'(0).$$\r\nOn en déduit immédiatement le résultat voulu.Majorons à l'intérieur de l'intégrale, en remarquant que si $w\\in C(0,r)$, alors\r\n$$\\left|\\frac{f(w)-f(-w)}{w^2}\\right|\\leq \\frac{d}{r^2}.$$\r\nIl vient\r\n\\begin{eqnarray*}\r\n2|f'(0)|&\\leq&\\frac{1}{2\\pi}\\int_{\\theta=0}^{2\\pi}\\frac{d}{r^2}rd\\theta=\\frac{d}{r}.\r\n\\end{eqnarray*}\r\nComme ceci est valable quelque soit $r\\in]0,1[$, on peut faire tendre $r$ vers 1 et on obtient que $2|f'(0)|\\leq d$.",
+    "lang": "french"
+}

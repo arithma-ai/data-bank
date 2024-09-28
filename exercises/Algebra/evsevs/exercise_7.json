@@ -1,0 +1,6 @@
+{
+    "script": "Trouver un système générateur des sous-espaces vectoriels suivants de $\\mathbb R^3$:$F=\\{(x,y,z)\\in\\mathbb R^3;\\ x+2y-z=0\\}$;$G=\\{(x,y,z)\\in\\mathbb R^3;\\ x-y+z=0\\textrm{ et }2x-y-z=0\\}$.",
+    "hint": "Ecrire $(x,y,z)\\in F\\iff....$ et essayer de résoudre le système en écrivant une coordonnée en fonction des autres...",
+    "solution": "On a \r\n$$(x,y,z)\\in F\\iff x=-2y+z\\iff\\left\\{\r\n\\begin{array}{rcl}\r\nx&=&y\\times -2+z\\times 1\\\\\r\ny&=&y\\times 1+z\\times 0\\\\\r\nz&=&y\\times 0+z\\times 1.\r\n\\end{array}\\right.$$\r\nPosant $u_1=(-2,1,0)$ et $u_2=(1,0,1)$, on a donc $F=\\textrm{vect}(u_1,u_2)$.\r\nCette solution n'est (bien sûr!) pas unique.On a \r\n$$(x,y,z)\\in G\\iff\r\n\\left\\{\r\n\\begin{array}{rcl}\r\nx-y+z&=&0\\\\\r\n2x-y-z&=&0\\\\\r\n\\end{array}\r\n\\right.\r\n\\iff \r\n \\left\\{\r\n\\begin{array}{rcl}\r\nx-y+z&=&0\\\\\r\ny-3z&=&0\r\n\\end{array}\\right.$$\r\n$$\\iff\r\n\\left\\{\r\n\\begin{array}{rcl}\r\nx=2z\\\\\r\ny=3z\\\\\r\nz=z\r\n\\end{array}\\right.\r\n$$\r\nOn a donc $G=\\textrm{vect}(u)$, avec $u=(2,3,1)$.",
+    "lang": "french"
+}

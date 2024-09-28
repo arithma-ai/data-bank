@@ -1,0 +1,6 @@
+{
+    "script": "Soit $M=\\begin{pmatrix}A&B\\\\C&D\\end{pmatrix}$\r\noù $A\\in GL_p(\\mathbb R)$ et $D\\in\\mathcal M_q(\\mathbb R).$Déterminer une matrice triangulaire supérieure par blocs $N$ telle que \r\n$$MN=\\begin{pmatrix}\r\nA&0\\\\\r\nC&S\r\n\\end{pmatrix}$$\r\noù $S=D-CA^{-1}B$.En déduire que \r\n$$\\det(M)=\\det(A)\\det(D-CA^{-1}B).$$",
+    "hint": "Chercher $N$ sous la forme $\\begin{pmatrix}I_p&E\\\\0&I_q\\end{pmatrix}.$On se ramène à des calculs de déterminants de matrices triangulaires par blocs.",
+    "solution": "On cherche $N$ sous la forme $\\begin{pmatrix}E&F\\\\0&G\\end{pmatrix}.$\r\nEn étudiant la première colonne de $MN$, on voit qu'il est commode de choisir $E=I_p$. En regardant la deuxième colonne, on doit avoir \r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nAF+BG&=&0\\\\\r\nCF+DG&=&D-CA^{-1}B.\r\n\\end{array}\\right.$$\r\nLe choix $G=I_q$ et $F=-A^{-1}B$ donne alors le résultat.On s'est ramené à des matrices triangulaires par blocs. On a en effet \r\n$$\\det(M)\\det(N)=\\det(MN)=\\det(A)\\det(S).$$\r\nOn conclut car $N$ est elle aussi triangulaire par blocs et $\\det(N)=1.$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soient $f$ et $g$ deux fonctions holomorphes ne s'annulant pas dans un ouvert connexe $\\Omega$ contenant le disque unité fermé.\r\nOn suppose que $|f(z)|=|g(z)|$ pour $|z|=1$. Montrer qu'il existe $\\lambda\\in\\mathbb C$ avec $|\\lambda|=1$ tel que $f=\\lambda g$ sur $\\Omega$.\r\nLa conclusion est-elle encore vraie si on ne suppose plus que $f$ et $g$ ne s'annule pas?",
+    "hint": "Appliquer le principe du maximum à la fonction $f/g$, puis à la fonction $g/f$.",
+    "solution": "Puisque $f$ et $g$ ne s'annulent pas dans le disque unité noté $D$, les fonctions $f/g$\r\net $g/f$ y sont holomorphes. Par le principe du maximum, on a \r\n$$\\sup_{z\\in D}\\left|\\frac{f(z)}{g(z)}\\right|\\leq \\sup_{|w|=1}\\left|\\frac{f(w)}{g(w)}\\right|=1.$$\r\nDe même, $\\sup_{z\\in D}\\left|\\frac{g(z)}{f(z)}\\right|\\leq 1$, et donc $f/g$ est une fonction\r\nholomorphe de module constant égal à 1 dans $D$. Puisqu'une fonction holomorphe de module constant dans un ouvert connexe est constante, d'après le théorème de l'image ouverte, on en déduit que $f/g$ est constante dans $D$, \r\net par suite dans tout l'ouvert connexe $\\Omega$.Si on ne suppose plus que $f$ et $g$ ne s'annulent pas, alors les fonctions $f(z)=z$ et $g(z)=z^2$\r\nconstituent des contre-exemples à la propriété demandée.",
+    "lang": "french"
+}

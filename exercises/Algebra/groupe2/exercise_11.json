@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ un groupe d'ordre $nm$ et $H$ un sous-groupe normal de $G$ d'ordre $n$.Démontrer que, pour tout $a\\in G$, on a $a^m\\in H$.On suppose que $n\\wedge m=1$. Démontrer que $H$ est l'unique sous-groupe de $G$ d'ordre $n$.",
+    "hint": "Raisonner dans le quotient $G/H$.Considérer $K$ un autre groupe d'ordre $n$ et prendre $a\\in K$. Démontrer que $a\\in H$ en utilisant l'identité de Bezout.",
+    "solution": "$G/H$ est un groupe d'ordre $m$. En particulier, on a $\\bar a^m=\\bar e$, ce qui signifie exactement que $a^m\\in H$.Soit $K$ un autre groupe d'ordre $n$ et considérons $a\\in K$. En particulier, on a $a^n=e$. Puisque $n$ et $m$ sont premiers entre eux, l'identité de Bezout donne l'existence de $u,v\\in\\mathbb Z$ tels que \r\n$$un+vm=1.$$\r\nOn en déduit que \r\n$$a=(a^n)^u(a^m)^v=e^u(a^m)^v\\in H$$\r\nd'après la question précédente. On a donc $K\\subset H$, soit $K=H$ puisque $K$ et $H$ ont le même cardinal.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ et $Y$ deux variables aléatoires. On suppose que $X$ suit une loi de Poisson $\\mathcal P(\\lambda)$ et que la loi de $Y$ conditionnée par $(X=n)$ est la loi binomiale $\\mathcal B(n,p)$, pour tout $n\\in\\mathbb N$. Quelle est la loi de $Y$?",
+    "hint": "Utiliser la formule des probabilités totales. Il faut aussi triturer la somme un petit peu (ne sommer que sur les termes non nuls, puis faire un changement d'indices pour retrouver la fonction exponentielle...).",
+    "solution": "On remarque d'abord que $Y$ est à valeurs entières. D'après la formule des probabilités totales,\r\n\\begin{eqnarray*}\r\nP(Y=k)&=&\\sum_{n=0}^{+\\infty} P(Y=k|X=n)P(X=n)\\\\\r\n&=&\\sum_{n=k}^{+\\infty} \\binom nk p^k(1-p)^{n-k}e^{-\\lambda}\\frac{\\lambda^n}{n!}\\\\\r\n&=&\\frac{e^{-\\lambda}p^k \\lambda^k}{k!}\\sum_{n=k}^{+\\infty}\\frac{(1-p)^{n-k} \\lambda^{n-k}}{(n-k)!}\\\\\r\n&=&\\frac{e^{-\\lambda}p^k \\lambda^k}{k!}e^{(1-p)\\lambda}\\\\\r\n&=&\\frac{e^{-p\\lambda}(\\lambda p)^k}{k!}.\r\n\\end{eqnarray*}\r\n$Y$ suit donc une loi de Poisson $\\mathcal P(\\lambda p)$.",
+    "lang": "french"
+}

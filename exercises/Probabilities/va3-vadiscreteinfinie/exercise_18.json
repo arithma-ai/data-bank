@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ et $Y$ deux variables aléatoires indépendantes suivant des lois de Poisson de paramètre respectif $\\lambda$ et $\\mu$. Démontrer que $Z=X+Y$ suit une loi de Poisson de paramètre $\\lambda+\\mu$.",
+    "hint": "Écrire que $X+Y=k$ si et seulement si $X=l$ et $Y=k-l$ pour $l=0,\\dots,k$.",
+    "solution": "Fixons $k\\geq 0$ et pour $l=0,\\dots,k$, notons $A_l$ l'événement \"$X=k$\", $B_l$ l'événement \"$Y=l-k$\", de sorte que \"$Z=k$\" soit la réunion disjointe des événements $A_l\\cap B_l$, pour $l=0,\\dots,k$. Par indépendance des variables aléatoires, on a donc\r\n\\begin{eqnarray*}\r\nP(Z=k)&=&\\sum_{l=0}^k P(X=l)P(Y=k-l)\\\\\r\n&=&\\sum_{l=0}^k e^{-\\lambda}\\frac{\\lambda^l}{l!}e^{-\\mu}\\frac{\\mu^{k-l}}{(k-l)!}\\\\\r\n&=&e^{-(\\lambda+\\mu)}\\sum_{l=0}^k \\frac{1}{l!(l-k)!}\\lambda^l\\mu^{k-l}\\\\\r\n&=&\\frac{e^{-(\\lambda+\\mu)}}{k!}\\sum_{l=0}^k \\binom kl \\lambda^l \\mu^{k-l}\\\\\r\n&=&\\frac{e^{-(\\lambda+\\mu)}}{k!}(\\lambda+\\mu)^k\r\n\\end{eqnarray*}\r\nLa variable aléatoire $Z=X+Y$ suit donc bien une loi de Poisson de paramètre $\\lambda+\\mu$.",
+    "lang": "french"
+}

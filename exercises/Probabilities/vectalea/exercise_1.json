@@ -1,0 +1,6 @@
+{
+    "script": "On tire simultanément deux boules dans une urne contenant 4 boules indiscernables au toucher et numérotées de $1$ à $4$. On note $U$ le numéro de la plus petite boule, et $V$ le numéro de la plus grande boule. Déterminer la loi conjointe de $(U,V)$, puis les lois de $U$ et de $V$.",
+    "hint": "Déterminer toutes les valeurs possibles, puis remplir un tableau...",
+    "solution": "L'univers $\\Omega$ est $\\Omega=\\big\\{\\{1,2\\}, \\{1,3\\}, \\{1,4\\}, \\{2,3\\}, \\{2,4\\}, \\{3,4\\}\\big\\}$ et on considère que tous les événements sont équiprobables. On peut résumer la loi conjointe de $U$ et $V$ et les lois marginales grâce au tableau suivant :\r\n$$\r\n\\begin{array}{c||c|c|c||c}\r\nU\\backslash V&2&3&4& P(U=u)\\\\  \\hline\r\n1&1/6&1/6&1/6&1/2 \\\\ \\hline\r\n2&0&1/6&1/6&1/3 \\\\ \\hline\r\n3&0&0&1/6&1/6 \\\\ \\hline \\hline\r\nP(V=v)&1/6&1/3&1/2 \r\n\\end{array}\r\n$$",
+    "lang": "french"
+}

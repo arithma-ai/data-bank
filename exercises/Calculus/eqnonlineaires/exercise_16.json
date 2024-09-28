@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:I\\to\\mathbb R$ une fonction de classe $\\mathcal C^1$ sur l'intervalle $I$. Alors toute solution non constante de $y′=f(y)$ est strictement monotone.",
+    "hint": "Si une solution n'est pas strictement monotone, elle admet un point $x_0$ où sa dérivée s'annule. On a alors $f(x_0)=0$. Montrer qu'alors $y$ est identiquement égale à $y(x_0)$.",
+    "solution": "Soit $u$ une solution non constante. Pour démontrer que $u$ est strictement monotone, il suffit de démontrer que $u'$ garde un signe constant. Si ce n'est pas le cas, par le théorème des valeurs intermédiaires, il existe $t_0\\in I$ tel que $u'(t_0)=0.$ Posons $y_0=u(t_0)$, on a $f(y_0)=0$ ce qui veut dire que la fonction constante $v$ définie par $v(t)=y_0$ est solution de l'équation. Mais alors $u$ et $v$ sont deux solutions du même problème de Cauchy $y'=f(y)$ et $y(t_0)=y_0$. Par unicité au problème de Cauchy (puisque $f$ est $\\mathcal C^1$), on a que $u=v$ et donc que $u$ est constante. Comme on a supposé $u$ non constante, on en déduit que $u$ est strictement monotone.",
+    "lang": "french"
+}

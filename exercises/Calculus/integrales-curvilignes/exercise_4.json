@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\omega=(x+y)dx+(x-y)dy$. Calculer l'intégrale curviligne de $\\omega$ le long de la demi-cardioïde d'équation en polaire $r=1+\\cos\\theta$, $\\theta$ allant de $0$ à $\\pi$.",
+    "hint": "Montrer que $\\omega$ est une forme différentielle exacte.",
+    "solution": "On pourrait remplacer $x$ par $r\\cos\\theta$, etc..., puis utiliser un paramétrage par $\\theta$. Il est plus simple ici de constater que $\\omega$ est une forme différentielle exacte et de calculer une primitive. En effet, si on note $P(x,y)=x+y$ et $Q(x,y)=x-y$, on a l'égalité des dérivées croisées \r\n$$\\frac{\\partial P}{\\partial y}=\\frac{\\partial Q}{\\partial x}=1.$$\r\nLa forme différentielle est fermée, et d'après le théorème de Poincaré, puisqu'elle est définie sur l'ouvert étoilé $\\mtr$, elle y est exacte. On cherche une primitive $f$ de $\\omega$ sur $\\mtr^2$. On doit résoudre :\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\n\\dis\\frac{\\partial f}{\\partial x}=x+y\\\\\r\n\\dis\\frac{\\partial f}{\\partial y}=x-y.\r\n\\end{array}\\right.$$\r\nLa résolution de ce système se fait contrainte par contrainte. On a d'abord :\r\n$$f(x,y)=\\frac{x^2}{2}+xy+H(y).$$\r\nOn réintroduit dans la seconde équation, et on trouve :\r\n$$f(x,y)=\\frac{x^2}{2}+xy-\\frac{y^2}{2}.$$\r\nOn a finalement :\r\n$$\\int_C\\omega=f(0,0)-f(2,0)=-2.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que pour tout entier $n\\geq 1$, $40^n n!|(5n)!$.",
+    "hint": "Raisonner par récurrence sur $n$.",
+    "solution": "On raisonne par récurrence sur $n$. La propriété est clairement vérifiée\r\nsi $n=1$, car $5!=120=40\\times 3$. Supposons la propriété vraie au rang $n$, et prouvons la au rang $n+1$.\r\nOn a\r\n\\begin{align*}\r\n(5n+5)!&=(5n)!(5n+1)(5n+2)(5n+3)(5n+4)(5n+5)\\\\\r\n&= (5n)! 5(n+1)(5n+1)(5n+2)(5n+3)(5n+4)\r\n\\end{align*}\r\net\r\n$$40^{n+1} (n+1)!=40^n n!\\times 40(n+1).$$\r\nPuisque par hypothèse de récurrence, $40^n n!|(5n)!$, il suffit de prouver que $40(n+1)|5(n+1)(5n+1)(5n+2)(5n+3)(5n+4)$, ou encore\r\n$8|(5n+1)(5n+2)(5n+3)(5n+4)$. Mais $5n+1,5n+2,5n+3,5n+4$ sont quatre entiers consécutifs.\r\nDeux sont pairs, et l'un des ces deux entiers pairs est même divisible par 4. Donc 8 divise bien leur produit.",
+    "lang": "french"
+}

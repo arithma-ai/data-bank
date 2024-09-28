@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f\\in\\mathcal L(E)$ tel qu'il existe $n\\geq 1$ vérifiant $f^n=0$ et $f^{n-1}\\neq 0$. Démontrer qu'il existe $x\\in E$ tel que la famille $(x,f(x),\\dots,f^{n-1}(x))$ soit libre.",
+    "hint": "Considérer un $x$ tel que $f^{n-1}(x)\\neq 0$.",
+    "solution": "Puisque $f^{n-1}\\neq 0$, il existe $x\\in E$ tel que $f^{n-1}(x)\\neq 0$. On va prouver que la famille  $(x,f(x),\\dots,f^{n-1}(x))$ est libre. Pour cela, si on a \r\n$$\\lambda_0 x+\\lambda_1 f(x)+\\dots+\\lambda_{n-1}f^{n-1}(x)=0,$$\r\non applique $f^{n-1}$ à cette égalité. Puisque $f^{k}(x)=0$ si $k\\geq n$, on obtient \r\n$$\\lambda_0 f^{n-1}(x)=0\\implies \\lambda_0=0$$ puisque $f^{n-1}(x)\\neq 0$. On continue en composant par $f^{n-2}$, puis par $f^{n-3}$,etc... pour trouver successivement que $\\lambda_1,\\lambda_2$ jusque $\\lambda_{n-1}$ sont nuls.",
+    "lang": "french"
+}

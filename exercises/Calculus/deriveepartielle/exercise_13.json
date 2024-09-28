@@ -1,0 +1,6 @@
+{
+    "script": "Etant données deux fonctions $g_0$ et $g_1$ d'une variable réelle, de classe $C^2$ sur $\\mtr$, on définit la fonction $f$\r\nsur $\\mtr^*_+\\times\\mtr$ par \r\n$$f(x,y)=g_0\\left(\\frac{y}{x}\\right)+xg_1\\left(\\frac{y}{x}\\right).$$\r\nJustifier que $f$ est de classe $C^2$, puis prouver que \r\n$$x^2\\frac{\\partial^2 f}{\\partial x^2}(x,y)+2xy\\frac{\\partial^2 f}{\\partial x\\partial y}(x,y)+y^2\\frac{\\partial^2 f}{\\partial y^2}(x,y)=0.$$",
+    "hint": "Il suffit d'appliquer le théorème de composition des dérivées.",
+    "solution": "La fonction $f$ est de classe $C^2$ comme composée de fonctions toutes de classe $C^2$. On a ensuite, en notant $t=y/x$ :\r\n$$\\frac{\\partial f}{\\partial x}(x,y)=-\\frac{y}{x^2}g_0'(t)+g_1(t)-\\frac{y}{x}g_1'(t)$$\r\n$$\\frac{\\partial^2 f}{\\partial x^2}(x,y)=\\frac{2y}{x^3}g_0'(t)+\\frac{y^2}{x^4}g_0''(t)+\\frac{y^2}{x^3}g_1''(t)$$\r\n$$\\frac{\\partial f}{\\partial y}(x,y)=\\frac{1}{x}g_0'(t)+g_1'(t)$$\r\n$$\\frac{\\partial^2 f}{\\partial x\\partial y}=-\\frac{1}{x^2}g_0'(t)-\\frac{y}{x^3}g_0''(t)-\\frac{y}{x^2}g_1''(t)$$\r\n$$\\frac{\\partial^2 f}{\\partial y^2}=\\frac{1}{x^2}g_0''(t)+\\frac{1}{x}g_1''(t).$$\r\nIl suffit ensuite de faire la somme demandée pour obtenir le résultat.",
+    "lang": "french"
+}

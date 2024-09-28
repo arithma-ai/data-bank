@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in\\mathcal M_n(\\mathbb K)$. On note $A_j$ la $j-$ième colonne de $A$. Soit $B$ la matrice dont les colonnes $B_j$ sont \r\n$$B_j=S-A_j=\\sum_{k\\neq j} A_k\\textrm{ où }S=\\sum_{k=1}^n A_k.$$\r\nDémontrer que \r\n$$\\det(B)=(-1)^{n-1}(n-1)\\det(A).$$",
+    "hint": "Faire plein d'opérations sur les colonnes (commencer par toutes les ajouter dans la première).",
+    "solution": "On commence par ajouter toutes les autres colonnes à la première colonne de $B$, ce qui ne change pas le déterminant. On a \r\n\\begin{align*}\r\n\\det(B)&=\\det(B_1+\\cdots+B_n,B_2,\\dots,B_n)\\\\\r\n&=\\det\\big( (n-1)S,B_2,\\dots,B_n\\big)\\\\\r\n&=(n-1)\\det(S,B_2,\\dots,B_n\\big).\r\n\\end{align*}\r\nOn retire ensuite la première colonne à toutes les autres colonnes : \r\n\\begin{align*}\r\n\\det(B)&=(n-1)\\det(S,B_2-S,\\dots,B_n-S)\\\\\r\n&=(n-1)\\det(S,-A_2,\\dots,-A_n)\\\\\r\n&=(-1)^{n-1}(n-1)\\det(S,A_2,\\dots,A_n).\r\n\\end{align*}\r\nOn conclut en soustrayant toutes les autres colonnes à la première colonne pour trouver :\r\n\\begin{align*}\r\n\\det(B)&=(-1)^{n-1}(n-1)\\det(S-(A_2+\\cdots+A_n),A_2,\\dots,A_n)\\\\\r\n&=(-1)^{n-1}(n-1)\\det(A_1,\\dots,A_n)\\\\\r\n&=(-1)^{n-1}(n-1)\\det(A).\r\n\\end{align*}",
+    "lang": "french"
+}

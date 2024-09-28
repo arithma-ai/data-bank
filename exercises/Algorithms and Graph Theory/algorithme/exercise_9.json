@@ -1,0 +1,6 @@
+{
+    "script": "Écrire 21 en base 2.Proposer un algorithme qui prend en entrée un entier $n$ et retourne son écriture en base 2.",
+    "hint": "Commencer par le dernier chiffre....",
+    "solution": "Cette question est évidemment destinée à comprendre comment proposer un algorithme pour la question suivante.\r\nL'idée est de partir d'abord du dernier chiffre. En effet, si \r\n21 s'écrit $b_k\\dots b_1$ en base 2, alors on a \r\n$$21=b_k2^k+b_{k-1}2^{k-1}+\\dots+2b_2+b_1,$$\r\net donc $b_1$ est le reste dans la division par 2 de 17. On a donc \r\n$$21=2\\times 10+1.$$\r\nOn continue avec 10 :\r\n$$10=2\\times 5+0,$$\r\nsoit \r\n$$21=2^2\\times 5+2^1\\times 0+1.$$\r\nOn reprend avec 5 :\r\n$$5=2\\times 2+1,$$\r\nsoit \r\n$$21=2^3\\times 2+2^2\\times 1+2^1\\times 0+1,$$\r\nsoit finalement \r\n$$21=2^4\\times 1+2^3\\times 0+2^2\\times 1+2^1\\times 0+1.$$\r\nAinsi, 21 s'écrit en base 2 : $10101$.Voici un algorithme possible. Il met les chiffres successifs dans une liste.\r\nPuis on lit la liste en sens contraire...Lire ni=0tant que (n>0) fairel[i]=reste(n,2)n=(n-l[i])/2i=i+1Fin tant quePour j allant de i-1 jusque 0 faireAfficher l[j]Fin tant que.",
+    "lang": "french"
+}

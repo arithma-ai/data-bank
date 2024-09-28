@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les points d'inflexion de l'arc paramétré $t\\mapsto \\big( (t-2)^3,t^2-4\\big)$.",
+    "hint": "",
+    "solution": "Notons $f(t)=\\big( (t-2)^3,t^2-4\\big)$ de sorte que\r\n$$f'(t)=\\big(3(t-2)^2,2t\\big)\\textrm{ et }f''(t)=\\big(6(t-2),2\\big).$$\r\n$3(t-2)^2$ et $2t$ ne s'annulent jamais simultanément. Ainsi, tous les points de la courbe sont ordinaires. \r\nOn va maintenant déterminer quand les vecteurs $f''(t)$ et $f'(t)$ sont colinéaires. Pour cela, on calcule le déterminant\r\nde ces deux vecteurs qui vaut :\r\n$$\\left|\\begin{array}{cc}\r\n3(t-2)^2&6(t-2)\\\\\r\n2t&2\\\\\r\n\\end{array}\\right|=-6(t-2)(t+2).$$\r\nCe déterminant est non-nul lorsque $t\\neq2$ et $t\\neq-2$. Les seuls points d'inflexion possibles sont\r\ndonc pour $t=2$ ou $t=-2$. Pour $t=2$, on a\r\n$f'(2)=(0,4)$ et $f^{(3)}(2)=(6,0)$, vecteurs qui ne sont pas colinéaires, et donc ce point est un point d'inflexion.\r\nPour $t=-2$, on a $f'(-2)=(48,-4)$ et $f^{(3)}(2)=(6,0)$, vecteurs qui ne sont pas colinéaires, et donc ce point est aussi un point d'inflexion.",
+    "lang": "french"
+}

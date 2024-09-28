@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\phi$ l'endomorphisme de $\\mnr$ défini par $\\phi(A)=\\!\\ ^tA$. Calculer le déterminant de $\\phi$.",
+    "hint": "Utiliser la décomposition de $\\mnr$ en somme directe des matrices symétriques et antisymétriques.",
+    "solution": "$\\mnr$ est la somme directe du sous-espace vectoriel des matrices symétriques et des matrices antisymétriques. Soit $(A_1,\\dots,A_p)$ et $(B_1,\\dots,B_q)$ une base respective de l'espace vectoriel des matrices symétriques et antisymétriques. $(A_1,\\dots,A_p,B_1,\\dots,B_q)$ forme une base de $\\mnr$, et il suffit de calculer le déterminant dans cette base. Mais $\\phi(A_i)=A_i$ tandis que $\\phi(B_j)=-B_j$. On a donc $\\det(\\phi)=(-1)^q$. Il suffit ensuite de se souvenir que $p=\\frac{n(n+1)}{2}$, ou $q=\\frac{n(n-1)}{2}$.",
+    "lang": "french"
+}

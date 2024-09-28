@@ -1,0 +1,6 @@
+{
+    "script": "On rappelle qu'un arbre est un graphe connexe et sans cycles, et qu'un graphe est biparti s'il est $2$-colorable (c'est-à-dire qu'on peut attribuer une couleur à chaque sommet de sorte que deux sommets liés par une arête ont une couleur différente en utilisant seulement deux couleurs). Montrer que tout arbre est un graphe biparti.",
+    "hint": "Raisonner par récurrence sur le nombre de sommets, et sélectionner une feuille.",
+    "solution": "On va raisonner par récurrence sur le nombre de sommets de l'arbre. Si le nombre de sommets est 1 ou 2, le résultat est évident. Soit maintenant $n\\geq 2$ tel que le résultat est vrai pour tout arbre ayant $n$ sommets, et considérons un arbre $\\mathcal A$ ayant $n+1$ sommets. Un tel arbre possède nécessairement une feuille $F$ (c'est-à-dire un sommet de degré 1). Considérons $\\mathcal B$ le graphe issu de $\\mathcal A$ auquel on a retiré $F$. Alors $\\mathcal B$ reste un arbre, et il est $2$-colorable. On trouve alors une $2$-coloration de $\\mathcal A$ en attribuant à la feuille restant la couleur qui n'est pas celle du sommet qui lui est lié.",
+    "lang": "french"
+}

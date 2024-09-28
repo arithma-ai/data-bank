@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre l'équation suivante :\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx^y&=&y^x\\\\\r\nx^2&=&y^3\\\\\r\n\\end{array}\r\n\\right.$$\r\navec $(x,y)\\in]0,+\\infty[^2$.",
+    "hint": "",
+    "solution": "On écrit simplement\r\n$$y^x=(y^3)^{x/3}=x^{2x/3}=x^y,$$\r\nce qui s'écrit encore\r\n$$\\exp\\left(\\frac{2x}3\\ln x\\right)=\\exp\\left(y\\ln x\\right).$$\r\nPrenant le logarithme, cela donne\r\n$$\\frac{2x}3\\ln x=y\\ln x.$$\r\nOn en déduit que, ou bien $\\ln x=0$, soit $x=y=1$. Sinon, on a \r\n$$y=\\frac{2x}3,$$\r\nce qui donne \r\n$$x^2=\\frac{8}{27}x^3.$$\r\nLa seule solution dans $]0,+\\infty[$ est\r\n$$x=\\frac{27}8$$ \r\nsoit $y=\\frac 94.$ Les solutions de l'équation sont donc les couples $(1,1)$\r\net $(\\frac{27}8,\\frac 94)$.",
+    "lang": "french"
+}

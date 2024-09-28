@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n$ un entier impair supérieur ou égal à 3 et $\\sigma\\in S_n$ telle que $\\sigma^2=Id_{\\{1,\\dots,n\\}}$. Démontrer que \r\n$\\sigma$ possède au moins un point fixe.",
+    "hint": "Introduire la relation d'équivalence définie sur $\\{1,\\dots,n\\}$ par $x\\sim y\\iff \\exists k\\in\\mathbb Z, y=\\sigma^k(x)$.",
+    "solution": "On introduit sur $\\{1,\\dots,n\\}$ la relation $x\\sim y\\iff \\exists k\\in\\mathbb Z, y=\\sigma^k(x)$. On vérifie très facilement que l'on définit ainsi une relation d'équivalence.\r\nAinsi, les classes d'équivalence pour cette partition forment une partition de $\\{1,\\dots,n\\}$. Soit $x\\in\\{1,\\dots,n\\}$ qui n'est pas un point fixe de $\\sigma$.\r\nAlors sa classe d'équivalence pour $\\sim$ est $\\{x,\\sigma(x)\\}$. En effet, puisque $\\sigma^{2}(x)=x$, on a $\\sigma^{2k}(x)=x$ et $\\sigma^{2k+1}(x)=\\sigma(x)$ pour tout $k\\in\\mathbb Z$.\r\nAinsi, si $\\sigma$ n'a pas de points fixes, on a trouvé une partition de $\\{1,\\dots,n\\}$ avec des ensembles contenant chacun deux éléments. Ceci contredit que $n$ est impair.",
+    "lang": "french"
+}

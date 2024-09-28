@@ -1,0 +1,6 @@
+{
+    "script": "Soient $a$ et $b$ deux réels strictement positifs. Étudier et déterminer, si elles existent,\r\nles limites en $0$ des fonctions $f:x\\mapsto \\frac xa \\left\\lfloor \\frac bx\\right\\rfloor $ et \r\n$g:x\\mapsto \\left\\lfloor \\frac xa\\right\\rfloor \\frac bx$.",
+    "hint": "Étudier l'existence de limites à droites et à gauche en 0, en revenant à la définition de la partie entière\r\n(par encadrement).",
+    "solution": "Pour $x\\neq 0$, on a\r\n$$\\frac{b}x-1\\leq \\left\\lfloor \\frac bx\\right\\rfloor \\leq \\frac bx.$$\r\nPour $x>0$, on en déduit\r\n$$\\frac{b}{a}-\\frac xa\\leq f(x)\\leq \\frac ba.$$\r\nPar le théorème d'encadrement, $f$ admet $\\frac ba$ comme limite à droite en 0. De la même façon, pour $x<0$, on a\r\n$$\\frac{b}a-\\frac xa\\geq f(x)\\geq \\frac ba$$\r\net $f$ admet $\\frac ba$ comme limite à gauche en 0. On en déduit que $f$ admet une limite à 0 égale à $\\frac ba$.\r\nConcernant $g$, on remarque que si $x\\in ]-a,0[$, alors \r\n$$g(x)=-\\frac bx$$\r\net donc $\\lim_{x\\to 0^-}g(x)=+\\infty$. Pour $x\\in ]0,a[$, on a \r\n$$g(x)=0$$ et donc $\\lim_{x\\to 0^+}g(x)=0$. Ainsi, $g$ n'admet pas de limite en 0.",
+    "lang": "french"
+}

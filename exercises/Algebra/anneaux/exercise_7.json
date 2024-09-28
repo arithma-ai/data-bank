@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A$ un anneau. On appelle centre de $A$ et l'on note $C(A)$ l'ensemble des éléments $a\\in A$ tels que, pour tout $b\\in A$, $ab=ba.$ Démontrer que $C(A)$ est un sous-anneau de $A$.",
+    "hint": "Il suffit de vérifier les hypothèses du théorème de caractérisation des sous-anneaux.",
+    "solution": "Il suffit de vérifier le théorème de caractérisation des sous-anneaux.$1\\in C(A)$, puisque $1a=a1=a$ pour tout $a\\in A.$Soit $a,a'\\in C(A)$ et soit $b\\in A$. Alors \r\n$$(a-a')b=ab-a'b=ba-ba'=b(a-a')$$ \r\n(on a utilisé deux fois la distributivité) et donc $a-a'\\in C(A).$Soit $a,a'\\in C(A)$ et soit $b\\in A$. Alors \r\n$$(aa')b=a(a'b)=a(ba')=(ab)a'=(ba)a'=b(aa')$$\r\n(on a utilisé plusieurs fois l'associativité) et donc $aa'\\in C(A).$",
+    "lang": "french"
+}

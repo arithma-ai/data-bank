@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer la valeur de $\\cos(\\pi/12)$ et $\\sin(\\pi/12)$.",
+    "hint": "Utiliser des formules de trigonométrie pour utiliser la valeur de $\\cos(\\pi/6)$.",
+    "solution": "D'après la formule $\\cos(2x)=2\\cos^2(x)-1$, on a \r\n$$2\\cos^2(\\pi/12)=\\cos(\\pi/6)+1=\\frac{\\sqrt 3}2+1.$$\r\nPuisque $\\cos(\\pi/12)>0$, on a \r\n$$\\cos\\left(\\frac\\pi{12}\\right)=\\frac{\\sqrt{\\sqrt 3+2}}2.$$\r\nOn en déduit que \r\n$$\\sin^2\\left(\\frac\\pi{12}\\right)=1-\\cos^2\\left(\\frac\\pi{12}\\right)=\\frac{2-\\sqrt 3}{4}.$$\r\nPuisque $\\sin(\\pi/12)>0$, on a donc\r\n$$\\sin\\left(\\frac\\pi{12}\\right)=\\frac{\\sqrt{2-\\sqrt 3}}2.$$\r\nUne autre possibilité pour résoudre cet exercice était de remarquer que \r\n$$\\frac{\\pi}3-\\frac\\pi4=\\frac{\\pi}{12}$$\r\net d'appliquer les formules d'addition $\\sin(a-b)$ et $\\cos(a-b)$.",
+    "lang": "french"
+}

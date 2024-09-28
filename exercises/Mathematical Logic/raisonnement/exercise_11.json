@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout $n\\in\\mathbb N^*$, on a $2^{n-1}\\leq n!\\leq n^n$.",
+    "hint": "",
+    "solution": "On va procéder par récurrence sur $n\\in\\mathbb N^*$.\r\nOn considère la propriété $\\mathcal P(n)=\"2^{n-1}\\leq n!\\leq n^n\"$. $\\mathcal P(1)$\r\nest vérifiée, puisque $2^0=1!=1^1=1$. Supposons maintenant que $\\mathcal P(n)$ est vraie\r\npour un certain $n\\in\\mathbb N^*$ et prouvons que $\\mathcal P(n+1)$ est vraie. \r\nOn commence par prouver l'inégalité de gauche. On remarque d'abord que, puisque \r\n$n\\geq 1$, on a $2\\leq n+1$ d'où l'on déduit\r\n$$2^n=2\\times 2^{n-1}\\leq 2\\times n!\\leq (n+1)\\times n!\\leq (n+1)!$$\r\nPour l'inégalité de droite, on part de l'hypothèse de récurrence et on multiplie par $(n+1)$, pour obtenir \r\n$$(n+1)!\\leq (n+1)n^n.$$\r\nOr, $n\\leq n+1$ et donc $n^n\\leq (n+1)^n$. On en déduit que \r\n$$(n+1)!\\leq (n+1)\\times (n+1)^n=(n+1)^{n+1}.$$\r\n$\\mathcal P(n+1)$ est donc vérifiée, ce qui prouve, par récurrence, l'inégalité voulue pour tout $n\\in\\mathbb N^*$.",
+    "lang": "french"
+}

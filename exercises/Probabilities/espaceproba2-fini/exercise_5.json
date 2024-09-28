@@ -1,0 +1,6 @@
+{
+    "script": "On appelle indice de coïncidence d'un texte la probabilité pour que, \r\nsi on tire simultanément deux lettres au hasard dans ce texte, ce soient les mêmes. \r\nDémontrer que si un texte est composé de $n$ lettres choisies parmi l'alphabet A,...,Z, alors son indice de coïncidence $I_c$ vaut :\r\n$$I_c=\\frac{n_A(n_A-1)}{n(n-1)}+\\cdots+\\frac{n_Z(n_Z-1)}{n(n-1)}$$\r\noù $n_A$ désigne le nombre de A dans le texte",
+    "hint": "Combien y-a-t-il de couples de 2 lettres? Combien y-a-t-il de couples de deux A?",
+    "solution": "Si on note $k=n_A$, il y a $\\binom k2$ choix de deux A possibles dans le texte. \r\nMais on peut faire $\\binom n2$ choix de deux lettres quelconques.\r\n La probabilité pour que l'on tire deux fois la lettre A est donc $$\\frac{\\binom{k}2}{\\binom n2}=\\frac{k(k-1)}{n(n-1)}.$$\r\nMaintenant, l'événement \"obtenir deux lettres identiques\" est la réunion disjointe des événements \"obtenir deux lettres A\", \"obtenir deux lettres B\",..., \"obtenir deux lettres Z\". On en déduit la formule demandée.",
+    "lang": "french"
+}

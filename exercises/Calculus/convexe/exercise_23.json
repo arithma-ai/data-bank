@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction convexe sur l'intervalle borné $]a,b[$.Montrer que $f$ est minorée.$f$ est-elle nécessairement majorée?",
+    "hint": "Utiliser l'inégalité sur les pentes!",
+    "solution": "Soit $x_0<x_1<x_2$ trois points de $]a,b[$. Par l'inégalité des pentes, on sait que, pour tout\r\n$x\\leq x_1$, on a\r\n$$\\frac{f(x_1)-f(x)}{x_1-x}\\leq \\frac{f(x_2)-f(x_1)}{x_2-x_1}$$\r\nce qui entraine\r\n$$f(x)\\geq (x-x_1)\\frac{f(x_2)-f(x_1)}{x_2-x_1}+f(x_1).$$\r\nLa fonction apparaissant à droite de l'inégalité étant bornée sur $]a,x_1]$, \r\non en déduit que $f$ est minorée sur $]a,x_1]$. De la même façon, en travaillant à partir de la corde joignant $(x_0,f(x_0))$\r\nà $(x_1,f(x_1))$, on a, pour $x\\geq x_1$,\r\n$$\\frac{f(x)-f(x_1)}{x-x_1}\\geq\\frac{f(x_1)-f(x_0)}{x_1-x_0}$$\r\nce qui implique\r\n$$f(x)\\geq \\frac{f(x_1)-f(x_0)}{x_1-x_0}(x-x_1)+f(x_1).$$\r\nPour la même raison, ceci prouve que $f$ est minorée sur $[x_1,b[$.$f$ n'est pas nécessairement majorée. Un contre-exemple est donnée par la fonction $1/x$ sur l'intervalle $]0,1[$.",
+    "lang": "french"
+}

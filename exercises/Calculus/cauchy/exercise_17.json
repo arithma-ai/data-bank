@@ -1,0 +1,6 @@
+{
+    "script": "Soit $D$ le disque $D(0,1)$ et $f(z)=\\sum_{n=0}^{+\\infty}a_nz^n$ une fonction holomorphe dans $D$. On suppose\r\nque $|f(z)|\\leq (1-|z|)^{-1}$ pour tout $z\\in D$. Montrer que\r\n$$|a_n|\\leq \\left(1+\\frac{1}{n}\\right)^n(n+1)\\leq e(n+1).$$",
+    "hint": "Écrire la formule de Cauchy pour calculer $a_n$ en intégrant $f/z^{n+1}$ sur le cercle de rayon $r$, $0<r<1$.\r\nA l'aide de l'indication, on obtient une inégalité pour $|a_n|$ qui dépend de $r$. Optimiser en trouvant\r\nle meilleur $r$ possible.",
+    "solution": "Fixons $r\\in]0,1[$. D'après les formules de Cauchy, on a \r\n$$|a_n|=\\frac{1}{2\\pi r^n}\\left|\\int_0^{2\\pi}f(re^{it})e^{-int}dt\\right|\\leq\\frac{1}{2\\pi r^n}\\int_0^{2\\pi}\\frac{dt}{1-r}\\leq\\frac{1}{r^n(1-r)}.$$\r\nOn optimise le membre de droite de l'inégalité en étudiant la fonction $g(r)=r^n(1-r)$. Sa dérivée\r\nest $g'(r)=nr^{n-1}(1-r)-r^n=r^{n-1}(n-(n+1)r)$, elle s'annule pour $r=\\frac n{n+1}$. On obtient alors\r\n$$|a_n|\\leq\\left(1+\\frac{1}{n}\\right)^n(n+1).$$\r\nPour obtenir la deuxième partie de l'inégalité, il suffit de prouver que\r\n$(1+1/n)^n\\leq e$. Mais \r\n$$(1+1/n)^n=\\exp\\big(n\\ln(1+1/n)\\big)\\leq \\exp(n\\times 1/n)\\leq e,$$\r\noù on a utilisé l'inégalité classique $\\ln(1+x)\\leq x$.",
+    "lang": "french"
+}

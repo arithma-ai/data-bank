@@ -1,0 +1,6 @@
+{
+    "script": "On considère l'application\r\n$$\\begin{array}{rcl}\r\nf:\\mathbb R^3&\\to&\\mathbb R^3\r\n(x,y,z)&\\mapsto&(e^{2y}+e^{2z},e^{2x}-e^{2z},x-y).\r\n\\end{array}$$\r\nDémontrer que l'image de $f$ est un ouvert strictement inclus dans $\\mathbb R^3$.",
+    "hint": "Utiliser le théorème de l'image ouverte, et vérifier que $(0,1,1)$ n'est pas dans l'image de $f$.",
+    "solution": "Il est d'abord facile de vérifier que l'image de $f$ n'est pas $\\mathbb R^3$ : en effet, le point $(0,0,0)$ ne peut être atteint par $f$ puisque la fonction exponentielle est strictement positive.Pour démontrer que $f(\\mathbb R^3)$ est un ouvert, il suffit de vérifier que la différentielle de $f$ en tout point $(x,y,z)$ de $\\mathbb R^3$ est inversible. Or, la matrice jacobienne de $f$ est :\r\n$$A=\\begin{pmatrix}\r\n0&2e^{2y}&2e^{2z}\\\\\r\n2e^{2x}&0&-2e^{2z}\\\\\r\n1&-1&0\r\n\\end{pmatrix}.$$\r\nOn calcule le déterminant de cette matrice par exemple en développant par rapport à la dernière ligne et on trouve :\r\n$$\\det(A)=-4e^{2y+2z}-4e^{2x+2z}<0.$$\r\nIl n'est jamais nul, la différentielle de $f$ est bien une application linéaire inversible en tout point $(x,y,z)$ de $\\mathbb R^3$.",
+    "lang": "french"
+}

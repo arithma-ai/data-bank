@@ -1,0 +1,6 @@
+{
+    "script": "Après en avoir justifié l'existence, calculer par récurrence la valeur de \r\n$I_n=\\int_0^1 (\\ln x)^ndx.$",
+    "hint": "Intégrer par parties pour obtenir une relation entre $I_n$ et $I_{n-1}$.",
+    "solution": "La fonction $x\\mapsto (\\ln x)^n$ est continue sur $]0,1]$. De plus, au voisinage de $0$, on a\r\n$$(\\ln x)^n=o(1/\\sqrt x).$$\r\nPar comparaison avec une intégrale de Riemann, l'intégrale est convergente en 0. On va obtenir\r\nune formule de récurrence pour exprimer $I_n$ en fonction de $I_{n-1}$ en réalisant une intégration\r\npar parties. Pour cela, prenons $a\\in]0,1[$. On a :\r\n\\begin{eqnarray*}\r\n\\int_a^1(\\ln x)^n dx&=&\\left[x(\\ln x)^{n}\\right]_a^1-n\\int_a^1\\frac{x(\\ln x)^{n-1}}{x}dx\\\\\r\n&=&-a(\\ln a)^n-n\\int_a^1(\\ln x)^{n-1}dx.\r\n\\end{eqnarray*}\r\nOn fait tendre $a$ vers 0 et on obtient, puisque $a(\\ln a)^n\\to 0$ lorsque $a\\to 0$,\r\n$$I_n=-n\\int_0^1 (\\ln x)^{n-1}dx=-nI_{n-1}.$$\r\nPar récurrence, on prouve alors facilement que \r\n$$I_n=(-1)^n n! I_0.$$\r\nOr, $I_0=1$, et donc $I_n=(-1)^n n!$.",
+    "lang": "french"
+}

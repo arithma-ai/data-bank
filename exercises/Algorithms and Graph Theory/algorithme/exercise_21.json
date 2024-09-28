@@ -1,0 +1,6 @@
+{
+    "script": "L'algorithme suivant propose de calculer le pgcd de deux entiers $a$ et $b$, avec $a>b$.\r\nFonctionne-t-il? Sinon, corriger cet algorithme.Lire aLire bTant que (b non nul) Fairea=bb=reste de a par bFin Tant que.Afficher a.",
+    "hint": "",
+    "solution": "L'algorithme ne fonctionne pas. En effet, imaginons qu'on entre dans la boucle Tant que avec $a=25$ et $b=12$.\r\nAprès la première ligne du Tant que, on a $a=12$ et $b=12$, puis, dès la deuxième ligne, $b=0$.\r\nDans tous les cas, l'algorithme va renvoyer la valeur initiale de $b$. Pour le corriger, il faudrait introduire une troisième variable\r\n$r$, et écrire le Tant que sous la forme suivante :Tant que (b non nul) Fairer=reste de a par ba=bb=rFin Tant que.",
+    "lang": "french"
+}

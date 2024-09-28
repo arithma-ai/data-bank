@@ -1,0 +1,6 @@
+{
+    "script": "Écrire une fonction qui prend en argument une liste triée $l$ et un entier $elt$ et qui renvoie la liste triée obtenue par insertion à sa place de $elt$ dans $l$. On fera attention à ce que la liste $l$ peut être vide.",
+    "hint": "",
+    "solution": "def insere(l,elt):m=l.copy()if (len(m)==0):m.append(elt)return mif (elt>m[len(m)-1]):m.append(elt)return mi=0while (m[i]<elt):i+=1m.insert(i,elt)return mDans la fonction, on commence par tester si la liste est vide. Si ce n'est pas le cas, on regarde si l'élément est plus grand que tous les éléments de la liste : si c'est le cas, on l'ajoute à la fin. Sinon, on parcourt tous les éléments de la liste jusqu'à trouver la bonne place. Remarquons que la boucle se termine car, si on exécute la boucle, on sait que elt est inférieur ou égal au dernier élément de la liste. On réalise au début de la fonction une copie de la liste l pour ne pas modifier celle-ci.",
+    "lang": "french"
+}

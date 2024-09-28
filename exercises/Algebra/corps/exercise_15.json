@@ -1,0 +1,6 @@
+{
+    "script": "Le corps des fractions rationnelles $\\mathbb C(t)$ est-il algébriquement clos?",
+    "hint": "Considérer le polynôme $X^2-t$.",
+    "solution": "Imaginons que ce corps soit algébriquement clos. Alors le polynôme $X^2-t$ aurait une racine dans\r\n$\\mathbb C(t)$. Autrement dit, on pourrait trouver deux polynômes $P,Q\\in\\mathbb C[t]$ tels que\r\n$$\\left(\\frac{P(t)}{Q(t)}\\right)^2-t=0\\iff P^2(t)=tQ^2(t).$$\r\nMais ceci est impossible, car dans sa décomposition en facteurs irréductibles, le polynôme de gauche $P^2$ n'a\r\nque des facteurs irréductibles à un exposant pair, tandis que celui de droite à un facteur irréductible de degré\r\nimpair, à savoir $t$. Par unicité de la décomposition en facteurs irréductibles dans $\\mathbb C[t]$, on en déduit\r\nle résultat.",
+    "lang": "french"
+}

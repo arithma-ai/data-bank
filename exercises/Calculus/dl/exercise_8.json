@@ -1,0 +1,6 @@
+{
+    "script": "Calculer, à l'ordre 100, le développement limité en 0 de $\\ln\\left(\\sum_{k=0}^{99}\\frac{x^k}{k!}\\right)$.",
+    "hint": "$e^x=\\sum_{k=0}^{100}\\frac{x^k}{k!}+o(x^{100})$.",
+    "solution": "On écrit $e^x=\\sum_{k=0}^{100}\\frac{x^k}{k!}+o(x^{100})$, de sorte que\r\n\\begin{eqnarray*}\r\n\\ln\\left(\\sum_{k=0}^{99}\\frac{x^k}{k!}\\right)&=&\\ln\\left(e^x-\\frac{x^{100}}{100!}+o(x^{100})\\right)\\\\\r\n&=&x+\\ln\\left(1-e^{-x}\\left(\\frac{x^{100}}{100!}+o(x^{100})\\right)\\right)\\\\\r\n\\end{eqnarray*}\r\nMais $e^{-x}=1+o(1)$, et donc\r\n$$\\ln\\left(\\sum_{k=0}^{99}\\frac{x^k}{k!}\\right)=x+\\ln\\left(1-\\frac{x^{100}}{100!}+o(x^{100})\\right).$$\r\nOn en déduit finalement :\r\n$$\\ln\\left(\\sum_{k=0}^{99}\\frac{x^k}{k!}\\right)=x-\\frac{x^{100}}{100!}+o(x^{100}).$$",
+    "lang": "french"
+}

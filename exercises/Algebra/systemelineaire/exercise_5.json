@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre les deux systèmes suivants. Qu'en pensez-vous?\r\n\\begin{eqnarray*}\r\n\\left\\{\r\n\\begin{array}{rcl}\r\nx+5y+9z&=&180\\\\\r\n9x+10y+5z&=&40\\\\\r\n10x+9y+z&=&-50\\\\\r\n\\end{array}\\right.\r\n&\\quad\\quad&\r\n\\left\\{\r\n\\begin{array}{rcl}\r\nx+5y+9z&=&180\\\\\r\n9x+10y+5z&=&41\\\\\r\n10x+9y+z&=&-50\\\\\r\n\\end{array}\\right.\r\n\\end{eqnarray*}",
+    "hint": "",
+    "solution": "On résout le première système par la méthode du pivot de Gauss. En notant $(S)$ ce système, on a\r\n\\begin{eqnarray*}\r\n(S)&\\iff&\r\n\\left\\{\r\n\\begin{array}{rcll}\r\nx+5y+9z&=&180\\\\\r\n-35y-76z&=&-1580&\\quad L_2-9L_1\\\\\r\n-41y-89z&=&-1850&\\quad L_3-10L_1\r\n\\end{array}\\right.\\\\\r\n&\\iff&\r\n\\left\\{\r\n\\begin{array}{rcll}\r\nx+5y+9z&=&180\\\\\r\n-35y-76z&=&-1580\\\\\r\nz&=&30&\\quad 35L_3-41L_2\r\n\\end{array}\\right.\r\n\\end{eqnarray*}\r\nOn conclut alors facilement que le système admet une solution unique qui vaut (10,-20,30).\r\nLa résolution de l'autre système est très semblable et donne pour solution unique (-66,69,-11).\r\nDeux systèmes très proches peuvent donc avoir des solutions très différentes. On dit que le système est mal conditionné.",
+    "lang": "french"
+}

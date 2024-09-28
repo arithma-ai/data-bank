@@ -1,0 +1,6 @@
+{
+    "script": "On considère la fonction $g$ définie sur $\\mathbb R$ par \r\n$$g(x)=\\left\\{\r\n\\begin{array}{ll}\r\n\\frac1{\\ln |x|}&\\textrm{ si }x\\notin\\{-1,0,1\\}\\\\\r\n0&\\textrm{ si }x=-1,0,1\r\n\\end{array}\\right.$$\r\nEn quels points $g$ est-elle continue?",
+    "hint": "",
+    "solution": "D'abord, $g$ est continue sur $\\mathbb R\\backslash\\{-1,0,1\\}$ comme inverse d'une fonction continue dont le dénominateur ne s'annule pas.Étudions ensuite la continuité de $g$ en $0$. Puisque $\\lim_{x\\to 0}\\ln|x|=-\\infty$, on a \r\n$$\\lim_{x\\to 0}g(x)=\\lim_{X\\to -\\infty}\\frac 1X=0=g(0).$$\r\nLa fonction $g$ est continue en $0$. Ensuite, puisque $\\lim_{x\\to 1^+}\\ln |x|=0^+$, on a \r\n$$\\lim_{x\\to 1^+}g(x)=\\lim_{X\\to 0^+}\\frac 1X=+\\infty\\neq g(1).$$\r\nLa fonction $g$ n'est pas continue en $1$. De même, on prouve que $g$ n'est pas continue en $-1$.",
+    "lang": "french"
+}

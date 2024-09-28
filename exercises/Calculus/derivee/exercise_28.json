@@ -1,0 +1,6 @@
+{
+    "script": "Majorer l'erreur commise dans les approximations suivantes :\r\n$$\\mathbf a.\\sqrt{10001}\\simeq 100;\\ \\mathbf b. \\frac{1}{0,999^2}\\simeq 1;\\ \\mathbf c.\\cos 1\\simeq\\frac12.$$",
+    "hint": "Utiliser l'inégalité des accroissements finis avec une fonction bien choisie.",
+    "solution": "On va utiliser l'inégalité des accroissements finis avec une fonction bien choisie :Posons $f(x)=\\sqrt x$ sur $[10000,10001]$. Alors\r\n$$0\\leq f'(x)=\\frac{1}{2\\sqrt x}\\leq \\frac{1}{200},$$\r\net donc\r\n$$\\sqrt{10001}-100\\leq \\frac{1}{200}.$$Posons $g(x)=\\frac 1{x^2}$ sur $[0,999;1]$. Alors, sur cet intervalle, \r\n$$g'(x)=\\frac{-2}{x^3}\\textrm{ soit }|g'(x)|\\leq \\frac{2}{0,999^3}\\leq 3.$$\r\nAinsi, \r\n$$\\left|\\frac{1}{0,999^2}-1\\right|\\leq 3\\cdot 10^{-3}.$$Posons $h(x)=\\cos(x)$, de dérivée $-\\sin x$, $|h'(x)|\\leq 1$. \r\nOn a donc \r\n$$\\left|\\cos 1-\\frac 12\\right|\\leq \\left| 1-\\frac\\pi 3\\right| \\leq 5\\cdot 10^{-2}.$$",
+    "lang": "french"
+}

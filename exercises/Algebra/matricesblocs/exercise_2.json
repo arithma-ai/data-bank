@@ -1,0 +1,6 @@
+{
+    "script": "Pour $A\\in\\mathcal M_n(\\mathbb R)$ et $B\\in\\mathcal M_p(\\mathbb R)$, on définit le produit tensoriel de $A$ et $B$ par \r\n$$A\\otimes B=\\left(\\begin{array}{ccc}\r\na_{1,1}B&\\dots&a_{1,n}B\\\\\r\n\\vdots&&\\vdots\\\\\r\na_{n,1}B&\\dots&a_{n,n}B\r\n\\end{array}\\right).$$\r\nQuelle est la taille de la matrice $A\\otimes B$? Démontrer que $\\textrm{tr}(A\\otimes B)=\\textrm{tr}(A)\\textrm{tr}(B)$.",
+    "hint": "",
+    "solution": "La matrice $A\\otimes B$ est une matrice de $\\mathcal M_{np}(\\mathbb R)$. De plus, ses coefficients diagonaux sont constitués par :les coefficients diagonaux de $B$ multipliés par $a_{1,1}$les coefficients diagonaux de $B$ multipliés par $a_{2,2}$$\\vdots$les coefficients diagonaux de $B$ multipliés par $a_{n,n}$.Donc ce sont les $a_{i,i}b_{j,j}$, pour $i=1,\\dots,n$, $j=1,\\dots p$.\r\nOn a donc \r\n$$\\textrm{tr}(A\\otimes B)=\\sum_{i=1}^n \\sum_{j=1}^p a_{i,i}b_{j,j}=\\left(\\sum_{i=1}^n a_{i,i}\\right)\\left(\\sum_{j=1}^p b_{j,j}\\right)=\r\n\\textrm{tr}(A)\\textrm{tr}(B).$$",
+    "lang": "french"
+}

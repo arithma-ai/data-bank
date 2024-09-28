@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que $\\log_{10}2$ est irrationnel.",
+    "hint": "Procéder par l'absurde.",
+    "solution": "Procédons par l'absurde, et supposons que $\\log_{10}2=\\frac pq$ est rationnel; avec $p$ et $q$ des entiers naturels. Ceci s'écrit encore \r\n$$\\frac{\\ln 2}{\\ln 10}=\\frac pq\\iff q\\ln 2=p\\ln 10\\iff \\ln(2^q)=\\ln(10^p)\\iff 2^q=\r\n10^p.$$\r\nCeci se réécrit encore $2^p5^p=2^q$. Par unicité du développement en facteurs premiers, on obtiendrait nécessairement que $p=q$ et que $p=0$. Ceci donne $\\log_{10}2=1$, ce qui est faux! Donc le logarithme en base 10 de 2 est irrationnel!",
+    "lang": "french"
+}

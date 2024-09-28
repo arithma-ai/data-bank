@@ -1,0 +1,6 @@
+{
+    "script": "En considérant l'application $\\phi:\\mathcal M_n(\\mathbb R)\\to\\mathcal M_n(\\mathbb R),\\ M\\mapsto M^2$, démontrer qu'il existe $\\alpha>0$ telle que toute matrice $A\\in\\mathcal M_n(\\mathbb R)$ vérifiant \r\n$\\|A-I\\|<\\alpha$ possède une racine carrée, où $I$ désigne la matrice unité de $\\mathcal M_n(\\mathbb R)$.",
+    "hint": "Appliquer le théorème d'inversion locale à $\\phi$ en l'identité. Le $\\alpha>0$ vient du voisinage obtenu à l'arrivée.",
+    "solution": "L'application $\\phi$ est différentiable sur $\\mathcal M_n(\\mathbb R)$ (elle est de classe $C^\\infty$, car c'est un polynôme). Pour calculer sa différentielle en l'identité, on remarque que \r\n$$(I+H)^2=I+2H+H^2\\textrm{ avec }H^2=o(\\|H\\|).$$\r\nAinsi, $d\\phi_I(H)=2H$, soit $d\\phi_I=2Id_{\\mathcal M_n(\\mathbb R)}$. En particulier, la différentielle de $\\phi$ en $I$ est inversible. Il existe donc un voisinage ouvert $U$ de $I$ dans $\\mathcal M_n(\\mathbb R)$ et un voisinage ouvert $V$ de $\\phi(I)=I$ dans $\\mathcal M_n(\\mathbb R)$ tel que $\\phi$ réalise un $C^1$-difféomorphisme de $U$ sur $V$. Soit $\\alpha>0$ tel que toute matrice $A$ vérifiant $\\|A-I\\|<\\alpha$ vérifie $A\\in V$. Alors il existe $M\\in U$ tel que $\\phi(M)=M^2=A$. Ainsi, $A$ possède bien une racine carrée.",
+    "lang": "french"
+}

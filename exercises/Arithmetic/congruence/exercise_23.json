@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout entier naturel $n$, $3^{2n+1} + 2^{4n+2}$ est divisible par 7.",
+    "hint": "Raisonner par récurrence sur n, en testant la divisibilité par 7 grâce aux congruences modulo 7.\r\nLe point clé pour le passage du rang $n$ au rang $n+1$ est qu'à la fois $2^4$ et $3^2$ sont congrus à $2$ modulo $7$.",
+    "solution": "Notons, pour $n\\in\\mathbb N$, la propriété $\\mathcal P(n)=$\"$3^{2n+1} + 2^{4n+2}$ est divisible par $7$\".\r\nProuvons par récurrence que pour tout $n\\in\\mathbb N$, $\\mathcal P(n)$ est vérifiée.Initialisation : On a $3^1+2^2=7$ qui est bien divisible par 7.Hérédité : Soit $n\\in\\mathbb N$ tel que $\\mathcal P(n)$ est vraie. Remarquons que $3^2\\equiv 2\\ [7]$ et que $2^4\\equiv 2\\ [7]$. Alors, on écrit (modulo 7) :\r\n\\begin{eqnarray*}\r\n 3^{2n+3}+2^{4n+6}&\\equiv&3^2 3^{2n+1}+2^4 2^{4n+2}\\ [7]\\\\\r\n &\\equiv& 2 \\times 3^{2n+1}+2\\times 2^{4n+2}\\ [7]\\\\\r\n &\\equiv& 2\\times (3^{2n+1}+2^{4n+2})\\ [7]\\\\\r\n &\\equiv& 2\\times 0\\ [7]\\\\\r\n &\\equiv& 0\\ [7].\r\n\\end{eqnarray*}\r\nAinsi, $7$ divise $3^{2n+3}+2^{4n+6}$ et donc $\\mathcal P(n+1)$ est vraie.En conclusion, par le principe de récurrence, $\\mathcal P(n)$ est vraie pour tout $n\\in\\mathbb N$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer la formule de trigonométrie \r\n$\\cos(4\\theta)=\\cos^4(\\theta)-6\\cos^2(\\theta)\\sin^2(\\theta)+\\sin^4(\\theta)$.Fournir une relation analogue pour $\\sin(4\\theta)$.",
+    "hint": "Utiliser la formule de de Moivre, développer par la formule du binôme de Newton, puis regrouper les parties réelles et les parties imaginaires.",
+    "solution": "D'après la formule de de Moivre, on sait que \r\n$$\\cos(4\\theta)+i\\sin(4\\theta)=\\big(\\cos(\\theta)+i\\sin(\\theta)\\big)^4.$$\r\nOn développe le second membre, toujours en utilisant la formule du binôme :\r\n\\begin{align*}\r\n \\big(\\cos(\\theta)+i\\sin(\\theta)\\big)^4&=\\cos^4(\\theta)+4\\cos^3(\\theta)(i\\sin(\\theta))+6\\cos^2(\\theta)(i\\sin(\\theta))^2\\\\\r\n &\\quad\\quad+4\\cos(\\theta)(i\\sin\\theta)^3+(i\\sin(\\theta))^4\\\\\r\n &=\\cos^4(\\theta)+4i\\cos^3(\\theta)\\sin(\\theta)-6\\cos^2(\\theta)\\sin^2(\\theta)\\\\\r\n &\\quad\\quad -4i\\cos(\\theta)\\sin^3(\\theta)+\\sin^4(\\theta).\r\n\\end{align*}\r\nFinalement, en identifiant les parties réelles et imaginaires, on trouve\r\n\\begin{align*}\r\n \\cos(4\\theta)&=\\cos^4(\\theta)-6\\cos^2(\\theta)\\sin^2(\\theta)+\\sin^4(\\theta)\\\\\r\n \\sin(4\\theta)&=4\\cos^3(\\theta)\\sin(\\theta)-4\\cos(\\theta)\\sin^3(\\theta).\r\n\\end{align*}",
+    "lang": "french"
+}

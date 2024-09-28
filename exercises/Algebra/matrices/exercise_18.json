@@ -1,0 +1,6 @@
+{
+    "script": "On dit qu'une matrice $A\\in\\mathcal M_n(\\mathbb K)$ est nilpotente s'il existe $p\\in\\mathbb N$ tel que $A^p=0$. Démontrer que si $A,B\\in\\mathcal M_n(\\mathbb K)$ sont deux matrices nilpotentes telles que $AB=BA$, alors $AB$ et $A+B$ sont nilpotentes.",
+    "hint": "Pour $A+B$, appliquer la formule du binôme à l'ordre $p+q$, où $A^p=0$ et $B^q=0$.",
+    "solution": "Soit $p,q\\in\\mathbb N$ tels que $A^p=0$ et $B^q=0$. Posons $r=\\max(p,q)$. Alors, puisque $A$ et $B$ commutent, on a \r\n$$(AB)^r=A^rB^r=A^p\\cdot A^{r-p}\\cdot B^q\\cdot B^{r-q}=0$$\r\n(on pourrait même choisir $r=\\min(p,q)$ comme ordre de nilpotence).Pour démontrer que $A+B$ est nilpotente, appliquons la formule du binôme de Newton à l'ordre $p+q$. Il vient\r\n$$(A+B)^{p+q}=\\sum_{k=0}^{p+q}\\binom {p+q}k A^k B^{p+q-k}.$$\r\nMais si $k\\geq p$, on a $A^p=0$ et si $k<p$, alors $-k>-p$ et $p+q-k>q$ donc $B^{p+q-k}=0$. Dans tous les cas, si $k\\in \\{0,\\dots,p+q\\}$, on a $A^k B^{p+q-k}=0$ et donc $(A+B)^{p+q}=0$.",
+    "lang": "french"
+}

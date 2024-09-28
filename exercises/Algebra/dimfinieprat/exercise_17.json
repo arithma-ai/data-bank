@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E=\\mathbb R_4[X]$ et $a$, $b$ deux réels distincts.\r\nOn désigne par  $F$ l'ensemble des polynômes de $E$ dont $a$ et $b$ sont racines.\r\nMontrer que $F$ est un sous-espace vectoriel de $E$. En donner une base.",
+    "hint": "Tout polynôme de $F$ s'écrit $P=(X-a)(X-b)Q$ avec $\\deg(Q)\\leq 2$.",
+    "solution": "Il est d'abord très facile de vérifier que $F$ est un sous-espace vectoriel de $E$.\r\nDe plus, prenons $P\\in F$. Alors $P$ s'écrit $P(X)=(X-a)(X-b)Q(X)$.\r\nPuisque $P$ est de degré inférieur ou égal à 4, $Q$ est de degré inférieur ou égal à 2,\r\net donc $Q(X)=uX^2+vX+w$. Développant, on trouve\r\n$$P(X)=u X^2(X-a)(X-b)+vX (X-a)(X-b)+w(X-a)(X-b).$$\r\nAutrement dit, la famille $\\big( X^2(X-a)(X-b), X(X-a)(X-b), (X-a)(X-b)\\big)$\r\nest une famille génératrice de $F$. De plus, elle est libre puisque les polynômes qui la constituent\r\nont tous des degrés différents. C'est donc une base de $F$.",
+    "lang": "french"
+}

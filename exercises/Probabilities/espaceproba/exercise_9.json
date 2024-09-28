@@ -1,0 +1,6 @@
+{
+    "script": "Soient $(\\Omega,\\mathcal F,\\mathbb P)$ un espace probabilisé, et $A_1,\\dots,A_n$\r\ndes événements. Démontrer que \r\n$$\\mathbb P(A_1\\cap\\dots\\cap A_n)\\geq \\left(\\sum_{i=1}^n \\mathbb P(A_i)\\right)-(n-1).$$",
+    "hint": "Procéder par récurrence sur $n$.",
+    "solution": "On va procéder par récurrence sur $n$, le point clé étant la formule \r\n$$\\mathbb P(A\\cap B)=\\mathbb P(A)+\\mathbb P(B)-\\mathbb P(A\\cup B).$$\r\n La propriété est vraie si $n=1$. Supposons-la vraie jusqu'au rang $n-1$, et prouvons-la au rang $n$.\r\n On pose $A=A_1\\cap\\dots\\cap A_{n-1}$ et $B=A_n$. Alors, d'après la formule précédente\r\n$$\\mathbb P(A_1\\cap\\dots\\cap A_n)=\\mathbb P(A\\cap B)=\\mathbb P(A)+\\mathbb P(B)-\\mathbb P(A\\cup B).$$\r\nMaintenant, on utilise l'hypothèse de récurrence pour minorer $\\mathbb P(A)$, et\r\non utilise le fait que $\\mathbb P(A\\cup B)\\leq 1$, et on obtient \r\n$$\\mathbb P(A_1\\cap\\dots\\cap A_n)\\geq \\sum_{i=1}^{n-1} \\mathbb P(A_i)-(n-2)+P(A_n)-1$$\r\nce qui est exactement le résultat voulu.",
+    "lang": "french"
+}

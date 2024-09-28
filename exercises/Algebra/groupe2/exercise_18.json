@@ -1,0 +1,6 @@
+{
+    "script": "Soit $p$ un nombre premier et $n$ un entier naturel avec $p>n$. On considère $G$ un groupe d'ordre $pn$, et $H$ un sous-groupe de $G$ d'ordre $p$. Démontrer que $H$ est un sous-groupe normal de $G$.",
+    "hint": "Dénombrer les $p$-Sylow de $G$.",
+    "solution": "D'après les hypothèses, $p\\wedge n=1$, et donc $H$ est un p-Sylow de $G$. Pour tout $g\\in G$, $gHg^{-1}$ est aussi un $p$-Sylow de $G$. Il suffit donc de démontrer que $G$ admet un seul $p$-Sylow. Notons $N$ le nombre de $p$-Sylow de $G$. Alors par les théorèmes de Sylow, $N$ est congru à $1$ modulo $p$, et $N$ divise $n$. Si $N\\neq 1$, alors $N\\geq p+1$, ce qui contredit que $N$ divise $n$ puisque $n<p$. Ainsi, $N$ est égal à 1, et $H$ est un sous-groupe normal de $G$.",
+    "lang": "french"
+}

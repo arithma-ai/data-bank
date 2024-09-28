@@ -1,0 +1,6 @@
+{
+    "script": "Calculer l'intégrale $I=\\int_\\Gamma \\bar zdz$, où $\\Gamma$ est le chemin joignant le point $(1,1)$\r\nau point $(2,4)$ le long de la parabole d'équation $y=x^2$.",
+    "hint": "Remplacer $z$ par $z=t+it^2$, où $t\\in[1,2]$.",
+    "solution": "Le chemin est paramétré par $t\\mapsto (t,t^2)$, où $t\\in[1,2]$.\r\nOn a donc, le long du chemin, $z=t+it^2$, $dz=(1+2it)dt$, et donc\r\n$$I=\\int_1^2(t-it^2)(1+2it)dt=9+\\frac 73i.$$",
+    "lang": "french"
+}

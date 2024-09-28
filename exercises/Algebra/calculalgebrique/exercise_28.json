@@ -1,0 +1,6 @@
+{
+    "script": "En écrivant que \r\n$$\\sum_{k=1}^n k2^k=\\sum_{k=1}^n \\sum_{j=1}^k 2^k,$$\r\ncalculer $\\sum_{k=1}^n k2^k$.",
+    "hint": "Permuter les sommes!",
+    "solution": "L'idée pour réaliser ce calcul est de permuter l'ordre de sommation, pour sommer d'abord sur $j$ puis ensuite sur $k$. On remarque qu'alors $j$ varie entre $1$ et $n$, puis que $k$ varie entre $j$ et $n$. On a donc\r\n\\begin{align*}\r\n\\sum_{k=1}^n \\sum_{j=1}^k 2^k&=\\sum_{j=1}^n \\sum_{k=j}^n 2^k\\\\\r\n&=\\sum_{j=1}^n( 2^{n+1}-2^j)\\\\\r\n&=n2^{n+1}-\\left(2^{n+1}-2\\right)\\\\\r\n&=(n-1)2^{n+1}+2.\r\n\\end{align*}",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre le système suivant, d'inconnue $x\\in\\mathbb Z$ : \r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx&\\equiv&1\\ [5]\\\\\r\nx&\\equiv&2\\ [11].\r\n\\end{array}\\right.$$",
+    "hint": "Commencer par résoudre $x\\equiv 1\\ [5]$, puis introduire le résultat dans la seconde équation.",
+    "solution": "Soit $x$ une solution du système. Puisque $x\\equiv 1\\ [5]$, il existe $k\\in\\mathbb Z$ tel que $x=1+5k$. Reportant dans la deuxième équation, on trouve $1+5k\\equiv 2\\ [11]$ soit $5k\\equiv 1\\ [11]$. Multiplions ceci par $2$. Puisque $10\\equiv -1\\ [11]$, on obtient \r\n$$-k\\equiv 2\\ [11]\\iff k\\equiv -2\\ [11].$$\r\nIl existe donc $\\ell\\in\\mathbb Z$ tel que $k=-2+11\\ell$. Finalement, on a prouvé que si $x$ est solution, alors $x=1-10+55\\ell=-9+55\\ell$, $\\ell\\in\\mathbb Z$.Réciproquement, si $x=-9+55\\ell$, $\\ell\\in\\mathbb Z$, on écrit $x=1+5\\times (-2+11\\ell)$ puis $x=2+11\\times(-1+5\\ell)$ pour prouver que $x$ est bien solution du système.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les coordonnées de $grad\\ f$ où $f$ est le champ scalaire suivant :$f(x,y,z)=xy^2-yz^2$.$f(x,y,z)=xyz\\sin(xy)$.Déterminer $div f$ où $f$ est le champ de vecteurs suivant :$f(x,y,z)=(2x^2y,2xy^2,xy)$.$f(x,y,z)=(\\sin(xy),0,\\cos(xz))$.$f(x,y,z)=(x(2y+z),-y(x+z),z(x-2y))$.",
+    "hint": "Appliquer la définition!",
+    "solution": "$grad(f)=(y^2,2xy-z^2,-2yz)$.$grad(f)=\\left(yz\\sin(xy)+xy^2z\\cos(xy),xz\\sin(xy)+x^2yz\\cos(xy),xy\\sin(xy)\\right)$.$div(f)=8xy$.$div(f)=y\\cos(xy)-x\\sin(xz)$.$div(f)=0$.",
+    "lang": "french"
+}

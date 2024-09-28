@@ -1,0 +1,6 @@
+{
+    "script": "Soit $a_1,\\dots,a_n$ des nombres complexes vérifiant\r\n$$\\sum_{k=1}^n a_k^p=0$$\r\npour tout $p>0.$ On souhaite prouver que tous les $a_i$ sont nuls.\r\nOn note $D$ la matrice diagonale dont les coefficients sont $a_1,\\dots,a_n.$Quelle est la trace de $D^p$, pour $p\\geq 1$?En utilisant le théorème de Cayley-Hamilton, prouver que l'un des $a_i$ est nul.Conclure.",
+    "hint": "Appliquer la trace à l'égalité résultat du théorème de Cayley-Hamilton.Au moins un des coefficients est nul.",
+    "solution": "On a $\\textrm{Tr}(D^p)=\\sum_{k=1}^n a_k^p.$Notons $\\chi_D(X)=X^n+c_{n-1}X^{n-1}+\\cdots+c_1X+c_0$ le polynôme caractéristique de $D.$ Alors par le théorème de Cayley-Hamiton,\r\n$$D^n+c_{n-1}D^{n-1}+\\cdots+c_1 D+c_0 I_n=0.$$\r\nAppliquons la trace à l'égalité précédente. On trouve \r\n$$nc_0=0\\implies c_0=0.$$\r\nOr, $c_0=\\pm\\det(D)=\\pm\\prod_{i=1}^n a_i.$ On a bien prouvé que l'un des $a_i$ est nul.Si l'un des $a_i$ est non nul, on note $I=\\{i\\in\\{1,\\dots,n\\}:\\ a_i\\neq 0\\}$ et on note $b_1,\\dots,b_N$ les éléments de $\\{a_i:\\ i\\in I\\}.$ On peut alors appliquer le résultat de la question précédente pour prouver que l'un des complexes $b_1,\\dots,b_N$ est nul. C'est une contradiction.",
+    "lang": "french"
+}

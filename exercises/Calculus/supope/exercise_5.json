@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction définie sur $]a,b[$ de classe $C^1$ par morceaux. Soit $a=a_0<a_1<\\dots<a_N=b$ une\r\nsubdivision adaptée à $f$, c'est-à-dire que $f$ se prolonge en une fonction de classe $C^1$ sur chaque $[a_i,a_{i+1}]$. Montrer que l'on a :\r\n$$(T_f)'=T_{f'}+\\sum_{i=1}^{N-1}\\left(f(a_i+0)-f(a_i-0)\\right)\\delta_{a_i},$$\r\noù $f'$ est la dérivée usuelle de $f$, définie hors des points $a_i$, et $f(a_i\\pm0)$ sont les limites à\r\ndroite et à gauche de $f$ en $a_i$ (les distributions sont considérées\r\ncomme éléments de $\\mcd'(]a,b[)$.",
+    "hint": "Découper l'intégrale et intégrer par parties.",
+    "solution": "Par définition, on a \r\n$$\\langle (T_f)',\\phi\\rangle =-\\langle T_f,\\phi'\\rangle=-\\int_a^b f(x)\\phi'(x)dx.$$\r\nOn découpe l'intégrale, et on effectue dans chaque intervalle $]a_i,a_{i+1}[$ une intégration par parties.\r\nOn obtient d'abord des intégrales, qui à nouveau regroupées donne le terme en $\\langle T_{f'},\\phi\\rangle$.\r\nLes termes constants correspondent exactement aux masses de Dirac!",
+    "lang": "french"
+}

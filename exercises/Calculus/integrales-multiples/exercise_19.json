@@ -1,0 +1,6 @@
+{
+    "script": "Calculer l'aire du compact $D$ du quart de plan $\\mtr^{+*}\\times\\mtr^{+*}$ délimité par les droites d'équation $y=ax$ et $y=\\frac{1}{a}x$, et par les hyperboles d'équation $y=\\frac{b}{x}$ et $y=\\frac{1}{bx}$.",
+    "hint": "Utiliser le changement de variables $u=xy$ et $v=y/x$.",
+    "solution": "Remarquons que l'on a :\r\n$$(x,y)\\in D\\iff \\frac{1}{b}\\leq xy\\leq b\\textrm{ et }\\frac{1}{a}\\leq\\frac{y}{x}\\leq a.$$\r\nCeci nous invite à considérer le changement de variables $u=xy$ et $v=y/x$. On a alors :\r\n$$(x,y)\\in D\\iff (u,v)\\in[1/b;b]\\times [1/a;a].$$\r\nIl faut ici faire attention (et c'est la seule difficulté de l'exercice!) au sens du changement de variables, qui se fait dans le sens opposé à ce qui doit apparaitre pour le calcul du jacobien dans le changement de variables. Mais on a :\r\n$$x=\\sqrt{\\frac{u}{v}}\\textrm{ et }y=\\sqrt{uv}.$$\r\nLa matrice jacobienne en $(u,v)$ vaut donc :\r\n$$\\left(\r\n\\begin{array}{cc}\r\n\\frac{1}{2\\sqrt{uv}}&-\\frac{\\sqrt{u}}{2v\\sqrt{v}}\\\\\r\n\\frac{\\sqrt{v}}{2\\sqrt{u}}&\\frac{\\sqrt{u}}{2\\sqrt{v}} \r\n\\end{array}\\right).$$\r\nLa valeur absolue du déterminant jacobien vaut donc : $\\frac{1}{2v}$.\r\nOn en déduit l'aire de $D$ :\r\n$$A=\\int_{u=1/b}^b\\int_{v=1/a}^a\\frac{1}{2v}dvdu=\\left(b-\\frac{1}{b}\\right)\\ln(a).$$",
+    "lang": "french"
+}

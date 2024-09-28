@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que la fonction réciproque d'une fonction impaire bijective $f:\\mathbb R\\to\\mathbb R$ est impaire. Que dire pour une fonction paire?",
+    "hint": "Utiliser les définitions.",
+    "solution": "Soit $y=f(x)\\in\\mathbb R$. Alors, $f(-x)=-y$, et donc \r\n$$f^{-1}(-y)=-x=-f^{-1}(y).$$\r\nC'est bien que $f^{-1}$ est impaire.  En revanche, une fonction paire n'est jamais bijective (car elle n'est pas injective).",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ une fonction. Énoncer en langage courant les assertions suivantes écrites à l'aide de quantificateurs. Peut-on trouver\r\nune fonction qui satisfait cette assertion? Qui ne la satisfait pas?$\\forall x\\in \\mathbb R,\\ \\exists y\\in \\mathbb R,\\ f(x)< f(y);$$\\forall x\\in\\mathbb R,\\ \\exists T\\in\\mathbb R,\\ f(x)=f(x+T);$$\\forall x\\in\\mathbb R,\\ \\exists T\\in\\mathbb R^*,\\ f(x)=f(x+T);$$\\exists x\\in\\mathbb R,\\ \\forall y\\in\\mathbb R,\\ y=f(x).$",
+    "hint": "",
+    "solution": "$f$ n'admet pas de maximum. Par exemple, $f(x)=x$ satisfait cette assertion.\r\n$f(x)=\\sin x$ ne satisfait pas cette assertion.Toute fonction vérifie cette assertion, il suffit de prendre $T=0$.Toutes les valeurs de $f$ sont prises au moins deux fois. $f(x)=\\sin x$ est un exemple de fonctions vérifiant\r\ncette assertion, $f(x)=x$ un contre-exemple.Cette assertion est absurde, car elle signifierait qu'il existe un réel $x$ tel que $f(x)$ prenne toutes les valeurs réelles possibles.\r\nAucune fonction ne satisfait cette assertion.",
+    "lang": "french"
+}

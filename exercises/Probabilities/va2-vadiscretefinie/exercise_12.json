@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire suivant une loi uniforme sur $\\{1,\\dots,20\\}$. Déterminer la loi de $\\lfloor \\sqrt X\\rfloor$.",
+    "hint": "Commencer par déterminer les valeurs prises par $\\lfloor \\sqrt X\\rfloor$.",
+    "solution": "Pour simplifier les notations, posons $Y=\\lfloor \\sqrt X\\rfloor$. Alors, $Y$ peut prendre les valeurs $1,2,3,4$. Plus précisément,si $X=1$, $X=2$ ou $X=3$, alors $Y=1$. En particulier, \r\n$$P(Y=1)=P(X=1)+P(X=2)+P(X=3)=\\frac 3{20}.$$si $X=4$, $X=5$, $X=6$, $X=7$ ou $X=8$, alors $Y=2$. En particulier, \r\n$$P(Y=2)=\\frac 5{20}.$$si $X=9$, $X=10$, $X=11$, $X=12$, $X=13$, $X=14$ ou $X=15$, alors $Y=3$. En particulier,\r\n$$P(Y=3)=\\frac{7}{20}.$$si $X=16,17,18,19$ ou $20$, alors $Y=4$. En particulier,\r\n$$P(Y=4)=\\frac{5}{20}.$$",
+    "lang": "french"
+}

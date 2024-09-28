@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\in\\mathbb N^*$; on note $\\mathbb U_n$ l'ensemble des racines $n$-ièmes de l'unité. Calculer $\\sum_{z\\in \\mathbb U_n}|z-1|$.",
+    "hint": "Se ramener à une somme de sinus en écrivant la forme d'une racine $n$-ième de l'unité et en en déduisant une autre expression pour $|z-1|$.",
+    "solution": "Soit $k\\in\\{0,\\dots,n-1\\}$ et soit $\\omega_k=e^{2ik\\pi/n}$. Alors \r\n$$|\\omega_k-1|=|e^{i2k\\pi/n}-e^{i0}|=2|\\sin(k\\pi/n)|$$\r\nen factorisant par l'angle moitié. De plus, pour $k\\in\\{0,\\dots,n-1\\}$, $k\\pi/n\\in[0,\\pi]$ et le sinus est positif. On en déduit\r\n\\begin{eqnarray*}\r\n\\sum_{z\\in\\mathbb U_n}|z-1|&=&2\\sum_{k=0}^{n-1}\\sin(k\\pi/n)\\\\\r\n&=&2\\Im m\\left(\\sum_{k=0}^{n-1}e^{ik\\pi/n}\\right)\\\\\r\n&=&4\\Im m\\left(\\frac 1{1-e^{i\\pi/n}}\\right)\\\\\r\n&=&4\\Im m\\left(\\frac 1{-2i\\sin(\\pi/2n)e^{i\\pi/2n}}\\right)\\\\\r\n&=&2\\Im m\\left(\\frac{ie^{-i\\pi/2n}}{\\sin(\\pi/2n)}\\right)\\\\\r\n&=&2\\frac{\\cos(\\pi/2n)}{\\sin(\\pi/2n)}.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

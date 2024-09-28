@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer la nature au point $t=0$ des arcs paramétrés suivants :\r\n$$\r\n\\begin{array}{lll}\r\n\\mathbf{1.}\\ t\\mapsto (t+2t^2-t^3,t+2t^2-t^7)&\\quad\\quad&\\mathbf{2.}\\ t\\mapsto (-t+t^2,t^2+t^3)\\\\\r\n\\mathbf{3.}\\ t\\mapsto (-t^2-2t^3,-t^3-t^5)&\\quad\\quad&\\mathbf{4.}\\ t\\mapsto (t^2+3t^3+t^4,-2t^2-6t^3+t^4).\r\n\\end{array}\r\n$$",
+    "hint": "",
+    "solution": "Pour chaque arc, on notera $t\\mapsto f(t)$ l'application correspondante.On a $f'(0)=(1,1)$, $f''(0)=(4,4)$ qui est donc parallèle à $f'(0)$, et $f^{(3)}(t)=(-6,0)$ qui n'est pas parallèle à $f'(0)$. Ainsi, on a affaire à un point d'inflexion.On a $f'(0)=(-1,0)$ et $f''(0)=(2,2)$; ces deux vecteurs ne sont pas parallèles et on a affaire à un point ordinaire.On a $f'(0)=(0,0)$ : le point est un point singulier. De plus, $f^{''}(0)=(-2,0)$ et $f^{(3)}(0)=(-12,6)$, vecteurs non parallèles. Le point $(0,0)$ est un point de\r\nrebroussement de première espèce.On a $f'(0)=(0,0)$, $f''(0)=(2,-4)$, $f^{(3)}(0)=(18,-36)$, colinéaire à $f''(0)$, et $f^{(4)}(0)=(24,24)$, non colinéaire à $f''(0)$. Le point $(0,0)$ est donc\r\nun point de rebroussement de deuxième espèce.",
+    "lang": "french"
+}

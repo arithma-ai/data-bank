@@ -1,0 +1,6 @@
+{
+    "script": "Soient $G$ un groupe et $H,K$ deux sous-groupes de $G$ normaux. Démontrer que le sous-groupe engendré par $H\\cup K$ est normal.",
+    "hint": "",
+    "solution": "Notons $L$ le sous-groupe engendré par $H\\cup K$. Un élément de $L$ s'écrit $h_1k_1\\cdots h_rk_r$, avec $r\\in\\mathbb N$, $h_i\\in H$ et $k_i\\in K$. Considérons maintenant $x\\in G$. Alors \r\n$$xh_1k_1\\cdots h_rk_rx^{-1}=(xh_1x^{-1})(xk_1x^{-1})\\cdots (xh_rx^{-1})(xk_rx^{-1}).$$\r\nComme tous les $xh_ix^{-1}$ et $xk_ix^{-1}$ sont éléments de $L$, il en est de même de leur produit. Finalement, on a prouvé que $L$ est normal.",
+    "lang": "french"
+}

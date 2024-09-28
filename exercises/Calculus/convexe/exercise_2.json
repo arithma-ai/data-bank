@@ -1,0 +1,6 @@
+{
+    "script": "Soit $C_1$ et $C_2$ deux ensembles convexes de $\\mathbb R^n$ et $C_1+C_2=\\{x+y;\\ x\\in C_1,\\ y\\in C_2\\}$. \r\nDémontrer que $C_1+C_2$ est convexe.",
+    "hint": "Revenir à la définition...",
+    "solution": "Soit $z_1,\\ z_2\\in C_1+ C_2$ et $t\\in]0,1[$. Alors $z_1=x_1+y_1$ et $z_2=x_2+y_2$\r\navec $x_1,x_2\\in C_1$ et $y_1,y_2\\in C_2$. On a alors \r\n$(1-t)z_1+tz_2=x+y$\r\navec $x=(1-t)x_1+tx_2\\in C_1$ et $y=(1-t)y_1+ty_2\\in C_2$ par convexité respective de $C_1$ et $C_2$.\r\nAinsi, $C_1+C_2$ est convexe.",
+    "lang": "french"
+}

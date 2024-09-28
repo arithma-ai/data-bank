@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A,B\\in M_n(\\mathbb R)$. On suppose que $A$ et $B$ sont semblables sur $\\mathbb C$,\r\nie qu'il existe $P\\in Gl_n(\\mathbb C)$ tel que $A=PBP^{-1}$. Montrer que $A$ et $B$ sont semblables\r\nsur $\\mathbb R$.",
+    "hint": "Considérer $P_1$, $P_2$ les parties réelles et imaginaires de $P$ et montrer qu'il existe\r\nun réel $x$ tel que $P_1+xP_2$ est inversible.",
+    "solution": "Écrivons $A=PBP^{-1}$ sous la forme $AP=PB$. Soit $P_1$ la partie réelle de $P$,\r\net $P_2$ sa partie imaginaire. Alors, prenant la partie réelle puis la partie imaginaire de l'équation\r\nprécédente, et puisque $A$ et $B$ sont à coefficients réels, on obtient $AP_1=P_1B$ \r\net $AP_2=P_2B$. Ainsi, pour tout réel $x$, on a $A(P_1+xP_2)=(P_1+xP_2)B$.\r\nIl suffit donc de prouver qu'il existe un réel $x$ tel que $P_1+xP_2$ est inversible.\r\nPosons $Q(X)=\\det(P_1+XP_2)$. $Q$ est un polynôme qui n'est pas identiquement nul\r\npuisque $Q(i)=\\det(P)\\neq 0$. Ainsi, il existe un réel $x$ tel que $Q(x)\\neq 0$.\r\nPour ce réel, la matrice $M=(P_1+xP_2)\\in GL_n(\\mathbb R)$, et $A=MBM^{-1}$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $p,q,r\\geq 1$ tels que $\\frac 1p+\\frac 1q=\\frac 1r$. Soit $f\\in \\mathcal L^p(\\mu)$ et $g\\in\\mathcal L^q(\\mu)$. Démontrer que $fg\\in\\mathcal L^r(\\mu)$ et que \r\n$$\\|fg\\|_r\\leq \\|f\\|_p\\cdot \\|g\\|_q.$$",
+    "hint": "Poser $f_1=f^r$ et $g_1=g^r$, et appliquer l'inégalité de Hölder à $f_1$ et $g_1$ et les bons exposants.",
+    "solution": "Posons $p'=\\frac pr$ et $q'=\\frac qr$. Alors l'égalité $\\frac 1p+\\frac 1q=\\frac 1r$ assurent que $p',q'\\geq 1$ et que ces deux exposants sont conjugués : $\\frac 1{p'}+\\frac 1{q'}=1$. Posons alors $f_1=f^r$ et $g_1=g^r$, et appliquons l'inégalité de Hölder au produit $f_1g_1$ et aux exposants $p'$ et $q'$. Il vient\r\n\\begin{eqnarray*}\r\n\\int_\\Omega |fg|^rd\\mu=\\int_{\\Omega}|f_1g_1|d\\mu&\\leq&\r\n\\left(\\int_\\Omega |f_1|^{p'}d\\mu \\right)^{1/p'}\\left(\\int_\\Omega |g_1|^{q'}d\\mu \\right)^{1/q'}\\\\\r\n&\\leq&\\left(\\int_\\Omega |f|^pd\\mu \\right)^{r/p}\\left(\\int_\\Omega |g|^qd\\mu \\right)^{r/q}\r\n\\end{eqnarray*}\r\nce qui est bien le résultat que l'on voulait obtenir.",
+    "lang": "french"
+}

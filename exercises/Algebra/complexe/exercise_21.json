@@ -1,0 +1,6 @@
+{
+    "script": "Soient $z$ et $z'$ deux nombres complexes de module 1 tels que $zz'\\neq -1$. Démontrer que \r\n$\\frac{z+z'}{1+zz'}$ est réel, et préciser son module.",
+    "hint": "Écrire $z=e^{i\\theta}$, $z'=e^{i\\theta'}$ et utiliser les formules d'Euler.",
+    "solution": "On écrit $z=e^{i\\theta}$, $z'=e^{i\\theta'}$ et on utilise les formules d'Euler en mettant en facteur\r\n$e^{i\\frac{\\theta+\\theta'}2}$ en facteur au numérateur et au dénominateur. Il vient\r\n\\begin{eqnarray*}\r\n\\frac{z+z'}{1+zz'}&=&\\frac{e^{i\\theta}+e^{i\\theta'}}{1+e^{i(\\theta+\\theta')}}\\\\\r\n&=&\\frac{e^{i\\frac{\\theta-\\theta'}2}+e^{-i\\frac{\\theta-\\theta'}2}}{e^{i\\frac{\\theta+\\theta'}2}+e^{-i\\frac{\\theta+\\theta'}2}}\\\\\r\n&=&\\frac{\\cos\\left(\\frac{\\theta-\\theta'}2\\right)}{\\cos\\left(\\frac{\\theta+\\theta'}2\\right)}.\r\n\\end{eqnarray*}\r\nOn obtient bien un nombre réel, de module $\\left|\\frac{\\cos\\left(\\frac{\\theta-\\theta'}2\\right)}{\\cos\\left(\\frac{\\theta+\\theta'}2\\right)}\\right|$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "On considère une variable aléatoire $X$ dont la densité est donnée par \r\n$$f(x)=ce^{-|x|}.$$Calculer $c$.Démontrer que $X$ admet des moments de tout ordre. Les calculer.",
+    "hint": "Il faut que l'intégrale fasse 1.Moments impairs sont nuls. Moments pair à déterminer par récurrence.",
+    "solution": "Puisque $f$ est continue et positive, pour que $f$ soit une densité, il faut et il suffit que $\\int_{\\mathbb R}f(x)dx=1$. On calcule l'intégrale en séparant $\\mathbb R_+$ et \r\n$\\mathbb R_-$ et on trouve $c=1/2$.On a, pour tout $n\\geq 1$, $x^ne^{-|x|}=o(x^{-2})$ en $\\pm \\infty$, ce qui prouve la convergence de l'intégrale. \r\nPar imparité de la fonction $x\\mapsto x^n e^{-|x|}$ si $n$ est impair, les moments d'ordre impair sont nuls. Les moments\r\nd'ordre pair sont calculés par récurrence. En effet, pour $n=2p$, posons $I_p=\\int_0^{+\\infty}x^{2p}e^{-x}dx$, de sorte\r\nque $E(X^{2p})=I_p$. Alors, en intégrant par parties (deux fois), on trouve\r\n\\begin{eqnarray*}\r\n I_p&=&\\int_0^{+\\infty}2px^{2p-1}e^{-x}dx=\\int_0^{+\\infty}2p(2p-1)x^{2p-2}e^{-x}dx=2p(2p-1)I_{p-1}.\r\n\\end{eqnarray*}\r\nOn en déduit immédiatement que $I_p=(2p)!I_0$, et il est aisé de voir que $I_0=1$. En conclusion, on a \r\n$E(X^{2p})=I_p=(2p)!$.",
+    "lang": "french"
+}

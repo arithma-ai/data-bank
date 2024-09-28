@@ -1,0 +1,6 @@
+{
+    "script": "Écrire une fonction $\\textrm{divise}(p,q)$ d'argument deux entiers naturels non nuls $p$ et $q$ et renvoyant True si $p$ divise $q$, et False sinon.Écrire une fonction $\\textrm{estpremier}(p)$ d'argument un entier naturel $p$, renvoyant $1$ si $p$ est premier, et renvoyant $0$ sinon.Écrire une fonction $\\phi(n)$ d'argument un entier naturel $n$ et renvoyant le nombre de nombres premiers inférieurs ou égaux à $n$.",
+    "hint": "",
+    "solution": "On utilise le fait que $p$ divise $q$ si et seulement si le reste dans la division euclidienne de $q$ par $p$ est nul.def divise(p,q):if ( (q%p) == 0):return Trueelse:return FalseUn entier naturel est premier si ses seuls diviseurs positifs sont $1$ et lui-même, et s'il n'est pas égal à $1$. On sépare donc le traitement de $1$, et pour les autres, on regarde si un des entiers entre $2$ et $p-1$ divise $p$.def estpremier(p):if (p<2):return 0for i in range(2,p):if divise(i,p):return 0return 1def phi(n):total=0for m in range(2,n+1):total+=estpremier(m)return total",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Justifier que $\\exp$ est un morphisme de $(\\mathbb C,+)$ dans $(\\mathbb C^*,\\cdot)$. Quel est son image? Son noyau?",
+    "hint": "Pour le noyau, on pourra chercher les solutions de $\\exp(z)=1$ en posant $z=a+ib$.",
+    "solution": "On sait que, pour tous $z,w\\in \\mathbb C$, on a\r\n$$\\exp(z+w)=\\exp(z)\\exp(w).$$\r\nCeci signifie exactement que $\\exp$ est un morphisme de $(\\mathbb C,+)$ dans $(\\mathbb C^*,\\cdot)$ (la fonction exponentielle ne prend jamais la valeur zéro). De plus, soit $w\\in\\mathbb C^*, w=re^{i\\theta}$ avec $r>0$. Soit $a=\\ln r$ et posons $z=a+i\\theta$. Alors\r\n$$\\exp(z)=\\exp(a)\\exp(i\\theta)=re^{i\\theta}=w.$$\r\nL'exponentielle est un morphisme surjectif de $(\\mathbb C,+)$ dans $(\\mathbb C^*,\\cdot)$. Déterminons son noyau. Si $\\exp(z)=1$,  posons $z=x+iy$. Alors \r\n$$\\exp(z)=\\exp(x)\\exp(iy)=1=1\\exp(i0).$$\r\nCeci est équivalent à $x=0$ et il existe $k\\in \\mathbb Z$ tel que $y=k2\\pi$. On a donc\r\n$$\\ker(\\exp)=\\{2ik\\pi;\\ k\\in\\mathbb Z\\}.$$",
+    "lang": "french"
+}

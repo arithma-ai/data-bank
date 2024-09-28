@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer une base orthonormale directe de l'espace dont le premier vecteur est colinéaire au vecteur $(1,2,2)$.",
+    "hint": "Normer, construire un vecteur orthogonal, puis utiliser le produit vectoriel.",
+    "solution": "On commence par normer le vecteur donné. Un vecteur unitaire colinéaire à $(1,2,2)$ est\r\n$\\vec u=(1/3,2/3,2/3)$. On cherche ensuite un vecteur orthogonal à celui-là. Le vecteur \r\n$(0,1,-1)$ en est un. On le norme en $\\vec v=(0,1/\\sqrt 2,-1/\\sqrt 2)$. Puis on forme leur produit vectoriel, et\r\non trouve $$\\vec w=\\left(\\frac{-4}{3\\sqrt 2},\\frac{1}{3\\sqrt 2},\\frac{1}{3\\sqrt 2}\\right).$$\r\n La base $(\\vec u,\\vec v,\\vec w)$ est une base orthonormale directe.",
+    "lang": "french"
+}

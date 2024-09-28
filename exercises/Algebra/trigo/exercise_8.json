@@ -1,0 +1,6 @@
+{
+    "script": "Soit $x\\in ]-\\pi,\\pi[+2\\pi\\mathbb Z$. On pose $t=\\tan(x/2)$. Démontrer les formules suivantes : \r\n$$\\cos(x)=\\frac{1-t^2}{1+t^2},\\ \\sin(x)=\\frac{2t}{1+t^2},\\ \\tan(x)=\\frac{2t}{1-t^2}.$$",
+    "hint": "",
+    "solution": "Bien sûr, on peut déduire la troisième formule des deux autres. La plus facile est la troisième, car d'après la formule de duplication de $\\tan$ : \r\n$$\\tan(x)=\\tan\\left(2\\frac x2\\right)=\\frac{2t}{1-t^2}.$$\r\nPar ailleurs, on a\r\n\\begin{align*}\r\n\\sin(x)&=\\sin\\left(2\\frac x2\\right)\\\\\r\n&=2\\sin(x/2)\\cos(x/2)\\\\\r\n&=2\\tan(x/2)\\cos^2(x/2).\r\n\\end{align*}\r\nPuisque de plus\r\n$$\\cos^2(x/2)=\\frac{1}{1+\\tan^2(x/2)}$$\r\non obtient le résultat.",
+    "lang": "french"
+}

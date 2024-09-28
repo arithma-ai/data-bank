@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que l'équation $9x^5-12x^4+6x-5 =0$ n'admet pas de solution entière.",
+    "hint": "Faire un raisonnement par l'absurde et montrer que si $n$ est une solution, alors $n$ est un diviseur de $5$.",
+    "solution": "Faisons un raisonnement par l'absurde et supposons qu'il existe $n\\in\\mathbb Z$ tel que $9n^5-12n^4+6n-5=0$, ce que l'on réécrit en \r\n$$n(9n^4-12n^3+6)=5.$$\r\nAinsi, $n$ est un diviseur de $5$. Or, les seuls diviseurs de $5$ sont $-5,-1,1$ et $5$, et on vérifie aisément par un calcul direct qu'aucun de ces nombres n'est solution de l'équation.Ainsi, l'hypothèse formulée était fausse, et l'équation n'admet pas de solutions entières.",
+    "lang": "french"
+}

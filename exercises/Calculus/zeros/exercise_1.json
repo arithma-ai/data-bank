@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ une fonction holomorphe sur le disque $D(0,1)$ telle que, pour tout $n\\geq 1$,  \r\n    $$ f'\\left(\\frac{1}{2}-\\frac{1}{n}\\right)=0 $$\r\net vérifiant en outre $f(1/2)=2$.\r\nDéterminer $f(0)$.",
+    "hint": "Appliquer le principe des zéros isolés à $f'$.",
+    "solution": "Appliquons le théorème des zéros isolés à $f'$. On a nécessairement $f'=0$ sur $D(0,1)$ et donc $f$ est constante. De plus, le deuxième point nous dit que $f(1/2)=2$. Donc $f(0)=2$.",
+    "lang": "french"
+}

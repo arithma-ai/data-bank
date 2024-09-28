@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre dans $[0,2\\pi]$ l'équation $\\cos(2x)+\\cos(x)=0$.",
+    "hint": "Exprimer $\\cos(2x)$ en fonction de $\\cos x$.",
+    "solution": "On sait que $\\cos(2x)=2\\cos^2 (x)-1$ et donc l'équation est équivalente à \r\n$$2\\cos^2(x)+\\cos(x)-1=0.$$\r\nPosons $y=\\cos x$ et déterminons les solutions de l'équation $2y^2+y-1=0$. Calculant le discriminant, on voit que les solutions de cette équation sont $y=-1$ et $y=1/2$. On en déduit donc que \r\n$\\cos(2x)+\\cos(x)=0$ si et seulement si $\\cos(x)=-1$ ou $\\cos(x)=1/2$. Puisque l'on cherche les solutions uniquement dans $[0,2\\pi]$, l'ensemble des solutions est $\\{\\pi,\\pi/3,5\\pi/3\\}$.",
+    "lang": "french"
+}

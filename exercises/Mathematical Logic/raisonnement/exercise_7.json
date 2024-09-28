@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n$ un entier. Énoncer et démontrer la contraposée de la proposition suivante :Si $n^2$ est impair, alors $n$ est impair.A-t-on démontré la proposition initiale?",
+    "hint": "",
+    "solution": "La contraposée de la proposition est : si $n$ est pair, alors $n^2$ est pair.\r\nDémontrons cela. Si $n$ est pair, alors il s'écrit $2k$ où $k$ est un autre entier.\r\nMais alors $n^2$ s'écrit $(2k)^2=4k^2=2(2k^2)$ et est donc pair. Par le principe\r\nde contraposition, on a démontré la proposition de l'énoncé.",
+    "lang": "french"
+}

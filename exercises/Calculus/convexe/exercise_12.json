@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[a,b]\\to\\mathbb R$ de classe $C^2$ telle que $f(a)=f(b)=0$. On note $M=\\sup_{[a,b]}|f''|$\r\net \r\n$$g(x)=f(x)-M\\frac{(x-a)(b-x)}{2}\\textrm{ }\\quad\\quad h(x)=f(x)+M\\frac{(x-a)(b-x)}{2}.$$Justifier l'existence de $M$.Montrer que $g$ est convexe et que $h$ est concave.Déterminer le signe de $g$ et de $h$ sur $[a,b]$. En déduire que, pour tout $x\\in[a,b]$, on a\r\n$$|f(x)|\\leq M\\frac{(x-a)(b-x)}{2}.$$",
+    "hint": "Que dire d'une fonction continue sur un segment?Calculer la dérivée seconde.La courbe représentative de $g$ est sous sa corde.",
+    "solution": "$f''$ est continue sur le segment $[a,b]$. Elle est donc bornée et atteint ses bornes.On calcule les dérivées secondes qui sont $g''(x)=f''(x)+M\\geq 0$ et $h''(x)=f''(x)-M\\leq 0$. \r\nCeci prouve bien que $g$ est convexe et que $h$ est concave.Par convexité de $g$, et puisque $g(a)=g(b)=0$, on sait que la courbe représentative de $g$ est sous la corde\r\nreliant $(a,g(a))$ à $(b,g(b))$ et donc\r\n$$g(x)\\leq 0\\implies f(x)\\leq M\\frac{(x-a)(b-x)}{2}.$$\r\nDe même, la courbe représentative de $h$ est au-dessus de ses cordes, et donc\r\n$$h(x)\\geq 0\\implies f(x)\\geq -M\\frac{(x-a)(b-x)}{2}.$$\r\nLes deux inégalités réunies donnent exactement l'inégalité demandée.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(u_n)$ la suite définie par $u_0=u_1=-1$ et,  pour $n\\geq 0$, $u_{n+2}=(n+1)u_{n+1}-(n+2)u_n$. Démontrer par récurrence que, pour tout $n\\in\\mathbb N$, $u_n=-1+n(n-1)$.",
+    "hint": "Procéder par récurrence double.",
+    "solution": "Pour tout $n\\in\\mathbb N$, on note $\\mathcal P(n)$ la propriété \r\n$$\\mathcal P(n)=``u_n=-1+n(n-1)''.$$\r\n\r\nOn va prouver que $\\mathcal P(n)$ est vraie pour tout entier $n\\in\\mathbb N$ par récurrence double.Initialisation : On a $u_0=-1=-1+0\\times(-1)$ et $u_1=-1=-1+1\\times 0$. Ainsi, $\\mathcal P(0)$ et $\\mathcal P(1)$ sont vraies.Hérédité : Soit $n\\in\\mathbb N$ tel que $\\mathcal P(n)$ et $\\mathcal P(n+1)$ sont vraies et prouvons $\\mathcal P(n+2)$. Alors on a \r\n\\begin{align*}\r\n u_{n+2}&=(n+1)u_{n+1}-(n+2)u_n\\\\\r\n &=(n+1)(-1+(n+1)n)-(n+2)(-1+n(n-1)) \\textrm{ (par hypothèse de récurrence)}\\\\\r\n &=-n-1+n(n+1)^2+n+2-n(n-1)(n+2)\\\\\r\n &=1+n(n^2+2n+1)-(n^2-n)(n+2)\\\\\r\n &=1+n^3+2n^2+n-(n^3+n^2-2n)\\\\\r\n &=1+n^2+3n.\r\n\\end{align*}\r\nD'autre part, on a\r\n$$-1+(n+2)(n+1)=-1+n^2+3n+2=n^2+3n+1.$$\r\nOn a donc bien prouvé que $\\mathcal P(n+2)$ est vraie.Par le principe de récurrence double, $\\mathcal P(n)$ est vraie pour tout entier $n$.",
+    "lang": "french"
+}

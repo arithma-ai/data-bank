@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ l’espace vectoriel des applications de $\\mathbb R$ dans $\\mathbb R$. On note $L:E\\to E$ l’application qui à $f\\in E$ associe $L(f)$ définie par $L(f):x\\mapsto f(x)−f(−x)$.Montrer que $L$ est un endomorphisme de E.Préciser le noyau et l’image de L.L’application $L$ est-elle injective ? surjective ?",
+    "hint": "Démontrer que l'image est l'ensemble des fonctions impaires.",
+    "solution": "Laissé au lecteur!Le noyau de $L$ est l'ensemble des fonctions $f$ qui vérifient, pour tout $x\\in \\mathbb R$, $f(-x)=f(x)$ : c'est donc l'ensemble des fonctions paires. On va prouver que l'image de $L$ est l'ensemble des fonctions impaires. D'une part, soit $g$ dans l'image de $L$, autrement dit il existe $f\\in E$ tel que, pour \r\ntout $x\\in\\mathbb R$, $g(x)=f(x)-f(-x)$. Alors \r\n$$g(-x)=f(-x)-f(-(-x))=-(f(x)-f(-x))=-g(x)$$\r\net donc $g$ est impaire. Réciproquement, soit $g$ une fonction impaire, et posons $f=g/2$. Alors, pour tout $x\\in \\mathbb R$,\r\n$$f(x)-f(-x)=\\frac{g(x)}2-\\frac{g(-x)}{2}=\\frac{g(x)}2+\\frac{g(x)}2=g(x).$$\r\nAinsi, $g=L(f)$, et on a prouvé l'inclusion réciproque.L'application linéaire $L$ n'est pas injective car son noyau n'est pas réduit à $\\{0\\}$, elle n'est pas non plus surjective car son image n'est pas $E$ tout entier (il existe des fonctions qui ne sont pas impaires).",
+    "lang": "french"
+}

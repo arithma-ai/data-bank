@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tout $n\\in\\mathbb N^*$, on a \r\n$$(n+1)!\\geq\\sum_{k=1}^n k!\\quad.$$",
+    "hint": "Utiliser que $k!\\leq n!$ pour $k\\in\\{1,\\dots,n\\}$.",
+    "solution": "Pour chaque entier $k$ dans $\\{1,\\dots,n\\}$, on a $k!\\leq n!$.\r\nOn obtient donc\r\n$$\\sum_{k=1}^n k!\\leq\\sum_{k=1}^n n!=n\\times n!$$\r\npuisque la somme de droite est une somme de termes constants. Puisque $n\\leq n+1$, on obtient bien\r\n$$\\sum_{k=1}^n k!\\leq (n+1)\\times n!=(n+1)!\\quad .$$",
+    "lang": "french"
+}

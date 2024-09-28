@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(f_n)$ la suite de fonctions de $\\mcd(\\mtr)$ définie par :\r\n$$f_n(t)=\\frac{1}{2^n}\\exp\\left(-\\frac{1}{1-|t|^2/n^2}\\right)\\textrm{ si }|t|< n,\\ 0\\textrm{ sinon.}$$\r\nMontrer que, pour chaque $k\\geq 0$, la suite de fonctions $(f_n^{(k)})$ converge uniformément sur tout compact vers une fonction $g\\in\\mcd(\\mtr)$ \r\nque l'on précisera. A-t-on convergence dans $\\mcd(\\mtr)$?",
+    "hint": "Quel est le support de $f_n$?",
+    "solution": "Introduisons la fonction $\\theta(t)=\\exp\\left(-\\frac{1}{1-t^2}\\right)$ si $|t|<1$, $0$ sinon,\r\ndont il est bien connu qu'elle est élément de $\\mcd(\\mtr)$. On a $f_n(t)=\\frac{1}{2^n}\\theta(t/n)$. On en déduit que \r\n$$f_n^{(k)}(t)=\\frac{1}{2^n}\\times \\frac{1}{n^k}\\theta^{(k)}(t/n).$$\r\nEn particulier, si $K$ est n'importe quel compact de $\\mtr$, on a \r\n$$\\sup_{x\\in K}|f_n^{(k)}(x)|\\leq \\frac{\\|\\theta^{(k)}\\|_\\infty}{2^nn^k}.$$\r\nCeci prouve que $f_n^{(k)}$ converge uniformément sur tous les compacts de $\\mtr$ vers la fonction nulle\r\n(le terme en $1/2^n$ n'est donc utile que pour $k=0$). En revanche,\r\nla convergence n'a pas lieu dans $\\mcd(\\mtr)$ : si tel était le cas, les supports des $(f_n)$ seraient tous inclus dans un\r\nmême compact $K$. Et il est clair que $Supp(f_n)=[-n,n]$.",
+    "lang": "french"
+}

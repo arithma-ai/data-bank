@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(a_n)$ une suite de nombres complexes telle que $\\sum_n a_n n!$ converge absolument.\r\nDémontrer que\r\n$$\\int_0^{+\\infty}\\left(e^{-x}\\sum_{n=0}^{+\\infty}a_nx^n\\right)dx=\\sum_{n=0}^{+\\infty}a_n n!.$$",
+    "hint": "Commencer par calculer $\\int_0^{+\\infty}x^ne^{-x}$, puis appliquer le théorème d'intégration terme à terme.",
+    "solution": "On démontre facilement par récurrence que $\\int_0^{+\\infty}x^n e^{-x}dx=n!$. Mais alors, les hypothèses de l'exercice nous disent que la série \r\n$$\\sum_{n=0}^{+\\infty}\\int_0^{+\\infty}\\left|a_n x^n e^{-x}\\right|dx=\\sum_{n\\geq 0}|a_n|n!$$\r\nest convergente. De plus, la série $\\sum_{n\\geq 0}a_n x^n$ est normalement convergente sur tout segment $[0,A]$, car on peut majorer $|a_nx^n|\\leq |a_n|A^n\\leq |a_n|n!$ pourvu que $n$ soit assez grand. La fonction somme est donc continue sur $[0,+\\infty[$. On peut alors appliquer le théorème d'intégration termes à termes et on trouve\r\n$$\\sum_{n\\geq 0}a_n n!=\\sum_{n=0}^{+\\infty}\\int_0^{+\\infty}a_n x^n e^{-x}dx=\\int_0^{+\\infty}\\sum_{n=0}^{+\\infty}a_n x^n e^{-x}$$\r\nce qui est le résultat voulu.",
+    "lang": "french"
+}

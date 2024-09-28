@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer si les parties suivantes sont des sous-espaces vectoriels de $M_2(\\mathbb R)$ :$E_1=\\left\\{\\begin{pmatrix}\r\na & b \\\\\r\nc & d \\\\\r\n\\end{pmatrix}\\in M_2(\\mathbb R):\\ ad-bc=1\\right\\}$;$E_2=\\left\\{\\begin{pmatrix}\r\nx_1 & x_2 \\\\\r\nx_3 & x_4 \\\\\r\n\\end{pmatrix}\\in M_2(\\mathbb R):\\ x_1 + x_2 = x_4\\right\\}$;$E_3=\\left\\{A\\in M_2(\\mathbb R):\\ {}^tA=A\\right\\}$.",
+    "hint": "",
+    "solution": "Non, ce n'est pas le cas car la matrice nulle n'est pas dans $E_1$.Oui! En effet, prenons $A=\\begin{pmatrix}\r\nx_1 & x_2 \\\\\r\nx_3 & x_4 \\\\\r\n\\end{pmatrix}$ et $A'=\\begin{pmatrix}\r\nx_1' & x_2' \\\\\r\nx_3' & x_4' \\\\\r\n\\end{pmatrix}$ dans $E_2$. Alors $A+A'=\\begin{pmatrix}\r\nx_1+x_1' & x_2+x_2' \\\\\r\nx_3+x_3' & x_4+x_4' \\\\\r\n\\end{pmatrix}$ et on a \r\n$$(x_1+x_1')+(x_2+x_2')=(x_1+x_2)+(x_1'+x_2')=x_4+x_4'$$\r\nce qui prouve que $A+A'\\in E_2$. De même, on prouve que pour tout $\\lambda\\in\\mathbb R$, on a $\\lambda A\\in E_2$.Oui! Ceci vient des propriétés de la transposée, en particulier du fait que \r\n$${}^t(A+B)={}^tA+{}^tB$$\r\net \r\n$${}^t(\\lambda A)=\\lambda {}^t A.$$",
+    "lang": "french"
+}

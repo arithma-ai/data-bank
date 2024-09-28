@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que, pour tous $x,y>0$, on a \r\n$$\\ln\\left(\\frac{x+y}2\\right)\\geq\\frac{\\ln(x)+\\ln(y)}2.$$",
+    "hint": "Fixer $y>0$ et étudier une fonction de $x$ (que l'on pourra dériver).",
+    "solution": "Fixons $y>0$ et considérons la fonction définie sur $]0,+\\infty[$ par \r\n$$f(x)=\\ln\\left(\\frac{x+y}{2}\\right)-\\frac{\\ln(x)+\\ln(y)}2.$$\r\nIl s'agit de démontrer que $f(x)\\geq 0$ pour tout $x\\in\\mathbb R$. Pour cela, on va étudier les variations de $f$. $f$ est dérivable sur $]0,+\\infty[$ et vérifie\r\n$$f'(x)=\\frac{1}{x+y}-\\frac{1}{2x}=\\frac{x-y}{2x(x+y)}.$$\r\nAinsi $f'(x)\\geq 0$ si $x\\geq y$ et $f'(x)\\leq 0$ si $x\\leq y$. Autrement dit, $f$ est décroissante sur $]0,y[$ et croissante sur $]y,+\\infty[$. Puisque $f(y)=0$, on en déduit bien que $f(x)\\geq 0$ pour tout $x\\in ]0,+\\infty[$. On pourrait même démontrer que l'inégalité est stricte si $x\\neq y$, car les monotonies prouvées ci-dessus sont strictes.",
+    "lang": "french"
+}

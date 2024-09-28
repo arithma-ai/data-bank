@@ -1,0 +1,6 @@
+{
+    "script": "Décomposer le polynôme suivant en produit d'irréductibles de $\\mathbb R[X]$ :\r\n$$P(X)=2X^4+X^2-3.$$",
+    "hint": "Commencer par décomposer $Q(X)=2X^2+X-3$.",
+    "solution": "Le polynôme est un polynôme \"bicarré\" : il s'écrit $P(X)=Q(X^2)$ où $Q(X)=2X^2+X-3$. On commence par factoriser ce polynôme. Ses racines sont $1$ et $-3/2$. Donc $Q$ se factorise en \r\n$$Q(X)=2(X-1)\\left(X+\\frac 32\\right).$$\r\nOn en déduit que\r\n$$P(X)=2(X^2-1)\\left(X^2+\\frac32\\right)=2(X-1)(X+1)\\left(X^2+\\frac 32\\right).$$\r\nComme $X^2+\\frac 32$ est un polynôme de degré 2 sans racines réelles, on a bien obtenu la décomposition de $P$ en produit d'irréductibles.",
+    "lang": "french"
+}

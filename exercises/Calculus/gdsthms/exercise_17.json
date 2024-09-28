@@ -1,0 +1,6 @@
+{
+    "script": "Soit $D=D(0,1)$ le disque unité et soit $f:D\\to\\mathbb C$ une fonction holomorphe vérifiant $f(0)=0$.Soit $g:D\\backslash\\{0\\}\\to\\mathbb C$ la fonction définie par \r\n$$g(z)=\\frac{f(z)+f(-z)}{2z}.$$\r\nDémontrer que $g$ se prolonge en une fonction holomorphe sur $D$, que l'on notera encore $g$. Préciser la valeur de $g(0)$.On suppose que l'on a $|f(z)|\\leq 1$ pour tout $z\\in D.$ Démontrer que pour tout $z\\in D,$\r\n$$|f(z)+f(-z)|\\leq 2|z|^2.$$",
+    "hint": "Factoriser $f$.Appliquer le théorème de Schwarz à $f$ puis à $g$.",
+    "solution": "Puisque $f$ est holomorphe sur $D$ et que $f(0)=0$, il existe une fonction $h$ holomorphe sur $D$ telle que $f(z)=zh(z)$. \r\nOn en déduit que si de plus $z\\neq 0,$ alors\r\n\\begin{align*}\r\ng(z)&=\\frac{zh(z)-zh(-z)}{2z}\\\\\r\n&=\\frac{h(z)-h(-z)}{2}.\r\n\\end{align*}\r\nLe terme de droite définit une fonction holomorphe sur $D$.\r\nCeci prolonge holomorphiquement $g$ à $D$, avec \r\n$$g(0)=\\frac{h(0)-h(0)}{2}=0.$$D'après le lemme de Schwarz appliqué à $f$, on a pour tout $z\\in D$, $|f(z)|\\leq |z|$ et $|f(-z)|\\leq |-z|=|z|.$ Ainsi, si $z\\in D\\backslash\\{0\\},$\r\n$$|g(z)|\\leq \\frac{|z|+|z|}{2|z|}=1.$$\r\nD'après le lemme de Schwarz appliqué à $g,$ pour tout $z\\in D,$\r\n$$|g(z)|\\leq |z|,$$ \r\nce qui entraîne l'inégalité demandée.",
+    "lang": "french"
+}

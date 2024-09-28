@@ -1,0 +1,6 @@
+{
+    "script": "Calculer la somme $\\sum_{k=1}^n \\left(\\frac 1k-\\frac1{n+1-k}\\right)$.",
+    "hint": "Séparer la somme en deux, puis faire un changement d'indices dans la deuxième somme.",
+    "solution": "On commence par séparer la somme en deux :\r\n$$\\sum_{k=1}^n \\left(\\frac 1k-\\frac1{n+1-k}\\right)=\\sum_{k=1}^n \\frac 1k-\\sum_{k=1}^n \\frac1{n+1-k}.$$\r\nOn effectue ensuite le changement d'indices $j=n+1-k$ dans la deuxième somme. \r\nOn a \r\n$$1\\leq k\\leq n\\iff -1\\geq -k\\geq -n\\iff n\\geq n+1-k\\geq 1.$$\r\nLa deuxième somme devient donc \r\n$$\\sum_{k=1}^n \\frac1{n+1-k}=\\sum_{j=1}^n \\frac1j=\\sum_{k=1}^n \\frac 1k.$$\r\nOn trouve finalement\r\n$$\\sum_{k=1}^n \\left(\\frac 1k-\\frac1{n+1-k}\\right)=0.$$",
+    "lang": "french"
+}

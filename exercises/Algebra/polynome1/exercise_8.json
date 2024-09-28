@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer un polynôme de degré $2$ tel que $P(-1)=1$, $P(0)=-1$ et $P(1)=-1$. Ce polynôme est -il unique?Déterminer tous les polynômes $P\\in\\mathbb R[X]$ tels que $P(-1)=1$, $P(0)=-1$ et $P(1)=-1$.",
+    "hint": "Utiliser les polynômes de Lagrange.Retirer le polynôme précédent!",
+    "solution": "Considérons les polynômes de Lagrange $L_{-1},\\ L_0$ et $L_1$ associés au triplet $(-1,0,1)$. Ils sont donnés par \r\n$$L_{-1}(X)=\\frac{X(X-1)}{(-1)(-1-1)}=\\frac{X^2-X}2,$$\r\n$$L_0(X)=\\frac{(X+1)(X-1)}{(0+1)(0-1)}=-(X^2-1),$$\r\n$$L_1(X)=\\frac{(X+1)X}{(1+1)1}=\\frac{X^2+X}2.$$\r\nAlors un polynôme qui convient est le polynôme\r\n$$P_0(X)=1L_{-1}(X)-1L_0(X)-1L_1(X)=X^2-X-1.$$\r\nC'est le seul qui convient, car si $P$ est un polynôme de degré (inférieur ou égal à) 2 qui convient, alors $P-P_0$ est de degré au plus 2 et admet au moins 3 racines : c'est donc le polynôme nul.Soit $P$ un tel polynôme. Alors, utilisant le polynôme $P_0$ introduit à la question précédente, et posant $Q=P-P_0$, on a $Q(-1)=Q(0)=Q(1)=0$. Autrement dit, $Q$ est divisible par $(X+1)X(X-1)=X^3-X$, et $P$ s'écrit \r\n$$P(X)=X^2-X-1+A(X)(X^3-X)$$\r\navec $A\\in\\mathbb R[X]$. Réciproquement, tous les polynômes de cette forme conviennent.",
+    "lang": "french"
+}

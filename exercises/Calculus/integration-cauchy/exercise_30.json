@@ -1,0 +1,6 @@
+{
+    "script": "Calculer la limite de la suite $(u_n)$ dans les cas suivants :\r\n$$\\begin{array}{lll}\r\n\\mathbf 1.\\ u_n=\\int_0^1 x^n\\ln(1+x)dx&\\quad&\\mathbf 2.\\ u_n=\\int_0^n \\frac{dt}{1+e^{nt}}.\r\n\\end{array}\r\n$$",
+    "hint": "Encadrer les fonctions à intégrer par des fonctions que l'on sait facilement intégrer. Intégrer ces inégalités, puis utiliser le théorème des gendarmes.",
+    "solution": "On va encadrer la fonction à intégrer. Pour cela, on remarque que pour tout $x\\in [0,1]$, on a\r\n$$0=\\ln(1)\\leq\\ln(1+x)\\leq \\ln 2.$$\r\nOn multiplie cette inégalité par $x^n$, qui est positif, et on intégre. On trouve\r\n$$0=\\int_0^1 0dx\\leq \\int_0^1 x^n\\ln(1+x)dx\\leq \\int_0^1 (\\ln 2)x^n dx=\\frac{\\ln 2}{n+1}.$$\r\nPar le théorème des gendarmes, on remarque que $(u_n)$ tend vers 0.La méthode est complètement similaire. On remarque en effet que, pour tout $t\\in [0,n]$, on a\r\n$$0\\leq \\frac1{1+e^{nt}}\\leq\\frac 1{e^{nt}}=e^{-nt}.$$\r\nOn intègre cette inégalité entre $0$ et $n$ et on trouve\r\n$$0\\leq u_n\\leq \\int_0^n e^{-nt}=\\frac {1}n(1-e^{-n^2})\\leq\\frac 1n.$$\r\nPar le théorème des gendarmes, $(u_n)$ converge vers 0.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Une entreprise comporte 18 employés, dont 8 femmes. Pour un sondage, on choisit 3 personnes au hasard. Quel est le nombre d'échantillons comportant au moins 2 hommes?",
+    "hint": "Compter le nombre d'échantillons comportant exactement 3 hommes et le nombre d'échantillons comportant exactement 2 hommes.",
+    "solution": "On commence par compter le nombre d'échantillons comportant exactement 3 hommes. On choisit 3 hommes parmi 10. Il y a donc $\\binom{10}3=120$ tels échantillons. On compte ensuite le nombre d'échantillons comportant exactement 2 hommes. On choisit 2 hommes parmi 10, puis une femme parmi 8. Il y a donc $\\binom{10}2\\times \\binom 81=360$ tels échantillons. Finalement, il y a $120+360=480$\r\néchantillons comportant au moins deux hommes.",
+    "lang": "french"
+}

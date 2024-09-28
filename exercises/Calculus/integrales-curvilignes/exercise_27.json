@@ -1,0 +1,6 @@
+{
+    "script": "Calculer la longueur d'une arche de cycloïde :\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx(t)=a(t-\\sin t)\\\\\r\ny(t)=a(1-\\cos t)\\\\\r\n\\end{array}\\right.$$\r\navec $0\\leq t\\leq 2\\pi$.",
+    "hint": "Utiliser la formule du cours!",
+    "solution": "En notant $f(t)=(a(t-\\sin t),a(1-\\cos t))$, on a :\r\n$$\\|f'(t)\\|=\\sqrt{4a^2\\sin^2(t/2)}=2a\\sin(t/2).$$\r\nL'arc a donc pour longueur :\r\n$$L=\\int_{0}^{2\\pi}2a\\sin(t/2)=8a.$$",
+    "lang": "french"
+}

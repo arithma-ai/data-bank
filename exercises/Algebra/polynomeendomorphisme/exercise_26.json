@@ -1,0 +1,6 @@
+{
+    "script": "Soit $u$ un endomorphisme de $E$, $\\mathbb K$-espace vectoriel de dimension finie. Démontrer que les valeurs propres de $u$ sont exactement les racines du polynôme minimal de $u$.",
+    "hint": "Pour une inclusion, utiliser le théorème de Cayley-Hamilton. Pour l'autre inclusion, utiliser que si $u(x)=\\lambda x$, alors $P(u)(x)=P(\\lambda)x$.",
+    "solution": "D'abord, d'après le théorème de Cayley-Hamilton, le polynôme caractéristique est annulateur et c'est donc un multiple du polynôme minimal. Alors les racines du polynôme minimal sont racines du polynôme caractéristique, c'est-à-dire valeurs propres de $u$. Réciproquement, soit $\\lambda$ une valeur propre de $u$ et $x$ un vecteur propre associé (non nul). Alors pour tout polynôme $P$, on a $P(u)(x)=P(\\lambda)x$. Puisque $\\pi_u(u)=0$, on doit avoir $\\pi_u(\\lambda)=0$ et donc $\\lambda$ est racine du polynôme minimal de $u$.",
+    "lang": "french"
+}

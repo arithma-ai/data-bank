@@ -1,0 +1,6 @@
+{
+    "script": "Calculer l'intégrale double $$\\int\\int_{\\Delta}\\frac{1}{1+x^2+y^2}dxdy$$ où $\\Delta=\\left\\{(x,y)\\in\\mtr^2;\\ 0\\leq x\\leq 1,\\ 0\\leq y\\leq 1,\\ 0<x^2+y^2\\leq 1\\right\\}.$",
+    "hint": "Utiliser les coordonnées polaires.",
+    "solution": "On passe en coordonnées polaires en posant $x=r\\cos\\theta$ et $y=r\\sin\\theta$. Remarquons que :\r\n$$(x,y)\\in\\Delta\\iff 0\\leq r\\leq 1\\textrm{ et }\\theta\\in[0,\\pi/2].$$\r\nD'autre part, $1+x^2+y^2=1+r^2$. La formule de changement de variables en coordonnées polaires donne donc :\r\n$$I=\\int_{r=0}^1\\int_{\\theta=0}^{\\pi/2}\\frac{r}{1+r^2}d\\theta dr=\\frac{\\pi}{2}\\int_{0}^1\\frac{1}{2}\\frac{2r}{1+r^2}dr=\\frac{\\pi}{4}\\left[\\ln\\left(1+r^2\\right)\\right]_0^1=\\frac{\\pi\\ln 2}{4}.$$",
+    "lang": "french"
+}

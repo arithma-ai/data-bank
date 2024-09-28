@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\alpha$ un nombre réel et $n\\geq 1$ un entier. Quel est le reste de $(X\\sin \\alpha+\\cos\\alpha)^n$ par $X^2+1$.",
+    "hint": "Le reste est de degré $1$. Évaluer en les racines de $X^2+1$.",
+    "solution": "On sait que le reste est de degré au plus $1$, et on peut écrire \r\n$$(X\\sin\\alpha+\\cos\\alpha)^n =(X^2+1)Q(X)+aX+b$$\r\navec $a$ et $b$ des réels. On évalue cette égalité en $i$, racine de $X^2+1$, et on trouve\r\n$$(i\\sin\\alpha+\\cos\\alpha)^n =ai+b.$$\r\nMais \r\n$$(i\\sin\\alpha+\\cos\\alpha)^n=\\cos(n\\alpha)+i\\sin(n\\alpha).$$\r\nAinsi, le reste recherché est $\\sin(n\\alpha)X+\\cos(n\\alpha)$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer toutes les fonctions $f:\\mathbb R\\to\\mathbb R$ dérivables et telles que, pour tout $(x,y)\\in\\mathbb R^2$, \r\n$$f(x+y)=f(x)+f(y).$$",
+    "hint": "Procéder par analyse-synthèse. Si une fonction $f$ vérifie cette équation, commencer par calculer $f(0)$, puis dériver l'équation par rapport à $x$ (avec $y$ fixé).",
+    "solution": "On va procéder par analyse-synthèse.Analyse : soit $f$ une telle fonction. Alors, faisant $x=y=0$, on trouve $f(0)=2f(0)$ et donc $f(0)=0$. Dérivons ensuite l'équation par rapport à $x$. On trouve que, pour tout $(x,y)\\in\\mathbb R^2$, on a \r\n$$f'(x+y)=f'(x).$$\r\nFaisant $x=0$, on trouve $f'(y)=f'(0)$ pour tout $y\\in\\mathbb R$. $f'$ est donc constante, et donc il existe $a,b\\in\\mathbb R^2$ tels que, pour tout $x\\in\\mathbb R$, $f(x)=ax+b$. Puisque $f(0)=0$, on a encore $b=0$, et donc $f(x)=ax$.Synthèse : considérons la fonction $f$ définie pour tout $x\\in\\mathbb R$ par $f(x)=ax$, où $a$ est un réel donné. Alors\r\n$$f(x+y)=a(x+y)=ax+ay=f(x)+f(y).$$\r\nAinsi, $f$ vérifie bien l'équation fonctionnelle.On en déduit que l'ensemble des fonctions solution de l'équation est constitué par les fonctions linéaires.",
+    "lang": "french"
+}

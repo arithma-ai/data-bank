@@ -1,0 +1,6 @@
+{
+    "script": "Soit $k$ un entier supérieur ou égal à 2. Démontrer qu'il n'existe pas de fonction continue\r\ndéfinie sur le cercle unité $\\mathbb T$ telle que, pour tout $z\\in\\mathbb T$, $\\big(g(z)\\big)^k=z$.",
+    "hint": "Raisonnons par l'absurde, et supposons que ce soit le cas, et notons $g$ cette fonction.\r\nProuver que $g(e^{i\\theta})=e^{i\\theta/k+2ni(\\theta)\\pi/k}$\r\noù $n(\\theta)$ est un entier. Conclure par un argument de connexité.",
+    "solution": "Raisonnons par l'absurde, et supposons que ce soit le cas, et notons $g$ cette fonction.\r\nAlors, pour tout $\\theta\\in\\mathbb R$, on a $g(e^{i\\theta})^k=e^{i\\theta}$, c'est-à-dire\r\nque $g(e^{i\\theta})=e^{i\\theta/k+i2n(\\theta)\\pi/k}$ pour tout $\\theta\\in\\mathbb R$, où\r\n$n(\\theta)$ est un entier qui peut dépendre de $\\theta$. Puisque la fonction\r\n$g$ est continue, il en est de même de $\\theta\\mapsto n(\\theta)$, et\r\npar connexité de $\\mathbb R$, $n(\\theta)$ doit être constante, égale à $n$.\r\nMais alors, \r\n$$g(e^{i0})=e^{2ni\\pi/k}\\textrm{ et }g(e^{i0})=g(e^{2i\\pi})=e^{i2n\\pi/k+2\\pi/k}.$$\r\nC'est bien entendu impossible dès que $k\\geq 2$!",
+    "lang": "french"
+}

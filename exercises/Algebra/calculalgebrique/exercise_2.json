@@ -1,0 +1,6 @@
+{
+    "script": "Écrire à l'aide du symbole somme les sommes suivantes :$2^3+2^4+\\cdots+2^{12}$.$\\frac 12+\\frac24+\\frac{3}8+\\cdots+\\frac{10}{1024}$.$2-4+6-8+\\cdots+50$.$1-\\frac 12+\\frac13-\\frac 14+\\cdots+\\frac1{2n-1}-\\frac{1}{2n}$.",
+    "hint": "",
+    "solution": "$\\sum_{k=3}^{12}2^k$.$\\sum_{k=1}^{10}\\frac k{2^k}.$En remarquant que $2=2\\times 1$, $4=2\\times 2$, jusque $50=2\\times 25$, et que devant les termes du type $2k$, où $k$ est impair, on a un signe $+$ et devant les termes du type $2k$, où $k$ est impair, on a un signe $-$, on peut écrire la somme $\\sum_{k=1}^{25}(-1)^{k+1}\\times 2k=2\\sum_{k=1}^{25} (-1)^{k+1}k.$$\\sum_{k=1}^{2n} \\frac{(-1)^{k+1}}k$.",
+    "lang": "french"
+}

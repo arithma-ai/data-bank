@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f$ un morphisme non constant d'un groupe fini $(G,\\cdot)$ dans $(\\mathbb C^*,\\cdot)$. Calculer\r\n$\\sum_{x\\in G}f(x)$.",
+    "hint": "Partir de $a\\in G$ tel que $f(a)\\neq 1$ et calculer $\\sum_{x\\in G}f(ax)$.",
+    "solution": "Puisque $f$ n'est pas constante, il existe $a\\in G$ tel que $f(a)\\neq 1$. Maintenant, l'application $x\\mapsto ax$ est une permutation de $G$ : en effet, pour tout $y\\in G$, il existe un unique $x\\in G$ tel que $y=ax$ ($x$ est égal à $a^{-1}y$). On en déduit que\r\n$$\\sum_{x\\in G}f(ax)=\\sum_{x\\in G}f(x).$$\r\nMais d'autre part, puisque $f$ est un morphisme de groupes, on a aussi\r\n$$\\sum_{x\\in G}f(ax)=\\sum_{x\\in G}f(a)f(x)=f(a)\\sum_{x\\in G}f(x).$$\r\nAinsi, il vient\r\n$$\\big(f(a)-1\\big)\\times \\sum_{x\\in G}f(x)=0.$$\r\nPuisque $f(a)\\neq 1$, on en déduit que $\\sum_{x\\in G}f(x)=0.$",
+    "lang": "french"
+}

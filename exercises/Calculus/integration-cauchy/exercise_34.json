@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,1]\\to\\mathbb R$ strictement croissante telle que $f(0)=0$ et $f(1)=1$.\r\nProuver que $\\lim_{n\\to+\\infty}\\int_0^1\\big(f(t))^n dt=0.$",
+    "hint": "Couper l'intégrale en deux parties : de $0$ à $1-\\veps$ puis de $1-\\veps$ à $1$.",
+    "solution": "Soit $\\veps>0$ (vérifiant aussi $\\veps<1$). Posons $\\alpha=f(1-\\veps)$. Alors, pour tout $x\\in[0,1-\\veps]$, on a \r\n$0=f(0)\\leq f(x)\\leq f(1-\\veps)=\\alpha$. De plus, la suite $(\\alpha^n)$ tend vers 0, donc il existe $N\\in\\mathbb N$\r\ntel que, pour tout $n\\geq N$, on a $0\\leq\\alpha^n\\leq\\veps$. On en déduit que, pour tout $n\\geq N$, \r\n\\begin{eqnarray*}\r\n0\\leq\\int_0^1 \\big(f(t)\\big)^n dt&=&\\int_0^{1-\\veps} \\big(f(t)\\big)^n dt+\\int_{1-\\veps}^1\\big(f(t)\\big)^ndt\\\\\r\n&\\leq&(1-\\veps)\\alpha^n +\\int_{1-\\veps}^1 1^n dt\\\\\r\n&\\leq&\\alpha^n +\\veps\\leq2\\veps\r\n\\end{eqnarray*}\r\nce qui achève la preuve.",
+    "lang": "french"
+}

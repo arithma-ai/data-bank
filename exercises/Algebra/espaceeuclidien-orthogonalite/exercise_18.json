@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel euclidien, et $p$ un projecteur de $E$. Montrer que $p$ est un projecteur orthogonal\r\nsi et seulement si pour tout $x$ de $E$, on a $\\|p(x)\\|\\leq \\|x\\|$.",
+    "hint": "Le sens direct est facile d'après le théorème de Pythagore. Pour la réciproque, faire un dessin! On pourra\r\nensuite prendre $x\\in Im(p)$ et $y\\in \\ker(p)$, et étudier $f(t)=\\|x+ty\\|^2$.",
+    "solution": "Supposons d'abord que $p$ est un projecteur orthogonal. Pour tout $x$ de $E$, $x=p(x)+(x-p(x))$, où \r\n$p(x)\\perp x-p(x)$. Le théorème de Pythagore donne alors $\\|x\\|^2=\\|p(x)\\|^2+\\|x-p(x)\\|^2$, ce qui entraîne $\\|p(x)\\|\\leq \\|x\\|$\r\npour tout $x$ de $E$. Réciproquement, supposons que pour tout $x$ de $E$, $\\|p(x)\\|\\leq \\|x\\|$, et supposons que $p$\r\nest le projecteur sur $F$ parallèlement à $G$. Prenons $x$ dans $F$, et $y$ dans $G$, et posons $f(t)=\\|x+ty\\|^2$.\r\nLe développement de la norme donne :\r\n$$f(t)=\\|x\\|^2+2t(x,y)+t^2\\|y\\|^2.$$\r\n$f$ est donc une fonction dérivable. En outre, $p(x+ty)=x$, et donc $f(0)=\\|x\\|^2\\leq \\|x+ty\\|^2\\leq f(t)$. $f$\r\natteint donc son minimum en 0. On a donc $f'(0)=0$, ce qui donne $(x,y)=0$ : $F$ et $G$ sont orthogonaux,\r\nce qui signifie que $p$ est un projecteur orthogonal!",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "On considère l'équation $x^2-2y^2=1$ d'inconnues $x,y\\in\\mathbb N^*$.\r\nÉcrire un algorithme permettant de déterminer toutes les solutions de cette équation pour lesquelles\r\n$y\\leq 100$.",
+    "hint": "",
+    "solution": "On notera Ent(x) la partie entière de x.Pour y allant de 0 à 100z=sqrt(1+2y*y)Si z=Ent(z) afficher(z,y)Fin pour.",
+    "lang": "french"
+}

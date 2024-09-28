@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in\\mathcal S_n^+(\\mathbb R)$. Démontrer que $\\det(I_n+A)\\geq 1.$",
+    "hint": "Quelles sont les valeurs propres de $I_n+A$?",
+    "solution": "Puisque $A\\in\\mathcal S_n(\\mathbb R)$, $A$ est diagonalisable dans une base orthonormale : il existe $P\\in O_n(\\mathbb R)$ telle $A=PDP^{-1},$ avec $D=\\textrm{diag}(\\lambda_1,\\dots,\\lambda_n).$ D'autre part, puisque $A$ est positive, tous les valeurs propres $\\lambda_i$ sont éléments de $[0,+\\infty[$. \r\nOn écrit ensuite \r\n$$I_n+A=PI_nP^{-1}+PDP^{-1}=P(I_n+D)P^{-1}$$\r\navec $I_n+D=\\textrm{diag}(1+\\lambda_1,\\dots,1+\\lambda_n).$ On a enfin\r\n$$\\det(I_n+D)=\\prod_{k=1}^n (1+\\lambda_k)\\geq 1$$\r\npuisque $1+\\lambda_k\\geq 1$ pour tout $k=1,\\dots,n$.",
+    "lang": "french"
+}

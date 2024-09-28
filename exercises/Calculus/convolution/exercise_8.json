@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f\\in L^1$ à support compact et $g:\\mathbb R\\to\\mathbb R$ une fonction continue $\\alpha$-höldérienne, avec $\\alpha\\in ]0,1]$ :\r\n$$\\exists C>0,\\ \\forall (x,y)\\in\\mathbb R^2,\\ |g(x)-g(y)|\\leq C|x-y|^\\alpha.$$\r\nDémontrer que $f\\star g$ existe et est une fonction $\\alpha$-höldérienne.",
+    "hint": "",
+    "solution": "Notons $K$ le support de $f$. Pour tout $x\\in\\mathbb R$, l'intégrale $\\int_K f(t)g(x-t)$ est convergente car $t\\mapsto g(x-t)$ est bornée sur le compact $K$ puisque $g$ est continue et car $f$ est intégrable sur $K$ (le produit d'une fonction bornée et d'une fonction intégrable est intégrable). De plus, pour tous $x,y\\in\\mathbb R$, on a\r\n\\begin{eqnarray*}\r\n|f\\star g(x)-f\\star g(y)|&=&\\left| \\int_K f(t)\\big(g(x-t)-g(y-t)\\big) dt\\right|\\\\\r\n&\\leq &\\int_K |f(t)| |g(x-t)-g(y-t)| dt\\\\\r\n&\\leq&C \\int_K |f(t)| |x-y|^\\alpha dt\\\\\r\n&\\leq & C\\|f\\|_1 |x-y|^\\alpha,\r\n\\end{eqnarray*}\r\nce qui prouve le résultat.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(X,\\mathcal A,\\mu)$ un espace mesuré et soit $(A_n)_{n\\geq 0}$ une suite d'éléments de $\\mathcal A$. On suppose que $\\mu(\\bigcup_{n\\geq 0}A_n)$ est finie. Démontrer que \r\n$$\\mu\\left(\\limsup_{n\\to+\\infty}A_n\\right)\\geq \\limsup_{n\\to+\\infty}\\mu(A_n).$$",
+    "hint": "",
+    "solution": "Posons, pour $p\\in\\mathbb N,$\r\n$$B_p=\\bigcup_{k\\geq p}A_k$$\r\nde sorte que \r\n$$\\limsup_{n\\to+\\infty}(A_n)=\\bigcap_{p\\geq 1}B_p.$$\r\nFixons $p\\in\\mathbb N.$ Pour tout $n\\geq p,$ on a $A_n\\subset B_p$\r\net donc $\\mu(A_n)\\leq \\mu(B_p)$. Passons à la limite supérieure en $n$. On trouve \r\n$$\\limsup_{n\\to+\\infty}\\mu(A_n)\\leq \\mu(B_p).$$\r\nOr, puisque la suite $(B_p)$ est décroissante et que $\\mu(B_0)$ est finie, on a \r\n$$\\lim_{p\\to+\\infty}\\mu(B_p)=\\mu\\left(\\bigcap_{p\\geq 1}B_p\\right)=\\mu\\left(\\limsup_{n\\to+\\infty}A_n\\right).$$\r\nOn en déduit le résultat voulu en faisant tendre $p$ vers $+\\infty$ dans l'inégalité précédente.",
+    "lang": "french"
+}

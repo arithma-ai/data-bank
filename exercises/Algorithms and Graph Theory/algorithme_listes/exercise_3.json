@@ -1,0 +1,6 @@
+{
+    "script": "Écrire une fonction fusion qui prend en argument deux listes triées $L1$ et $L2$ et qui renvoie une seule liste triée contenant les éléments de $L1$ et $L2$.",
+    "hint": "",
+    "solution": "On parcourt les deux listes en même temps afin de déterminer un premier rangement. On s'arrête lorsqu'une des deux listes est épuisée. On ajoute alors les termes qui restent de l'autre liste. Voici l'algorithme présenté sous Python.def fusion(L1,L2):n1=len(L1)n2=len(L2)i,j=0,0L=[]while ( (i<n1) and (j<n2)):if (L1[i]<L2[j]):L.append(L1[i])i=i+1else:L.append(L2[j])j=j+1# On ajoute encore les termes de la liste non epuiseefor i in range(i,n1):L.append(L1[i])for j in range(j,n2):L.append(L2[j])return L",
+    "lang": "french"
+}

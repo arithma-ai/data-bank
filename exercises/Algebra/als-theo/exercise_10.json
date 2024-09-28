@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f\\in\\mathcal L(E)$. Démontrer que $\\ker(f)$, $\\ker(f-Id)$ et $\\ker(f+Id)$ sont en somme directe.",
+    "hint": "Supposer qu'il y a une écriture $x+y+z=0$ avec $x,y,z$ dans les espaces respectifs, et composer (deux fois) par $f$.",
+    "solution": "Soient $x\\in \\ker(f)$, $y\\in\\ker(f-Id)$ et $z\\in\\ker(f+Id)$ tels que $x+y+z=0$. Il s'agit de prouver que $x=y=z=0$. Appliquons $f$ à la relation $x+y+z=0$. On trouve \r\n$$f(x+y+z)=y-z=0.$$ On applique à nouveau $f$ et on trouve $y+z=0$. On a donc le système d'équations :\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx+y+z&=&0\\\\\r\ny-z&=&0\\\\\r\ny+z&=&0.\r\n\\end{array}\\right.$$\r\nOn en déduit facilement (par exemple en commençant par faire la somme des deux dernières équations) que $x=y=z=0$. Ainsi, $\\ker(f)$, $\\ker(f-Id)$ et $\\ker(f+Id)$ sont en somme directe.",
+    "lang": "french"
+}

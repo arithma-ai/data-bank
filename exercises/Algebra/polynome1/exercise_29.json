@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\in\\mathbb N^*$ et $P\\in\\mathbb C_n[X]$. On note, pour $p<n$, $u_p$ la somme des racines de $P^{(p)}$. Démontrer que\r\n$u_0,\\dots,u_{n-1}$ forme une progression arithmétique.",
+    "hint": "Retrouver la somme des racines comme coefficient du polynôme.",
+    "solution": "Écrivons \r\n$$P(X)=a_nX^n+a_{n-1}X^{n-1}+\\dots+a_0.$$\r\nAlors, par les relations coefficients/racines, on sait que la somme des racines de $P$ vaut\r\n$u_0=-a_{n-1}/a_n$. Plus généralement, on a \r\n$$P^{(p)}(X)=n(n-1)\\dots(n-p+1)a_nX^{n-p}+(n-1)\\dots(n-p)a_{n-1}X^{n-p-1}+\\dots+p!a_p,$$\r\nde sorte que\r\n$$u_p=-\\frac{(n-1)\\dots(n-p)}{n(n-1)\\dots(n-p+1)}\\times\\frac{a_{n-1}}{a_n}=-\\frac{(n-p)}{n}\\times\\frac{a_{n-1}}{a_n}.$$\r\nOn a donc\r\n$$u_{p+1}-u_p=-\\left(\\frac{n-p-1}{n}-\\frac{n-p}n\\right)\\times\\frac{a_{n-1}}{a_n}=\\frac{a_{n-1}}{na_n}.$$\r\nOn obtient bien une progression arithmétique de raison $\\frac{a_{n-1}}{na_n}$.",
+    "lang": "french"
+}

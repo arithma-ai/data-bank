@@ -1,0 +1,6 @@
+{
+    "script": "Calculer la somme suivante : \r\n$$\\sum_{k=1}^n (n-k+1).$$",
+    "hint": "Faire le changement d'indice $\\ell=n-k+1$.",
+    "solution": "Effectuons le changement d'indices $\\ell=n-k+1$. Lorsque $k$ varie de $1$ à $n$, alors $\\ell$ varie aussi de $1$ à $n$. On a donc\r\n$$\\sum_{k=1}^n (n+1-k)=\\sum_{\\ell=1}^n \\ell=\\frac{n(n+1)}2.$$",
+    "lang": "french"
+}

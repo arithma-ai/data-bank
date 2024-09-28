@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb Z\\times\\mathbb N^*\\to\\mathbb Q$, $(p,q)\\mapsto p+\\frac 1q$. $f$ est-elle injective, surjective?",
+    "hint": "Pour démontrer que $f$ est injective, appliquer la définition, et mettre les $p$ ensemble, les $q$ ensemble. Pour traiter la surjectivité,\r\nessayer de trouver un antécédent à 2/3.",
+    "solution": "On va commencer par prouver que $f$ est injective. Prenons $(p,q)$ et $(p',q')$ tels que $f(p,q)=f(p',q')$. On souhaite prouver\r\nque $(p,q)=(p',q')$. \r\n$$f(p,q)=f(p',q')\\iff p'-p=\\frac 1{q}-\\frac 1{q'}.$$\r\nMais $0<\\frac 1{q'}\\leq 1$ et $-1\\leq -\\frac 1q<0$. On en déduit que\r\n$$-1<\\frac 1{q}-\\frac1{q'}<1$$\r\nOn a donc $|p-p'|<1$, alors que $p-p'$ est un entier. On en déduit que $p=p'$, puis, utilisant de nouveau que $f(p,q)=f(p',q')$, que $q=q'$.On va ensuite prouver que $f$ n'est pas surjective. En effet, $2/3$ n'a pas d'antécédents. Sinon, il s'écrirait \r\n$p+\\frac 1q$. Puisque $p< p+1/q=2/3\\leq p+1$, il faudrait nécessairement que $p=0$. Et donc on aurait\r\n$\\frac 23=\\frac 1q$ soit $q=3/2$, ce qui n'est pas un entier. Donc $f$ n'est pas surjective.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soient $X_1,X_2,Y_1$ et $Y_2$ des ensembles tels que $X_1$ et $Y_1$ sont équipotents et tels que $X_2$ et $Y_2$ sont équipotents. Démontrer que $X_1\\times X_2$ est équipotent à $Y_1\\times Y_2$.",
+    "hint": "",
+    "solution": "Si $f$ est une bijection de $X_1$ sur $Y_1$ et si $g$ est une bijection de $X_2$ sur $Y_2$, alors $(f,g)$ est une bijection de $X_1\\times X_2$ sur $Y_1\\times Y_2$.",
+    "lang": "french"
+}

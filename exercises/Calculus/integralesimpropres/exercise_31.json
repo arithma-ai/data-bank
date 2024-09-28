@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer un équivalent simple en $+\\infty$ de $\\int_x^{+\\infty}\\frac{e^{-t}}tdt$.",
+    "hint": "Intégrer par parties puis utiliser le théorème d'intégration des relations de comparaison.",
+    "solution": "On remarque d'abord que $\\int_1^{+\\infty}\\frac{e^{-t}}tdt$ converge : en effet, la fonction $t\\mapsto \\frac{e^{-t}}t$ est continue et positive sur $[1,+\\infty[$ et $\\lim_{t\\to+\\infty}t^2\\frac{e^{-t}}t=0$. On intègre ensuite par parties, en intégrant $t\\mapsto e^{-t}$ et en dérivant $t\\mapsto \\frac 1t$. On obtient, pour $x>1$,\r\n\\begin{eqnarray*}\r\n\\int_x^{+\\infty}\\frac{e^{-t}}tdt&=&\\left[-\\frac{e^{-t}}t\\right]_x^{+\\infty}-\\int_x^{+\\infty}\\frac{e^{-t}}{t^2}dt\\\\\r\n&=&\\frac{e^{-x}}x-\\int_x^{+\\infty}\\frac{e^{-t}}{t^2}dt.\r\n\\end{eqnarray*} \r\nOr, au voisinage de $+\\infty$,\r\n$$\\frac{e^{-t}}{t^2}=_{+\\infty}o\\left(\\frac{e^{-t}}t\\right).$$\r\nPar intégration des relations de comparaison (les fonctions sont positives et intégrables), on trouve\r\n$$\\int_x^{+\\infty}\\frac{e^{-t}}{t^2}dt=_{+\\infty}o\\left(\\int_x^{+\\infty}\\frac{e^{-t}}{t}\\right).$$\r\nOn en déduit que\r\n$$\\int_x^{+\\infty}\\frac{e^{-t}}tdt\\sim_{+\\infty}\\frac{e^{-x}}x.$$",
+    "lang": "french"
+}

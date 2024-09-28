@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$ et $S\\in\\mathcal S_n(\\mathbb R)$ telle que $S^4=2S^3-3S^2.$\r\nDémontrer que $S=0.$",
+    "hint": "Déterminer quelles peuvent être les valeurs propres de $S$.",
+    "solution": "Le polynôme $P=X^4-2X^3+3X^2$ est un polynôme annulateur pour $S.$ Il se factorise en $P=X^2(X^2-2X+3)$. Or, le discriminant de $X^2-2X+3$ est $-8<0,$ et donc la seule racine de $P$ est $0$. Comme les valeurs propres des matrices sont toujours des racines des polynômes annulateurs, la seule valeur propre possible pour $S$ est $0$.Mais d'autre part, $S$ est diagonalisable (dans une base orthonormée), et donc il existe $P\\in O_n(\\mathbb R)$ tel que $S=PDP^T$ avec $D$ diagonale constituée par les valeurs propres de $A,$ c'est-à-dire $D=0.$ Ainsi, $S=0.$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les droites $(D)$ de l'espace faisant un angle de $60$ deg avec $(Ox)$ et $45$ deg avec $(Oy)$.",
+    "hint": "Déterminer un vecteur directeur unitaire d'une telle droite.",
+    "solution": "Il suffit de déterminer un vecteur directeur $\\vec u=(a,b,c)$ d'une telle droite, qu'on peut supposer unitaire,\r\nà savoir $a^2+b^2+c^2=1$. La condition d'angle avec $(Ox)$ donne \r\n$$\\cos(\\pi/3)=\\frac{|\\vec u\\cdot\\vec i|}{\\|\\vec u\\|\\cdot\\|\\vec i\\|}=|a|,$$\r\nsoit $a=\\pm 1/2$. De même, on trouve $b=\\pm \\sqrt 2/2$ et la relation $a^2+b^2+c^2=1$ donne\r\n$c=\\pm 1/2$. Suivant les signes choisis, on trouve donc 8 possibilités pour les vecteurs directeurs, \r\nmais en fait cela ne donne que 4 droites distinctes, puisque deux vecteurs directeurs opposés correspondent\r\nà la même droite.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Une course oppose 20 concurrents, dont Émile.Combien y-a-t-il de podiums possibles?Combien y-a-t-il de podiums possibles où Émile est premier?Combien y-a-t-il de podiums possibles dont Émile fait partie?On souhaite récompenser les 3 premiers en leur offrant un prix identique à chacun. Combien y-a-t-il de distributions de récompenses possibles?",
+    "hint": "",
+    "solution": "Pour le premier, on a 20 choix possibles, pour le second 19, pour le troisième 18. Le nombre de podiums possibles est donc\r\négal à $20\\times 19\\times 18=6840$.Le premier concurrent est Emile. Pour les autres places, il y a 19 puis 18 choix possibles; Le nombre de podiums ainsi constitués est de $19\\times 18$.Il y a trois choix possibles pour la place d'Emile. Une fois ce choix fixé, il y a 19 choix possibles pour la première des deux autres places, puis 18 choix possibles pour la seconde des deux autres places. Le nombre de podiums vérifiant ces conditions est donc de $3\\times 19\\times 18$.L'ordre n'est plus important, et on cherche\r\nle nombre de choix de 3 concurrents parmi $20$, c'est-à-dire $\\binom {20}3=1140$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in\\mathbb R[X]$ un polynôme non constant et $F=\\{P\\in\\mathbb R[X];\\ A\\textrm{ divise }P\\}$.\r\nMontrer que $F$ est un sous-espace vectoriel de $\\mathbb R[X]$ et trouver un supplémentaire à $F$.",
+    "hint": "Utiliser la division euclidienne.",
+    "solution": "Remarquons que $F=\\{AQ;\\ Q\\in\\mathbb R[X]\\}$, ce qui permet facilement de prouver que $F$ est\r\nun sous-espace vectoriel de $\\mathbb R[X]$. D'autre part, prenons maintenant $B\\in\\mathbb R[X]$.\r\nD'après la division euclidienne, il s'écrit de façon unique sous la forme $B=AQ+R$,\r\noù $Q\\in\\mathbb R[X]$ et $R\\in\\mathbb R_{d-1}[X]$, où $d$ est le degré de $A$, c'est-à-dire de façon unique comme\r\nla somme d'un élément de $F$ et d'un élément de $\\mathbb R_{d-1}[X]$. Ceci signifie exactement que \r\n$F$ et $\\mathbb R_{d-1}[X]$ sont des sous-espaces vectoriels supplémentaires dans $\\mathbb R[X]$.",
+    "lang": "french"
+}

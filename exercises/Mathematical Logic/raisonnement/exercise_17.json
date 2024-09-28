@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(u_n)_{n\\in\\mathbb N}$ la suite définie par $u_0=2$, $u_1=3$ et, pour tout $n\\in\\mathbb N$, $u_{n+2}=3u_{n+1}-2u_n$. Démontrer que, pour tout $n\\in\\mathbb N$, $u_{n}=1+2^n$.",
+    "hint": "Procéder par récurrence double.",
+    "solution": "On va démontrer ce résultat par récurrence. Comme la formule de récurrence porte sur deux termes de la suite, nous allons effectuer une récurrence double. Pour $n\\in\\mathbb N$, on note $\\mathcal P(n)$ la propriété $\"u_n=1+2^n\"$.Initialisation : On a $u_0=2=1+2^0$, donc $\\mathcal P(0)$ est vraie. On a aussi $u_1=3=1+2^1$ donc $\\mathcal P(1)$ est vraie.Hérédité : Soit $n\\in\\mathbb N$ tel que $\\mathcal P(n)$ et $\\mathcal P(n+1)$ sont vraies. Alors on a \r\n$$u_{n+2}=3u_{n+1}-2u_n.$$\r\nPuisque $\\mathcal P(n+1)$ et $\\mathcal P(n)$ sont vraies, on a\r\n\\begin{align*}\r\nu_{n+2}&=3(1+2^{n+1})-2(1+2^n)\\\\\r\n&=3+3\\cdot 2^{n+1}-2-2\\cdot 2^n\\\\\r\n&=1+6\\cdot 2^n-2\\cdot 2^n\\\\\r\n&=1+4\\cdot 2^n\\\\\r\n&=1+2^{n+2}.\r\n\\end{align*}\r\nDonc $\\mathcal P(n+2)$ est vraie.En conclusion, par le principe de récurrence double, $\\mathcal P(n)$ est vraie pour tout entier naturel $n$.",
+    "lang": "french"
+}

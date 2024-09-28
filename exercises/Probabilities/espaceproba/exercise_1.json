@@ -1,0 +1,6 @@
+{
+    "script": "Les assertions suivantes sont-elles vraies ou fausses?Deux événements incompatibles sont indépendants.Deux événements indépendants sont incompatibles.Si $P(A)+P(B)=1$, alors $A=\\bar B$.Si $A$ et $B$ sont deux événements indépendants, alors $P(A\\cup B)=P(A)+P(B)$.Soit $(A_n)_{n\\in\\mathbb N}$ et $(B_p)_{p\\in\\mathbb N}$ deux systèmes complets d'événements. Alors $(A_n\\cap B_p)_{(n,p)\\in\\mathbb N^2}$ est un système complet d'événements.",
+    "hint": "",
+    "solution": "Faux! Il suffit de prendre $A$ avec $0<P(A)<1$ et $B=\\bar A$. Alors $A$ et $B$ sont incompatibles, mais ne sont pas indépendants !Pas nécessairement! Si on lance un dé parfaitement équilibré, et qu'on considère les deux événements $A$=\"Obtenir un nombre pair\" et $B$=\"Obtenir 5 ou 6\".  Alors $A$ et $B$ sont indépendants. En effet, $P(A)=1/2$, $P(B)=1/3$, et on a bien $P(A\\cap B)=1/6$ mais ils ne sont pas incompatibles. D'ailleurs, des événements indépendants ne sont presque jamais incompatibles. Il faudrait au moins que la probabilité d'un des deux soit nulle !Faux! Il suffit que $P(A\\cap B)=0$ avec $A\\cap B\\neq\\varnothing$ pour que ce ne soit pas vrai.Faux (prendre l'exemple ci-dessus avec le dé...).C'est vrai!",
+    "lang": "french"
+}

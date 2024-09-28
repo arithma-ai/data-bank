@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ un groupe fini. On dit qu'un élément $x\\in G$ est central s'il commute avec tous les autres éléments de $G$. On suppose désormais que $G$ est un $p$-groupe, et on fait agir $G$ sur lui-même par automorphisme intérieur : $(g,x)\\mapsto gxg^{-1}$.Démontrer que $x$ est central si et seulement si son orbite sous cette action est de cardinal 1.En déduire que dans un $p$-groupe, il existe un élément central différent de $e$.",
+    "hint": "Pour la deuxième question, utiliser l'équation aux classes et séparer les cas où l'élément est central des autres.",
+    "solution": "Il suffit de remarquer que $x$ est central si et seulement si, pour tout $g\\in G$, $gxg^{-1}=x$.Notons $r$ le nombre d'éléments centraux. Puisqu'une orbite sous l'action de $G$ divise le cardinal de $G$, le cardinal d'une orbite est une puissance de $p$. On en déduit, par l'équation aux classes, que \r\n$$p^n=\\textrm{card}(G)=r+\\sum_{i=1}^m p^{n_i}$$\r\navec tous les $n_i$ qui sont non nuls (on a séparé les éléments centraux des autres orbites dans l'équation aux classes). On en déduit que $p|r$. Mais comme $r$ est non nul ($e$ est toujours central), $r\\geq p$ et il existe des éléments centraux non triviaux!",
+    "lang": "french"
+}

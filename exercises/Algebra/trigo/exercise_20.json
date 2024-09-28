@@ -1,0 +1,6 @@
+{
+    "script": "Pour quelles valeurs de $m$ l'équation $\\sqrt 3\\cos x-\\sin x=m$ admet-elle des solutions?\r\nLes déterminer lorsque $m=\\sqrt 2$.",
+    "hint": "Mettre $\\sqrt{(\\sqrt 3)^2+1^2}$ en facteur.",
+    "solution": "C'est une méthode classique. On met en facteur $\\sqrt{(\\sqrt 3)^2+1^2}=2$, de sorte que \r\n$$\\sqrt 3\\cos x-\\sin x=2\\left(\\frac{\\sqrt 3}2\\cos x-\\frac 12\\sin x\\right)=2\\big(\\cos(\\pi/6)\\cos x-\\sin(\\pi/6)\\sin x\\big)=2\\cos\\left(x+\\frac\\pi 6\\right).$$\r\nL'équation est donc équivalente à \r\n$$\\cos\\left(x+\\frac\\pi 6\\right)=\\frac{m}2.$$\r\nElle admet donc des solutions si et seulement si $m\\in[-2,2]$. Si $m=\\sqrt 2$, alors on a \r\n$$\\cos\\left(x+\\frac\\pi 6\\right)=\\frac{m}2=\\cos\\left(\\frac{\\pi}4\\right)\\iff x=\\frac{\\pi}{12}+2k\\pi,\\ k\\in\\mathbb Z\\textrm{ ou } x=-\\frac{5\\pi}{12}+2k\\pi,\\ k\\in\\mathbb Z.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "On considère $E=C([0,1],\\mtr)$ muni du produit scalaire $(f,g)=\\int_0^1 f(t)g(t)dt.$\r\nSoit $F=\\{f\\in E,\\ f(0)=0\\}$. Montrer que $F^\\perp=\\{0\\}$. En déduire que $F$ n'admet pas\r\nde supplémentaire orthogonal.",
+    "hint": "On peut utiliser que si $g$ est dans $E$, alors $xg$ est dans $F$. \r\nSi $F$ admet un supplémentaire orthogonal, on a toujours $F\\oplus F^\\perp=E$.",
+    "solution": "Soit $g\\in F^\\perp$. Remarquons que la fonction $h$ définie par $h(x)=xg(x)$ \r\nest dans $F$. On en déduit que $(g,h)=0$, ce qui donne $\\int_0^1 xg^2(x)=0.$\r\nOr, la fonction $x\\mapsto xg^2(x)$ est positive et continue sur $[0,1]$. Puisque son intégrale est nulle,\r\nc'est qu'il s'agit de la fonction identiquement nulle. Ainsi, pour tout $x>0$, on a $g(x)=0$.\r\nMaintenant, $g$ est continue, et donc on obtient que $g$ est identiquement nulle. Ainsi, $F^\\perp=\\{0\\}$.\r\nD'autre part, si $F$ admettait un supplémentaire orthogonal, on aurait $F\\oplus F^\\perp=E$. Ici,\r\n$F\\oplus F^\\perp=F\\neq E$. Donc $F$ n'admet pas de supplémentaire orthogonal!",
+    "lang": "french"
+}

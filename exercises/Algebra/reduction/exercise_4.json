@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E=\\mathcal C^\\infty(\\mathbb R_+^*,\\mathbb R)$ et $u\\in\\mathcal L(E)$ défini par, pour $f\\in E,$\r\n$u(f)(t)=tf'(t).$\r\nDéterminer les valeurs propres et les vecteurs propres de $u.$ En déduire que $(f_\\lambda)_{\\lambda\\in\\mathbb R}$ est une famille libre de $E,$ où $f_\\lambda(t)=t^\\lambda.$",
+    "hint": "Résoudre l'équation différentielle $tf'(t)=\\lambda f(t),$ $\\lambda\\in\\mathbb R.$",
+    "solution": "Soit $\\lambda\\in\\mathbb R$ et $f\\in E$. Alors $f$ est un vecteur propre de $u$ associé à la valeur propre $\\lambda$ si et seulement si, pour tout $t>0,$\r\n$$tf'(t)=\\lambda f(t)\\iff f'(t)=\\frac{\\lambda}t f(t).$$\r\nLes solutions de cette équation différentielle sont les fonctions $f(t)=C\\exp(\\lambda\\ln(t))=t^\\lambda$ avec $C\\in\\mathbb R,$ et ce sont bien des éléments de $E.$\r\nAinsi, on a prouvé que tout réel $\\lambda$ est valeur propre de $u,$ et que l'espace propre\r\nassocié est $\\textrm{vect}(f_\\lambda)$ où $f_\\lambda(t)=t^\\lambda.$De plus, des vecteurs propres associés à des valeurs propres distinctes formant une famille libre, \r\non en déduit que $(f_\\lambda)_{\\lambda\\in\\mathbb R}$ est une famille libre de $E.$",
+    "lang": "french"
+}

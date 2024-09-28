@@ -1,0 +1,6 @@
+{
+    "script": "Soit $K$ un corps fini. Calculer $\\prod_{x\\in K^*}x$.",
+    "hint": "Regrouper chaque élément avec son inverse.",
+    "solution": "Dans le produit, on regroupe chaque élément avec son inverse.\r\nCeci est possible s'ils sont distincts, et dans ce cas, on peut simplifier\r\nle produit $x x^{-1}=1$. On en déduit que \r\n$$\\prod_{x\\in K^*}x=\\prod_{x=x^{-1}}x=\\prod_{x^2=1}x.$$\r\nOr, dans un corps $K$, l'équation $x^2=1$ a pour solution $1$ et $-1$. Si ces deux nombres\r\nsont distincts, alors le produit vaut $-1$. Si ces deux nombres sont égaux (cas d'un corps de caractéristique $2$), alors le\r\nproduit de ces deux nombres vaut $1=-1$ également. Finalement, dans tous les cas, on a bien\r\n$$\\prod_{x\\in K^*}x=-1.$$",
+    "lang": "french"
+}

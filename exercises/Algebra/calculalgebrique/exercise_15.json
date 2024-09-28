@@ -1,0 +1,6 @@
+{
+    "script": "Calculer les sommes suivantes :$S=\\frac{1}{2^{10}}+\\frac{1}{2^{20}}+\\frac{1}{2^{30}}+\\cdots+\\frac{1}{2^{1000}}$.$T_n=\\sum_{k=0}^n \\frac{2^{k-1}}{3^{k+1}}$.",
+    "hint": "Écrire $S$ à l'aide du symbole $\\sum$, puis utiliser la formule donnant la somme d'une série géométrique.Se ramener à une somme géométrique.",
+    "solution": "On remarque que \r\n$$S=\\sum_{k=1}^{100}\\frac{1}{2^{10k}}=\\sum_{k=1}^{100}\\left(\\frac1{2^{10}}\\right)^k.$$\r\nPar la formule donnant la somme d'une suite géométrique, on trouve\r\n\\begin{align*}\r\nS&=\\frac{ \\frac{1}{2^{10}}-\\frac 1{2^{1010}}}{1-\\frac1{2^{10}}}\\\\\r\n&=\\frac{1-\\frac 1{2^{1000}}}{2^{10}-1}\\\\\r\n&=\\frac{2^{1000}-1}{2^{1000}(2^{10}-1)}.\r\n\\end{align*}On factorise par $1/6$ pour se ramener à une somme géométrique.\r\n$$\\sum_{k=0}^n\\frac{2^{k-1}}{3^{k+1}}=\\frac 16\\sum_{k=0}^n \\left(\\frac 23\\right)^k=\\frac 16\\times\\frac{1-\\left(\\frac 23\\right)^{n+1}}{1-\\frac 23}=\r\n\\frac{1-\\left(\\frac 23\\right)^{n+1}}2.$$",
+    "lang": "french"
+}

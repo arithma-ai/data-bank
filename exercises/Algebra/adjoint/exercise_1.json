@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E=\\mathcal M_n(\\mathbb R)$ et $\\varphi\\in E^*$. Démontrer qu'il existe une unique matrice $A\\in\\mathcal M_n(\\mathbb R)$ telle que, pour tout $M\\in\\mathcal M_n(\\mathbb R)$, on a $\\varphi(M)=\\textrm{Tr}(AM).$",
+    "hint": "Considérer un bon produit scalaire sur $\\mathcal M_n(\\mathbb R)$ et utiliser le théorème de représentation de Riesz.",
+    "solution": "On rappelle que $\\langle M,N\\rangle=\\textrm{Tr}(M^T N)$ est un produit scalaire sur $\\mathcal M_n(\\mathbb R)$. Alors, par le théorème de représentation de Riesz, il existe une unique matrice $B$ telle que, pour tout $M\\in\\mathcal M_n(\\mathbb R),$\r\n$$\\varphi(M)=\\langle B,M\\rangle=\\textrm{Tr}(B^T M).$$\r\nLa matrice $A=B^T$ convient, et par unicité de $B$ (et puisque $M\\mapsto M^T$ est injective), la matrice $A$ est aussi unique.",
+    "lang": "french"
+}

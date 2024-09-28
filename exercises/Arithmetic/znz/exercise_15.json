@@ -1,0 +1,6 @@
+{
+    "script": "Le but de cet exercice est de montrer qu'il n'existe pas d'entier $n\\geq 2$ tel que $n$ divise $2^n-1$. On raisonne\r\npar l'absurde et on supposons qu'un tel entier $n$ existe. On note $p$ le plus petit diviseur premier de $n$.Montrer que $p>2$.On note $m$ l'ordre de la classe de 2 dans $(\\mathbb Z/p\\mathbb Z)^*$.Montrer que $m|p-1$.Montrer que $m|n$.Conclure.",
+    "hint": "$2^n-1$ est impair.Appliquer le théorème de Lagrange.On a $2^n=1$ dans $\\mathbb Z/n\\mathbb Z$.$(p-1)\\wedge n=1$.",
+    "solution": "Si $2|n$, alors $2|2^n-1$ et donc $2^n-1$ est pair, ce qui n'est pas le cas.Puisque $p$ est premier, $(\\mathbb Z/p\\mathbb Z)^*$ est un groupe de cardinal $p-1$.\r\nD'après le théorème de Lagrange, l'ordre de tout élément divise $p-1$. Donc $m|p-1$.Par hypothèse, $2^n\\equiv 1\\ [n]$ ce qui entraîne $2^n\\equiv 1\\ [p]$, ou encore\r\n$2^n=1$ dans $\\mathbb Z/p\\mathbb Z$. $n$ est donc un multiple de l'ordre de 2, ou encore $m|n$.Puisque $p$ est le plus petit facteur premier de $n$, on a $n\\wedge (p-1)=1$.\r\nAinsi, $m|\\textrm{pgcd}(p-1,n)=1$, et donc $m=1$. C'est absurde puisque $2\\neq 1$\r\ndans $\\mathbb Z/p\\mathbb Z$, $p\\geq 3$. Il est donc impossible que $n$ divise $2^n-1$.",
+    "lang": "french"
+}

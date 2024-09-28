@@ -1,0 +1,6 @@
+{
+    "script": "Soient $K,L$ deux corps et soit $f:K\\to L$ un morphisme d'anneaux.Démontrer que si $x\\in K\\backslash\\{0_K\\}$, alors $f(x)$ est inversible, et déterminer son inverse.En déduire qu'un morphisme de corps est injectif.",
+    "hint": "Partir de $x\\cdot x^{-1}=1_K$.",
+    "solution": "Soit $x\\in K\\backslash\\{0_K\\}$. Alors on a $x\\cdot x^{-1}=1_K$. On applique $f$ à cette identité, et en utilisant\r\nque $f$ est un morphisme d'anneaux, on trouve\r\n$$f(x)\\cdot f(x^{-1})=1_L.$$\r\nAinsi, $f(x)$ est inversible, d'inverse $f(x^{-1})$.Il suffit de démontrer que le noyau de $f$ est réduit à $0_K$. Mais si $f(x)=0$, alors\r\n$x\\notin K\\backslash\\{0_K\\}$ d'après la question précédente, et donc $x=0$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer une suite $(u_k)$ telle que, pour tout $k\\geq 0$, on ait\r\n$$u_{k+1}-u_k=(k+2) 2^k.$$En déduire $\\sum_{k=0}^{n}(k+2)2^k.$",
+    "hint": "Chercher $u_k$ sous la forme $u_k=(ak+b)2^k$.",
+    "solution": "On va chercher $u_k$ sous la forme $u_k=(ak+b)2^k$. On a alors\r\n$$u_{k+1}-u_k=(a(k+1)+b)2^{k+1}-(ak+b)2^k=(2ak+2a+2b-ak-b)2^k=(ak+2a+b)2^k.$$\r\nOn obtient donc le résultat si on choisit $a=1$ et $b=0$.Il s'agit maintenant d'une simple somme télescopique : \r\n\\begin{align*}\r\n\\sum_{k=0}^n (k+2)2^k&=\\sum_{k=0}^n \\big(u_{k+1}-u_k\\big)\\\\\r\n&=u_{n+1}-u_0\\\\\r\n&=(n+1)2^{n+1}.\r\n\\end{align*}",
+    "lang": "french"
+}

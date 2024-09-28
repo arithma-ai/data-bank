@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in\\mathcal M_n(\\mathbb R)$ symétrique. On suppose qu'il existe $p\\in\\mathbb N$ tel que $A^p=0$. Que vaut $A$?",
+    "hint": "Quelles sont les valeurs propres de $A$?",
+    "solution": "Soit $\\lambda$ une valeur propre de $A$, et $X$ un vecteur propre associé. Alors on a $A^p X=\\lambda^p X$ mais aussi $A^p X=0$. Ainsi, on doit avoir $\\lambda^p=0$, soit encore $\\lambda=0$. Ainsi, toutes les valeurs propres de $A$ doivent être nulles. Mais comme $A$ est diagonalisable, il est clair que ceci entraîne que $A=0$. Réciproquement, la matrice nulle vérifie bien ceci!",
+    "lang": "french"
+}

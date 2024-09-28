@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:U\\to V$ une fonction définie sur un ouvert $U$ de $\\mathbb R^p$ à valeurs dans un  ouvert $V$ de $\\mathbb R^q$. \r\nOn suppose que $f$ est différentiable en $a$ et que $f$ admet une fonction réciproque $g$, différentiable au point $b=f(a)$.\r\nDémontrer que $p=q$.",
+    "hint": "Se ramener  à un raisonnement d'application linéaire.",
+    "solution": "Les fonctions $f$ et $g$ étant réciproques l'une de l'autre, on a les relations\r\n$$g\\circ f=Id_U\\textrm{ et }f\\circ g=Id_V.$$\r\nEn différentiant ces deux relations, l'une au point $a$ et l'autre au point $b$, on trouve\r\n$$dg_b\\circ df_a=Id_{\\mathbb R^p}\\textrm{ et }df_a\\circ dg_b=Id_{\\mathbb R^q}.$$\r\nAutrement dit, $dg_b$ et $df_a$ sont deux applications linéaires réciproques l'une de l'autre. \r\nL'algèbre linéaire nous dit alors que $p=q$.",
+    "lang": "french"
+}

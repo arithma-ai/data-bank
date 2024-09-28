@@ -1,0 +1,6 @@
+{
+    "script": "Les trois mousquetaires (donc quatre personnes avec d'Artagnan), ont mélangé leurs bottes dans le couloir de l'auberge. D'Artagnan se lève en premier et prend deux bottes au hasard.Combien de possibilités s'offrent à lui?Combien de choix a-t-il tels que les deux bottes forment une paire (une droite et une gauche quelconques)?Combien de choix a-t-il tels que les deux bottes appartiennent à deux personnes différentes?",
+    "hint": "Compter par différence en cherchant le nombre de choix pour que les deux bottes appartiennent à la même personne.",
+    "solution": "Il y a $\\binom 82$ choix possibles (il s'agit de choisir deux éléments parmi 8).Il y a $\\binom 41$ choix possibles pour une botte gauche et $\\binom 41$ choix possibles pour une botte droite. Le nombre total de choix formant une paire est donc $\\binom 41\\times\\binom 41$.Il y a de nombreuses façons de répondre à cette question mais la plus simple est de raisonner par différence. Il y a en effet 4 choix pour que le deux bottes choisies appartiennent à la même personne. Comme il y a d'après la première question 28 choix possible de deux bottes, il y a 28-4=24 choix possibles de sorte que les deux bottes appartiennent à deux personnes différentes.",
+    "lang": "french"
+}

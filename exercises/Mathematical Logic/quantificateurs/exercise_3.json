@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A$, $B$ et $C$ trois propositions. Démontrer que les propositions $A\\textrm{ ET }(B\\textrm{ OU }C)$ et $(A\\textrm{ ET }B)\\textrm{ OU }(A\\textrm{ ET }C)$ sont équivalentes.",
+    "hint": "Dresser leurs tables de vérité.",
+    "solution": "On va dresser les tables de vérité de ces deux propositions et démontrer que leurs résultats sont identiques.\r\n$$\r\n\\begin{array}{c|c|c|c|c}\r\nA&B&C&B\\textrm{ OU }C&A\\textrm{ ET }(B\\textrm{ OU }C)\\\\\r\n0&0&0&0&0\\\\\r\n0&0&1&1&0\\\\\r\n0&1&0&1&0\\\\\r\n0&1&1&1&0\\\\\r\n1&0&0&0&0\\\\\r\n1&0&1&1&1\\\\\r\n1&1&0&1&1\\\\\r\n1&1&1&1&1\\\\\r\n\\end{array}\r\n$$\r\n$$\\begin{array}{c|c|c|c|c}\r\nA&B&C&A\\textrm{ ET }B&A\\textrm{ ET }C&(A\\textrm{ ET }B)\\textrm{ OU }(A\\textrm{ ET }C)\\\\\r\n0&0&0&0&0&0\\\\\r\n0&0&1&0&0&0\\\\\r\n0&1&0&0&0&0\\\\\r\n0&1&1&0&0&0\\\\\r\n1&0&0&0&0&0\\\\\r\n1&0&1&0&1&1\\\\\r\n1&1&0&1&0&1\\\\\r\n1&1&1&1&1&1\\\\\r\n\\end{array}\r\n$$\r\nLa lecture de ces deux tables de vérité nous dit bien que les deux propositions sont équivalentes.",
+    "lang": "french"
+}

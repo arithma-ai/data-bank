@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que pour tout $x\\in[0;+\\infty[$ :\r\n$$1-\\frac x3+\\frac{2x^2}9-\\frac{14x^3}{81}\\leq\\frac1{\\sqrt[3]{1+x}}\\leq 1-\\frac x3+\\frac{2x^2}9.$$",
+    "hint": "Appliquer la formule de Taylor reste intégral à $f(x)=(1+x)^{-1/3}$.",
+    "solution": "Posons $f(x)=(1+x)^{-1/3}$. $f$ est $C^\\infty$ sur $]0,+\\infty[$ et ses quatre premières dérivées sont :\r\n\\begin{eqnarray*}\r\nf'(x)&=&-\\frac13(1+x)^{-4/3}\\\\\r\nf''(x)&=&\\frac49(1+x)^{-7/3}\\\\\r\nf^{(3)}(x)&=&-\\frac{28}{27}(1+x)^{-10/3}\\\\\r\nf^{(4)}(x)&=&\\frac{280}{81}(1+x)^{-13/3}.\r\n\\end{eqnarray*}\r\nOn applique alors la formule de Taylor reste intégral à la fonction $f$ à l'ordre 3 entre 0 et $x\\in[0,+\\infty[$ :\r\n$$f(x)=1-\\frac{x}{3}+\\frac{2x^2}9+\\int_0^x (x-t)^2\\frac{f^{(3)}(t)}2dt.$$\r\nOr, pour tout $x\\geq 0$ et tout $t\\in [0,x]$, il est facile de vérifier que \r\n$$(x-t)^2\\frac{f^{(3)}(t)}2\\leq 0.$$\r\nOn intègre cette inégalité entre $0$ et $x$ et on trouve\r\n$$f(x)\\leq 1-\\frac{x}{3}+\\frac{2x^2}9.$$\r\n L'inégalité de gauche s'obtient exactement de la même\r\nfaçon, en utilisant la formule de Taylor reste intégral à l'ordre 4 et le fait que $f^{(4)}\\geq 0$ sur $[0,+\\infty[$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les fonctions continues $f:[0,1]\\to [0,1]$ vérifiant $\\int_0^1 f(t)dt=\\int_0^1 f^2(t)dt$.",
+    "hint": "Écrire toute sous la même intégrale et remarquer que la fonction qu'on intègre est positive.",
+    "solution": "Soit $f$ une solution. Alors \r\n$$\\int_0^1 \\big(f(t)-f^2(t))dt=0\\iff \\int_0^1 f(t)\\big(1-f(t)\\big)dt=0.$$\r\nOr, puisque $f$ est à valeurs dans $[0,1]$, la fonction $t\\in[0,1]\\mapsto f(t)\\big(1-f(t)\\big)$ est positive ou nulle. \r\nDe plus, elle est continue et son intégrale sur $[0,1]$ est nulle. Ainsi, elle est identiquement nulle. Ceci entraine\r\nque pour tout $t\\in [0,1]$, on a $f(t)=0$ ou $f(t)=1$. On va en réalité prouver que $f=0$ ou que $f=1$ (observez que ce n'est pas la même chose! Il y a inversion de quantificateurs…).Supposons en effet qu'il existe $t_0$ et $t_1$ dans $[0,1]$ avec $f(t_0)=0$ et $f(t_1)=1$. Alors, puisque $f$ est continue, par le théorème des valeurs intermédiaires, il existe $c\\in [0,1]$ tel que $f(c )=1/2$, ce qui ne peut pas être le cas.\r\nOn en déduit que  $f=0$ ou $f=1$.Réciproquement, ces fonctions sont solutions. On a donc démontré que les seules\r\nfonctions continues $f:[0,1]\\to [0,1]$ vérifiant $\\int_0^1 f(t)dt=\\int_0^1 f^2(t)dt$ sont les fonctions constantes égales à 0 ou à 1.",
+    "lang": "french"
+}

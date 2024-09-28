@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\in\\mathbb N$ et $a=n^5-n$.Démontrer que $a$ est divisible par $5$.En remarquant que $a=n(n-1)(n+1)(n^2+1)$, démontrer que $a$ est divisible par $2$ et par $3$.Démontrer que $a$ est divisible par $30$.",
+    "hint": "Petit théorème de Fermat.Appliquer un corollaire du théorème de Gauss.",
+    "solution": "Le plus facile est de remarquer que, d'après le petit théorème de Fermat, $n^5\\equiv n\\ [5]$, ce qui est exactement le résultat demandé.La vérification est immédiate. On remarque alors que, parmi $n$ et $n-1$, l'un des deux entiers est pair, et donc $2|a$. De la même façon, parmi les 3 entiers consécutifs $n-1$, $n$ et $n+1$, l'un au moins est divisible par $3$ et donc $3|a$.Puisque $2\\wedge 3=1$, puisque $2|a$ et $3|a$, on sait que $6|a$. Puisque $5\\wedge 6=1$ et que $5|a$, $6|a$, on en déduit que $30|a$.",
+    "lang": "french"
+}

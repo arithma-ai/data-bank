@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ une fonction convexe. Montrer que si $f$ admet un minimum local en $a$, alors $f$ admet un minimum global en $a$. Que peut-on dire si $f$ admet un maximum local en $a$?",
+    "hint": "Utiliser l'inégalité des pentes. Pour la deuxième question, on démontrera que $f$ est constante au voisinage de $a$.",
+    "solution": "Supposons d'abord que $f$ admette un minimum local en $a$ et considérons $c>a$. Puisque $a$ est un minimum local de $f$, il existe $b\\in ]a,c[$ tel que $f(b)\\geq f(a)$. Mais alors, par l'inégalité des pentes, on sait que \r\n$$\\frac{f(c)-f(a)}{c-a}\\geq \\frac{f(b)-f(a)}{b-a}\\geq 0.$$\r\nOn en déduit que $f(c)\\geq f(a)$. Le raisonnement aurait été similaire si on avait supposé $c<a$. On a donc bien prouvé que $a$ est un minimum global de $f$.Supposons maintenant que $f$ admette un maximum local en $a$ et considérons $b<a<c$ tels que pour tout $x\\in [b,c]$, $f(x)\\leq f(a)$. Considérons ensuite $x_1,x_2\\in [b,c]$ avec $x_1\\leq a\\leq x_2$.  Par l'inégalité des pentes à nouveau, on a \r\n$$0\\geq \\frac{f(x_2)-f(a)}{x_2-a}\\geq \\frac{f(a)-f(x_1)}{a-x_1}\\geq 0.$$\r\nOn en déduit que $f(x_1)=f(x_2)=f(a)$, puis que $f$ est constante sur $[b,c]$.",
+    "lang": "french"
+}

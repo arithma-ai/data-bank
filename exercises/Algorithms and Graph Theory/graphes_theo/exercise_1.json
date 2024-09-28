@@ -1,0 +1,6 @@
+{
+    "script": "Avez-vous remarqué que dans un groupe de personnes, il y a toujours deux individus qui ont exactement le même nombre d'amis à l'intérieur du groupe?Formaliser la propriété à démontrer dans le vocabulaire des graphes.Démontrer cette propriété (on pourra raisonner par l'absurde et supposer \r\nque la propriété à prouver n'est pas vraie pour un graphe à $n$ sommets).",
+    "hint": "",
+    "solution": "On doit prouver que dans un graphe simple (sans arête double, sans boucle), il y a toujours deux sommets qui ont le même degré.On va raisonner par l'absurde et supposer qu'il y a un graphe simple à $n$ sommets dont tous \r\nles degrés sont différents. Alors les degrés des sommets sont compris entre 0 et $n-1$, et donc si tous les degrés sont différents, \r\ncomme on a $n$ sommets et simplement $n$ possibilités pour les degrés, toutes ces possibilités doivent être prises. En particulier,\r\nil doit y avoir un sommet de degré 0 et un sommet de degré $n-1$. Mais c'est impossible, car ce dernier sommet devrait avoir une arête\r\nvers tous les autres, et ce n'est pas possible puisqu'un sommet est de degré 0, donc isolé.",
+    "lang": "french"
+}

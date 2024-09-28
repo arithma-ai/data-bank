@@ -1,0 +1,6 @@
+{
+    "script": "Soit $x\\in\\mathbb R$ et $n\\in\\mathbb N^*$.Calculer $S_n(x)=\\sum_{k=0}^n x^k.$En déduire la valeur de $T_n(x)=\\sum_{k=0}^n k x^k.$",
+    "hint": "Somme géométrique, sauf pour $x=1$.Dériver $S_n$.",
+    "solution": "C'est un exercice extrêmement classique qu'il faut savoir faire.On reconnait une somme géométrique de raison $x$. Pour $x\\neq 1$, on a \r\n$$S_n(x)=\\frac{1-x^{n+1}}{1-x}.$$\r\nPour $x=1$, $S_n(1)=n+1$.On distingue là encore le cas $x=1$. Il donne\r\n$$T_n(1)=\\sum_{k=0}^n k=\\frac{n(n+1)}2.$$\r\nSinon, on dérive $S_n$ : pour tout $x\\neq 1$, \r\n$$S_n'(x)=\\sum_{k=1}^n kx^{k-1}\\implies T_n(x)=xS_n'(x).$$\r\nOn calcule alors $S_n'(x)$ avec la formule obtenue à la question précédente et on trouve\r\n$$T_n(x)=x\\frac{nx^{n+1} −(n+1)x^n +1}{ (x−1)^2}.$$",
+    "lang": "french"
+}

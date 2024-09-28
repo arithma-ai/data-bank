@@ -1,0 +1,6 @@
+{
+    "script": "Pour $x\\in\\mathbb R$, on pose $f(x)=xe^{1-x}$.Justifier que $f$ réalise une bijection de $]-\\infty,1[$ sur un intervalle $J$ que l'on déterminera. On note $g:J\\to ]-\\infty,1[$ sa bijection réciproque.Justifier que $g$ est dérivable sur $J$. En remarquant que $f(-1)=-e^{2}$, calculer $g'(-e^2)$.",
+    "hint": "",
+    "solution": "-La fonction $f$ est dérivable sur $]-\\infty,1[$ et sa dérivée vérifie, pour tout $x<1$, \r\n $$f'(x)=e^{1-x}-xe^{1-x}=(1-x)e^{1-x}>0.$$\r\n Ainsi, la fonction $f$ est strictement croissante sur $]-\\infty,1[$. De plus, $\\lim_{x\\to-\\infty}xe^{1-x}=-\\infty$\r\n (ce n'est pas une forme indéterminée) et $f(1)=1$. Ainsi, $f$ étant continue et strictement croissante sur $]-\\infty,1[$, \r\n elle réalise une bijection de cet intervalle sur lui-même.Puisque $f'$ ne s'annule pas $]-\\infty,1[$, on sait que $g$ est dérivable sur $J$. De plus, on a $f(-1)=-e^{2}$ et  il vient du théorème donnant la dérivée d'une fonction réciproque\r\n $$g'(-e^{2})=\\frac{1}{f'(-1)}=\\frac{1}{2e^2}.$$",
+    "lang": "french"
+}

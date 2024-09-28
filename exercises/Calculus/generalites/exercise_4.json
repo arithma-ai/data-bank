@@ -1,0 +1,6 @@
+{
+    "script": "Soit $I$ une partie de $\\mathbb R$ symétrique par rapport à $0$ et $f$ bijective et impaire de $I$ dans $J\\subset \\mathbb R$. Démontrer que $f^{-1}$ est impaire. Peut-on remplacer impaire par paire dans cet énoncé?",
+    "hint": "",
+    "solution": "On va d'abord démontrer que $J$ est symétrique par rapport à $0$. Pour cela, prenons $y\\in J$. Alors il existe $x\\in I$ tel que $y=f(x)$. Mais alors, $-y=-f(x)=f(-x)$ est aussi élément de $J$. De plus, on a \r\n$f^{-1}(y)=x$ et $f^{-1}(-y)=-x=-f^{-1}(y)$. La fonction réciproque $f^{-1}$ est bien impaire.Cela n'a pas de sens de remplacer impaire par paire dans cet énoncé. En effet, une fonction paire n'est jamais bijective (car $f(-x)=f(x)$) sauf si son ensemble de définition est restreint à $\\{0\\}$.",
+    "lang": "french"
+}

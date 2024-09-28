@@ -1,0 +1,6 @@
+{
+    "script": "Calculer les sommes doubles suivantes :$\\sum_{1\\leq i,j\\leq n}ij$.$\\sum_{1\\leq i\\leq j\\leq n}\\frac ij$.",
+    "hint": "Faire apparaître un produit.Mettre la somme sur $i$ à l'intérieur....",
+    "solution": "On reconnait simplement un produit : \r\n$$\\sum_{1\\leq i,j\\leq n}ij=\\left(\\sum_{i=1}^n i\\right)\\times \\left(\\sum_{j=1}^n j\\right)=\\frac{n^2(n+1)^2}4.$$On va mettre la somme sur $j$ à l'extérieur, et la somme sur $i$ a l'intérieur. On trouve\r\n\\begin{align*}\r\n\\sum_{1\\leq i\\leq j\\leq n}\\frac ij&=\\sum_{1\\leq j\\leq n}\\frac 1j\\sum_{i=1}^j i\\\\\r\n&=\\sum_{1\\leq j\\leq n}\\frac 1j\\times \\frac{j(j+1)}2\\\\\r\n&=\\frac 12\\sum_{1\\leq j\\leq n}(j+1)\\\\\r\n&=\\frac 12 \\times \\frac{n(n+3)}2\\\\\r\n&=\\frac{n(n+3)}4.\r\n\\end{align*}",
+    "lang": "french"
+}

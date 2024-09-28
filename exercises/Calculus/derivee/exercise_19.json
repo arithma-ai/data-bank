@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,+\\infty[\\to\\mathbb R$ de classe $\\mathcal C^\\infty$ telle qu'il existe une suite $(x_n)_{n\\geq 0}$ dans $]0,+\\infty[$ telle que : $x_n\\to 0$ quand $n\\to+\\infty$ et $f(x_n)=0$ pour tout $n\\geq 0$. Démontrer que, pour tout $k\\in\\mathbb N,$ $f^{(k)}(0)=0$.",
+    "hint": "Commencer par démontrer que $f'$ vérifie les mêmes hypothèses. On pourra supposer que la suite $(x_n)$ est strictement décroissante.",
+    "solution": "On va commencer par démontrer que $f'$ vérifie les mêmes hypothèses que $f$. En effet, $f'$ est $\\mathcal C^\\infty$. Puisque la suite $(x_n)$ tend vers $0$ et que $x_n$ n'est jamais égal à $0$, on peut extraire de $(x_n)$ une sous-suite strictement décroissante. Pour tout $n\\geq 0,$ on applique alors le théorème de Rolle à $f$ entre $x_{n+1}$ et $x_n$ : il existe $u_n\\in ]x_{n+1},x_n[$ telle que $f'(u_n)=0$. Par le théorème des gendarmes, la suite $(u_n)$ tend vers $0$ sans jamais être nulle.Par une récurrence immédiate, on démontre alors que pour tout $k\\in\\mathbb N,$ la fonction $f^{(k)}$ vérifie les mêmes hypothèses. En particulier, il existe une suite $(y_n)$ qui tend vers $0$ et telle que $f^{(k)}(y_n)=0$ pour tout entier naturel $n$. Puisque $f^{(k)}$ est continue, on obtient $f^{(k)}(0)=0$.",
+    "lang": "french"
+}

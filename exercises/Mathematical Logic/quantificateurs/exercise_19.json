@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les réels $x$ pour lesquels l'assertion suivante est vraie :\r\n$$\\forall y\\in[0,1],\\ x\\geq y\\implies x\\geq 2y.$$",
+    "hint": "Séparer en 4cas : $x\\geq 2$, $x\\in]0,2[$ et $x= 0$ et $x<0$.",
+    "solution": "On sépare en 4 cas :$x\\geq 2$. Alors, pour tout $y\\in[0,1]$, les propositions $x\\geq y$ et $x\\geq 2y$ sont vraies.\r\nD'après la table de vérité de l'implication, l'assertion est vraie.$x<0$. Alors, pour tout $y\\in [0,1]$, les propositions $x\\geq y$ et $x\\geq 2y$ sont fausses.\r\nD'après la table de vérité de l'implication, l'assertion est vraie.$x\\in]0,2[$. On peut alors trouver un réel $y\\in[0,1]$ tel que $2y>x$ et $x\\geq y$. En effet,\r\n$x/2\\in ]0,1[$ et il suffit de choisir $x/2<y<\\min(1,x)$. Dans ce cas, $x\\geq y$ est vraie et $x\\geq 2y$ est fausse.\r\nL'assertion est fausse.Si $x=0$, alors les assertions $x\\geq y$ et $x\\geq 2y$ sont ou bien simultanément fausses\r\n(lorsque $y\\in]0,1]$), ou bien simultanément vraies. L'assertion est donc vraie.",
+    "lang": "french"
+}

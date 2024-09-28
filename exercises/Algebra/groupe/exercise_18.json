@@ -1,0 +1,6 @@
+{
+    "script": "Soit $G$ un groupe et $H,K$ deux sous-groupes de $G$. Démontrer que $H\\cup K$ est un sous-groupe de $G$ si et seulement si $H\\subset K$ ou $K\\subset H$.",
+    "hint": "",
+    "solution": "Si $H\\subset K$, alors $H\\cup K=K$ qui est un sous-groupe de $G$. De même, si $K\\subset H$, $H\\cup K=H$ qui est un sous-groupe de $G$.Supposons maintenant que $H\\cup K$ est un sous-groupe de $G$ et que ni $H\\subset K$, ni $K\\subset H$. Alors on peut trouver $x\\in H\\backslash K$ et $y\\in K\\backslash H$. Puisque $H\\cup K$ est un groupe et que $x,y\\in H\\cup K$, on a $xy\\in H\\cup K$. Mais si $xy\\in H$, alors $y=x^{-1}(xy)$\r\nest le produit de deux éléments de $H$, qui est un sous-groupe de $G$, et donc $y\\in H$ ce qui est une contradiction. On obtient de même une contradiction dans l'autre cas possible $xy\\in K$. L'hypothèse de départ est donc fausse, et on a bien $H\\subset K$ ou $K\\subset H$.",
+    "lang": "french"
+}

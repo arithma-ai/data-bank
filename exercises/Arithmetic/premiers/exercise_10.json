@@ -1,0 +1,6 @@
+{
+    "script": "Soient $a$ et $b$ deux entiers premiers entre eux tels que leur produit $ab$ est un carré parfait.\r\nMontrer que $a$ et $b$ sont deux carrés parfaits.",
+    "hint": "Décomposer $a,b$ et $ab$ en produit de facteurs premiers, $a=p_1^{\\alpha_1}\\dots p_r^{\\alpha_r}$ \r\net $b=p_1^{\\beta_1}\\dots p_r^{\\beta_r}$, $ab=p_1^{2\\gamma_1}\\dots p_r^{2\\gamma_r}$, et se rappeler que, pour tout $j$,\r\n$\\alpha_j\\neq 0\\implies \\beta_j=0$.",
+    "solution": "Décomposons $a,b$ et $ab$ en produit de facteurs premiers, $a=p_1^{\\alpha_1}\\dots p_r^{\\alpha_r}$ \r\net $b=p_1^{\\beta_1}\\dots p_r^{\\beta_r}$, $ab=p_1^{2\\gamma_1}\\dots p_r^{2\\gamma_r}$ (on a utilisé\r\nque $ab$ est un carré parfait). Bien sûr, pour tout $j$, on a la relation $2\\gamma_j=\\alpha_j+\\beta_j$. De plus, puisque\r\n$a\\wedge b=1$, si $\\alpha_j$ est non-nul, alors $\\beta_j=0$, et réciproquement. On a alors ou bien $\\alpha_j=2\\gamma_j$ et $\\beta_j=0$, ou\r\nbien $\\beta_j=2\\gamma_j$ et $\\alpha_j=0$. Dans tous les cas, $\\alpha_j$ et $\\beta_j$ sont tous les deux pairs. Ainsi,\r\n$a$ et $b$ sont des carrés parfaits.",
+    "lang": "french"
+}

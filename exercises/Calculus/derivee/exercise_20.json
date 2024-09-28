@@ -1,0 +1,6 @@
+{
+    "script": "Soit $P$ un polynôme. Montrer que l'équation $P(x)=e^x$ n'admet qu'un nombre fini de solutions.",
+    "hint": "Introduire $g(x)=P(x)-e^x$. Fabriquer des racines à $g'$, $g''$ en fonction des racines de $g$. Trouver\r\nune contradiction si $n$ est trop grand.",
+    "solution": "On pose $g(x)=e^x-P(x)$. Si l'équation admet $n$ solutions, c'est que $g$ admet $n$ racines.\r\nPar des applications successives du théorème de Rolle, on trouve que $g'$ admet $n-1$ racines,\r\n$g''$ en admet $n-2$,..., jusque $g^{(n-1)}$ qui en admet au moins 1. Supposons maintenant que $n-1>\\deg(P)$. Alors,\r\n$$g^{(n-1)}=e^x-P^{(n-1)}=e^x$$\r\net on trouve que l'équation $e^x=0$ admet au moins une solution. C'est bien entendu absurde, et on vient de prouver\r\nque l'équation $P(x)=e^x$ admet donc au plus $n+1$ solutions, avec $n=\\deg(P)$.",
+    "lang": "french"
+}

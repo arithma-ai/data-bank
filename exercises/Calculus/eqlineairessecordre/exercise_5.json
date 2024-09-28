@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer une équation différentielle vérifiée par la famille de fonctions\r\n$$y(x)=C_1e^{2x}+C_2e^{-x},\\ C_1,C_2\\in\\mathbb R.$$",
+    "hint": "Quelle équation du second ordre admet cette famille de solutions?",
+    "solution": "On va chercher une équation différentielle linéaire du second ordre admettant exactement cette famille de solutions. Pour cela, il suffit de trouver une équation différentielle dont l'équation caractéristique admet $2$ et $-1$ comme racine, c'est-à-dire que l'on souhaite qu'elle se factorise en \r\n$(r+1)(r-2)=r^2-r-2.$ Une équation différentielle qui convient est donc\r\n$$y''-y'-2y=0.$$",
+    "lang": "french"
+}

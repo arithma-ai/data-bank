@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ une partie mesurable de $\\mathbb R^n$ et $f:E\\to\\mathbb R$. Soit $g:\\mathbb R^n\\to\\mathbb R$ définie par $g(x)=f(x)$ si $x\\in E$ et $g(x)=0$ sinon. Démontrer que $f$ est mesurable si et seulement si $g$ est mesurable.",
+    "hint": "Comparer $g^{-1}(B)$ et $f^{-1}(B)$ pour une partie mesurable $B$ de $\\mathbb R$. Comparer les cas $0\\in B$ et $0\\notin B$.",
+    "solution": "Soit $B$ une partie mesurable de $\\mathbb R$. Alors on distingue deux cas :ou bien $0\\in B$. Dans ce cas, on a \r\n$g^{-1}(B)=f^{-1}(B)\\cup E^c$. Alors, si $f^{-1}(B)$ est mesurable, $g^{-1}(B)$ l'est aussi puisque $E^c$ est mesurable. Réciproquement, dans ce cas, on a aussi $f^{-1}(B)=g^{-1}(B)\\cap E$, et comme $E$ est mesurable, si $g^{-1}(B)$ est mesurable, $f^{-1}(B)$ l'est aussi.ou bien $0\\notin B$. Dans ce cas, on a $g^{-1}(B)=f^{-1}(B)$ et donc $f^{-1}(B)$ est mesurable si et seulement si $g^{-1}(B)$ est mesurable.",
+    "lang": "french"
+}

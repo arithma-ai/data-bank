@@ -1,0 +1,6 @@
+{
+    "script": "Quelles sont les matrices orthogonales triangulaires supérieures?",
+    "hint": "Commencer par les matrices de taille 2, de taille 3....",
+    "solution": "On va prouver que ce sont les matrices diagonales dont les coefficients diagonaux sont égaux à $\\pm 1$. Commençons par la première colonne de la matrice $M$ orthogonale et triangulaire supérieure. Puisque sa norme vaut 1, et que seul le premier coefficient est non-nul, celui-ci vaut $\\pm 1$. Considérons désormais la deuxième colonne, dont les coefficients éventuellement non-nuls sont $m_{1,2}$ et $m_{2,2}$. Puisque la première colonne est orthogonale à cette colonne, on a $\\pm m_{1,2}=0$ et donc $m_{1,2}=0$. En considérant la norme, on trouve que $m_{2,2}=\\pm 1$.Considérons maintenant la troisième colonne. Ses coefficients éventuellement non-nuls sont \r\n$m_{1,3}$, $m_{2,3}$ et $m_{3,3}$. Écrivons que la troisième colonne est orthogonale à la première. On trouve $m_{1,3}=0$. Écrivons ensuite que la troisième colonne est orthogonale à la seconde. On trouve $m_{2,3}=0$. Le calcul de la norme donne $m_{3,3}=\\pm 1$. On continue ainsi pour chaque colonne.Réciproquement, une matrice diagonale dont les coefficients diagonaux sont égaux à $\\pm 1$ est bien une matrice orthogonale.",
+    "lang": "french"
+}

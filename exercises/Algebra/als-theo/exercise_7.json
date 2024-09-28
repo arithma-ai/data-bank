@@ -1,0 +1,6 @@
+{
+    "script": "Soient $E,F,G$ trois $\\mathbb K$-espaces vectoriels, et soient $f\\in\\mathcal L(E,F)$\r\net $g\\in\\mathcal L(F,G)$. Démontrer que\r\n$$g\\circ f=0\\iff \\textrm{Im}f\\subset\\ker g.$$",
+    "hint": "",
+    "solution": "Supposons d'abord que $g\\circ f=0$, et prenons $y\\in\\textrm{Im}f$. Alors il existe $x\\in E$\r\ntel que $y=f(x)$. Mais alors, $g(y)=g\\circ f(x)=0$, et donc $y\\in \\ker g$.Réciproquement, supposons que $\\textrm{Im}f\\subset\\ker g$. Alors, pour tout $x\\in E$, \r\n$f(x)\\in\\textrm{Im} f\\subset\\ker g$, et donc $g(f(x))=0$, prouvant que $g\\circ f=0$.",
+    "lang": "french"
+}

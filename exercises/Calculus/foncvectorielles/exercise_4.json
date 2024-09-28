@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\in\\mathbb N^*,$ $P_1,\\dots,P_n\\in\\mathbb R_{n-1}[X]$. On note, pour tout $x\\in\\mathbb R,$ \r\n$$A(x)=\\big(P_i^{(j-1)}(x))_{1\\leq i,j\\leq n}\\textrm{ et }D(x)=\\det(A(x)).$$\r\nDémontrer que $D$ est constante.",
+    "hint": "Dériver $D$.",
+    "solution": "On va dériver $D$. Notons \r\n$$X(x)=\\begin{pmatrix}P_1(x)\\\\P_2(x)\\\\\\vdots \\\\ P_n(x)\\end{pmatrix}.$$\r\nAlors on a pour tout $x\\in\\mathbb R,$\r\n$$D(x)=\\det(X(x),X'(x),\\dots,X^{(n-1)}(x)).$$\r\nPar composition d'une application multilinéaire et d'applications de classe $\\mathcal C^\\infty,$ on sait que $D$ est dérivable sur $\\mathbb R$ et que, pour tout $x\\in\\mathbb R,$\r\n\\begin{align*}\r\nD'(x)&=\\det(X'(x),X'(x),X''(x),\\dots,X^{(n-1)}(x))+\\det(X(x),X''(x),X''(x),\\dots,X^{(n-1)}(x))\\\\\r\n&\\quad+\\dots+\\det(X(x),\\dots,X^{(n-1)}(x),X^{(n-1)}(x))+\\det(X(x),\\dots,X^{(n-2)}(x),X^{(n)}(x)).\r\n\\end{align*}\r\nLes $n-1$ premiers déterminants qui apparaissent à droite de l'égalité sont nuls car ils comportent chacun deux colonnes identiques. Pour le dernier déterminant, sa dernière colonne est identiquement nulle. Il est donc nul lui aussi.\r\nOn vient donc de prouver que, pour tout $x\\in\\mathbb R,$ $D'(x)=0$. Ainsi, $D$ est une fonction constante.",
+    "lang": "french"
+}

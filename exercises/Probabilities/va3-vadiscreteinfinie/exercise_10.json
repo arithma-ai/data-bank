@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire suivant une loi de Poisson $\\mathcal P(\\lambda)$. Donner une condition nécessaire et suffisante sur $\\lambda$ pour que la suite $(P(X=k))$ soit décroissante.",
+    "hint": "Calculer le quotient $P(X=k+1)/P(X=k)$.",
+    "solution": "Pour tout $k\\in\\mathbb N$, on a \r\n$$\\frac{P(X=k+1)}{P(X=k)}=\\frac{\\lambda}{k+1}.$$\r\nLa suite est décroissante si et seulement si ce rapport est toujours inférieur ou égal à $1$. Il atteint sa valeur maximale pour $k=0$, et donc la suite est décroissante si et seulement si $\\lambda\\leq 1$.",
+    "lang": "french"
+}

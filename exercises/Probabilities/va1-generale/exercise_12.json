@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\mu$ une mesure de probabilité sur $\\mathbb R$. Montrer que\r\nsa transformée de Fourier est uniformément continue.",
+    "hint": "Couper l'intégrale en deux parties. Une partie où\r\n$\\mu$ a un petit poids, une partie contrôlée car $t-s$ est petit...",
+    "solution": "Soient $\\veps>0$ et $t,s\\in\\mathbb R$. On a \r\n$$|\\hat{\\mu}(t)-\\hat{\\mu}(s)|\\leq\\int_{\\mathbb R}|e^{itx}-e^{isx}|d\\mu(x).$$\r\nSoit $A>0$ tel que $\\mu(\\mathbb R\\backslash[-A,A])\\leq\\veps$. Alors, on découpe $\\mathbb R$ en \r\n$[-A,A]\\cup(\\mathbb R\\backslash[-A,A])$. Majorant $|e^{itx}-e^{isx}|$ par 2 sur $\\mathbb R\\backslash[-A,A]$, on \r\ntrouve\r\n\\begin{eqnarray*}\r\n |\\hat{\\mu}(t)-\\hat{\\mu}(s)|&\\leq&2\\veps+\\int_{-A}^A|e^{itx}-e^{isx}|d\\mu(x)\\\\\r\n&\\leq&2\\veps+\\int_{-A}^A|t-s||x|d\\mu(x)\\textrm{ par l'inégalité des accroissements finis}\\\\\r\n&\\leq&2\\veps+|t-s|A^2.\r\n\\end{eqnarray*}\r\nOn pose $\\eta=\\veps/A^2$. Si $|t-s|<\\eta$, alors \r\n$$|\\hat{\\mu}(t)-\\hat{\\mu}(s)|<\\veps,$$\r\nce qui prouve l'uniforme continuité de $\\hat\\mu$ sur $\\mathbb R$.",
+    "lang": "french"
+}

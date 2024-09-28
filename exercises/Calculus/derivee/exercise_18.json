@@ -1,0 +1,6 @@
+{
+    "script": "Soit $P\\in\\mathbb R[X]$ de degré supérieur ou égal à $2$.On suppose que $P$ est scindé sur $\\mathbb R$, à racines simples. Démontrer que $P'$ est aussi scindé sur $\\mathbb R$ à racines simples.Reprendre la question, mais sans la précision \"à racines simples\".",
+    "hint": "C'est le théorème de Rolle.Idem, mais en décomptant proprement les multiplicités.",
+    "solution": "Notons $x_1<x_2<\\cdots<x_n$ les racines de $P$. Alors, par le théorème de Rolle, dans chaque intervalle $]x_i,x_{i+1}[$ pour $i$ de $1$ à $n-1$, $P'$ admet une racine $y_i$. $P'$ admet donc $n-1$ racines réelles, $y_1<y_2<\\cdots<y_{n-1}$.On note $x_1<x_2<\\cdots<x_p$ les racines distinctes de $P$, $x_i$ étant de multiplicité $m_i$. L'hypothèse nous dit que $m_1+\\cdots+m_p=n$. Comme dans la question précédente, on trouve $p-1$ racines de $P'$, $y_1<\\cdots<y_{p-1}$, qui sont aussi distinctes des $x_i$. Comme chaque $x_i$ est racine de $P'$ de multiplicité $m_i-1$, on a trouvé des racines de $P'$ de multiplicité totale \r\n$$p-1+\\sum_{j=1}^{p}(m_i-1)=p-1+n-p=n-1.$$\r\nOn a donc bien prouvé que $P'$ est scindé sur $\\mathbb R$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soit $P\\in \\mathbb K[X]$, soit $a,b\\in\\mathbb K$ avec $a\\neq b$.Soit $R$ le reste de la division euclidienne de $P$ par $(X-a)(X-b)$. Exprimer $R$ en fonction de $P(a)$ et de $P(b)$.Soit $R$ le reste de la division euclidienne de $P$ par $(X-a)^2$. Exprimer $R$ en fonction de $P(a)$ et de $P'(a)$.",
+    "hint": "$R$ est de degré au plus 1. Évaluer en $a$, et en $b$.$R$ est de degré au plus 1. Évaluer en $a$, puis dériver...",
+    "solution": "Dans les deux cas, on remarquera que  $R$ est de degré au plus $1$ et s'écrit donc $R(X)=\\alpha X+\\beta$.Évaluons la relation \r\n$$P(X)=(X-a)(X-b)Q(X)+\\alpha X+\\beta$$\r\nen $a$ et en $b$. On trouve le système \r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\n\\alpha a +\\beta &=&P(a)\\\\\r\n\\alpha b +\\beta &=&P(b).\r\n\\end{array}\\right.$$\r\nOn en déduit alors facilement que \r\n$$\\alpha=\\frac{P(a)-P(b)}{a-b}\\textrm{ et }\\beta=\\frac{aP(b)-bP(a)}{a-b}.$$Évaluons la relation\r\n$$P(X)=(X-a)^2Q(X)+\\alpha X+\\beta$$\r\nau point $a$. On trouve $P(a)=a\\alpha+\\beta$. Dérivons maintenant la relation précédente :\r\n$$P'(X)=2(X-a)Q(X)+(X-a)^2Q'(X)+\\alpha.$$\r\nOn évalue à nouveau en $a$ et on trouve que \r\n$$\\alpha=P'(a).$$\r\nEn revenant à la première équation, on en déduit que $\\beta=P(a)-aP'(a).$",
+    "lang": "french"
+}

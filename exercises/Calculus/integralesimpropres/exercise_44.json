@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,+\\infty[\\to\\mathbb R$ continue par morceaux et intégrable.Démontrer que, pour tout $A>0$ et tout $\\veps>0$, il existe $x\\geq A$ tel que $|xf(x)|\\leq \\veps$.En déduire l'existence d'une suite $(x_n)$ tendant vers $+\\infty$ telle que $\\big(x_nf(x_n)\\big)$ tend vers 0.",
+    "hint": "Raisonner par l'absurde.Utiliser la question précédente pour de bonnes valeurs de $A$ et de $\\veps$.",
+    "solution": "Supposons que cela ne soit pas le cas. Alors, il existe $A>0$ et $\\veps>0$ tel que, pour tout $x\\geq A$, $|xf(x)|\\geq \\veps$ ce qui entraine\r\n$$|f(x)|\\geq\\frac \\veps x.$$\r\nCeci contredit le fait que $f$ est intégrable.Pour $n\\in\\mathbb N$, appliquons le résultat de la question précédente avec $A=n$ et $\\veps=\\frac 1{n+1}$. On obtient un réel $x_n$ tel que $x_n\\geq n$ et $|x_nf(x_n)|\\leq 1/(n+1)$. La suite $(x_n)$ vérifie donc bien les conditions imposées.",
+    "lang": "french"
+}

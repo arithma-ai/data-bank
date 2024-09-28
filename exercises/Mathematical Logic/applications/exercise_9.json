@@ -1,0 +1,6 @@
+{
+    "script": "Soit $g:[0;+\\infty[\\to[0;1[$ définie par $g(x)=\\frac{x}{1+x}$. Démontrer que $g$ est bijective et déterminer sa bijection réciproque.",
+    "hint": "Pour $y\\in [0;1[$, résoudre l'équation $y=g(x)$ avec $x\\in[0;+\\infty[$.",
+    "solution": "Soit $y\\in [0;1[$ et soit $x\\in\\mathbb R_+$. Alors on a\r\n\\begin{align*}\r\ny=g(x)&\\iff y=\\frac{x}{1+x}\\\\\r\n&\\iff (1+x)y=x\\\\\r\n&\\iff y=-xy+x=x(1-y)\\\\\r\n&\\iff x=\\frac{y}{1-y}.\r\n\\end{align*}\r\nPour $y\\in[0;1[$, on vérifie que $\\frac y{1-y}\\geq 0$. Pour tout $y\\in[0;1[$, l'équation $y=g(x)$ admet donc une unique solution $x\\in[0;+\\infty[$. C'est donc que la fonction $g$ est bijective et sa bijection réciproque est $g^{-1}:[0;1[\\to[0;+\\infty[$ définie par $g^{-1}(y)=\\frac y{1-y}$.",
+    "lang": "french"
+}

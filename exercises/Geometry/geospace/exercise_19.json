@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(D)$ et $(D')$ deux droites de l'espace non-parallèles. Déterminer l'ensemble des milieux des segments $[MN]$,\r\noù $M$ décrit $(D)$ et $N$ décrit $(D')$.",
+    "hint": "Partir d'une représentation paramétrique de $(D)$ et de $(D')$.",
+    "solution": "Soit $=\\vec u=(a,b,c)$ un vecteur directeur de $(D)$ et $\\vec v=(a',b',c')$ un vecteur directeur de $(D')$.\r\nPuisque les droites ne sont pas parallèles, ces vecteurs ne sont pas coplanaires. Soit également\r\n$A(u,v,w)$ un point de $(D)$ et $A'(u',v',w')$ un point de $(D')$. Soit $M$ un point de $(D)$\r\net soit $N$ un point de $(D')$. Alors il existe $t,t'\\in\\mathbb R$ tels que \r\n$$\\begin{cases}\r\nx_M&=u+ta\\\\\r\ny_M&=v+tb\\\\\r\nz_M&=w+tc\r\n\\end{cases}\\textrm{ et }\r\n\\begin{cases}\r\nx_N&=u'+t'a'\\\\\r\ny_N&=v'+t'b'\\\\\r\nz_N&=w'+t'c'.\r\n\\end{cases}$$\r\nLe milieu de $[MN]$ a alors pour coordonnées :\r\n$$\\begin{cases}\r\nx&=\\frac{u+u'}2+\\frac{t}2a+\\frac{t'}2a'\\\\\r\ny&=\\frac{v+v'}2+\\frac{t}2b+\\frac{t'}2b'\\\\\r\nz&=\\frac{w+w'}2+\\frac{t}2c+\\frac{t'}2c'.\\\\\r\n\\end{cases}$$\r\nOn reconnait l'équation paramétrique du plan $\\mathcal P$ de vecteurs directeurs $\\vec u$ et $\\vec v$,\r\net passant par le point $C=\\big((u+u')/2,(v+v')/2,(w+w')/2\\big)$. L'ensemble recherché est donc ce plan $\\mathcal P$.",
+    "lang": "french"
+}

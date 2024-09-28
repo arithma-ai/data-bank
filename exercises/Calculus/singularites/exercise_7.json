@@ -1,0 +1,6 @@
+{
+    "script": "Exhiber des fonctions holomorphes n'ayant dans le plan complexe que les singularités suivantes :un pôle triple en 0, un pôle simple en 1, un point singulier essentiel en $i$ et $-i$;un point singulier essentiel en tout entier relatif.",
+    "hint": "Partir des deux briques de base suivantes : les fonctions $z\\mapsto 1/(z-a)^p$ qui admettent un pôle\r\nd'ordre $p$ en $a$, et $z\\mapsto e^{1/z}$, qui admet un point singulier essentiel en 0.",
+    "solution": "On part des deux briques de base suivantes : les fonctions $z\\mapsto 1/(z-a)^p$ qui admettent un pôle\r\nd'ordre $p$ en $a$, et $z\\mapsto e^{1/z}$, qui admet un point singulier essentiel en 0. On a alors les exemples\r\nsuivants :$\\displaystyle z\\mapsto \\frac 1{z^3}+\\frac{1}{z-1}+e^{\\frac{1}{z^2+1}}$;$\\displaystyle z\\mapsto \\exp\\left(\\frac 1{\\sin(\\pi z)}\\right)$.On vérifie aisément que ces fonctions ont les propriétés voulues.",
+    "lang": "french"
+}

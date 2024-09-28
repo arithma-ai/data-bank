@@ -1,0 +1,6 @@
+{
+    "script": "Vous jouez à pile ou face avec un autre joueur. Il parie sur pile, lance la pièce, et obtient pile. Quelle est la probabilité pour qu'il soit un tricheur?",
+    "hint": "Introduire la proportion $x$ de tricheurs dans la population, et donner, à l'aide du théorème de Bayes, une estimation de la probabilité qu'il soit un tricheur en fonction de $x$. Il faudra convenir de certaines probabilités de bon sens.",
+    "solution": "Soit $x$ la proportion de tricheurs dans la population. On note respectivement $P,F,H,T$ les événements \"le joueur obtient pile'', \"le joueur obtient face'', \"Le joueur est honnête'', \"le joueur est un tricheur''. Il semble raisonnable de convenir que $P(P|H)=1/2$ et $P(F|H)=1/2$ et $P(P|T)=1$ (un tricheur fait vraiment ce qu'il veut!). On cherche donc $P(T|P)$. De la formule de Bayes, on déduit :\r\n$$P(T|P)=\\frac{P(P|T)P(T)}{P(P|T)P(T)+P(P|H)P(H)}=\\frac{x}{x+1/2(1-x)}=\\frac{2x}{x+1}.$$\r\nLe résultat est plus ou moins réconfortant suivant la proportion de tricheurs $x$ dans la population!",
+    "lang": "french"
+}

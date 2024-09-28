@@ -1,0 +1,6 @@
+{
+    "script": "De combien de façons différentes peut-on placer $p$ tours sur un échiquier de taille $n$ de façon à\r\nce qu'elles ne puissent pas se prendre?",
+    "hint": "Commencer par choisir les lignes où sont les tours.",
+    "solution": "Les $p$ tours doivent être sur des lignes différentes. On commence par choisir les $p$ lignes où sont les tours.\r\nIl y a $\\binom np$ choix possibles. Une fois ces lignes choisies, on choisit les colonnes où sont les tours. \r\nPour la tour située sur la première ligne, on a $n$ choix, pour la tour située sur la deuxième ligne, on a $n-1$ choix,\r\net ainsi de suite jusqu'à la $p$-ième ligne où on a $n-p+1$ choix. On obtient $n(n-1)\\dots(n-p+1)$ choix.\r\nFinalement, le nombre total de façons différentes dont l'on peut placer les tours sans qu'elles puissent se prendre est égal à $\\binom np\\times n(n-1)\\dots(n-p+1)$.",
+    "lang": "french"
+}

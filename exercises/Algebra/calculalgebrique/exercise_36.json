@@ -1,0 +1,6 @@
+{
+    "script": "Calculer $(1+i)^{4n}$. En déduire les valeurs de \r\n$$\\sum_{p=0}^{2n}(-1)^p \\dbinom{4n}{2p}\\textrm{ et }\\sum_{p=0}^{2n-1}(-1)^p \\dbinom{4n}{2p+1}.$$",
+    "hint": "Mettre $(1+i)$ sous forme trigonométrique. Calculer d'une autre façon en utilisant la formule du binôme.",
+    "solution": "On commence par mettre $1+i$ sous forme trigonométrique, soit $1+i=\\sqrt 2e^{i\\pi/4}$. On en déduit\r\n$$(1+i)^{4n}=2^{2n}e^{in\\pi}=(-1)^n 4^n.$$\r\nOn calcule ceci d'une autre façon en utilisant la formule de Newton :\r\n$$(1+i)^{4n}=\\sum_{k=0}^{4n}\\dbinom{4n}{k}i^k.$$\r\nOn remarque alors que si $k=2p$ est pair, $i^k$ est réel et vaut $(-1)^p$.\r\nSi $k=2p+1$ est impair, $i^k$ est imaginaire pur et vaut $(-1)^p i$.\r\nEn séparant les parties réelles et imaginaires, on trouve\r\n$$(1+i)^{4n}=\\sum_{p=0}^{2n}(-1)^p \\dbinom{4n}{2p}+i\\sum_{p=0}^{2n-1}(-1)^p \\dbinom{4n}{2p+1}.$$\r\nEn identifiant avec le résultat précédent, on trouve\r\n$$\\sum_{p=0}^{2n}(-1)^p \\dbinom{4n}{2p}=(-1)^n4^{n}\\textrm{ et }\\sum_{p=0}^{2n-1}(-1)^p \\dbinom{4n}{2p+1}=0.$$",
+    "lang": "french"
+}

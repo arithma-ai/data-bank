@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les racines carrées de $Z=\\sqrt 3+i$ sous forme algébrique, puis sous forme trigonométrique.\r\nEn déduire la valeur de $\\cos\\left(\\frac\\pi{12}\\right)$.",
+    "hint": "",
+    "solution": "Soit $w=a+ib$ tel que $w^2=Z$. On obtient le système \r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\na^2-b^2&=&\\sqrt 3\\\\\r\n2ab&=&1\\\\\r\na^2+b^2&=&|\\sqrt 3+i|=2.\r\n\\end{array}\\right.\r\n$$\r\nIl vient $a^2=\\frac{\\sqrt{3}+2}2$ et $b^2=\\frac{2-\\sqrt 3}{2}$. Puisque $a$ et $b$ ont le même signe, les solutions sont\r\ndonc\r\n$$w=\\sqrt{\\frac{\\sqrt{3}+2}2}+i\\sqrt{\\frac{2-\\sqrt 3}{2}}\\textrm{ et }w=-\\sqrt{\\frac{\\sqrt{3}+2}2}-i\\sqrt{\\frac{2-\\sqrt\r\n3}{2}}.$$\r\nPour la résolution sous forme trigonométrique, on remarque que \r\n$$Z=2\\left(\\frac{\\sqrt 3}2+i\\frac 12\\right)=2e^{i\\pi/6}.$$\r\nLes racines carrées de $Z$ sont donc\r\n$$w=\\sqrt 2e^{i\\pi/12}\\textrm{ et }w=-\\sqrt 2e^{i\\pi/12}.$$\r\nComme les deux calculs donnent le même résultat, en identifiant les parties réelles, on trouve :\r\n$$\\sqrt 2\\cos\\left(\\frac{\\pi}{12}\\right)=\\sqrt{\\frac{\\sqrt{3}+2}2},$$\r\nd'où on tire :\r\n$$\\cos\\left(\\frac{\\pi}{12}\\right)=\\frac{1}{\\sqrt 2}\\sqrt{\\frac{\\sqrt{3}+2}2}=\\frac{\\sqrt 6+\\sqrt 2}4.$$",
+    "lang": "french"
+}

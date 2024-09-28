@@ -1,0 +1,6 @@
+{
+    "script": "Soit $M$ une matrice triangulaire par blocs $\\left(\\begin{array}{cc}\r\nA&C\\\\\r\n0&B\r\n\\end{array}\\right)$ avec $A\\in\\mathcal M_p(\\mathbb K)$ et $B\\in\\mathcal M_q(\\mathbb K)$. On suppose que $P$ est un polynôme annulateur de $A$ et que $Q$ est un polynôme annulateur de $B$. Déterminer un polynôme annulateur de $M$.",
+    "hint": "Calculer $P(M)$, $Q(M)$ et faire le produit...",
+    "solution": "On commence par remarque que, pour tout $n\\geq 1$, $M^n$ a la forme suivante :\r\n$$\\left(\\begin{array}{cc}\r\nA^n&*\\\\\r\n0&B^n\r\n\\end{array}\\right).$$\r\nDonc, pour tout polynôme $R$, on a \r\n$$R(M)=\\left(\\begin{array}{cc}\r\nR(A)&*\\\\\r\n0&R(B)\r\n\\end{array}\\right).$$\r\nEn particulier, on a \r\n$$P(M)=\\left(\\begin{array}{cc}\r\n0&*\\\\\r\n0&*\r\n\\end{array}\\right)\\textrm{ et }\r\nQ(M)=\\left(\\begin{array}{cc}\r\n*&*\\\\\r\n0&0\r\n\\end{array}\\right).$$\r\nOn vérifie alors aisément que $PQ(M)=P(M)Q(M)=0$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Une urne contient $N$ boules numérotées de $1$ à $N$. On en tire $n$ en effectuant des tirages avec remise. On note $X$ et $Y$ le plus petit et le plus grand des nombres obtenus. Déterminer la loi de $X$ et la loi de $Y$.",
+    "hint": "Calculer $P(X\\geq k)$ et $P(Y\\leq k)$.",
+    "solution": "Il n'est pas facile de calculer directement $P(X=k)$. En revanche, il est beaucoup plus facile de calculer $P(X\\geq k)$. En effet, on a $X\\geq k$ si et seulement si tous les tirages ont amené un nombre supérieur ou égal à $k$. La probabilité qu'un tirage amène un nombre supérieur ou égal à $k$ valant\r\n$\\frac{N-k+1}N$ et les tirages étant indépendants, on a \r\n$$P(X\\geq k)=\\frac{(N-k+1)^n}{N^n}.$$\r\nOn déduit $P(X=k)$ par la formule\r\n$$P(X=k)=P(X\\geq k)-P(X\\geq k+1)=\\frac{(N-k+1)^n-(N-k)^n}{N^n}.$$\r\nLa démarche est similaire pour $Y$, mais cette fois on calcule $P(Y\\leq k)$ qui vaut\r\n$$P(Y\\leq k)=\\frac{k^n}{N^n}.$$\r\nIl vient\r\n$$P(Y=k)=P(Y\\leq k)-P(Y\\leq k-1)=\\frac{k^n -(k-1)^n }{N^n}.$$",
+    "lang": "french"
+}

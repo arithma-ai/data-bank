@@ -1,0 +1,6 @@
+{
+    "script": "On considère les matrices suivantes : \r\n$$T=\\left(\\begin{array}{ccc}\r\n1&0&0\\\\\r\n3&1&0\\\\\r\n0&-2&1\r\n\\end{array}\\right) \\textrm{ et }\r\nA=\\left(\\begin{array}{ccc}\r\n1&-10&11\\\\\r\n-3&6&5\\\\\r\n-6&12&8\r\n\\end{array}\\right) .$$Déterminer la matrice $B=TA$ et calculer le déterminant de $B$.Déduire de la question précédente le déterminant de $A$.Déduire de la question précédente le déterminant de \r\n$$C=\\left(\\begin{array}{ccc}\r\n3&5&55\\\\\r\n-9&-3&25\\\\\r\n-18&-6&40\r\n\\end{array}\\right) .$$",
+    "hint": "Quel est le déterminant d'une matrice triangulaire supérieure?Quelle est la formule donnant le déterminant d'un produit?Que devient le déterminant quand on multiplie une colonne par un nombre réel?",
+    "solution": "On trouve \r\n$$B=\\left(\\begin{array}{ccc}\r\n1&-10&11\\\\\r\n0&-24&38\\\\\r\n0&0&-2\r\n\\end{array}\\right).$$\r\nLe déterminant d'une matrice triangulaire étant égal au produit des éléments sur sa diagonale, on trouve $\\det(B)=48$.Pour la même raison, on a $\\det(T)=1$. De la formule\r\n$$\\det(B)=\\det(T)\\times \\det(A)$$\r\non tire $\\det(A)=48$.$C$ est obtenu à partir de $A$ en multipliant la première colonne par $3$, la deuxième par $-1/2$, et la troisième par $5$. On a donc \r\n$$\\det(C)=3\\times\\frac{-1}{2}\\times 5\\det(A)=-360.$$",
+    "lang": "french"
+}

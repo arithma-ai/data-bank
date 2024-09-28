@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A(X)=X^6-X^4+2X^3-X+1$ et $B(X)=X^2-2X+2$.Effectuer la division euclidienne de $A$ par $B$.En déduire la valeur de $A(1+i)$.",
+    "hint": "Commencer par calculer $B(1+i)$.",
+    "solution": "On trouve $A(X) = (X^4+2X^3+X^2-2)B(X)-5X+5$.On vérifie facilement que \r\n$$B(1+i)=(1+i)^2-2(1+i)+2=0.$$\r\nOn en déduit que \r\n$$A(1+i)=-5(1+i)+5=-5i.$$",
+    "lang": "french"
+}

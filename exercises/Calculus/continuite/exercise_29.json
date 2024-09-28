@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer qu'il existe à tout moment deux points opposés sur l'équateur où les températures sont égales. On pourra considérer que la température à l'équateur est une fonction continue de la longitude.",
+    "hint": "Considérer la fonction qui à une longitude $\\theta$ associe la différence entre les températures en $\\theta$ et $\\theta+180°$.",
+    "solution": "L'équateur peut-être modélisé par un cercle. Soit $M$ un point de ce cercle de longitude $\\theta$. Comme avec le cercle trigonométrique, la longitude de $M$ n'est pas unique, mais est définie à $360°$ près. Notons $T(\\theta)$ la température au point de longitude $\\theta$. L'énoncé nous dit que $T$ est une fonction continue, et on sait que $T$ est périodique de période $360$. Posons $f(\\theta)=T(\\theta+180)-T(\\theta)$. Alors on a \r\n$$f(180)=T(360)-T(180)=T(0)-T(180)=-f(0).$$\r\nAinsi, $f(0)$ et $f(180)$ sont de signe opposés. Puisque $f$ est continue, il existe $\\theta\\in[0;180]$ tel que $f(\\theta)=0$. En ce $\\theta$, on a $T(\\theta)=T(\\theta+180)$ : les températures au point de longitude $\\theta$ et de longitude $\\theta+180$ sont égales.",
+    "lang": "french"
+}

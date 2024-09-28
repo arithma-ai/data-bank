@@ -1,0 +1,6 @@
+{
+    "script": "Est-ce que $C\\subset A\\cup B$ entraîne $C\\subset A$ ou $C\\subset B$?",
+    "hint": "Faire un dessin et donner un contre-exemple.",
+    "solution": "Non! Prendre par exemple $A=\\{1,2\\}$, $B=\\{3,4\\}$ et $C=\\{2,3\\}$.",
+    "lang": "french"
+}

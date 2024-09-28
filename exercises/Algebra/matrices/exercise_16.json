@@ -1,0 +1,6 @@
+{
+    "script": "Pour $n\\geq 2$, déterminer le reste de la division euclidienne de $X^n$ par $X^2-3X+2$.Soit  $A=\\begin{pmatrix} \r\n0&1&-1\\\\\r\n-1&2&-1\\\\\r\n1&-1&2\r\n\\end{pmatrix}$. Déduire de la question précédente la valeur de $A^n$, pour $n\\geq 2$.",
+    "hint": "Écrire la formule donnée par la division euclidienne, et évaluer-la en les racines de $X^2-3X+2$.Calculer $A^2-3A+2I_3$.",
+    "solution": "On sait que \r\n$$X^n=(X^2-3X+2)Q_n(X)+a_nX+b_n,$$\r\noù $a_n X+b_n$ est le reste dans la division euclidienne de $X^n$ par $X^2-3X+2$.\r\nPour trouver la valeur de $a_n$ et $b_n$, on évalue l'égalité précédente en les racines de\r\n$X^2-3X+2$, c'est-à-dire en $1$ et $2$. On trouve le système :\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\na_n+b_n&=&1\\\\\r\n2a_n+b_n&=&2^n\r\n\\end{array}\\right.$$\r\ndont l'unique solution est $a_n=2^n-1$ et $b_n=2-2^n$.Il suffit de remarquer que $A^2-3A+2I_3=0$. Remplaçant dans l'expression de la division euclidienne, on trouve\r\n$$A^n =(2^n-1)A+(2-2^n)I_3.$$",
+    "lang": "french"
+}

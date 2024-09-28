@@ -1,0 +1,6 @@
+{
+    "script": "Pour $n\\in\\mathbb N^*$ et $x\\in\\mathbb R$, on note\r\n$$P_n(x)=\\prod_{k=1}^n \\left(1+\\frac xk\\right).$$Que valent $P_n(0)$, $P_n(1)$, $P_n(-n)$?Démontrer que pour tout réel non-nul $x$, on a \r\n$$P_n(x)=\\frac {x+n}xP_n(x-1).$$Pour $p\\in\\mathbb N^*$, écrire $P_n(p)$ comme coefficient du binôme.",
+    "hint": "Séparer en un produit au numérateur et un produit au dénominateur.",
+    "solution": "On a $P_n(0)=1$ (on ne fait que des produits de 1), $P_n(-n)=0$, car alors\r\n$$1+\\frac{-n}n=0$$\r\net donc on a un terme nul dans le produit. Enfin,\r\n$$P_n(1)=\\prod_{k=1}^n \\frac{k+1}k=\\frac{2\\times 3\\times\\dots\\times (n+1)}{1\\times 2\\times\\dots\\times n}={n+1}.$$On a \r\n\\begin{eqnarray*}\r\nP_n(x)&=&\\prod_{k=1}^n \\frac{x+k}k\\\\\r\n&=&\\frac{(x+1)(x+2)\\dots (x+n)}{1\\times 2\\times\\dots\\times n}\\\\\r\n&=&\\frac{x+n}{x}\\times\\frac {(x-1+1)(x-1+2)\\dots (x-1+n)}{1\\times 2\\times\\dots\\times n}\\\\\r\n&=&\\frac{x+n}xP_n(x-1).\r\n\\end{eqnarray*}On a \r\n$$P_n(p)=\\prod_{k=1}^n \\frac{k+p}{k}=\\frac{(p+1)\\dots (p+n)}{n!}=\\frac{(n+p)!}{n!p!}=\\binom{n+p}{p}.$$",
+    "lang": "french"
+}

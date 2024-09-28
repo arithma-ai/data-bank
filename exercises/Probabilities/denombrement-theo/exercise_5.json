@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un ensemble à $n$ éléments.Soit $X$ une partie à $p$ éléments de $E$. Combien y-a-t-il de parties $Y$ de $E$ disjointes de $X$?Combien y-a-t-il de couples $(X,Y)$ formés de parties disjointes de $E$?",
+    "hint": "$Y$ est une partie de ...On choisit d'abord $X$, puis $Y$ d'après la première question.",
+    "solution": "$Y$ est une partie quelconque de $E\\backslash X$ qui compte $n-p$ éléments. Il y a donc $2^{n-p}$ choix pour $Y$.On choisit d'abord $p$ le nombre d'éléments de $X$. Ce nombre étant fixé, il y a $\\binom np$ choix pour $X$. $X$ étant fixé, il y a $2^{n-p}$ choix pour $Y$ d'après la question précédente. Le nombre recherché est donc \r\n$$\\sum_{p=0}^n \\binom np 2^{n-p}=(1+2)^n=3^n.$$",
+    "lang": "french"
+}

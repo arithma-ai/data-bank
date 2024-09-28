@@ -1,0 +1,6 @@
+{
+    "script": "Soient $n$, $p$ deux entiers naturels non nuls et soit $P(X)=\\sum_{k=0}^n a_kX^k$\r\nun polynôme de $\\mathbb C[X]$. Pour chaque $k\\in\\{0,\\dots,n\\}$, on note $r_k$ le reste de la division euclidienne\r\nde $k$ par $p$. Démontrer que le reste de la division euclidienne de $P$ par $X^p-1$ est le polynôme\r\n$R(X)=\\sum_{k=0}^n a_kX^{r_k}$.",
+    "hint": "Démontrer que $X^p-1$ divise $P-R$.",
+    "solution": "On va démontrer que $X^p-1$ divise $P-R$. En effet, le degré de $R$ est inférieur strict à $p$,\r\net $R$ sera bien le reste dans la division euclidienne de $P$ par $X^p-1$. On écrit alors que\r\n$$P-R=\\sum_{k=0}^n a_k (X^k-X^{r_k}),$$\r\net il suffit de prouver que $X^p-1$ divise chaque $X^k-X^{r_k}$. Si $k<p$, alors $r_k=k$ et donc $X^p-1$ divise $X^k-X^{r_k}=0.$ Sinon, écrivons $k=mp+r_k$, avec $m\\geq 1,$ d'où l'on tire\r\n$$X^k-X^{r_k}=X^{r_k}(X^{mp}-1)=X^{r_k}(X^p-1)(1+X^p+\\dots+X^{(m-1)p}).$$\r\n$X^p-1$ divise bien $P-R$!",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer $a$ et $b$ pour que la partie principale du développement limité en 0 de la fonction\r\n$\\cos x-\\frac{1+ax^2}{1+bx^2}$ soit de valuation la plus grande possible.",
+    "hint": "Développer $\\frac{1+ax^2}{1+bx^2}$ de façon \"abstraite\" jusqu'à un ordre raisonnable, puis étudier les termes qui peuvent s'éliminer avec\r\nle développement limité du cosinus.",
+    "solution": "On écrit :\r\n$$\\frac{1}{1+bx^2}=1-bx^2+b^2x^4-b^3x^6+o(x^6)$$\r\nce qui donne, par produit\r\n$$\\frac{1+ax^2}{1+bx^2}=1+(a-b)x^2+(b^2-ab)x^4+(-b^3+ab^2)x^6+o(x^6).$$\r\nFinalement, le développement limité de la fonction est donné par \r\n$$\\cos\r\nx-\\frac{1+ax^2}{1+bx^2}=\\left(-a+b-\\frac12\\right)x^2+\\left(-b^2+ab+\\frac1{24}\\right)x^4+\\left(+b^3-ab^2-\\frac{1}{720}\\right)x^6+o(x^6).$$\r\nLe terme d'ordre 2 disparait si et seulement si $b-a=1/2$. Ensuite, celui d'ordre 4 disparait si et seulement si \r\n$$-b(b-a)=-\\frac{1}{24}.$$\r\nDonc les termes d'ordre 2 et d'ordre 4 disparaissent si et seulement si $b=1/12$ et $a=-5/12$. Dans ce cas, la partie principale est de valuation 6 :\r\n$$\\cos x-\\frac{1+ax^2}{1+bx^2}=\\frac{1}{480}x^6+o(x^6).$$",
+    "lang": "french"
+}

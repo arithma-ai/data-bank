@@ -1,0 +1,6 @@
+{
+    "script": "Donner une condition nécessaire et suffisante sur $(\\lambda ,\\mu ) \\in \\mathbb{C}^2 $\r\n pour que $X^2  + 2$ divise $X^4  + X^3  + \\lambda X^2  + \\mu X + 2$.",
+    "hint": "Réaliser la division euclidienne de $X^4  + X^3  + \\lambda X^2  + \\mu X + 2$ par $X^2+2$, et écrire que le reste doit être nul.",
+    "solution": "On réalise la division euclidienne de $X^4  + X^3  + \\lambda X^2  + \\mu X + 2$ par $X^2+2$, et on trouve :\r\n$$X^4+X^3+\\lambda X^2+\\mu X+2=(X^2+2)(X^2+X+(\\lambda-2))+(\\mu-2)X+6-2\\lambda.$$\r\nLe polynôme $X^2+2$ divise donc $X^4+X^3+\\lambda X^2+\\mu X+2$ si et seulement si le reste est nul, donc si et seulement\r\nsi $\\mu=2$ et $\\lambda=3$.Une autre possibilité est de remarquer que les racines de $X^2+2$ sont $\\sqrt 2i$ et $-\\sqrt 2i$, et donc que la décomposition en produits d'irréductibles de $X^2+2$ est $(X-\\sqrt 2i)(X+\\sqrt 2i)$. Pour que $X^4  + X^3  + \\lambda X^2  + \\mu X + 2$ soit divisible par $X^2+2$, il faut et il suffit que $\\sqrt 2i$ et $-\\sqrt 2i$ soient racines de $X^4  + X^3  + \\lambda X^2  + \\mu X + 2$. On évalue ce polynôme en $\\sqrt 2i$ et $-\\sqrt 2i$ et on trouve un système linéaire que doit vérifier le couple $(\\lambda,\\mu)$. On trouve bien sûr la même solution.",
+    "lang": "french"
+}

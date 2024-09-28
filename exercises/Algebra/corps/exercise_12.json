@@ -1,0 +1,6 @@
+{
+    "script": "Soit $K$ un corps. Soit $H_1$, $H_2$ des corps tels que $K\\subset H_i$ pour $i=1,2$. Montrer que si $[H_1:K]$ et $[H_2:K]$ sont premiers entre eux, alors $H_1\\cap H_2=K$.",
+    "hint": "Poser $M=H_1\\cap H_2$ et considérer les tours d'extension $K\\subset M\\subset H_1$ et $K\\subset M\\subset H_2$.",
+    "solution": "On pose $M=H_1\\cap H_2$. Par multiplicativité des degrés dans la tour d'extension $K\\subset M\\subset H_1$, on a \r\n$$[H_1:K]=[H_1:M]\\times [M:K].$$\r\nDe même, mais en considérant cette fois la tour $K\\subset M\\subset H_2$, on a \r\n$$[H_2:K]=[H_2:M]\\times [M:K].$$\r\nAinsi, $[M:K]$ est un diviseur commun de $[H_1:K]$ et de $[H_2:K]$. Ces deux nombres étant premiers entre eux, on a $[M:K]=1$, autrement dit, $K=M=H_1\\cap H_2$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "On appelle nilradical d'un anneau commutatif $(A,+,\\times)$ l'ensemble\r\nde ses éléments nilpotents, c'est-à-dire l'ensemble des $x\\in A$ pour lesquels il existe $n\\geq 1$ de sorte que $x^n=0$. \r\nDémontrer que le nilradical de $A$ est un idéal de $A$.",
+    "hint": "Formule du binôme à une \"grande\" puissance...",
+    "solution": "Notons $N(A)$ le nilradical de $A$. D'abord $0\\in N(A)$ qui est donc non vide. Prenons ensuite $a\\in A$, $x,y\\in N(A)$, et $m,n$ de sorte que $x^m=y^n=0$. Remarquons d'abord que \r\n$$(ax)^m =a^mx^m=0$$\r\net donc $ax\\in N(A)$. De plus, par la formule du binôme de Newton, on a \r\n$$(x+y)^{n+m-1}=\\sum_{k=0}^{n+m-1}\\binom {n+m-1}k x^k y^{n+m-1-k}.$$\r\nOr, si $k\\geq m$, alors $x^k=0$ et si $k<m$, c'est-à-dire $k\\leq m-1$, alors $n+m-1-k\\geq n$ et $y^{n+m-1-k}=0$. On a bien $(x+y)^{n+m-1}=0$ et $x+y\\in N(A)$. Il est très facile de vérifier que l'on a aussi $-x\\in N(A)$. Finalement, on a bien prouvé que $N(A)$ est un idéal de $A$.",
+    "lang": "french"
+}

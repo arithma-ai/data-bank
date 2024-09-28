@@ -1,0 +1,6 @@
+{
+    "script": "Le point $M$ de la figure ci-dessous à pour affixe $z$. Reproduire la figure et tracer :en vert l'ensemble des points dont l'affixe non nulle $z'$ est telle que \r\n$$\\arg(z')=\\arg(z)+\\frac\\pi 2\\ [2\\pi].$$en bleu l'ensemble des points dont l'affixe non nulle $z'$ est telle que \r\n$$|z'|=2|z|.$$en noir l'ensemble des points dont l'affixe non nulle $z'$ est telle que\r\n$$\\arg(z')=\\arg(z)\\ [\\pi].$$en rouge l'ensemble des points dont l'affixe non nulle $z'$ est telle que \r\n$$\\arg(z')=\\arg(z)+\\arg(\\bar z)\\ [2\\pi].$$",
+    "hint": "",
+    "solution": "On trace $M'$ l'image de $M$ par la rotation d'angle $\\pi/2$. L'ensemble recherché est la demi-droite $(OM')$.Il s'agit du cercle de centre $O$ et de rayon $2OM$.Il s'agit de la droite $(OM)$, excepté le point $O$ (droite et non demi-droite car l'égalité est modulo $\\pi$ et non modulo $2\\pi$).On a $\\arg(z)+\\arg(\\bar z)=0\\ [2\\pi]$ et donc l'ensemble recherché est la demi-droite $(O,\\vec i)$.",
+    "lang": "french"
+}

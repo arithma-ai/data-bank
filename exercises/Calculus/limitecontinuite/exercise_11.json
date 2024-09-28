@@ -1,0 +1,6 @@
+{
+    "script": "Étudier les limites à droite en 0 des fonctions suivantes :\r\n$$f:x\\mapsto \\left\\lfloor\\frac 1x\\right\\rfloor,\\ g:x\\mapsto x\\left\\lfloor\\frac 1x\\right\\rfloor,\\ h:x\\mapsto x^2\\left\\lfloor\\frac 1x\\right\\rfloor.$$",
+    "hint": "C'est facile si on encadre $\\lfloor 1/x\\rfloor $ par la définition de la partie entière.",
+    "solution": "Par définition de la partie entière, on sait que \r\n$$\\frac 1x-1< \\left\\lfloor\\frac 1x\\right\\rfloor\\leq \\frac 1x.$$\r\nL'inégalité de gauche suffit, par comparaison, à dire que $\\lim_{0^+} f=+\\infty$. Si on multiplie maintenant les inégalités\r\npar $x>0$, on trouve\r\n$$1-x\\leq g(x)\\leq 1,$$\r\nce qui prouve, toujours par le théorème d'encadrement, que $\\lim_{0^+}g=1$. Enfin, puisque $h=xg$, on trouve aussi\r\nque $\\lim_{0^+}h=0$.",
+    "lang": "french"
+}

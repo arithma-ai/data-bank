@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer $a,b\\in\\mathbb R$ de sorte que la fonction $f$ définie sur $\\mathbb R_+$ par\r\n$$f(x)=\\sqrt x\\textrm{ si }0\\leq x\\leq 1\\textrm{ et }f(x)=ax^2+bx+1\\textrm{ si }x>1$$\r\nsoit dérivable en $1$.",
+    "hint": "Étudier d'abord la continuité en $1$, puis étudier les dérivées à droite et à gauche.",
+    "solution": "Il est d'abord nécessaire que $f$ soit continue en $1$. On a $f(1)=1$ et la limite à droite de $f$ en $1$ vaut $a+b+1$. On doit donc avoir $a+b+1=1$, soit $b=-a$. Étudions maintenant la dérivabilité en $1$. La fonction $f$ coïncide avec la fonction $x\\mapsto \\sqrt x$ sur $[0,1]$. La dérivée de $x\\mapsto \\sqrt x$ étant égale à $x\\mapsto \\frac 1{2\\sqrt x}$, $f$ admet une dérivée à gauche en $1$ qui vaut $1/2$. \r\nD'autre part, $f$ coïncide sur $[1,+\\infty[$ avec la fonction $x\\mapsto ax^2-ax+1$, donc la dérivée est \r\n$x\\mapsto 2ax-a$. La fonction $f$ est donc dérivable à droite en $1$, de dérivée $a$.Finalement, la fonction $f$ sera dérivable en $1$ si et seulement si les dérivées à droite et à gauche coïncident. Le seul moyen de définir $f$ de sorte que ce soit une fonction dérivable en $1$ est donc de poser $a=1/2$ et $b=-1/2$.",
+    "lang": "french"
+}

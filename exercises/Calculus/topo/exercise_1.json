@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\Omega=\\{z=x+iy;\\ |xy|<1\\}$ et soit $f:\\Omega\\to\\mathbb C^*$ holomorphe. Montrer qu'il existe\r\nune fonction $g$ holomorphe dans $\\Omega$ tel que $g^2=f$.",
+    "hint": "Montrer que $\\Omega$ est étoilé en 0.",
+    "solution": "Pour qu'une fonction holomorphe $f:\\Omega\\to\\mathbb C^*$ admette une racine carrée,\r\nil faut et il suffit que l'ouvert $\\Omega$ soit simplement connexe. Il suffit\r\nici de vérifier que $\\Omega$ est étoilé. Mais on vérifie facilement que $\\Omega$\r\nest étoilé en 0 ($\\Omega$ est \"l'intérieur\" d'une hyperbole). En effet,\r\nsi $(x,y)\\in \\Omega$, alors pour tout $t\\in[0,1]$, on vérifie immédiatement que \r\n$(tx,ty)\\in\\Omega$.",
+    "lang": "french"
+}

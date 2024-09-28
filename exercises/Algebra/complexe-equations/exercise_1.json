@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre les équations suivantes, d'inconnue $z\\in\\mathbb C$ :\r\n$$\r\n\\begin{array}{lll}\r\n{\\mathbf 1.}\\ z+2i=iz-1&\\quad&{\\mathbf 2.}\\ (3+2i)(z-1)=i\\\\\r\n{\\mathbf 3.}\\ (2-i)z+1=(3+2i)z-i&\\quad&{\\mathbf 4.}\\ (4-2i)z^2=(1+5i)z.\r\n\\end{array}$$\r\nOn écrira les solutions sous forme algébrique.",
+    "hint": "Il suffit de résoudre cette équation comme toute équation linéaire.",
+    "solution": "L'équation est équivalente à \r\n$$z(1-i)=-1-2i\\iff z=\\frac{-1-2i}{1-i}=\\frac{(-1-2i)(1+i)}{(1-i)(1+i)}=\\frac12-\\frac 32i.$$De la même façon, on a \r\n$$z-1=\\frac{i}{3+2i}=\\frac{i(3-2i)}{(3+2i)(3-2i)}=\\frac 2{13}+\\frac 3{13}i.$$\r\nOn en déduit que \r\n$$z=\\frac{15}{13}+\\frac 3{13}i.$$L'équation cette fois est équivalente à \r\n\\begin{align*}\r\n(2-i-3-2i)z=-i-1&\\iff (-1-3i)z=-i-1\\\\\r\n&\\iff z=\\frac{-i-1}{-1-3i}=\\frac{(-i-1)(-1+3i)}{(-1-3i)(-1+3i)}=\\frac{2}5-\\frac15 i.\r\n\\end{align*}On distingue deux cas. D'abord, $z=0$ est solution de l'équation. Si $z\\neq 0$, alors on peut simplifier par $z$ et l'équation est équivalente à \r\n$$(4-2i)z=1+5i\\iff z=\\frac{1+5i}{4-2i}=\\frac{(1+5i)(4+2i)}{(4-2i)(4+2i)}=\\frac{-6+22i}{20}=\\frac{-3}{10}+\\frac{11}{10}i.$$\r\nL'équation admet donc deux solutions, $z=0$ et $z=\\frac{-3}{10}+\\frac{11}{10}i$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre le système\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx\\wedge y&=&18\\\\\r\nx\\vee y&=&540\r\n\\end{array}\\right.$$\r\navec $(x,y)\\in\\mathbb N^2$.Généralisation : trouver une condition nécessaire et suffisante sur $d$ et $m$\r\npour qu'il existe $(x,y)\\in\\mathbb N^2$ tels que $x\\wedge y=d$ et $x\\vee y=m$.",
+    "hint": "On écrira $x=dx'$, $y=dy'$ avec $x'\\wedge y'=1$. En particulier, $x'\\vee y'=x'y'$.",
+    "solution": "On écrit $x=18x'$, $y=18y'$ avec $x'\\wedge y'=1$. En particulier, on a\r\n $$x\\vee y=(18x')\\vee (18y')=18(x'\\vee y')=18x'y'$$\r\npuisque $x'$ et $y'$ sont premiers entre eux. Ainsi, le système revient à trouver les couples $(x',y')$ d'entiers premiers entre eux\r\npour lesquels $x'y'=30$. On trouve les couples $(30,1), (15,2), (10,3), (6,5)$ et leurs symétriques.\r\nLes couples $(x,y)$ recherchés sont donc $(540,18), (270,36), (180,54), (108,90)$ et leurs symétriques.Une condition nécessaire est clairement que $d|m$ (le pgcd divise toujours le ppcm). Réciproquement, si $m=kd$, en\r\nécrivant comme précédemment $x=dx'$, $y=dy'$ avec $x'\\wedge y'=1$, le système se réduit\r\nà l'équation $x'y'=k$. Elle admet toujours des solutions entières, par exemple le couple $(k,1)$.\r\nLe système admet donc une solution si et seulement si $d|m$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que tout entier naturel est congru modulo 9 à la somme des chiffres de son écriture décimale.\r\nEn déduire que, quels que soient les entiers naturels $x=\\overline{a_n\\dots a_0}$, $y=\\overline{b_m\\dots b_0}$\r\net $z=\\overline{c_p\\dots c_0}$, si $xy=z$, alors $\\left(\\sum_{i=0}^n a_i\\right)\\left(\\sum_{i=0}^m b_i\\right)\\equiv\\left(\\sum_{i=0}^p c_i\\right)\\ [9]$.",
+    "hint": "A quoi est congru 10 modulo 9?",
+    "solution": "Le point crucial est que $10$ est congru à 1 modulo 9. Ainsi, $10^2=10\\times 10\\equiv 1\\times 1=1[9]$, et une récurrence facile montre\r\nque pour tout entier $k$, alors $10^k$ est congru à 1 modulo 9. Notons $x=\\overline{a_n\\dots a_0}$. Alors on a :\r\n\\begin{eqnarray*}\r\n x&\\equiv&10^n a_n+10^{n-1}a_{n-1}+\\dots+10 a_1+a_0\\ [9]\\\\\r\n&\\equiv& a_n +a_{n-1}+\\dots +a_0\\ [9].\r\n\\end{eqnarray*}\r\nLa deuxième partie de l'exercice s'en déduit aisément. En effet, on écrit que\r\n $$xy=z\\implies xy\\equiv z\\ [9]\\implies \\left(\\sum_{i=0}^n a_i\\right)\\left(\\sum_{i=0}^m b_i\\right)\\equiv\\left(\\sum_{i=0}^p c_i\\right)\\ [9].$$",
+    "lang": "french"
+}

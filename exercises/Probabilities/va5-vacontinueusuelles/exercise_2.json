@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire suivant une loi uniforme sur $[a,b]$. On note $m$ sa moyenne et $\\sigma$ son écart-type. Calculer la probabilité $P(X\\in [m-\\sigma,m+\\sigma])$.",
+    "hint": "",
+    "solution": "Rappelons que $m=\\frac{a+b}2$ et $\\sigma=\\frac{b-a}{2\\sqrt 3}$ et que $X$ admet pour densité $f(x)=\\frac{1}{b-a}\\mathbf 1_{[a,b]}(x)$. Remarquons aussi que \r\n$$m+\\sigma=\\frac{a+b}2+\\frac{b-a}{2\\sqrt 3}\\leq \\frac{a+b}2+\\frac{b-a}2\\leq b$$\r\net de même $m-\\sigma\\geq a$. Le calcul de la probabilité demandée suit alors la méthode usuelle pour une loi à densité : \r\n\\begin{eqnarray*}\r\nP(X\\in [m-\\sigma,m+\\sigma])&=&\\frac{1}{b-a}\\int_{m-\\sigma}^{m+\\sigma}dt\\\\\r\n&=&\\frac{1}{b-a}\\times (m+\\sigma-m+\\sigma)\\\\\r\n&=&\\frac{2\\sigma}{b-a}\\\\\r\n&=&\\frac 1{\\sqrt 3}.\r\n\\end{eqnarray*}\r\nRemarquons que ceci ne dépend pas de $a$ et de $b$, ce qui est une propriété assez remarquable de la loi uniforme.",
+    "lang": "french"
+}

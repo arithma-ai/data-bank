@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que si $n$ est la somme de deux carrés, alors le reste de la division euclidienne de $n$ par 4 est toujours différent de $3$.",
+    "hint": "Écrire $n=a^2+b^2$, et raisonner suivant la parité de $a$ et $b$.",
+    "solution": "On écrit $n=a^2+b^2$, et on raisonne suivant la parité de $a$ et de $b$ :Si $a$ et $b$ sont tous les deux pairs, alors $a=2k$ et $b=2\\ell$, $n=4(k^2+\\ell^2)$ est divisible par 4 : la propriété est vraie.Si $a$ est pair et $b$ est impair, alors $a=2k$ et $b=2\\ell+1$. Alors $n=4k^2+4\\ell^2+4l+1=4(k^2+\\ell^2+\\ell)+1$. Le reste de la division de $n$ par $4$ sera égal à 1. La propriété est vraie dans ce cas. Le cas $a$ impair et $b$ pair est symétrique.Si $a$ est impair et $b$ est impair, alors $a=2k+1$, $b=2\\ell+1$ et $n=4k^2+4k+1+4\\ell^2+4\\ell+1=4(k^2+k+\\ell^2+\\ell)+2$. Le reste de la division de $n$ par $4$ sera égal à 2. La propriété est vraie dans ce cas.Ainsi, dans tous les cas, la propriété est vraie. Ce raisonnement par disjonction de cas est particulièrement utile en arithmétique, en particulier lorsqu'on utilise l'outil des congruences.",
+    "lang": "french"
+}

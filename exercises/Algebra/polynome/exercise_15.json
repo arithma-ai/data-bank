@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer tous les polynômes $P\\in\\mathbb R_3[X]$ tels que $P$ soit divisible par $X+1$ et $P'$ soit divisible par $(X-1)^2$.",
+    "hint": "Commencer par trouver l'expression de $P'$.",
+    "solution": "Puisque $P'\\in\\mathbb R_2[X]$ et que $P'$ est divisible par $(X-1)^2$, alors il existe $a\\in\\mathbb R$ tel que $P'(X)=3a(X-1)^2$. Par intégration, il existe $b\\in\\mathbb R$ tel que  \r\n$P(X)=a(X-1)^3+b$. Maintenant, $P$ est divisible par $X+1$ si et seulement si $P(-1)=0$. Mais \r\n$$P(-1)=-8a+b=0\\iff b=8a.$$\r\nAinsi, les polynômes recherchées sont ceux qui s'écrivent \r\n$$P(X)=a(X-1)^3+8a,\\ a\\in\\mathbb R.$$",
+    "lang": "french"
+}

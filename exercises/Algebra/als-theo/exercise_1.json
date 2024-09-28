@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel et $p,q$ deux projecteurs de $E$ tels que\r\n$p\\neq 0$, $q\\neq 0$ et $p\\neq q$. Démontrer que $(p,q)$ est une famille libre\r\nde $\\mathcal L(E)$.",
+    "hint": "Supposer que $q=\\lambda p$ et calculer de deux façons différentes $q^2$ en fonction de $p$.",
+    "solution": "Si $(p,q)$ n'est pas libre, il existe $\\lambda\\in\\mathbb K$, $\\lambda\\neq 0$, tel que $q=\\lambda p$.\r\nAlors $$\\lambda p=q=q^2=\\lambda^2 p^2=\\lambda^2 p.$$\r\nOn a donc $\\lambda^2=\\lambda$, c'est-à-dire $\\lambda=1$ puisque $\\lambda\\neq 0$, ce qui contredit $p\\neq q$.",
+    "lang": "french"
+}

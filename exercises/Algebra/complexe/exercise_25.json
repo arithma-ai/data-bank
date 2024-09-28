@@ -1,0 +1,6 @@
+{
+    "script": "Quelle est la forme algébrique de $(1+i)(1+2i)(1+3i)$?En déduire la valeur de $\\arctan(1)+\\arctan(2)+\\arctan(3)$.",
+    "hint": "Commencer par mettre $1+i$, $1+2i$ et $1+3i$ sous forme exponentielle en utilisant la fonction $\\arctan$.",
+    "solution": "Un calcul rapide montre que $(1+i)(1+2i)(1+3i)=-10$.Notons $\\theta_1$, $\\theta_2$ et $\\theta_3$ des arguments respectifs de $1+i$, $1+2i$ et $1+3i$. On peut toujours choisir $\\theta_k\\in[0,\\pi/2]$, $k=1,2,3$. Notons aussi $r_k$ le module de $1+ki$, $k=1,2,3$.\r\nOn a $r_k \\sin(\\theta_k)=k$ et $r_k \\cos(\\theta_k)=1$ de sorte que $\\tan\\theta_k=k$. Puisque $\\theta_k\\in [0,\\pi/2]$, on a donc \r\n$$\\theta_k=\\arctan(k).$$\r\nAinsi, on a aussi \r\n$$(1+i)(1+2i)(1+3i)=r_1r_2r_3 e^{i\\big(\\arctan(1)+\\arctan(2)+\\arctan(3)\\big)}.$$\r\nAinsi, $\\arctan(1)+\\arctan(2)+\\arctan(3)$ est un argument de $(1+i)(1+2i)(1+3i)$ et d'après le calcul effectué à la question précédente, on a\r\n$$\\arctan(1)+\\arctan(2)+\\arctan(3)=\\pi\\ [2\\pi].$$\r\nOr, \r\n$$0\\leq \\arctan(1)+\\arctan(2)+\\arctan(3)\\leq \\frac{3\\pi}2.$$\r\nAinsi, on obtient que\r\n$$\\arctan(1)+\\arctan(2)+\\arctan(3)=\\pi.$$",
+    "lang": "french"
+}

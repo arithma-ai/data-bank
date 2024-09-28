@@ -1,0 +1,6 @@
+{
+    "script": "Soit $p\\geq 1$. Démontrer que $p!$ divise tout produit de $p$ entiers naturels consécutifs.",
+    "hint": "Un produit de $p$ entiers naturels consécutifs s'écrit $n(n+1)\\dots (n+p-1)$.",
+    "solution": "Un produit de $p$ entiers naturels consécutifs s'écrit $P=n(n+1)\\dots (n+p-1)$. Posons $m=n+p-1$. Ce produit s'écrit encore $P=m(m-1)\\dots (m-p+1)$. On a donc\r\n$$\\frac{P}{p!}=\\frac{m(m-1)\\dots(m-p+1)}{p!}=\\binom mp.$$\r\nC'est donc un entier, ce qui signifie que $p!$ divise $P$.",
+    "lang": "french"
+}

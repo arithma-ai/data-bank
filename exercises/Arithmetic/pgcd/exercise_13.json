@@ -1,0 +1,6 @@
+{
+    "script": "Bonjour, je suis le magicien des mathématiques.\r\nJe vais deviner votre date de naissance.Prenez votre jour de naissance. Multipliez le par 31.Prenez votre mois de naissance. Multiplier le par 12.Ajoutez ces deux nombres. Combien trouvez-vous? 811 vous me dites?Et bien vous êtes né un 25 mars!En plus, c'est vrai. Mais comment a-t-il fait?",
+    "hint": "Trouver une équation de Bezout à résoudre, et expliquer pourquoi on peut la résoudre \"plus vite\" dans ce cas.",
+    "solution": "En notant $j$ le jour de naissances et $m$ le mois de naissances, on doit résoudre\r\n$$12m+31j=811.$$\r\nC'est une équation de Bézout, qu'on peut résoudre \"naïvement\", mais c'est bien sûr impossible de tête.\r\nL'idée est que l'on sait que m est forcément compris entre 1 et 12.\r\nOn regarde la congruence modulo 31, et on obtient $12m\\equiv 811\\ [31] \\equiv 5\\ [31]$.\r\nMais, pour $m$ allant de $1$ à $12$, les entiers $12m$ ont des congruences\r\nmodulo 31 différentes les unes des autres. Ainsi, on trouve dans l'ordre\r\n$12, 24, 5, 17, 29, 10, 22, 3, 15, 27, 8, 20$. Ceci nous donne immédiatement $m=3$,\r\npuis, en retournant à l'équation $12m+31j=811$, $j=25$.",
+    "lang": "french"
+}

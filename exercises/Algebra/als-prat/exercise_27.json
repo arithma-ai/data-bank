@@ -1,0 +1,6 @@
+{
+    "script": "Soit $n\\geq 1$, $E=\\mathbb R_n[X]$ et $\\phi\\in\\mathcal L(E)$ défini par $\\phi(P)=P(X+1)-P(X)$. Déterminer le noyau et l'image de $\\phi$.",
+    "hint": "On pourra étudier quel est le degré de $(X+1)^k-X^k$. Ensuite, il est facile de démontrer que $\\textrm{Im}(\\phi)\\subset \\mathbb R_{n-1}[X]$. Démontrer l'inclusion réciproque à l'aide du théorème du rang.",
+    "solution": "Le degré de $(X+1)^k-X^k$ est égal à $k-1$, sauf si $k=0$ car dans ce cas on a affaire au polynôme nul. En particulier, si $P$ est de degré $d$, $P(X)=a_dX^d+\\dots+a_0$, alors\r\n$$\\phi(P)=a_d\\big((X+1)^d-X^d)+\\dots+a_1$$\r\nest de degré $d-1$, sauf si $d=0$ où on a le polynôme nul. On en déduit que le noyau de $\\phi$ est l'ensemble des polynômes constants.D'autre part, l'image de $\\phi$ est clairement contenue dans $\\mathbb R_{n-1}[X]$. Or, ce dernier espace est de dimension $n$, et par le théorème du rang, \r\n$$\\dim\\big(\\textrm{Im}(\\phi)\\big)=n+1-\\dim\\big(\\ker(\\phi)\\big)=n.$$\r\nAinsi, on a $\\textrm{Im}(\\phi)\\subset \\mathbb R_{n-1}[X]$ et $\\dim\\big(\\textrm{Im}(\\phi)\\big)=\\dim(\\mathbb R_{n-1}[X]).$ Ces deux sous-espaces vectoriels sont donc égaux. Remarquons que ce serait beaucoup plus difficile à démontrer sans le théorème du rang.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Pour quelle(s) valeur(s) de $\\lambda\\in \\mathbb R$ le polynôme $M(X) = X^3-3X+\\lambda$ admet-il une racine double? Quelle est alors l'autre racine?",
+    "hint": "Chercher les deux racines de $M'$. Vérifier que ce ne sont pas des racines de $M''$. Chercher ensuite pour chaque racine de $M'$ la condition sur $\\lambda$ pour que ce soit aussi une racine de $M$.",
+    "solution": "Les racines de $M'=3(X^2-1)$ sont $1$ et $-1$ et ne sont pas racines de $M''=6X$. Aussi pour que  $1$ (resp. $-1$)  soit  racine double de $M$ il faut et il suffit de chercher $ \\lambda$ vérifiant  : $M(1)=0$ (resp. $M(-1)=0$).On trouve \r\n\\[(M(1)=0 \\iff \\lambda=2)\\ \\ \\  \\  \\mathrm{et}\\ \\  \\ \\  ( M(-1)=0 \\iff \\lambda=-2)\\ \\mathrm{.}\r\n\\]\r\n\r\nPour trouver la racine simple si $\\lambda=2$  (resp. $\\lambda=-2$), on peut procéder par identification des polynômes :    $X^3-3X+2=(X-1)^2(aX+b)=aX^3+(b-2a)X^ 2+(a-2b)X+b$ (resp. $X^3-3X-2=(X+1)^2(aX+b)=aX^3+(b+2a)X^ 2+(2b+a)X+b$) . On trouve alors facilement que pour  $\\lambda=2$  (resp. $\\lambda=-2$), $M=(X-1)^2(X+2)$ (resp. $M=(X+1)^2(X-2)$). On aurait aussi pu effectuer la division euclidienne de $X^3-3X+2$ par $(X-1)^2$, et de $X^3-3X-2$ par $(X+1)^2$.",
+    "lang": "french"
+}

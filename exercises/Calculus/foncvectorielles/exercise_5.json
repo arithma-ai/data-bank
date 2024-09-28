@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace vectoriel euclidien et $f:[a,b]\\to E$ continue sur $[a,b]$ et dérivable sur $]a,b[$. En considérant $\\phi(t)=\\langle f(b)-f(a),f(t)\\rangle$, démontrer qu'il existe $c\\in ]a,b[$ tel que \r\n$$\\|f(b)-f(a)\\|\\leq (b-a)\\|f'(c)\\|.$$",
+    "hint": "Appliquer l'égalité des accroissements finis à la fonction réelle $\\phi$.",
+    "solution": "La fonction $\\phi:[a,b]\\to\\mathbb R$ est continue sur $[a,b]$ et dérivable sur $]a,b[$. D'après le théorème des accroissements finis, il existe $c\\in ]a,b[$ tel que \r\n$$\\phi(b)-\\phi(a)=(b-a)\\phi'(c).$$\r\nMais $\\phi'(c)=\\langle f(b)-f(a),f'(c)\\rangle$ et donc par l'inégalité de Cauchy-Schwarz, \r\n$$\\phi'(c)\\leq \\|f(b)-f(a)\\|\\times \\|f'(c)\\|.$$\r\nD'autre part, \r\n$$\\phi(b)-\\phi(a)=\\|f(b)-f(a)\\|^2.$$\r\nOn en déduit le résultat voulu.",
+    "lang": "french"
+}

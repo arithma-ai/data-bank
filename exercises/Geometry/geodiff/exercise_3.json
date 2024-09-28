@@ -1,0 +1,6 @@
+{
+    "script": "Pour quelles valeurs de $\\alpha\\in\\mathbb R$ l'ensemble $\\mathcal C=\\{(x,y)\\in\\mathbb R^2;\\ x^2-y^2=\\alpha\\}$ est-il une sous-variété de $\\mathbb R^2$.",
+    "hint": "Écrire l'ensemble sous la forme $f^{-1}(\\{0\\})$ pour une certaine fonction $f$, et déterminer pour quelles valeurs de $\\alpha$ la fonction $f$ est une submersion en tout point de $\\mathcal C$.",
+    "solution": "Posons $f(x,y)=x^2-y^2-\\alpha,\\mathbb R^2\\to\\mathbb R$, de sorte que $f^{-1}(\\{0\\})=\\mathcal C$. On a \r\n$df_{(x,y)}=(2x\\quad-2y)$. Ceci est une surjection (puisque $df$ est une forme linéaire, c'est équivalent à dire qu'elle n'est pas identiquement nulle) si et seulement si $(x,y)\\neq (0,0)$. Ainsi, $f$ est une submersion partout sauf en $(0,0)$. Si $\\alpha\\neq 0$, alors $(0,0)\\notin \\mathcal C$, et $f$ est une submersion en tout point de $\\mathcal C$ : $\\mathcal C$ est donc une sous-variété.Si $\\alpha=0$, alors $\\mathcal C$ est la réunion de deux droites (distinctes) qui se coupent en $0$ : ce n'est pas une sous-variété car elle admet un point double.",
+    "lang": "french"
+}

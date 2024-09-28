@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre les équations différentielles suivantes :\r\n$$\\begin{array}{lll}\r\n\\mathbf 1.\\ y'=1+y^2&\\quad&\\mathbf 2.\\ y'=y^2\r\n\\end{array}$$",
+    "hint": "Diviser par $1+y^2$.Une solution qui s'annule en un point est forcément nulle partout (pourquoi?). Diviser par $y^2$.",
+    "solution": "L'équation est équivalente à \r\n$$\\frac{y'}{1+y^2}=1.$$\r\nUne solution définie sur $I$ vérifie donc \r\n$$\\arctan y(x)=x+C.$$\r\nNécessairement, $x+C\\in ]-\\pi/2,\\pi/2[$, et donc une solution \r\nvérifie \r\n$$y(x)=\\tan(x+C),\\ x\\in \\left]-\\frac\\pi2-C,\\frac\\pi2-C\\right[.$$\r\nRéciproquement, ces fonctions sont bien solutions.Remarquons d'abord que la fonction nulle est solution de l'équation. L'application \r\n$(x,y)\\mapsto y^2$ étant de classe $C^1$, le théorème de Cauchy-Lipschitz s'applique, et il n'existe\r\ndonc pas d'autre solution qui s'annule (par unicité au problème de Cauchy). Si $y$ est solution sur $I$ et n'est pas\r\nla fonction nulle, elle vérifie \r\n$$\\frac{y'}{y^2}=1,$$\r\net donc il existe $C\\in\\mathbb R$ tel que \r\n$$\\forall x\\in I,\\ -\\frac 1{y(x)}=x+C.$$\r\nOn en déduit que $x+C\\neq 0$, et que \r\n$$y(x)=-\\frac 1{x+C}.$$\r\nLa réciproque est immédiate.",
+    "lang": "french"
+}

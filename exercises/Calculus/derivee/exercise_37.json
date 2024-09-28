@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,1]\\to\\mathbb R$ une fonction de classe $C^1$ vérifiant $f(0)=0$ et $f(1)=1$.\r\nDémontrer que, pour tout $n\\geq 1$, il existe $0<x_1<\\dots<x_n<1$ vérifiant $f'(x_1)+\\dots+f'(x_n)=n$.",
+    "hint": "Appliquer le théorème des accroissements finis entre 0 et $1/n$, puis entre $1/n$ et $2/n$, etc...",
+    "solution": "Le résultat est clair pour $n=1$. C'est juste l'application du théorème des accroissements finis entre 0 et 1.\r\nLe résultat pour $n$ est à peine plus compliqué si on a la bonne idée. Appliquons le théorème des accroissements\r\nfinis à $f$ entre $(i-1)/n$ et $i/n$, pour $i=1,\\dots,n$. On obtient un point $x_i\\in](i-1)/n,i/n[$ tel que\r\n$f'(x_i)=\\frac{f(i/n)-f((i-1)/n)}{1/n}$. Lorsqu'on calcule la somme $f'(x_1)+\\dots+f'(x_n)$, les termes se télescopent \r\ndeux à deux et on trouve finalement \r\n$$f'(x_1)+\\dots+f'(x_n)=\\frac{f(1)-f(0)}{1/n}=n.$$",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "On pose\r\n  $z_1=4e^{i\\frac{\\pi}{4}},\\;z_2=3ie^{i\\frac{\\pi}{6}},\\;z_3=-2e^{i\\frac{2\\pi}{3}}$. Écrire sous\r\n  forme exponentielle les nombres complexes : $z_1$, $z_2$, $z_3$, $z_1z_2$,\r\n  $\\frac{z_1z_2}{z_3}$.",
+    "hint": "",
+    "solution": "L'écriture $z_1=4e^{i\\frac{\\pi}{4}}$ est déjà la forme exponentielle de $z_1$. Pour $z_2$, on écrit\r\n$$z_2=3e^{i\\frac\\pi2}e^{i\\frac\\pi6}=3e^{i\\frac{2\\pi}3}.$$\r\nPour $z_3$, on écrit \r\n$$z_3=2e^{i\\pi}e^{i\\frac{2\\pi}3}=2e^{i\\frac{5\\pi}3}.$$\r\nPour $z_1z_2$, on écrit\r\n$$z_1z_2=12e^{i\\left(\\frac\\pi4+\\frac{2\\pi}3\\right)}=12e^{i\\frac{11\\pi}{12}}.$$\r\nPour $z_1z_2/z_3$, on écrit\r\n$$\\frac{z_1z_2}{z_3}=6 e^{i\\left(\\frac{11\\pi}{12}-\\frac{5\\pi}3\\right)}=6e^{-i\\frac{9\\pi}{12}}=6e^{-i\\frac{3\\pi}4}.$$",
+    "lang": "french"
+}

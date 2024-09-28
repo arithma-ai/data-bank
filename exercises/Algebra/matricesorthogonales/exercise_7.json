@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E=\\mathbb R_3[X]$ muni du produit scalaire $\\langle P,Q\\rangle =\\int_{-1}^1 P(t)Q(t)dt$. On considère\r\nl'endomorphisme de $E$ défini par $\\phi(P)(X)=P(-X)$. Démontrer que $\\phi$ est une symétrie orthogonale.",
+    "hint": "Revenir à la définition d'une symétrie, puis d'un endomorphisme orthogonal.",
+    "solution": "Il faut d'abord prouver que $\\phi$ est une symétrie, c'est-à-dire que $\\phi\\circ\\phi=Id$.\r\nMais c'est clair, car $P(-(-X))=P(X)$. Il faut aussi démontrer que $\\phi$ est une symétrie orthogonale, c'est-à-dire que\r\n$\\phi$ conserve le produit scalaire, ou encore que\r\n$$\\langle \\phi (P),\\phi(Q)\\rangle=\\langle P,Q\\rangle$$\r\npour tous polynômes $P,Q\\in E$. Mais,\r\n$$\\langle \\phi(P),\\phi(Q)\\rangle =\\int_{-1}^1 P(-t)Q(-t)dt=\\int_{-1}^1 P(u)Q(u)du=\\langle P,Q\\rangle,$$\r\nle seul argument utilisé étant le changement de variables $u=-t$.",
+    "lang": "french"
+}

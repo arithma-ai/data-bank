@@ -1,0 +1,6 @@
+{
+    "script": "On souhaite déterminer les limites en $0^+$ et en $+\\infty$ de la fonction $f$ définie sur $]0;+\\infty[$ par $\\displaystyle f(x)=\\sqrt{\\frac{4x+1}{x}}$.Écrire la fonction $f$ sous la forme $f(x)=\\sqrt{g(x)}$, où $g$ est une fonction que l'on déterminera.Déterminer les limites de $g$ en $0^+$ et en $+\\infty$.Conclure.",
+    "hint": "Utiliser les opérations sur les limites, et le fait qu'en $+\\infty$, la fonction $g$ est un quotient de deux fonctions.Utiliser le théorème sur la limite d'une composée de deux fonctions.",
+    "solution": "On a $f(x)=\\sqrt{g(x)}$ si on pose $\\displaystyle g(x)=\\frac{4x+1}x$.D'une part, en $0$, on a $\\lim_{x\\to 0}4x+1=1$ et $\\lim_{x\\to 0^+}x=0^+$. En utilisant le théorème sur les quotients de limites, on en déduit que $\\lim_{x\\to 0^+}g(x)=+\\infty$.Au voisinage de $+\\infty$, on sait que, puisque $g$ est le quotient de deux polynômes, on a \r\n$$\\lim_{x\\to+\\infty}g(x)=\\lim_{x\\to+\\infty}\\frac{4x}{x}=\\lim_{x\\to+\\infty}4=4.$$D'une part, on sait que $\\lim_{x\\to 0^+}g(x)=+\\infty$ et que $\\lim_{y\\to +\\infty}\\sqrt{y}=+\\infty$. On en déduit que $\\lim_{x\\to 0^+}f(x)=+\\infty$, par le théorème de composition des limites.D'autre part, on sait que $\\lim_{x\\to +\\infty}g(x)=4$ et que $\\lim_{y\\to 4}\\sqrt y=2$. On en déduit que $\\lim_{x\\to+\\infty}f(x)=2$.",
+    "lang": "french"
+}

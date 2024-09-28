@@ -1,0 +1,6 @@
+{
+    "script": "Soit $z_1$ et $z_2$ deux nombres complexes. Démontrer que \r\n$$|z_1+z_2|^2+|z_1-z_2|^2=2(|z_1|^2+|z_2|^2).$$",
+    "hint": "Utiliser $|z|^2=z\\cdot \\bar z.$",
+    "solution": "On va utiliser que pour tout nombre complexe $z$,  $|z|^2=z\\cdot \\bar z$ et développer. On a donc \r\n\\begin{align*}\r\n |z_1+z_2|^2+|z_1-z_2|^2&=(z_1+z_2) \\cdot \\overline{(z_1+z_2)}+(z_1-z_2) \\cdot \\overline{(z_1-z_2)}\\\\\r\n &=(z_1+z_2)\\cdot (\\overline{z_1}+\\overline{z_2})+(z_1-z_2)\\cdot (\\overline{z_1}-\\overline{z_2})\\\\\r\n &=z_1\\overline{z_1}+z_2\\overline{z_1}+z_1\\overline{z_2}+z_2\\overline{z_2}+z_1\\overline{z_1}-z_2\\overline{z_1}-z_1\\overline{z_2}+z_2\\overline{z_2}\\\\\r\n &=2z_1\\overline{z_1}+2z_2\\overline{z_2}\\\\\r\n &=2(|z_1|^2+|z_2|^2).\r\n\\end{align*}\r\nCette identité s'appelle l'identité du parallélogramme. Si $A,$ $B$ et $C$ sont les points d'abscisse respective $z_1,z_1+z_2,z_2$ de sorte\r\nque $OABC$ est un parallélogramme, alors l'égalité précédente dit que \r\n$$OB^2+AC^2=2OA^2+2OC^2.$$\r\nLa somme des carrés de la longueur des diagonales vaut la somme des carrés des longueurs des côtés.",
+    "lang": "french"
+}

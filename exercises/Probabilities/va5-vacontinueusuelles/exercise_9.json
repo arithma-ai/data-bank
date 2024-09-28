@@ -1,0 +1,6 @@
+{
+    "script": "La durée de vie des atomes de radon suit une loi exponentielle. La probabilité qu'un atome de radon ne soit pas désintégré en 40s\r\nsachant qu'il ne l'est pas en 12s vaut $\\frac{\\sqrt 2}2$. Quelle est la probabilité qu'il ne soit pas désintégré avant 76s sachant qu'il ne l'est pas en 20s?",
+    "hint": "Utiliser la propriété d'absence de mémoire des lois exponentielles.",
+    "solution": "Soit $X$ la variable aléatoire donnant la durée de vie d'un atome de radon. On sait que $X$ suit une loi exponentielle de paramètre $\\lambda$.\r\nOn sait que, pour $a>0$, $P(X\\geq a)=\\int_a^{+\\infty}\\lambda e^{-\\lambda t}dt=e^{-\\lambda a}$. L'énoncé nous dit que \r\n$$P_{(X\\geq 12)}(X\\geq 40)=\\frac{\\sqrt 2}2.$$\r\nOn utilise ensuite que la loi exponentielle est sans mémoire pour écrire que \r\n$$P(X\\geq 28)=P_{(X\\geq 12)}(X\\geq 28+12)=\\frac{\\sqrt 2}2=e^{-28 \\lambda}.$$\r\nD'autre part, on cherche\r\n$$P_{(X\\geq 20)}(X>76)=P(X\\geq 56)=e^{-56\\lambda}=\\left(e^{-28\\lambda}\\right)^2=\\frac 12.$$",
+    "lang": "french"
+}

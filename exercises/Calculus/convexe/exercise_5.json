@@ -1,0 +1,6 @@
+{
+    "script": "Montrer que $f(x)=\\ln(\\ln (x))$ est concave sur $]1,+\\infty[$.En déduire que $\\forall a,b>1,\\ \\ln\\left(\\frac{a+b}{2}\\right)\\geq \\sqrt{\\ln a.\\ln b}$.",
+    "hint": "Dériver deux fois.Utiliser la question précédente.",
+    "solution": "On calcule la dérivée seconde de $f$ qui vaut :\r\n$$f''(x)=-\\frac{1}{x^2\\ln (x)}-\\frac{1}{x^2\\ln^2(x)}.$$ \r\nCette fonction est négative sur $]1,+\\infty[$. Donc la fonction est concave.Par concavité de $f$, on a :\r\n$$\\ln\\left(\\ln\\left(\\frac{a+b}{2}\\right)\\right)\\geq \\frac{1}{2}\\left(\\ln \\ln a+\\ln \\ln b\\right)=\\ln\\left(\\sqrt{\\ln a\\ln b}\\right).$$\r\nOn compose par la fonction exponentielle qui est croissante pour obtenir le résultat.",
+    "lang": "french"
+}

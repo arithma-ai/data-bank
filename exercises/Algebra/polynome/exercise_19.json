@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les polynômes $P$ de degré supérieur ou égal à 1 et tels que $P'|P$.",
+    "hint": "Remarquer que $P$ s'écrit $\\lambda(X-\\alpha)P'$, puis appliquer la formule de Taylor en $\\alpha$.",
+    "solution": "Puisque $P'|P$, $P=QP'$, et les considérations de degré font que $Q$ est de degré 1. On peut donc écrire :\r\n$$P=\\lambda(X-\\alpha)P'.$$\r\nOn applique ensuite la formule de Taylor à $P$ en $\\alpha$ : \r\n$$P(X)=\\sum_{k=0}^n \\frac{P^{(k)}(\\alpha)}{k!}(X-\\alpha)^k,$$\r\n$$P'(X)=\\sum_{k=1}^n \\frac{k P^{(k)}(\\alpha)}{k!}(X-\\alpha)^{k-1},$$\r\n$$\\lambda(X-\\alpha)P'(X)=\\sum_{k=1}^n\\frac{\\lambda k P^{(k)}(\\alpha)}{k!}(X-\\alpha)^{k}.$$\r\nPar identification, on obtient, pour tout $k$ dans $\\{0,\\dots,n\\}$ :\r\n$$\\frac{P^{(k)}(\\alpha)}{k!}(\\lambda k-1)=0.$$\r\nMaintenant, $P^{(n)}(\\alpha)\\neq 0$, et donc $\\lambda=1/n$. Ceci entraîne par suite que, pour tout $k$ dans $\\{0,\\dots,n-1\\}$, on a :\r\n$$P^{(k)}(\\alpha)=0.$$\r\nAinsi, $$P(X)=\\frac{P^{(n)}(\\alpha)}{n!}(X-\\alpha)^n,$$\r\nce qui prouve que $P(X)=K(X-\\alpha)^n$, où $K$ est une constante. La réciproque se vérifie aisément.",
+    "lang": "french"
+}

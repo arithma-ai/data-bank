@@ -1,0 +1,6 @@
+{
+    "script": "On pose, pour $n\\geq 1$, \r\n$$I_n=\\int_0^1 \\frac{1}{1+t^n}dt.$$Déterminer $\\ell=\\lim_{n\\to+\\infty}I_n$.Déterminer un équivalent de $\\ell-I_n$.",
+    "hint": "Théorème de convergence dominée, sans difficultés particulières.Écrire $\\ell-I_n$ sous une seule intégrale et faire une intégration par parties.",
+    "solution": "Pour tout $t\\in ]0,1[$, on a\r\n$$\\frac1{1+t^n}\\xrightarrow{n\\to+\\infty}1.$$\r\nDe plus, pour tout $t\\in ]0,1[$ et tout $n\\geq 1$, on a\r\n$$\\left|\\frac1{1+t^n}\\right|\\leq 1$$\r\net la fonction constante égale à 1 est intégrable sur l'intervalle borné $]0,1[$. On en déduit par le théorème de convergence dominée que\r\n$$\\lim_{n\\to+\\infty}I_n=\\int_0^1 1dt=1.$$On a \r\n$$\\ell-I_n=\\int_0^1\\left(1-\\frac{1}{1+t^n}\\right)dt=\\int_0^1 \\frac{t^n}{1+t^n}dt=\\int_0^1 t\\times \\frac{t^{n-1}}{1+t^n}dt.$$\r\nOn réalise une intégration par parties, et on trouve que\r\n$$\\ell-I_n=\\frac 1n\\big[t\\ln(1+t^n)\\big]_0^1 -\\frac 1n\\int_0^1 \\ln(1+t^n)dt=\\frac{\\ln 2}n-\\frac 1n\\int_0^1\\ln(1+t^n)dt.$$\r\nOr, \r\n$$\\lim_{n\\to+\\infty}\\int_0^1 \\ln(1+t^n)dt=0,$$\r\nce qui se redémontre ou bien en majorant ou bien par le théorème de convergence dominée. On en conclut que \r\n$$\\ell-I_n\\sim_{n\\to+\\infty}\\frac{\\ln 2}n.$$",
+    "lang": "french"
+}

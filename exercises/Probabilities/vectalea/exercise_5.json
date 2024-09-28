@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(X,Y)$ un couple de variables aléatoires suivant une loi uniforme sur $\\{0,\\dots,n\\}^2$.Déterminer la loi de $X$, la loi de $Y$, la loi de $X+Y$.$X$ et $Y$ sont-elles indépendantes?",
+    "hint": "Utiliser les méthodes classiques. Pour la loi de $X+Y$, on pourra séparer les cas $X+Y\\leq n$ et $X+Y\\geq n$.Utiliser la définition.",
+    "solution": "$X$ est à valeurs dans $\\{0,\\dots,n\\}$. On a, pour tout $k$ de $\\{0,\\dots,n\\}$,\r\n$$P(X=k)=\\sum_{i=0}^n P\\big ( (X,Y)=(k,i)\\big) =\\sum_{i=0}^n \\frac{1}{(n+1)^2}=\\frac 1{n+1}.$$\r\n$X$ suit donc une loi uniforme sur $\\{0,\\dots,n\\}$. Par symétrie, il en est de même de $Y$.La variable aléatoire $X+Y$ est à valeurs dans $\\{0,\\dots,2n\\}$ et pour tout $k$ dans cet intervalle d'entiers, on a \r\n$$P(X+Y=k)=\\sum_{i=0}^k P\\big( (X=i,Y=k-i)\\big).$$\r\nSi $k\\leq n$, ceci devient égal à \r\n$$P(X+Y=k)=\\sum_{i=0}^k \\frac{1}{(n+1)^2}=\\frac{k+1}{(n+1)^2}.$$\r\nSi $k>n$, la somme ne peut aller que jusque $n$ (car $i\\leq n$) et ne peut commencer qu'en $k-n$ (car $k-i\\leq n$) et donc\r\n$$P(X+Y=k)=\\sum_{i=k-n}^n \\frac{1}{(n+1)^2}=\\frac{2n-k+1}{(n+1)^2}.$$Les variables $X$ et $Y$ sont indépendantes, car pour tout couple $(i,j)$ de $\\{0,\\dots,n\\}$, on a bien\r\n$$P\\big( (X=i),(Y=j)\\big)=P(X=i)P(Y=j)=\\frac{1}{(n+1)^2}.$$",
+    "lang": "french"
+}

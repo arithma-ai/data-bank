@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que $\\mathbb Q$ n'admet pas d'autre sous-corps que lui-même.",
+    "hint": "Considérer $K$ un sous-corps de $\\mathbb Q$. Commencer par démontrer qu'il contient $\\mathbb N$.",
+    "solution": "Soit $K$ un sous-corps de $\\mathbb Q$. Alors $0,1\\in K$. On a ensuite $2=1+1\\in K$, puis $3=2+1\\in K$. Par récurrence, on prouve facilement que $\\mathbb N\\subset K$. Puis, par stabilité par passage à l'opposé, $\\mathbb Z\\subset K$. Enfin, si $x=p/q$ avec $p\\in\\mathbb Z$ et $q\\in \\mathbb N$, $q\\neq 0$, alors $p\\in K$, $q\\in K$, $q\\neq 0$ et donc $p/q\\in K$. Ainsi $\\mathbb Q\\subset K$.",
+    "lang": "french"
+}

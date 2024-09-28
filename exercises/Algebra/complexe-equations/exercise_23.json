@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer les nombres complexes $z$ solution de l'équation \r\n$$z^6=(1+i)\\overline z^2.$$",
+    "hint": "$0$ est solution. Sinon, poser $z=re^{i\\theta}$.",
+    "solution": "On remarque d'abord que $z=0$ est solution. Sinon, on pose $z=re^{i\\theta}$, de sorte que $\\bar z=re^{-i\\theta}$. On remarque aussi que $1+i=\\sqrt 2e^{i\\pi/4}$. L'équation est alors équivalente à\r\n$$r^6 e^{i6\\theta}=\\sqrt 2 e^i{\\pi/4} r^2 e^{-2i\\theta}\\iff r^4 e^{i8\\theta}=\\sqrt 2 e^{i\\pi/4}.$$\r\nCeci est équivalent à $r^4=\\sqrt 2$, soit $r=2^{1/8}$, et à \r\n$$8\\theta \\equiv \\frac{\\pi}4\\ [2\\pi].$$\r\nAinsi, il existe $k\\in\\mathbb Z$ tel que \r\n$$8\\theta=\\frac{\\pi}4+2k\\pi\\iff \\theta=\\frac{\\pi}{32}+k\\frac{\\pi}4.$$\r\nAinsi, l'équation admet neuf solutions : \r\n$$\\mathcal S=\\left\\{0,z_0,z_0e^{i\\pi/4},z_0e^{i\\pi/2},z_0e^{3i\\pi/4},z_0e^{i\\pi},z_0e^{i5\\pi/4},z_0e^{i3\\pi/2},z_0e^{i7\\pi/4}\\right\\}$$\r\noù $z_0=2^{1/8}e^{i\\pi/32}$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Déterminer tous les morphismes de groupes de $(\\mathbb Q,+)$ dans $(\\mathbb Z,+)$.",
+    "hint": "Démontrer et utiliser que si $f$ est un tel morphisme et $p$ et $q$ sont des entiers naturels, $f(p)=pf(1)$ et $f\\left(\\frac 1q\\right)=\\frac{1}{q}f(1)$.",
+    "solution": "Soit $f$ un tel morphisme de groupe. On va commencer par démontrer que pour $p$ et $q$ des entiers naturels, on a \r\n$f(p)=pf(1)$ et $f\\left(\\frac 1q\\right)=\\frac{1}{q}f(1)$. La première des deux propriétés se démontre aisément par récurrence.\r\nPour la deuxième, on écrit que \r\n$$f(1)=f\\left(\\frac 1q+\\cdots+\\frac 1q\\right)=qf\\left(\\frac 1q\\right).$$\r\nNotons ensuite $a=f(1)$.  Alors $a/q$ est un entier pour tout entier $q$, et donc $a=0$. On en déduit que $f(p)=f(1/q)=0$ pour tous les entiers $p$ et $q$,\r\npuis que $f(p/q)=pf(1/q)=0$. Finalement, on trouve que $f$ est le morphisme nul.",
+    "lang": "french"
+}

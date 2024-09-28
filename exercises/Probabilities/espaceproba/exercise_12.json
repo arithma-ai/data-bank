@@ -1,0 +1,6 @@
+{
+    "script": "Soit $(X_n)$ une suite de variables aléatoires et soient $a,b$ deux réels. On note $E_a$ \r\net $F_b$ les événements suivants :\r\n$$E_a=\\limsup_n \\{X_n\\geq a\\}\\textrm{ et }F_b=\\{\\limsup_n X_n\\geq b\\}.$$\r\nComparer, suivant la position relative de $a$ et $b$, les événements $E_a$ et $F_b$.",
+    "hint": "Commencer par comparer dans le cas $a=b$. \r\nIl sera bon d'écrire en toutes lettres ce que signifie ces événements.",
+    "solution": "On commence par supposer que $a=b$. Si $\\omega\\in E_a$, alors $X_n(\\omega)\\geq a$ pour une\r\ninfinité de valeurs de $n$. Ainsi, $\\limsup X_n(\\omega)\\geq a$ et donc $E_a\\subset F_a$. La réciproque est fausse.\r\nPrenons une suite $(X_n)$ définie sur $\\Omega$ par $X_n=a-\\frac 1n$. Alors $E_a=\\varnothing$ tandis que $F_a=\\Omega$.\r\nSi maintenant $a>b$, alors $E_a\\subset F_a\\subset F_b$, et là aussi l'inclusion peut être stricte. Enfin, si $a<b$\r\net $\\omega\\in F_b$, on a $\\limsup_n X_n(\\omega)\\geq b>a$. En particulier, pour tout $\\veps>0$, on peut trouver\r\nune infinité de valeurs de $n$ de sorte que $X_n(\\omega)>b-\\veps$. Si on choisit $\\veps>0$ avec $b-\\veps\\geq a$,\r\non trouve que $\\omega\\in E_a$, et donc $F_b\\subset E_a$. L'inclusion peut-être stricte. Il suffit de prendre $X_n=a$,\r\nde sorte que $F_b=\\varnothing$ et $E_a=\\Omega$.",
+    "lang": "french"
+}

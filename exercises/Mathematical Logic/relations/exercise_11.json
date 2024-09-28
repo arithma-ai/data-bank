@@ -1,0 +1,6 @@
+{
+    "script": "On définir sur $\\mathbb R^2$ la relation $\\prec$ par \r\n$$(x,y)\\prec (x',y')\\iff \\big( (x<x')\\textrm{ ou }(x=x'\\textrm{ et }y\\leq y')\\big).$$\r\nDémontrer que ceci définit une relation d'ordre sur $\\mathbb R^2$.",
+    "hint": "Pour la transitivité, on pourra distinguer plusieurs cas.",
+    "solution": "La relation estréflexive : $x=x$ et $y\\leq y$ impliquent $(x,y)\\prec (x,y)$;antisymétrique : si $(x,y)\\prec (x',y')$ et $(x',y')\\prec (x,y)$, alors on a nécessairement que \r\n$x=x'$ (si $x<x'$ par exemple, on ne peut avoir $(x',y')\\prec (x,y)$). Mais alors, on a à la fois $y\\leq y'$ d'après la première relation, et aussi $y'\\leq y$ d'après la seconde. On en déduit que $x=x'$ et $y=y'$;transitive : si $(x,y)\\prec (x',y')$ et $(x',y')\\prec (x'',y'')$, alors :ou bien $x=x'$ et $x'=x''$ : dans ce cas, on a $y\\leq y'$ et $y'\\leq y''$ donc $y\\leq y''$ et donc\r\n$(x,y)\\prec (x'',y'')$;ou bien $x=x'$ et $x'<x''$ : dans ce cas, on a $x<x''$ et donc $(x,y)\\prec (x'',y'')$;ou bien $x<x'$ et $x'=x''$ : dans ce cas, on a $x<x''$ et donc $(x,y)\\prec (x'',y'')$;Remarquons que ceci définit un ordre total sur $\\mathbb R^2$, car deux éléments sont toujours comparables.",
+    "lang": "french"
+}

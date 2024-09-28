@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f_n$ la fonction définie sur $\\mathbb R$ par $f_n=n$ sur $[0,1/n]$ et $f_n=0$ sinon. On note $T_n$ la distribution associée à $f_n$. Étudier la convergence de la suite $(T_n)$.",
+    "hint": "La suite $(T_n)$ converge vers $\\delta_0$. On pourra écrire que $\\varphi(0)=\\int_{\\mathbb R}f_n(t)\\varphi(0)dt$ pour tout $\\varphi\\in\\mathcal D(\\mathbb R)$.",
+    "solution": "Soit $\\varphi\\in\\mathcal D(\\mathbb R)$. On a \r\n$$\\langle T_n,\\varphi\\rangle=\\int_{0}^{1/n}n\\varphi(t)dt=\\varphi(0)+n\\int_{0}^{1/n}\\big(\\varphi(t)-\\varphi(0)\\big)dt.$$\r\nOr, d'après l'inégalité des accroissements finis,\r\n$$n\\left|\\int_0^{1/n}\\big(\\varphi(t)-\\varphi(0)\\big)dt\\right|\\leq n \\int_0^{1/n}\\|\\varphi'\\|_\\infty tdt\\leq\\frac{1}{2n}.$$\r\nAinsi, $\\langle T_n,\\varphi\\rangle\\to \\varphi(0)$ et la suite $(T_n)$ converge vers $\\delta_0$.",
+    "lang": "french"
+}

@@ -1,0 +1,6 @@
+{
+    "script": "Soient $u$ et $v$ deux endomorphismes d'un $\\mathbb C$-espace vectoriel $E$ de dimension finie. On suppose que $u$ et $v$ commutent. Démontrer que $u$ et $v$ ont un vecteur propre commun.",
+    "hint": "Considérer la restriction de $v$ à un sous-espace propre de $u$.",
+    "solution": "$u$ étant un endomorphisme d'un $\\mathbb C$-espace vectoriel, il admet une valeur propre $\\lambda$. Considérons $E_\\lambda$ le sous-espace propre associé. Il est stable par $v$. Soit $w$ la restriction de $v$ à $E_\\lambda$. Alors $w$ est un endomorphisme du $\\mathbb C$-espace vectoriel de dimension finie $E_\\lambda$ et donc $w$ admet un vecteur propre $x\\in E_\\lambda$. C'est un vecteur propre de $v$ (puisque $w$ est une restriction de $v$), et c'est un vecteur propre de $u$ puisqu'il est élément de $E_\\lambda$.",
+    "lang": "french"
+}

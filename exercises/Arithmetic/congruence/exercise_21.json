@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que $13$ divise $3^{126}+5^{126}$.",
+    "hint": "Étudier les puissances de $3$ et de $5$ modulo $13$. Trouver notamment le premier $k$ tel que $3^k\\equiv 1[13]$, et raisonner modulo $k$.",
+    "solution": "On va commencer par étudier les puissances de $3$ modulo $13$. On commence par remarquer que \r\n$$3^1\\equiv 3\\ [13],\\quad 3^2\\equiv 9\\ [13],\\ 3^3\\equiv 1\\ [13].$$\r\nOn sait donc que, puisque $126=3*42$, $3^{126}\\equiv (3^3)^{42}\\ [13]$, et donc \r\n$3^{126}\\equiv 1\\ [13]$. De même, on a \r\n$$5^1\\equiv 5\\ [13],\\quad 5^2\\equiv 12\\ [13],\\quad 5^3\\equiv 8\\ [13],\\quad 5^4\\equiv 1[13].$$\r\nPar un raisonnement similaire, et utilisant que $126=31*4+2$, on trouve \r\n$$5^{126}\\equiv 5^2\\ [13]\\textrm{ soit }5^{126}\\equiv 12\\ [13].$$\r\nOn en déduit que \r\n$$3^{126}+5^{126}\\equiv 0\\ [13],$$\r\nce qui signifie bien que $13$ divise $3^{126}+5^{126}$.",
+    "lang": "french"
+}

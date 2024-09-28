@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E=\\mathbb R_n[X]$ et soit $\\phi$ l'endomorphisme de $E$ défini par $\\phi( P)= P-(X+1)P'$.\r\nJustifier que $\\phi$ est diagonalisable et donner les valeurs propres de $\\phi$.",
+    "hint": "Calculer le polynôme caractéristique de $\\phi$ en écrivant sa matrice dans la base canonique de $E$.",
+    "solution": "On va écrire la matrice de $\\phi$ dans la base canonique de $E$. Remarquons que pour tout $k=0,\\dots,n$, on a \r\n$$\\phi( X^k)=(-k+1)X^k-kX^{k-1}.$$\r\nAinsi, la matrice de $\\phi$ dans la base $(1,X,\\dots,X^n)$ est triangulaire supérieure, et ses coefficients diagonaux sont $1,0,\\dots,-n+1$. Les valeurs propres d'une matrice triangulaire supérieure étant exactement les valeurs situées sur la diagonale, on en déduit que $\\phi$ est diagonalisable, ses valeurs propres étant les $(n+1)=\\dim(E)$ réels distincts $1,0,-1,\\dots,-n+1$.",
+    "lang": "french"
+}

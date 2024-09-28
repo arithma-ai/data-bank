@@ -1,0 +1,6 @@
+{
+    "script": "Trouver deux polynômes $U$ et $V$ de $\\mathbb R[X]$ tels que $AU+BV=1$, où $A(X)=X^7-X-1$ et \r\n$B(X)=X^5-1$.",
+    "hint": "Utiliser l'algorithme d'Euclide.",
+    "solution": "On utilise l'algorithme d'Euclide. On a\r\n\\begin{eqnarray*}\r\nX^7-X-1&=&(X^5-1)X^2+X^2-X-1\\\\\r\nX^5-1&=&(X^2-X-1)(X^3+X^2+2X+3)+5X+2\\\\\r\nX^2-X-1&=&(5X+2)(X/5-7/25)-11/25.\r\n\\end{eqnarray*}\r\nOn remonte ensuite les calculs. On va partir plutôt de \r\n$$11=-25(X^2-X-1)+(5X-7)(5X+2)$$\r\npour éviter de trainer des fractions. On trouve alors successivement :\r\n\\begin{eqnarray*}\r\n11&=&-25(X^2-X-1)+(5X-7)\\big((X^5-1)-(X^2-X-1)(X^3+X^2+2X+3)\\big)\\\\\r\n&=&(-5X^4+2X^3-3X^2-X-4)(X^2-X-1)+(5X-7)(X^5-1)\\\\\r\n&=&(-5X^4+2X^3-3X^2-X-4)(X^7-X-1)+(5X^6-2X^5+3X^4+X^3+4X^2+5X-7)(X^5-1).\r\n\\end{eqnarray*}\r\nIl suffit de diviser par 11 pour obtenir les polynômes $U$ et $V$.",
+    "lang": "french"
+}

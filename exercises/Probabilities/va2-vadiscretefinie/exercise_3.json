@@ -1,0 +1,6 @@
+{
+    "script": "On lance deux dés parfaitement équilibrés. On note $X$ le plus grand des numéros obtenus. Déterminer la loi de la variable aléatoire $X$.",
+    "hint": "Définir un univers adapté à l'expérience aléatoire, et écrire les événements $X=k$ en fonction des événements élémentaires.",
+    "solution": "On choisit pour univers $\\Omega=\\{1,\\dots,6\\}^2$ que l'on munit de la probabilité uniforme puisque les deux dés sont équilibrés. Remarquons que le cardinal de $\\Omega$ vaut $36$. $X$ prend ses valeurs dans $\\{1,\\dots,6\\}$. L'événement $X=1$ est égal à $\\{(1,1)\\}$ et donc \r\n$$P(X=1)=\\frac{1}{36}.$$\r\nDe même, on a\r\n\\begin{eqnarray*}\r\nP(X=2)&=&P\\big(\\{(1,2);(2,1);(2,2)\\}\\big)=\\frac 1{12}\\\\\r\nP(X=3)&=&P\\big(\\{(1,3);(2,3);(3,3);(3,1);(3,2)\\}\\big)=\\frac 5{36}\\\\\r\nP(X=4)&=&P\\big(\\{(1,4);(2,4);(3,4);(4,4);(4,3);(4,2);(4,1)\\}\\big)=\\frac7{36}\\\\\r\nP(X=5)&=&P\\big(\\{(1,5);(2,5);(3,5);(4,5);(5,5);(5,4);(5,3);(5,2);(5,1)\\}\\big)=\\frac 14\\\\\r\nP(X=6)&=&P\\big(\\{(1,6);(2,6);(3,6);(4,6);(5,6);(6,6);(6,5);(6,4);(6,3);(6,2);(6,1)\\}\\big)=\\frac{11}{36}.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

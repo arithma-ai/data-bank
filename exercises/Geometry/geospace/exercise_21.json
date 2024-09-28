@@ -1,0 +1,6 @@
+{
+    "script": "On considère un tétraèdre $ABCD$ et les points $S,T,U$ et $V$ définis par\r\n$$\\begin{array}{lll}\r\n\\overrightarrow{AS}=\\frac 12\\overrightarrow{AB}&\\quad&\\overrightarrow{DT}=\\frac 12\\overrightarrow{DC}\\\\\r\n\\overrightarrow{AU}=\\frac 13\\overrightarrow{AD}&\\quad&\\overrightarrow{BV}=\\frac 13\\overrightarrow{BC}\r\n\\end{array}$$\r\nDémontrer que les points $S,T,U$ et $V$ sont coplanaires.",
+    "hint": "Travailler dans le repère $(A,\\overrightarrow{AB},\\overrightarrow{AC},\\overrightarrow{AD})$.",
+    "solution": "Une méthode est de travailler dans le repère $(A,\\overrightarrow{AB},\\overrightarrow{AC},\\overrightarrow{AD})$. \r\nDans ce repère, les coordonnées respectives de $S,T,U$ et $V$ sont $(1/2,0,0)$, $(0,1/2,1/2)$, $(0,0,1/3)$ et $(2/3,1/3,0)$. On peut alors chercher une équation du plan $STU$ :  on trouve $2x-y+3z-1=0$. On vérifie alors facilement que $V$ est élément de ce plan, et donc que les 4 points sont coplanaires.",
+    "lang": "french"
+}

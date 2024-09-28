@@ -1,0 +1,6 @@
+{
+    "script": "On considère la matrice $M=\\frac{1}9\\begin{pmatrix}1&8&-4\\\\8&1&4\\\\-4&4&7\\end{pmatrix}$. Vérifier que $M$ est une matrice orthogonale et symétrique. Sans calculer son polynôme caractéristique, justifier que $M$ est diagonalisable, déterminer ses valeurs propres avec multiplicité, et calculer son polynôme minimal.",
+    "hint": "Quelles peuvent être les valeurs propres d'une matrice orthogonale et symétrique?",
+    "solution": "La matrice $M$ est clairement symétrique, et on vérifie qu'elle est orthogonale en vérifiant que les vecteurs colonnes sont de norme 1 et orthogonaux deux à deux. Puisque $M$ est symétrique réelle, elle est diagonalisable dans $\\mathbb R$, notons $\\lambda_1,\\lambda_2$ et $\\lambda_3$ ses valeurs propres. Puisque $M$ est une matrice orthogonale, c'est une isométrie et donc $\\lambda_i\\in\\{-1,1\\}$. De plus, on sait que $M$ est semblable à la matrice diagonale avec $\\lambda_1,\\lambda_2$ et $\\lambda_3$ sur la diagonale. Comme la trace est un invariant de similitude, on doit avoir $\\lambda_1+\\lambda_2+\\lambda_3=1$. La seule possibilité est que $1$ est valeur propre double, et $-1$ est valeur propre simple. De plus, puisque $M$ est diagonalisable, son polynôme minimal est scindé à racines simples et vaut donc $(X-1)(X+1)$.",
+    "lang": "french"
+}

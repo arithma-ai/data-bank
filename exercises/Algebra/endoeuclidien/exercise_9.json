@@ -1,0 +1,6 @@
+{
+    "script": "Soit $u$ un endomorphisme symétrique d'un espace euclidien $E$ vérifiant, pour tout $x\\in E$, $\\langle u(x),x\\rangle=0$. Que dire de $u$?",
+    "hint": "Quelles sont les valeurs propres possibles de $u$?",
+    "solution": "Soit $\\lambda$ une valeur propre de $u$, et $x$ un vecteur propre associé. Alors on a d'une part\r\n$$\\langle u(x),x\\rangle=\\langle \\lambda x,x\\rangle=\\lambda \\|x\\|^2$$\r\net d'autre part, par hypothèse,\r\n$$\\langle u(x),x\\rangle=0.$$\r\nToutes les valeurs propres de $u$ sont donc nulles. Comme $u$ est diagonalisable, on en déduit que $u=0$.",
+    "lang": "french"
+}

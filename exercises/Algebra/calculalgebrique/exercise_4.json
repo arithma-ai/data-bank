@@ -1,0 +1,6 @@
+{
+    "script": "Pour $n\\geq 1$, on pose $u_n=\\sum_{k=n}^{2n}\\frac 1k$. Simplifier $u_{n+1}-u_n$ puis étudier la monotonie de $(u_n)$.",
+    "hint": "Il reste uniquement trois termes.",
+    "solution": "Lorsqu'on calcule $u_{n+1}-u_n$, \r\n$$u_{n+1}-u_n=\\sum_{k=n+1}^{2n+2}\\frac 1k-\\sum_{k=n}^{2n}\\frac 1k,$$\r\non s'aperçoit que tous les termes se simplifient, hormis les deux derniers de la première somme, et le premier de la deuxième somme. On trouve donc\r\n$$u_{n+1}-u_n=\\frac{1}{2n+1}+\\frac{1}{2n+2}-\\frac{1}n.$$\r\nOn peut ensuite mettre tout au même dénominateur pour étudier la monotonie de la suite $(u_n)$ : \r\n\\begin{align*}\r\nu_{n+1}-u_n&=\\frac{n(2n+2)+n(2n+1)-(2n+1)(2n+2)}{n(2n+1)(2n+2)}\\\\\r\n&=\\frac{2n^2+2n+2n^2+n-4n^2-6n-2}{n(2n+1)(2n+2)}\\\\\r\n&=\\frac{-3n-2}{n(2n+1)(2n+2)}\\\\\r\n&\\leq 0.\r\n\\end{align*}\r\nLa suite $(u_n)$ est décroissante.",
+    "lang": "french"
+}

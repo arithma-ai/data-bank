@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer par récurrence que, pour tout $n\\in\\mathbb N^*$, $6$ divise $7^n-1.$",
+    "hint": "Pour l'hérédité, écrire $7^{n+1}-1=7\\times 7^n-1.$",
+    "solution": "Pour $n\\geq 1$, on note $\\mathcal P(n)$ la propriété : \"$6$ divise $7^n-1$\". On démontre par récurrence sur $n$ que $\\mathcal P(n)$ est vraie pour tout $n\\geq 1$.Initialisation : $7^1-1=6=6\\times 1$, donc $\\mathcal P(1)$ est vraie.Hérédité : Soit $n\\geq 1$ tel que $\\mathcal P(n)$ est vraie, et prouvons que $\\mathcal P(n+1)$ est vraie. On écrit \r\n$$7^{n+1}-1=7\\times 7^n -1.$$\r\nPuisque $\\mathcal P(n)$ est vraie, il existe $k\\in\\mathbb N$ tel que $7^n-1=6k$, soit $7^n=6k+1$. On remplace alors $7^n$ par ceci dans l'expression précédente : \r\n\\begin{align*}\r\n7^{n+1}-1&=7\\times (6k+1)-1\\\\\r\n&=42k+6\\\\\r\n&=6(7k+1)\r\n\\end{align*}\r\navec $7k+1\\in\\mathbb N$. Ainsi, $\\mathcal P(n+1)$ est vraie.Conclusion : Par le principe de récurrence, $\\mathcal P(n)$ est vraie pour tout $n\\geq 1.$",
+    "lang": "french"
+}

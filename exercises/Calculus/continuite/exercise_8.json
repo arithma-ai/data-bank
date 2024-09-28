@@ -1,0 +1,6 @@
+{
+    "script": "Les fonctions suivantes sont-elles prolongeables par continuité à $\\mathbb R$ tout entier?$f(x)=\\exp(-1/x^2)$ si $x\\neq 0$;$g(x)=\\exp(-1/x)$ si $x\\neq 0$;$h(x)=\\sin(x+1)\\ln|1+x|$ si $x\\neq -1$.",
+    "hint": "",
+    "solution": "Si $x\\to 0$, alors $-1/x^2\\to -\\infty$. Puisque $\\lim_{X\\to -\\infty}\\exp(X)=0$, on en déduit par le théorème de composition des limites que $\\lim_{x\\to 0}f(x)=0.$ Ainsi, on peut prolonger $f$ par continuité en $0$ en posant $f(0)=0$.Si $x\\to 0^+$, le même raisonnement s'appliquer et $\\lim_{x\\to 0^+}g(x)=0$. Mais si $x\\to 0^-,$ alors $-1/x\\to+\\infty.$ Puisque $\\lim_{X\\to+\\infty}\\exp(X)=+\\infty$, on en déduit que $\\lim_{x\\to 0^-}g(x)=+\\infty.$\r\nAinsi, on ne peut pas prolonger $g$ par continuité en $0$.Par les théorèmes généraux, $h$ est continue sur $\\mathbb R\\backslash\\{-1\\}$. Par ailleurs, \r\nposant $u=x+1$, on a \r\n$$\\lim_{x\\to -1}h(x)=\\lim_{u\\to 0}\\sin(u)\\ln|u|=\\lim_{u\\to 0}\\frac{\\sin u}{u}\\times u\\ln|u|=1\\times 0=0.$$\r\nAinsi, on peut prolonger par continuité $h$ en $-1$ en posant $h(-1)=0$.",
+    "lang": "french"
+}

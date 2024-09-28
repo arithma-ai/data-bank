@@ -1,0 +1,6 @@
+{
+    "script": "On pose $p=0,9$, et on admet que la fonction $x\\mapsto p^x-\\frac{1}x$ est croissante sur $[1,a]$ et décroissante sur $[a,+\\infty[$, où $a>1$. Écrire un algorithme permettant de déterminer \r\npour quelle valeur de l'entier $r$ le nombre $p^r-\\frac 1r$ est maximal.",
+    "hint": "",
+    "solution": "On parcourt les termes consécutifs de la suite jusqu'à observer une décroissance. Il faut faire bien attention à l'initialisation (pour entrer dans la boucle) et à la sortie (afficher le rang précédent le dernier que l'on a calculé).VARIABLES :p entierr entieru,v réelTraitementp=0,9r=1u=p^r-1/rv=uTant que (u<=v) faireu=vr=r+1v=p^r-1/rFin Tant Que.Afficher r-1",
+    "lang": "french"
+}

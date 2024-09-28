@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f(z)=z^5+5z^3+z-2$. Montrer que $f$ a trois de ses zéros dans le disque \r\n$D(0,1)$, et tous ses zéros dans le disque $D(0,3)$.",
+    "hint": "Appliquer le théorème de Rouché avec successivement $g(z)=5z^3$ et\r\n$g(z)=z^5$.",
+    "solution": "On applique le théorème de Rouché avec la fonction $f$, la fonction $g(z)=5z^3$ et\r\nle disque fermé de centre 0 et de rayon 1. Si $|z|=1$, alors\r\n$$|f(z)-g(z)|=|z^5+z-2|\\leq 4<5=|g(z)|.$$\r\nPar le théorème de Rouché, $f$ a le même nombre de zéros (comptés avec leur multiplicité)\r\ndans $D(0,1)$ que $g$, c'est-à-dire 3. De même, on applique le théorème de Rouché\r\navec la fonction $f$, la fonction $h(z)=z^5$ et le disque fermé de centre 0 et de rayon 3.\r\nSi $|z|=3$, alors on a\r\n$$|f(z)-h(z)|=|5z^3+z-2|\\leq 5.27+3+2=140<3^5=|h(z)|.$$\r\nAinsi, $f$ a le même nombre de zéros que $h$ dans $D(0,3)$. Autrement dit, $f$ a tous ses zéros\r\n(ils sont cinq) dans $D(0,3)$.",
+    "lang": "french"
+}

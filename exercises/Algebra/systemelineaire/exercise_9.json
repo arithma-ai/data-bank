@@ -1,0 +1,6 @@
+{
+    "script": "Discuter suivant la valeur du paramètre $a\\in\\mathbb R$ le système \r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nax+(1-a)y+(1-a)z&=&a^2\\\\\r\nax+(1+a)y+(1+a)z&=&a-a^2\\\\\r\nx+y+z&=&1-a\r\n\\end{array}\\right.$$",
+    "hint": "",
+    "solution": "Notons $(S)$ ce système, et appliquons la méthode du pivot de Gauss en choisissant la troisième ligne comme pivot :\r\n\\begin{eqnarray*}\r\n(S)&\\iff&\\left\\{\r\n\\begin{array}{rcll}\r\nx+y+z&=&1-a&\\quad\\quad L_3\\\\\r\ny+z&=&0&\\quad\\quad L_2-aL_3\\\\\r\n(1-2a)y+(1-2a)z&=&2a^2-a&\\quad\\quad L_1-aL_3\r\n\\end{array}\\right.\\\\\r\n&\\iff&\\left\\{\r\n\\begin{array}{rcl}\r\nx+y+z&=&1-a\\\\\r\ny+z&=&0\\\\\r\na(2a-1)&=&0\r\n\\end{array}\\right.\r\n\\end{eqnarray*}\r\nOn distingue alors plusieurs cas. Si $a\\notin\\{0,1/2\\}$, le système n'est pas compatible\r\net n'admet donc pas de solutions. Si $a=0$, le système est équivalent à\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx+y+z&=&1\\\\\r\ny+z&=&0\r\n\\end{array}\\right.$$\r\net donc l'ensemble des solutions est $\\{(1,y,-y);\\ y\\in\\mathbb R\\}$. Si $a=1/2$, le système devient\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\nx+y+z&=&1/2\\\\\r\ny+z&=&0\r\n\\end{array}\\right.$$\r\net donc l'ensemble des solutions est $\\{(1/2,y,-y);\\ y\\in\\mathbb R\\}$.",
+    "lang": "french"
+}

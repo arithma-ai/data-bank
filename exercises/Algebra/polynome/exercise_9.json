@@ -1,0 +1,6 @@
+{
+    "script": "Soit $P\\in\\mathbb R[X]$, $a,b\\in\\mathbb R$, $a\\neq b$. Sachant que le reste de la division euclidienne de $P$ par $(X-a)$ vaut 1 et que le reste de la division euclidienne de $P$ par $X-b$ vaut $-1$, que vaut le reste de la division euclidienne de $P$ par $(X-a)(X-b)$?",
+    "hint": "Que vaut $P(a)$? $P(b)$? Comment en déduire le reste?",
+    "solution": "On sait que $P(X)=(X-a)Q_1(x)+1$, et donc $P(a)=1$. De même, on a $P(b)=-1$. La division euclidienne de $P$ par $(X-a)(X-b)$ s'écrit \r\n$$P(X)=(X-a)(X-b)Q(X)+\\alpha X+\\beta.$$\r\nOn évalue cette relation en $a$ et en $b$, et on trouve le système\r\n$$\\left\\{\r\n\\begin{array}{rcl}\r\n\\alpha a+\\beta&=&1\\\\\r\n\\alpha b+\\beta&=&-1.\r\n\\end{array}\\right.\r\n$$\r\nLa résolution de ce système ne pose pas de difficultés et donne comme unique solution\r\n$$\\alpha=\\frac{2}{a-b}\\textrm{ et }\\beta=\\frac{-a-b}{a-b}.$$\r\nLe reste recherché est donc\r\n$$\\frac{2}{a-b}X+\\frac{-a-b}{a-b}.$$",
+    "lang": "french"
+}

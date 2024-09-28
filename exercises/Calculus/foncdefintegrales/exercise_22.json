@@ -1,0 +1,6 @@
+{
+    "script": "Soient $I$ un intervalle, $f:I\\times\\mathbb R\\to\\mathbb R$ continue et $u,v:I\\to\\mathbb R$ continues.\r\nDémontrer que $F : x\\mapsto \\int_{u(x)}^{v(x)}f(x,t)dt$ est continue sur $I$.",
+    "hint": "Trouver un changement de variables pour se ramener à une intégrale sur un segment.",
+    "solution": "L'idée est de se ramener à une intégrale sur un segment par un changement de variables.\r\nPour cela, on pose, à $x$ fixé,\r\n$$t=u(x)+\\theta\\big(v(x)-u(x)\\big).$$\r\nOn en déduit que, pour tout $x\\in I$,\r\n$$F(x)=\\big(v(x)-u(x)\\big)\\int_0^1 f\\big(x,u(x)+\\theta\\big(v(x)-u(x)\\big)\\big)d\\theta.$$\r\nOn conclut par continuité de $(x,\\theta)\\mapsto  f\\big(x,u(x)+\\theta\\big(v(x)-u(x)\\big)\\big)$\r\nsur $I\\times[0,1]$ et par application du théorème de continuité d'une intégrale à paramètres. Remarquons qu'il est plus facile d'appliquer ce théorème ici car on intègre une fonction continue sur le segment $[0,1]$.",
+    "lang": "french"
+}

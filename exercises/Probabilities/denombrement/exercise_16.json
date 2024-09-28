@@ -1,0 +1,6 @@
+{
+    "script": "Un tournoi de tennis comporte $2n$ joueurs. De combien de façons peut-on organiser le premier tour dans le cas où :on s’intéresse à la fois aux joueurs qui sont opposés et à l’ordre des matches ;on ne s’intéresse qu’à la connaissance des joueurs opposés.",
+    "hint": "Choisir les deux premiers joueurs, puis les deux suivants, etc...",
+    "solution": "On choisit d'abord $2$ joueurs parmi les $2n$ joueurs pour le match 1, puis $2$ joueurs parmi les $2n-2$ joueurs restants pour le match 2, et ainsi de suite. Le nombre de façons d'organiser le premier tour, en tenant compte de l'ordre des matchs, est donc \r\n$$\\binom{2n}2\\times\\binom{2n-2}2\\times\\cdots\\times\\binom{2}2=\\frac{(2n)!}{2^n}.$$Si l'ordre des matchs n'est plus pris en compte, alors il faut diviser en plus par le nombre de permutations possibles des matchs, c'est-à-dire $n!$. Le nombre de façons d'organiser le premier tour, sans tenir compte de l'ordre des matchs, est donc $\\frac{(2n)!}{2^n\\cdot n!}.$",
+    "lang": "french"
+}

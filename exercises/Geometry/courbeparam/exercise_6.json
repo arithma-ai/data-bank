@@ -1,0 +1,6 @@
+{
+    "script": "Soit $\\overrightarrow{OM(t)}=f(t)$ une courbe paramétrée de classe $C^1$, où $t$ parcourt l'intervalle ouvert $I$, dont tous les points sont réguliers, et ne passant pas par l'origine.\r\nSoit $t_0\\in I$ tel que la longueur $OM(t_0)$ soit minimale. Prouver que $\\overrightarrow{OM(t_0)}$ est orthogonal à la tangente à la courbe en $M(t_0)$.",
+    "hint": "Dériver $\\|f(t)\\|^2$.",
+    "solution": "Posons $u(t)=\\|f(t)\\|^2=\\langle f(t),f(t)\\rangle$. L'énoncé nous dit que $u$ admet un minimum en $t=t_0$. De plus, $u$ est dérivable, et sa dérivée est\r\n$$u'(t)=2\\langle f(t),f'(t)\\rangle.$$\r\nEn $t_0\\in I$, point où $u$ admet son minimum, sa dérivée est nulle (car $I$ est ouvert). Ainsi, $\\overrightarrow{OM(t_0)}$ est orthogonal à $f'(t_0)$, et ce dernier\r\nvecteur dirige la tangente à la courbe paramétrée en $M(t_0)$ puisque ce point est un point régulier.",
+    "lang": "french"
+}

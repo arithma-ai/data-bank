@@ -1,0 +1,6 @@
+{
+    "script": "Prouver que toute solution de l'équation différentielle\r\n$y'+e^{x^2}y=0$\r\nadmet une limite nulle en $+\\infty$.",
+    "hint": "Écrire la forme \"théorique\" de la solution.",
+    "solution": "On sait que toute solution s'écrit sous la forme\r\n$$y(x)=ke^{A(x)}\\textrm{ avec }A(x)=-\\int_0^x e^{t^2}dt\\textrm{ et }k\\in\\mathbb R.$$\r\nOr, pour $t\\geq 0$, on a $e^{t^2}\\geq 1$ d'où l'on déduit que pour $x\\geq 0$,\r\n$$\\int_0^x e^{t^2}dt\\geq \\int_0^x 1=x.$$\r\nOn en déduit que $A(x)$ tend vers $-\\infty$ quand $x$ tend vers $+\\infty$\r\net donc par composition et produit que $y(x)$ tend vers 0 lorsque $x$ tend vers $+\\infty$.",
+    "lang": "french"
+}

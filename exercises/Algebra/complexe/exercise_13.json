@@ -1,0 +1,6 @@
+{
+    "script": "Soit $z=re^{i\\theta}$ avec $r>0$ et $\\theta\\in\\mathbb R$. Soit $n$ un entier naturel non nul. Donner le module et un argument des nombres complexes suivants :\r\n$$z^2,\\ \\overline{z},\\ \\frac 1z,\\ -z,\\ z^n.$$",
+    "hint": "On pourra utiliser que $-1=e^i\\pi$.",
+    "solution": "On a $z^2=r^2e^{2i\\theta}$. Le module de $z^2$ est $r^2$, un argument de $z^2$ est $2\\theta$.On a $\\overline z=re^{-i\\theta}$. Le module de $\\bar z$ est $r$, un argument de $\\bar z$ est $-\\theta$.On a $\\frac 1z=\\frac 1r e^{-i\\theta}$. Le module de $\\frac 1z$ est $\\frac 1r$, un argument de $\\frac 1z$ est $-\\theta$.On a $-z=e^{i\\pi}re^{i\\theta}=re^{i(\\theta+\\pi)}$. Le module de $-z$ est $r$, un argument de $-z$ est $\\theta+\\pi$.On a $z^n=r^n e^{in\\theta}$. Le module de $z^n$ est $r^n$, un argument de $z^n$ est $n\\theta$.",
+    "lang": "french"
+}

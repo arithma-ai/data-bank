@@ -1,0 +1,6 @@
+{
+    "script": "Soit $Z$ un nombre complexe. Démontrer que \r\n$$1+|Z|^2+2\\Re e(Z)\\geq 0.$$Soit $z$ et $w$ deux nombres complexes. Démontrer que l'on a \r\n$$|z-w|^2\\leq (1+|z|^2)(1+|w|^2).$$",
+    "hint": "Écrire $Z=x+iy$.Développer les modules en utilisant le conjugué. On pourra se ramener à la question précédente.",
+    "solution": "Posons $Z=x+iy$, avec $x$ et $y$ des réels. Alors\r\n\\begin{align*}\r\n1+|Z|^2+2\\Re e(Z)&=1+x^2+y^2+2x\\\\\r\n&=(1+x)^2+y^2\\geq 0.\r\n\\end{align*}Posons $A=(1+|z|^2)(1+|w|^2)-|z-w|^2$. On a \r\n\\begin{align*}\r\nA&=(1+z\\bar z)(1+w\\bar w)-(z-w)\\overline{z-w}\\\\\r\n&=1+z\\bar z+b\\bar w+zw\\overline{zw}-z\\bar z-w\\bar w+z\\bar w+\\bar z w\\\\\r\n&=1+zw\\overline{zw}+z\\bar w+\\bar z w\\\\\r\n&=1+|z\\bar w|^2+2\\Re e(z\\bar w).\r\n\\end{align*}\r\nOn conclut alors en appliquant le résultat de la question précédente à $Z=z\\bar w$.",
+    "lang": "french"
+}

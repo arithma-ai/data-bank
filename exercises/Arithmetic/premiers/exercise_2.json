@@ -1,0 +1,6 @@
+{
+    "script": "Soit $q$ un entier impair. Démontrer que, pour tout $x\\in\\mathbb R$,\r\n$$x^q+1=(x+1)(x^{q-1}-x^{q-2}+\\dots+1).$$Soit $m\\in\\mathbb N^*$ tel que $2^m+1$ soit premier. Montrer que $m=2^n$, où $n\\in\\mathbb N$.",
+    "hint": "Il suffit de développer.Par l'absurde",
+    "solution": "Il suffit de développer prudemment le membre de gauche et de constater que les termes se simplifient bien\r\ndeux par deux. Remarquer qu'il faut que $q$ soit impair pour que le signe devant le dernier $1$ soit bien \"$+$\".Soit $m\\in\\mathbb N^*$ tel que $2^m+1$ soit un nombre premier. Si $m$ n'est pas une puissance de $2,$ alors $m$ s'écrit $pq$ où $p=2^\\alpha$ est un entier (éventuellement égal à $0$),\r\net $q$ est un nombre impair strictement supérieur  à $1$ (on obtient cette écriture en regroupant les nombres premiers impairs dans l'écriture en produit de facteurs premiers de $m$). On a alors :\r\n$$2^m+1=(2^{p})^q+1=(2^p+1)(2^{p(q-1)}-2^{p(q-2)}+\\dots+1).$$\r\nPuisque $1<2^p+1<2^m+1$, on a obtenu une factorisation non triviale de $2^m+1$ qui n'est donc pas un nombre premier. C'est absurde, et donc $m$ est une puissance de $2.$",
+    "lang": "french"
+}

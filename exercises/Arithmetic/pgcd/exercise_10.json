@@ -1,0 +1,6 @@
+{
+    "script": "Soient $a,b>0$ deux entiers premiers entre eux et $x>ab$. Montrer que l'équation\r\n$au+bv=x$ admet une solution $(u,v)$ telle que $u,v\\in\\mathbb N$.",
+    "hint": "Résoudre l'équation $au+bv=x$ dans $\\mathbb Z^2$. \r\nLes solutions sont les couples $(u_k,v_k)$ de la forme $u_k=u_0+kb$, $v_k=v_0-ka$.\r\nConsidérer $k$ tel que $u_{k-1}\\leq 0<u_k$.",
+    "solution": "L'équation $au+bv=x$ a toujours une solution $(u_0,v_0)$ dans $\\mathbb Z^2$\r\nd'après le théorème de Bezout. De plus, l'ensemble des solutions est constitué par\r\nles couples $(u_k,v_k)$ avec $u_k=u_0+kb$, $v_k=v_0-ka$, $k\\in\\mathbb Z$. Puisque $(u_k)_{k\\in\\mathbb Z}$ \r\nest croissante, tend vers $-\\infty$ en $-\\infty$ et vers $+\\infty$ en $+\\infty$, il existe\r\nun entier $k$ tel que $u_{k-1}\\leq 0\\leq u_k$. Montrons que $v_k\\geq 0$. Pour cela, on écrit\r\n$$x=au_k+bv_k=a(u_{k-1}+b)+bv_k$$\r\nsoit \r\n$$bv_k=x-ab-au_{k-1}.$$\r\nPuisque $x-ab\\geq 0$ et $au_{k-1}\\leq 0$, on en déduit $bv_k\\geq 0$, ou encore $v_k\\geq 0$.",
+    "lang": "french"
+}

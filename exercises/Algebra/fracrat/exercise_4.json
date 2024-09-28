@@ -1,0 +1,6 @@
+{
+    "script": "Soit $F=P/Q\\in\\mathbb C(X)$ une fraction rationnelle, avec $P\\wedge Q=1$, telle que $F'=1/X$.Démontrer que $X|Q$.Soit $n\\geq 1$ tel que $X^n|Q$. Démontrer que $X^{n}|Q'$.Conclure.",
+    "hint": "Utiliser que $X(P'Q-PQ')X=Q^2$, puis les propriétés arithmétiques des polynômes.",
+    "solution": "On a $F'=(P'Q-PQ')/Q^2$, et donc $F'=1/X$ s'écrit $(P'Q-PQ')X=Q^2$. On en déduit que $X|Q^2$,\r\npuis, puisque $X$ est un irréductible de $\\mathbb C[X]$, que $X|Q$.Si $X^n|Q$, alors on peut écrire $Q^2=X^{2n}R$. L'égalité $(P'Q-PQ')X=Q^2$ devient\r\n$(P'Q-PQ')=X^{2n-1}R$. On en déduit que $X^n|P'Q-PQ'$. Or, $X^n|P'Q$ et donc $X^n|Q'P$.\r\nOr, $P\\wedge Q=1$ et $X^n|Q$, donc $X^n\\wedge P=1$ et donc $X^n|Q'$.Soit $n$ l'ordre de 0 comme racine de $Q$. La première question nous dit que $n\\geq 1$.\r\nLa deuxième question nous dit que $0$ est aussi racine de $Q'$ de multiplicité $n$. Ainsi,\r\n$0$ doit être racine de $Q$ de multiplicité $n+1$, ce qui est absurde. Il n'existe donc pas\r\nde fraction rationnelle $F$ telle que $F'=1/X$.",
+    "lang": "french"
+}

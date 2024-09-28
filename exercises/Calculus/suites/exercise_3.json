@@ -1,0 +1,6 @@
+{
+    "script": "Démontrer que la formule $f(z)=\\sum_{n\\geq 0}\\frac{1}{z^2-n^2}$ définit une fonction méromorphe sur $\\mathbb C$. On précisera les pôles de $f$ ainsi que leur multiplicité.",
+    "hint": "",
+    "solution": "Posons $u_n(z)=\\frac{1}{z^2-n^2}.$ Alors $u_n$ a un pôle en $n$ et en $-n$, de multiplicité $1$ si $n\\geq 1,$ de multiplicité $0$ si $n=0$. Soit $K$ un compact de $\\mathbb C.$ Soit $M$ tel que $|z|\\leq M$ pour tout $z\\in K$. Si $n>M,$ alors $u_n$ n'a pas de singularité dans $K.$\r\nDe plus, pour tout $z\\in K,$\r\n$$|z^2-n^2|\\geq n^2-M^2>0$$\r\net donc \r\n$$|u_n(z)|\\leq \\frac{1}{n^2-M^2}.$$\r\nLe membre de droite est le terme général d'une série convergente. Ainsi, $\\sum_{n>M} u_n$ converge uniformément sur $K$. Ceci prouve que $f$ est méromorphe sur $\\mathbb C$. Ses pôles sont la réunion des pôles des $u_n,$ à savoir $\\mathbb Z$. Ils sont tous de multiplicité $1$, sauf $0$ qui est de multiplicité $2$. Remarquons que comme les $u_n$ ont des singularités deux à deux distinctes, il n'y a pas de compensation ce qui garantit que les pôles de $f$ sont bien exactement la réunion des pôles des $u_n$ (et non simplement contenus dans la réunion des pôles des $u_n$).",
+    "lang": "french"
+}

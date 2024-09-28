@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A(-1,1)$, $B(3,-1)$ et $C(1,4)$. Déterminer une équation cartésienne de chacune des hauteurs\r\ndu triangle. Vérifier qu'elles sont concourantes et déterminer l'orthocentre du triangle.",
+    "hint": "Un point $M(x,y)$ est sur la hauteur issue de $A$ si et seulement si $\\overrightarrow{AM}.\\overrightarrow{BC}=0$.",
+    "solution": "Un point $M(x,y)$ est sur la hauteur issue de $A$ si et seulement si $\\overrightarrow{AM}.\\overrightarrow{BC}=0$.\r\nCeci s'écrit analytiquement ;\r\n$$\\overrightarrow{AM}.\\overrightarrow{BC}=0\\iff -2(x+1)+5(y-1)=0\\iff -2x+5y-7=0.$$\r\nDe même, la hauteur issue de $B$ a pour équation\r\n$$\\overrightarrow{BM}.\\overrightarrow{AC}=0\\iff 2(x-3)+3(y+1)=0\\iff 2x+3y-3=0.$$\r\nDe même, la hauteur issue de $C$ a pour équation\r\n$$\\overrightarrow{CM}.\\overrightarrow{AB}=0\\iff 4(x-1)-2(y-4)=0\\iff 2x-y+2=0.$$\r\nOn cherche le point d'intersection des deux premières hauteurs en écrivant le système des deux équations.\r\nOn trouve $H(-3/8,5/4)$. Comme $H$ vérifie aussi l'équation de la troisième hauteur, on vérifie bien\r\nqu'elles sont concourantes.",
+    "lang": "french"
+}

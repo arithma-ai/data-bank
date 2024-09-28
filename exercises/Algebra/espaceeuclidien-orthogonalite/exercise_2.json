@@ -1,0 +1,6 @@
+{
+    "script": "$\\mathbb R^4$ est muni de sa structure euclidienne canonique.\r\nOn considère le sous-espace $G$ de $\\mathbb R^4$ défini par :\r\n$$G=\\{(x,y,z,t)\\in\\mathbb R^4:\\ x+y-z+t=0\\textrm{ et }x+2y+3z+t=0\\}.$$\r\nDéterminer un système d'équations de $G^\\perp.$",
+    "hint": "Commencer par chercher une base de $G$.",
+    "solution": "On commence par chercher une base de $G$.\r\nOn remarque que \r\n\\begin{eqnarray*}\r\n(x,y,z,t)\\in G&\\iff& \\left\\{\\begin{array}{rcl}\r\nx+y-z+t&=&0\\\\\r\nx+2y+3z+t&=&0\r\n\\end{array}\\right.\\\\\r\n&\\iff& \\left\\{\\begin{array}{rcl}\r\nx+y-z+t&=&0\\\\\r\ny+4z&=&0\r\n\\end{array}\\right.\\\\\r\n&\\iff&\\left\\{\\begin{array}{rcl}\r\nx+y-z+t&=&-y+z-t=5z-t\\\\\r\ny&=&-4z\\\\\r\nz&=&z\\\\\r\nt&=&t\r\n\\end{array}\\right.\\\\\r\n\\end{eqnarray*}\r\nAinsi, si on pose $u_1=(5,-4,1,0)$ et $u_2=(-1,0,0,1)$, on sait que $(u_1,u_2)$ est une base de $G$. On détermine alors facilement un système d'équations pour $G^\\perp$ :\r\n\\begin{eqnarray*}\r\n(x,y,z,t)\\in G^\\perp&\\iff& (x,y,z,t)\\perp u_1\\textrm{ et }(x,y,z,t)\\perp u_2\\\\\r\n&\\iff&\\left\\{\r\n\\begin{array}{rcl}\r\n5x-4y+z&=&0\\\\\r\n-x+t&=&0\r\n\\end{array}\r\n\\right.\r\n\\end{eqnarray*}",
+    "lang": "french"
+}

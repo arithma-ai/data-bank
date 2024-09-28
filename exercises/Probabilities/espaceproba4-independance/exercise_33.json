@@ -1,0 +1,6 @@
+{
+    "script": "Une forêt se compose de trois types d'arbres : 30% sont des chênes, 50% des peupliers, et 20% des hêtres. Suite à une tempête, une maladie se déclare et touche 10% des chênes, 4% des peupliers, et 25% des hêtres. Sachant qu'un arbre est malade, quelle est la probabilité que ce soit un chêne? un peuplier? un hêtre?",
+    "hint": "Utiliser la formule de Bayes.",
+    "solution": "Notons $M$ l'événement \"l'arbre étudié est malade\", et respectivement $C,H,Q$ l'événement \"l'arbre étudié est un chêne (resp. un hêtre, un peuplier)\". On cherche à connaitre $P_M(C)$. Par la formule de Bayes,\r\n\\begin{eqnarray*}\r\nP_M(C)&=&\\frac{P_C(M)P(C)}{P_C(M)P(C)+P_H(M)P(H)+P_Q(M)P(Q)}\\\\\r\n&=&\\frac{0,1\\times 0,3}{0,1\\times 0,3+0,04\\times 0,5+0,25\\times 0,2}\\\\\r\n&=&\\frac{3}{10}.\r\n\\end{eqnarray*}\r\nDe la même façon, on trouve que\r\n$$P_M(H)=\\frac{5}{10},\\ P_M(Q)=\\frac2{10}.$$\r\nOn vérifie bien que la somme des probabilités vaut 1.",
+    "lang": "french"
+}

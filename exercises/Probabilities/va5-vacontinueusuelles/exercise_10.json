@@ -1,0 +1,6 @@
+{
+    "script": "Soit $U$ une variable aléatoire de loi uniforme sur $[0,1]$.\r\nDémontrer que la variable aléatoire $X=-\\ln U$ suit une loi exponentielle dont on précisera le paramètre.",
+    "hint": "Calculer la fonction de répartition de $X$.",
+    "solution": "On va calculer la fonction de répartition de $X$. \r\nOn remarque que $X\\leq x$ si et seulement si $U\\geq \\exp(-x)$, puisque la fonction \r\n$x\\mapsto \\exp(-x)$ est décroissante. On a donc\r\n$$F_X(x)=P(X\\leq x)=P(U\\geq \\exp(-x)).$$\r\nSi $x<0$, alors $\\exp(-x)>1$ et donc $F_X(x)=0$. Si $x\\geq 0$, alors\r\n$\\exp(-x)\\in[0,1]$ et donc, puis $U$ suit une loi uniforme à valeurs dans $[0,1]$,\r\n$$F_X(x)=1-\\exp(-x).$$\r\nOn reconnait bien la fonction de répartition d'une loi exponentielle de paramètre 1\r\n(on peut encore dériver la fonction de répartition pour retomber sur la densité).",
+    "lang": "french"
+}

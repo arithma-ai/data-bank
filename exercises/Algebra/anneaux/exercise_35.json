@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in\\mathcal M_n(\\mathbb R)$. On note $C=\\{M\\in\\mathcal M_n(\\mathbb R);\\ AM=MA\\}$. Montrer que $C$ est une algèbre.",
+    "hint": "Démontrer que c'est une sous-algèbre de $\\mathcal M_n(\\mathbb R)$.",
+    "solution": "Il suffit de démontrer que $C$ est une sous-algèbre de $\\mathcal M_n(\\mathbb R)$, c'est-à-dire à la fois un sous-anneau et un sous-espace vectoriel de $\\mathcal M_n(\\mathbb R)$. Remarquons que la matrice nulle $0$ et $I_n$ sont membres de $C$. De plus, pour tous $M,N\\in C$ et tout $\\lambda\\in\\mathbb R$, alors on vérifie facilement que$MN\\in C$;$\\lambda M\\in C$;$M-N\\in C$.C'est bien que $C$ est une algèbre.",
+    "lang": "french"
+}

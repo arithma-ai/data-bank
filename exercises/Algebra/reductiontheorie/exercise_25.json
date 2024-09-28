@@ -1,0 +1,6 @@
+{
+    "script": "Soit $A\\in GL_n(\\mathbb C)$ et $N\\in\\mathcal M_n(\\mathbb C)$ nilpotente. On suppose que $AN=NA$. Démontrer que $\\det(A+N)=\\det(A)$.",
+    "hint": "Démontrer que $I_n+A^{-1}N$ est semblable à une matrice triangulaire supérieure avec des 1 sur la diagonale.",
+    "solution": "On commence par écrire que $A+N=A(I_n+A^{-1}N)$ et donc il suffit de prouver que\r\n$\\det(I_n+A^{-1}N)=1$. Pour cela, nous allons prouver que la matrice $A^{-1}N$ est nilpotente. En effet, puisque $A$ et $N$ commutent, donc que $A^{-1}$ et $N$ commutent, on a \r\n$$(A^{-1}N)^p =A^{-p}N^p=0$$\r\ndès que $N^p=0$. Ainsi, $A^{-1}N$ est semblable à une matrice triangulaire supérieure stricte (que des zéros sur la diagonale). On en déduit que $I_n+A^{-1}N$ est semblable à une matrice triangulaire supérieure avec des 1 sur la diagonale. On en déduit que\r\n$$\\det(I_n+A^{-1}N)=1$$\r\nce qui implique le résultat voulu.",
+    "lang": "french"
+}

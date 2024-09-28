@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un ensemble. On définit sur $\\mathcal P(E)$, l'ensemble des parties de $E$, la relation suivante :\r\n$$A\\mathcal R B\\textrm{ si }A=B\\textrm{ ou }A=\\bar B,$$\r\noù $\\bar B$ est le complémentaire de $B$ (dans $E$).\r\nDémontrer que $\\mathcal R$ est une relation d'équivalence.",
+    "hint": "Il suffit d'appliquer la définition. Pour la transitivité, on pourra distinguer plusieurs cas.",
+    "solution": "Il suffit de vérifier que la définition d'une relation d'équivalence est satisfaite. Considérons\r\ntrois parties $A$, $B$ et $C$ de $E$. Tout d'abord, \r\non a bien $A\\mathcal R A$ : en effet, on a $A=A$. D'autre part, si $A\\mathcal R B$, alors on distingue deux cas.\r\nOu bien $A=B$, et dans ce cas $B=A$ et $B\\mathcal R A$. Ou bien $A=\\bar B$, mais dans ce cas, \r\n$B=\\bar A$, et on a encore $B\\mathcal R A$. Enfin, si $A\\mathcal R B$ et $B\\mathcal R C$, on peut distinguer quatre cas :Si $A=B$ et $B=C$, alors $A=C$.Si $A=B$ et $B=\\bar C$, alors $A=\\bar C$.Si $A=\\bar B$ et $B=C$, alors $A=\\bar C$.Si $A=\\bar B$ et $B=\\bar C$, alors $A=C$.Dans tous les cas, on a bien $A\\mathcal R C$. La relation $\\mathcal R$ est symétrique, réflexive et transitive.\r\nIl s'agit bien d'une relation d'équivalence.",
+    "lang": "french"
+}

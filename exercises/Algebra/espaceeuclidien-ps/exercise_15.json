@@ -1,0 +1,6 @@
+{
+    "script": "Soit $E$ un espace préhilbertien et soit $B=\\{x\\in E;\\ \\|x\\|\\leq 1\\}$. Démontrer que $B$ est strictement convexe, c'est-à-dire que, pour tous $x,y\\in B$, $x\\neq y$ et tout $t\\in ]0,1[$, $\\|tx+(1-t)y\\|<1$.",
+    "hint": "Montrer d'abord l'inégalité au sens large. Utiliser les cas d'égalité .",
+    "solution": "Soient $x\\neq y$ dans $B$, et $0<t<1$. Prouvons d'abord l'inégalité au sens large :\r\n$$\\|tx+(1-t)y\\|\\leq t\\|x\\|+(1-t)\\|y\\|\\leq t+(1-t)=1.$$\r\nPour que l'on ait égalité, il faut que les deux inégalités soient des égalités, ce qui entraîne :il existe $\\lambda\\in\\mtr^+$ tel que $tx=\\lambda(1-t)y$ (cas d'égalité dans l'inégalité triangulaire pour une norme issue d'un produit scalaire);$\\|x\\|=\\|y\\|=1$.Ces deux conditions ensemble entrainent alors que $x=y$, ce qui est impossible par hypothèse.",
+    "lang": "french"
+}

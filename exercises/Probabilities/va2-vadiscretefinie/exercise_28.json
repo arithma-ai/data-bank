@@ -1,0 +1,6 @@
+{
+    "script": "Soit $X$ une variable aléatoire prenant ses valeurs dans $\\{0,1,\\dots,N\\}$. Démontrer que \r\n$$E(X)=\\sum_{n=0}^{N-1}P(X>n).$$",
+    "hint": "Écrire $P(X=n)=P(X>n-1)-P(X>n)$.",
+    "solution": "La clé est d'écrire $P(X=n)=P(X>n-1)-P(X>n)$. D'après la définition de l'espérance, on a \r\n$$E(X)=\\sum_{n=1}^N nP(X>n-1)-\\sum_{n=1}^N nP(X>n).$$\r\nOn effectue un décalage d'indice dans la première somme :\r\n$$E(X)=\\sum_{n=0}^{N-1}(n+1)P(X>n)-\\sum_{n=1}^N nP(X>n).$$\r\nDans la deuxième somme, le terme d'indice $N$ est nul, et on peut aussi ajouter un terme d'indice 0 qui sera nul lui aussi. Il vient donc\r\n$$E(X)=\\sum_{n=0}^{N-1}\\big( (n+1)-n\\big) P(X>n)=\\sum_{n=0}^{N-1}P(X>n).$$",
+    "lang": "french"
+}

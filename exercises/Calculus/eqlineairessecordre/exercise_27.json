@@ -1,0 +1,6 @@
+{
+    "script": "Résoudre l'équation $x^2y''+xy'=0$ sur l'intervalle $]0,+\\infty[$. Voici la réponse d'un étudiant. Qu'en pensez-vous?L'équation caractéristique est $x^2r^2+xr=0$ dont les solutions sont $r=0$ et $r=-1/x$. \r\nLes solutions de l'équation sont $y(x)=A+B\\exp(-1/x)$.",
+    "hint": "",
+    "solution": "On ne résout une équation différentielle linéaire du second ordre en introduisant l'équation caractéristique que si celle-ci est à coefficients constants. D'ailleurs, on vérifie facilement que $x\\mapsto \\exp(-1/x)$ n'est pas solution.",
+    "lang": "french"
+}

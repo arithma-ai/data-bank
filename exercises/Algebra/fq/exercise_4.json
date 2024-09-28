@@ -1,0 +1,6 @@
+{
+    "script": "Discuter, suivant la valeur du nombre réel $a$, le rang et la signature de la forme quadratique\r\n$q_a$ définie par :\r\n$$q_a(x)=x_1^2+(1+a)x_2^2+(1+a+a^2)x_3^2+2x_1x_2-2ax_2x_3.$$",
+    "hint": "Appliquer la méthode de Gauss pour décomposer $q_a$ en sommes de carrés de formes linéaires.",
+    "solution": "On applique la méthode de Gauss pour décomposer $q_a$ en sommes de carrés de formes linéaires.\r\nOn a :\r\n\\begin{eqnarray*}\r\nq_a(x)&=&(x_1+x_2)^2+ax_2^2+(1+a+a^2)x_3^2-2ax_2x_3\\\\\r\n&=&(x_1+x_2)^2+a(x_2-x_3)^2+(1+a^2)x_3^2.\r\n\\end{eqnarray*}\r\nOn obtient alors :Si $a<0$, le rang est 3 et la signature est (2,1).Si $a=0$, le rang est 2 et la signature est (2,0).Si $a>0$, le rang est 3 et la signature est (3,0).",
+    "lang": "french"
+}

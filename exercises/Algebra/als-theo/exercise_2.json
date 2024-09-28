@@ -1,0 +1,6 @@
+{
+    "script": "Soient $E_1,\\dots,E_n$ des sous-espaces vectoriels de $E$. On suppose que $E_1\\oplus\\dots\\oplus E_n=E$. \r\nOn note $p_i$ le projecteur sur $E_i$ parallèlement à $\\oplus_{j\\neq i}E_j$. Montrer que \r\n$p_i\\circ p_j=0$ si $i\\neq j$ et que $p_1+\\dots+p_n=Id_E$.",
+    "hint": "Prouver d'abord que $p_1(x)+\\dots+p_n(x)=x$ pour tout $x\\in E_i$.",
+    "solution": "Soit $i\\neq j.$ Il est clair que $\\imv(p_j)=E_j\\subset \\ker(p_i)$ ce qui prouve que $p_i\\circ p_j=0$. D'autre part, si $x\\in E_i$, on a \r\n$$p_1(x)+\\dots+p_i(x)+\\dots+p_n(x)=0+\\dots+x+\\dots+0=x.$$ On a $p_1+\\dots+p_n=Id_E$ sur chaque $E_i$, donc sur tout l'espace\r\npar \"recollement\". En effet, tout $x\\in E$ s'écrit $x=x_1+\\dots+x_n$ avec $x_i\\in E_i$.",
+    "lang": "french"
+}

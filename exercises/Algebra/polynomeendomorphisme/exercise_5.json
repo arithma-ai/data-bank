@@ -1,0 +1,6 @@
+{
+    "script": "Soit $J\\in\\mathcal M_n(\\mathbb R)$ la matrice ne comportant que des $1$. Déterminer un polynôme annulateur pour $J$. En déduire la valeur de $J^k$ pour $k\\geq 2$.",
+    "hint": "Calculer $J^2$.",
+    "solution": "On vérifie facilement que $J^2=nJ$ et donc que $P(X)=X^2-nX$ est un polynôme annulateur pour $J$. Effectuons ensuite la division euclidienne de $X^k$ par $P$. Puisque $P$ est de degré 2, il existe $Q\\in\\mathbb R[X]$ et $a,b\\in\\mathbb R$ tels que \r\n$$X^k=P(X)Q(X)+aX+b.$$\r\nOn évalue cette égalité en les racines de $P$, à savoir $0$ et $n$. L'évaluation en $0$ donne $b=0$ et l'évalution en $n$ donne $a=n^{k-1}$. On a donc $X^k=P(X)Q(X)+n^{k-1}X$. On en déduit que $J^k=n^{k-1}J$, relation que l'on aurait tout aussi bien pu prouver assez simplement par récurrence!",
+    "lang": "french"
+}

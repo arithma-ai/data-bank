@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[0,1]\\to\\mathbb R$ de classe $C^2$ vérifiant $f(0)=f'(0)=f'(1)=0$ et $f(1)=1$. \r\nMontrer qu'il existe $c\\in[0,1]$ tel que $|f''(c)|\\geq 4.$",
+    "hint": "Appliquer l'inégalité de Taylor-Lagrange entre 0 et 1/2 ou entre 1/2 et 1.",
+    "solution": "Il faut appliquer l'inégalité de Taylor-Lagrange. Si on cherche à l'appliquer entre 0 et 1, on n'exploitera pas\r\nles deux informations $f'(0)=0$ et $f'(1)=0$. L'idée est de l'appliquer au choix entre 0 et 1/2 ou entre 1/2 et 1,\r\nsuivant la position de $f(1/2)-f'(1/2)/2$ par rapport à 1/2. Précisément,Si $f(1/2)\\leq 1/2$,  alors appliquons l'inégalité de Taylor-Lagrange à $f$ entre 1/2 et 1. Alors on a\r\n$$|f(1/2)-f(1)+f'(1)/2|\\leq\\frac{\\sup_{[1/2,1]}|f''|}{2}\\times\\frac1{2^2}.$$\r\nMais $|f(1/2)-f(1)+f'(1)/2|=f(1)-f(1/2)\\geq 1/2$, et donc on obtient $\\sup_{[1/2,1]}|f''|\\geq 4$. Par continuité\r\nde $f''$ sur le segment $[1/2,1]$, il existe $c\\in[1/2,1]$ tel que $|f''(c)|\\geq 4$.Si $f(1/2)\\geq 1/2$, on applique cette fois l'inégalité de Taylor-Lagrange entre 0 et 1/2. On trouve que\r\n$$|f(1/2)-f(0)-f'(0)/2|\\leq\\frac{\\sup_{[0,1/2]}|f''|}{2}\\times\\frac1{2^2}.$$\r\nMais $|f(1/2)-f(0)-f'(0)/2|=f(1/2)\\geq 1/2$, et on conclut comme ci-dessus.",
+    "lang": "french"
+}

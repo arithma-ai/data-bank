@@ -1,0 +1,6 @@
+{
+    "script": "On définit sur $\\mtr^2$ l'application suivante :\r\n$$f(x,y)=\\left\\{\r\n\\begin{array}{cc}\r\n\\dis\\frac{xy}{x^2+y^2}&\\textrm{ si }(x,y)\\neq (0,0)\\\\\r\n\\dis0&\\textrm{ si }(x,y)=(0,0).\r\n\\end{array}\\right.$$$f$ est-elle continue en $(0,0)$?$f$ admet-elle des dérivées partielles en $(0,0)$?$f$ est-elle différentiable en $(0,0)$?",
+    "hint": "$f(x,x)=...$;Calculer le taux d'accroissement.Utiliser une question précédente.",
+    "solution": "Remarquons que $f(x,x)=1/2$, qui ne tend pas vers 0 si $x$ tend vers 0 : $f$ n'est pas continue en 0.Puisque $f(x,0)=0$, $\\frac{\\partial f}{\\partial x}(0,0)$ existe et vaut 0. De même, $\\frac{\\partial f}{\\partial y}(0,0)$\r\nexiste, et vaut 0.$f$ ne peut pas être différentiable puisqu'elle n'est pas continue!",
+    "lang": "french"
+}

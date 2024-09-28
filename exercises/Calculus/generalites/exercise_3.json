@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:\\mathbb R\\to\\mathbb R$ une fonction paire. On suppose que la restriction de $f$ à $\\mathbb R_-$ est croissante. Que dire de la monotonie de la restriction de $f$ à $\\mathbb R_+$.",
+    "hint": "Faire un dessin!",
+    "solution": "Un dessin convainc facilement que la restriction de $f$ à $\\mathbb R_+$ doit être décroissante. Il faut maintenant trouver la preuve de cela. On va revenir aux définitions. On considère $0\\leq x\\leq y$, et on remarque que l'on a alors $0\\geq -x\\geq -y$. Puisque $f$ est croissante sur $\\mathbb R_-$, alors\r\n$$f(-x)\\geq f(-y).$$\r\nPuisque $f$ est paire, on a donc\r\n$$f(x)=f(-x)\\geq f(y)=f(-y).$$\r\nCeci nous dit exactement que $f$ est décroissante sur $\\mathbb R_+$.",
+    "lang": "french"
+}

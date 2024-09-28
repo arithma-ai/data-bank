@@ -1,0 +1,6 @@
+{
+    "script": "Soit $f:[a,b]\\to\\mathbb R$ continue telle que, pour tout couple $(\\alpha,\\beta)\\in[a,b]^2$, on a\r\n$\\int_\\alpha^\\beta f(x)dx=0$. Montrer que $f= 0$.",
+    "hint": "Dériver la fonction $F(x)=\\int_a^x f(t)dt$.",
+    "solution": "Posons $F(x)=\\int_a^x f(t)dt$. Alors $F$ est identiquement nulle. De plus, d'après le théorème fondamental du calcul intégral,\r\n$F$ est dérivable, et sa dérivée est $f$. On a donc $F'(x)=f(x)=0$, puisque $F\\equiv 0$, ce qu'il fallait démontrer. On peut aussi procéder \r\nsans ce théorème en utilisant un raisonnement par l'absurde. Supposons en effet que $f$ n'est pas identiquement nulle. On peut trouver un $c$\r\ndans $[a,b]$ tel que $f(c)\\neq 0$. Pour fixer les idées, on peut supposer $f(c)>0$. Mais alors, par continuité de $f$, on peut trouver un\r\nintervalle $[\\alpha,\\beta]$ autour de $c$, avec $\\alpha<\\beta$, tel que $f(x)\\geq f(c)/2$ pour tout $x\\in[\\alpha,\\beta]$. On obtient\r\n$$\\int_\\alpha^\\beta f(x)dx\\geq (\\beta-\\alpha)\\frac{f(c)}{2}>0$$\r\nce qui contredit l'hypothèse initiale.",
+    "lang": "french"
+}
